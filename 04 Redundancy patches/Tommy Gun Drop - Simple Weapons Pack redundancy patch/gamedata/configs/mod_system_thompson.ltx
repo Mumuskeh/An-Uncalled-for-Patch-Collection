@@ -1,0 +1,334 @@
+[wpn_m1928]:identity_immunities,weapon_probability,default_weapon_params
+    GroupControlSection     = spawn_group
+    $npc                    = on
+    $prefetch               = 8
+    $spawn                  = "weapons\m1928" 
+    scheduled               = off
+    cform                   = skeleton
+    icons_texture 			= ui\ui_icon_m1928
+
+    class                   = WP_LR300
+    slot                    = 2             
+    animation_slot          = 2 
+    ef_main_weapon_type     = 2
+    ef_weapon_type          = 8
+    hand_dependence         = 1
+    single_handed           = 0
+
+    default_to_ruck         = false
+    sprint_allowed          = true
+
+    inv_grid_height         = 2
+    inv_grid_width          = 5
+    inv_grid_x              = 0
+    inv_grid_y              = 0
+inv_name                = st_wpn_m1928
+inv_name_short          = st_wpn_m1928
+description         	= st_wpn_m1928_descr
+
+    kind                    = w_smg
+inv_weight        = 5.09
+cost              	 = 32140        
+    repair_type             = pistol     
+    weapon_class            = assault_rifle      
+
+hud				= wpn_m1928_hud
+visual             = dynamics\weapons\wpn_tommy_gun\wpn_tommy_gun_grip
+
+    position                = -0.024, -0.116, 0
+    orientation             = 0, 0, 0
+    fire_point              = 0.0, 0.133, 0.686
+    fire_point2             = 0.0, 0.103, 0.686
+    strap_bone0				= bip01_spine2
+    strap_bone1				= bip01_spine1
+    strap_position         	= -0.26,-0.10,0.05			
+    strap_orientation      	= -15,-9,110
+	ph_mass                 = 4	
+
+    flame_particles         = weapons\generic_weapon05
+    smoke_particles         = weapons\generic_shoot_00
+    grenade_flame_particles = weapons\generic_weapon01
+
+        shell_point             = 0.0, 0.138, 0.07  
+        shell_particles	 		= weapons\45acp
+
+    light_disabled          = false
+    light_color             = 0.6,0.5,0.3
+    light_range             = 5
+    light_time              = 0.2
+    light_var_color         = 0.05
+    light_var_range         = 0.5
+    
+    upgrades                = up_gr_firstab_ump45, up_gr_seconab_ump45, up_gr_thirdab_ump45, up_gr_fourtab_ump45, up_gr_fifthab_ump45, up_gr_fifthcd_ump45
+    installed_upgrades      =
+    upgrade_scheme          = upgrade_scheme_mp5
+    upgr_icon_x             = 900
+    upgr_icon_y             = 800
+    upgr_icon_width         = 250
+    upgr_icon_height        = 100
+
+    fire_modes              = 1, -1
+    ammo_class		 	    = ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
+    ammo_elapsed		    = 50
+    ammo_mag_size           = 50
+    startup_ammo            = 90   
+
+    scope_status            = 0  
+    scope_zoom_factor       = 0
+
+    silencer_name           = wpn_sil_45
+    silencer_status         = 0 
+    silencer_x              = 224          
+    silencer_y              = 13
+    silencer_light_color    = 0.6,0.5,0.3
+    silencer_light_range    = 0.01
+    silencer_light_time     = 0.2
+    silencer_light_var_color    = 0.05
+    silencer_light_var_range    = 0.5
+    silencer_smoke_particles   = weapons\generic_shoot_00
+
+    grenade_class           = ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+    grenade_launcher_name   = wpn_addon_grenade_launcher
+    grenade_launcher_status = 0          
+    grenade_launcher_x      = 116
+    grenade_launcher_y      = 18
+    launch_speed            = 0
+
+    hit_impulse             = 40
+    hit_power               = 0.56, 0.56, 0.56, 0.56
+    hit_type                = fire_wound      
+    fire_distance           = 450        
+    bullet_speed            = 280       
+rpm                     = 800 
+    rpm_empty_click         = 120
+
+    use_aim_bullet          = false   
+    time_to_aim             = 0.0 ; 3.0
+    zoom_dof                = 0.5, 1.0, 180
+    zoom_enabled            = true             
+    zoom_rotate_time        = 0.25
+    reload_dof              = 0.0, 0.5, 5, 2
+    control_inertion_factor    	= 1.8f
+    crosshair_inertion	    = 7.7
+    fire_dispersion_base    = 0.61   
+    fire_dispersion_condition_factor = 0.001 
+
+    misfire_probability     = 0.005
+    misfire_start_condition = 0.85 ; 0.95
+    misfire_start_prob      = 0.00275
+    misfire_end_condition   = 0.175
+    misfire_end_prob        = 0.036
+
+    condition_queue_shot_dec	= 0.0009
+    condition_shot_dec      	= 0.0008
+
+;    cam_return				= 0
+;   cam_relax_speed         = 13
+;    cam_dispersion          = 0.45
+;    cam_dispersion_frac     = 0.87		
+;    cam_dispersion_inc      = 0.2		
+;    cam_max_angle           = 40.0	
+;    cam_max_angle_horz      = 40.0	
+;    cam_step_angle_horz     = 1.0
+;    zoom_cam_relax_speed    = 13
+;    zoom_cam_dispersion     = 0.575
+;    zoom_cam_dispersion_frac    = 0.56
+;    zoom_cam_dispersion_inc     = 0.4
+;    zoom_cam_max_angle          = 50.0
+;    zoom_cam_max_angle_horz     = 50.0
+;    zoom_cam_step_angle_horz    = 1.4
+
+cam_return            = 0 
+cam_relax_speed      = 13		
+cam_relax_speed_ai   = 360
+cam_dispersion       = 0.385	
+cam_dispersion_inc   = 0.2		
+cam_dispersion_frac  = 0.87		
+cam_max_angle        = 40.0		
+cam_max_angle_horz   = 40.0		
+cam_step_angle_horz  = 1.0	
+
+zoom_cam_relax_speed        = 13  
+zoom_cam_relax_speed_ai     = 360
+zoom_cam_dispersion         = 0.56
+zoom_cam_dispersion_inc     = 0.35
+zoom_cam_dispersion_frac    = 0.56
+zoom_cam_max_angle          = 50.0
+zoom_cam_max_angle_horz     = 50.0
+zoom_cam_step_angle_horz    = 1.35
+
+    PDM_disp_accel_factor 		= 1.855
+    PDM_disp_base 				= 0.65
+    PDM_disp_crouch             = 1.0   
+    PDM_disp_crouch_no_acc      = 1.0   
+    PDM_disp_vel_factor 		= 1.855
+
+    cam_relax_speed_ai          = 360    
+    zoom_cam_relax_speed_ai     = 360
+    holder_fov_modifier         = 1.0
+    holder_range_modifier       = 1.0                    
+    min_radius                  = 0 
+    max_radius                  = 500
+    hit_probability_gd_novice   = 1.00     
+    hit_probability_gd_stalker  = 1.00   
+    hit_probability_gd_veteran  = 1.00   
+    hit_probability_gd_master   = 1.00    
+
+    kill_msg_x        = 0
+    kill_msg_y        = 28
+    kill_msg_width    = 84
+    kill_msg_height   = 28
+
+    snd_draw                = weapons\thompson\thompson_deploy
+
+    snd_holster             = weapons\thompson\thompson_holster
+    snd_shoot				= weapons\thompson\thompson_1
+    snd_shoot1				= weapons\thompson\thompson_4
+    snd_shoot2				= weapons\thompson\thompson_5
+    snd_shoot3				= weapons\thompson\thompson_6
+    snd_shoot4				= weapons\thompson\thompson_1
+    snd_shoot5				= weapons\thompson\thompson_4
+    snd_empty               = weapons\thompson\thompson_trigger
+
+    snd_reload              = weapons\thompson\thompson_reload_drum
+    snd_reload_empty        = weapons\thompson\thompson_reload_drum
+    snd_close             	= weapons\no_sound
+    snd_shoot_grenade       = weapons\explo\grenade_launch_explo
+    snd_reload_grenade      = weapons\gen_grenload, 1.0, 0.8
+    snd_switch              = weapons\groza_switch, 1.0, 0.5
+    snd_bore				= weapons\no_sound
+    snd_silncer_shot		= weapons\aa12\aa12_shot_sil
+
+
+[wpn_m1928_hud]
+item_visual             = dynamics\weapons\wpn_tommy_gun\wpn_tommy_gun_grip_hud.ogf
+    attach_place_idx        = 0
+    zoom_hide_crosshair     = true
+
+    item_position			= 0.0,0,0.0
+    item_orientation		= 0.0,0,0.0
+
+    hands_position			= -0.042,-0.19,0.10
+    hands_orientation		= 2,2,0
+    hands_position_16x9		= -0.042,-0.19,0.10
+    hands_orientation_16x9	= 2,2,0
+
+    aim_hud_offset_pos      = -0.080050,0.073450,-0.062000
+    aim_hud_offset_pos_16x9 = -0.080050,0.073450,-0.062000
+    aim_hud_offset_rot      = 0.033100,0.033700,0.004000
+    aim_hud_offset_rot_16x9 = 0.033100,0.033700,0.004000
+
+anm_show                = kyky_tommy_gun_draw
+anm_hide                = kyky_tommy_gun_holster
+anm_idle                = kyky_tommy_gun_idle
+anm_idle_sprint         = kyky_tommy_gun_idle_sprint
+anm_idle_moving         = kyky_tommy_gun_idle_move
+anm_shots               = kyky_tommy_gun_shoot, shoot
+anm_reload              = kyky_tommy_gun_reload, reload
+
+anm_idle_aim            = kyky_tommy_gun_idle_aim
+anm_bore                = kyky_tommy_gun_idle
+
+    shell_bone              = wpn_body
+    shell_dir               = 0.0, 1.0, 0.0
+    shell_point				= 0.028,0.078,0.113
+
+    fire_bone      	        = muzzle
+    fire_point		        = 0,0,0
+    fire_bone2		        = wpn_body
+    fire_point2		        = 0.0,-0.028,0.678
+
+    gl_hud_offset_pos				= -0.05,-0.03,-0.005
+    gl_hud_offset_rot				= -0.095,-0.004,-0.02
+
+    gl_hud_offset_pos_16x9 			= -0.05,-0.03,-0.005
+    gl_hud_offset_rot_16x9 			= -0.095,-0.004,-0.02
+
+    lowered_hud_offset_pos_16x9              = 0.35,0.05,0.1
+    lowered_hud_offset_pos                   = 0.35,0.05,0.1
+    lowered_hud_offset_rot_16x9              = 0.2,-1,0
+    lowered_hud_offset_rot                   = 0.2,-1,0
+    
+;===========================================================
+; [wpn_m1a1_tommy]:wpn_m1928
+
+    ; inv_name                = st_wpn_tommy_m1a1
+    ; inv_name_short          = st_wpn_tommy_m1a1
+    ; description         	= st_wpn_tommy_m1a1_descr
+    
+    ; icons_texture 			= ui\ui_icon_m1a1
+
+    ; cost              	    = 17980       
+    ; weapon_class            = assault_rifle     
+    ; inv_weight              = 4.78                  
+
+    ; rpm                         = 650
+
+    ; fire_dispersion_base        = 0.64
+
+    ; misfire_probability        	= 0.005
+    ; misfire_start_condition		= 0.84 ; 0.94
+    ; misfire_start_prob          = 0.00275
+    ; misfire_end_condition		= 0.15
+    ; misfire_end_prob            = 0.036
+    
+    ; condition_shot_dec      	= 0.0008
+    ; condition_queue_shot_dec	= 0.00085
+
+    ; control_inertion_factor    	= 1.73f
+    ; crosshair_inertion			= 7.55
+
+    ; inv_grid_width     = 4
+    ; inv_grid_height    = 2
+    ; inv_grid_x         = 0
+    ; inv_grid_y         = 0
+
+    ; ammo_elapsed		= 30
+    ; ammo_mag_size       = 30
+
+    ; cam_return = 0 ;		
+    ; cam_relax_speed      = 13	
+    ; cam_relax_speed_ai   = 360
+    ; cam_dispersion       = 0.475		
+    ; cam_dispersion_inc   = 0.26		
+    ; cam_dispersion_frac  = 0.87		
+    ; cam_max_angle        = 40.0		
+    ; cam_max_angle_horz   = 40.0		
+    ; cam_step_angle_horz  = 1.0		
+
+    ; zoom_cam_relax_speed        = 13    
+    ; zoom_cam_relax_speed_ai     = 360
+    ; zoom_cam_dispersion         = 0.585
+    ; zoom_cam_dispersion_inc     = 0.48
+    ; zoom_cam_dispersion_frac    = 0.56
+    ; zoom_cam_max_angle          = 50.0
+    ; zoom_cam_max_angle_horz     = 50.0
+    ; zoom_cam_step_angle_horz    = 1.57
+
+
+    ; hud						= wpn_m1a1_tommy_hud
+
+    ; visual             		= dynamics\weapons\wpn_tommy_gun\wpn_m1a1
+
+; [wpn_m1a1_tommy_hud]:wpn_m1928_hud
+
+    ; item_visual             = dynamics\weapons\wpn_tommy_gun\wpn_m1a1_hud.ogf
+
+    ; anm_show                = kyky_m1a1_draw
+    ; anm_hide                = kyky_m1a1_holster
+    ; anm_idle                = kyky_m1a1_idle, idle
+    ; anm_idle_sprint         = kyky_m1a1_idle_sprint
+    ; anm_idle_moving         = kyky_m1a1_idle_move
+    ; anm_shots               = kyky_m1a1_shoot, shoot
+    ; anm_reload              = kyky_m1a1_reload, reload
+
+    ; anm_idle_aim            = kyky_m1a1_idle_aim
+    ; anm_bore                = kyky_m1a1_idle, idle
+
+    ; ;anm_idle_aim            = kyky_m1a1_idle_aim
+    ; ;anm_bore                = kyky_m1a1_idle_aim
+
+    ; aim_hud_offset_pos = -0.080350,0.066950,-0.1
+    ; aim_hud_offset_pos_16x9 = -0.080350,0.066950,-0.1
+    ; aim_hud_offset_rot = 0.029900,0.036800,0.004000
+    ; aim_hud_offset_rot_16x9 = 0.029900,0.036800,0.004000
