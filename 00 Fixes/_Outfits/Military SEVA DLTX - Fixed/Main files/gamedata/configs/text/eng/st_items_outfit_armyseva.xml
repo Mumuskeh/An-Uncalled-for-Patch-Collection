@@ -1,0 +1,9 @@
+<string_table>
+	<string id="army_seva_outfit_name">
+		<text>Military Stalker Seva Outfit</text>
+	</string>
+	<string id="scientific_outfit_description">
+		<text>%c[ui_gray_1]This suit was produced by one of Kiev's defence research institutes and represents an excellent alternative to hand-made stalker suits. It combines a closed cycle breathing system and an integrated system of anomalous field suppression with a more than adequate ballistic vest. Due to the perfect materials, this suit is a good choice. Still, it is expensive, and those who prefer pitched battle over careful anomaly investigation are advised to look elsewhere.\n \n
+		</text>
+	</string>
+</string_table>

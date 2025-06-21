@@ -1,0 +1,281 @@
+;--------------------------------------------------------------------------------------------AXE---------------------
+![wpn_axe]:!wpn_axe_sounds
+visual                                     = dynamics\weapons\heavy_melee\wpn_axe.ogf
+hud_fov                                    = 0.5
+icons_texture                              = ui\heavy_melee_icons
+description                                = st_axe2_descr
+inv_grid_width			                   = 4
+inv_grid_height			                   = 2
+inv_grid_x			                       = 4
+inv_grid_y			                       = 0
+position                                   = 0.07, 0.05, 0
+orientation                                = 0, 90, -90
+
+hit_power                                  = 3.4
+hit_power_2                                = 3.1
+hit_impulse                                = 13.5
+hit_impulse_2                              = 1.5
+
+snd_draw				                                          = weapons\new_axe\heavy_draw
+snd_holster				                                          = weapons\new_axe\heavy_holster
+snd_shoot				                                          = $no_sound
+snd_shoot1				                                          = $no_sound
+snd_shoot2				                                          = $no_sound
+
+;Sounds Handled In Scripts
+scripted_snd_attack                                               = weapons\new_axe\axe_swing, true
+scripted_snd_attack_variant1                                      = weapons\new_axe\axe_swing_var1, true
+scripted_snd_attack_variant2                                      = weapons\new_axe\axe_swing_var2, true
+scripted_snd_attack2                                              = weapons\new_axe\heavy_overhead_swing, true
+
+![wpn_axe_hud]
+
+item_visual                 = anomaly_weapons\wpn_axe\wpn_axe_hud
+
+item_position               = 0, 0, 0
+item_orientation            = 0, 0, 0
+
+hands_orientation                = -0.5, 1, 10
+hands_orientation_16x9           = -0.5, 1, 10
+hands_position                   = -0.001529, -0.168825, 0.198185
+hands_position_16x9              = -0.001529, -0.168825, 0.198185
+
+lowered_hud_offset_pos           = 0.150546, -0.440668, 0.134398
+lowered_hud_offset_pos_16x9      = 0.150546, -0.440668, 0.134398
+lowered_hud_offset_rot           = -0.603039, -1.149442, -0.738433
+lowered_hud_offset_rot_16x9      = -0.603039, -1.149442, -0.738433
+
+anm_attack                  = barry_axe_light_hands
+anm_attack2                 = barry_axe_heavy_hands
+anm_hide                    = barry_axe_holster_hands
+anm_idle                    = barry_axe_idle_hands
+anm_idle_aim                = barry_axe_idle_hands
+anm_idle_moving             = barry_axe_walk_hands
+anm_idle_sprint             = barry_axe_sprint_hands
+anm_show                    = barry_axe_draw_hands
+anm_show_empty              = barry_axe_draw_hands
+anm_bore                    = barry_axe_inspect_hands
+
+; Custom Animation Types Handled In Scripts
+anm_attack_variant1         = barry_axe_light_hands_alt1
+anm_attack_variant2         = barry_axe_light_hands_alt2
+anm_1h_show                 = barry_axe_1h_draw_hands
+
+; Transition/Intermediate Animations
+anm_walk2sprint             = barry_axe_transition_hands
+anm_sprint2walk             = barry_axe_transition_hands_alt
+
+; Transition Definitions
+ts_pattern_walk2sprint      = .+, anm_idle_sprint, anm_walk2sprint, 1
+ts_pattern_sprint2walk      = anm_idle_sprint, ^anm_idle.*, anm_sprint2walk, 1
+
+;------------------------------------------------------------------------------------------SHARP-SHOVEL-----------------------
+![wpn_axe2]:!wpn_axe_sounds
+visual				                            = dynamics\weapons\heavy_melee\sharp_shovel.ogf
+description			                            = st_shovel_sharp_descr
+inv_name			                            = st_shovel_sharp
+inv_name_short			                        = st_shovel_sharp
+icons_texture                                   = ui\heavy_melee_icons
+inv_grid_width			                        = 4
+inv_grid_height			                        = 2
+inv_grid_x			                            = 0
+inv_grid_y			                            = 4
+cost				                            = 260
+inv_weight			                            = 1.54
+position                                        = -0.01, 0.6, 0.024
+orientation                                     = 0, 180, 0
+hit_power                                  = 3.4
+hit_power_2                                = 3.1
+condition_queue_shot_dec                        = 15
+condition_shot_dec                              = 15
+repair_type                                     = none
+hud                                             = wpn_axe2_hud
+
+snd_draw				                        = weapons\new_axe\heavy_draw
+snd_holster				                        = weapons\new_axe\heavy_holster
+snd_shoot				                        = $no_sound
+snd_shoot1				                        = $no_sound
+snd_shoot2				                        = $no_sound
+
+;Sounds Handled In Scripts
+scripted_snd_attack                             = weapons\new_axe\axe_swing, true
+scripted_snd_attack_variant1                    = weapons\new_axe\axe_swing_var1, true
+scripted_snd_attack_variant2                    = weapons\new_axe\axe_swing_var2, true
+scripted_snd_attack2                            = weapons\new_axe\heavy_overhead_swing, true
+
+![wpn_axe2_hud]
+item_visual                 = anomaly_weapons\wpn_shovel\wpn_shovel_sharp_hud
+
+item_position               = 0, 0, 0
+item_orientation            = 0, 0, 0
+
+hands_orientation                = -0.5, 1, 10
+hands_orientation_16x9           = -0.5, 1, 10
+hands_position                   = -0.001529, -0.168825, 0.198185
+hands_position_16x9              = -0.001529, -0.168825, 0.198185
+
+lowered_hud_offset_pos           = 0.019067, -0.358889, 0.069541
+lowered_hud_offset_pos_16x9      = 0.019067, -0.358889, 0.069541
+lowered_hud_offset_rot           = -0.892271, -0.538412, -0.263826
+lowered_hud_offset_rot_16x9      = -0.892271, -0.538412, -0.263826
+
+anm_attack                  = barry_shovel_light_hands
+anm_attack2                 = barry_shovel_heavy_hands
+anm_hide                    = barry_shovel_holster_hands
+anm_idle                    = barry_shovel_idle_hands
+anm_idle_aim                = barry_shovel_idle_hands
+anm_idle_moving             = barry_shovel_walk_hands
+anm_idle_sprint             = barry_shovel_sprint_hands
+anm_show                    = barry_shovel_draw_hands
+anm_show_empty              = barry_shovel_draw_hands
+anm_bore                    = barry_shovel_inspect_hands
+
+; Custom Animation Types Handled In Scripts
+anm_attack_variant1         = barry_shovel_light_hands_alt1
+anm_attack_variant2         = barry_shovel_light_hands_alt2
+anm_1h_show                 = barry_shovel_draw_1h_hands
+
+; Transition/Intermediate Animations
+anm_walk2sprint             = none
+anm_sprint2walk             = none
+
+; Transition Definitions
+ts_pattern_walk2sprint      = none
+ts_pattern_sprint2walk      = none
+        
+shell_bone                  = wpn_body
+shell_point                 = 0, 0, 0
+
+fire_bone                   = knife
+fire_point                  = 0.004500, 0.062500, -0.178499
+freelook_z_offset_mul	    = 0.9
+
+;-------------------------------------------------------------------------------------SLEDGE-HAMMER----------------------------
+![wpn_axe3]:!wpn_axe_sounds
+visual                      = dynamics\weapons\heavy_melee\wpn_sledge.ogf
+hud_fov                     = 0.5
+description			        = st_sledge_hammer_descr
+inv_name			        = st_sledge_hammer
+inv_name_short			    = st_sledge_hammer
+icons_texture               = ui\heavy_melee_icons
+inv_grid_width			    = 4
+inv_grid_height			    = 2
+inv_grid_x			        = 4
+inv_grid_y			        = 2
+
+hit_power					= 6.4
+hit_power_2					= 4.8
+hit_impulse                 = 25.5
+hit_impulse_2               = 1.5
+
+position                    = -0.05, 0.1, 0.05
+orientation                 = 0, 90, 0
+
+snd_draw				                                          = weapons\new_axe\heavy_draw
+snd_holster				                                          = weapons\new_axe\heavy_holster
+snd_shoot				                                          = $no_sound
+snd_shoot1				                                          = $no_sound
+snd_shoot2				                                          = $no_sound
+;Sounds Handled In Scripts
+scripted_snd_attack                                               = weapons\new_axe\axe_swing, true
+scripted_snd_attack_variant1                                      = weapons\new_axe\axe_swing_var1, true
+scripted_snd_attack_variant2                                      = weapons\new_axe\axe_swing_var2, true
+scripted_snd_attack2                                              = weapons\new_axe\heavy_overhead_swing_sledge, true
+
+![wpn_axe3_hud]
+
+item_visual                 = anomaly_weapons\wpn_sledge_hammer\wpn_sledge_hud
+
+item_position               = 0, 0, 0
+item_orientation            = 0, 0, 0
+
+hands_orientation           = 6.3614, -4.82933, 9.645867
+hands_orientation_16x9      = 6.3614, -4.82933, 9.645867
+hands_position              = 0.001152, -0.127219, 0.102892
+hands_position_16x9         = 0.001152, -0.127219, 0.102892
+
+lowered_hud_offset_pos           = 0.155134, -0.378376, 0.095714
+lowered_hud_offset_pos_16x9      = 0.155134, -0.378376, 0.095714
+lowered_hud_offset_rot           = -0.603039, -1.149442, -0.738433
+lowered_hud_offset_rot_16x9      = -0.603039, -1.149442, -0.738433
+
+anm_attack                  = barry_axe_light_hands
+anm_attack2                 = barry_axe_heavy_hands
+anm_hide                    = barry_axe_holster_hands
+anm_idle                    = barry_axe_idle_hands
+anm_idle_aim                = barry_axe_idle_hands
+anm_idle_moving             = barry_axe_walk_hands
+anm_idle_sprint             = barry_axe_sprint_hands
+anm_show                    = barry_axe_draw_hands
+anm_show_empty              = barry_axe_draw_hands
+anm_bore                    = barry_sledge_inspect_hands
+
+; Custom Animation Types Handled In Scripts
+anm_attack_variant1         = barry_axe_light_hands_alt1
+anm_attack_variant2         = barry_axe_light_hands
+anm_1h_show                 = barry_axe_1h_draw_hands
+
+; Transition/Intermediate Animations
+anm_walk2sprint             = barry_axe_transition_hands
+anm_sprint2walk             = barry_axe_transition_hands_alt
+
+; Transition Definitions
+ts_pattern_walk2sprint      = .+, anm_idle_sprint, anm_walk2sprint, 1
+ts_pattern_sprint2walk      = anm_idle_sprint, ^anm_idle.*, anm_sprint2walk, 1
+
+;-----------------------------------------------------------------------------------OLD-SHOVEL---------------------------
+![shovel_old]
+icons_texture                       = ui\heavy_melee_icons
+inv_grid_width			            = 4
+inv_grid_height			            = 2
+inv_grid_x			                = 0
+inv_grid_y			                = 2
+
+
+;-----------------------------------------------------------------------------------MILI-SHOVEL--------------------------
+![shovel_mili]
+visual				                = dynamics\equipments\trade\mili_shovel.ogf
+icons_texture                       = ui\heavy_melee_icons
+inv_grid_width			            = 4
+inv_grid_height			            = 2
+inv_grid_x			                = 0
+inv_grid_y			                = 0
+
+
+;---------------------------------------------------------------------------------MMF-OLD-SHOVEL---------------------------
+[mmf_shovel_old]:wpn_axe2
+visual				                = dynamics\equipments\trade\shovel.ogf
+description			                = st_shovel_old_descr
+inv_name			                = st_shovel_old
+inv_name_short			            = st_shovel_old
+icons_texture                       = ui\heavy_melee_icons
+inv_grid_width			            = 4
+inv_grid_height			            = 2
+inv_grid_x			                = 0
+inv_grid_y			                = 2
+hit_power                           = 1.6
+hit_power_2                         = 0.525, 0.525, 0.525, 0.525
+hit_power_critical_2                = 0.75, 0.75, 0.75, 0.75
+hud                                 = mmf_shovel_old_hud
+
+[mmf_shovel_old_hud]:wpn_axe2_hud
+item_visual                         = anomaly_weapons\wpn_shovel\wpn_shovel_hud
+
+;---------------------------------------------------------------------------------MMF-MILI-SHOVEL--------------------------
+[mmf_shovel_mili]:wpn_axe2
+visual				                = dynamics\equipments\trade\mili_shovel.ogf
+description			                = st_shovel_mili_descr
+inv_name			                = st_shovel_mili
+inv_name_short			            = st_shovel_mili
+icons_texture                       = ui\heavy_melee_icons
+inv_grid_width			            = 4
+inv_grid_height			            = 2
+inv_grid_x			                = 0
+inv_grid_y			                = 0
+hit_power                           = 1.6
+hit_power_2                         = 0.525, 0.525, 0.525, 0.525
+hit_power_critical_2                = 0.75, 0.75, 0.75, 0.75
+hud                                 = mmf_shovel_mili_hud
+
+[mmf_shovel_mili_hud]:wpn_axe2_hud
+item_visual                         = anomaly_weapons\wpn_shovel\wpn_shovel_mili_hud
