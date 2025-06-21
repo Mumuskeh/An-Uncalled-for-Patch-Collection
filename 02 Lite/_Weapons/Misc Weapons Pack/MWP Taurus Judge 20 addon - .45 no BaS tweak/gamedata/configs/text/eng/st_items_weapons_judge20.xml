@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+
+    <string id="st_wpn_judge20">
+		<text>Taurus Raging Judge 45.</text>
+	</string>
+	<string id="st_wpn_judge20_descr">
+		<text>The Taurus Judge is a five shot revolver designed and produced by Taurus International, originally chambered for .410 bore shot shells and the .45 Colt cartridge. This model was apparently found by anomalous manners, because somehow it looks like it's chambered in 20 gauge buckshot, but still uses .45 ammunition anyway.\n</text>
+	</string>
+
+</string_table>
