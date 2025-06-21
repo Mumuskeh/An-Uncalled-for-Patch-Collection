@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+
+	<string id="st_mag_rpk_drum_7.62x39">
+		<text>75-round 7.62x39 RPK Drum Magazine</text>
+	</string>
+	<string id="st_mag_rpk_drum_7.62x39_descr">
+		<text>
+		75-round 7.62x39 RPK drum magazine. Heavy and impractical, but very fun.
+		</text>
+	</string>
+
+    <string id="st_mag_rpk_drum_5.45x39">
+		<text>75-round 5.45x39 RPK Drum Magazine</text>
+	</string>
+	<string id="st_mag_rpk_drum_5.45x39_descr">
+		<text>
+		Modified 75-round RPK drum magazine to accept 5.45x39. Heavy and impractical, but very fun.
+		</text>
+	</string>
+
+	<string id="st_mag_vepr_drum_12x70">
+		<text>20 round 12x70 Vepr-12 Drum Magazine</text>
+	</string>
+	<string id="st_mag_vepr_drum_12x70_descr">
+		<text>
+			20-shell magazine for the Vepr-12. Despite their similarities, the Vepr cannot share magazines with the Saiga.
+		</text>
+	</string>
+
+	<string id="st_mag_cbj_5.7x28_ss190">
+		<text>100 round 5.7x28 CBJ PDW Magazine</text>
+	</string>
+	<string id="st_mag_cbj_5.7x28_ss190_descr">
+		<text>
+			Modified 100-round 5.7x28 helical magazine used in the CBJ PDW. Provides a huge volume of fire at the cost of being somewhat awkward to handle.
+		</text>
+	</string>
+
+	<string id="st_mag_cbj_9x19_fmj">
+		<text>100 round 9x19 CBJ PDW Magazine</text>
+	</string>
+	<string id="st_mag_cbj_9x19_fmj_descr">
+		<text>
+			100-round 9x19 helical magazine used in the CBJ PDW. Provides a huge volume of fire at the cost of being somewhat awkward to handle.
+		</text>
+	</string>
+
+	<string id="st_mag_spectre_9x19_casket">
+		<text>50-round 9x19 Spectre M4 Magazine</text>
+	</string>
+	<string id="st_mag_spectre_9x19_casket_descr">
+		<text>
+			50-round quad-stack magazine for the Spectre M4. Offers a lot of firepower, but is extremely heavy and the quad-stack nature makes it difficult to load in rounds quickly.
+		</text>
+	</string>
+
+	<string id="st_mag_nato_5.56x45_cmag">
+		<text>100-round 5.56x45 Beta C-Mag</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_cmag_descr">
+		<text>
+			100-round dual drum magazine compatible with NATO rifles. Offers a lot of firepower, but is extremely heavy and time consuming to load.
+		</text>
+	</string>
+    
+    <string id="st_mag_mac10_11.43x23_fmj">
+		<text>Standard .45 ACP MAC 10 Magazine</text>
+	</string>
+	<string id="st_mag_mac10_11.43x23_fmj_descr">
+		<text>
+            Standard magazine for the MAC 10 smg. Holds 30 rounds of .45 ACP ammunition. They run out quick with this gun's high rate of fire.
+		</text>
+	</string>
+
+	<string id="st_mag_mac11_9x19_fmj">
+		<text>Standard 9x19 MAC 11 Magazine</text>
+	</string>
+	<string id="st_mag_mac11_9x19_fmj_descr">
+		<text>
+            32-round magazine for the compact MAC 11. With this gun's high rate of fire, expect to run out within a few short seconds.
+		</text>
+	</string>
+
+	<string id="st_mag_mp9_5.7x28_ss190">
+		<text>Modified 5.7x28 MP9 Magazine</text>
+	</string>
+	<string id="st_mag_mp9_5.7x28_ss190_descr">
+		<text>
+			Modified 30-round magazine used in the MP9. Has been converted to fire 5.7x28.
+		</text>
+	</string>
+
+	<string id="st_mag_mp9_9x19_fmj">
+		<text>Standard 9x19 MP9 Magazine</text>
+	</string>
+	<string id="st_mag_mp9_9x19_fmj_descr">
+		<text>
+			Standard 9x19 30-round magazine used in the MP9. They are a lot more fun to dump, than to load.
+		</text>
+	</string>
+
+	<string id="st_mag_raffica_9x19_fmj">
+		<text>Standard 9x19 Beretta 93R Magazine</text>
+	</string>
+	<string id="st_mag_raffica_9x19_fmj_descr">
+		<text>
+		Standard-issue Beretta 93R Magazine that holds 20 rounds. Can be used by the 92F as well.
+		</text>
+	</string>
+
+	<string id="st_mag_raffica_9x18_fmj">
+		<text>Modified 9x18 Beretta 93R Magazine</text>
+	</string>
+	<string id="st_mag_raffica_9x18_fmj_descr">
+		<text>
+		Beretta 93R Magazine modified to fit the more common 9x18 Makarov cartridge.
+		</text>
+	</string>
+
+	<string id="st_mag_vbr_5.7x28_ss190">
+		<text>Modified 5.7x28 VBR Magazine</text>
+	</string>
+	<string id="st_mag_vbr_5.7x28_ss190_descr">
+		<text>
+		Modified 15-round magazine used in the VBR. While the VBR normally uses Glock magazines, the conversion to 5.7x28 required a custom magazine.
+		</text>
+	</string>
+
+	<string id="st_mag_glock_33_9x19_fmj">
+		<text>Extended 9x19 Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_33_9x19_fmj_descr">
+		<text>
+		Extended 33 round Glock magazine. Most useful for automatic Glock models, or pistol caliber carbines that accept Glock magazines.
+		</text>
+	</string>
+
+	<string id="st_mag_glock_33_9x18_fmj">
+		<text>Extended 9x18 Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_33_9x18_fmj_descr">
+		<text>
+		Extended 33 round Glock magazine, modified to load 9x18. This allows a Glock to provide more firepower than many SMGs.
+		</text>
+	</string>
+
+	<string id="st_mag_bigben_9x39_pab9">
+		<text>Modified 9x39 Desert Eagle Magazine</text>
+	</string>
+	<string id="st_mag_bigben_9x39_pab9_descr">
+		<text>
+		Special 9x39 Desert Eagle Magazine, used by the heavy-hitting "Big Ben" pistol. How a rifle length cartridge fits in a pistol caliber magazine is a mystery in itself.
+		</text>
+	</string>
+
+	<string id="st_mag_pm_drum_9x18_fmj">
+		<text>9x18 PM Drum Magazine</text>
+	</string>
+	<string id="st_mag_pm_drum_9x18_fmj_descr">
+		<text>
+		80 round Magazine for the PM pistol. Intended to be used one-handed, alongside a shield in a police role, where a continuous volumes of fire is needed, without the ability to constantly reload.
+		</text>
+	</string>
+
+	<string id="st_mag_pm_drum_9x19_fmj">
+		<text>Modified 9x19 PM Drum Magazine</text>
+	</string>
+	<string id="st_mag_pm_drum_9x19_fmj_descr">
+		<text>
+		Modified 80 round drum magazine for the PM pistol. Allows the PM to provide volumes of fire it probably doesn't need to, in most situations.
+		</text>
+	</string>
+
+	<string id="st_mag_svd_magnum_300">
+		<text>Custom .338 SVDK magazine</text>
+	</string>
+	<string id="st_mag_svd_magnum_300_descr">
+		<text>
+		Custom .338 Lapua Magnum magazine for use with the experimental .338 SVDK. Very similar (though not compatible) to the magazine used in the SVCh-8.6.
+		</text>
+	</string>
+
+	<string id="st_mag_vp70_9x19_fmj">
+		<text>Standard 9x19 VP70 Magazine</text>
+	</string>
+	<string id="st_mag_vp70_9x19_fmj_descr">
+		<text>
+		Standard magazine for the HK VP70 pistol. It is notable for being an early example of a double stack magazine, granting the VP70 superior capacity compared to many other pistols of the era. However, the rapid 3 round burst of this pistol only allows for 6 trigger pulls before running empty.
+		</text>
+	</string>
+
+	<string id="st_mag_hpsa_2022_9x19_fmj">
+		<text>Standard 9x19 FN High Power Magazine</text>
+	</string>
+	<string id="st_mag_hpsa_2022_9x19_fmj_descr">
+		<text>
+		Standard magazine for the FN High Power pistol. Despite the similar appearance, due to modifications allowing for the higher capacity, magazines for the High Power are incompatible with the original Hi-Power and vice-versa.
+		</text>
+	</string>
+
+	<string id="st_mag_hpsa_2022_9x18_fmj">
+		<text>Modified 9x18 FN High Power Magazine</text>
+	</string>
+	<string id="st_mag_hpsa_2022_9x18_fmj_descr">
+		<text>
+		Modified magazine for the FN High Power pistol, rechambered for 9x18. Despite the similar appearance, due to modifications allowing for the higher capacity, magazines for the High Power are incompatible with the original Hi-Power and vice-versa.
+		</text>
+	</string>
+
+	<string id="st_mag_ak_cheeki_7.62x39">
+		<text>100-round 7.62x39 AK Magazine</text>
+	</string>
+	<string id="st_mag_ak_cheeki_7.62x39_descr">
+		<text>
+		A ridiculous 100 round 7.62x39 double stack AK magazine. Extremely impractical and unreliable, it is almost unheard of to be able to load these magazines past half capacity without significant issue. These are best suited as no more than a decoration. By some miracle, this particular one works perfectly.
+		</text>
+	</string>
+
+    <string id="st_mag_saiga_m3_5.45x39">
+		<text>20-round 5.45x39 Saiga Magazine</text>
+	</string>
+	<string id="st_mag_saiga_m3_5.45x39_descr">
+		<text>
+		20 round 5.45x39 magazine for Saiga carbines. While the external appearance is similar to a standard 30 round 5.45x39 AK magazine, it only holds 20 rounds and is not interchangeable.
+		</text>
+	</string>
+
+    <string id="st_mag_saiga_m3_5.56x45">
+		<text>20-round 5.56x45 Saiga Magazine</text>
+	</string>
+	<string id="st_mag_saiga_m3_5.56x45_descr">
+		<text>
+		20 round 5.56x45 magazine for Saiga carbines. While the external appearance is similar to a standard 30 round 5.56x45 AK magazine, it only holds 20 rounds and is not interchangeable.
+		</text>
+	</string>
+
+    <string id="st_mag_ots27_7.62x25_p">
+		<text>Modified 18 round 7.62x25 OTs-33 Magazine</text>
+	</string>
+	<string id="st_mag_ots27_7.62x25_p_descr">
+		<text>
+		Modified 7.62x25 magazine for the OTs-33 converted to 7.62 Tokarev. It borrows heavily from the design of the magazine from the OTs-27-7.
+		</text>
+	</string>
+
+    <string id="st_mag_trophy_ak_7.62x54">
+		<text>30 round 7.62x54 Trophy AK Magazine</text>
+	</string>
+	<string id="st_mag_trophy_ak_7.62x54_descr">
+		<text>
+		A 30 round magazine that can hold 7.62x54 rounds of all types. How full length 7.62x54 rounds are able to fit inside what appears to be a regular 5.45x39 magazine is yet another reflection of this weapon and its previous holder's legendary status.
+		</text>
+	</string>
+
+    <string id="st_mag_mk48_7.62x51">
+		<text>Standard 7.62x51 MK48 Box</text>
+	</string>
+	<string id="st_mag_mk48_7.62x51_descr">
+		<text>
+		Box containing a 100 round belt for 7.62x51 rounds. Compared to 5.56x45 used by the M249, the larger 7.62x51 provides a hefty increase to both range and damage, though it is a much greater pain to carry.
+		</text>
+	</string>
+
+</string_table>
