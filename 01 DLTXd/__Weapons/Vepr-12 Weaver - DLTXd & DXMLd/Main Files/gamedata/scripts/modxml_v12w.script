@@ -1,0 +1,188 @@
+
+function on_game_start()
+    RegisterScriptCallback("on_specific_character_init", function(character_id, data)
+        if character_id == "greh_squad_leader" then
+            data.supplies = "[spawn_loadout] \n
+								wpn_groza = 1 \n
+	  							wpn_val_ekp = 1 \n
+	  							wpn_vihr_ekp = 1 \n
+	  							wpn_g3_eot = 1 \n
+	  							wpn_scar_eot = 1 \n
+	  							wpn_vepr_ac10632 = 1 \n
+	  							wpn_saiga = 1 \n
+	  							[spawn_loadout2] \n
+	  							wpn_desert_eagle = 1 \n
+	  							wpn_gsh18 = 1 \n
+	  							wpn_mp443 = 1 \n
+      							[spawn] \n
+	  							grenade_f1 = 1 \n
+	  							attackers_pda = 1 \n
+							#include "gameplay\supplies\character_items_2.xml"
+							#include "gameplay\supplies\character_food.xml"
+							#include "gameplay\supplies\character_drugs_3.xml""
+        end
+		if character_id == "greh_castigator_6" then
+            data.supplies = "[spawn] \n
+								wpn_vepr_eot = 1 \n
+	  							ammo_12x76_zhekan = 2 \n
+	  							wpn_gsh18 = 1 \n
+	  							ammo_9x19_fmj = 2 \n
+	  							grenade_f1 = 1 \n
+							#include "gameplay\supplies\character_items_2.xml"
+							#include "gameplay\supplies\character_food.xml"
+							#include "gameplay\supplies\character_drugs_3.xml""
+        end
+		if character_id == "sim_default_anpc_1_default_0" then
+            data.supplies = "[spawn_loadout] \n
+								wpn_abakan_kobra = 1 \n
+	  							wpn_aks74_new = 1 \n
+	  							wpn_ak74m_camo = 1 \n
+	  							wpn_aek971_kobra = 1 \n
+	  							wpn_ak101_eot = 1 \n
+	  							wpn_ak102_eot = 1 \n
+	  							wpn_ak103_kobra = 1 \n
+	  							wpn_ak104_kobra = 1 \n
+      							wpn_ak105_kobra = 1 \n
+	  							wpn_vepr_eot = 1 \n
+	  							[spawn_loadout2] \n
+	  							wpn_gsh18 = 1 \n
+	  							wpn_mp443 = 1 \n
+	  							wpn_fort = 1 \n
+      							[spawn] \n
+							#include "gameplay\supplies\character_items_nd.xml"
+							#include "gameplay\supplies\character_food.xml"
+							#include "gameplay\supplies\character_drugs.xml""
+        end
+		if character_id == "sim_default_anpc_2_default_0" then
+            data.supplies = "[spawn_loadout] \n
+	    						wpn_groza = 1 \n
+	    						wpn_val_kobra = 1 \n
+	    						wpn_vepr_eot = 1 \n
+	    						[spawn_loadout2] \n
+	    						wpn_gsh18 = 1 \n
+	    						wpn_mp443 = 1 \n
+	    						wpn_fort = 1 \n
+        						[spawn] \n
+	    						grenade_rgd5 = 1 \n
+  						#include "gameplay\supplies\character_items_nd.xml"
+  						#include "gameplay\supplies\character_food.xml"
+  						#include "gameplay\supplies\character_drugs.xml""
+        end
+		if character_id == "sim_default_anpc_2_default_1" then
+            data.supplies = "[spawn_loadout] \n
+	    						wpn_groza = 1 \n
+	    						wpn_val_kobra = 1 \n
+	    						wpn_vepr_eot = 1 \n
+	    						[spawn_loadout2] \n
+	    						wpn_gsh18 = 1 \n
+	    						wpn_mp443 = 1 \n
+	    						wpn_fort = 1 \n
+        						[spawn] \n
+	    						grenade_rgd5 = 1 \n
+  						#include "gameplay\supplies\character_items_nd.xml"
+  						#include "gameplay\supplies\character_food.xml"
+  						#include "gameplay\supplies\character_drugs.xml""
+        end
+		if character_id == "sim_default_anpc_2_default_2" then
+            data.supplies = "[spawn_loadout] \n
+	    						wpn_groza = 1 \n
+	    						wpn_val_kobra = 1 \n
+	    						wpn_vepr_eot = 1 \n
+	    						[spawn_loadout2] \n
+	    						wpn_gsh18 = 1 \n
+	    						wpn_mp443 = 1 \n
+	    						wpn_fort = 1 \n
+        						[spawn] \n
+	    						grenade_rgd5 = 1 \n
+  						#include "gameplay\supplies\character_items_nd.xml"
+  						#include "gameplay\supplies\character_food.xml"
+  						#include "gameplay\supplies\character_drugs.xml""
+        end
+		if character_id == "pri_b35_army_1" then
+            data.supplies = "[spawn_loadout] \n
+								wpn_abakan_kobra = 1 \n
+	  							wpn_aks74_new = 1 \n
+	  							wpn_ak74m_camo = 1 \n
+	  							wpn_aek971_kobra = 1 \n
+	  							wpn_ak101_eot = 1 \n
+	  							wpn_ak102_eot = 1 \n
+	  							wpn_ak103_kobra = 1 \n
+	  							wpn_ak104_kobra = 1 \n
+      							wpn_ak105_kobra = 1 \n
+	  							wpn_vepr_eot = 1 \n
+	  							[spawn_loadout2] \n
+	  							wpn_gsh18 = 1 \n
+	  							wpn_mp443 = 1 \n
+	  							wpn_fort = 1 \n
+      							[spawn] \n
+							#include "gameplay\supplies\character_items_nd.xml"
+							#include "gameplay\supplies\character_food.xml"
+							#include "gameplay\supplies\character_drugs.xml""
+        end
+		if character_id == "pri_b35_army_2" then
+            data.supplies = "[spawn_loadout] \n
+								wpn_abakan_kobra = 1 \n
+	  							wpn_aks74_new = 1 \n
+	  							wpn_ak74m_camo = 1 \n
+	  							wpn_aek971_kobra = 1 \n
+	  							wpn_ak101_eot = 1 \n
+	  							wpn_ak102_eot = 1 \n
+	  							wpn_ak103_kobra = 1 \n
+	  							wpn_ak104_kobra = 1 \n
+      							wpn_ak105_kobra = 1 \n
+	  							wpn_vepr_eot = 1 \n
+	  							[spawn_loadout2] \n
+	  							wpn_gsh18 = 1 \n
+	  							wpn_mp443 = 1 \n
+	  							wpn_fort = 1 \n
+      							[spawn] \n
+							#include "gameplay\supplies\character_items_nd.xml"
+							#include "gameplay\supplies\character_food.xml"
+							#include "gameplay\supplies\character_drugs.xml""
+        end
+		if character_id == "pri_b35_army_3" then
+            data.supplies = "[spawn_loadout] \n
+								wpn_abakan_kobra = 1 \n
+	  							wpn_aks74_new = 1 \n
+	  							wpn_ak74m_camo = 1 \n
+	  							wpn_aek971_kobra = 1 \n
+	  							wpn_ak101_eot = 1 \n
+	  							wpn_ak102_eot = 1 \n
+	  							wpn_ak103_kobra = 1 \n
+	  							wpn_ak104_kobra = 1 \n
+      							wpn_ak105_kobra = 1 \n
+	  							wpn_vepr_eot = 1 \n
+	  							[spawn_loadout2] \n
+	  							wpn_gsh18 = 1 \n
+	  							wpn_mp443 = 1 \n
+	  							wpn_fort = 1 \n
+      							[spawn] \n
+							#include "gameplay\supplies\character_items_nd.xml"
+							#include "gameplay\supplies\character_food.xml"
+							#include "gameplay\supplies\character_drugs.xml""
+        end
+		if character_id == "pri_b35_army_4" then
+            data.supplies = "[spawn_loadout] \n
+								wpn_abakan_kobra = 1 \n
+	  							wpn_aks74_new = 1 \n
+	  							wpn_ak74m_camo = 1 \n
+	  							wpn_aek971_kobra = 1 \n
+	  							wpn_ak101_eot = 1 \n
+	  							wpn_ak102_eot = 1 \n
+	  							wpn_ak103_kobra = 1 \n
+	  							wpn_ak104_kobra = 1 \n
+      							wpn_ak105_kobra = 1 \n
+	  							wpn_vepr_eot = 1 \n
+	  							[spawn_loadout2] \n
+	  							wpn_gsh18 = 1 \n
+	  							wpn_mp443 = 1 \n
+	  							wpn_fort = 1 \n
+      							[spawn] \n
+							#include "gameplay\supplies\character_items_nd.xml"
+							#include "gameplay\supplies\character_food.xml"
+							#include "gameplay\supplies\character_drugs.xml""
+        end
+    end)
+end
+
+

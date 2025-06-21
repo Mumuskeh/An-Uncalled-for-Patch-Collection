@@ -1,0 +1,367 @@
+[grenade_zarya2]:identity_immunities,weapon_probability,default_weapon_params
+GroupControlSection         = spawn_group
+discovery_dependency        =
+$prefetch                   = 128
+$spawn                      = "weapons\grenades\gd-05"
+cform                       = skeleton
+
+class                       = G_F1
+slot                        = 3
+animation_slot              = 7
+ef_weapon_type              = 4
+single_handed               = 1
+
+default_to_ruck             = false
+sprint_allowed              = true
+
+icons_texture 			    = ui\icon_flash_zarya2.dds
+inv_grid_height             = 1
+inv_grid_width              = 1
+inv_grid_x                  = 1
+inv_grid_y                  = 0
+inv_name                    = st_grenade_flash
+inv_name_short              = st_grenade_flash
+description                 = st_grenade_flash_descr
+highlight_equipped          = true
+
+kind                        = w_explosive
+inv_weight                  = 0.15
+cost                        = 890
+
+hud                         = grenade_zarya2_hud
+visual                      = dynamics\weapons\wpn_grenades\wpn_gzarya2.ogf
+
+attach_bone_name            =
+attach_position_offset      = -0.053, -0.089, 0.0
+attach_angle_offset         = 0, 0, 0
+bone_name                   = bip01_r_hand
+position_offset             = 0.0, 0.0, 0.0
+angle_offset                = 1.570790, 1.570790, 3.92699
+
+third_person_throw_point_offset = -0.05, 0.848, 0.706
+throw_dir                   = 0, 0, 1
+throw_point                 = 0.4, 0.3, 0.1
+up_throw_factor             = 0
+
+force_min                   = 10
+force_const                 = 25
+force_max                   = 30
+force_grow_speed            = 15
+grenade_remove_time         = 60000
+detonation_threshold_hit    = 200
+
+wallmark_section            = explosion_marks
+wm_size                     = 0.1
+
+frag_hit                    = 0
+frag_hit_impulse            = 0
+frags                       = 0
+frags_r                     = 0
+fragment_speed              = 50
+
+zoom_dof                    = 0.5, 1.0, 180
+reload_dof                  = 0.0, 0.5, 5, 1.7
+control_inertion_factor     = 1
+
+kill_msg_x                  = 240
+kill_msg_y                  = 123
+kill_msg_width              = 14
+kill_msg_height             = 23
+
+blast                       = 0.000001
+blast_r                     = 10
+blast_impulse               = 2
+hit_type_blast              = telepatic
+hit_type_frag               = telepatic
+
+explode_particles		    = weapons\generic_weapon05
+light_color                 = 80,80,80,80
+light_range                 = 30
+light_time                  = 0.5
+explode_duration            = 6
+destroy_time                = 2000
+
+snd_checkout                = weapons\grenade\checkout_eft
+snd_explode                	= wpn\flashbang\zarya2.ogg
+snd_on_take                	= grenade 
+
+[grenade_zarya2_hud]:hud_base
+item_visual                 = anomaly_weapons\wpn_grenades\wpn_gzarya2_hud.ogf
+attach_place_idx            = 0
+
+item_position               = -0.001, 0.004, 0.009391
+item_orientation            = 18.5, 1.5, 0
+
+hands_orientation           = -0.5, 1, -2
+hands_orientation_16x9      = -0.5, 1, -2
+hands_position              = -0.016204, -0.074241, -0.052391
+hands_position_16x9         = -0.016204, -0.074241, -0.052391
+
+anm_hide                    = flash_hide, idle
+anm_idle                    = flash_idle, idle
+anm_idle_moving             = flash_walk, gzarya2_walk
+anm_idle_sprint             = flash_sprint, gzarya2_sprint
+anm_show                    = flash_draw, idle
+anm_throw                   = flash_throw_end, gzarya2_throw_quick
+anm_throw_begin             = flash_throw_start, gzarya2_throw_start
+anm_throw_idle              = flash_throw_idle, gzarya2_throw_idle
+
+fire_bone                   = wpn_body
+fire_point                  = 0, 0, 0
+
+throw_dir                   = 0, 0, 1
+throw_point                 = 0.0, 0.4, 0.3
+
+freelook_z_offset_mul		= 0.3
+
+
+[grenade_m84]:identity_immunities,weapon_probability,default_weapon_params
+GroupControlSection         = spawn_group
+discovery_dependency        =
+$prefetch                   = 128
+$spawn                      = "weapons\grenades\gd-05"
+cform                       = skeleton
+
+class                       = G_F1
+slot                        = 3
+animation_slot              = 7
+ef_weapon_type              = 4
+single_handed               = 1
+
+default_to_ruck             = false
+sprint_allowed              = true
+
+icons_texture 			    = ui\icon_flash_zarya2.dds
+inv_grid_height             = 1
+inv_grid_width              = 1
+inv_grid_x                  = 2
+inv_grid_y                  = 0
+inv_name                    = st_grenade_flash2
+inv_name_short              = st_grenade_flash2
+description                 = st_grenade_flash2_descr
+highlight_equipped          = true
+
+kind                        = w_explosive
+inv_weight                  = 0.15
+cost                        = 890
+
+hud                         = grenade_m84_hud
+visual                      = dynamics\weapons\wpn_grenades\wpn_m84.ogf
+
+attach_bone_name            =
+attach_position_offset      = -0.053, -0.089, 0.0
+attach_angle_offset         = 0, 0, 0
+bone_name                   = bip01_r_hand
+position_offset             = 0.0, 0.0, 0.0
+angle_offset                = 1.570790, 1.570790, 3.92699
+
+third_person_throw_point_offset = -0.05, 0.848, 0.706
+throw_dir                   = 0, 0, 1
+throw_point                 = 0.4, 0.3, 0.1
+up_throw_factor             = 0
+
+force_min                   = 10
+force_const                 = 25
+force_max                   = 30
+force_grow_speed            = 15
+grenade_remove_time         = 60000
+detonation_threshold_hit    = 200
+
+wallmark_section            = explosion_marks
+wm_size                     = 0.1
+
+frag_hit                    = 0
+frag_hit_impulse            = 0
+frags                       = 0
+frags_r                     = 0
+fragment_speed              = 50
+
+zoom_dof                    = 0.5, 1.0, 180
+reload_dof                  = 0.0, 0.5, 5, 1.7
+control_inertion_factor     = 1
+
+kill_msg_x                  = 240
+kill_msg_y                  = 123
+kill_msg_width              = 14
+kill_msg_height             = 23
+
+blast                       = 0.000001
+blast_r                     = 10
+blast_impulse               = 2
+hit_type_blast              = telepatic
+hit_type_frag               = telepatic
+
+explode_particles           = weapons\generic_weapon05
+light_color                 = 80,80,80,80
+light_range                 = 30
+light_time                  = 0.5
+explode_duration            = 6
+destroy_time                = 2000
+
+snd_checkout                = weapons\grenade\checkout_eft
+snd_explode              	= wpn\flashbang\m84.ogg
+snd_on_take                	= grenade 
+
+[grenade_m84_hud]:hud_base
+item_visual                 = anomaly_weapons\wpn_grenades\wpn_m84_hud.ogf
+attach_place_idx            = 0
+
+item_orientation            = 18.5, 1.5, 0
+item_position               = -0.002814, -0.003891, 0.004405
+
+hands_orientation           = -0.5, 1, -2
+hands_orientation_16x9      = -0.5, 1, -2
+hands_position              = -0.016204, -0.074241, -0.052391
+hands_position_16x9         = -0.016204, -0.074241, -0.052391
+
+aim_hud_offset_pos          = 0, 0, 0
+aim_hud_offset_rot          = 0, 0, 0
+
+gl_hud_offset_pos           = 0, 0, 0
+gl_hud_offset_rot           = 0, 0, 0
+
+lean_hud_offset_pos         = 0, 0, 0
+lean_hud_offset_rot         = 0, 0, 0
+
+anm_hide                    = flash_hide, flashbang_hide
+anm_idle                    = flash_idle, idle
+anm_idle_moving             = flash_walk, flashbang_walk
+anm_idle_sprint             = flash_sprint, flashbang_sprint
+anm_show                    = flash_draw, flashbang_draw
+anm_throw                   = flash_throw_end, flashbang_throw_quick
+anm_throw_begin             = flash_throw_start, flashbang_throw_start
+anm_throw_idle              = flash_throw_idle, flashbang_throw_idle
+
+fire_bone                   = wpn_body
+fire_point                  = 0, 0, 0
+
+throw_dir                   = 0, 0, 1
+throw_point                 = 0.0, 0.4, 0.3
+
+freelook_z_offset_mul		= 0.3
+	
+	
+[grenade_m-7290]:identity_immunities,weapon_probability,default_weapon_params
+GroupControlSection         = spawn_group
+discovery_dependency        =
+$prefetch                   = 128
+$spawn                      = "weapons\grenades\gd-05"
+cform                       = skeleton
+
+class                       = G_F1
+slot                        = 3
+animation_slot              = 7
+ef_weapon_type              = 4
+single_handed               = 1
+
+default_to_ruck             = false
+sprint_allowed              = true
+
+icons_texture 			    = ui\icon_flash_zarya2.dds
+inv_grid_height             = 1
+inv_grid_width              = 1
+inv_grid_x                  = 3
+inv_grid_y                  = 0
+inv_name                    = st_grenade_flash3
+inv_name_short              = st_grenade_flash3
+description                 = st_grenade_flash3_descr
+highlight_equipped          = true
+
+kind                        = w_explosive
+inv_weight                  = 0.15
+cost                        = 890
+
+hud                         = grenade_m-7290_hud
+visual                      = dynamics\weapons\wpn_grenades\wpn_m-7290.ogf
+
+attach_bone_name            =
+attach_position_offset      = -0.053, -0.089, 0.0
+attach_angle_offset         = 0, 0, 0
+bone_name                   = bip01_r_hand
+position_offset             = 0.0, 0.0, 0.0
+angle_offset                = 1.570790, 1.570790, 3.92699
+
+third_person_throw_point_offset = -0.05, 0.848, 0.706
+throw_dir                   = 0, 0, 1
+throw_point                 = 0.4, 0.3, 0.1
+up_throw_factor             = 0
+
+force_min                   = 10
+force_const                 = 25
+force_max                   = 30
+force_grow_speed            = 15
+grenade_remove_time         = 60000
+detonation_threshold_hit    = 200
+
+wallmark_section            = explosion_marks
+wm_size                     = 0.1
+
+frag_hit                    = 0
+frag_hit_impulse            = 0
+frags                       = 0
+frags_r                     = 0
+fragment_speed              = 50
+
+zoom_dof                    = 0.5, 1.0, 180
+reload_dof                  = 0.0, 0.5, 5, 1.7
+control_inertion_factor     = 1
+
+kill_msg_x                  = 240
+kill_msg_y                  = 123
+kill_msg_width              = 14
+kill_msg_height             = 23
+
+blast                       = 0.000001
+blast_r                     = 10
+blast_impulse               = 2
+hit_type_blast              = telepatic
+hit_type_frag               = telepatic
+
+explode_particles           = weapons\generic_weapon05
+light_color                 = 80,80,80,80
+light_range                 = 30
+light_time                  = 0.5
+explode_duration            = 6
+destroy_time                = 2000
+
+snd_checkout                = weapons\grenade\checkout_eft
+snd_explode                	= wpn\flashbang\m84.ogg
+snd_on_take                	= grenade 
+
+[grenade_m-7290_hud]:hud_base
+item_visual                 = anomaly_weapons\wpn_grenades\wpn_m-7290_hud.ogf
+attach_place_idx            = 0
+
+item_orientation            = 18.5, 1.5, 0
+item_position               = -0.002814, -0.003891, 0.004405
+
+hands_orientation           = -0.5, 1, -2
+hands_orientation_16x9      = -0.5, 1, -2
+hands_position              = -0.016204, -0.074241, -0.052391
+hands_position_16x9         = -0.016204, -0.074241, -0.052391
+
+aim_hud_offset_pos          = 0, 0, 0
+aim_hud_offset_rot          = 0, 0, 0
+
+gl_hud_offset_pos           = 0, 0, 0
+gl_hud_offset_rot           = 0, 0, 0
+
+lean_hud_offset_pos         = 0, 0, 0
+lean_hud_offset_rot         = 0, 0, 0
+
+anm_hide                    = flash_hide, flashbang_hide
+anm_idle                    = flash_idle, idle
+anm_idle_moving             = flash_walk, flashbang_walk
+anm_idle_sprint             = flash_sprint, flashbang_sprint
+anm_show                    = flash_draw, flashbang_draw
+anm_throw                   = flash_throw_end, flashbang_throw_quick
+anm_throw_begin             = flash_throw_start, flashbang_throw_start
+anm_throw_idle              = flash_throw_idle, flashbang_throw_idle
+
+fire_bone                   = wpn_body
+fire_point                  = 0, 0, 0
+
+throw_dir                   = 0, 0, 1
+throw_point                 = 0.0, 0.4, 0.3
+
+freelook_z_offset_mul		= 0.3
