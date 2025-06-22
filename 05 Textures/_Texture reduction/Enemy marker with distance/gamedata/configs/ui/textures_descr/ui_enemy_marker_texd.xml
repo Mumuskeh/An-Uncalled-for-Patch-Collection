@@ -1,0 +1,7 @@
+<w>
+	<file name ="ui\enemy_marker\ui_icons_enemy_marker">
+		<texture id = "ui_icons_enemy_marker_crosshair_valid" x="0" y="115" width="64" height="64" />
+		<texture id = "ui_icons_enemy_marker_crosshair_targetlock" x="0" y="0" width="114" height="114" />
+		<texture id = "ui_icons_enemy_marker_crosshair_targetid" x="116" y="0" width="114" height="114" />
+	</file>
+</w>
