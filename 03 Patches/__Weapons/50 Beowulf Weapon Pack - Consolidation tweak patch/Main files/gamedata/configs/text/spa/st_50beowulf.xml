@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<string_table>
+
+	<string id="ammo_50beowulf_fmj">
+		<text>Cartuchos .50 RS-FMJ</text>
+	</string>
+	<string id="ammo_50beowulf_fmj_descr">
+		<text>El .50 Beowulf RS-FMJ es un proyectil pesado diseñado para ajustarse al tamaño de los cargadores estándar de los AR-15, anunciado para la penetración general en vehículos [Full Metal Jacket o Punta Entera de Metal], tiene una balística terminal excepcional de corto a medio alcance.\n</text>
+		\n%c[ui_gray_2] - %c[ui_gray_2] Penetración de Blindaje: %c[ui_gray_1]BR6 (72)
+		\n%c[ui_gray_2] - %c[ui_gray_2] Poder de parada: %c[ui_gray_1]52
+	</string>
+	<string id="ammo_50beowulf_fmj_s">
+		<text>Cartucho .50 FMJ</text>
+	</string>
+	
+	<string id="ammo_50beowulf_arx">
+		<text>Cartuchos .50 Zenith ARX</text>
+	</string>
+	<string id="ammo_50beowulf_arx_descr">
+		<text>El .50 Zenith ARX es más ligero que el FMJ y tiene un diseño único triflute que ofrece una balística terminal extremadamente impresionante, incluyendo una cavidad temporal ampliada y fragmentación del proyectil para canales de heridas secundarias [Tri-Fluted Point] , en resúmen "rasga o desgarra"\n</text>
+		\n%c[ui_gray_2] - %c[ui_gray_2] Penetración de Blindaje: %c[ui_gray_1]BR6 (68)
+		\n%c[ui_gray_2] - %c[ui_gray_2] Poder de parada: %c[ui_gray_1]50
+	</string>
+	<string id="ammo_50beowulf_arx_s">
+		<text> Cartucho .50 ARX</text>
+	</string>
+	<string id="ammo_50beowulf_fmj_bad_s">
+		<text>.50 Old FMJ</text>
+	</string>
+	<string id="ammo_50beowulf_fmj_verybad_s">
+		<text>.50 Trash FMJ</text>
+	</string>
+	<string id="ammo_50beowulf_arx_bad_s">
+		<text>.50 Old ARX</text>
+	</string>
+	<string id="ammo_50beowulf_arx_verybad_s">
+		<text>.50 Trash ARX</text>
+	</string>
+
+	<string id="st_wpn_m4_beowulf">
+		<text>Ghost AR-50B</text>
+	</string>
+	<string id="st_wpn_m4_beowulf_descr">
+		<text>Presentando el Ghost AR-50B, un rifle de vanguardia fabricado por la renombrada Ghost Armory, que establece nuevos estándares en potencia de fuego y precisión. Con recámara del formidable calibre .50 Beowulf, esta arma fusiona a la perfección la fuerza bruta con la delicadeza. El Ghost 50 BEO tiene un diseño elegante y ergonómico, con materiales avanzados que mejoran la durabilidad sin comprometer el peso. Equipado con una óptica de última generación y una culata ajustable, este rifle garantiza una precisión inigualable incluso en condiciones difíciles. Ya sea para combates a larga distancia o cuerpo a cuerpo, el Ghost 50 BEO es un testimonio del compromiso de Ghost Armory con la innovación, proporcionando a los operadores una herramienta excepcional y fiable que domina el campo de batalla con una potencia y eficacia inigualables. \n \n
+		%c[ui_gray_2]ACCESORIOS: \n
+		%c[d_purple] - %c[ui_gray_2] Miras: Todas las miras para rieles weaver/picatinny.\n
+		%c[d_purple] - %c[ui_gray_2] Silenciadores: Supresor AAC 7.62 SDN-6.\n</text>
+	</string>
+	
+	<string id="st_wpn_mdr_50">
+		<text>Ghost MDR-50B</text>
+	</string>
+	<string id="st_wpn_mdr_50_descr">
+		<text>Presentando el rifle MDR Bullpup en .50 Beowulf fabricado por la renombrada Ghost Armory, una potencia compacta que combina la agilidad del diseño bullpup con el poder de parada del cartucho .50 Beowulf. Diseñado para la versatilidad y el rendimiento, este rifle cuenta con una longitud total más corta para mejorar la maniobrabilidad en espacios reducidos sin comprometer la longitud del cañón o la eficacia balística. Las características ergonómicas y los materiales avanzados del MDR garantizan un manejo cómodo y una precisión exacta, lo que lo hace adecuado para una gran variedad de aplicaciones, desde la caza hasta las operaciones tácticas. Tanto si se desplaza por matorrales densos como si se enfrenta a objetivos a larga distancia, la MDR en .50 Beowulf es una elección formidable, que ofrece un rendimiento y una fiabilidad sin concesiones en un conjunto elegante y moderno... \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Miras: Algunas miras para rieles weaver/picatinny.\n
+		%c[d_purple] - %c[ui_gray_2] Silenciadores: Supresor AAC-762. \n</text>
+	</string>	
+	
+	<string id="st_mag_m4beo_default">
+		<text>Cargador de 10 cartuchos para Beowulf del 50.</text>
+	</string>
+	<string id="st_mag_m4beo_default_descr">
+		<text>Cargador para el Ghost AR-50B, con capacidad de 10 cartuchos de la munición .50 Beowulf. \n \n</text>
+	</string>	
+
+	<string id="st_mag_mdr50_default">
+		<text>Cargador de 6 cartuchos para Beowulf del 50.</text>
+	</string>
+	<string id="st_mag_mdr50_default_descr">
+		<text>Cargador para el rifle MDR-50 Bullpup, tiene capacidad para 6 cartuchos de munición .50 Beowulf. \n</text>
+	</string>
+	
+</string_table>

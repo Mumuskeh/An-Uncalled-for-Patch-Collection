@@ -1,0 +1,1242 @@
+;------------------------------------------------------------------------------------------------
+;------------------------------------- Arbiter Bushmaster -----------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_arbiter_bushmaster]:identity_immunities,weapon_probability,default_weapon_params,wpn_lr300_sounds
+GroupControlSection                      = spawn_group
+$npc                                     = on
+$prefetch                                = 8
+$spawn                                   = "weapons\lr-300"
+scheduled                                = off
+cform                                    = skeleton
+parent_section                           = wpn_arbiter_bushmaster
+
+class                                    = WP_AK74
+slot                                     = 2
+animation_slot                           = 2
+ef_main_weapon_type                      = 2
+ef_weapon_type                           = 8
+hand_dependence                          = 1
+single_handed                            = 0
+
+default_to_ruck                          = false
+sprint_allowed                           = true
+
+icons_texture      = ui\arbiterpack_icon
+inv_grid_width     = 4
+inv_grid_height    = 2
+inv_grid_x         = 0
+inv_grid_y         = 0
+
+inv_name                                 = st_wpn_arbiter_bushmaster
+inv_name_short                           = st_wpn_arbiter_bushmaster
+description                              = st_wpn_arbiter_bushmaster_descr
+
+kind                                     = w_rifle
+inv_weight                               = 3.00
+cost                                     = 61230
+repair_type                              = rifle_5
+weapon_class                             = assault_rifle
+
+hud                                      = wpn_arbiter_bushmaster_hud
+visual                                   = dynamics\weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_world.ogf
+
+position                                 = -0.014432, -0.111851, -0.009095
+orientation                              = 0, 0, 0
+fire_point                               = 0.002161, 0.16137, 0.348506
+fire_point2                              = 0, 0.199, 0.575
+strap_bone0                              = bip01_spine2
+strap_bone1                              = bip01_spine1
+strap_position                           = -0.174216, -0.332603, 3.3e-05
+strap_orientation                        = -9.589596, -5.0358, 10
+ph_mass                                  = 3
+
+flame_particles                          = weapons\generic_weapon05
+smoke_particles                          = weapons\generic_shoot_00
+grenade_flame_particles                  = weapons\generic_weapon01
+
+shell_point             	             = 0.036274, 0.12631, 0.028546
+shell_dir               	             = 0,0,0.4
+shell_particles         				 = weapons\556x45
+
+light_disabled                           = false
+light_color                              = 0.6, 0.5, 0.3
+light_range                              = 5
+light_time                               = 0.2
+light_var_color                          = 0.05
+light_var_range                          = 0.1
+
+upgrades                                 = up_gr_firstab_g36, up_gr_seconab_g36, up_gr_thirdab_g36, up_gr_fourtab_g36, up_gr_fourtcd_g36, up_gr_fourtef_g36
+installed_upgrades                       =
+upgrade_scheme                           = upgrade_scheme_g36
+
+upgr_icon_x                              = 600
+upgr_icon_y                              = 300
+upgr_icon_width                          = 300
+upgr_icon_height                         = 100
+
+fire_modes                               = 1
+ammo_class                               = ammo_5.56x45_fmj, ammo_5.56x45_fmj_bad, ammo_5.56x45_fmj_verybad, ammo_5.56x45_ss190, ammo_5.56x45_ss190_bad, ammo_5.56x45_ss190_verybad, ammo_5.56x45_ap, ammo_5.56x45_ap_bad, ammo_5.56x45_ap_verybad
+ammo_elapsed                             = 6
+ammo_mag_size                            = 6
+startup_ammo                             = 90
+
+scopes 			                         = acog, eot, ac10632, specter ,c-more , leupold, aimpoint, e0t2, compm4s, kemper, mepro, ekp8_18, 0kp2
+scope_status                             = 0
+scope_zoom_factor                        = 0
+
+silencer_name                            = wpn_sil_surfire
+silencer_status                          = 1
+silencer_x			                     = 226                ; offset in inventory icon
+silencer_y			                     = 3
+silencer_light_color                     = 0.6, 0.5, 0.3
+silencer_light_range                     = 0.01
+silencer_light_time                      = 0.2
+silencer_light_var_color                 = 0.05
+silencer_light_var_range                 = 0.5
+silencer_smoke_particles                 = weapons\generic_shoot_00
+
+grenade_class                            = ammo_m209, ammo_m209_bad, ammo_m209_verybad
+grenade_launcher_name                    = wpn_addon_grenade_launcher_m203
+grenade_launcher_status                  = 0
+grenade_launcher_x                       = 139
+grenade_launcher_y                       = 26
+launch_speed                             = 0
+
+hit_impulse                              = 80
+hit_power                                = 0.9, 0.9, 0.9, 0.9
+hit_type                                 = fire_wound
+fire_distance                            = 1000
+bullet_speed                             = 880
+rpm                                      = 260
+rpm_empty_click                          = 200
+
+use_aim_bullet                           = false
+time_to_aim                              = 0.0 ;  2.0
+zoom_dof                                 = 0.5, 1.0, 180
+zoom_enabled                             = true
+zoom_rotate_time                         = 0.25
+reload_dof                               = 0.0, 0.5, 5, 2
+control_inertion_factor = 1.0f
+crosshair_inertion                       = 4.5
+fire_dispersion_base                     = 0.325
+fire_dispersion_condition_factor         = 0.001
+
+misfire_probability                      = 0.005
+misfire_start_condition                  = 0.7 ;  0.86
+misfire_start_prob                       = 0.007
+misfire_end_condition                    = 0.12
+misfire_end_prob                         = 0.11
+
+condition_queue_shot_dec                 = 0.0008
+condition_shot_dec                       = 0.0008
+
+cam_return                               = 0
+cam_relax_speed                          = 10
+cam_dispersion                           = 0.556
+cam_dispersion_frac                      = 1.0
+cam_dispersion_inc                       = 0.0675
+cam_max_angle                            = 50.0
+cam_max_angle_horz                       = 50.0
+cam_step_angle_horz                      = 0.9
+zoom_cam_relax_speed                     = 10
+zoom_cam_dispersion                      = 0.466
+zoom_cam_dispersion_frac                 = 1.0
+zoom_cam_dispersion_inc                  = 0.0525
+zoom_cam_max_angle                       = 50.0
+zoom_cam_max_angle_horz                  = 50.0
+zoom_cam_step_angle_horz                 = 0.85
+
+PDM_disp_accel_factor                    = 2.3
+PDM_disp_base                            = 0.8
+PDM_disp_crouch                          = 1.0
+PDM_disp_crouch_no_acc                   = 1.0
+PDM_disp_vel_factor                      = 2.3
+
+cam_relax_speed_ai                       = 360
+zoom_cam_relax_speed_ai                  = 360
+holder_fov_modifier                      = 1.0
+holder_range_modifier                    = 1.0
+min_radius                               = 0
+max_radius                               = 500
+hit_probability_gd_novice                = 1.00
+hit_probability_gd_stalker               = 1.00
+hit_probability_gd_veteran               = 1.00
+hit_probability_gd_master                = 1.00
+
+kill_msg_x                               = 175
+kill_msg_y                               = 0
+kill_msg_width                           = 82
+kill_msg_height                          = 28
+
+;-------------------------------------------------------------------SOUNDS-----------------------------------------------------------------------------
+snd_draw                = weapons\ak12custom\draw
+
+snd_reload              = weapons\m4tac_young_prince\m4tac_reload
+snd_reload_empty        = weapons\bushmaster\bushmaster_empty_reload
+
+snd_shoot				= weapons\m4_young_prince\m4_shoot1
+snd_shoot1				= weapons\m4_young_prince\m4_shoot2
+snd_shoot2				= weapons\m4_young_prince\m4_shoot3
+snd_shoot3				= weapons\m4_young_prince\m4_shoot4
+
+snd_silncer_shot		= weapons\m4a1_ras\m4a1_sil-1
+snd_holster				= weapons\rifle_holster
+snd_switch				= weapons\m4a1_ras\m4a1_switch
+snd_empty				= weapons\generic\ar_empty,	0.7
+snd_reload_misfire      = weapons\bushmaster\bushmaster_unjam
+snd_switch_mode			= weapons\ru556\ru556_firemode
+
+[wpn_arbiter_bushmaster_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_hud.ogf
+attach_place_idx                         = 0
+zoom_hide_crosshair                      = true
+
+aim_hud_offset_pos               = -0.061607, 0.023868, -0.04
+aim_hud_offset_pos_16x9          = -0.061607, 0.023868, -0.04
+aim_hud_offset_rot               = 0.04886, 0.015974, 0
+aim_hud_offset_rot_16x9          = 0.04886, 0.015974, 0
+hands_orientation                = 1.305976, 2.839994, 0
+hands_orientation_16x9           = 1.305976, 2.839994, 0
+hands_position                   = -0.006255, 0.003417, -0.069408
+hands_position_16x9              = -0.006255, 0.003417, -0.069408
+lowered_hud_offset_pos           = 0.0888, -0.00462, 0
+lowered_hud_offset_pos_16x9      = 0.0888, -0.00462, 0
+lowered_hud_offset_rot           = 0.10896, -0.83264, 0.1
+lowered_hud_offset_rot_16x9      = 0.10896, -0.83264, 0.1
+
+item_position                            = 0, 0, 0
+item_orientation                         = 0, 0, 0
+
+
+anm_hide                                 = bushmaster_holster, idle, 0.7
+anm_idle                                 = bushmaster_idle, idle
+anm_idle_aim                             = bushmaster_idle_aim, idle
+anm_idle_aim_moving                      = bushmaster_idle_aim,idle, 1.3
+anm_idle_moving_crouch                   = bushmaster_walk, idle, 0.6
+anm_idle_aim_moving_crouch               = bushmaster_walk, idle, 0.4
+anm_idle_moving                          = bushmaster_walk, idle, 0.9
+anm_idle_sprint                          = bushmaster_run, idle, 1.2
+anm_reload                               = bushmaster_reload, reload, 0.9
+anm_reload_empty                         = bushmaster_reload_empty, reload_empty, 0.9
+anm_shots                                = bushmaster_shoot, shoot, 1.3
+anm_show                                 = bushmaster_draw, idle, 1.55
+anm_reload_misfire                       = bushmaster_unjam, unjam_new, 1.2
+anm_bore				                 = bushmaster_inspect, idle
+
+
+anm_hide_empty                                 = bushmaster_holster, idle_empty, 0.7
+anm_idle_empty                                 = bushmaster_idle, idle_empty
+anm_idle_aim_empty                             = bushmaster_idle_aim, idle_empty
+anm_idle_aim_moving_empty                      = bushmaster_idle_aim, idle_empty, 1.3
+anm_idle_moving_crouch_empty                   = bushmaster_walk, idle_empty, 0.6
+anm_idle_aim_moving_crouch_empty               = bushmaster_walk, idle_empty, 0.4
+anm_idle_moving_empty                          = bushmaster_walk, idle_empty, 0.9
+anm_idle_sprint_empty                          = bushmaster_run,  idle_empty, 1.2
+anm_shots_empty                                = bushmaster_shoot, shoot_empty
+anm_show_empty                                 = bushmaster_draw, idle_empty, 1.55
+anm_bore_empty				                   = bushmaster_inspect, idle_empty
+
+anm_idle_jammed                          = bushmaster_idle, idle_jammed
+anm_show_jammed                          = bushmaster_draw, idle_jammed, 1.55
+anm_hide_jammed                          = bushmaster_holster, idle_jammed, 0.7
+anm_idle_aim_jammed                      = bushmaster_idle_aim, idle_jammed, 0.5
+anm_idle_sprint_jammed                   = bushmaster_run, idle_jammed, 1.2
+anm_idle_moving_jammed                   = bushmaster_walk, idle_jammed, 0.9
+anm_bore_jammed                          = bushmaster_inspect, idle_jammed
+
+shell_bone                               = bolt
+shell_dir                                = 0, 1, 0
+shell_point                              = 0, 0, 0
+
+fire_bone                                = muzzle
+fire_bone2                               = muzzle_gl
+fire_point                               = 0, 0, 0
+fire_point2                              = 0, 0, 0
+
+freelook_z_offset_mul					 = 0.4
+
+;---------------------------------------------------------------------------Addons----------------------------------------------------------------------
+[wpn_arbiter_bushmaster_acog]:wpn_arbiter_bushmaster
+
+inv_weight			= 3.350
+
+hud				= wpn_arbiter_bushmaster_acog_hud
+
+1icon_layer			    = acog
+1icon_layer_x			= 60
+1icon_layer_y			= -2
+
+icons_texture      = ui\arbiterpack_icon
+inv_grid_width     = 4
+inv_grid_height    = 2
+inv_grid_x         = 0
+inv_grid_y         = 2
+
+
+scope_status                                       = 1
+scope_texture                                      = wpn_crosshair_acog
+scope_zoom_factor                                  = 25
+zoom_rotate_time		                           = 0.25
+scope_dynamic_zoom		                           = off
+
+;zoom_rotate_time                         = 0.25
+;scope_lense_fov                          = 6
+
+visual = dynamics\weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_world.ogf
+
+[wpn_arbiter_bushmaster_acog_hud]:wpn_arbiter_bushmaster_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_acog_hud.ogf
+
+aim_hud_offset_pos               = -0.062566, 0.023513, -0.124906
+aim_hud_offset_pos_16x9          = -0.062566, 0.023513, -0.124906
+;-------------------------------------------------------------------------------
+[wpn_arbiter_bushmaster_ac10632]:wpn_arbiter_bushmaster
+
+1icon_layer			= ac10632
+1icon_layer_x			= 60
+1icon_layer_y			= -2
+
+icons_texture      = ui\arbiterpack_icon
+inv_grid_width     = 4
+inv_grid_height    = 2
+inv_grid_x         = 0
+inv_grid_y         = 2
+
+inv_weight                                         = 3.115
+
+hud				= wpn_arbiter_bushmaster_ac10632_hud
+
+visual = dynamics\weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_world.ogf
+
+[wpn_arbiter_bushmaster_ac10632_hud]:wpn_arbiter_bushmaster_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_ac10632_hud.ogf
+
+aim_hud_offset_pos               = -0.06166, 0.023797, -0.04
+aim_hud_offset_pos_16x9          = -0.06166, 0.023797, -0.04
+;-------------------------------------------------------------------------------
+[wpn_arbiter_bushmaster_eot]:wpn_arbiter_bushmaster
+
+1icon_layer			    = eot
+1icon_layer_x			= 60
+1icon_layer_y			= -2
+
+icons_texture      = ui\arbiterpack_icon
+inv_grid_width     = 4
+inv_grid_height    = 2
+inv_grid_x         = 0
+inv_grid_y         = 2
+
+inv_weight                                         = 3.300
+
+hud				= wpn_arbiter_bushmaster_eot_hud
+
+visual = dynamics\weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_world.ogf
+
+[wpn_arbiter_bushmaster_eot_hud]:wpn_arbiter_bushmaster_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_eot_hud.ogf
+
+aim_hud_offset_pos               = -0.062137, 0.021808, -0.04
+aim_hud_offset_pos_16x9          = -0.062137, 0.021808, -0.04
+;-----------------------------------------------------------------------------
+[wpn_arbiter_bushmaster_c-more]:wpn_arbiter_bushmaster
+
+visual	= dynamics\weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_world.ogf
+hud		= wpn_arbiter_bushmaster_c-more_hud
+
+1icon_layer			    = c-more
+1icon_layer_x			= 60
+1icon_layer_y			= -2
+
+icons_texture      = ui\arbiterpack_icon
+inv_grid_width     = 4
+inv_grid_height    = 2
+inv_grid_x         = 0
+inv_grid_y         = 2
+
+inv_weight			= 3.300
+
+
+[wpn_arbiter_bushmaster_c-more_hud]:wpn_arbiter_bushmaster_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_c-more_hud.ogf
+
+aim_hud_offset_pos               = -0.061978, 0.026282, -0.04
+aim_hud_offset_pos_16x9          = -0.061978, 0.026282, -0.04
+;--------------------------------------------------------------------------------
+[wpn_arbiter_bushmaster_specter]:wpn_arbiter_bushmaster
+
+visual	= dynamics\weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_world.ogf
+hud		= wpn_arbiter_bushmaster_specter_hud
+
+1icon_layer                              = specter
+1icon_layer_x                            = 42
+1icon_layer_y                            = -2
+
+icons_texture      = ui\arbiterpack_icon
+inv_grid_width     = 4
+inv_grid_height    = 2
+inv_grid_x         = 0
+inv_grid_y         = 2
+
+inv_weight                                         = 3.670
+scope_status                                       = 1
+scope_texture                                      = wpn_crosshair_specter
+scope_zoom_factor                                  = 25
+zoom_rotate_time                                   = 0.25
+scope_dynamic_zoom                                 = on
+
+scope_zoom_factor_alt             = 0
+
+use_alt_aim_hud                   = true
+
+[wpn_arbiter_bushmaster_specter_hud]:wpn_arbiter_bushmaster_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_specter_hud.ogf
+
+aim_hud_offset_alt_pos           = -0.063526, 0.004049, -0.104179
+aim_hud_offset_alt_pos_16x9      = -0.063526, 0.004049, -0.104179
+aim_hud_offset_alt_rot           = 0.052774, 0.022985, 0
+aim_hud_offset_alt_rot_16x9      = 0.052774, 0.022985, 0
+aim_hud_offset_pos               = -0.061607, 0.023868, -0.099877
+aim_hud_offset_pos_16x9          = -0.061607, 0.023868, -0.099877
+;--------------------------------------------------------------------------------
+[wpn_arbiter_bushmaster_mepro]:wpn_arbiter_bushmaster
+
+visual	= dynamics\weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_world.ogf
+
+hud		= wpn_arbiter_bushmaster_mepro_hud
+
+inv_weight	= 3.370
+
+1icon_layer			    = mepro
+1icon_layer_x			= 60
+1icon_layer_y			= 5
+
+icons_texture      = ui\arbiterpack_icon
+inv_grid_width     = 4
+inv_grid_height    = 2
+inv_grid_x         = 0
+inv_grid_y         = 2
+
+[wpn_arbiter_bushmaster_mepro_hud]:wpn_arbiter_bushmaster_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_mepro_hud.ogf
+
+aim_hud_offset_pos               = -0.062138, 0.016687, -0.04
+aim_hud_offset_pos_16x9          = -0.062138, 0.016687, -0.04
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_arbiter_bushmaster_leupold]:wpn_arbiter_bushmaster
+
+visual	= dynamics\weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_world.ogf
+
+hud		= wpn_arbiter_bushmaster_leupold_hud
+
+1icon_layer                              = leupold
+1icon_layer_x                            = 40
+1icon_layer_y                            = 3
+
+icons_texture      = ui\arbiterpack_icon
+inv_grid_width     = 4
+inv_grid_height    = 2
+inv_grid_x         = 0
+inv_grid_y         = 2
+
+inv_weight                                         = 3.680
+scope_status                                       = 1
+scope_texture                                      = wpn_crosshair_leupold
+scope_zoom_factor                                  = 7
+zoom_rotate_time                                   = 0.25
+scope_dynamic_zoom                                 = on
+
+[wpn_arbiter_bushmaster_leupold_hud]:wpn_arbiter_bushmaster_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_leupold_hud.ogf
+
+aim_hud_offset_pos               = -0.062671, 0.020523, -0.087998
+aim_hud_offset_pos_16x9          = -0.062671, 0.020523, -0.087998
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_arbiter_bushmaster_aimpoint]:wpn_arbiter_bushmaster
+
+visual	= dynamics\weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_world.ogf
+
+hud		= wpn_arbiter_bushmaster_aimpoint_hud
+
+inv_weight                                         = 3.130
+
+1icon_layer			    = aimpoint
+1icon_layer_x			= 60
+1icon_layer_y			= 3
+
+icons_texture      = ui\arbiterpack_icon
+inv_grid_width     = 4
+inv_grid_height    = 2
+inv_grid_x         = 0
+inv_grid_y         = 2
+
+[wpn_arbiter_bushmaster_aimpoint_hud]:wpn_arbiter_bushmaster_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_aimpoint_hud.ogf
+
+aim_hud_offset_pos               = -0.061395, 0.020813, -0.04
+aim_hud_offset_pos_16x9          = -0.061395, 0.020813, -0.04
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_arbiter_bushmaster_ekp8_18]:wpn_arbiter_bushmaster
+
+visual	= dynamics\weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_world.ogf
+
+hud		= wpn_arbiter_bushmaster_ekp8_18_hud
+
+inv_weight	= 3.270
+
+1icon_layer			    = ekp8_18
+1icon_layer_x			= 60
+1icon_layer_y			= 8
+
+icons_texture      = ui\arbiterpack_icon
+inv_grid_width     = 4
+inv_grid_height    = 2
+inv_grid_x         = 0
+inv_grid_y         = 2
+
+[wpn_arbiter_bushmaster_ekp8_18_hud]:wpn_arbiter_bushmaster_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_ekp8_18_hud.ogf
+
+aim_hud_offset_pos               = -0.061392, 0.025928, -0.04
+aim_hud_offset_pos_16x9          = -0.061392, 0.025928, -0.04
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_arbiter_bushmaster_e0t2]:wpn_arbiter_bushmaster
+
+visual	= dynamics\weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_world.ogf
+
+hud	= wpn_arbiter_bushmaster_e0t2_hud
+
+inv_weight	= 3.230
+
+1icon_layer			    = e0t2
+1icon_layer_x			= 60
+1icon_layer_y			= -3
+
+icons_texture      = ui\arbiterpack_icon
+inv_grid_width     = 4
+inv_grid_height    = 2
+inv_grid_x         = 0
+inv_grid_y         = 2
+
+[wpn_arbiter_bushmaster_e0t2_hud]:wpn_arbiter_bushmaster_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_e0t2_hud.ogf
+
+aim_hud_offset_pos               = -0.061554, 0.023229, -0.04
+aim_hud_offset_pos_16x9          = -0.061554, 0.023229, -0.04
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_arbiter_bushmaster_compm4s]:wpn_arbiter_bushmaster
+
+hud	= wpn_arbiter_bushmaster_compm4s_hud
+
+visual	= dynamics\weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_world.ogf
+
+1icon_layer                              = compm4s
+1icon_layer_x                            = 63
+1icon_layer_y                            = -2
+
+icons_texture      = ui\arbiterpack_icon
+inv_grid_width     = 4
+inv_grid_height    = 2
+inv_grid_x         = 0
+inv_grid_y         = 2
+
+inv_weight                               = 3.380
+
+[wpn_arbiter_bushmaster_compm4s_hud]:wpn_arbiter_bushmaster_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_compm4s_hud.ogf
+
+aim_hud_offset_pos               = -0.061659, 0.023868, -0.04
+aim_hud_offset_pos_16x9          = -0.061659, 0.023868, -0.04
+;------------------------------------------------------------------------------------------------
+[wpn_arbiter_bushmaster_kemper]:wpn_arbiter_bushmaster
+
+inv_weight	= 3.270
+
+hud			= wpn_arbiter_bushmaster_kemper_hud
+
+1icon_layer			    = kemper
+1icon_layer_x			= 62
+1icon_layer_y			= -2
+
+icons_texture      = ui\arbiterpack_icon
+inv_grid_width     = 4
+inv_grid_height    = 2
+inv_grid_x         = 0
+inv_grid_y         = 2
+
+visual				= dynamics\weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_world.ogf
+
+scope_status			= 0
+
+scope_dynamic_zoom = off
+
+[wpn_arbiter_bushmaster_kemper_hud]:wpn_arbiter_bushmaster_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_kemper_hud.ogf
+
+aim_hud_offset_pos               = -0.061182, 0.020815, -0.04
+aim_hud_offset_pos_16x9          = -0.061182, 0.020815, -0.04
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_arbiter_bushmaster_0kp2]:wpn_arbiter_bushmaster
+
+visual	= dynamics\weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_world.ogf
+
+hud	= wpn_arbiter_bushmaster_0kp2_hud
+
+inv_weight                                         = 3.200
+
+1icon_layer			    = 0kp2
+1icon_layer_x			= 65
+1icon_layer_y			= 4
+
+icons_texture      = ui\arbiterpack_icon
+inv_grid_width     = 4
+inv_grid_height    = 2
+inv_grid_x         = 0
+inv_grid_y         = 2
+
+[wpn_arbiter_bushmaster_0kp2_hud]:wpn_arbiter_bushmaster_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_bushmaster\wpn_arbiter_bushmaster_0kp2_hud.ogf
+
+aim_hud_offset_pos               = -0.060804, 0.028483, -0.04
+aim_hud_offset_pos_16x9          = -0.060804, 0.028483, -0.04
+;-------------------------------------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------
+;------------------------------------- Arbiter Defender -----------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_arbiter_defender]:identity_immunities,weapon_probability,default_weapon_params,wpn_saiga_sounds
+GroupControlSection                      = spawn_group
+$npc                                     = on
+$prefetch                                = 8
+$spawn                                   = "weapons\ak-74"
+scheduled                                = off
+cform                                    = skeleton
+parent_section                           = wpn_arbiter_defender
+
+class                                    = WP_AK74
+slot                                     = 2
+animation_slot                           = 2
+ef_main_weapon_type                      = 2
+ef_weapon_type                           = 8
+hand_dependence                          = 1
+single_handed                            = 0
+
+default_to_ruck                          = false
+sprint_allowed                           = true
+
+icons_texture               = ui\arbiterpack_icon
+inv_grid_height             = 2
+inv_grid_width              = 4
+inv_grid_x                  = 0
+inv_grid_y                  = 4
+inv_name                    = st_wpn_arbiter_defender
+inv_name_short              = st_wpn_arbiter_defender
+description                 = st_wpn_arbiter_defender_descr
+
+kind                        = w_shotgun
+inv_weight                  = 3.0
+cost                        = 28316
+repair_type                 = shotgun
+weapon_class                = shotgun
+
+hud                         = wpn_arbiter_defender_hud
+visual                      = dynamics\weapons\wpn_arbiter_defender\wpn_arbiter_defender_world.ogf     
+position                    = -0.025596, -0.17053, -0.014221
+orientation                 = 0, -4, 0
+fire_point                  = 0, 0.158, 0.647
+fire_point2                 = 0, 0.158, 0.647
+strap_bone0                 = bip01_spine2
+strap_bone1                 = bip01_spine1
+strap_orientation                = -6.700521, -2.037017, 109.555063
+strap_position                   = -0.344586, -0.123398, 0.085272
+ph_mass                                  = 4
+
+flame_particles                          = weapons\generic_weapon05
+smoke_particles                          = weapons\generic_shoot_00
+grenade_flame_particles                  = weapons\generic_weapon01
+
+shell_point               	             = 0.07,0.2,0.466
+shell_dir               	             = 0.0, 1.0, 0.0
+shell_bone                	             = wpn_body
+;shell_particles			                 = weapons\545x39
+
+light_disabled                           = false
+light_color                              = 0.6, 0.5, 0.3
+light_range                              = 5
+light_time                               = 0.2
+light_var_color                          = 0.05
+light_var_range                          = 0.5
+
+upgrades                    = up_gr_firstab_mp133, up_gr_seconab_mp133, up_gr_thirdab_mp133, up_gr_fourtab_mp133
+installed_upgrades          =
+upgrade_scheme              = upgrade_scheme_wincheaster1300
+upgr_icon_x                 = 1450
+upgr_icon_y                 = 1150
+upgr_icon_width             = 300
+upgr_icon_height            = 50
+
+fire_modes                  = 1
+ammo_class                  = ammo_12x70_buck, ammo_12x70_buck_bad, ammo_12x70_buck_verybad, ammo_12x76_zhekan, ammo_12x76_zhekan_bad, ammo_12x76_zhekan_verybad, ammo_12x76_dart, ammo_12x76_dart_bad, ammo_12x76_dart_verybad, ammo_12x70_buck_self
+ammo_elapsed                = 10
+ammo_mag_size               = 10
+startup_ammo                = 20
+
+scopes						= eot, specter, c-more, ac10632, aimpoint, point_aimpro, e0t2, compm4s, kemper
+scope_status                             = 0
+scope_zoom_factor                        = 0
+
+silencer_name                            = wpn_sil_tgp-a
+silencer_status                          = 0
+silencer_x                               = 227
+silencer_y                               = 12
+silencer_light_color                     = 0.6, 0.5, 0.3
+silencer_light_range                     = 0.01
+silencer_light_time                      = 0.2
+silencer_light_var_color                 = 0.05
+silencer_light_var_range                 = 0.5
+silencer_smoke_particles                 = weapons\generic_shoot_00
+
+grenade_class                            = ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name                    = wpn_addon_grenade_launcher
+grenade_launcher_status                  = 0
+grenade_launcher_x                       = 114
+grenade_launcher_y                       = 21
+launch_speed                             = 0
+
+hit_impulse                              = 40
+hit_power                                = 0.78, 0.78, 0.78, 0.78
+hit_type                                 = fire_wound
+fire_distance                            = 400
+bullet_speed                             = 325
+rpm                                      = 80
+rpm_empty_click                          = 200
+
+use_aim_bullet                           = false
+time_to_aim                              = 0.0 ;  3.0
+zoom_dof                                 = 0.5, 1.0, 180
+zoom_enabled                             = true
+zoom_rotate_time                         = 0.25
+reload_dof                               = 0.0, 0.5, 5, 2
+control_inertion_factor = 1.0f
+crosshair_inertion                       = 5.8
+fire_dispersion_base                     = 0.35
+fire_dispersion_condition_factor         = 0.001
+
+misfire_probability                      = 0.005
+misfire_start_condition                  = 0.7 ;  0.75
+misfire_start_prob                       = 0.007
+misfire_end_condition                    = 0.1
+misfire_end_prob                         = 0.11
+
+condition_queue_shot_dec    = 0.0026
+condition_shot_dec          = 0.0026
+
+cam_return                  = 0
+cam_relax_speed             = 20
+cam_dispersion              = 6.4
+cam_dispersion_frac         = 0.9
+cam_dispersion_inc          = 5.2
+cam_max_angle               = 50.0
+cam_max_angle_horz          = 50.0
+cam_step_angle_horz         = 2.35
+zoom_cam_relax_speed        = 16
+zoom_cam_dispersion         = 5.84
+zoom_cam_dispersion_frac    = 0.63
+zoom_cam_dispersion_inc     = 4.3
+zoom_cam_max_angle          = 50.0
+zoom_cam_max_angle_horz     = 50.0
+zoom_cam_step_angle_horz    = 2.28
+
+PDM_disp_accel_factor       = 1.85
+PDM_disp_base               = 1.7
+PDM_disp_crouch             = 1.0
+PDM_disp_crouch_no_acc      = 1.0
+PDM_disp_vel_factor         = 1.8
+
+cam_relax_speed_ai          = 360
+zoom_cam_relax_speed_ai     = 120.75
+holder_fov_modifier         = 1.0
+holder_range_modifier       = 1.0
+min_radius                  = 0
+max_radius                  = 500
+hit_probability_gd_novice   = 1.00
+hit_probability_gd_stalker  = 1.00
+hit_probability_gd_veteran  = 1.00
+hit_probability_gd_master   = 1.00
+
+kill_msg_x                  = 171
+kill_msg_y                  = 104
+kill_msg_width              = 75
+kill_msg_height             = 20
+
+snd_reload              = weapons\defender\defender_reload
+snd_reload_empty        = weapons\defender\defender_reload_empty
+snd_reload_misfire      = weapons\defender\defender_unjam
+snd_shoot				= wpn_mp133_snd_shoot
+snd_shoot_actor			= wpn_mp133_snd_shoot_actor
+
+
+[wpn_arbiter_defender_hud]:hud_base
+item_visual                              = anomaly_weapons\wpn_arbiter_defender\wpn_arbiter_defender_hud.ogf
+attach_place_idx                         = 0
+zoom_hide_crosshair                      = true
+
+item_position               = 0, 0, 0
+item_orientation            = 0, 0, 0
+
+hands_orientation                = 0.370003, 3.240005, 0.6
+hands_orientation_16x9           = 0.370003, 3.240005, 0.6
+hands_position                   = -0.02006, 0.014739, -0.076432
+hands_position_16x9              = -0.02006, 0.014739, -0.076432
+
+aim_hud_offset_pos               = -0.065545, 0.039493, -0.070214
+aim_hud_offset_pos_16x9          = -0.065545, 0.039493, -0.070214
+aim_hud_offset_rot               = 0.047912, 0.044777, -0.04501
+aim_hud_offset_rot_16x9          = 0.047912, 0.044777, -0.04501
+
+lowered_hud_offset_pos           = 0.110904, -0.005608, 0
+lowered_hud_offset_pos_16x9      = 0.110904, -0.005608, 0
+lowered_hud_offset_rot           = 0.11415, -0.801226, 0.1
+lowered_hud_offset_rot_16x9      = 0.11415, -0.801226, 0.1
+
+
+anm_bore                    = defender_inspection, idle
+anm_hide                    = defender_holster, idle
+anm_idle                    = defender_idle, idle
+anm_idle_aim                = defender_idle_aim, idle, 0.8
+anm_idle_aim_moving         = defender_idle_aim, idle, 1.1
+anm_idle_aim_moving_crouch  = defender_idle_aim, idle, 0.5
+anm_idle_moving             = defender_walk, idle, 2
+anm_idle_moving_crouch      = defender_walk, idle, 1.45
+anm_idle_sprint             = defender_run, idle, 1.1
+anm_reload                  = defender_reload, reload, 0.85
+anm_reload_empty            = defender_reload_empty, reload_empty, 0.85
+anm_shots                   = defender_shoot, shoot, 1.1
+anm_show                    = defender_drawing, idle
+anm_reload_misfire          = defender_unjam, unjam
+
+shell_bone                               = wpn_body
+shell_dir                                = 0, 1, 0
+shell_point                              = 0.017, 0.054, 0.17
+
+fire_bone                   = muzzle
+fire_bone2                  = muzzle
+fire_point                  = 0, 0, 0
+fire_point2                 = 0, 0, 0
+
+freelook_z_offset_mul					 = 0.2
+
+;---------------------------------------------------------------------------Addons----------------------------------------------------------------------
+[wpn_arbiter_defender_ac10632]:wpn_arbiter_defender
+
+visual = dynamics\weapons\wpn_arbiter_defender\wpn_arbiter_defender_world.ogf          
+
+1icon_layer			= ac10632
+1icon_layer_x			= 85
+1icon_layer_y			= -20
+
+;inv_weight                                         = 4.115
+
+hud				= wpn_arbiter_defender_ac10632_hud
+
+[wpn_arbiter_defender_ac10632_hud]:wpn_arbiter_defender_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_defender\wpn_arbiter_defender_ac10632_hud.ogf
+
+aim_hud_offset_pos               = -0.065329, 0.016311, -0.070214
+aim_hud_offset_pos_16x9          = -0.065329, 0.016311, -0.070214
+
+;-------------------------------------------------------------------------------
+[wpn_arbiter_defender_eot]:wpn_arbiter_defender
+
+visual = dynamics\weapons\wpn_arbiter_defender\wpn_arbiter_defender_world.ogf
+1icon_layer			    = eot
+1icon_layer_x			= 85
+1icon_layer_y			= -18
+
+;inv_weight                                         = 4.300
+
+hud				= wpn_arbiter_defender_eot_hud
+
+
+
+[wpn_arbiter_defender_eot_hud]:wpn_arbiter_defender_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_defender\wpn_arbiter_defender_eot_hud.ogf
+
+aim_hud_offset_pos               = -0.064902, 0.012111, -0.070214
+aim_hud_offset_pos_16x9          = -0.064902, 0.012111, -0.070214
+;-----------------------------------------------------------------------------
+[wpn_arbiter_defender_c-more]:wpn_arbiter_defender
+
+visual					= dynamics\weapons\wpn_arbiter_defender\wpn_arbiter_defender_world.ogf
+hud						= wpn_arbiter_defender_c-more_hud
+
+1icon_layer			    = c-more
+1icon_layer_x			= 85
+1icon_layer_y			= -20
+
+;inv_weight                                         = 4.300
+
+
+[wpn_arbiter_defender_c-more_hud]:wpn_arbiter_defender_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_defender\wpn_arbiter_defender_c-more_hud.ogf
+
+aim_hud_offset_pos               = -0.065653, 0.017027, -0.070214
+aim_hud_offset_pos_16x9          = -0.065653, 0.017027, -0.070214
+;--------------------------------------------------------------------------------
+[wpn_arbiter_defender_specter]:wpn_arbiter_defender
+
+visual	= dynamics\weapons\wpn_arbiter_defender\wpn_arbiter_defender_world.ogf
+hud		= wpn_arbiter_defender_specter_hud
+
+1icon_layer                              = specter
+1icon_layer_x                            = 83
+1icon_layer_y                            = -18
+
+;inv_weight                                         = 4.670
+scope_status                                       = 1
+scope_texture                                      = wpn_crosshair_specter
+scope_zoom_factor                                  = 25
+zoom_rotate_time                                   = 0.25
+scope_dynamic_zoom                                 = on
+
+scope_zoom_factor_alt             = 0
+
+use_alt_aim_hud                   = true	
+
+[wpn_arbiter_defender_specter_hud]:wpn_arbiter_defender_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_defender\wpn_arbiter_defender_specter_hud.ogf
+
+aim_hud_offset_alt_pos           = -0.065604, -0.000935, -0.089174
+aim_hud_offset_alt_pos_16x9      = -0.065604, -0.000935, -0.089174
+aim_hud_offset_alt_rot           = 0.060297, 0.046674, -0.046934
+aim_hud_offset_alt_rot_16x9      = 0.060297, 0.046674, -0.046934
+aim_hud_offset_pos               = -0.065378, 0.015881, -0.125396
+aim_hud_offset_pos_16x9          = -0.065378, 0.015881, -0.125396
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_arbiter_defender_aimpoint]:wpn_arbiter_defender
+
+visual	= dynamics\weapons\wpn_arbiter_defender\wpn_arbiter_defender_world.ogf
+hud		= wpn_arbiter_defender_aimpoint_hud
+
+;inv_weight                                         = 4.130
+
+1icon_layer			    = aimpoint
+1icon_layer_x			= 95
+1icon_layer_y			= -12
+
+[wpn_arbiter_defender_aimpoint_hud]:wpn_arbiter_defender_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_defender\wpn_arbiter_defender_aimpoint_hud.ogf
+
+aim_hud_offset_pos               = -0.065222, 0.012759, -0.070214
+aim_hud_offset_pos_16x9          = -0.065222, 0.012759, -0.070214
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_arbiter_defender_point_aimpro]:wpn_arbiter_defender
+
+visual	= dynamics\weapons\wpn_arbiter_defender\wpn_arbiter_defender_world.ogf
+hud		= wpn_arbiter_defender_point_aimpro_hud
+
+;inv_weight                                         = 4.330
+
+1icon_layer			    = point_aimpro
+1icon_layer_x			= 90
+1icon_layer_y			= -21
+
+[wpn_arbiter_defender_point_aimpro_hud]:wpn_arbiter_defender_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_defender\wpn_arbiter_defender_aimpoint_pro_hud.ogf
+
+aim_hud_offset_pos               = -0.065321, 0.012395, -0.070214
+aim_hud_offset_pos_16x9          = -0.065321, 0.012395, -0.070214
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_arbiter_defender_e0t2]:wpn_arbiter_defender
+
+visual	= dynamics\weapons\wpn_arbiter_defender\wpn_arbiter_defender_world.ogf
+hud		= wpn_arbiter_defender_e0t2_hud
+
+;inv_weight                                         = 4.227
+
+1icon_layer			    = e0t2
+1icon_layer_x			= 95
+1icon_layer_y			= -18
+
+[wpn_arbiter_defender_e0t2_hud]:wpn_arbiter_defender_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_defender\wpn_arbiter_defender_e0t2_hud.ogf
+
+aim_hud_offset_pos               = -0.065068, 0.015389, -0.070214
+aim_hud_offset_pos_16x9          = -0.065068, 0.015389, -0.070214
+;---------------------------------------------------------------------------------------
+[wpn_arbiter_defender_compm4s]:wpn_arbiter_defender
+
+hud	= wpn_arbiter_defender_compm4s_hud
+
+visual	= dynamics\weapons\wpn_arbiter_defender\wpn_arbiter_defender_world.ogf
+1icon_layer		= compm4s
+1icon_layer_x	= 90
+1icon_layer_y	= -20
+
+;inv_weight                               = 4.380
+
+[wpn_arbiter_defender_compm4s_hud]:wpn_arbiter_defender_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_defender\wpn_arbiter_defender_compm4s_hud.ogf
+
+aim_hud_offset_pos               = -0.065174, 0.014039, -0.070214
+aim_hud_offset_pos_16x9          = -0.065174, 0.014039, -0.070214
+;------------------------------------------------------------------------------------------------
+[wpn_arbiter_defender_kemper]:wpn_arbiter_defender
+
+;inv_weight			= 4.266
+
+hud				= wpn_arbiter_defender_kemper_hud
+
+1icon_layer			    = kemper
+1icon_layer_x			= 92
+1icon_layer_y			= -20
+
+visual				= dynamics\weapons\wpn_arbiter_defender\wpn_arbiter_defender_world.ogf
+scope_status			= 0
+
+scope_dynamic_zoom = off
+
+[wpn_arbiter_defender_kemper_hud]:wpn_arbiter_defender_hud
+
+item_visual	= anomaly_weapons\wpn_arbiter_defender\wpn_arbiter_defender_kemper_hud.ogf
+
+aim_hud_offset_pos               = -0.065174, 0.012969, -0.070214
+aim_hud_offset_pos_16x9          = -0.065174, 0.012969, -0.070214
+;----------------------------------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------
+;------------------------------------- Arbiter Revolver -----------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_arbiter_revolver]:identity_immunities,weapon_probability,default_weapon_params,wpn_mp412_sounds
+GroupControlSection         = spawn_group
+discovery_dependency        =
+$npc                        = on
+$prefetch                   = 8
+$spawn                      = "weapons\Desert Eagle"
+scheduled                   = off
+cform                       = skeleton
+parent_section              = wpn_arbiter_revolver
+hud_fov                     = 0.7
+
+class                       = WP_PM
+slot                        = 1
+animation_slot              = 1
+ef_weapon_type              = 5
+hand_dependence             = 1
+single_handed               = 1
+
+default_to_ruck             = false
+sprint_allowed              = true
+
+icons_texture               = ui\arbiterpack_icon
+inv_grid_height             = 1
+inv_grid_width              = 2
+inv_grid_x                  = 0
+inv_grid_y                  = 6
+inv_name                    = st_wpn_arbiter_revolver
+inv_name_short              = st_wpn_arbiter_revolver
+description                 = st_wpn_arbiter_revolver_descr
+
+kind                        = w_pistol
+inv_weight                  = 1.3
+cost                        = 28741
+repair_type                 = pistol
+
+hud                         = wpn_arbiter_revolver_hud
+visual				= dynamics\weapons\wpn_arbiter_revolver\wpn_arbiter_revolver_world.ogf
+position                    = -0.021, -0.085, 0.0
+orientation                 = 0, 0, 0
+fire_point                  = 0.0, 0.133, 0.22
+ph_mass                     = 1
+
+flame_particles             = weapons\generic_weapon05
+smoke_particles				        = ghost_particles\weapons\flame_eft_ak  
+
+shell_point		 			= 0.0, 0.133, 0.047
+shell_dir		 			= 0.0, 0.0, 0.4
+;shell_particles	 		= weapons\45acp
+
+light_color                 = 0.6, 0.5, 0.3
+light_range                 = 10
+light_time                  = 0.3
+light_var_color             = 0.05
+light_var_range             = 0.1
+
+upgrades                    = up_gr_firstab_mp412, up_gr_seconab_mp412
+installed_upgrades          =
+upgrade_scheme              = upgrade_scheme_mp412
+upgr_icon_x                 = 750
+upgr_icon_y                 = 1850
+upgr_icon_width             = 150
+upgr_icon_height            = 100
+
+fire_modes                  = 1
+ammo_class                  = ammo_5.56x45_fmj, ammo_5.56x45_fmj_bad, ammo_5.56x45_fmj_verybad, ammo_5.56x45_ss190, ammo_5.56x45_ss190_bad, ammo_5.56x45_ss190_verybad, ammo_5.56x45_ap, ammo_5.56x45_ap_bad, ammo_5.56x45_ap_verybad
+ammo_current                = 90
+ammo_elapsed                = 12
+ammo_limit                  = 120
+ammo_mag_size               = 4
+
+scope_status                = 0
+scope_zoom_factor           = 0
+
+silencer_name               = wpn_sil_nato
+silencer_status             = 2
+silencer_x			        = 85         
+silencer_y			        = -14
+silencer_light_color        = 0.6, 0.5, 0.3
+silencer_light_range        = 0.01
+silencer_light_time         = 0.2
+silencer_light_var_color    = 0.05
+silencer_light_var_range    = 0.5
+silencer_smoke_particles    = weapons\generic_shoot_00
+
+grenade_launcher_status     = 0
+
+hit_impulse                              = 52
+hit_power                                = 0.63, 0.63, 0.63, 0.63
+hit_type                                 = fire_wound
+fire_distance                            = 610
+bullet_speed                             = 880
+rpm                         = 225
+rpm_empty_click             = 120
+
+use_aim_bullet = false
+time_to_aim                 = 0.0 ;  1.0
+zoom_dof                    = -1000, 1.0, 1000
+zoom_enabled                = true
+zoom_rotate_time            = 0.25
+reload_dof                  = 0.0, 0.5, 5, 1.7
+control_inertion_factor = 1.0f
+crosshair_inertion          = 3.8
+fire_dispersion_base        = 0.54
+fire_dispersion_condition_factor = 0.001
+
+misfire_start_condition     = 0.7 ;  0.85
+misfire_start_prob          = 0.007
+misfire_end_condition       = 0.12
+misfire_end_prob            = 0.11
+
+condition_queue_shot_dec    = 0.0013
+condition_shot_dec          = 0.0013
+
+cam_return                               = 0
+cam_relax_speed                          = 10
+cam_dispersion                           = 0.556
+cam_dispersion_frac                      = 1.0
+cam_dispersion_inc                       = 0.0675
+cam_max_angle                            = 50.0
+cam_max_angle_horz                       = 50.0
+cam_step_angle_horz                      = 0.9
+zoom_cam_relax_speed                     = 10
+zoom_cam_dispersion                      = 0.466
+zoom_cam_dispersion_frac                 = 1.0
+zoom_cam_dispersion_inc                  = 0.0525
+zoom_cam_max_angle                       = 50.0
+zoom_cam_max_angle_horz                  = 50.0
+zoom_cam_step_angle_horz                 = 0.85
+
+PDM_disp_accel_factor                    = 2.3
+PDM_disp_base                            = 0.8
+PDM_disp_crouch                          = 1.0
+PDM_disp_crouch_no_acc                   = 1.0
+PDM_disp_vel_factor                      = 2.3
+
+cam_relax_speed_ai                       = 360
+zoom_cam_relax_speed_ai                  = 360
+holder_fov_modifier                      = 1.0
+holder_range_modifier                    = 1.0
+min_radius                               = 0
+max_radius                               = 500
+hit_probability_gd_novice                = 1.00
+hit_probability_gd_stalker               = 1.00
+hit_probability_gd_veteran               = 1.00
+hit_probability_gd_master                = 1.00
+
+kill_msg_x                  = 194
+kill_msg_y                  = 123
+kill_msg_width              = 46
+kill_msg_height             = 27
+weapon_lower_speed			= 0.2
+
+snd_shoot               				                          = wpn_svt40_snd_shoot
+snd_shoot_actor													  = wpn_svt40_snd_shoot_actor
+snd_silncer_shot				                                  = wpn_dmr_snd_silenced
+snd_silncer_shot_actor				                              = wpn_dmr_snd_silenced_actor
+
+snd_reload              = weapons\judgement\judgement_reload
+snd_reload_empty        = weapons\judgement\judgement_reload
+snd_reload_misfire      = weapons\judgement\judgement_unjam
+snd_bore                = weapons\judgement\judgement_inspect
+		
+
+[wpn_arbiter_revolver_hud]:hud_base
+item_visual                 = anomaly_weapons\wpn_arbiter_revolver\wpn_arbiter_revolver_hud.ogf
+attach_place_idx            = 0
+zoom_hide_crosshair         = true
+
+item_position               = 0, 0, 0
+item_orientation            = 0, 0, 0
+
+hands_orientation                = 1.550004, 0.293326, 0
+hands_orientation_16x9           = 1.550004, 0.293326, 0
+hands_position                   = -0.032119, 0.029249, -0.060992
+hands_position_16x9              = -0.032119, 0.029249, -0.060992
+
+safemode_anm				= 
+safemode_anm2				= 
+
+lowered_hud_offset_pos           = 0.052486, -0.246594, 0.050274
+lowered_hud_offset_pos_16x9      = 0.052486, -0.246594, 0.050274
+lowered_hud_offset_rot           = -1.134382, 0.033807, 0.1
+lowered_hud_offset_rot_16x9      = -1.134382, 0.033807, 0.1
+
+aim_hud_offset_pos               = -0.072714, 0.033786, -0.077982
+aim_hud_offset_pos_16x9          = -0.072714, 0.033786, -0.077982
+aim_hud_offset_rot               = 0.002622, 0.02804, -0.0005
+aim_hud_offset_rot_16x9          = 0.002622, 0.02804, -0.0005
+
+gl_hud_offset_pos           = 0, 0, 0
+gl_hud_offset_rot           = 0, 0, 0
+
+lean_hud_offset_pos         = 0, 0, 0
+lean_hud_offset_rot         = 0, 0, 0
+
+anm_bore                    = judgement_inspect, inspect
+anm_hide                    = judgement_holster, idle
+anm_idle                    = judgement_idle, idle, 0.6
+anm_idle_aim                = judgement_idle_aim, idle, 0.5
+anm_idle_aim_moving         = judgement_walk, idle, 1.1
+anm_idle_aim_moving_crouch  = judgement_walk, idle, 0.8
+anm_idle_moving             = judgement_walk, idle, 0.8
+anm_idle_sprint             = judgement_run, idle, 1.15
+anm_reload                  = judgement_reload, reload
+anm_reload_emtpy            = judgement_reload, reload
+anm_shots                   = judgement_shoot, shoot
+anm_show                    = judgement_draw, idle, 1.22
+anm_reload_misfire          = judgement_unjam, unjam
+
+shell_bone                  = wpn_body
+shell_point                 = 0, 0, -50
+
+fire_bone                   = muzzle
+fire_point                  = 0, 0, 0
+

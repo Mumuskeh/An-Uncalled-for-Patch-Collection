@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+
+<string id="st_wpn_arbiter_bushmaster">
+		<text>Bushmaster</text>
+	</string>
+	<string id="st_wpn_arbiter_bushmaster_descr">
+		<text>The Arbiter Bushmaster is a versatile pistol carbine that combines the compactness of a handgun with the precision and power of a rifle. Built on the AR-15 platform, this carbine is chambered in 5.56mm, offering formidable firepower in a lightweight package. Its standout feature is the integrated suppressor, providing stealthy operation without compromising on performance. The shotgun grip enhances control and maneuverability, making it ideal for close-quarters engagements. Whether for tactical operations or personal defense, the Arbiter Bushmaster excels as a reliable and adaptable firearm. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Some collimator sights for Picatinny/Weaver system. \n </text>
+	</string>
+	
+	<string id="st_mag_bushmaster_default">
+		<text>Bushmaster AR Magazine</text>
+	</string>
+	<string id="st_mag_bushmaster_default_descr">
+		<text>Standard magazine for the Bushmaster pistol carbine, houses 6 rounds of 5.56x45 ammunition \n </text>
+	</string>
+
+
+<string id="st_wpn_arbiter_defender">
+		<text>Defender</text>
+	</string>
+	<string id="st_wpn_arbiter_defender_descr">
+		<text>The Arbiter Defender is a formidable pump-action shotgun renowned for its reliability and power. Featuring a magazine-fed system, it delivers swift and precise 12-gauge firepower, making it a favored choice for law enforcement and home defense. Its rugged design ensures durability in demanding situations, while its ergonomic grip and adjustable stock provide comfort and control. With a reputation for unmatched performance, the Arbiter Defender stands as a symbol of unwavering protection. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Some collimator sights for Picatinny/Weaver system. \n </text>
+	</string>
+
+
+<string id="st_wpn_arbiter_revolver">
+		<text>Judgement</text>
+	</string>
+	<string id="st_wpn_arbiter_revolver_descr">
+		<text>The Judgement Revolver is a formidable firearm, blending classic revolver aesthetics with modern firepower. Chambered in the popular 5.56x45mm NATO round, this revolver boasts a sleek, ergonomic design coupled with a 4-round cylinder capacity, offering a unique balance of power and precision. Whether for self-defense or sport shooting, the Arbiter Revolver promises reliable performance and a distinctive shooting experience. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: NATO 5.56x45 suppressor. \n </text>
+	</string>
+
+</string_table>

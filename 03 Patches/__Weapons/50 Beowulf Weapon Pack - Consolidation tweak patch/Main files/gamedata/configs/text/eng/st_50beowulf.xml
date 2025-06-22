@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	
+	<string id="ammo_50beowulf_fmj">
+		<text>.50 RS-FMJ rounds</text>
+	</string>
+	<string id="ammo_50beowulf_fmj_descr">
+		<text>The .50 Beowulf RS-FMJ is a heavy round designed to fit within the sizing of standard AR-15 magwells, advertised for general vehicle penitration [Full Metal Jacket], it has exceptional close to medium range terminal ballistics,\n</text>
+		\n%c[ui_gray_2] - %c[ui_gray_2] Armor Penetration (AP): %c[ui_gray_1]BR6 (72)
+		\n%c[ui_gray_2] - %c[ui_gray_2] Stopping power (DMG): %c[ui_gray_1]52
+	</string>
+	<string id="ammo_50beowulf_fmj_s">
+		<text>.50 FMJ</text>
+	</string>
+	
+	<string id="ammo_50beowulf_arx">
+		<text>.50 Zenith ARX rounds</text>
+	</string>
+	<string id="ammo_50beowulf_arx_descr">
+		<text>The .50 Zenith ARX is lighter than FMJ and is a unique tri-flute design that offers extremely impressive terminal ballistics, including an enlarged temporary cavity and projectile fragmentation for secondary wound channels [Tri-Fluted Point] , in short "it rips and tears"\n</text>
+		\n%c[ui_gray_2] - %c[ui_gray_2] Armor Penetration (AP): %c[ui_gray_1]BR6 (68)
+		\n%c[ui_gray_2] - %c[ui_gray_2] Stopping power (DMG): %c[ui_gray_1]50
+	</string>
+	<string id="ammo_50beowulf_arx_s">
+		<text>.50 ARX</text>
+	</string>
+	<string id="ammo_50beowulf_fmj_bad_s">
+		<text>.50 Old FMJ</text>
+	</string>
+	<string id="ammo_50beowulf_fmj_verybad_s">
+		<text>.50 Trash FMJ</text>
+	</string>
+	<string id="ammo_50beowulf_arx_bad_s">
+		<text>.50 Old ARX</text>
+	</string>
+	<string id="ammo_50beowulf_arx_verybad_s">
+		<text>.50 Trash ARX</text>
+	</string>
+	
+	<string id="st_wpn_m4_beowulf">
+		<text>Ghost AR-50B</text>
+	</string>
+	<string id="st_wpn_m4_beowulf_descr">
+		<text>Introducing the Ghost 50 BEO, a cutting-edge rifle crafted by the renowned Ghost Armory, setting new standards in firepower and precision. Chambered in the formidable .50 Beowulf caliber, this weapon seamlessly merges raw strength with finesse. The Ghost 50 BEO boasts a sleek and ergonomic design, featuring advanced materials that enhance durability without compromising on weight. Equipped with state-of-the-art optics and an adjustable stock, this rifle ensures unparalleled accuracy even in challenging conditions. Whether for long-range engagements or close-quarter combat, the Ghost 50 BEO stands as a testament to Ghost Armory's commitment to innovation, providing operators with an exceptional and reliable tool that dominates the battlefield with unrivaled power and efficiency. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: All scopes for the picatinny/Weaver system.\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: AAC 7.62 SDN-6 Suppressor.\n</text>
+	</string>
+
+	<string id="st_wpn_mdr_50">
+		<text>Ghost MDR-50B</text>
+	</string>
+	<string id="st_wpn_mdr_50_descr">
+		<text>Introducing the MDR Bullpup Rifle in .50 Beowulf crafted by the renowned Ghost Armory, a compact powerhouse that combines the agility of the bullpup design with the raw stopping power of the .50 Beowulf cartridge. Designed for versatility and performance, this rifle boasts a shorter overall length for enhanced maneuverability in tight spaces without compromising on barrel length or ballistic effectiveness. The MDR's ergonomic features and advanced materials ensure comfortable handling and precision accuracy, making it suitable for a variety of applications, from hunting to tactical operations. Whether you're navigating dense brush or engaging targets at long range, the MDR in .50 Beowulf is a formidable choice, delivering uncompromising performance and reliability in a sleek, modern package.. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Some with picatinny/weaver system.\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: AAC-762 Suppressor. \n</text>
+	</string>	
+	
+	<string id="st_mag_m4beo_default">
+		<text>BEO .50 Beowulf Magazine.</text>
+	</string>
+	<string id="st_mag_m4beo_default_descr">
+		<text>Magazine for the Ghost .50 BEO rifle, holds 10 rounds of .50 Beowulf ammunition. \n \n</text>
+	</string>
+	
+	<string id="st_mag_mdr50_default">
+		<text>6-round .50 Beowulf Magazine</text>
+	</string>
+	<string id="st_mag_mdr50_default_descr">
+		<text>Magazine for the MDR-50 Bullpup rifle, it holds 6 rounds of .50 Beowulf ammunition. \n</text>
+	</string>	
+	
+</string_table>
