@@ -1,0 +1,13 @@
+<specific_character id="sim_default_csky_3_default_newoutfits_0" team_default = "1">
+#include "gameplay\profiles\character_desc_csky_3.xml"
+    <icon>ui_inGame2_stalker_nebo_skat</icon>
+    <snd_config>characters_voice\human\csky_3\</snd_config>
+    <visual>actors\stalker_nebo\military_sky_multi_outfit</visual>
+</specific_character>
+
+<specific_character id="sim_default_csky_4_default_newoutfits_0" team_default = "1">
+#include "gameplay\profiles\character_desc_csky_4.xml"
+    <icon>ui_inGame2_stalker_nebo_skat</icon>
+    <snd_config>characters_voice\human\csky_3\</snd_config>
+    <visual>actors\stalker_nebo\military_sky_multi_outfit</visual>
+</specific_character>

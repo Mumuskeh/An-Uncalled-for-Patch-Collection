@@ -1,0 +1,13 @@
+<specific_character id="sim_default_isg_3_default_eap_17" team_default = "1">
+#include "gameplay\profiles\character_desc_isg_3.xml"
+    <icon>ui_inGame2_Soldier_2</icon>
+    <snd_config>characters_voice\human\killer_3\</snd_config>
+    <visual>actors\stalker_isg\isg_lcs_operator_outfit</visual>
+</specific_character>
+
+<specific_character id="sim_default_isg_4_default_eap_0" team_default = "1">
+#include "gameplay\profiles\character_desc_isg_4.xml"
+    <icon>ui_inGame2_neutral_3</icon>
+    <snd_config>characters_voice\human\killer_3\</snd_config>
+    <visual>actors\stalker_isg\isg_exolight_ghost_outfit</visual>
+</specific_character>

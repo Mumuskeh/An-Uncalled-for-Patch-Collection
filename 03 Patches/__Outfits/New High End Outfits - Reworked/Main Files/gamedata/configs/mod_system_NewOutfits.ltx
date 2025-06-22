@@ -1,0 +1,120 @@
+[military_sky_multi_outfit]:military_sky_outfit
+actor_visual                  = actors\stalker_nebo\military_sky_multi_outfit.ogf
+npc_visual                    = actors\stalker_nebo\military_sky_multi_outfit.ogf
+inv_name                      = st_military_sky_multi_outfit_name
+inv_name_short                = st_military_sky_multi_outfit_name
+description                   = st_military_sky_multi_outfit_desc
+upgrades                      = up_gr_firstab_seva_1, up_gr_seconab_seva_1, up_gr_thirdab_skat_1, up_gr_fourtab_skat_1
+cost                          = 108000
+inv_weight                    = 15
+additional_inventory_weight   = 23
+additional_inventory_weight2  = 23
+artefact_count                = 3
+immunities_sect               = military_sky_multi_outfit_immunities
+hit_fraction_actor            = 0.3
+bones_koeff_protection        = actor_armor_cs_heavy
+control_inertion_factor       = 1.35
+strike_protection             = 0.48
+explosion_protection          = 0.47
+wound_protection              = 0.42
+fire_wound_protection         = 0.35
+
+[military_sky_multi_outfit_immunities]:sect_military_outfit_immunities
+explosion_immunity            = 0.1
+wound_immunity                = 0.022
+
+
+[dolg_heavy_ranger_outfit]:dolg_voin_outfit
+actor_visual                  = actors\stalker_dolg\dolg_heavy_ranger_outfit.ogf
+npc_visual                    = actors\stalker_dolg\dolg_heavy_ranger_outfit.ogf
+player_hud_section            = actor_hud_duty_psz9d
+character_portrait            = ui_inGame2_Dolg_3
+inv_name                      = st_dolg_heavy_ranger_outfit_name
+description                   = st_dolg_heavy_ranger_outfit_desc
+upgr_icon_x                   = 1200
+upgr_icon_y                   = 600
+upgr_icon_width               = 300
+upgr_icon_height              = 150
+kind                          = o_heavy
+cost                          = 115000
+inv_weight                    = 17
+additional_inventory_weight   = 23
+additional_inventory_weight2  = 23
+artefact_count                = 3
+immunities_sect               = sect_dolg_heavy_ranger_outfit_immunities
+repair_type                   = outfit_heavy
+hit_fraction_actor            = 0.22
+bones_koeff_protection        = actor_armor_class4
+control_inertion_factor       = 1.54
+strike_protection             = 0.49
+explosion_protection          = 0.8
+wound_protection              = 0.49
+fire_wound_protection         = 0.49
+
+[sect_dolg_heavy_ranger_outfit_immunities]:sect_dolg_voin_outfit_immunities
+explosion_immunity            = 0.08
+fire_wound_immunity           = 0.01
+strike_immunity               = 0.003
+wound_immunity                = 0.015
+
+
+[svoboda_heavy_barrier_outfit]:svoboda_heavy_outfit
+actor_visual                  = actors\stalker_freedom\svoboda_heavy_barrier_outfit.ogf
+npc_visual                    = actors\stalker_freedom\svoboda_heavy_barrier_outfit.ogf
+inv_name                      = st_svoboda_heavy_barrier_outfit_name
+inv_name_short                = st_svoboda_heavy_barrier_outfit_name
+description                   = st_svoboda_heavy_barrier_outfit_desc
+upgrades                      = up_gr_firstab_seva_1, up_gr_seconab_berill_3, up_gr_thirdab_berill_3, up_gr_fourtab_skat_1
+kind                          = o_heavy
+cost                          = 103000
+inv_weight                    = 17
+additional_inventory_weight   = 23
+additional_inventory_weight2  = 23
+artefact_count                = 3
+immunities_sect               = sect_svoboda_heavy_barrier_outfit_immunities
+repair_type                   = outfit_heavy
+hit_fraction_actor            = 0.3
+bones_koeff_protection        = stalker_assault_vest
+burn_protection               = 0.15
+shock_protection              = 1.8
+chemical_burn_protection      = 0.12
+telepatic_protection          = 0.025
+
+[sect_svoboda_heavy_barrier_outfit_immunities]:sect_svoboda_heavy_outfit_immunities
+burn_immunity                 = 0.03
+chemical_burn_immunity        = 0.007
+fire_wound_immunity           = 0.024
+shock_immunity                = 0.004
+
+; the stalker_skat scheme already does the same, no need to reinvent the wheel
+; [actor_armor_barrier]:body_damage_025, head_damage_00
+; ap_scale = 0.75
+
+
+[stalker_old_outfit]:wastelander_outfit
+actor_visual                  = actors\stalker_neutral\stalker_old_outfit.ogf
+npc_visual                    = actors\stalker_neutral\stalker_old_outfit.ogf
+inv_name                      = st_stalker_old_outfit_name
+inv_name_short                = st_stalker_old_outfit_name
+description                   = st_stalker_old_outfit_desc
+upgrades                      = up_gr_firstab_sunrise_2, up_gr_seconab_lcs_3, up_gr_thirdab_sunrise_2, up_gr_fourtab_skat_1
+kind                          = o_heavy
+cost                          = 102000
+inv_weight                    = 14
+additional_inventory_weight   = 23
+additional_inventory_weight2  = 23
+immunities_sect               = sect_stalker_old_outfit_immunities
+repair_type                   = outfit_heavy
+hit_fraction_actor            = 0.35
+bones_koeff_protection        = stalker_assault_vest
+control_inertion_factor       = 1.42
+radiation_protection          = 0.01
+telepatic_protection          = 0
+strike_protection             = 0.38
+explosion_protection          = 0.45
+wound_protection              = 0.65
+fire_wound_protection         = 0.32
+
+[sect_stalker_old_outfit_immunities]:sect_wastelander_outfit_immunities
+explosion_immunity            = 0.1
+wound_immunity                = 0.02

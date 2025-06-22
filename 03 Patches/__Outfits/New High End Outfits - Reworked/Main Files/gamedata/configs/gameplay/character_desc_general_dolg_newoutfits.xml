@@ -1,0 +1,13 @@
+<specific_character id="sim_default_duty_3_default_newoutfits_0" team_default = "1">
+#include "gameplay\profiles\character_desc_dolg_3.xml"
+    <icon>ui_inGame2_dolg_skat</icon>
+    <snd_config>characters_voice\human\dolg_1\</snd_config>
+    <visual>actors\stalker_dolg\dolg_heavy_ranger_outfit</visual>
+</specific_character>
+
+<specific_character id="sim_default_duty_4_default_newoutfits_0" team_default = "1">
+#include "gameplay\profiles\character_desc_dolg_4.xml"
+    <icon>ui_inGame2_dolg_skat</icon>
+    <snd_config>characters_voice\human\dolg_3\</snd_config>
+    <visual>actors\stalker_dolg\dolg_heavy_ranger_outfit</visual>
+</specific_character>

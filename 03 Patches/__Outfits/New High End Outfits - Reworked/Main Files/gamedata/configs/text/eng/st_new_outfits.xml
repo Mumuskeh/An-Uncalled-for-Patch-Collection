@@ -1,0 +1,35 @@
+<string_table>
+
+	<string id="st_military_sky_multi_outfit_name">
+		<text>CS-4c Multi-Purpose Suit</text>
+	</string>
+	<string id="st_military_sky_multi_outfit_desc">
+		<text>%c[ui_gray_1]A lightened version of the CS-4b, swapping armor for more attachment modules, while keeping the terrific upgrade potential of the suit it's based on. Used mainly by the few veteran Clear Sky stalkers looking for self-sufficiency as they travel to the far northern reaches of the Zone.
+		</text>
+	</string>
+	
+	<string id="st_dolg_heavy_ranger_outfit_name">
+		<text>PSZ-9v Ranger Armor</text>
+	</string>
+	<string id="st_dolg_heavy_ranger_outfit_desc">
+		<text>%c[ui_gray_1]A suit consisting of PSZ-9 body armor, coupled with a body rig capable of holding 3 armor modules. This suit is used by Duty scouts expected to operate independently for long periods of time in the Zone. The ranger armor would normally be considered a downgrade to the PSZ-9d, as it lacks the customizability and upgradability of its predecessor, however a resourceful stalker can make up for it's deficiencies by making use of the extra modules.
+		</text>
+	</string>
+
+	<string id="st_svoboda_heavy_barrier_outfit_name">
+		<text>Bulwark of Freedom</text>
+	</string>
+	<string id="st_svoboda_heavy_barrier_outfit_desc">
+		<text>%c[ui_gray_1]Someone took great care in upgrading this old Guardian of Freedom suit. The inner lining has been replaced with seva-suit level materials to guard against electricity, chemicals, and even psi-emissions. The outer portion of the suit has been heavily modified to accept multiple life support systems. Finally, the suit comes ready with three armor modules. Found abandoned in the Army Warehouses, it's uncertain what befell its previous owner. Sewn onto the left shoulder are the words "Stand Fast."
+		</text>
+	</string>
+
+	<string id="st_stalker_old_outfit_name">
+		<text>"Ancient" Stalker Suit</text>
+	</string>
+	<string id="st_stalker_old_outfit_desc">
+		<text>%c[ui_gray_1]An old, worn, and even somewhat crusty stalker suit that looks like it's served for years here in the Zone. The previous owners have kept this suit in one piece through careful and loving patchwork repairs. While primarily consisting of a "Sunrise" style stalker suit, an extra protective layer has been sewn onto the innerside of the vest. Though this makes the suit somewhat bulky, the upgrade potential more than makes up for it. Just take care all your upgrades and loot don't make you too top-heavy.
+		</text>
+	</string>
+	
+</string_table>
