@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<string id="st_ied_electro">
+		<text>Improvised explosive device (Addition of electrical artifact)</text>
+	</string>
+	<string id="st_ied_electro_descr">
+		<text>Improvised explosive device produced from various chemical substances, with a broken electrical igniter and in steel ball container. Chemicals used in the device produce intense odour and are heavily toxic. This IED is significantly more powerful than a more common OG-7V version. In the Zone, IEDs are quite popular and Zoners use them for a variety of purposes, from gaining access to closed areas to ambushes. They are also often placed next to mines to greatly amplify the explosion's power. IED can be effectively concealed making it virtually invisible to everyone else. This one has been bolstered by an electric based artifact, and as such applies anomaly level shocks to the surroundings.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] explosive\n
+		%c[d_blue] • %c[ui_gray_2] military item\n
+		%c[d_blue] • %c[ui_gray_2] unnoticeable when placed on ground\n
+		%c[d_purple] • %c[ui_gray_2] triggering mechanism: %c[ui_gray_1]proximity\n
+		%c[d_purple] • %c[ui_gray_2] blast power: %c[ui_gray_1]very high\n
+		%c[d_purple] • %c[ui_gray_2] blast radius: %c[ui_gray_1]12.9 m\n
+		%c[d_purple] • %c[ui_gray_2] fragments radius: 
+		%c[ui_gray_1]74 m\n
+		%c[d_purple] • %c[ui_gray_2] av. number of fragments: %c[ui_gray_1]580 (steel balls)\n
+		%c[d_purple] • %c[ui_gray_2] explosion delay: %c[ui_gray_1]none\n
+		</text>
+	</string>
+
+<string id="st_ied_gravy">
+		<text>Improvised explosive device (Addition of gravitational artifact)</text>
+	</string>
+	<string id="st_ied_gravy_descr">
+		<text>Improvised explosive device produced from various chemical substances, with a broken electrical igniter and in steel ball container. Chemicals used in the device produce intense odour and are heavily toxic. This IED is significantly more powerful than a more common OG-7V version. In the Zone, IEDs are quite popular and Zoners use them for a variety of purposes, from gaining access to closed areas to ambushes. They are also often placed next to mines to greatly amplify the explosion's power. IED can be effectively concealed making it virtually invisible to everyone else. This one has been bolstered by an gravity based artifact, and as such applies massive force to all nearby targets.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] explosive\n
+		%c[d_blue] • %c[ui_gray_2] military item\n
+		%c[d_blue] • %c[ui_gray_2] unnoticeable when placed on ground\n
+		%c[d_purple] • %c[ui_gray_2] triggering mechanism: %c[ui_gray_1]proximity\n
+		%c[d_purple] • %c[ui_gray_2] blast power: %c[ui_gray_1]very high\n
+		%c[d_purple] • %c[ui_gray_2] blast radius: %c[ui_gray_1]12.9 m\n
+		%c[d_purple] • %c[ui_gray_2] fragments radius: 
+		%c[ui_gray_1]74 m\n
+		%c[d_purple] • %c[ui_gray_2] av. number of fragments: %c[ui_gray_1]580 (steel balls)\n
+		%c[d_purple] • %c[ui_gray_2] explosion delay: %c[ui_gray_1]none\n
+		</text>
+	</string>
+	
+<string id="st_ied_burn">
+		<text>Improvised explosive device (Addition of thermal artifact)</text>
+	</string>
+	<string id="st_ied_burn_descr">
+		<text>Improvised explosive device produced from various chemical substances, with a broken electrical igniter and in steel ball container. Chemicals used in the device produce intense odour and are heavily toxic. This IED is significantly more powerful than a more common OG-7V version. In the Zone, IEDs are quite popular and Zoners use them for a variety of purposes, from gaining access to closed areas to ambushes. They are also often placed next to mines to greatly amplify the explosion's power. IED can be effectively concealed making it virtually invisible to everyone else. This one has been bolstered by an thermal artifact, and as such immolates all nearby targets.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] explosive\n
+		%c[d_blue] • %c[ui_gray_2] military item\n
+		%c[d_blue] • %c[ui_gray_2] unnoticeable when placed on ground\n
+		%c[d_purple] • %c[ui_gray_2] triggering mechanism: %c[ui_gray_1]proximity\n
+		%c[d_purple] • %c[ui_gray_2] blast power: %c[ui_gray_1]very high\n
+		%c[d_purple] • %c[ui_gray_2] blast radius: %c[ui_gray_1]6.45 m\n
+		%c[d_purple] • %c[ui_gray_2] fragments radius: 
+		%c[ui_gray_1]74 m\n
+		%c[d_purple] • %c[ui_gray_2] av. number of fragments: %c[ui_gray_1]580 (steel balls)\n
+		%c[d_purple] • %c[ui_gray_2] explosion delay: %c[ui_gray_1]none\n
+		</text>
+	</string>
+
+<string id="st_ied_acid">
+		<text>Improvised explosive device (Addition of chemical artifact)</text>
+	</string>
+	<string id="st_ied_acid_descr">
+		<text>Improvised explosive device produced from various chemical substances, with a broken electrical igniter and in steel ball container. Chemicals used in the device produce intense odour and are heavily toxic. This IED is significantly more powerful than a more common OG-7V version. In the Zone, IEDs are quite popular and Zoners use them for a variety of purposes, from gaining access to closed areas to ambushes. They are also often placed next to mines to greatly amplify the explosion's power. IED can be effectively concealed making it virtually invisible to everyone else. This one has been bolstered by an chemical-based artifact, and as such emits highly toxic gasses that liquefy anything unfortunate enough to be close by.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] explosive\n
+		%c[d_blue] • %c[ui_gray_2] military item\n
+		%c[d_blue] • %c[ui_gray_2] unnoticeable when placed on ground\n
+		%c[d_purple] • %c[ui_gray_2] triggering mechanism: %c[ui_gray_1]proximity\n
+		%c[d_purple] • %c[ui_gray_2] blast power: %c[ui_gray_1]very high\n
+		%c[d_purple] • %c[ui_gray_2] blast radius: %c[ui_gray_1]6.45 m\n
+		%c[d_purple] • %c[ui_gray_2] fragments radius: 
+		%c[ui_gray_1]74 m\n
+		%c[d_purple] • %c[ui_gray_2] av. number of fragments: %c[ui_gray_1]580 (steel balls)\n
+		%c[d_purple] • %c[ui_gray_2] explosion delay: %c[ui_gray_1]none\n
+		</text>
+	</string>
+
+</string_table>
