@@ -1,0 +1,705 @@
+-- game seconds
+local function printf() end
+
+local MIN_FORGET_TIME 	= 60*10
+local MAX_FORGET_TIME 	= 60*30
+local FUSE_TIME 		= 5
+local TRIGGER_RADIUS 	= 2.5
+
+local MODE_PROX 	= 0
+local MODE_TIMER 	= 1
+local MODE_REMOTE 	= 2
+local MODE_POCKET_TIMED = 3
+
+-- now have same name as section but may change
+local FX_BY_SECTION = {
+	mine_new 	= 'mine',
+	ied_rpg_new = 'ied_rpg',
+	ied_new 	= 'ied',
+	ied_electro = 'ied_electro',
+	ied_gravy	= 'ied_gravy',
+	ied_burn	= 'ied_burn',
+	ied_acid	= 'ied_acid',
+}
+
+local EXPLOSIVE_SECTION_LOOKUP = {
+	mine_new 	= 'mine_new_blow',
+	ied_rpg_new = 'rpg_new_blow',
+	ied_new 	= 'ied_new_blow',
+	ied_electro	= 'ied_electro_blow',
+	ied_gravy	= 'ied_gravy_blow',
+	ied_burn	= 'ied_burn_blow',
+	ied_acid	= 'ied_acid_blow',
+}
+
+local EXPLOSIVE_TYPE = {
+	mine_new 	= game.translate_string("st_plant_explosive_remote_mine_new"),
+	ied_rpg_new = game.translate_string("st_plant_explosive_remote_ied_rpg_new"),
+	ied_new 	= game.translate_string("st_plant_explosive_remote_ied_new"),
+	ied_electro	= game.translate_string("st_plant_explosive_remote_ied_electro"),
+	ied_gravy	= game.translate_string("st_plant_explosive_remote_ied_gravy"),
+	ied_burn 	= game.translate_string("st_plant_explosive_remote_ied_burn"),
+	ied_acid 	= game.translate_string("st_plant_explosive_remote_ied_acid"),
+}
+
+local COMMUNITIES = {
+	["stalker"] = game.translate_string("st_rigged_community_stalker"),
+	["bandit"] = game.translate_string("st_rigged_community_bandit"),
+	["csky"] = game.translate_string("st_rigged_community_csky"),
+	["army"] = game.translate_string("st_rigged_community_army"),
+	["freedom"] = game.translate_string("st_rigged_community_freedom"),
+	["dolg"] = game.translate_string("st_rigged_community_dolg"),
+	["ecolog"] = game.translate_string("st_rigged_community_ecolog"),
+	["killer"] = game.translate_string("st_rigged_community_killer"),
+	["monolith"] = game.translate_string("st_rigged_community_monolith"),
+	["renegade"] = game.translate_string("st_rigged_community_renegade"),
+	["greh"] = game.translate_string("st_rigged_community_greh"),
+	["isg"] = game.translate_string("st_rigged_community_isg"),
+	["zombied"] = game.translate_string("st_rigged_community_zombied"),
+	["none"] = game.translate_string("st_rigged_community_unknown"),
+	["target"] = game.translate_string("st_rigged_community_unknown"),
+}
+
+--i can't manage to figure out what map spots are actually used on normal stalkers, so i can't just change or delete and replace them. instead i have to add one of these big ugly marker icons and hope it goes on top of the existing spot, so you could read bomb marker's description instead of only seeing the faction name
+local faction_icons = {
+	["stalker"] = "circle_stalker",
+	["bandit"] = "circle_bandit",
+	["csky"] = "circle_csky",
+	["army"] = "circle_army",
+	["freedom"] = "circle_freedom",
+	["dolg"] = "circle_dolg",
+	["ecolog"] = "circle_ecolog",
+	["killer"] = "circle_killer",
+	["monolith"] = "circle_monolith",
+	["renegade"] = "circle_renegade",
+	["greh"] = "circle_greh",
+	["isg"] = "circle_isg",
+	["zombied"] = "circle_zombied",
+	["none"] = "circle_empty",
+	["target"] = "circle_target",
+}
+
+_mines = {}
+
+_npcs_rigged_with_explosives = {}
+
+function str_prox_plant()
+	return 'st_plant_explosive_prox'
+end
+function str_timer_plant_10()
+	return 'st_plant_explosive_timer_10'
+end
+function str_timer_plant_30()
+	return 'st_plant_explosive_timer_30'
+end
+function str_remote_plant()
+	return 'st_plant_explosive_remote'
+end
+function str_remote_pocket_plant()
+	return 'st_plant_explosive_remote_pocket'
+end
+function str_pocket_plant_timed_10()
+	return 'st_plant_explosive_pocket_timed_10'
+end
+function str_pocket_plant_timed_30()
+	return 'st_plant_explosive_pocket_timed_30'
+end
+
+function func_timer_plant_10(obj) plant_bomb(obj,MODE_TIMER,10) end
+function func_timer_plant_30(obj) plant_bomb(obj,MODE_TIMER,30) end
+function func_prox_plant(obj) plant_bomb(obj,MODE_PROX) end
+function func_remote_plant(obj) plant_bomb(obj,MODE_REMOTE) end
+function func_remote_pocket_plant(obj) plant_bomb_in_pocket(obj,MODE_REMOTE) end
+function func_pocket_plant_timed_10(obj) plant_bomb_in_pocket(obj,MODE_POCKET_TIMED,10) end
+function func_pocket_plant_timed_30(obj) plant_bomb_in_pocket(obj,MODE_POCKET_TIMED,30) end
+local vec_addon = vector():set(0,0.1,0)
+
+function plant_bomb(obj, mode, delay)
+	printf('plant_bomb(%s,%s,%s)', obj:name(), mode, delay)
+	local now = tss() 
+	local used_section = obj:section()
+	local used_id = obj:id()
+	local planted_section = EXPLOSIVE_SECTION_LOOKUP[used_section]
+	printf('planted_section = %s', planted_section)
+	local cd = device().cam_dir
+	-- local r = level.get_target_dist()
+	-- local lvid = level.vertex_in_direction(level.vertex_id(device().cam_pos),device().cam_dir,r)
+	-- local p = level.vertex_position(vid)
+	local ap = db.actor:position()
+	local pp = vector():set(ap.x + cd.x, ap.y + 0.1, ap.z + cd.z)
+	local vid = level.vertex_id(pp)
+	pp = level.vertex_position(vid)
+	
+	local planted_se = alife_create(planted_section,ap,db.actor:level_vertex_id(),db.actor:game_vertex_id())
+	printf('creating %s at', planted_se:name())
+	printf('%s,%s,%s,%s,%s',ap.x,ap.y,ap.z,db.actor:level_vertex_id(),db.actor:game_vertex_id())
+	printf('actual position')
+	printf('%s,%s,%s,%s,%s',planted_se.position.x,planted_se.position.y,planted_se.position.z,planted_se.m_level_vertex_id,planted_se.m_game_vertex_id)
+	
+	-- local planted_se = alife_create(planted_section,p,lvid,db.actor:game_vertex_id())
+	local planted_id = planted_se.id
+	
+	printf('try FX')
+	_ = FX_BY_SECTION[used_section] and actor_effects.play_item_fx(FX_BY_SECTION[used_section])
+	
+	
+	printf('check witnesses')
+	local witnesses = {}
+	for i in pairs(db.OnlineStalkers) do
+		local id = db.OnlineStalkers[i]
+		local npc = level.object_by_id(id)
+		if npc and IsStalker(npc) and npc:alive() then
+			if npc:see(db.actor) then
+				printf('%s saw player plant %s', npc:name(), planted_se:name())
+				witnesses[id] = now + math.random(MIN_FORGET_TIME, MAX_FORGET_TIME)*level.get_time_factor()
+			end
+		end
+	end
+	
+	
+	
+	printf('save mine data')
+	_mines[planted_id] = {
+		exp_time = now + (delay or FUSE_TIME) * level.get_time_factor(),
+		mode = mode,
+		witnesses = witnesses,
+		-- level = level.name(),
+		active = true,
+		-- blast_radius = ini_sys:r_float_ex(planted_section,"blast_r")
+		mine_type = obj:section(),
+		mine_freq = item_radio.get_freq()
+	}
+		
+	printf('create release event')
+	CreateTimeEvent(0,"release_planted_mine",0,release_item, used_id)
+	
+	if mode == MODE_REMOTE and item_radio.get_freq() then
+		actor_menu.set_msg(1, game.translate_string("st_plant_explosive_remote_freq").. " ".. tostring(item_radio.get_freq()).. " MHz",4)
+		level.map_add_object_spot_ser(planted_id, "alife_presentation_squad_monster_1",game.translate_string("st_plant_explosive_remote_map_marker_pt1") .. " ".. EXPLOSIVE_TYPE[obj:section()].. ", ".. game.translate_string("st_plant_explosive_remote_map_marker").. " ".. tostring(item_radio.get_freq()).. " MHz")
+	end
+	if mode == MODE_PROX then
+		level.map_add_object_spot_ser(planted_id, "alife_presentation_squad_monster_1",game.translate_string("st_plant_explosive_proximity_map_marker") .. " ".. EXPLOSIVE_TYPE[obj:section()])
+	end
+	
+	if mode == MODE_TIMER then
+		level.map_add_object_spot_ser(planted_id, "alife_presentation_squad_monster_1",game.translate_string("st_plant_explosive_timed_map_marker") .. " ".. EXPLOSIVE_TYPE[obj:section()])
+	end
+	
+end
+
+--This used to be a nicely packed function designed to only plant a bomb in somebody's pocket, but it turned into a huge mess once i decided to add an ability to openly give bombs to other stalkers. I don't want to spend any more of my miserable life to make this look pretty, so try to deal with what get.
+function plant_bomb_in_pocket(obj, mode, delay)
+	local pocket_planting_freq = item_radio.get_freq()
+	local pocket_planting_mine_type = obj:section()
+	local witnesses = {}
+	local found_one = false
+	local unseen = false
+	local detach_time
+	if delay == nil then delay = 1 end
+	
+	for i in pairs(db.OnlineStalkers) do
+		local id = db.OnlineStalkers[i]
+		local npc = level.object_by_id(id)
+		local now = tss()
+		
+		if npc and IsStalker(npc) and npc:alive() and npc:id() ~= 0 then
+		
+			local npcpos = npc:position()
+			local actorpos = db.actor:position()
+			
+			if npcpos:distance_to(actorpos) <= 2 and _npcs_rigged_with_explosives[npc:id()] == nil then
+				found_one = true
+			
+				local sender_header = strformat("%s, %s", npc:character_name(), game.translate_string("st_dyn_news_comm_" .. npc:character_community() .. "_" .. 6))
+				local msgcomp = game.translate_string("st_rigged_msg_comp_".. tostring(math.random(4)))
+				local msgfriend = game.translate_string("st_rigged_msg_friend_".. tostring(math.random(3)))
+				local msgfrienddecline = game.translate_string("st_rigged_msg_friend_decline_".. tostring(math.random(3)))
+				local msgneutral = game.translate_string("st_rigged_msg_neutral_".. tostring(math.random(3)))
+				local msgneutraldecline = game.translate_string("st_rigged_msg_neutral_decline_".. tostring(math.random(3)))
+				local msgenemy = game.translate_string("st_rigged_msg_enemy_".. tostring(math.random(2)))
+				local msgwounded = game.translate_string("st_rigged_msg_wounded_".. tostring(math.random(4)))
+			
+				--sneaky pocket planting mode
+				if IsMoveState('mcCrouch') then
+					for i in pairs(db.OnlineStalkers) do
+						local id = db.OnlineStalkers[i]
+						local witnessnpc = level.object_by_id(id)
+						if witnessnpc and IsStalker(witnessnpc) and witnessnpc:alive() then
+							if witnessnpc:see(db.actor) then
+								unseen = false
+								goto pocket_plant
+							end
+							unseen = true
+						end
+					end
+				goto pocket_plant
+				
+				--openly giving packages mode
+				elseif IsWounded(npc) then
+					if npc:character_community() ~= "zombied" then
+						npc:force_set_goodwill(-5000, db.actor)
+						dynamic_news_helper.send_tip( msgwounded, sender_header, 0, 10, npc:character_icon(), "beep_1", "npc" )
+					end
+					goto plant_bomb
+				elseif axr_companions.non_task_companions[npc:id()] then
+					dynamic_news_helper.send_tip( msgcomp, sender_header, 0, 10, npc:character_icon(), "beep_1", "npc" )
+					goto add_witnesses
+				elseif (npc:general_goodwill(db.actor) >= 1000) then
+					if 8 >= math.random(10) then
+						dynamic_news_helper.send_tip( msgfriend, sender_header, 0, 10, npc:character_icon(), "beep_1", "npc" )
+						goto add_witnesses
+					else
+						dynamic_news_helper.send_tip( msgfrienddecline, sender_header, 0, 10, npc:character_icon(), "beep_1", "npc" )
+						hide_hud_inventory()
+						return
+					end
+				elseif (npc:general_goodwill(db.actor) <= -1000) then
+					if npc:character_community() ~= "zombied" then
+						if npc:see(db.actor) then
+							dynamic_news_helper.send_tip( msgenemy, sender_header, 0, 10, npc:character_icon(), "danger", "npc" )
+							db.storage[npc:id()].panicked_to_actor = true
+							detach_time = time_global() + math.random(5000,15000)
+						end
+					end
+					goto plant_bomb
+				else
+					if 2 >= math.random(10) then
+						dynamic_news_helper.send_tip( msgneutral, sender_header, 0, 10, npc:character_icon(), "beep_1", "npc" )
+						goto add_witnesses
+					else
+						dynamic_news_helper.send_tip( msgneutraldecline, sender_header, 0, 10, npc:character_icon(), "beep_1", "npc" )
+						hide_hud_inventory()
+						return
+					end
+				end
+				
+				
+				
+				::add_witnesses::
+				
+				--no idea how this code is applied later, if it works at all, i just copypasted it from the original, hoping that it would make a difference.
+				
+				for i in pairs(db.OnlineStalkers) do
+					local id = db.OnlineStalkers[i]
+					local npc = level.object_by_id(id)
+					if npc and IsStalker(npc) and npc:alive() then
+						if npc:see(db.actor) then
+							witnesses[id] = now + math.random(MIN_FORGET_TIME, MAX_FORGET_TIME)*level.get_time_factor()
+						end
+					end
+				end		
+				goto plant_bomb
+			
+				::pocket_plant::
+				
+				if unseen then
+					goto plant_bomb
+				else
+					actor_menu.set_msg(1, game.translate_string("st_plant_explosive_remote_pocket_cant_sneak_plant_while_being_seen"),4)
+					hide_hud_inventory()
+					return
+				end
+				
+				::plant_bomb::
+				
+				_npcs_rigged_with_explosives[npc:id()] = {
+					rigged_npc = npc,
+					rigged_npc_faction = npc:character_community(),
+					mine_type = pocket_planting_mine_type,
+					mode = mode,
+					mine_timer = now + delay * level.get_time_factor(),
+					mine_freq = pocket_planting_freq,
+					triggered = false,
+					witnesses = witnesses,
+					detach_time = detach_time,
+					detaching_time = 0,
+				}
+				--i can't figure out how to get the name of existing map spots, so i can't remove them. there seems to be no function that lets you just delete all map spots on an object.
+				--level.map_remove_object_spot(id,spot_section)
+				--level.map_change_spot_hint(npc:id(),faction_icons[npc:character_community()], game.translate_string("st_plant_explosive_remote_map_marker_pt1") .. " ".. EXPLOSIVE_TYPE[pocket_planting_mine_type].. ", ".. game.translate_string("st_plant_explosive_remote_map_marker").. " ".. tostring(pocket_planting_freq).. " MHz")
+				
+				if mode == MODE_REMOTE then
+					level.map_add_object_spot_ser(npc:id(), faction_icons[npc:character_community()],game.translate_string("st_plant_explosive_remote_map_marker_pt1") .. " ".. EXPLOSIVE_TYPE[pocket_planting_mine_type].. ", ".. game.translate_string("st_plant_explosive_remote_map_marker").. " ".. tostring(pocket_planting_freq).. " MHz. ".. game.translate_string("st_plant_explosive_map_marker_attached_to").. " ".. npc:character_name().. " ".. game.translate_string("st_plant_explosive_map_marker_from").. " ".. COMMUNITIES[npc:character_community()])
+					actor_menu.set_msg(1, game.translate_string("st_plant_explosive_remote_freq").. " ".. tostring(pocket_planting_freq).. " MHz",4)
+				elseif mode == MODE_POCKET_TIMED then
+					level.map_add_object_spot_ser(npc:id(), faction_icons[npc:character_community()],game.translate_string("st_plant_explosive_timed_map_marker") .. " ".. EXPLOSIVE_TYPE[pocket_planting_mine_type].. ". ".. game.translate_string("st_plant_explosive_map_marker_attached_to").. " ".. npc:character_name().. " ".. game.translate_string("st_plant_explosive_map_marker_from").. " ".. COMMUNITIES[npc:character_community()])
+					actor_menu.set_msg(1, game.translate_string("st_plant_explosive_pocket_planted"),4)
+				end
+				
+				CreateTimeEvent(0,"release_planted_mine",0,release_item, obj:id())
+				hide_hud_inventory()
+				--if multiple stalkers nearby, to prevent bomb duping, return after the first found stalker
+				return	
+			end
+			
+			
+		end
+	end
+	if found_one == false then
+		actor_menu.set_msg(1, game.translate_string("st_plant_explosive_remote_pocket_nobody_unrigged_and_alive_nearby"),4)
+		hide_hud_inventory()
+	end
+end
+
+function release_item(id)
+	printf('try release %s', id)
+	alife_release_id(id)
+	printf('%s released', id)
+	return true
+end
+
+function trigger_mine(id)
+	local obj = level.object_by_id(id)
+	if obj then 
+		printf('[%s]:explode()', obj:name())
+		obj:explode(0)
+	else
+		printf('coulnt find game object for %s', id)
+	end
+	_mines[id] = nil     
+end
+
+
+
+function tss()
+	return game.get_game_time():diffSec(level.get_start_time())
+end
+
+
+
+function npc_on_before_hit(npc,shit,bone_id,flags)
+	printf('%s about to be hit by %s', npc and npc:name(), shit and shit.draftsman and shit.draftsman:name())
+	
+	-- if damage is dealt by player explosive and victim is a witness deliver the hit as if the player did and negate the explosive damage   
+	
+	--the comment above from the original code says it checks for witnesses, but where does the code mention the witness table? is this even working as intended, or does it just make every single mine from _mines count as damage from player?
+	
+	--also, if the code does apply for every single bomb, it still might be possible to fool the system by disguising as an enemy of the npc's faction to prevent reputation loss
+	
+	if shit.draftsman and _mines[shit.draftsman:id()] then
+		printf('hit replaced')
+		local h = hit(shit)
+		h.draftsman = db.actor
+		npc:hit(h)
+		flags.ret_value = false
+	end
+end
+
+-- mines aren't worth shit and aren't amassed like ammo so even if some players lose 2-3 of them is no big deal, definitely not worth the autism to search and replace all occurrences
+function mine_killer()
+	for i=1, 65534 do
+		local se = alife_object(i)
+		if
+			se
+			and (
+				se:section_name() == 'mine'
+				or se:section_name() == 'ied'
+				or se:section_name() == 'ied_rpg'
+				or se:section_name() == 'ied_electro'
+				or se:section_name() == 'ied_gravy'
+				or se:section_name() == 'ied_burn'
+				or se:section_name() == 'ied_acid'
+				)
+		then
+			alife_release_id(se.id)
+		end
+	end
+end
+
+function actor_on_update()
+	if not alife_storage_manager.get_state().mine_kill then
+		alife_storage_manager.get_state().mine_kill = true
+		mine_killer()
+	end
+	
+	
+	
+	generic_on_update(db.actor)
+	check_explosive_npcs_rigged_with_explosives()
+	manage_timer_explosives()
+	periodic_clean()
+end
+
+local next_clean = 0
+function periodic_clean()
+	if time_global() > next_clean then
+		next_clean = time_global() + 5000
+		clean_mines()
+	end
+end
+
+
+local trigger_time = 0
+local npc_trigger_time = 0
+local explosive_triggered = false
+
+function radio_beep(beep_time)
+	local tg = time_global()
+	if (tg > (trigger_time + beep_time)) then
+		explosive_triggered = false
+		item_radio.explosive_triggered = false
+	end
+end
+
+function trigger_npc_mine(npc, data)
+	trigger_time = time_global()
+	
+	if data.mode == MODE_REMOTE then
+		explosive_triggered = true
+		item_radio.explosive_triggered = true
+		local snd_obj = xr_sound.get_safe_sound_object ("detectors\\detector_radio_explosive_triggered")
+		snd_obj:play_at_pos(db.actor, vector():set(0,0,0), 0, sound_object.s2d)
+	end
+					
+	--attempt to dump unimportant companions before blowing them up(in case you are using a mod that makes companions immortal, which looks stupid because they just stand there while the explosion happens)
+	if axr_companions.non_task_companions[npc:id()] then axr_companions.remove_from_actor_squad(npc) end                                              
+					
+	local mine_type = EXPLOSIVE_SECTION_LOOKUP[data.mine_type]
+	local spawned_mine = alife_create(mine_type,npc:position(),db.actor:level_vertex_id(),db.actor:game_vertex_id())
+					
+	--not sure if this witness system actually does anything, but having it here shouldn't hurt, so whatever
+	_mines[spawned_mine.id] = {
+	witnesses = _npcs_rigged_with_explosives[npc:id()].witnesses,
+	}
+					
+	--i have to add a delay after spawn because this stupid thing doesn't want to blow up while being spawned. the rest of the code is hidden somewhere in the generic_on_update function
+					
+	_npcs_rigged_with_explosives[npc:id()] = {
+	triggered = true,
+	trigger_time = time_global(),
+	triggered_id = spawned_mine.id,
+	}
+					
+	level.map_remove_object_spot(npc:id(), faction_icons[data.rigged_npc_faction])
+end
+
+function onkey_release(key)
+	local now = tss()
+	local bind = dik_to_bind(key)
+	local detector = db.actor:active_detector()
+	local wep = db.actor:active_item()
+	local actorpos = db.actor:position()
+	
+	
+		if 
+			bind == key_bindings.kWPN_FUNC
+			and detector
+			and detector:section() == "detector_radio"
+			--and not wep											<-- uncomment this if you have pistol slot weapons with special functionalities, so the radio wouldn't trigger explosives whenever you tried to use your gun's grenade launcher or something else while holding the radio.
+		then
+			for mine_id, data in pairs(_mines) do
+				local mine = level.object_by_id(mine_id)
+				if
+					mine
+					and data.active
+					and data.mode == MODE_REMOTE
+					and data.mine_freq == item_radio.get_freq()
+				then
+					trigger_mine(mine_id)
+					trigger_time = time_global()
+					explosive_triggered = true
+					item_radio.explosive_triggered = true
+					local snd_obj = xr_sound.get_safe_sound_object ("detectors\\detector_radio_explosive_triggered")
+                    snd_obj:play_at_pos(db.actor, vector():set(0,0,0), 0, sound_object.s2d)
+				end
+			end
+			for npc_id, data in pairs(_npcs_rigged_with_explosives) do
+				local npc = level.object_by_id(npc_id)
+				if
+					npc
+					and IsStalker(npc)
+					and data.mode == MODE_REMOTE
+					and data.mine_freq == item_radio.get_freq()
+				then
+					trigger_npc_mine(npc, data)
+				end
+			end
+		end
+		
+		
+		if 
+			bind == key_bindings.kUSE
+			and IsMoveState('mcCrouch') 
+		then
+			for mine_id, data in pairs(_mines) do
+				local mine = level.object_by_id(mine_id)
+				if
+					mine
+					and data.active
+					and mine:position():distance_to(actorpos) <= 1
+				then
+					_mines[mine_id] = nil
+					alife_release_id(mine_id)
+					alife():create(tostring(data.mine_type), mine:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id())
+				end
+			end
+		end
+end
+
+-- trigger if actor/npc/mutant are close enough to a proximity bomb + a bunch of other crap added by an amateur modder/programmer
+-- this function seems to get called about 10-15 times more often than the actor_on_update, so i might have to move/optimize some of the code in this one at some point.
+function generic_on_update(npc)
+	local npcpos = npc:position()
+	local actorpos = db.actor:position()
+	local now = tss()
+	
+	--i don't know where i effed up, but for some reason this fancy radio led flash timer crap doesn't work properly in the actor_on_update function, so i have to leave it here. probably won't have a huge impact, even if it gets called 15 times more often, it's still just a single if statement, right? either way, i don't care enough to spend another half a day to find a fix for this right now.
+	if explosive_triggered then	radio_beep(500) end
+	
+	--the generic_on_update function doesn't seem to get called on dead npcs, so not sure why this line is even here, but i'm not going to touch it, just in case i'm wrong
+	if not npc:alive() then return end
+	
+	for mine_id, data in pairs(_mines) do
+		local mine = level.object_by_id(mine_id)	
+
+		if 
+			mine
+			and data.active
+			and	now >= data.exp_time
+			and mine:position():distance_to(npcpos) <= TRIGGER_RADIUS
+			--and npc:body_state() ~= move.crouch                         --uncomment if you want sneaking enemies to be able to move past your proximity mines (still blows them up if they break crouching movement animation even for a split second)
+		then
+			--if player is in the trigger radius and crouching, don't blow up
+			if mine:position():distance_to(actorpos) <= TRIGGER_RADIUS then
+				if IsMoveState('mcCrouch') then return end
+			end
+			--if there's no crouching player in the trigger radius, and the bomb is set to proximity mode, blow up
+			if data.mode == MODE_PROX then
+				printf('%s triggered by %s', mine:name(), npc:name())
+				printf('%s, %s, %s',mine:position().x, mine:position().y, mine:position().z)
+				trigger_mine(mine_id)
+			end
+		end
+	end
+end
+
+--the generic_on_update doesn't seem to get called on dead npcs, so instead i have to loop this unoptimized mess. shouldn't be a problem if you don't rig like a hundred npcs
+function check_explosive_npcs_rigged_with_explosives()
+	local tg = time_global()
+	for npc_id, data in pairs(_npcs_rigged_with_explosives) do
+		local npc = level.object_by_id(npc_id)
+		--checking for despawned rigged corpses to clean the table, in case the player decides that they don't need to take back the bombs and ignores them
+		if
+			npc
+			and IsStalker(npc)
+		then
+			local sender_header = strformat("%s, %s", npc:character_name(), game.translate_string("st_dyn_news_comm_" .. npc:character_community() .. "_" .. 6))
+			local death_dropped = se_load_var(npc_id,npc_name,"death_dropped")
+			if (death_dropped) then
+				local pocket_bomb = alife_create_item(data.mine_type, data.rigged_npc)
+				level.map_remove_object_spot(npc:id(), faction_icons[data.rigged_npc_faction])
+				_npcs_rigged_with_explosives[npc_id] = nil
+			end
+			
+			--check for enemy npcs trying to detach bombs from them. add a random chance to remove or blow it up. the bomb will be broken in the process either way.
+			if npc:alive() and data.detach_time and tg > data.detach_time  then
+				dynamic_news_helper.send_tip(game.translate_string("st_rigged_msg_enemy_detach_start_".. tostring(math.random(2))), sender_header, 0, 10, npc:character_icon(), "beep_2", "npc" )
+				data.detach_time = nil
+				data.detaching_time = tg + math.random(3000,10000)
+			end
+			if npc:alive() and data.detaching_time and data.detaching_time ~= 0 then
+				db.storage[npc:id()].panicked_to_actor = true --My attempt at making the npc run away from the player to hide and defuse the bomb. Doesn't seem to be actually doing anything, but i'm gonna leave it here anyway, just in case there is an effect i don't see. Other options are way too complex, compatibility breaking and time consuming to work with, so this is my best option at the moment.
+				if tg > data.detaching_time then
+					if 3 <= math.random(10) then
+						--changing mode to avoid making radio beep sound if the guy accidentally detonates himself before you do it for him
+						data.mode = MODE_TIMER
+						dynamic_news_helper.send_tip(game.translate_string("st_rigged_msg_enemy_detach_fail_".. tostring(math.random(2))), sender_header, 0, 10, npc:character_icon(), "beep_2", "npc" )
+						trigger_npc_mine(npc, data)			
+					else
+						dynamic_news_helper.send_tip(game.translate_string("st_rigged_msg_enemy_detaching_".. tostring(math.random(2))), sender_header, 0, 10, npc:character_icon(), "beep_2", "npc" )
+						db.storage[npc:id()].panicked_to_actor = false
+						_npcs_rigged_with_explosives[npc_id] = nil
+					end
+					data.detaching_time = nil --shouldn't be necessary, but you never know
+				end
+			end
+
+			--have to add a delay because the damn bomb doesn't want to explode immediately after spawning. this looks dumb as hell in game, but i don't know how to spawn explosions related to the bomb type on their own, so i will have to deal with this crap for now.
+			if data.triggered and (tg > data.trigger_time + 300) then
+				level.map_remove_object_spot(npc:id(), faction_icons[npc:character_community()])
+				trigger_mine(data.triggered_id)
+				_npcs_rigged_with_explosives[npc_id] = nil
+			end
+		else
+			--_npcs_rigged_with_explosives[npc_id] = nil         --not sure why i needed that in the first place, but it likely deletes npcs from list on level changes, which is not something i want.
+		end
+	end
+end
+
+function manage_timer_explosives()
+	local now = tss()
+	for mine_id, data in pairs(_mines) do
+		local mine = level.object_by_id(mine_id)
+		-- printf('testing %s -> %s', mine_id, mine and mine:name())
+		if 	
+			mine
+			and data.active
+			and data.mode == MODE_TIMER
+			and now >= data.exp_time
+		then
+			printf('%s triggered by time', mine:name())
+			printf('%s, %s, %s',mine:position().x, mine:position().y, mine:position().z)
+			trigger_mine(mine_id)
+		end
+	end
+	
+	for npc_id, data in pairs(_npcs_rigged_with_explosives) do
+		local npc = level.object_by_id(npc_id)
+		if
+			npc
+			and IsStalker(npc)
+			and data.mode == MODE_POCKET_TIMED
+			and now >= data.mine_timer
+		then
+			trigger_npc_mine(npc, data)
+		end
+	end
+end
+
+function clean_mines(id)
+	if id then
+		_mines[id] = nil
+	else
+		for mine_id, data in pairs(_mines) do
+			local se = alife_object(mine_id)
+			if not se then
+				_mines[mine_id] = nil
+			end
+		end
+	end
+end
+
+function clean_npcs_rigged_with_explosives(id)
+	if id then
+		_npcs_rigged_with_explosives[id] = nil
+	else
+		for rigged_npc_id, data in pairs(_npcs_rigged_with_explosives) do
+			local se = alife_object(rigged_npc_id)
+			if not se then
+				_npcs_rigged_with_explosives[rigged_npc_id] = nil
+			end
+		end
+	end
+end
+	
+function save_state(md) 
+	clean_mines()
+	clean_npcs_rigged_with_explosives()
+	md.new_mines = _mines
+	md.new_npcs_rigged_with_explosives = _npcs_rigged_with_explosives
+end
+function load_state(md) 
+	_mines = md.new_mines or {}
+	_npcs_rigged_with_explosives = md.new_npcs_rigged_with_explosives or {}
+end
+
+
+function on_game_start()
+	RegisterScriptCallback("npc_on_update",generic_on_update)
+	RegisterScriptCallback("actor_on_update",actor_on_update)
+	RegisterScriptCallback("monster_on_update",generic_on_update)
+	RegisterScriptCallback("save_state",save_state)
+	RegisterScriptCallback("load_state",load_state)
+	RegisterScriptCallback("npc_on_before_hit",npc_on_before_hit)
+	RegisterScriptCallback("on_key_release",onkey_release)
+end

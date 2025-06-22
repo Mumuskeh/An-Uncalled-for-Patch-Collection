@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<string_table>
+
+    <string id="st_plant_explosive_remote">
+		<text>установить с дистанционным детонатором</text>
+	</string>
+	
+	<string id="st_plant_explosive_remote_pocket">
+		<text>вложить в рюкзак с дистанционным детонатором</text>
+	</string>
+	
+	<string id="st_plant_explosive_pocket_timed_10">
+		<text>вложить в рюкзак с 10-ти секундным таймером</text>
+	</string>
+	
+	<string id="st_plant_explosive_pocket_timed_30">
+		<text>вложить в рюкзак с 30-ти секундным таймером</text>
+	</string>
+	
+	<string id="st_plant_explosive_remote_freq">
+		<text>Дистанционная взрывчатка, заложенная с частотой</text>
+	</string>
+	
+	<string id="st_plant_explosive_pocket_planted">
+		<text>Врывчатка с таймером заложена в рюкзак</text>
+	</string>
+
+	<string id="st_plant_explosive_remote_map_marker">
+		<text>может быть активирована радио частотой</text>
+	</string>
+	
+	<string id="st_plant_explosive_remote_mine_new">
+		<text>Противопехотная мина</text>
+	</string>
+	
+	<string id="st_plant_explosive_remote_ied_rpg_new">
+		<text>СВУ из гранаты ОГ-7В</text>
+	</string>
+	
+	<string id="st_plant_explosive_remote_ied_new">
+		<text>СВУ на химической основе</text>
+	</string>
+	
+	<string id="st_plant_explosive_remote_map_marker_pt1">
+		<text>Дистанционная</text>
+	</string>
+
+    <string id="st_plant_explosive_proximity_map_marker">
+		<text>Сенсорная</text>
+	</string>
+	
+	<string id="st_plant_explosive_timed_map_marker">
+		<text>Часовая</text>
+	</string>
+	<string id="st_plant_explosive_map_marker_attached_to">
+		<text>Присоединена к</text>
+	</string>
+	<string id="st_plant_explosive_map_marker_from">
+		<text>из группировки</text>
+	</string>
+	
+	
+	
+	
+	<string id="st_rigged_community_stalker">
+		<text>Одиночек</text>
+	</string>
+	<string id="st_rigged_community_bandit">
+		<text>Бандитов</text>
+	</string>
+	<string id="st_rigged_community_csky">
+		<text>Чистого Неба</text>
+	</string>
+	<string id="st_rigged_community_army">
+		<text>Военных</text>
+	</string>
+	<string id="st_rigged_community_freedom">
+		<text>Свободы</text>
+	</string>
+	<string id="st_rigged_community_dolg">
+		<text>Долга</text>
+	</string>
+	<string id="st_rigged_community_ecolog">
+		<text>Учёных</text>
+	</string>
+	<string id="st_rigged_community_killer">
+		<text>Наёмников</text>
+	</string>
+	<string id="st_rigged_community_monolith">
+		<text>Монолита</text>
+	</string>
+	<string id="st_rigged_community_renegade">
+		<text>Ренегатов</text>
+	</string>
+	<string id="st_rigged_community_greh">
+		<text>Греха</text>
+	</string>
+	<string id="st_rigged_community_isg">
+		<text>ИИГ</text>
+	</string>
+	<string id="st_rigged_community_zombied">
+		<text>Зомбированных</text>
+	</string>
+	<string id="st_rigged_community_unknown">
+		<text>неизвестных</text>
+	</string>
+	
+	<string id="st_rigged_msg_comp_1">
+		<text>Что, ты просишь меня тащить эту коробку за тебя? Что внутри? Не моё дело? Пфф, хорошо, ты здесь главный.</text>
+	</string>
+	
+	<string id="st_rigged_msg_comp_2">
+		<text>Серьёзно, ты хочешь, чтобы я тащил на себе эту взрывчатку? Так и быть, ты здесь лидер. Но не вздумай взорвать её, пока она ещё у меня в руках!</text>
+	</string>
+	
+	<string id="st_rigged_msg_comp_3">
+		<text>Эй, босс, ты уверен, что давать мне нести кучу взрывчатки была хорошая идея? Эта лампочка точно сейчас должна мигать красным?</text>
+	</string>
+	
+	<string id="st_rigged_msg_comp_4">
+		<text>Снова коробки таскать? Надеюсь хоть эта не тяжёлая.</text>
+	</string>
+	
+	<string id="st_rigged_msg_friend_1">
+		<text>Что, ты просишь меня доставить эту посылку? Что внутри? Припасы? Хорошо, я постараюсь сделать это позже, но отдам её лишь если я получу за это деньги.</text>
+	</string>
+	
+	<string id="st_rigged_msg_friend_2">
+		<text>Ты даришь мне подарок? Неужели все те хорошие вещи, которые люди говорят о тебе, это правда? Спасибо. Я открою его как только вернусь к своему шкафчику.</text>
+	</string>
+	
+	<string id="st_rigged_msg_friend_3">
+		<text>Что это, артифакт в специальном контейнере? Ты хочешь, чтобы я доставил это в бункер? Хорошо, если они мне заплатят, то я сделаю это.</text>
+	</string>
+	
+	<string id="st_rigged_msg_friend_decline_1">
+		<text>Подарок? Для меня? Спасибо... погоди, это что, провода... торчат... из коробки? Эээ, пожалуй, я откажусь.</text>
+	</string>
+	
+	<string id="st_rigged_msg_friend_decline_2">
+		<text>Извини, мне уже некуда пихать предметы, мой рюкзак полон хлама.</text>
+	</string>
+	
+	<string id="st_rigged_msg_friend_decline_3">
+		<text>Прости, приятель, но я не принимаю коробки от незнакомцев, после того случая, когда один из моих товарищей в отряде получил такую и позже взорвался.</text>
+	</string>
+	
+	<string id="st_rigged_msg_neutral_1">
+		<text>Ты хочешь, чтобы я доставил посылку? А получатель мне за это хорошо заплатит? Да? Ну ладно, давай сюда.</text>
+	</string>
+	
+	<string id="st_rigged_msg_neutral_2">
+		<text>Ты даришь мне подарок? Но я тебя даже не знаю. Ладно, плевать, давай сюда. Я просто пойду и продам его тому, кто мне за него заплатит.</text>
+	</string>
+	
+	<string id="st_rigged_msg_neutral_3">
+		<text>Ты хочешь, чтобы я доставил артифакт в бункер? Но, что если твой контейнер дырявый? Кого ты трусом назвал? Давай сюда, я это мигом доставлю. Но лучше бы им заплатить мне за это!</text>
+	</string>
+	
+	<string id="st_rigged_msg_neutral_decline_1">
+		<text>Ты хочешь, чтобы я доставил посылку? На кого я похож, сраного почтальона? Отвали от меня.</text>
+	</string>
+	
+	<string id="st_rigged_msg_neutral_decline_2">
+		<text>Что это? Подарок? Я тебя не знаю. Иди подари это дерьмо кому-нибудь ещё.</text>
+	</string>
+	
+	<string id="st_rigged_msg_neutral_decline_3">
+		<text>Ты хочешь, чтобы я доставил артифакт в бункер? Почему ты сам этого не сделаешь? Я не собираюсь возиться с радиацией, если твой контейнер окажется дырявым.</text>
+	</string>
+	
+	<string id="st_rigged_msg_enemy_1">
+		<text>Что это за хрень? Вот дерьмо, отцепите это от меня!</text>
+	</string>
+	
+	<string id="st_rigged_msg_enemy_2">
+		<text>Вот дерьмо, это бомба! Отцепись, отцепись от мена!</text>
+	</string>
+	
+	<string id="st_rigged_msg_enemy_detach_start_1">
+		<text>Ну же, как мне отцепить эту хрень? Что мне отрезать?</text>
+	</string>
+	
+	<string id="st_rigged_msg_enemy_detach_start_2">
+		<text>Чёрт возьми, как мне отцепить эту хрень?</text>
+	</string>
+	
+	<string id="st_rigged_msg_enemy_detach_fail_1">
+		<text>О нет</text>
+	</string>
+	
+	<string id="st_rigged_msg_enemy_detach_fail_2">
+		<text>Чёрт</text>
+	</string>
+	
+	<string id="st_rigged_msg_enemy_detaching_1">
+		<text>С..работало? Да! Нахер это дерьмо!</text>
+	</string>
+	
+	<string id="st_rigged_msg_enemy_detaching_2">
+		<text>Получилось, я достал её!</text>
+	</string>
+	
+	<string id="st_rigged_msg_wounded_1">
+		<text>Что... ты делаешь..? Нет... прошу... только не так...</text>
+	</string>
+	
+	<string id="st_rigged_msg_wounded_2">
+		<text>Что это за херня? Я что, теперь для тебя лишь наживка? Просто пристрели меня!</text>
+	</string>
+	
+	<string id="st_rigged_msg_wounded_3">
+		<text>Прошу, не заставляй меня умирать таким способом... лучше получить пулю в лоб...</text>
+	</string>
+	
+	<string id="st_rigged_msg_wounded_4">
+		<text>Ты... ублюдок... ты за это заплатишь...</text>
+	</string>
+	
+	<string id="st_plant_explosive_remote_pocket_cant_sneak_plant_while_being_seen">
+		<text>Нельзя закладывать бомбы в рюкзаки, когда вас видят</text>
+	</string>
+	
+	<string id="st_plant_explosive_remote_pocket_nobody_unrigged_and_alive_nearby">
+		<text>Рядом нет живых людей без бомбы в рюкзаке</text>
+	</string>
+	
+</string_table>

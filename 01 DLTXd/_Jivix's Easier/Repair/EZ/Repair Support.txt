@@ -1,0 +1,85 @@
+Repair Supplementary Item Rebalance
+
+Lots of complex changes to what items can be used with what kits, almost all buffs. Here they are:
+-Cloth Mask can be used with weapon cleaning kits
+-Rope can be used with glue, cleaning kits, and gun oils
+-Soaked Underwear can be used with glues and weapon cleaning kits and no longer with armor repair kits
+-Synthetic rope can now be used with basic sewing kit and glues
+-Camo Tarpaulin can now be used with basic sewing kit and no longer with gun oils
+-Duct Tape can now be used with weapon repair kits and no longer with cleaning kits or gun oils (wtf)
+-Bedspread was not changed (only used with armor repair kits and sewing kits except for basic)
+-Steel Wool was not changed (useful for all stages of weapon repair & maintenance)
+-Industrial Grease was not changed (useful for weapon repair & cleaning kits, but not gun oiling, which is not counterintuitive because putting grease down your barrel is a waste of grease and potentially dangerous)
+
+4 very simple stat changes that might substantially influence how you repair and maintain items:
+Rope 0.7kg 		-> 0.2kg (roughly the weight of 100ft of paracord, a more reasonable weight of rope to repair gear with)
+Synthetic Rope 4% 	-> 5% bonus 
+Duct tape 0.13kg 	-> 0.02kg (Weight of 2 square feet of duct tape, roughly the quantity you might expect to use on a repair operation.)
+Bedspread 3% 		-> 4% bonus
+
+So basically,
+Cloth Mask is still probably the best repair item, and now you can use it one more way.
+Rope got a double buff, and now reasonably useful for minor armor repairs as well as gun oiling and is now light enough to carry into the field.
+Soaked Underwear got a massive buff as you can now use it for cheap and lightweight gun oiling fodder, it's like duct tape for guns.
+Synthetic rope got a double buff, and became substantially more useful at all levels of armor repair & maintenance, but still very heavy and to be left at base.
+Camo Tarpaulin is now useful for sewing kit usage, but due to its weight this is usually best left back at base or for fixing up exosuits with glue.
+Duct tape got a use case nerf but then a weight buff (putting it into the role of lightweight armor maintenance booster and not cheap gun oiling fodder)
+Bedspread got a minor buff but it was barely useful to begin with, it's still far from an ideal choice but now the bonus isn't quite so bad.
+Steel Wool is still among the best repair items but so hard to get in quantity.
+Industrial Grease was left as-is, a situationally good choice that depends on the repair level of the firearm.
+
+
+It's worth mentioning that these buffs are designed to complement the balance changes of the primary repair equipment.
+
+Why didn't I touch Leather Boots, Gloves, Magazines, Cutlery, and other noteworthy repair items? They were already balanced enough for what they are. I might visit them in the future but this process is actually a lot of work so I am only willing to do so many items at once.
+
+
+ARMOR - RKs: -underwear
+
+ARMOR - MK's: synthrope (on sewing kit)
+
+NOTE: Emergency Armor Repair Kits uses the same items as glues and can use glues in return. They are effectively lumped together with the glue tier.
+
+ARMOR - LM: rope, underwear, synthrope, tarpaulin
+
+
+
+WEAP - RK's: duct_tape
+
+NOTE: Universal Heavy Duty Maintenance Kit uses the same items as Cleaning Kits, despite clearly being a form of Repair Kit. This is its unique niche.
+
+WEAP - MK's:  helm_cloth_mask, rope, underwear, -duct_tape
+
+WEAP - LM: rope, -tarpaulin, -duct_tape
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

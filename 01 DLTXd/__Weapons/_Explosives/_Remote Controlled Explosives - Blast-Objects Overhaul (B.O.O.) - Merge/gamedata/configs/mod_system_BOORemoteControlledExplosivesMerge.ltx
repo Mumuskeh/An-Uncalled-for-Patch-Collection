@@ -1,0 +1,399 @@
+;------------------------------------------------------------------------------------------------------------
+;------------------------------------[ GRENADES ]------------------------------------------------------------
+;------------------------------------------------------------------------------------------------------------
+
+![grenade_f1]
+force_min                   = 10 ;10
+force_const                 = 40 ;25
+force_max                   = 10 ;30
+destroy_time                = 2000 ;2500
+
+snd_throw                   = gran\grenade_throw
+snd_throw_begin             = gran\grenade_throw_start
+
+
+![grenade_f1_hud]
+item_position               = -0.001, 0.004, 0.009391
+
+hands_position                   = -0.016204, -0.074241, 0
+hands_position_16x9              = -0.016204, -0.074241, 0
+
+anm_hide                    = he_hide, idle
+anm_idle                    = he_idle, idle
+anm_idle_moving             = he_walk, f1_walk
+anm_idle_sprint             = he_sprint, f1_sprint
+anm_show                    = he_draw, idle
+anm_throw                   = he_throw_end, f1_throw_quick
+anm_throw_begin             = he_throw_start, f1_throw_start
+anm_throw_idle              = he_throw_idle, f1_throw_idle
+
+third_person_throw_point_offset = -0.198,1.8,-0.833 ;-0.05,0.848,0.706
+
+throw_point				 =  0.4, 0.3, 0.1           ;0.18, 1.636, -0.788     \\0.118 0.737 0.788 
+
+;------------------------------------------------------------------------------------------------
+![grenade_gd-05]:grenade_f1_sounds
+force_min                   = 10 ;15
+force_const                 = 40 ;25
+force_max                   = 10 ;35
+destroy_time                = 2000 ;2500
+
+snd_throw                   = gran\grenade_throw
+snd_throw_begin             = gran\grenade_throw_start
+
+![grenade_gd-05_hud]
+item_position                    = -0.002814, -0.003891, 0.004405
+hands_orientation                = -0.5, 1, -2
+hands_orientation_16x9           = -0.5, 1, -2
+hands_position                   = -0.016204, -0.074241, 0
+hands_position_16x9              = -0.016204, -0.074241, 0
+anm_hide                    = he_hide, rdgm_hide
+anm_idle                    = he_idle, idle
+anm_idle_moving             = he_walk, rdgm_walk
+anm_idle_sprint             = he_sprint, rdgm_sprint
+anm_show                    = he_draw, rdgm_draw
+anm_throw                   = he_throw_end, rdgm_throw_quick
+anm_throw_begin             = he_throw_start, rdgm_throw_start
+anm_throw_idle              = he_throw_idle, rdgm_throw_idle
+throw_point				 =  0.4, 0.3, 0.1           ;0.18, 1.636, -0.788     \\0.118 0.737 0.788
+third_person_throw_point_offset = -0.198,1.8,-0.833 ;-0.05,0.848,0.706
+
+;------------------------------------------------------------------------------------------------
+![grenade_smoke]:grenade_f1_sounds
+force_const                 = 40 ;25
+force_max                   = 10 ;30
+
+snd_throw                   = gran\grenade_throw
+snd_throw_begin             = gran\grenade_throw_start
+
+![grenade_smoke_hud]
+item_position                    = -0.002814, -0.003891, 0.004405
+hands_orientation                = -0.5, 1, -2
+hands_orientation_16x9           = -0.5, 1, -2
+hands_position                   = -0.016204, -0.074241, -0.098116
+hands_position_16x9              = -0.016204, -0.074241, -0.098116
+anm_hide                    = he_hide, rdgm_hide
+anm_idle                    = he_idle, idle
+anm_idle_moving             = he_walk, rdgm_walk
+anm_idle_sprint             = he_sprint, rdgm_sprint
+anm_show                    = he_draw, rdgm_draw
+anm_throw                   = he_throw_end, rdgm_throw_quick
+anm_throw_begin             = he_throw_start, rdgm_throw_start
+anm_throw_idle              = he_throw_idle, rdgm_throw_idle
+throw_point				 =  0.4, 0.3, 0.1           ;0.18, 1.636, -0.788     \\0.118 0.737 0.788
+third_person_throw_point_offset = -0.198,1.8,-0.833 ;-0.05,0.848,0.706
+
+;------------------------------------------------------------------------------------------------
+![grenade_rgd5]
+force_min                   = 10
+force_const                 = 40 ;25
+force_max                   = 10 ;35
+destroy_time                = 2000 ;2500
+snd_throw                   = gran\grenade_throw
+snd_throw_begin             = gran\grenade_throw_start
+
+![grenade_rgd5_hud]
+hands_position              = -0.016204, -0.074241, 0
+hands_position_16x9         = -0.016204, -0.074241, 0
+anm_hide                    = he_hide, rgd5_hide
+anm_idle                    = he_idle, idle
+anm_idle_moving             = he_walk, rgd5_walk
+anm_idle_sprint             = he_sprint, rgd5_sprint
+anm_show                    = he_draw, rgd5_draw
+anm_throw                   = he_throw_end, rgd5_throw_quick
+anm_throw_begin             = he_throw_start, rgd5_throw_start
+anm_throw_idle              = he_throw_idle, rgd5_throw_idle
+
+
+
+;------------------------------------------------------------------------------------------------------------
+;------------------------------------[ IEDS ]----------------------------------------------------------------
+;------------------------------------------------------------------------------------------------------------
+
+![mine_new]
+kind			            	= w_explosive
+inv_weight        	        	= 0.751
+use2_functor                = txr_mines.str_timer_plant_10
+use2_action_functor         = txr_mines.func_timer_plant_10
+use3_functor                = txr_mines.str_timer_plant_30
+use3_action_functor         = txr_mines.func_timer_plant_30
+use4_functor                = txr_mines.str_remote_plant
+use4_action_functor         = txr_mines.func_remote_plant
+use5_functor                = txr_mines.str_remote_pocket_plant
+use5_action_functor         = txr_mines.func_remote_pocket_plant
+use6_functor                = txr_mines.str_pocket_plant_timed_10
+use6_action_functor         = txr_mines.func_pocket_plant_timed_10
+use7_functor                = txr_mines.str_pocket_plant_timed_30
+use7_action_functor         = txr_mines.func_pocket_plant_timed_30
+
+![mine_new_blow]
+kind			                  		= w_explosive
+inv_weight        	              		= 0.751
+		
+;------------------------------------------------------------------------------------------------
+![ied_rpg_new]:weapon_probability,default_weapon_params,grenade_f1_sounds
+!auto_attach
+!eat_health
+!eat_satiety
+!eat_power
+!eat_radiation
+!eat_alcohol
+!eat_portions_num
+!wounds_heal_perc
+!use1_functor
+!use1_action_functor
+!use2_functor
+!use2_action_functor
+!use3_functor
+!use3_action_functor
+!tier
+
+GroupControlSection         = spawn_group
+discovery_dependency        =
+$prefetch                   = 128
+$spawn                      = "weapons\grenades\f1"
+cform                       = skeleton
+class                       = G_F1
+slot                        = 3
+animation_slot              = 7
+ef_weapon_type              = 4
+single_handed               = 1
+default_to_ruck             = false
+sprint_allowed              = true
+inv_grid_width				= 1
+inv_grid_height				= 2
+inv_grid_x					= 2
+inv_grid_y					= 39
+highlight_equipped          = true
+kind                        = w_explosive
+inv_weight			        = 1.89
+cost				        = 2990
+hud                         = ied_rpg_new_hud
+; visual                      = anomaly_weapons\wpn_grenades\ied_chem
+attach_bone_name            = bip01_r_hand
+attach_position_offset      = -0.053, -0.089, 0.0
+attach_angle_offset         = 0, 0, 0
+third_person_throw_point_offset = -0.198, 1.8, -0.833
+throw_dir                   = 0, 0, 1
+throw_point                 = 0.4, 0.3, 0.1
+up_throw_factor				= 0.76
+wm_size						= 0.1
+force_min                   = 10
+force_const                 = 30
+force_max                   = 10
+force_grow_speed            = 10000
+destroy_time                = 1000 ;2500
+grenade_remove_time         = 60000
+detonation_threshold_hit    = 200
+light_color                 = 1.9, 1.4, 0.5
+light_range                 = 25.0
+light_time                  = 0.85
+wallmark_section            = explosion_marks
+wm_size                     = 0.1
+upgr_icon_x                 = 450
+upgr_icon_y                 = 1950
+upgr_icon_width             = 150
+upgr_icon_height            = 100
+upgr_icon_path              = ui\ui_actor_weapons
+hit_type_blast              = explosion
+hit_type_frag               = fire_wound
+blast						= 4.3
+blast_r						= 7.2
+blast_impulse				= 205
+blast_impulse_factor		= 1
+frags						= 153
+frags_r						= 36
+frag_hit					= 0.03
+frag_hit_impulse			= 28
+fragment_speed				= 230
+explode_duration            = 3
+explode_particles           = explosions\explosion_barrel
+;explode_particles           = explosions\explosion_01
+control_inertion_factor     = 1
+snd_on_take                 = grenade
+snd_explode					= weapons\rpg7\rpg7_explode
+kill_msg_x                  = 1
+kill_msg_y                  = 232
+kill_msg_width              = 13
+kill_msg_height             = 23
+snd_throw                   = gran\grenade_throw
+snd_throw_begin             = gran\grenade_throw_start
+use4_functor                = txr_mines.str_remote_plant
+use4_action_functor         = txr_mines.func_remote_plant
+use5_functor                = txr_mines.str_remote_pocket_plant
+use5_action_functor         = txr_mines.func_remote_pocket_plant
+use6_functor                = txr_mines.str_pocket_plant_timed_10
+use6_action_functor         = txr_mines.func_pocket_plant_timed_10
+use7_functor                = txr_mines.str_pocket_plant_timed_30
+use7_action_functor         = txr_mines.func_pocket_plant_timed_30
+
+[ied_rpg_new_hud]:hud_base
+item_visual                 = anomaly_weapons\wpn_grenades\wpn_f1_hud.ogf
+attach_place_idx            = 0
+
+item_position               = -0.001, 0.004, 0.009391
+item_orientation            = 18.5, 1.5, 0
+
+hands_orientation			= -0.5, 1, -2
+hands_orientation_16x9		= -0.5, 1, -2
+hands_position				= -0.016204, -0.074241, -2
+hands_position_16x9			= -0.016204, -0.074241, -2
+
+anm_hide                    = he_hide, idle
+anm_idle                    = he_idle, idle
+anm_idle_moving             = he_walk, f1_walk
+anm_idle_sprint             = he_sprint, f1_sprint
+anm_show                    = he_draw, idle
+anm_throw                   = he_throw_end, f1_throw_quick
+anm_throw_begin             = he_throw_start, f1_throw_start
+anm_throw_idle              = he_throw_idle, f1_throw_idle
+
+fire_bone                   = wpn_body
+fire_point                  = 0, 0, 0
+
+throw_point				 =  0.4, 0.3, 0.1           ;0.18, 1.636, -0.788     \\0.118 0.737 0.788
+throw_dir				 = 0,0,1
+third_person_throw_point_offset = -0.198,1.8,-0.833 ;-0.05,0.848,0.706
+
+freelook_z_offset_mul		= 0.15
+
+;---------------------------------------------------------------------------------------------------------
+
+![ied_new]:weapon_probability,default_weapon_params,grenade_f1_sounds
+!auto_attach
+!eat_health
+!eat_satiety
+!eat_power
+!eat_radiation
+!eat_alcohol
+!eat_portions_num
+!wounds_heal_perc
+!use1_functor
+!use1_action_functor
+!use2_functor
+!use2_action_functor
+!use3_functor
+!use3_action_functor
+!tier
+
+GroupControlSection         = spawn_group
+discovery_dependency        =
+$prefetch                   = 128
+$spawn                      = "weapons\grenades\gd-05"
+class                       = G_F1_S
+slot                        = 3
+animation_slot              = 7
+ef_weapon_type              = 4
+single_handed               = 1
+default_to_ruck             = false
+sprint_allowed              = true
+highlight_equipped          = true
+kind                        = w_explosive
+hud                         = ied_new_hud
+; visual                      = anomaly_weapons\wpn_grenades\ied_chem
+attach_bone_name            =
+attach_position_offset      = -0.053, -0.089, 0.0
+attach_angle_offset         = 0, 0, 0
+bone_name                   = bip01_r_hand
+position_offset             = 0.0, 0.0, 0.0
+angle_offset                = 1.570790, 1.570790, 3.92699
+third_person_throw_point_offset = -0.198, 1.8, -0.833
+throw_dir                   = 0, 0, 0
+throw_point                 = 0.2, 0.3, 0.1
+up_throw_factor				= 0
+force_min                   = 25
+force_const                 = 5
+force_max                   = 25
+force_grow_speed            = 20
+destroy_time                = 4000
+grenade_remove_time         = 60000
+detonation_threshold_hit    = 200
+light_color                 = 1.9, 1.4, 0.5
+light_range                 = 14.0
+light_time                  = 0.85
+wallmark_section            = explosion_marks
+wm_size						= 0.02
+hit_type_blast              = explosion
+hit_type_frag               = fire_wound
+blast						= 5.7
+blast_r						= 12.9
+blast_impulse				= 274
+blast_impulse_factor		= 1
+frags						= 5
+frags_r						= 74
+frag_hit					= 0.06
+frag_hit_impulse			= 43
+fragment_speed				= 220
+up_throw_factor				= 1.0
+wm_size						= 0.1
+explode_duration            = 4.0
+explode_particles           = explosions\explosion_barrel
+zoom_dof                    = 0.5, 1.0, 180
+reload_dof                  = 0.0, 0.5, 5, 1.7
+control_inertion_factor     = 1
+snd_explode					= weapons\explo\fuelcan_boom
+snd_on_take                 = grenade
+
+snd_throw                   = gran\grenade_throw
+snd_throw_begin             = gran\grenade_throw_start
+
+kill_msg_x                  = 240
+kill_msg_y                  = 123
+kill_msg_width              = 14
+kill_msg_height             = 23
+use4_functor                = txr_mines.str_remote_plant
+use4_action_functor         = txr_mines.func_remote_plant
+use5_functor                = txr_mines.str_remote_pocket_plant
+use5_action_functor         = txr_mines.func_remote_pocket_plant
+use6_functor                = txr_mines.str_pocket_plant_timed_10
+use6_action_functor         = txr_mines.func_pocket_plant_timed_10
+use7_functor                = txr_mines.str_pocket_plant_timed_30
+use7_action_functor         = txr_mines.func_pocket_plant_timed_30
+
+[ied_new_hud]:hud_base
+item_visual                 = anomaly_weapons\wpn_grenades\wpn_gd5_hud.ogf
+attach_place_idx            = 0
+item_orientation			= 18.5, 1.5, 0
+item_position				= -0.002814, -0.003891, 0.004405
+hands_orientation			= -0.5, 1, -2
+hands_orientation_16x9		= -0.5, 1, -2
+hands_position				= -0.016204, -0.074241, -2
+hands_position_16x9			= -0.016204, -0.074241, -2
+aim_hud_offset_pos          = 0, 0, 0
+aim_hud_offset_rot          = 0, 0, 0
+gl_hud_offset_pos           = 0, 0, 0
+gl_hud_offset_rot           = 0, 0, 0
+lean_hud_offset_pos         = 0, 0, 0
+lean_hud_offset_rot         = 0, 0, 0
+anm_hide                    = he_hide, rdgm_hide
+anm_idle                    = he_idle, idle
+anm_idle_moving             = he_walk, rdgm_walk
+anm_idle_sprint             = he_sprint, rdgm_sprint
+anm_show                    = he_draw, rdgm_draw
+anm_throw                   = he_throw_end, rdgm_throw_quick
+anm_throw_begin             = he_throw_start, rdgm_throw_start
+anm_throw_idle              = he_throw_idle, rdgm_throw_idle
+fire_bone                   = wpn_body
+fire_point                  = 0, 0, 0
+throw_point					=  0.4, 0.3, 0.1	;0.18, 1.636, -0.788	\\0.118 0.737 0.788
+throw_dir					= 0,0,1
+third_person_throw_point_offset = -0.198,1.8,-0.833 ;-0.05,0.848,0.706
+freelook_z_offset_mul		= 0.3
+
+;---------------------------------------------------------------------------------------------------------
+
+![rpg_new_blow]
+kind				= w_explosive
+inv_grid_width		= 1
+inv_grid_height		= 2
+inv_grid_x			= 9
+inv_grid_y			= 11
+explode_particles	= explosions\explosion_01
+
+![ied_new_blow]
+kind				= w_explosive
+inv_grid_width		= 1
+inv_grid_height		= 2
+inv_grid_x			= 8
+inv_grid_y			= 11
+explode_particles	= explosions\explosion_barrel
