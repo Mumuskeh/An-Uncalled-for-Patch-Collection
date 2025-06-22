@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_paracetamol">
+		<text>Paracetamol</text>
+	</string>
+	<string id="st_paracetamol_descr">
+		<text>Arguably the most popular over-the-counter painkillers available, Paracetamol is great for helping relieve mild to moderate pain. In demand among rookie stalkers in The Zone, who can not afford stronger and more zone-suited painkillers.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] over-the-counter available medicine\n
+		%c[d_purple] • %c[ui_gray_2] low damage resistance bonus\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]• %c[ui_gray_2]T%c[0,252,186,3]•• %c[ui_gray_2]A%c[0,252,186,3]•• %c[ui_gray_2]L%c[0,252,186,3]•• \n
+		%c[d_blue] • %c[0,74,134,232] post-heals %c[ui_gray_2]H%c[0,74,134,232]•  %c[ui_gray_2]A%c[0,74,134,232]•\n
+		</text>
+	</string>
+
+	<string id="st_multivitamin">
+		<text>Multivitamin supplement</text>
+	</string>
+	<string id="st_multivitamin_descr">
+		<text>These multivitamin supplements are daily dietary pills that contain a combination of essential vitamins and minerals. They are designed to fill nutritional gaps and support overall health and well-being. This makes them in demand among stalkers who suffer from vitamin deficiencies due to lacking diets.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] over-the-counter available supplements\n
+		%c[d_purple] • %c[ui_gray_2] low health restoration bonus\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]T%c[0,252,186,3]•\n
+		</text>
+	</string>
+	
+	<string id="st_active_charcoal">
+		<text>Activated Charcoal pills</text>
+	</string>
+	<string id="st_active_charcoal_descr">
+		<text>Activated charcoal tablets are a powerful detoxifying agent used to bind and eliminate toxins from the body. Many stalkers in The Zone use them to deal with poisonings from contaminated food, water or even as a remedy against alcohol poisoning.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] over-the-counter available medicine\n
+		%c[d_purple] • %c[ui_gray_2] effective against poisonings \n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]H%c[0,252,186,3]•\n
+		%c[d_blue] • %c[0,74,134,232] post-heals %c[ui_gray_2]H%c[0,74,134,232]•\n
+		</text>
+	</string>
+	
+	<string id="st_iodine">
+		<text>Iodine pills</text>
+	</string>
+	<string id="st_iodine_descr">
+		<text>Because of how high the demand for anti-radiation drugs in The Zone is, many stalkers are forced to seek for cheaper alternatives. Whereas some settle for vodka, others choose iodine as it is effective at protecting the thyroid gland from radioactive iodine exposure, making it a very viable alternative to stalkers who can't afford more expensive anti-radiation drugs.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] over-the-counter available medicine\n
+		%c[d_purple] • %c[ui_gray_2] low radiation resistance bonus\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]•• %c[ui_gray_2]T%c[0,252,186,3]•••\n
+		</text>
+	</string>
+	
+	<string id="st_tramadol">
+		<text>Tramadol</text>
+	</string>
+	<string id="st_tramadol_descr">
+		<text>Tramadol is a powerful painkiller, highly effective for treating moderate to severe pain. Unlike syringes, which require precise administration and can trigger needle phobia, tramadol pills are easy to use and more accessible for many stalkers. This convenience makes tramadol a preferred choice over other potent painkillers like metamizole or morphine. Because it's difficult to obtain outside the Zone due to its prescription-only status thanks to its addictive properties, tramadol is quite expensive within the Zone.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] prescription drugs\n
+		%c[d_purple] • %c[ui_gray_2] moderate damage resistance bonus\n
+		%c[d_red] • %c[ui_gray_2] mild dizziness\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]•• %c[ui_gray_2]T%c[0,252,186,3]••• %c[ui_gray_2]A%c[0,252,186,3]••• %c[ui_gray_2]L%c[0,252,186,3]••• \n
+		%c[d_blue] • %c[0,74,134,232] post-heals %c[ui_gray_2]H%c[0,74,134,232]•  %c[ui_gray_2]A%c[0,74,134,232]•  %c[ui_gray_2]L%c[0,74,134,232]••\n
+		</text>
+	</string>
+	
+	
+</string_table>
