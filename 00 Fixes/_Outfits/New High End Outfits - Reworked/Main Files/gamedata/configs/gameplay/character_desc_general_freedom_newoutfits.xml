@@ -1,0 +1,13 @@
+<specific_character id="sim_default_freedom_3_default_newoutfits_0" team_default = "1">
+#include "gameplay\profiles\character_desc_freedom_3.xml"
+    <icon>ui_inGame2_Freedom_3</icon>
+    <snd_config>characters_voice\human\freedom_1\</snd_config>
+    <visual>actors\stalker_freedom\svoboda_heavy_barrier_outfit</visual>
+</specific_character>
+
+<specific_character id="sim_default_freedom_4_default_newoutfits_0" team_default = "1">
+#include "gameplay\profiles\character_desc_freedom_4.xml"
+    <icon>ui_inGame2_Freedom_3</icon>
+    <snd_config>characters_voice\human\freedom_3\</snd_config>
+    <visual>actors\stalker_freedom\svoboda_heavy_barrier_outfit</visual>
+</specific_character>

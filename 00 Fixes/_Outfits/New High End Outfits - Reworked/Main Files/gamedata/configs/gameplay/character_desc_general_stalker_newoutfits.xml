@@ -1,0 +1,13 @@
+<specific_character id="sim_default_stalker_3_default_newoutfits_0" team_default = "1">
+#include "gameplay\profiles\character_desc_stalker_3.xml"
+    <icon>ui_inGame2_hunter</icon>
+    <snd_config>characters_voice\human\stalker_3\</snd_config>
+    <visual>actors\stalker_neutral\stalker_old_outfit</visual>
+</specific_character>
+
+<specific_character id="sim_default_stalker_4_default_newoutfits_0" team_default = "1">
+#include "gameplay\profiles\character_desc_stalker_4.xml"
+    <icon>ui_inGame2_hunter</icon>
+    <snd_config>characters_voice\human\stalker_3\</snd_config>
+    <visual>actors\stalker_neutral\stalker_old_outfit</visual>
+</specific_character>
