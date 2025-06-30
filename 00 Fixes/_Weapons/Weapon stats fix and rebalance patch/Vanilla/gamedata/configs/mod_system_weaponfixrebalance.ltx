@@ -3,8 +3,12 @@ rpm				= 660
 cycle_down		= 1
 
 ![wpn_abakan_camo]
-rpm				= 680
-rpm_mode_2		= 1240
+bullet_speed		= 900
+rpm					= 680
+rpm_mode_2			= 1240
+scope_dynamic_zoom	= off
+silencer_name		= wpn_sil_tgp-a
+silencer_status		= 2
 
 ![wpn_ak74]
 rpm				= 660
@@ -56,6 +60,10 @@ rpm				= 650
 
 ![wpn_akms_alt]
 rpm				= 660
+
+![wpn_bizon]
+rpm						= 650
+fire_dispersion_base	= 0.77
 
 ![wpn_fal]
 fire_modes		= 1, -1
@@ -131,6 +139,15 @@ rpm				= 650
 ![wpn_rpk74]
 rpm				= 675
 
+![wpn_saiga12s]
+fire_modes				= 1, -1
+ammo_elapsed			= 12
+ammo_mag_size			= 12
+hit_power				= 0.68, 0.68, 0.68, 0.68 ;0.78, 0.78, 0.78, 0.78
+rpm						= 180; 220
+PDM_disp_accel_factor	= 1.40 ; 2.4
+PDM_disp_vel_factor		= 1.8 ; 2.4
+
 ![wpn_scar]
 rpm				= 550
 
@@ -153,6 +170,10 @@ rpm				= 205
 ![wpn_spas12_nimble]
 rpm				= 210
 
+![wpn_sr25]
+ammo_elapsed                = 20
+ammo_mag_size               = 20
+
 ![wpn_svd]
 rpm				= 300
 
@@ -173,101 +194,8 @@ rpm				= 650
 
 ![wpn_vityaz]
 rpm				= 800
+condition_queue_shot_dec	= 0.0009
+condition_shot_dec			= 0.0009
 
 ![wpn_wa2000]
 rpm				= 325
-
-
-
-
-
-;;; BAS
-; Standardized some guns to the rpm used in AN-94 Fire Rate Fix and More and Hellblau's fix, or just real life. The upgrades get some increased rates tho. 
-
-
-![wpn_ak74_pmc]
-rpm				= 660 ;650
-
-![wpn_ak74_isg]
-rpm				= 660 ;650
-
-![wpn_akm_isg]
-rpm				= 680 ;700
-
-![wpn_ak74u_isg]
-rpm				= 660 ;650
-
-![wpn_ak74u_m1_isg]
-rpm				= 760 ;850
-
-![wpn_ak104_alfa]
-rpm				= 650 ;600
-
-![wpn_ak105_bas]
-rpm				= 675 ;650
-;Swamp Thing and Shakal already get 850
-
-![wpn_ak12_custom]
-rpm				= 700 ;650
-
-![wpn_ak12_custom_mono_kit]
-rpm				= 750 ;700
-
-![wpn_ak12_mono_com]
-rpm				= 700 ;650
-
-![wpn_ak5c_bas]
-rpm				= 700 ;750
-
-![wpn_ak5c_bas_5c_tik]
-rpm				= 750 ;800
-
-![wpn_ak5c_isg]
-rpm				= 750 ;800
-
-![wpn_howa20]
-rpm				= 750 ;900
-;wikipedia stated 650-850 RPM. 900 seems too much then
-
-![wpn_mp153_bas]
-rpm				= 300
-
-![wpn_mp153_m1]
-rpm				= 300
-
-![wpn_m4_ru556]
-rpm				= 800 ;850
-; Well, Wikipedia gives me this:
-; Cyclic rate of fire: 800 rounds/min
-; Practical rate of fire:
-; *Semi-automatic: 100 rounds/min
-; *Full-automatic: 250 rounds/min
-; obviously "practical" isn't necesarily what we want here
-
-![wpn_pk_siber]
-rpm				= 700 ;650
-
-![wpn_pkm_siber]
-rpm				= 700 ;650
-
-![wpn_pkp_siber]
-rpm				= 700 ;650
-
-![wpn_pkm_zenit_siber]
-rpm				= 800 ;750
-
-![wpn_pkm_zenit_shorty]
-rpm				= 800 ;750
-
-![wpn_pkp_tac_siber]
-rpm				= 700 ;650
-
-![wpn_ppsh_bas]
-rpm				= 950 ;880
-
-![wpn_ppsh_bas_uptacppsh]
-rpm				= 1200 ;920
-
-![wpn_scar_siber]
-rpm				= 550 ;650
-;SCAR L still has 650, but given is in a smaller caliber, let's ignore it

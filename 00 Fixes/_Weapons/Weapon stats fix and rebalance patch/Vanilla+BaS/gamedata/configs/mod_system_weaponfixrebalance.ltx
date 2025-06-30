@@ -3,8 +3,12 @@ rpm				= 660
 cycle_down		= 1
 
 ![wpn_abakan_camo]
-rpm				= 680
-rpm_mode_2		= 1240
+bullet_speed		= 900
+rpm					= 680
+rpm_mode_2			= 1240
+scope_dynamic_zoom	= off
+silencer_name		= wpn_sil_tgp-a
+silencer_status		= 2
 
 ![wpn_ak74]
 rpm				= 660
@@ -56,6 +60,10 @@ rpm				= 650
 
 ![wpn_akms_alt]
 rpm				= 660
+
+![wpn_bizon]
+rpm						= 650
+fire_dispersion_base	= 0.77
 
 ![wpn_fal]
 fire_modes		= 1, -1
@@ -131,6 +139,15 @@ rpm				= 650
 ![wpn_rpk74]
 rpm				= 675
 
+![wpn_saiga12s]
+fire_modes				= 1, -1
+ammo_elapsed			= 12
+ammo_mag_size			= 12
+hit_power				= 0.68, 0.68, 0.68, 0.68 ;0.78, 0.78, 0.78, 0.78
+rpm						= 180; 220
+PDM_disp_accel_factor	= 1.40 ; 2.4
+PDM_disp_vel_factor		= 1.8 ; 2.4
+
 ![wpn_scar]
 rpm				= 550
 
@@ -153,6 +170,10 @@ rpm				= 205
 ![wpn_spas12_nimble]
 rpm				= 210
 
+![wpn_sr25]
+ammo_elapsed                = 20
+ammo_mag_size               = 20
+
 ![wpn_svd]
 rpm				= 300
 
@@ -173,6 +194,8 @@ rpm				= 650
 
 ![wpn_vityaz]
 rpm				= 800
+condition_queue_shot_dec	= 0.0009
+condition_shot_dec			= 0.0009
 
 ![wpn_wa2000]
 rpm				= 325
