@@ -1,0 +1,44 @@
+--[[ 
+    =====================================================================
+    Addon      : Tosox Mini Mods Repo: Arena Loadout contains Knife and Helmet
+    Link       : https://www.moddb.com/mods/stalker-anomaly/addons/tosox-mini-mods-repo/
+    Author     : Tosox
+    Credits    : Jhon_Doe
+    Date       : 26.01.2024
+    Last Edit  : 26.01.2024
+    =====================================================================
+--]]
+
+KNIFE = "wpn_knife"
+HELMET = "helm_ach7ex" -- Añadimos la variable del casco
+
+orig_xr_effects_bar_arena_teleport = xr_effects.bar_arena_teleport
+xr_effects.bar_arena_teleport = function(...)
+    orig_xr_effects_bar_arena_teleport(...)
+
+    CreateTimeEvent("arena_loadout_contains_items", "check_if_already_has_items", 0.25, function()
+        local has_knife = false
+        local has_helmet = false
+        
+        db.actor:iterate_inventory(function(actor, itm)
+            if (not has_knife) and (IsMelee(itm)) then
+                has_knife = true
+            end
+            if (not has_helmet) and (IsHelmet(itm)) then
+                has_helmet = true
+            end
+        end, db.actor)
+
+        -- Generar cuchillo si no lo tiene
+        if not has_knife then
+            alife_create_item(KNIFE, db.actor)
+        end
+        
+        -- Generar casco si no lo tiene
+        if not has_helmet then
+            alife_create_item(HELMET, db.actor)
+        end
+
+        return true
+    end)
+end
