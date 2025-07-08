@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_dutymedkit">
+		<text>"Duty" combat medkit</text>
+	</string>
+	<string id="st_dutymedkit_descr">
+		<text>Based on the army medkits, the "Duty" medkit is specifically designed for combat and treating mutant lacerations. Contains substances found in life support systems of Duty suits consisting of not only coagulants, but also epinephrine and dubious painkillers. These medkits are rare and highly valued by stalkers as they're very hard to find and are among the best for use in combat.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] About as effective as an army medkit at healing.\n
+		%c[d_red] • %c[ui_gray_2] Restores some health on use.\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_blue] • %c[ui_gray_2] suitable for The Zone's conditions\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		%c[d_purple] • %c[ui_gray_2] medium damage resistance bonus\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]•••••••• %c[ui_gray_2]T%c[0,252,186,3]••••••••• %c[ui_gray_2]A%c[0,252,186,3]•••• %c[ui_gray_2]L%c[0,252,186,3]•••• \n
+		%c[d_blue] • %c[0,74,134,232] post-heals %c[ui_gray_2]     T%c[0,74,134,232]••  %c[ui_gray_2]A%c[0,74,134,232]•••  %c[ui_gray_2]L%c[0,74,134,232]•• \n
+		</text>
+	</string>
+	<string id="st_banditmedkit">
+		<text>Improvised medkit</text>
+	</string>
+	<string id="st_banditmedkit_descr">
+		<text>A very crude medkit, the recipe for which was rumored to have been created by one of the Zone's bandit squads with talks that the group responsible for manufacturing these has their recipe stashed somewhere within the Darkscape. These medkits are made of different herbs found around The Zone. Fairly useful for a rookie stalker, however, a simple imported first-aid-kit will be far safer to use due to the dubious components used to craft these medkits. Drink plenty of fluids to eliminate the awful taste in the back of your tongue after use.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Is only as good at healing as the herbs used for production.\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] zone-produced\n
+		%c[d_red] • %c[ui_gray_2] unsuitable for the zone's conditions\n
+		%c[d_red] • %c[ui_gray_2] low quality\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		%c[d_red] • %c[ui_gray_2] questionable effects on the users' body\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]•• %c[ui_gray_2]T%c[0,252,186,3]••• %c[ui_gray_2]A%c[0,252,186,3]• %c[ui_gray_2]L%c[0,252,186,3]•• \n
+
+		</text>
+	</string>
+	<string id="st_freedommedkit">
+		<text>"Liberty" medkit</text>
+	</string>
+	<string id="st_freedommedkit_descr">
+		<text>Designed by stalkers of the Freedom faction, this medkit was based on the imported orange medkits, popular among stalkers, which explains the contents of this medkit. It's mostly the same as the orange AI-2 medkits, however, it comes with a tiny amount of weed and the composition of the healing substance was also modified with unknown ingridients which give a tingling sense all over the body. For this reason, some stalkers use these medkits to get high, although at a fairly high price. It does not heal as quickly as a typical medkit, however, the effects of these "Liberty" medkits last longer than usual.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] As good as the first-aid-kits used by stalkers, although slightly slower\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] suitable for the zone's conditions\n
+		%c[d_blue] • %c[ui_gray_2] zone-produced\n
+		%c[d_blue] • %c[ui_gray_2] positive effects on the user's pscyhe\n
+		%c[d_red] • %c[ui_gray_2] very slow usage (modified field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		%c[d_red] • %c[ui_gray_2] causes intense dizziness and bluriness\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]••••• %c[ui_gray_2]T%c[0,252,186,3]•••••• %c[ui_gray_2]A%c[0,252,186,3]••• %c[ui_gray_2]L%c[0,252,186,3]••• \n
+		%c[d_blue] • %c[0,74,134,232] post-heals %c[ui_gray_2]A%c[0,74,134,232]•  %c[ui_gray_2]L%c[0,74,134,232]• \n
+		</text>
+	</string>
+	<string id="st_mercmedkit">
+		<text>"Contractor" first-aid-kit</text>
+	</string>
+	<string id="st_mercmedkit_descr">
+		<text>A medical kit that appeared in The Zone thanks to Meeker's connections before Griffin and his squad ended up in the Outskirts. These kits clearly originate from outside of Ukraine, due to all the writings, markings and instructions being in English. The medkit, in addition to the painkillers, coagulants and small doses of adrenaline, also contain materials to sterilize and clean wounds. "Contractor" kits are about as good as the army medkits used by the Spetsnaz, however, these can be used up to three times with the only drawback being the weight and relative rarity. \n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Similar to the Army medkits.\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] suitable for the zone's conditions\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] military item\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		%c[d_purple] • %c[ui_gray_2] medium damage resistance bonus\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]••••••• %c[ui_gray_2]T%c[0,252,186,3]•••••••• %c[ui_gray_2]A%c[0,252,186,3]•••• %c[ui_gray_2]L%c[0,252,186,3]•••• \n
+		%c[d_blue] • %c[0,74,134,232] post-heals %c[ui_gray_2]     T%c[0,74,134,232]••  %c[ui_gray_2]A%c[0,74,134,232]•••  %c[ui_gray_2]L%c[0,74,134,232]•• \n
+		</text>
+	</string>
+	<string id="st_monolithmedkit">
+		<text>"Divine" medkit</text>
+	</string>
+	<string id="st_monolithmedkit_descr">
+		<text>Undoubtedly used by the Monolith faction, it is unclear how these medkits were made, however, the lack of precision indicates these might be imported army medkits, modified here in The Zone. The insignia on the medkit seems to be hand-painted. The key strength of this medkit is the large amount of cystamine, allowing for an effective remedy to radiation poisoning, however, this comes at a cost of great vulnerability to intermittent psi-emissions. Causes an intense headache upon use.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Similar to the Army medkits.\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] suitable for the zone's conditions\n
+		%c[d_blue] • %c[ui_gray_2] zone-produced\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		%c[d_red] • %c[ui_gray_2] negative effects on the user's pscyhe\n
+		%c[d_purple] • %c[ui_gray_2] medium damage resistance bonus\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]••••• %c[ui_gray_2]T%c[0,252,186,3]••••••• %c[ui_gray_2]A%c[0,252,186,3]•••• %c[ui_gray_2]L%c[0,252,186,3]•••• \n
+		%c[d_blue] • %c[0,74,134,232] post-heals %c[ui_gray_2]A%c[0,74,134,232]••  %c[ui_gray_2]L%c[0,74,134,232]• \n
+		</text>
+	</string>
+	<string id="st_clearskymedkit">
+		<text>"Swamp Dweller" medkit</text>
+	</string>
+	<string id="st_clearskymedkit_descr">
+		<text>A modified orange stalker medkit, the "Swamp Dweller" kits, titled by Spore in reference to the Doctor, is specifically designed for strolls around the Great Swamps. The medkit was designed taking surroundings into account - the swamps, despite being in the souterh edge of The Zone, is a badly irradiated place that can leave any stalker glowing if one isn't careful enough to avoid radioactive fields. This medkit is designed to counter radioactivity in addition to healing the user.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] As good as the first-aid-kits used by stalkers, although slightly slower.\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] suitable for the zone's conditions\n
+		%c[d_blue] • %c[ui_gray_2] zone-produced\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		%c[d_red] • %c[ui_gray_2] causes slight bluriness\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]••••• %c[ui_gray_2]T%c[0,252,186,3]••••• %c[ui_gray_2]A%c[0,252,186,3]•• %c[ui_gray_2]L%c[0,252,186,3]•• \n
+		</text>
+	</string>
+	<string id="st_sinmedkit">
+		<text>"Fleshfeast" medkit</text>
+	</string>
+	<string id="st_sinmedkit_descr">
+		<text>Clearly based on a stalker medkit, this medkit, titled by stalkers as the "fleshfeast" kit, is used by members of the Sin faction. These medkits are relatively rare, however, their rarity does not make them any valuable to stalkers as these kits do more harm than good. It is rumored that extracts of mutant meat, dissolved in certain fluids is used to craft these medkits.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Slightly better than other improvised medkits\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] zone-produced\n
+		%c[d_red] • %c[ui_gray_2] unsuitable for the zone's conditions\n
+		%c[d_red] • %c[ui_gray_2] low quality\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		%c[d_red] • %c[ui_gray_2] negative effects on the user's psyche\n
+		%c[d_red] • %c[ui_gray_2] makes the user unconscious moments after use\n
+		%c[d_red] • %c[ui_gray_2] questionable effects on the users' body\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]•• %c[ui_gray_2]T%c[0,252,186,3]••• %c[ui_gray_2]A%c[0,252,186,3]• %c[ui_gray_2]L%c[0,252,186,3]•• \n
+		</text>
+	</string>
+    <string id="st_isgmedkit">
+        <text>"UN Scientific Expeditions" first aid kit</text>
+    </string>
+    <string id="st_isgmedkit_descr">
+        <text>The "UN Scientific Expeditions" Medkit is a specialized first-aid kit designed for United Nations personnel conducting scientific research in the Zone. Originating from central Europe, it features labels and instructions in German for ease of use by Central European teams. This medkit includes high-quality components: Promedol for pain relief, Taren for nerve agent antidote, and antibacterial agents like Sulfadimethoxine and Tetracycline. It also contains Cystamine and Potassium Iodide for radiation protection, and Etaperazine for nausea.\n\n
+			In addition to these standard elements, the medkit is equipped with advanced materials for sterilizing wounds and preventing infections, as well as small doses of adrenaline for emergency situations. The "UN Scientific Operations Medkit" is highly reliable and can be used multiple times, providing robust medical support. The only drawbacks it has is the lack of strong painkillers and the huge price. Its comprehensive contents make it indispensable for UN combatants and researchers facing the Zone's unique hazards, making it top of the line medical protection available in The Zone.\n \n
+        %c[ui_gray_3]HEALING:\n
+        %c[d_red] • %c[ui_gray_2] About as good as Ukrainian Scientific medkits\n
+        %c[ui_gray_3]PROPERTIES:\n
+        %c[d_blue] • %c[ui_gray_2] imported\n
+        %c[d_blue] • %c[ui_gray_2] valuable\n
+        %c[d_blue] • %c[ui_gray_2] high quality\n
+        %c[d_red] • %c[ui_gray_2] suitable for the zone's conditions\n
+        %c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+        %c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+        %c[d_purple] • %c[ui_gray_2] low damage resistance bonus\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]•••••••••• %c[ui_gray_2]T%c[0,252,186,3]•••••••••• %c[ui_gray_2]A%c[0,252,186,3]••••• %c[ui_gray_2]L%c[0,252,186,3]••••• \n
+		%c[d_blue] • %c[0,74,134,232] post-heals %c[ui_gray_2]     H%c[0,74,134,232]••• %c[ui_gray_2]T%c[0,74,134,232]•••••  %c[ui_gray_2]A%c[0,74,134,232]•••  %c[ui_gray_2]L%c[0,74,134,232]•• \n
+        </text>
+    </string>
+    <string id="st_renegademedkit">
+        <text>"Zone Junk" medkit</text>
+    </string>
+    <string id="st_renegademedkit_descr">
+        <text>A makeshift medkit created out of sheer desperation by a small, isolated group of renegades who roam the outer edges of the Zone. This rudimentary kit is assembled from whatever scraps and dubious materials can be found, including common Zone herbs like mugwort for its questionable antiseptic properties, thistle for minimal pain relief, and wormwood, which is more likely to irritate than heal. The healing substances are merely fluids squeezed out of herbs, and the “antiseptic” might just be diluted spirits. Although it can provide basic assistance in an emergency, the effectiveness of this medkit is highly unreliable, and users may suffer from side effects or additional discomfort. It's a last-ditch effort for those with no other options, so be prepared for a lingering bad taste and possible adverse reactions.\n \n
+        %c[ui_gray_3]HEALING:\n
+        %c[d_red] • %c[ui_gray_2] Is only as good at healing as the herbs used for production.\n
+        %c[ui_gray_3]PROPERTIES:\n
+        %c[d_blue] • %c[ui_gray_2] zone-produced\n
+        %c[d_red] • %c[ui_gray_2] unsuitable for the zone's conditions\n
+        %c[d_red] • %c[ui_gray_2] low quality\n
+        %c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+        %c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+        %c[d_red] • %c[ui_gray_2] questionable effects on the users' body\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]•• %c[ui_gray_2]T%c[0,252,186,3]••• %c[ui_gray_2]A%c[0,252,186,3]• %c[ui_gray_2]L%c[0,252,186,3]•• \n
+        </text>
+    </string>
+	<string id="st_medkit">
+        <text>Individual First-aid kit</text>
+    </string>
+    <string id="st_medkit_new_descr">
+        <text>The AI-2 is a widely used first-aid kit that provides essential medical care for the everyday challenges faced by stalkers wandering the Zone. Designed to address common injuries such as cuts, burns, and poisoning, this kit is a staple for many stalkers. Its straightforward design makes it a practical choice, though it’s best suited for routine care rather than severe injuries. Reliable in a pinch, it’s a go-to item for anyone needing basic medical attention while navigating the dangers of the Zone.\n \n
+        %c[ui_gray_3]HEALING:\n
+        %c[d_red] • %c[ui_gray_2] Restores 1.8%hp/s, total 60%\n
+        %c[ui_gray_3]PROPERTIES:\n
+        %c[d_blue] • %c[ui_gray_2] everyday item\n
+        %c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+        %c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		%c[d_purple] • %c[ui_gray_2] low damage resistance bonus\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2] H%c[0,252,186,3]•••• %c[ui_gray_2]T%c[0,252,186,3]•••• %c[ui_gray_2]A%c[0,252,186,3]•• %c[ui_gray_2]L%c[0,252,186,3]•• \n
+        </text>
+    </string>
+	<string id="st_medkit_army">
+        <text>Army medkit</text>
+    </string>
+    <string id="st_medkit_army_new_descr">
+        <text>The "Army Medkit" is tailored for the demanding conditions of combat and is typically issued to military personnel like Spetsnaz units operating in the Zone. It features a comprehensive set of medical supplies including blood coagulants, painkillers, antibiotics, and specialized tools for treating more serious injuries such as bullet wounds. This medkit is designed to handle the intense needs of soldiers in the field, offering advanced care that supports recovery from severe trauma. Essential for combat scenarios, it is a critical resource for those on the front lines.\n \n
+        %c[ui_gray_3]HEALING:\n
+        %c[d_red] • %c[ui_gray_2] Restores 3%hp/s, total 100%\n
+        %c[ui_gray_3]PROPERTIES:\n
+        %c[d_blue] • %c[ui_gray_2] military item\n
+        %c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+        %c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+        %c[d_purple] • %c[ui_gray_2] medium damage resistance bonus\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]••••••• %c[ui_gray_2]T%c[0,252,186,3]•••••••• %c[ui_gray_2]A%c[0,252,186,3]•••  %c[ui_gray_2]L%c[0,252,186,3]••• \n
+		%c[d_blue] • %c[0,74,134,232] post-heals %c[ui_gray_2]                  A%c[0,74,134,232]•    %c[ui_gray_2]L%c[0,74,134,232]• \n
+        </text>
+    </string>
+	<string id="st_medkit_science">
+        <text>Scientific medkit</text>
+    </string>
+    <string id="st_medkit_science_new_descr">
+        <text>The Scientific Medkit is designed specifically for researchers and scientists working in the hazardous environment of the Zone. It includes advanced medical supplies that address both injuries and radiation exposure, featuring substances like Vikasolum and Batilolum for wound treatment and Naphazoline for radiation relief. This medkit is built to meet the unique demands of scientific work in the Zone, offering specialized care that supports health and safety in an environment fraught with dangers. It is a key asset to successful scientific expeditions around The Zone.\n \n
+        %c[ui_gray_3]HEALING:\n
+        %c[d_red] • %c[ui_gray_2] Restores 3%hp/s, total 100%\n
+        %c[ui_gray_3]PROPERTIES:\n
+        %c[d_blue] • %c[ui_gray_2] valuable\n
+        %c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_blue] • %c[ui_gray_2] positive effects on the user's pscyhe\n
+        %c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+        %c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]•••••••••• %c[ui_gray_2]T%c[0,252,186,3]•••••••• %c[ui_gray_2]A%c[0,252,186,3]•••• %c[ui_gray_2]L%c[0,252,186,3]•••• \n
+		%c[d_blue] • %c[0,74,134,232] post-heals %c[ui_gray_2]                     A%c[0,74,134,232]••    %c[ui_gray_2]L%c[0,74,134,232]•• \n
+        </text>
+    </string>
+	<string id="st_spongebobmedkit">
+        <text>Spongebob medkit</text>
+    </string>
+    <string id="st_spongebobmedkit_descr">
+        <text>The spongebob medkit is a medkit found in the Rock Bottom, under the "Buz Stop" sign. DEBUG MEDKIT\n \n
+        %c[ui_gray_3]HEALING:\n
+        %c[d_red] • %c[ui_gray_2] heals to max because of how silly it is.\n
+        %c[ui_gray_3]PROPERTIES:\n
+        %c[d_blue] • %c[ui_gray_2] infuckingvaluable\n
+        %c[d_blue] • %c[ui_gray_2] top of the line quality, manufactured by Spongebob himself\n
+        %c[d_blue] • %c[ui_gray_2] can only be found under the "Buz Stop" sign in the Rock Bottom\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]•••••••••• %c[ui_gray_2]T%c[0,252,186,3]•••••••••• %c[ui_gray_2]A%c[0,252,186,3]••••• %c[ui_gray_2]L%c[0,252,186,3]••••• \n
+		%c[d_blue] • %c[0,74,134,232] post-heals %c[ui_gray_2]     H%c[0,74,134,232]•••••••••• %c[ui_gray_2]T%c[0,74,134,232]••••••••••  %c[ui_gray_2]A%c[0,74,134,232]•••••  %c[ui_gray_2]L%c[0,74,134,232]••••• \n
+        </text>
+    </string>
+</string_table>

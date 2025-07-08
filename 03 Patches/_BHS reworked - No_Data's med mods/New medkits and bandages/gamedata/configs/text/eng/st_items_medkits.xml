@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_civmedkit">
+		<text>Civilian medkit</text>
+	</string>
+	<string id="st_civmedkit_descr">
+		<text>A very simple medkit with basic supplies needed to treat minor ailments and wounds caused under household conditions. Not very useful as it is not reliable enough to save your life out in the field, but may be useful in a pinch.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores 1.8%hp/s, total 18%\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]••• %c[ui_gray_2]T%c[0,252,186,3]••• %c[ui_gray_2]A%c[0,252,186,3]• %c[ui_gray_2]L%c[0,252,186,3]• \n
+		</text>
+	</string>
+	
+		<string id="st_tacmedkit">
+		<text>Tactical medkit</text>
+	</string>
+	<string id="st_tacmedkit_descr">
+		<text>An improved version of the military medkits sometimes issued to the veteran combatants of the USS, Spetsnaz and Duty and despite not being Ukrainian-made, these medkits have somehow found their way into the hands of the Mercenaries. This medkit, in addition to everything the army medkits have, also has substances that react as soon as they enter the user's bloodstream, which can help save the user's life when used in critical situations where they would normally bleed out by the time the effects of the medkit kick in. Among those substances is a drug that helps neutralize the effects of alcohol and other nausea-inducing drugs. These medkits have not been in circulation for long and are harder to come across than typical medkits, making them fairly valuable.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores 6%hp/s, total 90%\n
+		%c[d_red] • %c[ui_gray_2] Restores a decent amount of hp on use\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] valuable\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]•••••••• %c[ui_gray_2]T%c[0,252,186,3]••••••••• %c[ui_gray_2]A%c[0,252,186,3]•••• %c[ui_gray_2]L%c[0,252,186,3]•••• \n
+		%c[d_blue] • %c[0,74,134,232] post-heals %c[ui_gray_2]T%c[0,74,134,232]••  %c[ui_gray_2]A%c[0,74,134,232]••  %c[ui_gray_2]L%c[0,74,134,232]•• \n
+		</text>
+	</string>
+		<string id="st_commedkit">
+		<text>Combat Stimulant kit</text>
+	</string>
+		<string id="st_commedkit_descr">
+		<text>Unlike standard medkits which focus on treating the users' wounds, infections and bleeding, the combat stimulant kit was designed to be used before combat situations to help the user sustain themselves through combat. This kit features certain painkillers, adrenaline as well as coagulating agents that help control bleeding. These kits are not often found in The Zone, making them fairly valuable to stalkers who get into frequent combat.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores a small amount of hp on use\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] valuable\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_blue] • %c[ui_gray_2] moderate damage resistance bonus\n
+		%c[d_red] • %c[ui_gray_2] causes slight dizziness\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]• %c[ui_gray_2]T%c[0,252,186,3]••••• %c[ui_gray_2]A%c[0,252,186,3]•••• %c[ui_gray_2]L%c[0,252,186,3]•••• \n
+		%c[d_blue] • %c[0,74,134,232] post-heals %c[ui_gray_2]   H%c[0,74,134,232]•• %c[ui_gray_2]T%c[0,74,134,232]••  %c[ui_gray_2]A%c[0,74,134,232]••  %c[ui_gray_2]L%c[0,74,134,232]• \n
+		</text>
+	</string>
+	<string id="st_toxmedkit">
+		<text>Detox medkit</text>
+	</string>
+		<string id="st_toxmedkit_descr">
+		<text>A specialized medical kit designed for various harsh and toxic environments. Containing advanced detoxifying agents, this medkit provides essential protection and recovery from radiation, chemical burns, poisonings and helps eliminate any toxins that may have accumulated in the body. It is highly recommended to take this with large amounts of water to help the effects kick in. It is invaluable to stalkers who frequently go on artifact hunts or mutant hunts in irradiated areas.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] valuable\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] moderate alcohol sobering effect\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]   H%c[0,252,186,3]••• %c[ui_gray_2]T%c[0,252,186,3]••• %c[ui_gray_2]A%c[0,252,186,3]•• %c[ui_gray_2]L%c[0,252,186,3]•• \n
+		%c[d_blue] • %c[0,74,134,232] post-heals %c[ui_gray_2]   H%c[0,74,134,232]••• %c[ui_gray_2]T%c[0,74,134,232]•••  %c[ui_gray_2]A%c[0,74,134,232]•  %c[ui_gray_2]L%c[0,74,134,232]• \n
+		</text>
+	</string>
+		<string id="st_colbandage">
+		<text>Cooling bandage</text>
+	</string>
+	<string id="st_colbandage_descr">
+		<text>A specialized medical dressing designed to provide immediate cooling relief for burns, sprains, and other injuries. This bandage is infused with a cooling gel to reduce pain, swelling, and inflammation, making it essential for quick treatment in the field. To address burns or sprains, apply the Cooling Bandage directly to the injured area. The cooling effect helps to alleviate pain and decrease swelling.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] first-aid item\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (adhesive plaster)\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]T%c[0,252,186,3]••• %c[ui_gray_2]A%c[0,252,186,3]•••• %c[ui_gray_2]L%c[0,252,186,3]•••• \n
+		</text>
+	</string>
+		<string id="st_prebandage">
+		<text>Pressure dressing</text>
+	</string>
+	<string id="st_prebandage_descr">
+		<text>A specialized medical dressing designed to control significant bleeding and stabilize severe wounds. This dressing combines absorbent padding with an elastic bandage to apply sustained pressure, making it essential for treating deep cuts and injuries.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] first-aid item\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (adhesive plaster)\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]T%c[0,252,186,3]••••• %c[ui_gray_2]A%c[0,252,186,3]•••• %c[ui_gray_2]L%c[0,252,186,3]•••• \n
+		</text>
+	</string>
+	<string id="st_rag">
+		<text>Rags</text>
+	</string>
+	<string id="st_rag_descr">
+		<text>A couple dirty rags, torn from a t-shirt or some kind of cotton clothing. They are not sterile and are not suitable in a medical setting, however, not all stalkers can afford high quality imported bandages, so these are a semi effective alternative. Simply unsuitable for treating heavy bleeding, because the blood will simply soak through the rag.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_blue] • %c[ui_gray_2] fast usage\n
+		%c[d_red] • %c[ui_gray_2] awfully low quality\n
+		%c[d_red] • %c[ui_gray_2] high chance of infection\n
+		%c[d_red] • %c[ui_gray_2] not sterile\n
+		%c[d_red] • %c[ui_gray_2] dirty\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]A%c[0,252,186,3]• \n
+		</text>
+	</string>
+	<string id="st_bandaids">
+		<text>Band-aids</text>
+	</string>
+	<string id="st_bandaids_descr">
+		<text>A package of band-aids, imported from the outside of The Zone. These band-aids are not useful in combat and are really only there to treat minor lacerations and scratches. As such, they are not very valued in The Zone, however, they can be useful in a pinch. \n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] first-aid item\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (adhesive plaster)\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_red] • %c[ui_gray_2] unsuitable for The Zone's conditions\n
+		%c[d_blue] • %c[0,252,186,3] first-aid %c[ui_gray_2]A%c[0,252,186,3]• %c[ui_gray_2]L%c[0,252,186,3]• \n
+		</text>
+	</string>
+</string_table>

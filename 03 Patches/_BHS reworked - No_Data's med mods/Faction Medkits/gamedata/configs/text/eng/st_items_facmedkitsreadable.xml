@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_banditletter1">
+		<text>Bandit letter (to Valeriy)</text>
+	</string>
+	<string id="st_banditletter1_descr">
+		<text>This is a letter of a bandit, adressed to another bandit named Valeriy. The letter mentions the death of a bandit named Sasha and Loris screwing over stalkers in the Cordon by selling bandit-made production to rookies, possibly by doing secret deals with the bandits.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] personal item\n
+		</text>
+	</string>
+	
+	<string id="st_banditletter2">
+		<text>Bandit letter (to Sasha)</text>
+	</string>
+	<string id="st_banditletter2_descr">
+		<text>This is a letter of a bandit, adressed to another bandit named Sasha. The letter also contains a map attached with a paperclip with all sorts of locations marked. According to the author of the letter, the bandits' loot is moved between stashes at certain times. The letter also mentions a secret deal between the Bandits and Loris.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] personal item\n
+		</text>
+	</string>
+	
+	<string id="st_banditletter3">
+		<text>Bandit letter (to Valera)</text>
+	</string>
+	<string id="st_banditletter3_descr">
+		<text>This is a letter of a bandit, adressed to Valera, who seems to be the leader of a bandit squad. The letter is a report of a recent deal between the bandit group and stalkers sent by Loris for medical supplies.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] personal item\n
+		</text>
+	</string>
+	
+	<string id="st_darkscapemap">
+		<text>Map of the Darkscape</text>
+	</string>
+	<string id="st_darkscapemap_descr">
+		<text>This is a very well made map sketch of the Darkscape. The creator of this, a stalker named Danila, seems to be a worker for Loris. The map has multiple locations marked with all sorts of useful information on the Darkscape.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] personal item\n
+		%c[d_blue] • %c[ui_gray_2] hand-drawn by a skilled cartographer\n
+		</text>
+	</string>
+	
+	<string id="st_facmeds_chipmap">
+		<text>Drawing of a train</text>
+	</string>
+	<string id="st_facmeds_chipmap_descr">
+		<text>A drawing, seemingly sketched out by a member of Clear Sky. It depicts the derelict train in the northern part of The Great Swamps. Novikov said the microchip should be somewhere on the premises. According to the note I was given, it seems like some scavengers might've left it behind.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] personal item\n
+		%c[d_blue] • %c[ui_gray_2] hand-drawn by a member of Clear Sky\n
+		</text>
+	</string>
+	
+	<string id="st_facmeds_microchip">
+		<text>Microchip</text>
+	</string>
+	<string id="st_facmeds_microchip_descr">
+		<text>This appears to be a microchip from some kind of electronic device. I have no clue how it can be useful to anyone in The Zone, but Novikov knows better than me. I was asked to bring this to him.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] electronic component\n
+		</text>
+	</string>
+	
+	<string id="st_facmeds_oscillograph">
+		<text>SI-65A Oscillograp</text>
+	</string>
+	<string id="st_facmeds_oscillograph_descr">
+		<text>The SI-65A Oscillograph is an oscilloscope used in mobile science labs around The Zone. It is used for conducting various measurements and tests, specifically with electronic devices and certain anomalous phenomena. It is rather expensive and would fetch a nice price at a looter camp, however, that would equate to Sakharov losing invaluable lab equipment, making you a kill-on-sight at any mobile lab.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] valuable\n
+		%c[d_blue] • %c[ui_gray_2] lab equipment\n
+		%c[d_red] • %c[ui_gray_2] heavy\n
+		</text>
+	</string>
+</string_table>

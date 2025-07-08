@@ -1,0 +1,42 @@
+if zzz_player_injuries then
+  zzz_player_injuries.medkits.civmedkit = {head=3,torso=3,rightleg=1,leftleg=1,rightarm=1,leftarm=1}
+  zzz_player_injuries.medkits.tacmedkit = {head=8,torso=9,rightleg=4,leftleg=4,rightarm=4,leftarm=4}
+  zzz_player_injuries.medkits.commedkit = {head=1,torso=5,rightleg=4,leftleg=4,rightarm=4,leftarm=4}
+  zzz_player_injuries.medkits.toxmedkit = {head=3,torso=3,rightleg=2,leftleg=2,rightarm=2,leftarm=2}
+  zzz_player_injuries.medkits.colbandage = {torso=3,rightleg=4,leftleg=4,rightarm=4,leftarm=4}
+  zzz_player_injuries.medkits.prebandage = {torso=5,rightleg=4,leftleg=4,rightarm=4,leftarm=4}
+  zzz_player_injuries.medkits.bandaids = {rightleg=1,leftleg=1,rightarm=1,leftarm=1}  
+  zzz_player_injuries.medkits.rag = {rightarm=1,leftarm=1}  
+  
+  zzz_player_injuries.medkits.paracetamol = {head=1,torso=2,rightleg=2,leftleg=2,rightarm=2,leftarm=2}
+  zzz_player_injuries.medkits.tramadol = {head=2,torso=3,rightleg=3,leftleg=3,rightarm=3,leftarm=3}
+  zzz_player_injuries.medkits.active_charcoal = {head=1}
+  zzz_player_injuries.medkits.multivitamin = {torso=1}
+  zzz_player_injuries.medkits.iodine = {head=2,torso=3}
+  
+  zzz_player_injuries.medkits.banditmedkit = {head=2,torso=3,rightleg=2,leftleg=2,rightarm=1,leftarm=1}
+  zzz_player_injuries.medkits.dutymedkit = {head=8,torso=9,rightleg=4,leftleg=4,rightarm=4,leftarm=4}
+  zzz_player_injuries.medkits.freedommedkit = {head=5,torso=6,rightleg=3,leftleg=3,rightarm=3,leftarm=3}
+  zzz_player_injuries.medkits.isgmedkit = {head=10,torso=10,rightleg=5,leftleg=5,rightarm=5,leftarm=5}
+  zzz_player_injuries.medkits.monolithmedkit = {head=5,torso=7,rightleg=4,leftleg=4,rightarm=4,leftarm=4}
+  zzz_player_injuries.medkits.mercmedkit = {head=7,torso=8,rightleg=4,leftleg=4,rightarm=4,leftarm=4}
+  zzz_player_injuries.medkits.clearskymedkit = {head=5,torso=5,rightleg=2,leftleg=2,rightarm=2,leftarm=2}
+  zzz_player_injuries.medkits.sinmedkit = {head=2,torso=3,rightleg=2,leftleg=2,rightarm=1,leftarm=1}
+  zzz_player_injuries.medkits.renegademedkit = {head=2,torso=3,rightleg=2,leftleg=2,rightarm=1,leftarm=1}
+  zzz_player_injuries.medkits.spongebobmedkit = {head=10,torso=10,rightleg=5,leftleg=5,rightarm=5,leftarm=5}
+  
+  zzz_player_injuries.healhelp.tacmedkit = {torso=2,rightleg=2,leftleg=2,rightarm=2,leftarm=2}
+  zzz_player_injuries.healhelp.commedkit = {head=2,torso=2,rightleg=1,leftleg=1,rightarm=2,leftarm=2}
+  zzz_player_injuries.healhelp.toxmedkit = {head=3,torso=3,rightarm=1,leftarm=1}
+  
+  zzz_player_injuries.healhelp.tramadol = {head=2,rightleg=1,leftleg=1,rightarm=1,leftarm=1}
+  zzz_player_injuries.healhelp.paracetamol = {head=1,rightarm=1,leftarm=1}
+  zzz_player_injuries.healhelp.active_charcoal = {head=1}
+ 
+  zzz_player_injuries.healhelp.mercmedkit = {torso=2,rightleg=2,leftleg=2,rightarm=3,leftarm=3}
+  zzz_player_injuries.healhelp.dutymedkit = {torso=2,rightleg=2,leftleg=2,rightarm=3,leftarm=3}
+  zzz_player_injuries.healhelp.monolithmedkit = {rightleg=1,leftleg=1,rightarm=2,leftarm=2}
+  zzz_player_injuries.healhelp.isgmedkit = {head=3,torso=5,rightleg=2,leftleg=2,rightarm=3,leftarm=3}
+  zzz_player_injuries.healhelp.freedommedkit = {rightleg=1,leftleg=1,rightarm=1,leftarm=1}
+  zzz_player_injuries.healhelp.spongebobmedkit = {rightleg=5,leftleg=5,rightarm=5,leftarm=5}
+end
