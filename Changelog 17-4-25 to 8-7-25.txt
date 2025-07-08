@@ -1,0 +1,288 @@
+17-4-25
+-Updated Crates of new items to the last version, also the new more ammo option.
+-Updated Military SEVA.
+-New Extra Suits (aka ExoSEVAs addon) DLTX'd.
+-New Ukrainian Voices patch pack.
+-New Separated Helmets Outfits Backpacks 1.5.2 - Add Parts To Cut Weapons (WPO) patch.
+-New Women of the Zone - LTTZ patch.
+
+20-4-25
+-Fixed Automatic Optical Target Acquisition DLTXd (I gave it bad overrides).
+-New Anomalous grenades - DLTXd. Also with crafting recipes.
+-New Looting aids. A miscellany of patches to allow mod items to show up in treasure, crates, and/or rewards.
+-New Exoseva - Nav's Marks - DLTX patch
+-New DLTX MiniMod Repository's Vanilla Fixes - Consistent Head Protection DLTX merge patch
+-New DLTX MiniMod Repository's Artefacts Revision - POWERFUL ATTACHMENTS patch
+-New Outfit Attachment Overhaul - POWERFUL ATTACHMENTS patch
+
+23-4-25
+-Fixed BaS looting aids and split into two versions, for compatibility with original BaS and my BaS Lite tweak.
+-New More Booster HUD Icons - DX8-9 Texture patch, by Mumuskeh
+
+24-4-25
+-New Women of the Zone DLTXd [WORK IN PROGRESS]. WotZ - LttZ patch needs it now.
+LASS Dialogue Overhaul - Women of the Zone patch should now be obsolete.
+-New Modular Misc Tweaks - Faster Execute module DLTXd, by Mumuskeh
+-Looting aids for BaS Lite removed. It's now available directly in its new installer.
+
+26-4-25
+-New Blast-Objects Overhaul (B.O.O.) for GAMMA - DLTXd
+-New No_Data's New Junk - Lite
+
+27-4-25
+- BOO now has its own meshes for the IEDs. Thanks to Khyber for preparing the models. Models moved into their own separate mod.
+- Clear Sky SEVA Arms Fix is now renamed to Outfits HUD Arms Fix, and will now also fix the arms of the Mercenary LC-S outfit, as pointed by Mumuskeh.
+- New Remote Controlled Explosives and Pocket Bombs - DLTXd.
+
+1-5-25
+- New Deadmeme's Anomalous Mines - DLTXd
+- New Remote Controlled Explosives - Anomalous Mines patch
+- Blast-Objects Overhaul (B.O.O.) - Misc mods patches
+
+2-5-25
+- New 3D PDA New Interface - iTheon's PDA Taskboard auxiliary patch by Svinfylking
+- Page text graciously touched up by Svinfylking
+
+3-5-25
+- New Emission Weathers fix for Weather mods, by Mumuskeh
+
+4-5-25
+- New NPC_loadouts files rank fix
+- New Agram 2000 Loadout patches
+- New Drunk's Miserable Masks - Helmet for vanilla CS patch
+- Updated Jivix's Easier. More modules DLTXd
+- New Jivix's Easier Repair - Knife and tool sharpening rework merge
+
+5-5-25
+- New Simple Weapon Pack Lite
+- New Misc Weapon Pack Lite, plus Taurus patch for no-Bas vanilla and Mags Redux icon fix
+- Fixed plugin files in Misc Weapon Pack Lite, potentially causing a CTD
+- New New Game Loadouts+ by SilkySmooth - DLTXd
+- New Outfit Parts Overhaul - Armor Modkits - Thompson SMG modernized patch
+
+7-5-25
+- New UI Inventory Mods Merged DLTXd
+- New Zombie Outfit Drop - DLTXd
+- Properly deleted the outdated text file for modded exes in Anomalous Grenades.
+- Some tips!
+
+8-5-25
+- New DLTX Minimod Repository - New Food For Anomaly_DLTX icon patch
+- Fix for a small typo in the 3D PDA New Interface - iTheon's Taskboard patch.
+- New RPG26 - DLTXd
+- New Benelli M3 Super 90 Weapon Pack loadout patch
+- Moved the New Food icon fix to the (more appropiate) Textures section.
+
+9-5-25
+- Misc Weapon Pack: fixes fixed. Also new Fixes Only version, without cut weapons.
+- New ExoSEVA Re-balance - DLTXd
+- New Drunk's Miserable Masks - DLTXd. CS Helmet for vanilla spawns patch moved under it.
+- New Simple Weapon Pack - "True" Smith & Wesson SW500 addon
+- New Anomaly English Voice Restoration Project - DICK patch
+
+11-5-25
+- New .50 BMG ammo and Barret M82 restoration
+- New looting patch: Honey Badger and .300 BLK Framework
+
+12-5-25
+- Updated Misc. Weapon Pack Lite and Fixes: fixes for MAC-10 and MAC-11
+- New Misc Weapons Pack - Billwa's MAC-10 compatibility patch
+- New CSVars typo fix
+- New Anomaly English Voice Restoration Project - CSVars patch
+- New Women of the Zone - CSVars patch
+- CSVars - Ukranian Voices patch moved with the other CSVars patches
+- Updated RPG26 DLTXd to use AnthonyIrwin's more up to date version
+
+13-5-25
+- New Maid's Vanilla HD Icons - eGUI patch, by Svinfylking
+- New DLTX MiniMod Repository - Expanded Armor Pack_DLTX - Icon tweak
+- New European Drinks - DLTXd
+- New Arbiter Series Weapon Pack - Consolidation tweak
+- New Weird Task Framework - Icon tweak
+- New Enemy marker with distance - Texture reduction
+- Updated Misc Weapons Pack Lite
+File consolidation. MAC patches duplicated for Lite and original mod.
+- Updated Simple Weapons Pack Lite
+File consolidation. New Fixes Only version. True SW500 addon duplicated for Lite and original mod.
+- Updated New Food For Anomaly_DLTX icon fix
+Made its own unique icon file instead of piggy-bagging the vanilla or others' ui_icons_equipment.dds.
+- Updated New Junk Lite
+Icon tweak version.
+- Updated Interactive PDA - Misc mods
+Folder structure reorganized a bit.
+
+15-5-25
+- New More Food from Denro - Full Remaster icon fix
+- Updated Expanded Armor Pack_DLTX.
+Cleaned up the configs as well. Moved sections from Textures to Patches.
+
+20-5-25
+- New More Melee Features fix
+- Updated NPCs Limping and Healing - Patch for med mods
+A medkit had snuck among the bandages. It has now been disciplinized for improper behaviour.
+
+23-5-25
+- New Useful Idiots - Texture reduction
+- Updated UI Inventory Mods Mashup DLTXd.
+actor_status_thirst.script updated with arti's changes. No need to disable it anymore for compatibility with OAO.
+
+24-5-25
+- Updated Simple Weapons Pack
+- Updated Misc. Weapons Pack
+Icons consolidated. Bit hard to make them all fit neatly in a compact manner, but now you will load a single small-ish file for each of the packs instead of bunch of tiny loose ones.
+
+27-5-25
+-- Unfortunately, the most recent changelog was lost. Some changes are undocumented.
+- Updated Simple Weapon Pack tweaks:
+NPC loadout file reworked. Some weapons will be distributed properly as secondary guns to certain ranks. My loadout fixes (either in this pack or in my BaS Lite) are required.
+M1 Garand and M1A1 carbines reduce rof and range as per real life data.
+- Updated Misc Weapon Pack tweaks:
+NPC loadout file reworked. Some weapons will be distributed properly as secondary guns to certain ranks. My loadout fixes (either in this pack or in my BaS Lite) are required.
+The Billwa MAC10 patch will also redistribute MWP's MAC11 as a secondary weapon.
+- New SWP - 30-60 Springfield patch
+
+6-6-25
+- Fixed S/MWP tweaks causing CTD
+My fault. Whodda know the games needs to know if a SMG can use grenade launchers, and a rifle shoot at what velocity even if it can't equip a gl?
+- Updated Exoseva Rebalance DLTX patch. Fixed typo causing CTD
+- Updated NPC Limping and Healing patch for last update
+- New Sin Software Upgrade- Elixir Edition icon fix
+
+7-6-25
+- New NPC model protection fix
+- New OC-02 Kiparis + PP-91-01 Kedr-B Reanimation - DX8-9 Textures
+- Resized Blades of the Zone down to 1k
+
+8-6-25
+- Quick placement fix for NPC model protection fix. Please reinstall it.
+- NPC model protection fix: clarified cases of use. Only needed with no model overhauls.
+- Flash Grenades Updated + Flash Mk2 Animation DLTX'd. The summary was lost, is now back.
+
+10-6-25
+- Fixed Flash Grenades Updated + Flash Mk2 Animation DLTXd.
+- Fixed BOO DLTXd (alone and merged) crashing.
+- New Boxes loot redone DLTXd
+- New Characters die properly DLTXd
+
+12-6-25
+- Updated Automatic Optical Target Acquisition - DLTXd
+- New More Dynamic Tasks reenable tweak
+- Fixed Characters can die DLTXd causing a crash.
+- Fixed SWP - Neko's 30-06 Springfield ammo - Armor Modkits patch causing a crash.
+
+13-6-25
+- New 50 Beowulf Weapon Pack [Ghost Armory] consolidation tweaks.
+- Updated RPG26 - DLTXd. Icon file compacted a bit, nothing important.
+- Updated Arbiter Series Weapon Pack - Consolidation tweak. Fixed icon usage, and added patch for vanilla silencers.
+- Removed Useful Idiots texture reduction patch. The current version of the mod already provides their texture with the same compression format.
+
+16-6-25
+- New New High End Outfits - Reworked.
+- New Throw Indicator - Texture reduction.
+- New Stashes to Named NPCs - DXMLd, by V4l14nc3
+- New Mateba from The Armored Zone 3.0 - Rework patch
+- New PL14 - Loadout patch
+- Updated Expanded Armor Pack_DLTX patch. Added 1st Person View integration.
+- Updated Simple Weapon Pack Lite. Reenabled some guns, properly disabled others, reworked Mags Redux patch.
+
+18-6-25
+- New vanilla textures reduction
+- New DAR Dosimeter Enhanced - No DAR dependency patch, by Mumushkeh
+- New Gunslinger P90 Tactical patch
+- New Alternate Aim For Select Weapons - DLTXd
+- New Saint's Hideout Furniture Icons & Descriptions - DX8-9 Texture patch
+- Updated New High End Outfits - Rework patch
+Maintenance to the configuration files. Unfortunately this may require a new game. Any mods using its assets may need some rework; if you know of any, I'll help as able.
+Fixed crash with 1st Person View patch. Ensured correct working of the loner outfit NPC spawn.
+- Updated Expanded Armor Pack - Rework patch
+Maintenance to the configuration files. Unfortunately this may require a new game. Any mods using its assets may need some rework; if you know of any, I'll help as able.
+You may now disable the whole original mod.
+Tweaks to parts and loot files to include missing helmets and avoid redundancies.
+Added the Ghost ISG Radsuit to the NPC spawn pool.
+Fixed an icon error.
+Nerfed PS5 outfits.
+- Updated Mateba from TAZ 3.0 - Rework patch
+Fixed mirrored icon, and crash related to text. 3rd person view tweaked. When shooting, the fire effect will show up at the end of the barrel, not inside.
+Blacklisted the guns from the new 3D ballistics.
+
+20-6-25
+- Small fixes for:
+-.50 Beowulf Weapon Pack - Consolidation tweak. Also note to not install the original mod's Ammo Bullet Icons.
+-New Junk Lite tweaks. Also removed Pencil and reenabled back different repair items.
+-Mateba from TAZ - Rework patch.
+-PL-14 - Loadout patch
+-Misc Weapon Pack tweaks.
+- New MG42 adapted from TAZ 3.0 (now with MG3) - DX8-9 icon fixes.
+Simply fuses the two icon files into one.
+- Some patches pruned.
+
+21-6-25
+- New Vepr-12 Weaver - DLTXd & DXMLd, by V4l14nc3
+- New loadout patches.
+- New patches for Grok's Stash Overhaul.
+
+25-6-25
+- New NPC death outfit fix
+- Vepr-12 Weaver DTLXd & DXMLd. Fixed DXML file.
+
+27-6-25
+- New Hellblau's Fire Rate Fix - AN-94 Fire Rate Fix and More - Merge patch
+- Updated New Junk tweaks. A couple more icon fixes.
+- Updated NPC death outfit fix. Reenabled jacket and trenchcoat models.
+- Removed Anomaly English Voice Restoration Project - FVM patch. It's idea is only needed when Women of the Zone (or any mod also using the same ids FMV adds) is also in play.
+
+29-6-25
+- New Icon fixes:
+-MP5 Reanimation - New Icon DLTX addon
+-Drugs That Make Sense (Update 9.1)
+- New Sound fixes patches.
+- Updated Army SEVA - Fixes.
+Trade files consolidated.
+- Updated New High End Outfits tweak.
+Outfits should now be sellable. Moved to the Fixes section.
+- Updated Expanded Armor Pack_DLTX tweak.
+Outfits should now be sellable. Trade files consolidated. Outfit distribution through traders reworked (you'll find more loner traders selling the NBC and PS5 outfits, but the SKAT and Exosuit will be rarer. Clear Sky will also offer the Scar trenchcoat through high goodwill). Moved to the Fixes section.
+Also removed the "Original mod not required" note because WTH Connelly it is still very much needed for the assets.
+- Updated Simple Weapon Pack tweaks.
+Guns hould now be sellable. Fixed weapon parts for the Fixes Only option.
+- Updated Misc. Weapon Pack tweaks.
+Guns hould now be sellable.
+- Updated NPC Loadout fixes, with patches for new "extra" sections and grenade mods.
+- Updated Looting patches.
+New patches using the vanilla dynamic item spawn.
+- Updated New Junk tweaks.
+New Icon Tweaks only option, in case you want the full catalogue of the original mod.
+- Fixed ExoSEVA Re-balance - DLTXd
+It was referencing inexistent (outdated?) upgrade IDs, causing a CTD.
+- Looting patches.
+-More patches for Grok's Stash Overhaul.
+-Split existing patches for vanilla looting into: Boxes, Dynamic Item Spawn, Stashes, Task rewards. More awkward to use, but this was made so you can use the types you want while still avoiding the boxes patches as needed (as precaution is still required to use those).
+
+Moving those the outfit mods to Fixes feels a bit weird, as I'm not completely replacing them, but at this point they're less patches than full reworks, so...
+
+3-7-25
+- New Tosox Mini Mods - Arena Loadout Contains Knife Altered Script by Kamtek, V4l14nc3
+- Fire rate fix merge patch renamed to Weapon stats fix and rebalance patch. Added further tweaks
+- Vepr-12 Weaver - DXMLd & DLTXd. MAS Exclusion patch
+- Fixed SWP - Neko's 30-60 ammo patch giving the reworked SWP Garand a different ID than what every other file in the patch was referencing (meaning you would never see it around, at best)
+- Updated DAR Dosimeter Enhanced - Butchered
+- UI Mods Merge: added note about Better Stats Bars incompatibility.
+
+5-7-25
+- Weapon stats fix and rebalance patch. Fixed Abakan camo causing a CTD on attaching a silencer. The default Abakan models do not support silencers so this was unnecessary.
+- New Arsenal Overhaul Late Comers.
+
+6-7-25
+- New looting patches: corpse looting. Killed NPCs should now drop the items of the patched mods.
+- Weapon stats fix and rebalance patch:
+Fire distance of the MP5 family and the UMP45 reduced to 200 and 65 meters, respectably.
+Removed full auto from SR-25, in an attempt to simulate semi-auto.
+- Arsenal Overhaul Late Comers removed. It has been expanded a bit as an independent mod here.
+
+8-7-25
+- New Hideout Furniture - The Collector patches
+- New Optics and laser sights for firearms Icon fix
+- Weapon stats fix and rebalance patch:
+Fire distance for all pistols reduced to 100 meters, except 9x18 pistols (75 meters) and revolver & big caliber (150 meters).
+Fire distance reduced to 150 for UMP and 200 for MP5.
+Walther P99 bullet speed raised to 408. Glock to 375.
