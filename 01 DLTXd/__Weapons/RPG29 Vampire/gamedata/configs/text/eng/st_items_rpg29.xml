@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_rpg29">
+		<text>RPG-29 "Vampire"</text>
+	</string>
+	<string id="st_wpn_rpg29_descr">
+		<text>RPG-29 "Vampire" is a hand-held anti-tank grenade launcher (RPG), developed by GNPP "Basalt" (GSKB-47) in 1983-1989 under the index TKB-0175 based on RPG-16. The development of the grenade launcher was carried out for a new generation of tandem cumulative shots (grenades) for RPG (GNPP "Basalt"). Fiberglass RDTT for one of the types of shots was mastered in mass production in 1986. Put into service in 1989. The manufacturer, the Molot machine-building plant, released an experimental batch of grenade launchers, delivered for export, but mass production for the Armed Forces of the USSR and Russia never happened. The grenade launcher was first shown to the media at the IDEX-93 arms exhibition in Abu Dhabi in 1993.\n \n
+		%c[ui_gray_2]Attachments: \n
+		%c[d_purple] • %c[ui_gray_2] PGO 7 sight\n </text>
+		%c[d_purple] • %c[ui_gray_2] OKP 7 sight\n </text>
+	</string>
+
+	<string id="ammo_tbg_29_descr">
+		<text>TBG-29V-(Thermobaric Grenade-29 Shot) it is a thermobaric ammunition. Designed to destroy unarmored and lightly armored vehicles with armor thickness up to 20 mm due to high-explosive action. The charge is also ideal for defeating enemy manpower located in trenches, pillboxes, rooms with a volume of up to 300 cubic meters.\n \n</text>
+	</string>
+	<string id="ammo_tbg_29">
+		<text>TBG-29V grenade</text>
+	</string>
+
+</string_table>
