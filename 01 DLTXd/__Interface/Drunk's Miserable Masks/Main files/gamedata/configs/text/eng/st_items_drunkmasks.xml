@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_helm_respirator_old">
+		<text>PBFz 'Scout' Mask</text>
+	</string>
+	<string id="st_helm_respirator_old_descr">
+		<text>A Soviet surplus ShMB gas mask refitted with external 40mm filters for greater functionality. This particular variant has been re-tooled for various faction's recruits in more dangerous areas of the Zone. As such, it offers a better field of view and a higher level of protection from radioactive hazards compared to its predecessor, while still maintaining a fair price.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_hardhat_snag">
+		<text>CS-1 Headgear Set</text>
+	</string>
+	<string id="st_helm_hardhat_snag_descr">
+		<text>An upgraded steel army helmet and respirator combo. This variant was made and used exclusively by the Clear Sky faction in the early 2010s. Personally developed by Nimble, this rare dual-filter mask offers greatly increased chemical protection and field of view compared to most other helmet / respirator mask combos, but in return it offers slightly less protection against thermal and ballistic threats. "For when the weather gets cloudy."\n \n
+		</text>
+	</string>
+
+</string_table>
