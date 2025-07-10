@@ -1,0 +1,1446 @@
+;;===========================================================
+;;=================| VARIOUS ELECTRONICS |===================
+;;===========================================================
+[nj_nokia]:tch_junk
+$spawn 				                               = "devices\roubles"
+icons_texture 									= ui\ui_icon_nj_newjunk
+$prefetch 			                               = 16
+cform                                              = skeleton
+kind			                              	 = i_misc
+class					                           = II_ATTCH
+visual                                             = dynamics\devices\dev_pda\dev_pda.ogf
+cost					                           = 1000
+inv_name				                           = st_nj_nokia
+inv_name_short				                       = st_nj_nokia
+description				                           = st_nj_nokia_descr
+inv_weight				                           = 0.35
+inv_grid_width			                           = 1
+inv_grid_height			                           = 1
+inv_grid_x				                           = 0
+inv_grid_y				                           = 0
+auto_attach				                           = false
+tier 												= 4
+
+[nj_siemens]:nj_nokia
+inv_name				                           = st_nj_siemens
+inv_name_short				                       = st_nj_siemens
+description				                           = st_nj_siemens_descr
+cost												= 600
+inv_weight				                           = 0.3
+inv_grid_width			                           = 1
+inv_grid_height			                           = 1
+inv_grid_x				                           = 0
+inv_grid_y				                           = 1
+auto_attach				                           = false
+tier 												= 3
+
+[nj_samsung]:nj_nokia
+inv_name				                           = st_nj_samsung
+inv_name_short				                       = st_nj_samsung
+description				                           = st_nj_samsung_descr
+cost												= 800
+inv_weight				                           = 0.3
+inv_grid_width			                           = 1
+inv_grid_height			                           = 1
+inv_grid_x				                           = 1
+inv_grid_y				                           = 0
+auto_attach				                           = false
+tier 												= 3
+
+[nj_motorola]:nj_nokia
+inv_name				                           = st_nj_motorola
+inv_name_short				                       = st_nj_motorola
+description				                           = st_nj_motorola_descr
+cost												= 1150
+inv_weight				                           = 0.3
+inv_grid_width			                           = 1
+inv_grid_height			                           = 1
+inv_grid_x				                           = 1
+inv_grid_y				                           = 1
+auto_attach				                           = false
+tier 												= 4
+
+; [nj_mp3player]:nj_nokia
+; inv_name				                           = st_nj_mp3player
+; inv_name_short				                       = st_nj_mp3player
+; description				                           = st_nj_mp3player_descr
+; cost												= 1450
+; inv_weight				                           = 0.4
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x				                           = 0
+; inv_grid_y				                           = 2
+; auto_attach				                           = false
+; tier 												= 4
+
+; [nj_calculator]:nj_nokia
+; inv_name				                           = st_nj_calculator
+; inv_name_short				                       = st_nj_calculator
+; description				                           = st_nj_calculator_descr
+; cost												= 950
+; inv_weight				                           = 0.25
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x				                           = 2
+; inv_grid_y				                           = 2
+; auto_attach				                           = false
+; tier 												= 3
+
+; [nj_earbuds]:nj_nokia
+; inv_name				                           = st_nj_earbuds
+; inv_name_short				                       = st_nj_earbuds
+; description				                           = st_nj_earbuds_descr
+; cost												= 550
+; inv_weight				                           = 0.15
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x				                           = 1
+; inv_grid_y				                           = 2
+; auto_attach				                           = false
+; tier 												= 3
+
+;;===========================================================
+;;==================| SCIENTIFIC DEVICES |===================
+;;===========================================================
+[nj_anomac_scanner]:tch_junk
+$spawn 				                               = "devices\roubles"
+icons_texture 									= ui\ui_icon_nj_newjunk
+$prefetch 			                               = 16
+cform                                              = skeleton
+kind			                              	 = i_misc
+class					                           = II_ATTCH
+visual                                   = dynamics\equipments\quest\scanner_anomaly.ogf
+cost					                           = 5200
+inv_name				                           = st_nj_anomac_scanner
+inv_name_short				                       = st_nj_anomac_scanner
+description				                           = st_nj_anomac_scanner_descr
+inv_weight				                           = 5.2
+inv_grid_width			                           = 2
+inv_grid_height			                           = 2
+inv_grid_x				                           = 2
+inv_grid_y				                           = 0
+auto_attach				                           = false
+tier 												= 4
+
+[nj_oscillograph]:nj_anomac_scanner
+$spawn                                           = "devices\pda"
+cform                                            = skeleton
+icons_texture 									= ui\ui_icon_nj_newjunk
+visual                                 		  = dynamics\equipments\quest\scanner_anomaly.ogf
+kind                                             = i_misc
+
+inv_name                                         = st_nj_oscillograph
+inv_name_short                                   = st_nj_oscillograph
+description                                      = st_nj_oscillograph_descr
+inv_weight                                       = 14
+cost                                             = 8000
+
+inv_grid_width                                   = 2
+inv_grid_height                                  = 3
+inv_grid_x                                       = 6
+inv_grid_y                                       = 0
+tier                                             = 4
+
+[nj_scanner1]:nj_anomac_scanner
+$spawn                                           = "devices\pda"
+cform                                            = skeleton
+visual                                 			  = dynamics\equipments\quest\scanner_anomaly.ogf
+kind                                             = i_misc
+
+inv_name                                         = st_nj_scanner1
+inv_name_short                                   = st_nj_scanner1
+description                                      = st_nj_scanner1_descr
+inv_weight                                       = 3.2
+cost                                             = 3000
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 2
+inv_grid_x                                       = 4
+inv_grid_y                                       = 0
+tier                                             = 3
+
+[nj_scanner2]:nj_anomac_scanner
+$spawn                                           = "devices\pda"
+cform                                            = skeleton
+visual                                 			  = dynamics\equipments\quest\scanner_anomaly.ogf
+kind                                             = i_misc
+
+inv_name                                         = st_nj_scanner2
+inv_name_short                                   = st_nj_scanner2
+description                                      = st_nj_scanner2_descr
+inv_weight                                       = 3.5
+cost                                             = 3300
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 2
+inv_grid_x                                       = 5
+inv_grid_y                                       = 0
+tier                                             = 3
+
+[nj_geigercounter]:nj_anomac_scanner
+$spawn                                           = "devices\pda"
+cform                                            = skeleton
+visual                                             = dynamics\devices\dev_pda\dev_pda.ogf
+kind                                             = i_misc
+
+inv_name                                         = st_nj_geigercounter
+inv_name_short                                   = st_nj_geigercounter
+description                                      = st_nj_geigercounter_descr
+inv_weight                                       = 0.8
+cost                                             = 2200
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 1
+inv_grid_x                                       = 3
+inv_grid_y                                       = 2
+tier                                             = 3
+
+[nj_pda]:nj_anomac_scanner
+$spawn                                           = "devices\pda"
+cform                                            = skeleton
+visual                                             = dynamics\devices\dev_pda\dev_pda.ogf
+kind                                             = i_misc
+
+inv_name                                         = st_nj_pda
+inv_name_short                                   = st_nj_pda
+description                                      = st_nj_pda_descr
+inv_weight                                       = 0.5
+cost                                             = 1750
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 1
+inv_grid_x                                       = 4
+inv_grid_y                                       = 2
+tier                                             = 3
+
+[nj_acanalyser]:nj_anomac_scanner
+$spawn                                           = "devices\pda"
+cform                                            = skeleton
+visual                                             = dynamics\devices\dev_pda\dev_pda.ogf
+kind                                             = i_misc
+
+inv_name                                         = st_nj_acanalyser
+inv_name_short                                   = st_nj_acanalyser
+description                                      = st_nj_acanalyser_descr
+inv_weight                                       = 1.1
+cost                                             = 2550
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 1
+inv_grid_x                                       = 5
+inv_grid_y                                       = 2
+tier                                             = 3
+
+[nj_anom_detect1]:nj_anomac_scanner
+$spawn                                           = "devices\pda"
+cform                                            = skeleton
+visual                                             = dynamics\devices\dev_pda\dev_pda.ogf
+kind                                             = i_misc
+
+inv_name                                         = st_nj_anom_detect1
+inv_name_short                                   = st_nj_anom_detect1
+description                                      = st_nj_anom_detect1_descr
+inv_weight                                       = 0.85
+cost                                             = 2550
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 1
+inv_grid_x                                       = 8
+inv_grid_y                                       = 1
+tier                                             = 3
+
+[nj_anom_detect2]:nj_anomac_scanner
+visual                                             = dynamics\devices\dev_pda\dev_pda.ogf
+kind                                             = i_misc
+
+inv_name                                         = st_nj_anom_detect2
+inv_name_short                                   = st_nj_anom_detect2
+description                                      = st_nj_anom_detect2_descr
+inv_weight                                       = 0.85
+cost                                             = 3250
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 1
+inv_grid_x                                       = 9
+inv_grid_y                                       = 1
+tier                                             = 4
+
+[nj_anom_detect3]:nj_anomac_scanner
+visual                                             = dynamics\devices\dev_pda\dev_pda.ogf
+kind                                             = i_misc
+
+inv_name                                         = st_nj_anom_detect3
+inv_name_short                                   = st_nj_anom_detect3
+description                                      = st_nj_anom_detect3_descr
+inv_weight                                       = 0.95
+cost                                             = 3950
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 1
+inv_grid_x                                       = 10
+inv_grid_y                                       = 1
+tier                                             = 5
+
+[nj_soviet_dosimeter]:nj_anomac_scanner
+visual                                             = dynamics\devices\dev_pda\dev_pda.ogf
+kind                                             = i_misc
+
+inv_name                                         = st_nj_soviet_dosimeter
+inv_name_short                                   = st_nj_soviet_dosimeter
+description                                      = st_nj_soviet_dosimeter_descr
+inv_weight                                       = 0.8
+cost                                             = 1600
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 1
+inv_grid_x                                       = 11
+inv_grid_y                                       = 1
+tier                                             = 3
+
+
+[nj_psy_analyser]:nj_anomac_scanner
+visual                                             = dynamics\devices\dev_pda\dev_pda.ogf
+kind                                             = i_misc
+
+inv_name                                         = st_nj_psy_analyser
+inv_name_short                                   = st_nj_psy_analyser
+description                                      = st_nj_psy_analyser_descr
+inv_weight                                       = 1.1
+cost                                             = 4500
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 1
+inv_grid_x                                       = 12
+inv_grid_y                                       = 1
+tier                                             = 5
+
+[nj_psy_sensor]:nj_anomac_scanner
+visual                                             = dynamics\devices\dev_pda\dev_pda.ogf
+kind                                             = i_misc
+
+inv_name                                         = st_nj_psy_analyser
+inv_name_short                                   = st_nj_psy_analyser
+description                                      = st_nj_psy_analyser_descr
+inv_weight                                       = 0.75
+cost                                             = 3000
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 1
+inv_grid_x                                       = 8
+inv_grid_y                                       = 2
+tier                                             = 3
+
+[nj_osc_sensor]:nj_anomac_scanner
+visual                                             = dynamics\devices\dev_pda\dev_pda.ogf
+kind                                             = i_misc
+
+inv_name                                         = st_nj_osc_sensor
+inv_name_short                                   = st_nj_osc_sensor
+description                                      = st_nj_osc_sensor_descr
+inv_weight                                       = 0.75
+cost                                             = 2200
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 1
+inv_grid_x                                       = 9
+inv_grid_y                                       = 2
+tier                                             = 3
+
+[nj_anomaly_sensor]:nj_anomac_scanner
+visual                                             = dynamics\devices\dev_pda\dev_pda.ogf
+kind                                             = i_misc
+
+inv_name                                         = st_nj_anomaly_sensor
+inv_name_short                                   = st_nj_anomaly_sensor
+description                                      = st_nj_anomaly_sensor_descr
+inv_weight                                       = 0.88
+cost                                             = 2650
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 1
+inv_grid_x                                       = 10
+inv_grid_y                                       = 2
+tier                                             = 4
+
+[nj_acsensor]:nj_anomac_scanner
+visual                                             = dynamics\devices\dev_pda\dev_pda.ogf
+kind                                             = i_misc
+
+inv_name                                         = st_nj_acsensor
+inv_name_short                                   = st_nj_acsensor
+description                                      = st_nj_acsensor_descr
+inv_weight                                       = 0.65
+cost                                             = 1850
+
+inv_grid_width                                   = 1
+inv_grid_height                                  = 1
+inv_grid_x                                       = 11
+inv_grid_y                                       = 2
+tier                                             = 3
+
+;;===========================================================
+;;=====================| LOOSE TOOLS |=======================
+;;===========================================================
+[nj_screwdriver]:tch_junk
+visual                                             = dynamics\equipments\trade\hammer.ogf
+icons_texture 									= ui\ui_icon_nj_newjunk
+inv_name			                               = st_nj_screwdriver
+inv_name_short		                               = st_nj_screwdriver
+description			                               = st_nj_screwdriver_descr
+inv_weight   	                                   = 0.4
+inv_grid_width		                               = 1
+inv_grid_height		                               = 1
+inv_grid_x			                               = 0
+inv_grid_y			                               = 3
+cost    		                                   = 180
+repair_part_bonus	 	                           = 0.03
+tier 												= 3
+
+[nj_hammer]:nj_screwdriver
+cost    		                                   = 215
+inv_weight   	                                   = 1.15
+inv_name			                               = st_nj_hammer
+inv_name_short		                               = st_nj_hammer
+description			                               = st_nj_hammer_descr
+inv_grid_width		                               = 1
+inv_grid_height		                               = 1
+inv_grid_x			                               = 1
+inv_grid_y			                               = 3
+
+[nj_pliers]:nj_screwdriver
+cost    		                                   = 200
+inv_weight   	                                   = 0.65
+inv_name			                               = st_nj_pliers
+inv_name_short		                               = st_nj_pliers
+description			                               = st_nj_pliers_descr
+inv_grid_x			                               = 2
+inv_grid_y			                               = 3
+
+[nj_wd40]:tch_junk
+visual				                               = dynamics\repair\grease.ogf
+description			                               = st_nj_wd40_descr
+inv_name			                               = st_nj_wd40
+inv_name_short			                           = st_nj_wd40
+inv_grid_width			                           = 1
+inv_grid_height			                           = 1
+inv_grid_x			                               = 3
+inv_grid_y			                               = 3
+cost				                               = 675
+inv_weight			                               = 0.62
+repair_part_bonus	 	                           = 0.07
+tier 												= 4
+
+;;===========================================================
+;;=====================| VALUABLES |=========================
+;;===========================================================
+; [nj_silverring]:tch_junk
+; visual				                               = dynamics\equipments\dev_money.ogf
+; icons_texture 										= ui\ui_icon_nj_newjunk
+; description			                               = st_nj_silverring_descr
+; inv_name			                               = st_nj_silverring
+; inv_name_short			                           = st_nj_silverring
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 0
+; inv_grid_y			                               = 4
+; cost				                               = 4650
+; inv_weight			                               = 0.04
+; tier 												= 5
+
+; [nj_goldring]:tch_junk
+; visual				                               = dynamics\equipments\dev_money.ogf
+; icons_texture 										= ui\ui_icon_nj_newjunk
+; description			                               = st_nj_goldring_descr
+; inv_name			                               = st_nj_goldring
+; inv_name_short			                           = st_nj_goldring
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 1
+; inv_grid_y			                               = 4
+; cost				                               = 5650
+; inv_weight			                               = 0.04
+; tier 												= 5
+
+; [nj_goldchain]:tch_junk
+; visual				                               = dynamics\equipments\dev_money.ogf
+; icons_texture 										= ui\ui_icon_nj_newjunk
+; description			                               = st_nj_goldchain_descr
+; inv_name			                               = st_nj_goldchain
+; inv_name_short			                           = st_nj_goldchain
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 2
+; inv_grid_y			                               = 4
+; cost				                               = 7650
+; inv_weight			                               = 0.45
+; tier 												= 5
+
+; [nj_crosschain]:tch_junk
+; visual				                               = dynamics\equipments\dev_money.ogf
+; icons_texture 										= ui\ui_icon_nj_newjunk
+; description			                               = st_nj_crosschain_descr
+; inv_name			                               = st_nj_crosschain
+; inv_name_short			                           = st_nj_crosschain
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 3
+; inv_grid_y			                               = 4
+; cost				                               = 3250
+; inv_weight			                               = 0.35
+; tier 												= 4
+
+; [nj_goldtooth]:tch_junk
+; visual				                               = dynamics\equipments\dev_money.ogf
+; icons_texture 										= ui\ui_icon_nj_newjunk
+; description			                               = st_nj_goldtooth_descr
+; inv_name			                               = st_nj_goldtooth
+; inv_name_short			                           = st_nj_goldtooth
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 4
+; inv_grid_y			                               = 4
+; cost				                               = 4350
+; inv_weight			                               = 0.08
+; tier 												= 5
+
+;;===========================================================
+;;=====================| MRE PARTS |========================= 
+;;===========================================================
+; [nj_mre_mc1]:booster ;plain porridge
+; icons_texture 										= ui\ui_icon_nj_newjunk
+; visual						                       = dynamics\devices\rations\ration_mre.ogf
+; kind			                               = i_food
+; cost						                       = 540
+; description					                       = st_nj_mre_mc1_descr
+; inv_name					                       = st_nj_mre_mc1
+; inv_name_short				                       = st_nj_mre_mc1
+; inv_weight					                       = 0.4
+; inv_grid_width				                       = 1
+; inv_grid_height				                       = 1
+; inv_grid_x					                       = 0
+; inv_grid_y					                       = 5
+; eat_satiety					                       = 0.314
+; eat_sleepiness				                       = 0.0032
+; eat_thirstiness				                       = 0.22
+; use_sound					                       = interface\inv_eat_ration3
+; tier											 = 3
+
+; [nj_mre_mc2]:nj_mre_mc1 ; porridge with meat
+; description					                       = st_nj_mre_mc2_descr
+; inv_name					                       = st_nj_mre_mc2
+; inv_name_short				                       = st_nj_mre_mc2
+; inv_weight					                       = 0.4
+; eat_satiety					                       = 0.332
+; eat_sleepiness				                       = 0.0032
+; eat_thirstiness				                       = 0.24
+; use_sound					                       = interface\inv_eat_ration3
+; tier											 = 3
+
+; [nj_mre_mc3]:nj_mre_mc1 ; maybe smth with meat and potatoes
+; description					                       = st_nj_mre_mc3_descr
+; inv_name					                       = st_nj_mre_mc3
+; inv_name_short				                       = st_nj_mre_mc3
+; inv_weight					                       = 0.45
+; eat_satiety					                       = 0.36
+; eat_sleepiness				                       = 0.0032
+; eat_thirstiness				                       = 0.26
+; use_sound					                       = interface\inv_eat_ration3
+; tier											 = 3
+
+; [nj_mre_snack1]:nj_mre_mc1 ; biscuits
+; description					                       = st_nj_mre_snack1_descr
+; inv_name					                       = st_nj_mre_snack1
+; inv_name_short				                       = st_nj_mre_snack1
+; inv_weight					                       = 0.3
+; inv_grid_x					                       = 1
+; inv_grid_y					                       = 5
+; eat_satiety					                       = 0.2
+; eat_sleepiness				                       = 0.0016
+; eat_thirstiness				                       = 0.18
+; use_sound					                       = interface\inv_eat_ration3
+; tier											 = 3
+
+; [nj_mre_snack2]:nj_mre_mc1 ; spicy bar
+; description					                       = st_nj_mre_snack2_descr
+; inv_name					                       = st_nj_mre_snack2
+; inv_name_short				                       = st_nj_mre_snack2
+; inv_weight					                       = 0.25
+; inv_grid_x					                       = 2
+; inv_grid_y					                       = 5
+; eat_satiety					                       = 0.24
+; eat_sleepiness				                       = 0.0016
+; eat_thirstiness				                       = 0.35
+; use_sound					                       = interface\inv_eat_ration3
+; tier											 = 3
+
+;;===========================================================
+;;============| PERSONAL ITEMS AND CLOTHES |=================
+;;===========================================================
+; [nj_sunglasses]:tch_junk
+; icons_texture 										= ui\ui_icon_nj_newjunk
+; visual				                               = dynamics\equipments\trade\goggles.ogf
+; description			                               = st_nj_sunglasses_descr
+; inv_name			                               = st_nj_sunglasses
+; inv_name_short			                           = st_nj_sunglasses
+; inv_weight					                       = 0.25
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 0
+; inv_grid_y			                               = 6
+; cost				                               = 320
+; repair_part_bonus	 	                           = 0.02
+; snd_on_take										   = outfit
+; tier 												= 3
+
+; [nj_glasses]:nj_sunglasses
+; visual				                               = dynamics\equipments\trade\goggles.ogf
+; description			                               = st_nj_glasses_descr
+; inv_name			                               = st_nj_glasses
+; inv_name_short			                           = st_nj_glasses
+; inv_weight					                       = 0.25
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 1
+; inv_grid_y			                               = 6
+; cost				                               = 350
+; repair_part_bonus	 	                           = 0.02
+; snd_on_take										   = outfit
+; tier 												= 3
+
+; [nj_wallet]:nj_sunglasses
+; visual				                               = dynamics\equipments\trade\meinkampf.ogf
+; description			                               = st_nj_wallet_descr
+; inv_name			                               = st_nj_wallet
+; inv_name_short			                           = st_nj_wallet
+; inv_weight					                       = 0.4
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 2
+; inv_grid_y			                               = 6
+; cost				                               = 450
+; repair_part_bonus	 	                           = 0.04
+; snd_on_take										   = outfit
+; tier 												= 3
+
+; [nj_keys]:nj_sunglasses
+; visual				                               = dynamics\equipments\quest\key.ogf
+; description			                               = st_nj_keys_descr
+; inv_name			                               = st_nj_keys
+; inv_name_short			                           = st_nj_keys
+; inv_weight					                       = 0.78
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 3
+; inv_grid_y			                               = 6
+; cost				                               = 200
+; snd_on_take										 = coin
+; tier 												= 3
+
+; [nj_belt]:nj_sunglasses
+; visual				                               = dynamics\equipments\trade\rope.ogf
+; description			                               = st_nj_belt_descr
+; inv_name			                               = st_nj_belt
+; inv_name_short			                           = st_nj_belt
+; inv_weight					                       = 0.5
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 4
+; inv_grid_y			                               = 6
+; cost				                               = 350
+; repair_part_bonus	 	                           = 0.05
+; snd_on_take										 = outfit
+; tier 												= 3
+
+; [nj_socks]:nj_sunglasses
+; visual				                               = dynamics\equipments\sumka1.ogf
+; description			                               = st_nj_socks_descr
+; inv_name			                               = st_nj_socks
+; inv_name_short			                           = st_nj_socks
+; inv_weight					                       = 0.2
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 5
+; inv_grid_y			                               = 6
+; cost				                               = 150
+; repair_part_bonus	 	                           = 0.03
+; snd_on_take										 = outfit
+; tier 												= 1
+
+; [nj_gloves]:nj_sunglasses
+; visual				                               = dynamics\equipments\trade\boots.ogf
+; description			                               = st_nj_gloves_descr
+; inv_name			                               = st_nj_gloves
+; inv_name_short			                           = st_nj_gloves
+; inv_weight					                       = 0.3
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 6
+; inv_grid_y			                               = 6
+; cost				                               = 450
+; repair_part_bonus	 	                           = 0.04
+; snd_on_take										 = outfit
+; tier 												= 2
+
+; [nj_cards]:nj_sunglasses
+; visual				                               = dynamics\equipments\trade\cards.ogf
+; description			                               = st_nj_cards_descr
+; inv_name			                               = st_nj_cards
+; inv_name_short			                           = st_nj_cards
+; inv_weight					                       = 0.38
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 10
+; inv_grid_y			                               = 6
+; cost				                               = 800
+; repair_part_bonus	 	                           = 0.00
+; tier 												= 3
+
+; [nj_scarf]:nj_sunglasses
+; visual				                               = dynamics\equipments\trade\boots.ogf
+; description			                               = st_nj_scarf_descr
+; inv_name			                               = st_nj_scarf
+; inv_name_short			                           = st_nj_scarf
+; inv_weight					                       = 0.4
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 11
+; inv_grid_y			                               = 6
+; cost				                               = 450
+; repair_part_bonus	 	                           = 0.04
+; snd_on_take										 = outfit
+; tier 												= 2
+
+; [nj_beanie]:nj_sunglasses
+; visual				                               = dynamics\equipments\trade\boots.ogf
+; description			                               = st_nj_beanie_descr
+; inv_name			                               = st_nj_beanie
+; inv_name_short			                           = st_nj_beanie
+; inv_weight					                       = 0.45
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 12
+; inv_grid_y			                               = 6
+; cost				                               = 500
+; repair_part_bonus	 	                           = 0.04
+; snd_on_take										 = outfit
+; tier 												= 2
+
+; [nj_latex]:nj_sunglasses
+; visual				                               = dynamics\equipments\trade\boots.ogf
+; description			                               = st_nj_latex_descr
+; inv_name			                               = st_nj_latex
+; inv_name_short			                           = st_nj_latex
+; inv_weight					                       = 0.11
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 13
+; inv_grid_y			                               = 6
+; cost				                               = 300
+; repair_part_bonus	 	                           = 0.01
+; snd_on_take										 = outfit
+; tier 												= 2
+
+; [nj_tooth]:tch_junk
+; visual				                               = dynamics\equipments\item_chimera_cogot.ogf
+; icons_texture 										= ui\ui_icon_nj_newjunk
+; description			                               = st_nj_tooth_descr
+; inv_name			                               = st_nj_tooth
+; inv_name_short			                           = st_nj_tooth
+; inv_weight					                       = 0.02
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 14
+; inv_grid_y			                               = 6
+; cost				                               = 700
+; tier 												= 3	
+
+;;===========================================================
+;;===============| PENS, PENCILS AND NOTES |=================
+;;===========================================================
+
+; [nj_pencil1]:tch_junk
+; icons_texture 										= ui\ui_icon_nj_newjunk
+; visual				                               = dynamics\equipments\trade\cutlery.ogf
+; description			                               = st_nj_pencil1_descr
+; inv_name			                               = st_nj_pencil1
+; inv_name_short			                           = st_nj_pencil1
+; inv_weight					                       = 0.1
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 0
+; inv_grid_y			                               = 7
+; cost				                               = 50
+; tier 												= 2
+
+; [nj_pencil2]:nj_pencil1
+; visual				                               = dynamics\equipments\trade\cutlery.ogf
+; description			                               = st_nj_pencil2_descr
+; inv_name			                               = st_nj_pencil2
+; inv_name_short			                           = st_nj_pencil2
+; inv_weight					                       = 0.1
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 1
+; inv_grid_y			                               = 7
+; cost				                               = 50
+; tier 												= 2
+
+; [nj_penbic]:nj_pencil1
+; visual				                               = dynamics\equipments\trade\cutlery.ogf
+; description			                               = st_nj_penbic_descr
+; inv_name			                               = st_nj_penbic
+; inv_name_short			                           = st_nj_penbic
+; inv_weight					                       = 0.1
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 2
+; inv_grid_y			                               = 7
+; cost				                               = 100
+; tier 												= 2
+
+; [nj_penink]:nj_pencil1
+; visual				                               = dynamics\equipments\trade\cutlery.ogf
+; description			                               = st_nj_penink_descr
+; inv_name			                               = st_nj_penink
+; inv_name_short			                           = st_nj_penink
+; inv_weight					                       = 0.21
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 3
+; inv_grid_y			                               = 7
+; cost				                               = 350
+; tier 												= 3
+
+; [nj_newspaper1]:nj_pencil1
+; visual				                               = dynamics\equipments\quest\notes_document_case_3.ogf
+; description			                               = st_nj_newspaper1_descr
+; inv_name			                               = st_nj_newspaper1
+; inv_name_short			                           = st_nj_newspaper1
+; inv_weight					                       = 0.45
+; inv_grid_width			                           = 2
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 4
+; inv_grid_y			                               = 7
+; cost				                               = 300
+; tier 												= 2
+
+; [nj_newspaper2]:nj_pencil1
+; visual				                               = dynamics\equipments\quest\notes_document_case_3.ogf
+; description			                               = st_nj_newspaper2_descr
+; inv_name			                               = st_nj_newspaper2
+; inv_name_short			                           = st_nj_newspaper2
+; inv_weight					                       = 0.45
+; inv_grid_width			                           = 2
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 6
+; inv_grid_y			                               = 7
+; cost				                               = 350
+; tier 												= 2
+
+; [nj_book1]:nj_pencil1
+; visual				                               = dynamics\equipments\trade\meinkampf.ogf
+; description			                               = st_nj_book1_descr
+; inv_name			                               = st_nj_book1
+; inv_name_short			                           = st_nj_book1
+; inv_weight					                       = 0.75
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 8
+; inv_grid_y			                               = 7
+; cost				                               = 550
+; tier 												= 2
+
+; [nj_book2]:nj_pencil1
+; visual				                               = dynamics\equipments\trade\meinkampf.ogf
+; description			                               = st_nj_book2_descr
+; inv_name			                               = st_nj_book2
+; inv_name_short			                           = st_nj_book2
+; inv_weight					                       = 0.88
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 9
+; inv_grid_y			                               = 7
+; cost				                               = 685
+; tier 												= 3
+
+[nj_note1]:tch_junk
+icons_texture 	= ui\ui_icon_nj_newjunk
+visual				                               = dynamics\equipments\quest\notes_letter_2.ogf
+description			                               = st_nj_note1_descr
+inv_name			                               = st_nj_note1
+inv_name_short			                           = st_nj_note1
+inv_weight					                       = 0.09
+inv_grid_width			                           = 1
+inv_grid_height			                           = 1
+inv_grid_x			                               = 10
+inv_grid_y			                               = 7
+cost				                               = 745
+tier 												= 2
+
+[nj_note2]:nj_note1
+visual				                               = dynamics\equipments\quest\notes_letter_2.ogf
+description			                               = st_nj_note2_descr
+inv_name			                               = st_nj_note2
+inv_name_short			                           = st_nj_note2
+inv_weight					                       = 0.09
+inv_grid_width			                           = 1
+inv_grid_height			                           = 1
+inv_grid_x			                               = 11
+inv_grid_y			                               = 7
+cost				                               = 775
+tier 												= 3
+
+;;===========================================================
+;;===================| MILITARY ITEMS |======================
+;;===========================================================
+[nj_sling]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual				                               = dynamics\equipments\trade\rope.ogf
+description			                               = st_nj_sling_descr
+inv_name			                               = st_nj_sling
+inv_name_short			                           = st_nj_sling
+inv_weight					                       = 0.75
+inv_grid_width			                           = 1
+inv_grid_height			                           = 1
+inv_grid_x			                               = 0
+inv_grid_y			                               = 8
+cost				                               = 850
+repair_part_bonus	 	                           = 0.05
+snd_on_take             						    = grenade
+tier 												= 3
+
+[nj_cleankit]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual				                               = dynamics\repair\gun_oil_ru.ogf
+description			                               = st_nj_cleankit_descr
+inv_name			                               = st_nj_cleankit
+inv_name_short			                           = st_nj_cleankit
+inv_weight					                       = 0.55
+inv_grid_width			                           = 1
+inv_grid_height			                           = 1
+inv_grid_x			                               = 1
+inv_grid_y			                               = 8
+cost				                               = 950
+repair_part_bonus	 	                           = 0.08
+tier 												= 4
+
+[nj_maskpouch]:af_grid
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual				                               = dynamics\equipments\sumka1.ogf
+description			                               = st_nj_maskpouch_descr
+inv_name			                               = st_nj_maskpouch
+inv_name_short			                           = st_nj_maskpouch
+inv_weight					                       = 0.35
+inv_grid_width			                           = 1
+inv_grid_height			                           = 1
+inv_grid_x			                               = 2
+inv_grid_y			                               = 8
+cost				                               = 1000
+repair_part_bonus	 	                           = 0.08
+tier 												= 4
+
+health_restore_speed		                       = 0
+radiation_restore_speed		                       = 0
+satiety_restore_speed		                       = 0
+power_restore_speed		                           = 0
+bleeding_restore_speed		                       = 0
+hit_absorbation_sect		                       = nj_maskpouch_absorb
+additional_inventory_weight		                   = 2.12
+additional_inventory_weight2		               = 2.12
+repair_part_bonus	 	                           = 0.11
+
+[nj_maskpouch_absorb]
+burn_immunity 			                           = 0				;коэффициенты иммунитета
+strike_immunity 		                           = 0
+shock_immunity 			                           = 0
+wound_immunity 			                           = 0
+radiation_immunity 		                           = 0.0004
+telepatic_immunity 		                           = 0
+chemical_burn_immunity 		                       = 0
+explosion_immunity 		                           = 0
+fire_wound_immunity  		                       = 0
+
+; [nj_flare]:tch_junk
+; icons_texture 										= ui\ui_icon_nj_newjunk
+; visual				                               = dynamics\devices\dev_flashlight\dev_flashlight.ogf
+; description			                               = st_nj_flare_descr
+; inv_name			                               = st_nj_flare
+; inv_name_short			                           = st_nj_flare
+; inv_weight					                       = 0.55
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 3
+; inv_grid_y			                               = 8
+; cost				                               = 350
+; tier 												= 2
+
+[nj_bayonet]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual                   						   = dynamics\weapons\wpn_knife\wpn_knife.ogf
+description			                               = st_nj_bayonet_descr
+inv_name			                               = st_nj_bayonet
+inv_name_short			                           = st_nj_bayonet
+inv_weight					                       = 0.65
+inv_grid_width			                           = 2
+inv_grid_height			                           = 1
+inv_grid_x			                               = 6
+inv_grid_y			                               = 8
+cost				                               = 450
+repair_part_bonus	 	                           = 0.15
+snd_on_take								 		       = part
+tier 												= 2
+
+[nj_akmparts]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual				                                   = dynamics\part\prt_i_wood.ogf
+description			                               = st_nj_akmparts_descr
+inv_name			                               = st_nj_akmparts
+inv_name_short			                           = st_nj_akmparts
+inv_weight					                       = 1.11
+inv_grid_width			                           = 2
+inv_grid_height			                           = 1
+inv_grid_x			                               = 4
+inv_grid_y			                               = 8
+cost				                               = 650
+repair_part_bonus	 	                           = 0.09
+snd_on_take								 		       = part
+tier 												= 3
+
+[nj_sandpaper]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual                                 			  = dynamics\equipments\quest\notes_writing_book_2.ogf
+description			                               = st_nj_sandpaper_descr
+inv_name			                               = st_nj_sandpaper
+inv_name_short			                           = st_nj_sandpaper
+inv_weight					                       = 0.15
+inv_grid_width			                           = 1
+inv_grid_height			                           = 1
+inv_grid_x			                               = 4
+inv_grid_y			                               = 3
+cost				                               = 150
+repair_part_bonus	 	                           = 0.07
+snd_on_take										   = paper
+tier 												= 3
+
+; [nj_toiletpaper]:tch_junk
+; icons_texture 										= ui\ui_icon_nj_newjunk
+; visual                                		   = dynamics\equipments\quest\notes_writing_book_2.ogf
+; description			                               = st_nj_toiletpaper_descr
+; inv_name			                               = st_nj_toiletpaper
+; inv_name_short			                           = st_nj_toiletpaper
+; inv_weight					                       = 0.35
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 7
+; inv_grid_y			                               = 6
+; cost				                               = 1250
+; snd_on_take										   = paper
+; tier 												= 3
+
+; [nj_bugspray]:tch_junk
+; icons_texture 										= ui\ui_icon_nj_newjunk
+; visual				                               = dynamics\equipments\trade\jar.ogf
+; description			                               = st_nj_bugspray_descr
+; inv_name			                               = st_nj_bugspray
+; inv_name_short			                           = st_nj_bugspray
+; inv_weight					                       = 0.25
+; inv_grid_width			                           = 1
+; inv_grid_height			                           = 1
+; inv_grid_x			                               = 8
+; inv_grid_y			                               = 6
+; cost				                               = 750
+; tier 												= 3
+
+; [nj_brokenpda]:nj_anomac_scanner
+; $spawn                                           = "devices\pda"
+; cform                                            = skeleton
+; visual                                             = dynamics\devices\dev_pda\dev_pda.ogf
+; kind                                             = i_misc
+
+; inv_name                                         = st_nj_brokenpda
+; inv_name_short                                   = st_nj_brokenpda
+; description                                      = st_nj_brokenpda_descr
+; inv_weight                                       = 0.5
+; cost                                             = 750
+
+; inv_grid_width                                   = 1
+; inv_grid_height                                  = 1
+; inv_grid_x			                               = 9
+; inv_grid_y			                               = 6
+; tier                                             = 3
+
+;;===========================================================
+;;===================| SCRAP, CAR PARTS |======================
+;;===========================================================
+[nj_coppipes]:tch_junk
+visual                                                = dynamics\equipments\quest\materials_wire.ogf
+icons_texture 									= ui\ui_icon_nj_newjunk
+inv_name			                               = st_nj_coppipes
+inv_name_short		                               = st_nj_coppipes
+description			                               = st_nj_coppipes_descr
+inv_weight   	                                   = 0.85
+inv_grid_width		                               = 1
+inv_grid_height		                               = 1
+inv_grid_x			                               = 0
+inv_grid_y			                               = 9
+cost    		                                   = 1100
+tier 												= 2
+
+[nj_transformer]:nj_coppipes
+inv_grid_x			                               = 1
+inv_name			                               = st_nj_transformer
+inv_name_short		                               = st_nj_transformer
+description			                               = st_nj_transformer_descr
+inv_weight   	                                   = 1.25
+cost    		                                   = 1700
+tier 												= 3
+
+[nj_alternator]:nj_coppipes
+inv_grid_x			                               = 2
+inv_name			                               = st_nj_alternator
+inv_name_short		                               = st_nj_alternator
+description			                               = st_nj_alternator_descr
+inv_weight   	                                   = 4
+cost    		                                   = 2500
+tier 												= 3
+
+[nj_fuelpump]:nj_coppipes
+inv_grid_x			                               = 3
+inv_name			                               = st_nj_fuelpump
+inv_name_short		                               = st_nj_fuelpump
+description			                               = st_nj_fuelpump_descr
+inv_weight   	                                   = 1.6
+cost    		                                   = 2100
+tier 												= 3
+
+[nj_sparkplug]:nj_coppipes
+inv_grid_x			                               = 4
+inv_name			                               = st_nj_sparkplug
+inv_name_short		                               = st_nj_sparkplug
+description			                               = st_nj_sparkplug_descr
+inv_weight   	                                   = 0.25
+cost    		                                   = 800
+
+[nj_radiator]:nj_coppipes
+inv_grid_width		                               = 2
+inv_grid_height		                               = 1
+inv_grid_x			                               = 5
+inv_grid_y			                               = 9
+inv_name			                               = st_nj_radiator
+inv_name_short		                               = st_nj_radiator
+description			                               = st_nj_radiator_descr
+inv_weight   	                                   = 5.5
+cost    		                                   = 2800
+tier 												= 3
+
+[nj_power_inverter]:nj_coppipes
+inv_grid_x			                               = 7
+inv_name			                               = st_nj_power_inverter
+inv_name_short		                               = st_nj_power_inverter
+description			                               = st_nj_power_inverter_descr
+inv_weight   	                                   = 1.75
+cost    		                                   = 2050
+tier 												= 3
+
+[nj_control_panel]:nj_coppipes
+inv_grid_x			                               = 8
+inv_name			                               = st_nj_control_panel
+inv_name_short		                               = st_nj_control_panel
+description			                               = st_nj_control_panel_descr
+inv_weight   	                                   = 2.45
+cost    		                                   = 5250
+tier 												= 5
+
+[nj_car_battery]:nj_coppipes
+inv_grid_x			                               = 9
+inv_name			                               = st_nj_car_battery
+inv_name_short		                               = st_nj_car_battery
+description			                               = st_nj_car_battery_descr
+inv_weight   	                                   = 2.75
+cost    		                                   = 2650
+tier 												= 3
+
+[nj_steel_bearing]:nj_coppipes
+inv_grid_x			                               = 10
+inv_name			                               = st_nj_steel_bearing
+inv_name_short		                               = st_nj_steel_bearing
+description			                               = st_nj_steel_bearing_descr
+inv_weight   	                                   = 0.15
+cost    		                                   = 450
+tier 												= 3
+
+
+;;===========================================================
+;;=======================| TOOLKITS |========================
+;;===========================================================
+[nj_tailor_kit]:itm_basickit
+
+icons_texture 									= ui\ui_icon_nj_newjunk
+visual                                   = dynamics\equipments\quest\box_toolkit_1.ogf
+inv_name                                 = st_nj_tailor_kit
+inv_name_short                           = st_nj_tailor_kit
+description                              = st_nj_tailor_kit_descr
+inv_weight                               = 2.85
+cost									= 8500
+inv_grid_width                           = 2
+inv_grid_height                          = 1
+inv_grid_x			                     = 0
+inv_grid_y			                     = 10
+tier									= 4
+
+[nj_maintenance_kit]:itm_expertkit
+
+icons_texture 									= ui\ui_icon_nj_newjunk
+inv_name                                 = st_nj_maintenance_kit
+inv_name_short                           = st_nj_maintenance_kit
+description                              = st_nj_maintenance_kit_descr
+inv_weight                               = 3.45
+cost									= 11000
+inv_grid_width                           = 2
+inv_grid_height                          = 1
+inv_grid_x			                     = 2
+inv_grid_y			                     = 10
+tier									= 5
+
+;;===========================================================
+;;=======================| DOKUMEEENT |========================
+;;===========================================================
+[nj_dutydocuments1]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual				                               = dynamics\equipments\quest\notes_letter_2.ogf
+description			                               = st_nj_dutydocuments_1_descr
+inv_name			                               = st_nj_dutydocuments_1
+inv_name_short			                           = st_nj_dutydocuments_1
+can_trade                               			= false
+inv_weight					                       = 0.09
+inv_grid_width			                           = 2
+inv_grid_height			                           = 1
+inv_grid_x			                               = 0
+inv_grid_y			                               = 12
+cost				                               = 5
+tier 												= 4
+
+[nj_dutydocuments2]:nj_dutydocuments1
+description			                               = st_nj_dutydocuments_2_descr
+inv_name			                               = st_nj_dutydocuments_2
+inv_name_short			                           = st_nj_dutydocuments_2
+
+[nj_dutydocuments3]:nj_dutydocuments1
+description			                               = st_nj_dutydocuments_3_descr
+inv_name			                               = st_nj_dutydocuments_3
+inv_name_short			                           = st_nj_dutydocuments_3
+
+[nj_freedomdocuments1]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual				                               = dynamics\equipments\quest\notes_letter_2.ogf
+description			                               = st_nj_freedomdocuments_1_descr
+inv_name			                               = st_nj_freedomdocuments_1
+inv_name_short			                           = st_nj_freedomdocuments_1
+can_trade                               			= false
+inv_weight					                       = 0.09
+inv_grid_width			                           = 2
+inv_grid_height			                           = 1
+inv_grid_x			                               = 2
+inv_grid_y			                               = 12
+cost				                               = 5
+tier 												= 4
+
+[nj_freedomdocuments2]:nj_freedomdocuments1
+description			                               = st_nj_freedomdocuments_2_descr
+inv_name			                               = st_nj_freedomdocuments_2
+inv_name_short			                           = st_nj_freedomdocuments_2
+
+[nj_freedomdocuments3]:nj_freedomdocuments1
+description			                               = st_nj_freedomdocuments_3_descr
+inv_name			                               = st_nj_freedomdocuments_3
+inv_name_short			                           = st_nj_freedomdocuments_3
+
+[nj_mercdocuments1]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual				                               = dynamics\equipments\quest\notes_letter_2.ogf
+description			                               = st_nj_mercdocuments_1_descr
+inv_name			                               = st_nj_mercdocuments_1
+inv_name_short			                           = st_nj_mercdocuments_1
+can_trade                               			= false
+inv_weight					                       = 0.25
+inv_grid_width			                           = 2
+inv_grid_height			                           = 1
+inv_grid_x			                               = 4
+inv_grid_y			                               = 12
+cost				                               = 5
+tier 												= 5
+
+[nj_mercdocuments2]:nj_mercdocuments1
+description			                               = st_nj_mercdocuments_2_descr
+inv_name			                               = st_nj_mercdocuments_2
+inv_name_short			                           = st_nj_mercdocuments_2
+
+[nj_mercdocuments3]:nj_mercdocuments1
+description			                               = st_nj_mercdocuments_3_descr
+inv_name			                               = st_nj_mercdocuments_3
+inv_name_short			                           = st_nj_mercdocuments_3
+
+
+[nj_isgdocuments1]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual				                               = dynamics\equipments\quest\notes_letter_2.ogf
+description			                               = st_nj_isgdocuments_1_descr
+inv_name			                               = st_nj_isgdocuments_1
+inv_name_short			                           = st_nj_isgdocuments_1
+can_trade                               			= false
+inv_weight					                       = 0.25
+inv_grid_width			                           = 2
+inv_grid_height			                           = 1
+inv_grid_x			                               = 6
+inv_grid_y			                               = 12
+cost				                               = 5
+tier 												= 5
+
+[nj_isgdocuments2]:nj_isgdocuments1
+description			                               = st_nj_isgdocuments_2_descr
+inv_name			                               = st_nj_isgdocuments_2
+inv_name_short			                           = st_nj_isgdocuments_2
+
+[nj_isgdocuments3]:nj_isgdocuments1
+description			                               = st_nj_isgdocuments_3_descr
+inv_name			                               = st_nj_isgdocuments_3
+inv_name_short			                           = st_nj_isgdocuments_3
+
+
+[nj_flashdrive1]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual                             			      = dynamics\devices\dev_flash_2\dev_flash_2.ogf
+description			                               = st_nj_flashdrive_descr
+inv_name			                               = st_nj_flashdrive
+inv_name_short			                           = st_nj_flashdrive
+can_trade                               			= false
+inv_weight					                       = 0.1
+inv_grid_width			                           = 1
+inv_grid_height			                           = 1
+inv_grid_x			                               = 8
+inv_grid_y			                               = 12
+cost				                               = 5
+tier 												= 4
+
+[nj_flashdrive2]:nj_flashdrive1
+[nj_flashdrive3]:nj_flashdrive1
+
+[nj_maps1]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual                              			     = dynamics\equipments\quest\notes_writing_book_1.ogf
+description			                               = st_nj_maps_1_descr
+inv_name			                               = st_nj_maps_1
+inv_name_short			                           = st_nj_maps_1
+can_trade                               			= false
+inv_weight					                       = 0.15
+inv_grid_width			                           = 2
+inv_grid_height			                           = 1
+inv_grid_x			                               = 9
+inv_grid_y			                               = 12
+cost				                               = 5
+tier 												= 3
+
+[nj_maps2]:nj_maps1
+description			                               = st_nj_maps_2_descr
+inv_name			                               = st_nj_maps_2
+inv_name_short			                           = st_nj_maps_2
+
+[nj_maps3]:nj_maps1
+description			                               = st_nj_maps_3_descr
+inv_name			                               = st_nj_maps_3
+inv_name_short			                           = st_nj_maps_3
+tier												= 2
+
+[nj_maps4]:nj_maps1
+description			                               = st_nj_maps_4_descr
+inv_name			                               = st_nj_maps_4
+inv_name_short			                           = st_nj_maps_4
+tier												= 2
+
+
+;;===========================================================
+;;=======================| MIL ITEMS |=======================
+;;===========================================================
+[nj_mortarammo]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual				                               = dynamics\box\box_1a.ogf
+description			                               = st_nj_mortarammo_descr
+inv_name			                               = st_nj_mortarammo
+inv_name_short			                           = st_nj_mortarammo
+inv_weight					                       = 22
+inv_grid_width			                           = 2
+inv_grid_height			                           = 1
+inv_grid_x			                               = 0
+inv_grid_y			                               = 11
+cost				                               = 9500
+tier 												= 4
+
+[nj_landmines]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual				                               = dynamics\box\box_1a.ogf
+description			                               = st_nj_landmines_descr
+inv_name			                               = st_nj_landmines
+inv_name_short			                           = st_nj_landmines
+inv_weight					                       = 18
+inv_grid_width			                           = 2
+inv_grid_height			                           = 1
+inv_grid_x			                               = 2
+inv_grid_y			                               = 11
+cost				                               = 8000
+tier 												= 4
+
+[nj_bigradio]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual				                               = dynamics\el_tehnika\radiola.ogf
+description			                               = st_nj_bigradio_descr
+inv_name			                               = st_nj_bigradio
+inv_name_short			                           = st_nj_bigradio
+inv_weight					                       = 21
+inv_grid_width			                           = 2
+inv_grid_height			                           = 1
+inv_grid_x			                               = 4
+inv_grid_y			                               = 11
+cost				                               = 8200
+tier 												= 4
+
+[nj_weldingtools]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual                                  		 = dynamics\equipments\quest\box_toolkit_3.ogf
+description			                               = st_nj_weldingtools_descr
+inv_name			                               = st_nj_weldingtools
+inv_name_short			                           = st_nj_weldingtools
+inv_weight					                       = 8
+inv_grid_width			                           = 1
+inv_grid_height			                           = 1
+inv_grid_x			                               = 6
+inv_grid_y			                               = 11
+cost				                               = 5200
+tier 												= 3
+
+[nj_pkmbelts]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual                                  		 = dynamics\weapons\wpn_ammo\ammo_pkm.ogf
+description			                               = st_nj_pkmbelts_descr
+inv_name			                               = st_nj_pkmbelts
+inv_name_short			                           = st_nj_pkmbelts
+inv_weight					                       = 1.1
+inv_grid_width			                           = 2
+inv_grid_height			                           = 1
+inv_grid_x			                               = 7
+inv_grid_y			                               = 11
+cost				                               = 600
+tier 												= 2
+
+[nj_btrammo]:tch_junk
+icons_texture 										= ui\ui_icon_nj_newjunk
+visual				                               = dynamics\box\box_1a.ogf
+description			                               = st_nj_btrammo_descr
+inv_name			                               = st_nj_btrammo
+inv_name_short			                           = st_nj_btrammo
+inv_weight					                       = 20
+inv_grid_width			                           = 2
+inv_grid_height			                           = 1
+inv_grid_x			                               = 9
+inv_grid_y			                               = 11
+cost				                               = 8800
+tier 												= 4
