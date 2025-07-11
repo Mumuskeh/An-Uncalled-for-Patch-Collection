@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_cockta">
+		<text>Cockta</text>
+	</string>
+	<string id="st_cockta_descr">
+		<text>An imported carbonated soft drink, very popular in the Balkan countries. It gets its' unique taste from the variety of herbs used in the production process. Comes in a 250ml glass bottle.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+	<string id="st_kofola">
+		<text>Kofola</text>
+	</string>
+	<string id="st_kofola_descr">
+		<text>An imported carbonated soft drink, very popular in the Czech Republic and Slovakia. It has a very peculiar taste, being made mostly of a syrup originating from a mix of herbs and fruit. It has more caffeine compared to other western soft drinks. Comes in a 500ml plastic bottle.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+		<string id="st_cedevita">
+		<text>Cedevita</text>
+	</string>
+	<string id="st_cedevita_descr">
+		<text>An imported soft drink, very popular in the Balkan countries. Unlike its' competitors, it is not a carbonated drink - it is made of a powder mixed with water. There are a variety of flavors, however, the orange flavor is the most popular one in The Zone. Comes in a 500ml plastic bottle.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+	<string id="st_kvas">
+		<text>Kvas</text>
+	</string>
+	<string id="st_kvas_descr">
+		<text>A very popular drink in eastern Europe and even some parts of Asia, kvas has been around for a very long time. There have been reports of people making zone-produced kvas, however, many prefer to opt for imported kvas instead, being far cheaper and simpler to obtain. This can in particular was imported from Lithuania, in particular, from one of the country's most popular kvas manufacturers. Comes in a 500ml metal can.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+		<string id="st_ivi">
+		<text>Ivi</text>
+	</string>
+	<string id="st_ivi_descr">
+		<text>A fairly popular sparkling soft drink in Albania. Subjectively has a faker taste than some other sodas on the market, however, there are people who love this soda more than western alternatives. Comes in a 330ml metal can.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+		<string id="st_zonekompot">
+		<text>Apple and cherry kompot (Zone-produced)</text>
+	</string>
+	<string id="st_zonekompot_descr">
+		<text>This zone-made kompot will remind any eastern European stalker of their childhood. Made of apples and cherries with sugar mixed in. A healthy alternative to western sparkling sodas. Comes in a 1l jar\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] zone-produced\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+	<string id="st_zonekvas">
+		<text>Local brewed kvass (Zone-produced)</text>
+	</string>
+	<string id="st_zonekvas_descr">
+		<text>This zone-made kvass was brewed by an unknown local stalker. Clearly yeast was used in the fermentation process, because it's slightly alcoholic. Comes in a 1l jar\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] zone-produced\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_red] • %c[ui_gray_2] depressant\n
+		%c[d_red] • %c[ui_gray_2] slightly unhealthy\n
+		%c[d_red] • %c[ui_gray_2] light alcohol\n
+		</text>
+	</string>
+	<string id="st_tarchun">
+		<text>Tarchun</text>
+	</string>
+	<string id="st_tarchun_descr">
+		<text>Originally from Georgia, tarchun became a popular drink in the USSR and has remained relatively enjoyed even after the USSR collapsed. It has a distinct taste, however, it's very very sweet and thus, not as rehydrating as other drinks. Comes in a 250ml glass bottle\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+	<string id="st_baikal">
+		<text>Baikal</text>
+	</string>
+	<string id="st_baikal_descr">
+		<text>Originally from Russia, baikal is a drink that was designed in the 70s by the soviets, in an attempt to mimic the western-made Coca Cola. The taste is quite similar and since Coca Cola is pretty hard to come by in The Zone, many opt for this alternative. Comes in a 250ml glass bottle\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+	<string id="st_rakija">
+		<text>Rakija</text>
+	</string>
+	<string id="st_rakija_descr">
+		<text>A fairly popular alcoholic drink in the balkans. Fairly similar to vodka in terms of strength, however this particular bottle is stronger than other imported vodka. Comes in a 750ml glass bottle.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_red] • %c[ui_gray_2] strong alcohol\n
+		%c[d_red] • %c[ui_gray_2] depressant\n
+		%c[d_red] • %c[ui_gray_2] unhealthy\n
+		</text>
+	</string>
+	
+</string_table>
