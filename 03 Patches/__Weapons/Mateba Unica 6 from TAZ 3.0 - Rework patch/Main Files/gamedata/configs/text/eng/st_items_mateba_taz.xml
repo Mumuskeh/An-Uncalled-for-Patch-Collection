@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+
+	<string id="st_wpn_mateba_taz">
+		<text>Mateba Model 6 Unica, .357 Magnum</text>
+	</string>
+	<string id="st_wpn_mateba_taz_descr">
+		<text>
+		The Mateba Model 6 Unica (often known simply as the Mateba or the Mateba Autorevolver) is a recoil operated semi-automatic revolver, one of only a few of this type ever produced. It was developed by Mateba, based in Pavia, Italy. Inventor Emilio Ghisoni (1937–2008), who was also famous for later designing the Chiappa Rhino, is listed as the owner of U.S. patent 4,712,466 which details the operation of the weapon.\n
+		The Mateba Model 6 uses the recoil from firing to rotate the cylinder and cock the hammer, unlike conventional revolvers, which depend on the user physically pulling the trigger and/or cocking the hammer to actuate the weapon's mechanism of operation.	This unique action makes this revolver a semi automatic weapon, making it one of the very few semi-automatic revolver designs.
+		</text>
+	</string>
+
+	<string id="st_wpn_mateba44_taz">
+		<text>Mateba Model 6 Unica, .44 Magnum</text>
+	</string>
+	<string id="st_wpn_mateba44_taz_descr">
+		<text>
+		The Mateba Model 6 Unica (often known simply as the Mateba or the Mateba Autorevolver) is a recoil operated semi-automatic revolver, one of only a few of this type ever produced. It was developed by Mateba, based in Pavia, Italy. Inventor Emilio Ghisoni (1937–2008), who was also famous for later designing the Chiappa Rhino, is listed as the owner of U.S. patent 4,712,466 which details the operation of the weapon.\n
+		The Mateba Model 6 uses the recoil from firing to rotate the cylinder and cock the hammer, unlike conventional revolvers, which depend on the user physically pulling the trigger and/or cocking the hammer to actuate the weapon's mechanism of operation.	This unique action makes this revolver a semi automatic weapon, making it one of the very few semi-automatic revolver designs.\n
+		This model is chambered in .44 Magnum, providing more power and range, though it can load .357 Magnum by replacing the spring.
+		</text>
+	</string>
+
+</string_table>
