@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_ddm4v7">
+		<text>DDM4 V7</text>
+	</string>
+	<string id="st_wpn_ddm4v7_descr">
+		<text>El arma de fuego estilo DDM4 V7 AR15 cuenta con tecnologia de fijacion M-LOK con el riel Daniel Defense MFR 15.0. Construido alrededor de un canhon de 16 pulgadas forjado con martillo en frio, el V7 tiene un supresor de flash mejorado DD para reducir la firma del flash.\n \n</text>
+	</string>
+
+	<string id="st_wpn_m4a1">
+		<text>M4A1</text>
+	</string>
+	<string id="st_wpn_m4a1_camo">
+		<text>M4A1 (camuflado)</text>
+	</string>
+	<string id="st_wpn_m4a1_custom">
+		<text>M4A1 (personalizado)</text>
+	</string>
+	<string id="st_wpn_m4a1_freedom">
+		<text>M4A1 (Camuflage de Libertad)</text>
+	</string>
+	<string id="st_wpn_m4a1_worn">
+		<text>M4A1 (gastado)</text>
+	</string>
+	<string id="st_wpn_m4a1_descr">
+		<text>Ideal para CQC (Combate Cuerpo a Cuerpo), la carabina M4A1 es una variante completamente del rifle de asalto M16A2. En el uso militar, ha sustituido en gran medida a las metralletas que disparan cartuchos de pistola, que son inadecuados contra chalecos antibalas modernos. La M4A1 es una variante modificada de las carabina M4 capaz de disparar de forma automatica o semiatomatica.\n \n
+		%c[ui_gray_2]ACCESORIOS: \n
+		%c[d_purple] • %c[ui_gray_2] Supresor compatible 5.56x45\n
+		%c[d_purple] • %c[ui_gray_2] Mira ACOG, EOTech\n</text>
+	</string>
+
+	<string id="st_wpn_m4_alt">
+		<text>M4A1 RAS (worn)</text>
+	</string>
+	<string id="st_wpn_m4_alt_descr">
+		<text>La carabina M4 desciende de una familia de armas de fuego que remonta su linaje a versiones anteriores de carabina del M16, todas basadas en el AR-15 original fabricado por ArmaLite. Es una version mas corta y ligera del rifle de asalto M16, compartiendo el 80% de sus piezas. El M4 dispara municion OTAN de 5,56 x 45 mm y es un arma de fuego selectiva operada por gas, refrigerada por aire, alimentada por cargador y con una culata telescopica de 4 posiciones. Como ocurre con muchas carabinas, la M4 es practica y mas comoda de transportar que un rifle de longitud completa. Ha sido adoptada por el Comando de Operaciones Especiales de los Estados Unidos (USSOCOM) y es el arma preferida de las Fuerzas Especiales del Ejercito de los EE. UU. y los Navy SEAL.\n \n
+		%c[ui_gray_2]ACCESORIOS: \n
+		%c[d_purple] a€? %c[ui_gray_2] Supresor compatible 5.56x45\n
+		%c[d_purple] a€? %c[ui_gray_2] Mira ACOG, EOTech\n
+		%c[d_purple] a€? %c[ui_gray_2] Lanzagranadas M203\n \n</text>
+	</string>
+
+	<string id="st_wpn_m16">
+		<text>M16A4</text>
+	</string>
+	<string id="st_wpn_m16_descr">
+		<text>El M16 es la designacion militar estadounidense para una familia de rifles derivados del ArmaLite AR-15 y desarrollados por Colt a partir de la decada de 1960.  La familia de rifles M16, incluido el M16/A1/A2/A3/A4, ha sido el principal rifle de infanteria del ejercito de los Estados Unidos desde la decada de 1960.  Con sus variantes, ha sido utilizada por 15 paises de la OTAN y es el arma de fuego de su calibre mas producida.  El M16 es un rifle de asalto liviano, de calibre 5,56 x 45 mm, refrigerado por aire, operado por gas y alimentado por cargador, con un cerrojo giratorio, accionado por impacto directo del gas.  El rifle esta fabricado de acero, aluminio y plastico compuesto.\n \n
+		%c[ui_gray_2]ACCESORIOS: \n
+		%c[d_purple] • %c[ui_gray_2] Supresor comapatible 5.56x45\n
+		%c[d_purple] • %c[ui_gray_2] Mira ACOG, EOTech\n</text>
+	</string>
+	<string id="st_wpn_m16_worn">
+		<text>M16A4</text>
+	</string>
+	<string id="st_wpn_m16_m203">
+		<text>M16A4 Long M203</text>
+	</string>
+	<string id="st_wpn_m16_m203_descr">
+		<text>El M16 es la designacion militar estadounidense para una familia de rifles derivados del ArmaLite AR-15 y desarrollados por Colt a partir de la decada de 1960.  La familia de rifles M16, incluido el M16/A1/A2/A3/A4, ha sido el principal rifle de infanteria del ejercito de los Estados Unidos desde la decada de 1960.  Con sus variantes, ha sido utilizada por 15 paises de la OTAN y es el arma de fuego de su calibre mas producida.  El M16 es un rifle de asalto liviano, de calibre 5,56 x 45 mm, refrigerado por aire, operado por gas y alimentado por cargador, con un cerrojo giratorio, accionado por impacto directo del gas.  El rifle esta fabricado de acero, aluminio y plastico compuesto.\n \n
+		%c[ui_gray_2]ACCESORIOS: \n
+		%c[d_purple] • %c[ui_gray_2] Supresor comapatible 5.56x45\n
+		%c[d_purple] • %c[ui_gray_2] Mira ACOG, EOTech\n
+		%c[d_purple] • %c[ui_gray_2] Lanzagranda M203\n \n</text>
+	</string>
+
+	<string id="st_wpn_m16a1">
+		<text>M16A1</text>
+	</string>
+	<string id="st_wpn_m16a1_descr">
+		<text>El cl&#225;sico M16A1 fue el rifle emblem&#225;tico de la guerra de Vietnam. Se entreg&#243; a la gran mayor&#237;a de los soldados estadounidenses durante el conflicto, y su &#233;xito general en combate hizo que siguiera en servicio en las fuerzas armadas estadounidenses en diversas formas a lo largo de los a&#241;os.\n \n
+		%c[ui_gray_2]ACCESORIOS: \n
+		%c[d_purple] a€? %c[ui_gray_2] Mira Colt_3x\n</text>
+	</string>
+
+	<string id="st_colt_3x">
+		<text>Colt M16A1 Scope</text>
+	</string>
+	<string id="st_colt_3x_descr">
+		<text>\n \n
+		%c[ui_gray_2]COMPATIBILITY:\n \n
+		%c[d_cyan] вЂў %c[ui_gray_2] selected NATO rifles\n \n
+		%c[ui_gray_1]Detachable optical scope for the Colt M16A1\n \n
+		%c[d_purple] вЂў %c[ui_gray_2] Magnification: %c[ui_gray_1]2.0x\n
+		%c[d_purple] вЂў %c[ui_gray_2] Condition: %c[ui_gray_1]very good\n
+		%c[d_purple] вЂў %c[ui_gray_2] Reticule pattern: %c[ui_gray_1]trijicon</text>
+	</string>
+
+
+ 	<string id="st_mag_m16a1d_5.45x39">
+		<text>5.56x45 20-round STANAG Magazine</text>
+	</string>
+	<string id="st_mag_m16a1d_5.45x39_descr">
+		<text>20-round STANAG magazine holding 5.56x45 rounds.</text>
+	</string>
+
+	<string id="st_mag_m16a1df_5.45x39">
+		<text>Fast-loading 5.56x45 STANAG Magazine</text>
+	</string>
+	<string id="st_mag_m16a1df_5.45x39_descr">
+		<text>Modern PMAG-style magazine holding 20 rounds. Considerably lighter than its steel counterpart, the ergonomic design facilitates quick loading of cartridges.</text>
+	</string>
+
+</string_table>

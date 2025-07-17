@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_ddm4v7">
+		<text>DDM4 V7</text>
+	</string>
+	<string id="st_wpn_ddm4v7_descr">
+		<text>The DDM4 V7 AR15 style firearm features M-LOK attachment technology with the Daniel Defense MFR 15.0 rail. Built around a Cold Hammer Forged, 16 inch barrel, the V7 has a DD improved Flash Suppressor to reduce flash signature.\n \n</text>
+	</string>
+
+	<string id="st_wpn_m4a1">
+		<text>M4A1</text>
+	</string>
+	<string id="st_wpn_m4a1_camo">
+		<text>M4A1 (camouflaged)</text>
+	</string>
+	<string id="st_wpn_m4a1_custom">
+		<text>M4A1 (custom)</text>
+	</string>
+	<string id="st_wpn_m4a1_freedom">
+		<text>M4A1 (Freedom camouflage)</text>
+	</string>
+	<string id="st_wpn_m4a1_worn">
+		<text>M4A1 (worn)</text>
+	</string>
+	<string id="st_wpn_m4a1_descr">
+		<text>Ideal for CQC (Close Quarters Combat), the M4A1 carbine is a fully automatic variant of the M16A2 assault rifle. In military use, it has largely replaced the submachine guns firing pistol cartridges that are inadequate against modern body armour. The M4A1 is a modified variant of the M4 carbine able to fire automatic or semi-automatic.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n</text>
+	</string>
+
+	<string id="st_wpn_m4_alt">
+		<text>M4A1 RAS</text>
+	</string>
+	<string id="st_wpn_m4_alt_descr">
+		<text>The M4 Carbine descends from a family of firearms tracing its lineage back to earlier carbine versions of the M16, all based on the original AR-15 made by ArmaLite. It is a shorter and lighter version of the M16 assault rifle, sharing 80% of its parts. The M4 fires 5.56x45mm NATO ammunition and are gas operated, air cooled, magazine fed, selective fire firearms with a 4 position telescoping stock. As with many carbines, the M4 is handy and more convenient to carry than a full length rifle. It has been adopted by United States Special Operations Command (USSOCOM) and is the preferred weapon of the U.S. Army Special Forces and Navy SEALs.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher\n \n</text>
+	</string>
+
+	<string id="st_wpn_m16">
+		<text>M16A4</text>
+	</string>
+	<string id="st_wpn_m16_worn">
+		<text>M16A4 (worn)</text>
+	</string>
+	<string id="st_wpn_m16_descr">
+		<text>The M16 is the U.S. military designation for a family of rifles derived from the ArmaLite AR-15 and further developed by Colt starting in the 1960s. The M16 rifle family including the M16/A1/A2/A3/A4 has been the primary infantry rifle of the United States military since the 1960s. With its variants, it has been in use by 15 NATO countries, and is the most produced firearm in its calibre. The M16 is a lightweight, 5.56x45mm calibre, air cooled, gas operated, magazine fed assault rifle, with a rotating bolt, actuated by direct impingement gas operation. The rifle is made of steel, aluminium, and composite plastics.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n</text>
+	</string>
+	
+	<string id="st_wpn_m16_m203">
+		<text>M16A4 Long M203</text>
+	</string>
+	<string id="st_wpn_m16_m203_descr">
+		<text>The M16 is the U.S. military designation for a family of rifles derived from the ArmaLite AR-15 and further developed by Colt starting in the 1960s. The M16 rifle family including the M16/A1/A2/A3/A4 has been the primary infantry rifle of the United States military since the 1960s. With its variants, it has been in use by 15 NATO countries, and is the most produced firearm in its calibre. The M16 is a lightweight, 5.56x45mm calibre, air cooled, gas operated, magazine fed assault rifle, with a rotating bolt, actuated by direct impingement gas operation. The rifle is made of steel, aluminium, and composite plastics.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher\n \n</text>
+	</string>
+
+	<string id="st_wpn_m16a1">
+		<text>M16A1</text>
+	</string>
+	<string id="st_wpn_m16a1_descr">
+		<text> The classic M16A1 was the iconic rifle of the Vietnam War. It was issued to the vast majority of U.S. soldiers during the conflict, and its general success in combat led to its continued service in the U.S. armed forces in varied forms over the years.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] a€? %c[ui_gray_2] Colt_3x scopes\n</text>
+	</string>
+
+	<string id="st_colt_3x">
+		<text>Colt M16A1 Scope</text>
+	</string>
+	<string id="st_colt_3x_descr">
+		<text>\n \n
+		%c[ui_gray_2]COMPATIBILITY:\n \n
+		%c[d_cyan] вЂў %c[ui_gray_2] selected NATO rifles\n \n
+		%c[ui_gray_1]Detachable optical scope for the Colt M16A1\n \n
+		%c[d_purple] вЂў %c[ui_gray_2] Magnification: %c[ui_gray_1]2.0x\n
+		%c[d_purple] вЂў %c[ui_gray_2] Condition: %c[ui_gray_1]very good\n
+		%c[d_purple] вЂў %c[ui_gray_2] Reticule pattern: %c[ui_gray_1]trijicon</text>
+	</string>
+
+
+ 	<string id="st_mag_m16a1d_5.45x39">
+		<text>5.56x45 20-round STANAG Magazine</text>
+	</string>
+	<string id="st_mag_m16a1d_5.45x39_descr">
+		<text>20-round STANAG magazine holding 5.56x45 rounds.</text>
+	</string>
+
+	<string id="st_mag_m16a1df_5.45x39">
+		<text>Fast-loading 5.56x45 STANAG Magazine</text>
+	</string>
+	<string id="st_mag_m16a1df_5.45x39_descr">
+		<text>Modern PMAG-style magazine holding 20 rounds. Considerably lighter than its steel counterpart, the ergonomic design facilitates quick loading of cartridges.</text>
+	</string>
+
+</string_table>
