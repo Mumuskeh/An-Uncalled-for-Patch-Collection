@@ -67,21 +67,34 @@ rpm				= 650
 ![wpn_akms_alt]
 rpm				= 660
 
+![wpn_aps]
+inv_weight		= 1.22
+fire_distance	= 75
+rpm				= 750
+
 ![wpn_beretta]
+bullet_speed	= 381
 fire_distance	= 100
+bullet_speed	= 340
 
 ![wpn_bizon]
-rpm						= 650
+rpm				= 650
 fire_dispersion_base	= 0.77
 
 ![wpn_colt1911]
+inv_weight		= 1.075
 fire_distance	= 100
+bullet_speed	= 253
 
 ![wpn_cz52]
 fire_distance	= 100
+bullet_speed	= 500
 
 ![wpn_cz75]
+fire_modes		= 1, -1
+bullet_speed	= 360
 fire_distance	= 100
+rpm				= 258 ; 1000
 
 ![wpn_desert_eagle]
 fire_distance	= 150
@@ -90,12 +103,16 @@ fire_distance	= 150
 fire_modes		= 1, -1
 
 ![wpn_fn57]
+$spawn			= "weapons\fn57"
+bullet_speed	= 650
 fire_distance	= 100
+rpm				= 550 ; 245, 550 is the BaS' FN57 rpm, I've seen mentions of a cyclical rate of 850 but nothing concrete. And given it's said to have little recoil, the original 245 Anomaly RPM feels a tad slow
 
 ![wpn_fnp45]
 fire_distance	= 100
 
 ![wpn_fort]
+bullet_speed	= 320 ; 290
 fire_distance	= 75
 
 ![wpn_g43]
@@ -110,6 +127,7 @@ rpm				= 1100
 
 ![wpn_gsh18]
 fire_distance	= 100
+bullet_speed	= 535; 370
 
 ![wpn_hk416]
 fire_modes		= 1, -1
@@ -268,9 +286,14 @@ fire_distance	= 150
 fire_distance	= 100
 
 ![wpn_vityaz]
+bullet_speed	= 380
+fire_distance	= 200
 rpm				= 800
 condition_queue_shot_dec	= 0.0009
 condition_shot_dec			= 0.0009
+
+![wpn_vz61]
+fire_distance	= 200
 
 ![wpn_wa2000]
 rpm				= 325

@@ -1,0 +1,56 @@
+![wpn_mp412]
+ammo_class	= ammo_357_hp_mag, ammo_357_hp_mag_bad, ammo_357_hp_mag_verybad, ammo_380acp_fmj
+
+![wpn_vz61]
+inv_name		= st_wpn_vz68
+inv_name_short	= st_wpn_vz68
+description		= st_wpn_vz68_descr
+![wpn_vz61_alt]
+inv_name		= st_wpn_vz68_alt
+inv_name_short	= st_wpn_vz68_alt
+![wpn_vz61_camo]
+inv_name		= st_wpn_vz68_camo
+inv_name_short	= st_wpn_vz68_camo
+![wpn_vz61_freedom]
+inv_name		= st_wpn_vz68_freedom
+inv_name_short	= st_wpn_vz68_freedom
+
+[wpn_vz61_32acp]:wpn_vz61
+!shell_particles
+
+$spawn			= "weapons\vz61_32acp"
+inv_weight		= 1.3
+
+upgrades		= up_gr_firstab_vz61, up_gr_seconab_vz61, up_gr_thirdab_vz61, up_gr_fourtab_vz61
+
+ammo_class		= ammo_32acp_fmj
+
+silencer_name	= wpn_sil_32acp
+silencer_status	= 2
+
+hit_impulse		= 20
+hit_power		= 0.4, 0.4, 0.4, 0.4
+fire_distance	= 150
+bullet_speed	= 320
+
+cam_dispersion	= 0.22
+
+[wpn_vz61_380acp]:wpn_vz61
+!shell_particles
+
+$spawn			= "weapons\vz61_380acp"
+inv_weight		= 1.3
+
+upgrades		= up_gr_firstab_vz61, up_gr_seconab_vz61, up_gr_thirdab_vz61, up_gr_fourtab_vz61
+
+ammo_class		= ammo_380acp_fmj
+
+silencer_name	= wpn_sil_380acp
+silencer_status	= 2
+
+hit_impulse		= 20
+hit_power		= 0.44, 0.44, 0.44, 0.44
+fire_distance	= 175
+bullet_speed	= 335
+
+cam_dispersion	= 0.34
