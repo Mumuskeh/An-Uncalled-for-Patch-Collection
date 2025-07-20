@@ -2,6 +2,11 @@
 ; https://igigog.github.io/anomaly-modding-book/reference/configs/items/weapons/weapon-world.html
 
 ;Pistol distance defaulted to 100, 150 if a big caliber (desert eagle, revolver), 75 if a 9x18
+;9x39 guns: range nerfed to 400, tiny buffs to rpm.
+
+![wpn_9a91]
+fire_distance	= 400
+bullet_speed	= 270
 
 ![wpn_aps]
 fire_distance	= 100
@@ -72,6 +77,13 @@ inv_weight		= 1.22
 fire_distance	= 75
 rpm				= 750
 
+![wpn_ash12]
+hit_impulse		= 70
+hit_power		= 2.025, 2.025, 2.025, 2.025
+fire_distance	= 300
+bullet_speed	= 550 ; 750 seen some estimate 250-300 speeds from info on the VSSK, other say that makes no sense. So lets compromise
+rpm				= 600
+
 ![wpn_beretta]
 bullet_speed	= 381
 fire_distance	= 100
@@ -124,6 +136,11 @@ bullet_speed	= 375
 
 ![wpn_glock_modern]
 rpm				= 1100
+
+![wpn_groza]
+fire_distance	= 400
+bullet_speed	= 300
+rpm				= 725
 
 ![wpn_gsh18]
 fire_distance	= 100
@@ -285,12 +302,38 @@ fire_distance	= 150
 ![wpn_usp]
 fire_distance	= 100
 
+![wpn_val]
+fire_distance	= 400
+bullet_speed	= 285
+rpm				= 850
+
+![wpn_vihr]
+fire_distance	= 400
+bullet_speed	= 295
+rpm				= 800
+
+![wpn_vintorez]
+inv_weight		= 2.6
+fire_distance	= 400
+bullet_speed	= 285
+rpm				= 850
+
 ![wpn_vityaz]
 bullet_speed	= 380
 fire_distance	= 200
 rpm				= 800
 condition_queue_shot_dec	= 0.0009
 condition_shot_dec			= 0.0009
+
+![wpn_vsk94]
+fire_distance	= 400
+bullet_speed	= 270
+rpm				= 700
+
+![wpn_vssk]
+fire_distance	= 800
+bullet_speed	= 300
+rpm				= 50
 
 ![wpn_vz61]
 fire_distance	= 200
