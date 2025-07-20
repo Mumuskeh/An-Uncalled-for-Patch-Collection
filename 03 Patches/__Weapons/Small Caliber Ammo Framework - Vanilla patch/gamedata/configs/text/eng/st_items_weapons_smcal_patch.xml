@@ -35,10 +35,10 @@
 		%c[d_purple] • %c[ui_gray_2] .32 ACP compatible suppressor\n \n</text>
 	</string>
 
-	<string id="st_wpn_vz61">
+	<string id="st_wpn_vz64">
 		<text>Skorpion vz.64</text>
 	</string>
-	<string id="st_wpn_vz61_descr">
+	<string id="st_wpn_vz64_descr">
 		<text>The Škorpion vz. 68 (or Sa vz. 61 Skorpion) is an experimental variant of the Škorpion vz. 61, a Czechoslovak machine pistol developed in 1959 by Miroslav Rybář (1924–1970), and produced under the official designation Samopal vzor 61 ("submachine gun model 1961") by the Česká zbrojovka arms factory in Uherský Brod from 1963 to 1979. This version uses .380 ACP ammunition, though given the relative scarcity of that caliber in the Zone, it didn't catch up as much as the 9x19mm caliber model. It seems strange anybody would bother to dust off an experimental design for a caliber that's scarcer and weaker than the popular 9x19 in the Zone, but it could be someone bought this gun as a personal order. \n \n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] • %c[ui_gray_2] .380 ACP compatible suppressor\n \n</text>
