@@ -1,0 +1,258 @@
+;------------------------------------------------------------------------------------------------
+[wpn_tommy10]:identity_immunities,weapon_probability,default_weapon_params,wpn_m1a1_new_sounds
+GroupControlSection			= spawn_group
+$npc						= on
+$prefetch					= 8
+$spawn						= "weapons\tommy10"
+scheduled					= off
+cform						= skeleton
+parent_section              = wpn_tommy10
+
+kind						= w_smg ;w_pistol
+class						= WP_LR300
+slot						= 2
+animation_slot              = 8
+ef_main_weapon_type         = 2
+ef_weapon_type              = 6
+hand_dependence             = 1
+single_handed               = 0
+
+default_to_ruck             = false
+sprint_allowed              = true
+
+icons_texture				= ui\ui_icon_mrbs_tenweapons
+inv_grid_height				= 2
+inv_grid_width				= 5
+inv_grid_x					= 21
+inv_grid_y					= 18
+inv_name					= st_wpn_tommy10
+inv_name_short              = st_wpn_tommy10
+description					= st_wpn_tommy10_descr
+
+inv_weight					= 5.9
+cost						= 27650
+repair_type					= pistol
+weapon_class				= assault_rifle
+
+hud							= wpn_tommy10_hud
+visual						= dynamics\weapons\wpn_tommy10\wpn_tommy10_world.ogf
+position					= -0.016144, 0.033643, 0.137674
+orientation					= 0, 1.75, -0.2 
+fire_point					= 0.0, 0.188, 0.392
+fire_point2					= 0.0, 0.188, 0.392
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+strap_position              = -0.16, -0.36, 0.15
+strap_orientation           = -10, -5, 10
+ph_mass						= 3
+
+flame_particles             = weapons\generic_weapon05
+smoke_particles				= weapons\generic_shoot_00
+grenade_flame_particles     = weapons\generic_weapon01
+
+; shell_point				= 0.0, 0.188, 0.082
+; shell_dir					= 0.0, 1.0, 0.0
+; shell_particles				= weapons\9x18
+
+light_disabled              = false
+light_color					= 0.6, 0.5, 0.3
+light_range					= 5
+light_time					= 0.2
+light_var_color             = 0.05
+light_var_range             = 0.5
+
+upgrades					= up_gr_firstab_10mil1927, up_gr_seconab_10mil1927, up_gr_thirdab_10mil1927, up_gr_fourtab_10mil1927
+installed_upgrades          =
+upgrade_scheme              = upgrade_scheme_beretta
+
+upgr_icon_path              = ui\ui_icon_mrbs_tenweapons
+upgr_icon_x					= 1250
+upgr_icon_y					= 600
+upgr_icon_width             = 225
+upgr_icon_height            = 150
+
+fire_modes					= 1
+ammo_class					= ammo_10x25_fmj, ammo_10x25_fmj_bad, ammo_10x25_fmj_verybad, ammo_10x25_ap, ammo_10x25_ap_bad, ammo_10x25_ap_verybad, ammo_10x25_hydrashok, ammo_10x25_hydrashok_bad, ammo_10x25_hydrashok_verybad
+ammo_elapsed				= 25
+ammo_mag_size               = 25
+startup_ammo				= 100
+
+scope_status				= 0
+scope_zoom_factor           = 0
+
+silencer_status             = 0
+silencer_x					= 135
+silencer_y					= 11
+silencer_light_color        = 0.6, 0.5, 0.3
+silencer_light_range        = 0.01
+silencer_light_time         = 0.2
+silencer_light_var_color    = 0.05
+silencer_light_var_range    = 0.5
+silencer_smoke_particles    = weapons\generic_shoot_00
+
+grenade_class               = ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_status     = 0
+launch_speed				= 0
+
+hit_impulse					= 48
+hit_power					= 0.7, 0.7, 0.7, 0.7
+hit_type					= fire_wound
+fire_distance               = 500
+bullet_speed				= 470
+rpm							= 500
+rpm_empty_click             = 200
+ap_modifier					= 1
+
+use_aim_bullet              = false
+time_to_aim					= 0.0 ;  3.0
+zoom_dof					= 0.5, 1.0, 180
+zoom_enabled				= true
+zoom_rotate_time			= 0.25
+reload_dof					= 0.0, 0.5, 5, 2
+control_inertion_factor		= 1.0f
+crosshair_inertion			= 2.9
+fire_dispersion_base		= 0.59
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability         = 0.005
+misfire_start_condition     = 0.6 ;  0.81
+misfire_start_prob          = 0.005
+misfire_end_condition       = 0.15
+misfire_end_prob            = 0.11
+
+condition_queue_shot_dec    = 0.0011
+condition_shot_dec          = 0.0010
+
+cam_return					= 0
+cam_relax_speed             = 15
+cam_dispersion              = 0.48
+cam_dispersion_frac         = 1.0
+cam_dispersion_inc          = 0.0425
+cam_max_angle               = 31.0
+cam_max_angle_horz          = 31.0
+cam_step_angle_horz         = 1.44
+zoom_cam_relax_speed        = 15
+zoom_cam_dispersion         = 0.38
+zoom_cam_dispersion_frac    = 1.0
+zoom_cam_dispersion_inc     = 0.036
+zoom_cam_max_angle          = 31.0
+zoom_cam_max_angle_horz     = 31.0
+zoom_cam_step_angle_horz    = 1.42
+
+PDM_disp_accel_factor       = 1.155
+PDM_disp_base               = 0.65
+PDM_disp_crouch             = 1.0
+PDM_disp_crouch_no_acc      = 1.0
+PDM_disp_vel_factor         = 1.15
+
+cam_relax_speed_ai          = 120.75
+zoom_cam_relax_speed_ai     = 120.75
+holder_fov_modifier         = 1.0
+holder_range_modifier       = 1.0
+min_radius					= 0
+max_radius					= 500
+hit_probability_gd_novice   = 1.00
+hit_probability_gd_stalker  = 1.00
+hit_probability_gd_veteran  = 1.00
+hit_probability_gd_master   = 1.00
+
+kill_msg_x					= 72
+kill_msg_y					= 82
+kill_msg_width              = 56
+kill_msg_height             = 23
+
+snd_reload					= weapons\thompson\1921_new_reload
+snd_reload_empty			= weapons\thompson\1921_new_reload_empty
+
+[wpn_tommy10_hud]:hud_base
+item_visual					= anomaly_weapons\wpn_tommy10\wpn_tommy10_hud.ogf
+attach_place_idx			= 0
+zoom_hide_crosshair			= true
+
+item_position				= 0, 0, 0
+item_orientation			= 0, 0, 0
+
+hands_position				= 0.000544, -0.002611, 0.0058798
+hands_position_16x9			= 0.0, -0.0, 0.0
+hands_orientation			= 0.49728, 1.53296, 0.00176
+hands_orientation_16x9		= 0.0, 0.0, 0.0
+
+aim_hud_offset_pos			= -0.082583, 0.027986, -0.050965
+aim_hud_offset_pos_16x9		= -0.082583, 0.027986, -0.050965
+aim_hud_offset_rot			= -0.008949, 0.000693, 0
+aim_hud_offset_rot_16x9		= -0.008949, 0.000693, 0
+
+lowered_hud_offset_pos		= 0.05,-0.04,-0.02
+lowered_hud_offset_pos_16x9	= 0.04064,-0.012672,-0.002185
+lowered_hud_offset_rot		= -0.1,-0.6,0.4
+lowered_hud_offset_rot_16x9	= -0.081037,-0.705504,0.4
+
+gl_hud_offset_pos			= 0, 0, 0
+gl_hud_offset_pos_16x9		= 0, 0, 0
+gl_hud_offset_rot			= 0, 0, 0
+gl_hud_offset_rot_16x9		= 0, 0, 0
+
+lean_hud_offset_pos			= 0, 0, 0
+lean_hud_offset_rot			= 0, 0, 0
+
+fire_bone					= muzzle
+fire_point					= 0, -0, 0.15  
+
+anm_bore					= tommy_1921_new_inspect, idle
+anm_show					= tommy_1921_new_draw, idle
+anm_hide					= tommy_1921_new_holster, idle
+
+anm_idle					= tommy_1921_new_idle, idle
+anm_idle_aim_moving			= tommy_1921_new_walk, idle 
+anm_idle_aim_moving_crouch	= tommy_1921_new_walk, idle, 0.8 
+anm_idle_moving				= tommy_1921_new_walk, idle
+anm_idle_moving_crouch		= tommy_1921_new_walk, idle
+anm_idle_sprint				= tommy_1921_new_sprint, idle
+
+anm_reload					= tommy_1921_new_reload, reload
+anm_reload_empty			= tommy_1921_new_reload_empty, reload_empty
+anm_reload_misfire			= tommy_1921_new_unjam, unjam
+anm_reload_misfire_empty	= tommy_1921_new_unjam, unjam_empty
+anm_switch_mode				= tommy_1921_new_switch_mode, switch_mode
+
+anm_shots					= tommy_1921_new_shoot
+anm_idle_aim				= tommy_1921_new_aim, aim
+
+anm_bore_empty				= tommy_1921_new_inspect, idle_empty
+anm_show_empty					= tommy_1921_new_draw, idle_empty
+anm_hide_empty					= tommy_1921_new_holster, idle_empty
+anm_shot_l						= tommy_1921_new_shoot, shoot_empty
+
+anm_idle_empty					= tommy_1921_new_idle, idle_empty
+anm_idle_aim_moving_empty		= tommy_1921_new_walk, idle_empty
+anm_idle_aim_moving_crouch_empty= tommy_1921_new_walk, idle_empty, 0.8
+anm_idle_moving_empty			= tommy_1921_new_walk, idle_empty
+anm_idle_moving_crouch_empty	= tommy_1921_new_walk, idle_empty, 0.9
+anm_idle_sprint_empty			= tommy_1921_new_sprint, idle_empty
+
+anm_switch_mode_empty			= tommy_1921_new_switch_mode, switch_mode_empty
+anm_idle_aim_empty				= tommy_1921_new_aim, idle_empty
+
+; Transition/Intermediate Animations
+anm_walk2sprint					= tommy_1921_new_walk2sprint
+anm_walk2sprint_empty			= tommy_1921_new_walk2sprint, idle_empty
+
+anm_sprint2walk					= tommy_1921_new_sprint2walk
+anm_sprint2walk_empty			= tommy_1921_new_sprint2walk, idle_empty
+
+anm_idle2aim					= tommy_1921_new_idle2aim
+anm_idle2aim_empty				= tommy_1921_new_idle2aim, idle_empty
+
+; Transition Definitions
+ts_pattern_walk2sprint			= .+, anm_idle_sprint, anm_walk2sprint, 1
+
+ts_pattern_sprint2walk			= anm_idle_sprint, ^anm_idle.*, anm_sprint2walk, 1
+ts_pattern_sprint2walk_aim		= anm_walk2sprint, ^anm_idle_aim.*, anm_sprint2walk, 1
+ts_strict_sprint2walk_idle		= anm_walk2sprint, anm_idle, anm_sprint2walk
+ts_strict_sprint2walk_move		= anm_walk2sprint, anm_idle_moving, anm_sprint2walk
+
+;ts_pattern_idle2aim			= ^anm_idle.*, ^anm_idle_aim$, anm_idle2aim, 1
+ts_strict_sprint2aim			= anm_idle_sprint, anm_idle_aim, anm_sprint2walk
+
+ts_strict_sprint2inspect		= anm_idle_sprint, anm_bore, anm_sprint2walk
+ts_strict_walk2sprint_inspect	= anm_walk2sprint, anm_bore, anm_sprint2walk

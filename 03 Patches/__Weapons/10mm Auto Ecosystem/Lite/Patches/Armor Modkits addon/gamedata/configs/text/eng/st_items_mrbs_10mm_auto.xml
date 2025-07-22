@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+
+	<string id="st_ammo_10x25_fmj">
+		<text>
+        10mm Auto FMJ
+		</text>
+	</string>
+	<string id="st_ammo_10x25_fmj_descr">
+		<text>
+        Standard 10mm Auto (10x25) FMJ round. Offers no particular advantage over other round types beside its availability, simplicity of manufacture and cost.\n
+		For some reason, box art makes you think of a Scandinavian country, known for its manufacture of affordable furniture.\n
+		</text>
+	</string>
+
+	<string id="st_ammo_10x25_fmj_old_descr">
+		<text>
+        Standard 10mm Auto (10x25) FMJ round. Offers no particular advantage over other round types beside its availability, simplicity of manufacture and cost.\n
+		This box seems to have been exposed to the elements for quite some time.\n
+		</text>
+	</string>
+
+	<string id="st_ammo_10x25_ap">
+		<text>
+        10mm Auto HC
+		</text>
+	</string>
+	<string id="st_ammo_10x25_ap_descr">
+		<text>
+        10mm Auto (10x25) round marketed under “Solid Core” or “Hard Cast” monikers. One of heaviest possible cartridges in the 10mm offerings, made from enhanced alloys for maximum penetration potential.\n
+		Due to the lack of military adoption of the 10mm Auto, this is one of the best options if armor penetration is one’s goal.\n
+		</text>
+	</string>
+
+	<string id="st_ammo_10x25_ap_old_descr">
+		<text>
+        10mm Auto (10x25) round marketed under “Solid Core” or “Hard Cast” monikers. One of heaviest possible cartridges in the 10mm offerings, made from enhanced alloys for maximum penetration potential.\n
+		This box seems to have been exposed to the elements for quite some time.\n
+		</text>
+	</string>
+	
+	<string id="st_ammo_10x25_hydrashok">
+		<text>
+        10mm Auto XTP-JHP
+		</text>
+	</string>
+	<string id="st_ammo_10x25_hydrashok_descr">
+		<text>
+        Potent 10mm Auto (10x25) Jacketed Hollow Point round with eXtreme Terminal Performance bullet design, optimized for deep terminal penetration, great accuracy and controlled expansion.\n
+		</text>
+	</string>
+	
+	<string id="st_ammo_10x25_hydrashok_old_descr">
+		<text>
+        Potent 10mm Auto (10x25) Jacketed Hollow Point round with eXtreme Terminal Performance bullet design, optimized for deep terminal penetration, great accuracy and controlled expansion.\n
+		This box seems to have been exposed to the elements for quite some time.\n
+		</text>
+	</string>
+	
+	<string id="st_prt_w_barrel_tenlong">
+		<text>
+        10mm Caliber Barrel (L)
+		</text>
+	</string>
+	<string id="st_prt_w_barrel_tenlong_descr">
+		<text>
+        A 10mm (or .40 caliber) barrel. Used in variety of SMG and PCC platforms.\n
+		</text>
+	</string>
+	
+	<string id="st_prt_w_p_barrel_tenshort">
+		<text>
+        10mm Caliber Barrel (S)
+		</text>
+	</string>
+	<string id="st_prt_w_p_barrel_tenshort_descr">
+		<text>
+        A 10mm (or .40 caliber) barrel. Used in variety of pistol platforms.\n
+		</text>
+	</string>
+
+	<string id="st_addon_sil_10mm">
+		<text>
+        10mm Auto Suppressor
+		</text>
+	</string>
+	<string id="st_addon_sil_10mm_descr">
+		<text>
+        Suppressor suited for the high powered 10mm Auto cartridge.\n
+		</text>
+	</string>
+
+	<string id="st_up_tommy10mag_name">
+		<text>
+        Drum capacity
+		</text>
+	</string>
+	<string id="st_up_tommy10mag_descr">
+		<text>
+        Extends drum capacity to 50 rounds.\n
+		</text>
+	</string>
+
+	<string id="st_up_tommy10auto_name">
+		<text>
+        Full Auto Trigger Group
+		</text>
+	</string>
+	<string id="st_up_tommy10auto_descr">
+		<text>
+        Just as Brigadier General John T. Thompson would have wanted it.\n
+		</text>
+	</string>
+
+	<string id="st_up_banshee10auto_name">
+		<text>
+        Auto Sear
+		</text>
+	</string>
+	<string id="st_up_banshee10auto_descr">
+		<text>
+        Gun goes brrrrrr.\n
+		</text>
+	</string>
+
+	<string id="st_up_vectorg210auto_name">
+		<text>
+        Full Auto Trigger Pack
+		</text>
+	</string>
+	<string id="st_up_vectorg210auto_descr">
+		<text>
+        Gun goes brrrrrr FASTER.\n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_mrbsentinel">
+		<text>
+        SENTINEL kit
+		</text>
+	</string>
+	<string id="st_addon_mrbsentinel_descr">
+		<text>
+        Upgrade kit meant for Glock pistols in 10mm. Package contains a red dot sight, laser sight, extended 30-round magazine and an auto-sear, turning your Glock of choice into a fully automatic machine pistol.\n
+		Attention: This upgrade is irreversible.\n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_mrbwarden">
+		<text>
+        WARDEN kit
+		</text>
+	</string>
+	<string id="st_addon_mrbwarden_descr">
+		<text>
+        Upgrade kit meant for almost every 10mm Auto pistol found in the zone, that is not a Glock. Package contains an extended magazine, red dot sight, laser sight and a compensator.\n
+		IMPORTANT: Not all pistols can mount this upgrade, double check prior to purchase.\n
+		Attention: This upgrade is irreversible.\n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_mrboperative">
+		<text>
+        OPERATIVE kit
+		</text>
+	</string>
+	<string id="st_addon_mrboperative_descr">
+		<text>
+        Upgrade kit meant for many of the 10mm Auto SMG and PCC’s. Double check prior to purchase for compatibility. Package contains a tactical magazine, EOT holographic sight and a laser sight.\n
+		Attention: This upgrade is irreversible.\n
+		</text>
+	</string>	
+
+	<string id="st_addon_scope_mrbenforcer">
+		<text>
+        ENFORCER kit
+		</text>
+	</string>
+	<string id="st_addon_mrbenforcer_descr">
+		<text>
+        Upgrade kit meant for many of the 10mm Auto SMG and PCC’s. Double check prior to purchase for compatibility. Package contains a 50 round drum magazine, Specter scope and canted red dot sight.\n
+		Attention: This upgrade is irreversible.\n
+		</text>
+	</string>
+
+	<string id="st_wpn_aeroar">
+		<text>
+        Aero Survival Rifle
+		</text>
+	</string>
+	<string id="st_wpn_aeroar_descr">
+		<text>
+        The Aero Survival Rifle is a versatile, takedown-style rifle chambered in 10mm Auto. It is a lightweight (in part due to being constructed out of aviation aluminum) and compact rifle that is easy to transport and can be configured for a variety of different purposes.\n
+		It features a semi-automatic blowback action combined with a 16.25-inch barrel, capable of getting the most bang for your buck out of the powerful 10mm Auto cartridge. Ample picatinny rails real estate allows for an easy installation of a variety of different sights, optics and other attachments. Thanks to that, it is a versatile firearm that can be used for a variety of different purposes, including hunting, personal defense, and recreational shooting.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_banshee10">
+		<text>
+        Banshee Mk10
+		</text>
+	</string>
+	<string id="st_wpn_banshee10_descr">
+		<text>
+        The Banshee Mk10 is a compact and lightweight semi-automatic AR-15 “pistol” chambered in 10mm Auto, offering high performance with excellent accuracy and reliability in a small package. High quality 8 inch barrel, with a 30-round capacity magazine provides ample firepower. A single-stage, mil-spec trigger with a crisp and consistent trigger pull. Being fashioned after the AR-15 platform, carbines like this have a wide variety of customization options.\n
+		A skilled zone gunsmith may be able to convert this weapon to full auto, given the right tools and parts for the job.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit, Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_bansheeshort">
+		<text>
+        Banshee MkGs (10mm)
+		</text>
+	</string>
+	<string id="st_wpn_bansheeshort_descr">
+		<text>
+        The MkGs Banshee is a compact and lightweight semi-automatic AR-15 “pistol” that has been converted to use 10mm Auto, offering high performance with excellent accuracy and reliability in a small package. This conversion uses a 5 inch barrel. 30-round capacity magazine provides ample firepower. A single-stage, mil-spec trigger with a crisp and consistent trigger pull. Being fashioned after the AR-15 platform, carbines like this have a wide variety of customization options.\n
+		A skilled zone gunsmith may be able to convert this weapon to full auto, given the right tools and parts for the job.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit, Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_brenten">
+		<text>
+        Bren Ten SF
+		</text>
+	</string>
+	<string id="st_wpn_brenten_descr">
+		<text>
+        Bren Ten is a semi-automatic pistol chambered for 10mm Auto that was manufactured in the mid 80s - the first to use this brand new caliber. Its design is based upon the CZ-75, but larger and stronger, with several unique design elements that make it a distinctly separate firearm. Due to many issues plaguing the production of the firearm, possibly the biggest surrounding its magazines, the design was produced only in small numbers before the company went bankrupt.\n
+		Despite issues, it managed to garner a generally positive opinion among its users.\n
+		The Special Forces variant differs from its brethren by being a more compact version of it with a shorter barrel, and offered in different finish, alongside “Special Forces” engraving on the slide. A true tactical option for the mid/late 80s vigilante.\n
+		USER WARNING: Actual Special Forces training is not included in this package.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_brenten_alt">
+		<text>
+        Bren Ten
+		</text>
+	</string>
+	<string id="st_wpn_brenten_alt_descr">
+		<text>
+        Bren Ten is a semi-automatic pistol chambered for 10mm Auto that was manufactured in the mid 80s - the first to use this brand new caliber. Its design is based upon the CZ-75, but larger and stronger, with several unique design elements that make it a distinctly separate firearm. Due to many issues plaguing the production of the firearm, possibly the biggest surrounding its magazines, the design was produced only in small numbers before the company went bankrupt.\n
+		Despite issues, it managed to garner a generally positive opinion among its users. The firearm was immortalized in a popular police crime drama, where a shiny, chromed variant was used by one of the main characters.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_deltaelite">
+		<text>
+        Colt Delta Elite
+		</text>
+	</string>
+	<string id="st_wpn_deltaelite_descr">
+		<text>
+        The Colt Delta Elite is a semi-automatic pistol based on the Colt 1911 design, with some modifications to accommodate the 10mm Auto cartridge - the second gun in the world to use the cartridge, and first from a major manufacturer. It has a single-action trigger, thumb safety, grip safety, and a beavertail grip safety to help prevent slide bite. a 5-inch barrel with a fully supported ramp improves accuracy. The pistol feeds from a 8-round magazine, which is designed to be durable and reliable, a claim that could not be said about its competition at the time, as far as 10mm Auto guns go.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_glock20">
+		<text>
+        Glock 20
+		</text>
+	</string>
+	<string id="st_wpn_glock20_descr">
+		<text>
+        A polymer-framed, short recoil-operated pistol. Designed and produced by Austrian manufacturer Glock Ges.m.b.H., the Glock family of firearms has been popular worldwide in military, law enforcement and civilian use since 1982. Reliable, safe, and with variants for any and all needs, Glocks can be found in every faction's hands.\n
+		The Glock 20 is a slightly bigger, sturdier-built cousin of the Glock 17, chambered in 10mm Auto. The larger caliber cuts the ammo capacity down to 15 shots with a full-size magazine.\n
+		It is said this pistol has gained popularity in recent years in North America for protection against arctic wildlife. Something capable of reliably putting down Alaskan brown bears may be just enough against the monsters the Zone vomits out every other day.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_glock29">
+		<text>
+        Glock 29
+		</text>
+	</string>
+	<string id="st_wpn_glock29_descr">
+		<text>
+        A polymer-framed, short recoil-operated pistol. Designed and produced by Austrian manufacturer Glock Ges.m.b.H., the Glock family of firearms has been popular worldwide in military, law enforcement and civilian use since 1982. Reliable, safe, and with variants for any and all needs, Glocks can be found in every faction's hands.\n
+		The Glock 29 is a 10mm sub-compact pistol from the Glock family of pistols. As a concealed-carry pistol, its standard magazine carries only 10 rounds. Easy to conceal, with low recoil for its size and caliber, it is a very capable backup gun.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_glock40">
+		<text>
+        Glock 40
+		</text>
+	</string>
+	<string id="st_wpn_glock40_descr">
+		<text>
+        A polymer-framed, short recoil-operated pistol. Designed and produced by Austrian manufacturer Glock Ges.m.b.H., the Glock family of firearms has been popular worldwide in military, law enforcement and civilian use since 1982. Reliable, safe, and with variants for any and all needs, Glocks can be found in every faction's hands.\n
+		The Glock 40 is a long slide variant of the Glock 20, similarly chambered in 10mm Auto. The longer barrel allows it to squeeze a bit more of a punch from this powerful cartridge compared to its shorter barreled brothers, Glock 20 and 29.\n
+		It is said this pistol has gained popularity in recent years in North America for protection against arctic wildlife. Something capable of reliably putting down a charging moose may be just enough against the monsters the Zone vomits out every other day.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_keclipse">
+		<text>
+        Kimber Eclipse Custom II
+		</text>
+	</string>
+	<string id="st_wpn_keclipse_descr">
+		<text>
+        A high-end 1911-style pistol chambered in 10mm Auto. It features a full-size 1911-style frame and slide, with a blacked-out finish that gives it a sleek, modern look. The frame and slide are made from stainless steel, which provides durability and resistance to corrosion. Stainless steel 5-inch barrel, match-grade and hand-fitted to the slide, ensures excellent accuracy and consistency. Kimber's Tactical Wedge 3-dot tritium night sights provide excellent visibility in low-light conditions. The trigger is a match-grade aluminum trigger, which provides a smooth pull and a crisp break. Overall, it’s a high-quality, well-designed pistol that is well-suited for self-defense, hunting, or target shooting.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_kjagare">
+		<text>
+        Kimber Super Jagare
+		</text>
+	</string>
+	<string id="st_wpn_kjagare_descr">
+		<text>
+        A high-end 1911-style pistol designed for hunting and outdoor use, chambered in 10mm Auto. This is a specialized handgun that offers features specifically tailored to hunting and outdoor activities. Stainless steel slide and frame, with a matte black finish. 6-inch match-grade barrel that is crowned for accuracy and fitted with a stainless steel bushing. featuring a full-length guide rod and a heavy recoil spring, which helps to mitigate felt recoil and improve accuracy. This unit has a set of adjustable Vortex Venom red dot sights that allow for rapid target acquisition and accuracy, even in low light conditions. Overall, it’s a specialized handgun that is designed for hunters and outdoor enthusiasts who demand the best performance and accuracy from their firearms.\n
+		</text>
+	</string>
+
+	<string id="st_wpn_kriss10">
+		<text>
+        KRISS Vector Gen1 SMG (10mm)
+		</text>
+	</string>
+	<string id="st_wpn_kriss10_descr">
+		<text>
+        The KRISS Vector SMG is the ideal choice for law enforcement and military units seeking a controllable, compact, weapon system for close quarter combat environments.\n
+		This particular example has been modified with a Gen 2 10mm conversion kit, allowing it to retain its full auto trigger control group, preserving Full Auto fire capability from the get go, with its recoil mechanism fine tuned for 10mm Auto. The gun feeds from 10mm Glock type magazines.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit, Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_kriss10g2">
+		<text>
+        KRISS Vector Gen2 SBR (10mm)
+		</text>
+	</string>
+	<string id="st_wpn_kriss10g2_descr">
+		<text>
+        The KRISS Vector SMG is the ideal choice for law enforcement and military units seeking a controllable, compact, weapon system for close quarter combat environments.\n
+		Gen 2 is a general iterative improvement upon the Gen 1, changing it’s original unique stock for an AR-15 pattern one, removing the front flashlight mount, switching to pivoting trigger among other “quality of life” changes. This particular example is chambered for 10mm Auto. This SBR comes with a threaded barrel, allowing for use of a suppressor.\n
+		A skilled zone gunsmith may be able to convert this weapon to full auto, given the right tools and parts for the job.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit, Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_kriss10g2_alt">
+		<text>
+        KRISS Vector Gen2 CRB (10mm)
+		</text>
+	</string>
+	<string id="st_wpn_kriss10g2_alt_descr">
+		<text>
+        The KRISS Vector SMG is the ideal choice for law enforcement and military units seeking a controllable, compact, weapon system for close quarter combat environments.\n
+		Gen 2 is a general iterative improvement upon the Gen 1, changing it’s original unique stock for an AR type one, removing the front flashlight mount, switching to pivoting trigger among other “quality of life” changes. This particular example is chambered for 10mm Auto.\n
+		CRB features a lengthened 16 inch extended barrel that some rookie stalker may mistake for a suppressor, although the weapon cannot be suppressed. The longer barrel allows it to squeeze quite a bit more performance from this powerful cartridge compared to its shorter barreled 10mm brothers.\n
+		A skilled zone gunsmith may be able to convert this weapon to full auto, given the right tools and parts for the job.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit, Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_mp510">
+		<text>
+        MP5/10
+		</text>
+	</string>
+	<string id="st_wpn_mp510_descr">
+		<text>
+        The MP5 is one of the most famous and widespread firearms of its class. The MP5's compactness, accuracy and reliability have made it a favorite of numerous military, law enforcement, intelligence and security organizations the world over.\n
+		MP5/10 was developed at the behest of the American FBI, who sought a more powerful firearm to arm their Agents with. After field tests with rechambered Thompson SMG's proved to be successful, H&amp;K took to the task of developing an MP5 chambered in 10mm Auto. Ultimately, it saw very little success commercially, to the point it was discontinued in the year 2000, outside of spare parts and repairs. Even the FBI seems to be slowly phasing them out or relegating them to secondary roles.\n
+		Decent chances you are carrying a piece of American law enforcement history with you, Stalker.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_sig220_10">
+		<text>
+        P220 (10mm)
+		</text>
+	</string>
+	<string id="st_wpn_sig220_10_descr">
+		<text>
+        The SIG-Sauer P220, manufactured in the late 1970s by J.P. Sauer &amp; Son Company, is often considered the best out of the box .45 calibre double action pistol. An instant success, the P220 was adopted by the Swiss and Japanese SDF and by many European police organisations. This pistol also found its way into the US, first through the Browning Arms Company of Utah and since the 1980s, through the SIGARMS Company of New Hampshire.\n
+		This variant is chambered in 10mm Auto. Its components are strengthened to withstand the high pressures of the powerful 10mm Auto cartridge. Ammo capacity is 8 rounds.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_sigxten">
+		<text>
+        P320 XTEN
+		</text>
+	</string>
+	<string id="st_wpn_sigxten_descr">
+		<text>
+        SIG Sauer P320, manufactured by J.P. Sauer &amp; Son Company, is an advancement of the P250 series of handguns, itself a follow-up to the P220/P226 pistols, but with a striker-fire mechanism instead of the older double-action hammer-fired mechanism. The P320 is a modern and modular handgun, available in many calibers and configurations.\n
+		The XTEN variant (as name may imply) is chambered in 10mm Auto. Its components are strengthened to withstand the high pressures of the powerful 10mm Auto cartridge. Ammo capacity is reduced to 15 rounds.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_tommy10">
+		<text>
+        M1927A1 Carbine (10mm)
+		</text>
+	</string>
+	<string id="st_wpn_tommy10_descr">
+		<text>
+        “Modern” reproduction of the vaunted Thompson submachine gun, fashioned after the 1921/1928 pattern. Blowback-operated, air-cooled, magazine fed, semi-auto carbine, with a longer 16+ inch barrel to comply with various American gun laws and regulations.\n
+		After the original manufacturer has been tasked with rechambering FBI Thompsons in 10mm Auto as test beds, they have briefly offered a semi-auto only carbine chambered in 10mm Auto in early 90’s on the civilian market. Due to the volume of units sold, and limited time of manufacture, Thompsons chambered in 10mm Auto are one of rarer firearms out there.\n
+		While this carbine is semi-auto only, you are certain a skilled and properly equipped zone gunsmith will be able to convert it into Full Auto, just as Brigadier General John T. Thompson has always intended his invention to be.\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ump10">
+		<text>
+        UMP10
+		</text>
+	</string>
+	<string id="st_wpn_ump10_descr">
+		<text>
+        The UMP was developed by H&amp;K in the 1990s, first appearing on the market in 1999. The idea behind the UMP was to create lightweight and powerful submachine gun, that was also cheaper than the MP5. The UMP, being targeted primarily for US law enforcement, appeared in .45 ACP and .40 S&amp;W chamberings, and later in 9mm.\n
+		The markings show this to originally be an UMP40, a variant chambered in .40 S&amp;W, a shortened and lighter-kick variant born from 10mm Auto.\n
+		This particular example has been modified by a skilled Zone Gunsmith to feed from a standard 10mm MP5-10 magazine, and to withstand the high pressure caliber. One may be curious as to how this engineering wizardry has been achieved, but it's best not to question one of the many miracles found within the Zone.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_usp10">
+		<text>
+        USP10
+		</text>
+	</string>
+	<string id="st_wpn_usp10_descr">
+		<text>
+        Originally designed for the American Market, the USP, Universal Self loading Pistol, is known as an accurate and reliable handgun. Made to meet the criteria of U.S. law enforcement and military, and influenced by famous designs like the Gov. Model 1911 pistol, the USP incorporates several successful handgun design elements. Able to withstand extreme punishment and adverse conditions, it is used by many police and special forces units.\n
+		This pistol's markings show it to be an USP40, a model chambered in .40 S&amp;W, a shortened and lighter-kick variant born from 10mm Auto.\n
+		In spite of the markings, this particular example takes 10mm Auto, modified by a Zone gunsmith to withstand the high pressure caliber. One may be curious as to how this engineering wizardry has been achieved, but it's best not to question one of the many miracles found within the Zone.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_mag_glock_10x25">
+		<text>
+        10mm Standard Glock Magazine
+		</text>
+	</string>
+	<string id="st_mag_glock_10x25_descr">
+		<text>
+        10mm Auto Glock magazine with standard 15 round capacity.\n
+		A magazine so reliable, other manufacturers would prefer to license your magazine rather than have to design a brand new solution of their own.\n
+		</text>
+	</string>
+
+	<string id="st_mag_glock_10x25_ext">
+		<text>
+        10mm Extended Glock Magazine
+		</text>
+	</string>
+	<string id="st_mag_glock_10x25_ext_descr">
+		<text>
+        10mm Auto Glock magazine with extended 30 round capacity.\n
+		A magazine so reliable, other manufacturers would prefer to license your magazine rather than have to design a brand new solution of their own.\n
+		</text>
+	</string>
+
+	<string id="st_mag_glock_10x25_drum">
+		<text>
+        10mm Drum Glock Magazine
+		</text>
+	</string>
+	<string id="st_mag_glock_10x25_drum_descr">
+		<text>
+        10mm Auto Glock Drum with high 50 round capacity.\n
+		A magazine so reliable, other manufacturers would prefer to license your magazine rather than have to design a brand new solution of their own.\n
+		</text>
+	</string>
+
+	<string id="st_mag_colt1911_10x25">
+		<text>
+        10mm Standard Single-Stack Magazine
+		</text>
+	</string>
+	<string id="st_mag_colt1911_10x25_descr">
+		<text>
+        10mm Auto single-stack magazine with 8 round capacity.\n
+		</text>
+	</string>
+
+	<string id="st_mag_colt1911_10x25_ext">
+		<text>
+        10mm Extended Single-Stack Magazine
+		</text>
+	</string>
+	<string id="st_mag_colt1911_10x25_ext_descr">
+		<text>
+        10mm Auto single-stack magazine with extended 12 round capacity.\n
+		</text>
+	</string>
+
+	<string id="st_mag_xten_10x25">
+		<text>
+        10mm Standard Double-Stack Magazine
+		</text>
+	</string>
+	<string id="st_mag_xten_10x25_descr">
+		<text>
+        10mm Auto double-stack magazine with 15 round capacity.\n
+		</text>
+	</string>
+
+	<string id="st_mag_xten_10x25_ext">
+		<text>
+        10mm Extended Double-Stack Magazine
+		</text>
+	</string>
+	<string id="st_mag_xten_10x25_ext_descr">
+		<text>
+        10mm Auto double-stack magazine with extended 19 round capacity.\n
+		</text>
+	</string>
+
+	<string id="st_mag_mp5_10x25">
+		<text>
+        10mm Standard MP5/10 Magazine
+		</text>
+	</string>
+	<string id="st_mag_mp5_10x25_descr">
+		<text>
+        Polymer magazine made for the MP5/10 in 10mm Auto, able to hold 30 rounds. This magazine also fits the UMP10.\n
+		The magazine is straight instead of being slightly curved, akin to early 9mm MP5 magazines.\n
+		</text>
+	</string>
+
+	<string id="st_mag_tommy_10x25">
+		<text>
+        10mm Thompson Stick Magazine
+		</text>
+	</string>
+	<string id="st_mag_tommy_10x25_descr">
+		<text>
+        Slightly modified Thompson reproduction magazine that allows it to hold 30 rounds of the 10mm Auto instead of the vaunted .45 ACP.\n
+		</text>
+	</string>
+
+	<string id="st_mag_tommy_10x25_drum">
+		<text>
+        10mm Thompson Drum Magazine
+		</text>
+	</string>
+	<string id="st_mag_tommy_10x25_drum_descr">
+		<text>
+        Slightly modified Thompson reproduction drum magazine that allows it to hold 50 rounds of the 10mm Auto instead of the vaunted .45 ACP.\n
+		</text>
+	</string>
+	
+</string_table>

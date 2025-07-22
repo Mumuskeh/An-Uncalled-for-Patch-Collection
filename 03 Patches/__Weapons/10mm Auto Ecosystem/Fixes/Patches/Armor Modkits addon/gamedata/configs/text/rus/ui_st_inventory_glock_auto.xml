@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="st_wpn_glock_auto">
+		<text>Glock 18 Gen4</text>
+	</string>
+	<string id="st_wpn_glock_auto_descr">
+		<text>Glock 18 - один из самых известных вариантов Glock 17. Этот пистолет обладает действительно высокой производительностью в обмен на точность и управляемость. \n
+		%c[d_purple] - %c[ui_gray_2] Тритиевые прицелы\n
+		%c[d_purple] - %c[ui_gray_2] Комплект апгрейда Micro RONI\n</text>
+	</string>
+</string_table>

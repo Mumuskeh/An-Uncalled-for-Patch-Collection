@@ -1,0 +1,733 @@
+;------------------------------------------------------------------------------------------------
+[wpn_banshee10]:identity_immunities,weapon_probability,default_weapon_params;wpn_m4_sounds
+GroupControlSection			= spawn_group
+$npc						= on
+$prefetch					= 8
+$spawn						= "weapons\banshee10"
+scheduled					= off
+cform						= skeleton
+parent_section				= wpn_banshee10
+
+class						= WP_AK74
+slot						= 2
+animation_slot				= 2
+ef_main_weapon_type			= 2
+ef_weapon_type				= 8
+hand_dependence				= 1
+single_handed				= 0
+
+default_to_ruck				= false
+sprint_allowed				= true
+
+icons_texture				= ui\ui_icon_mrbs_tenweapons
+inv_grid_height				= 2
+inv_grid_width				= 4
+inv_grid_x					= 13
+inv_grid_y					= 0
+
+inv_name					= st_wpn_banshee10
+inv_name_short				= st_wpn_banshee10
+description					= st_wpn_banshee10_descr
+
+kind						= w_smg
+inv_weight					= 2.5
+cost						= 25520
+repair_type					= pistol
+weapon_class				= assault_rifle
+
+hud							= wpn_banshee10_hud
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+
+position					= -0.07, 0.097, -0.094
+orientation					= 0, 0, 0
+fire_point					= 0.024178, -0.065352, 0
+fire_point2					= 0, 0.199, 0.575
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+strap_position				= -0.15, -0.15, 0.2
+strap_orientation			= -10, -5, 10
+ph_mass						= 3
+
+flame_particles				= weapons\generic_weapon05
+;smoke_particles				= weapons\generic_shoot_00
+grenade_flame_particles		= weapons\generic_weapon01
+
+shell_point					= 0.12,0,0.07
+shell_dir					= 0,0,0.4
+shell_particles				= weapons\556x45
+
+light_disabled				= false
+light_color					= 0.6, 0.5, 0.3
+light_range					= 5
+light_time					= 0.2
+light_var_color				= 0.05
+light_var_range				= 0.1
+
+upgrades					= up_gr_firstab_10milbanshee, up_gr_seconab_10milbanshee, up_gr_thirdab_10milbanshee, up_gr_fourtab_10milbanshee, up_gr_fifthab_10milbanshee
+installed_upgrades			=
+upgrade_scheme				= upgrade_scheme_banshee10
+
+upgr_icon_path				= ui\ui_icon_mrbs_tenweapons
+upgr_icon_x					= 1250
+upgr_icon_y					= 300
+upgr_icon_width				= 225
+upgr_icon_height			= 150
+
+fire_modes					= 1
+ammo_class					= ammo_10x25_fmj, ammo_10x25_fmj_bad, ammo_10x25_fmj_verybad, ammo_10x25_ap, ammo_10x25_ap_bad, ammo_10x25_ap_verybad, ammo_10x25_hydrashok, ammo_10x25_hydrashok_bad, ammo_10x25_hydrashok_verybad
+ammo_elapsed				= 30
+ammo_mag_size				= 30
+startup_ammo				= 90
+
+scopes						= 0kp2, ac10632, acog, aimpoint, point_aimpro, c-more, compm4s, e0t2, ekp8_18, eot, mepro, spec_alt, specter, triji, kemper, mrbenforcer, mrboperative
+scope_status				= 0
+scope_zoom_factor			= 0
+
+silencer_name				= wpn_sil_10mm
+silencer_status				= 2
+silencer_x					= 176
+silencer_y					= 6
+silencer_light_color		= 0.6, 0.5, 0.3
+silencer_light_range		= 0.01
+silencer_light_time			= 0.2
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_smoke_particles	= weapons\generic_shoot_00
+
+;-------------------------------------------------------------------------Particles---------------------------------------------------------------------
+;silencer_smoke_particles	= weapons\generic_shoot_00
+smoke_particles				= ghost_particles\weapons\flame_eft_ak
+silencer_smoke_particles	= ghost_particles\weapons\generic_smoke_eft_sil
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+grenade_class				= ammo_m209, ammo_m209_bad, ammo_m209_verybad
+grenade_launcher_status		= 0
+grenade_launcher_x			= 132
+grenade_launcher_y			= 22
+launch_speed				= 0
+
+hit_impulse					= 43
+hit_power					= 0.62, 0.62, 0.62, 0.62
+hit_type					= fire_wound
+fire_distance				= 450
+bullet_speed				= 405
+rpm							= 400
+rpm_empty_click				= 200
+
+use_aim_bullet				= false
+time_to_aim					= 0.0 ;  2.0
+zoom_dof					= 0.5, 1.0, 180
+zoom_enabled				= true
+zoom_rotate_time			= 0.25
+reload_dof					= 0.0, 0.5, 5, 2
+control_inertion_factor		= 1.0f
+crosshair_inertion			= 5.3
+fire_dispersion_base		= 0.24
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability			= 0.004
+misfire_start_condition		= 0.7 ;  0.81
+misfire_start_prob			= 0.007
+misfire_end_condition		= 0.11
+misfire_end_prob			= 0.11
+
+condition_queue_shot_dec	= 0.0008
+condition_shot_dec			= 0.0008
+
+cam_return					= 0
+cam_relax_speed				= 10
+cam_dispersion				= 0.556
+cam_dispersion_frac			= 1.0
+cam_dispersion_inc			= 0.0675
+cam_max_angle				= 50.0
+cam_max_angle_horz			= 50.0
+cam_step_angle_horz			= 0.9
+zoom_cam_relax_speed		= 10
+zoom_cam_dispersion			= 0.466
+zoom_cam_dispersion_frac	= 1.0
+zoom_cam_dispersion_inc		= 0.0525
+zoom_cam_max_angle			= 50.0
+zoom_cam_max_angle_horz		= 50.0
+zoom_cam_step_angle_horz	= 0.85
+
+PDM_disp_accel_factor		= 2.3
+PDM_disp_base				= 0.8
+PDM_disp_crouch				= 1.0
+PDM_disp_crouch_no_acc		= 1.0
+PDM_disp_vel_factor			= 2.3
+
+cam_relax_speed_ai			= 360
+zoom_cam_relax_speed_ai		= 360
+holder_fov_modifier			= 1.0
+holder_range_modifier		= 1.0
+min_radius					= 0
+max_radius					= 500
+hit_probability_gd_novice	= 1.00
+hit_probability_gd_stalker	= 1.00
+hit_probability_gd_veteran	= 1.00
+hit_probability_gd_master	= 1.00
+
+kill_msg_x					= 175
+kill_msg_y					= 0
+kill_msg_width				= 82
+kill_msg_height				= 28
+
+hud_fov						= 0.78
+;-------------------------------------------------------------------SOUNDS-----------------------------------------------------------------------------
+snd_bore					= weapons\aksu_prince\aksu_tact_boring
+snd_draw					= weapons\scar_yang_prince\scar_inspect
+snd_holster					= weapons\scar_yang_prince\scar_inspect
+
+snd_reload					= weapons\banshee\banshee_reload
+snd_reload_empty			= weapons\banshee\banshee_reload_empty
+
+snd_shoot					= wpn_10smg_snd_shoot
+
+snd_silncer_shot			= weapons\m4a1_ras\m4a1_sil-1
+snd_switch					= weapons\m4a1_ras\m4a1_switch
+snd_empty					= weapons\generic\ar_empty,0.7
+snd_reload_misfire			= weapons\m4a1_ras\m4a1_misfire
+snd_reload_grenade			= weapons\m4a1_ras\m4a1_grenload
+
+snd_shoot_grenade			= weapons\m203\m203_grenshoot
+snd_switch_mode				= weapons\ru556\ru556_firemode
+;---------------------------------------------------------------------HUD-------------------------------------------------------------------------------
+[wpn_banshee10_hud]:hud_base
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_hud.ogf
+
+attach_place_idx			= 0
+zoom_hide_crosshair			= true   
+
+aim_hud_offset_pos			= -0.046284, 0.006, -0.023085
+aim_hud_offset_pos_16x9		= -0.046284, 0.006, -0.023085
+aim_hud_offset_rot			= 0.019265, 0.029625, 0
+aim_hud_offset_rot_16x9		= 0.019265, 0.029625, 0
+
+hands_orientation			= 1.850984, 2.156651, 0
+hands_orientation_16x9		= 1.850984, 2.156651, 0
+hands_position				= 0.008279, -0.006029, 0.030429
+hands_position_16x9			= 0.008279, -0.006029, 0.030429
+
+item_orientation			= -0.130002, -0.81333, 0
+item_position				= -0.00607, 0.00149, 0
+
+lowered_hud_offset_pos		= 0.103601, -0.003461, -0.013866
+lowered_hud_offset_pos_16x9	= 0.103601, -0.003461, -0.013866
+lowered_hud_offset_rot		= 0.168339, -0.791413, 0.1
+lowered_hud_offset_rot_16x9	= 0.168339, -0.791413, 0.1
+
+fire_point					= 0.024178, -0.065352, 0
+
+anm_hide					= ras_m4a1_hand_out, idle
+anm_idle					= ras_m4a1_hand_idle, idle
+anm_idle_aim				= ras_m4a1_hand_idle_aim, idle
+anm_idle_aim_moving			= ras_m4a1_hand_idle_walk,idle
+anm_idle_moving_crouch		= ras_m4a1_hand_crouch, idle
+anm_idle_aim_moving_crouch	= ras_m4a1_hand_crouch, idle
+anm_idle_moving				= ras_m4a1_hand_walk, idle
+anm_idle_sprint				= ras_m4a1_hand_run, idle
+anm_reload					= ras_m4a1_hand_reload, ras_m4a1_reload
+anm_reload_empty			= ras_m4a1_hand_reload_empty, ras_m4a1_reload_empty
+anm_shots					= ras_m4a1_hand_shot, ras_m4a1_shot
+anm_show					= ras_m4a1_hand_in, idle
+anm_reload_misfire			= ras_m4a1_hand_misfire, ras_m4a1_misfire
+anm_bore					= ras_m4a1_hand_inspect, idle
+
+;EMPTY
+
+anm_hide_empty					= ras_m4a1_hand_out, ras_m4a1_idle_w_gl_empty
+anm_idle_empty					= ras_m4a1_hand_idle, ras_m4a1_idle_w_gl_empty
+anm_idle_aim_empty				= ras_m4a1_hand_idle_aim, ras_m4a1_idle_w_gl_empty
+anm_idle_aim_moving_empty		= ras_m4a1_hand_idle_walk, ras_m4a1_idle_w_gl_empty
+anm_idle_moving_crouch_empty	= ras_m4a1_hand_crouch, ras_m4a1_idle_w_gl_empty
+anm_idle_aim_moving_crouch_empty= ras_m4a1_hand_crouch, ras_m4a1_idle_w_gl_empty
+anm_idle_moving_empty			= ras_m4a1_hand_walk, ras_m4a1_idle_w_gl_empty
+anm_idle_sprint_empty			= ras_m4a1_hand_run, ras_m4a1_idle_w_gl_empty
+anm_shots_empty					= ras_m4a1_hand_shot, ras_m4a1_idle_w_gl_empty
+anm_show_empty					= ras_m4a1_hand_in, ras_m4a1_idle_w_gl_empty
+anm_bore_empty				= ras_m4a1_hand_inspect, ras_m4a1_idle_w_gl_empty
+
+;Gl_off
+;---------------------------------------
+
+anm_hide_w_gl					= ras_m4a1_hand_out_w_gl, idle
+anm_idle_moving_crouch_w_gl_aim	= ras_m4a1_hand_crouch_w_gl, idle
+anm_idle_moving_w_gl			= ras_m4a1_hand_walk_w_gl, idle
+anm_idle_moving_w_gl_aim		= ras_m4a1_hand_walk_w_gl_aim, idle
+anm_idle_sprint_w_gl			= ras_m4a1_hand_run_w_gl, idle
+anm_idle_w_gl					= ras_m4a1_hand_idle_w_gl, idle
+anm_idle_w_gl_aim				= ras_m4a1_hand_idle_w_gl_aim, idle
+anm_reload_w_gl					= ras_m4a1_hand_reload_w_gl, ras_m4a1_reload_w_gl
+anm_reload_empty_w_gl			= ras_m4a1_hand_reload_empty_w_gl, ras_m4a1_reload_empty
+anm_shots_w_gl					= ras_m4a1_hand_shot_w_gl, ras_m4a1_shot
+anm_show_w_gl					= ras_m4a1_hand_in_w_gl, idle
+anm_switch_g					= ras_m4a1_hand_switch_on, ras_m4a1_switch_on
+anm_reload_misfire_w_gl			= ras_m4a1_hand_misfire_w_gl, ras_m4a1_misfire
+anm_bore_w_gl					= ras_m4a1_hand_boring_w_gl, idle
+
+;EMPTY
+
+anm_hide_empty_w_gl						= ras_m4a1_hand_out_w_gl, ras_m4a1_idle_w_gl_empty
+anm_idle_moving_crouch_empty_w_gl_aim	= ras_m4a1_hand_crouch_w_gl, ras_m4a1_idle_w_gl_empty
+anm_idle_moving_crouch_empty_w_gl		= ras_m4a1_hand_crouch_w_gl, ras_m4a1_idle_w_gl_empty
+anm_idle_moving_empty_w_gl				= ras_m4a1_hand_walk_w_gl, ras_m4a1_idle_w_gl_empty
+anm_idle_moving_empty_w_gl_aim			= ras_m4a1_hand_walk_w_gl_aim, ras_m4a1_idle_w_gl_empty
+anm_idle_sprint_empty_w_gl				= ras_m4a1_hand_run_w_gl, ras_m4a1_idle_w_gl_empty
+anm_idle_empty_w_gl_aim					= ras_m4a1_hand_idle_w_gl_aim, ras_m4a1_idle_w_gl_empty
+anm_shots_empty_w_gl					= ras_m4a1_hand_shot_w_gl, ras_m4a1_idle_w_gl_empty
+anm_show_empty_w_gl						= ras_m4a1_hand_in_w_gl, ras_m4a1_idle_w_gl_empty
+anm_bore_empty_w_gl						= ras_m4a1_hand_boring_w_gl, ras_m4a1_idle_w_gl_empty
+anm_idle_empty_w_gl						= ras_m4a1_hand_idle_w_gl, ras_m4a1_idle_w_gl_empty
+
+;GL_On
+;----------------------------------------
+
+anm_hide_g				= ras_m4a1_hand_out_gl, ras_m4a1_idle_gl
+anm_idle_g				= ras_m4a1_hand_idle_gl, ras_m4a1_idle_gl
+anm_idle_g_aim			= ras_m4a1_hand_idle_gl_aim, ras_m4a1_idle_gl
+anm_idle_moving_g		= ras_m4a1_hand_walk_gl, ras_m4a1_idle_gl
+anm_idle_moving_g_aim	= ras_m4a1_hand_walk_gl, ras_m4a1_idle_gl
+anm_idle_sprint_g		= ras_m4a1_hand_run_gl, ras_m4a1_idle_gl
+anm_reload_g			= ras_m4a1_hand_reload_gl, ras_m4a1_reload_gl
+anm_shots_g				= ras_m4a1_hand_shot_gl, ras_m4a1_idle_gl
+anm_show_g				= ras_m4a1_hand_in_gl, ras_m4a1_idle_gl
+anm_switch				= ras_m4a1_hand_switch_off, ras_m4a1_switch_off
+
+shell_bone				= gilza
+shell_dir				= 0, 1, 0
+shell_point				= 0, -0.03, 0
+
+fire_bone				= muzzle
+fire_bone2				= muzzle_gl
+fire_point2				= 0, 0, 0
+
+freelook_z_offset_mul	= 0.15
+
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_banshee10_0kp2]:wpn_banshee10
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+
+hud							= wpn_banshee10_0kp2_hud
+
+inv_weight					= 2.700
+
+1icon_layer					= 0kp2
+1icon_layer_x				= 100
+1icon_layer_y				= -4
+
+[wpn_banshee10_0kp2_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_0kp2_hud.ogf
+
+aim_hud_offset_pos			= -0.046287, 0.011617, -0.052453
+aim_hud_offset_pos_16x9		= -0.046287, 0.011617, -0.052453
+aim_hud_offset_rot			= 0.010099, 0.034102, 0
+aim_hud_offset_rot_16x9		= 0.010099, 0.034102, 0
+
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_banshee10_ac10632]:wpn_banshee10
+1icon_layer					= ac10632
+1icon_layer_x				= 100
+1icon_layer_y				= -8
+
+inv_weight					= 2.615
+
+hud							= wpn_banshee10_ac10632_hud
+
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+
+[wpn_banshee10_ac10632_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_ac10632_hud.ogf
+
+aim_hud_offset_pos			= -0.046119, 0.009055, -0.03681
+aim_hud_offset_pos_16x9		= -0.046119, 0.009055, -0.03681
+
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_banshee10_acog]:wpn_banshee10
+inv_weight					= 2.850
+
+hud							= wpn_banshee10_acog_hud
+
+1icon_layer					= acog
+1icon_layer_x				= 100
+1icon_layer_y				= -8
+
+scope_status				= 1
+scope_texture				= wpn_crosshair_acog
+scope_zoom_factor			= 25
+zoom_rotate_time			= 0.25
+scope_dynamic_zoom			= off
+
+;zoom_rotate_time			= 0.25
+;scope_lense_fov			= 6
+
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+
+[wpn_banshee10_acog_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_acog_hud.ogf
+
+aim_hud_offset_pos			= -0.046549, 0.007491, -0.086733
+aim_hud_offset_pos_16x9		= -0.046549, 0.007491, -0.086733
+
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_banshee10_aimpoint]:wpn_banshee10
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+
+hud							= wpn_banshee10_aimpoint_hud
+
+inv_weight					= 2.630
+
+1icon_layer					= aimpoint
+1icon_layer_x				= 100
+1icon_layer_y				= -12
+
+[wpn_banshee10_aimpoint_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_aimpoint_hud.ogf
+
+aim_hud_offset_pos			= -0.046283, 0.005645, -0.040932
+aim_hud_offset_pos_16x9		= -0.046283, 0.005645, -0.040932
+
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_banshee10_point_aimpro]:wpn_banshee10
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+
+hud							= wpn_banshee10_aimpro_hud
+
+inv_weight					= 2.830
+
+1icon_layer					= point_aimpro
+1icon_layer_x				= 107
+1icon_layer_y				= -13
+
+[wpn_banshee10_aimpro_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_aimpoint_pro_hud.ogf
+
+aim_hud_offset_pos			= -0.046284, 0.003368, -0.038657
+aim_hud_offset_pos_16x9		= -0.046284, 0.003368, -0.038657
+
+;-----------------------------------------------------------------------------
+[wpn_banshee10_c-more]:wpn_banshee10
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+hud							= wpn_banshee10_c-more_hud
+
+1icon_layer					= c-more
+1icon_layer_x				= 100
+1icon_layer_y				= -8
+
+inv_weight					= 2.800
+
+[wpn_banshee10_c-more_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_c-more_hud.ogf
+
+aim_hud_offset_pos			= -0.046282, 0.011118, -0.045557
+aim_hud_offset_pos_16x9		= -0.046282, 0.011118, -0.045557
+
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_banshee10_compm4s]:wpn_banshee10
+hud							= wpn_banshee10_compm4s_hud
+
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+
+1icon_layer					= compm4s
+1icon_layer_x				= 100
+1icon_layer_y				= -12
+
+inv_weight					= 2.880
+
+[wpn_banshee10_compm4s_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_compm4s_hud.ogf
+
+aim_hud_offset_pos			= -0.046174, 0.006995, -0.037658
+aim_hud_offset_pos_16x9		= -0.046174, 0.006995, -0.037658
+
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_banshee10_e0t2]:wpn_banshee10
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+
+hud							= wpn_banshee10_e0t2_hud
+
+inv_weight					= 2.727
+
+1icon_layer					= e0t2
+1icon_layer_x				= 100
+1icon_layer_y				= -11
+
+[wpn_banshee10_e0t2_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_e0t2_hud.ogf
+
+aim_hud_offset_pos			= -0.046231, 0.006426, -0.03752
+aim_hud_offset_pos_16x9		= -0.046231, 0.006426, -0.03752
+
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_banshee10_ekp8_18]:wpn_banshee10
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+
+hud							= wpn_banshee10_ekp8_18_hud
+
+inv_weight					= 2.840
+
+1icon_layer					= ekp8_18
+1icon_layer_x				= 100
+1icon_layer_y				= -3
+
+[wpn_banshee10_ekp8_18_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_ekp8_18_hud.ogf
+
+aim_hud_offset_pos			= -0.045748, 0.004007, -0.035887
+aim_hud_offset_pos_16x9		= -0.045748, 0.004007, -0.035887
+
+;-------------------------------------------------------------------------------
+[wpn_banshee10_eot]:wpn_banshee10
+1icon_layer					= eot
+1icon_layer_x				= 100
+1icon_layer_y				= -8
+
+inv_weight					= 2.800
+
+hud							= wpn_banshee10_eot_hud
+
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+
+[wpn_banshee10_eot_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_eot_hud.ogf
+
+aim_hud_offset_pos			= -0.046178, 0.002728, -0.030053
+aim_hud_offset_pos_16x9		= -0.046178, 0.002728, -0.030053
+
+;--------------------------------------------------------------------------------
+[wpn_banshee10_mepro]:wpn_banshee10
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+
+hud							= wpn_banshee10_mepro_hud
+
+inv_weight					= 2.872
+
+1icon_layer					= mepro
+1icon_layer_x				= 95
+1icon_layer_y				= -10
+
+[wpn_banshee10_mepro_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_mepro_hud.ogf
+
+aim_hud_offset_pos			= -0.046603, 0.007564, -0.040361
+aim_hud_offset_pos_16x9		= -0.046603, 0.007564, -0.040361
+
+;----------------------------------------------------------------------------------------------------------------------------
+[wpn_banshee10_spec_alt]:wpn_banshee10
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+
+hud							= wpn_banshee10_spec_alt_hud
+
+icons_texture				= ui\ui_icon_mrbs_tenweapons
+inv_grid_height				= 2
+inv_grid_width				= 4
+inv_grid_x					= 13
+inv_grid_y					= 2
+
+inv_weight					= 3.245
+scope_status				= 1
+scope_texture				= wpn_crosshair_specter
+scope_zoom_factor			= 25
+zoom_rotate_time			= 0.25
+scope_dynamic_zoom			= on
+
+scope_zoom_factor_alt		= 0
+
+use_alt_aim_hud				= true
+
+[wpn_banshee10_spec_alt_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_spec_alt_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.080049, 0.004268, -0.053053
+aim_hud_offset_alt_pos_16x9	= -0.080049, 0.004268, -0.053053
+aim_hud_offset_alt_rot		= 0.008318, 0.057066, 0.180475
+aim_hud_offset_alt_rot_16x9	= 0.008318, 0.057066, 0.180475
+aim_hud_offset_pos			= -0.046333, 0.009411, -0.075991
+aim_hud_offset_pos_16x9		= -0.046333, 0.009411, -0.075991
+
+;--------------------------------------------------------------------------------
+[wpn_banshee10_specter]:wpn_banshee10
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+hud							= wpn_banshee10_specter_hud
+
+1icon_layer					= specter
+1icon_layer_x				= 74
+1icon_layer_y				= -11
+
+inv_weight					= 3.170
+scope_status				= 1
+scope_texture				= wpn_crosshair_specter
+scope_zoom_factor			= 25
+zoom_rotate_time			= 0.25
+scope_dynamic_zoom			= on
+
+scope_zoom_factor_alt		= 0
+
+use_alt_aim_hud				= true
+
+[wpn_banshee10_specter_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_specter_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.046191, -0.01109, -0.071891
+aim_hud_offset_alt_pos_16x9	= -0.046191, -0.01109, -0.071891
+aim_hud_offset_alt_rot		= 0.020336, 0.029917, 0
+aim_hud_offset_alt_rot_16x9	= 0.020336, 0.029917, 0
+aim_hud_offset_pos			= -0.046124, 0.008986, -0.103012
+aim_hud_offset_pos_16x9		= -0.046124, 0.008986, -0.103012
+
+;------------------------------------------------------------------------------------------------
+[wpn_banshee10_triji]:wpn_banshee10
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+
+icons_texture				= ui\ui_icon_mrbs_tenweapons
+inv_grid_height				= 2
+inv_grid_width				= 4
+inv_grid_x					= 13
+inv_grid_y					= 4
+
+inv_weight					= 2.925
+scope_status				= 1
+scope_texture				= wpn_crosshair_acog_rmr
+scope_zoom_factor			= 25
+zoom_rotate_time			= 0.25
+
+hud							= wpn_banshee10_triji_hud
+
+scope_zoom_factor_alt		= 0
+
+use_alt_aim_hud				= true
+
+[wpn_banshee10_triji_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_trijicon_rmr_hud.ogf
+
+aim_hud_offset_pos			= -0.046761, 0.008344, -0.096186
+aim_hud_offset_pos_16x9		= -0.046761, 0.008344, -0.096186
+aim_hud_offset_alt_pos		= -0.080049, 0.004268, -0.053053
+aim_hud_offset_alt_pos_16x9	= -0.080049, 0.004268, -0.053053
+aim_hud_offset_alt_rot		= 0.008318, 0.057066, 0.180475
+aim_hud_offset_alt_rot_16x9	= 0.008318, 0.057066, 0.180475
+
+;------------------------------------------------------------------------------------------------
+[wpn_banshee10_kemper]:wpn_banshee10
+inv_weight					= 2.766
+
+hud							= wpn_banshee10_kemper_hud
+
+1icon_layer					= kemper
+1icon_layer_x				= 100
+1icon_layer_y				= -16
+
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_world.ogf
+
+scope_status				= 0
+
+scope_dynamic_zoom			= off
+
+[wpn_banshee10_kemper_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_kemper_hud.ogf
+;--------------------------------------------------------------------Addons--------------------------------------------------------------------------
+[wpn_banshee10_mrbenforcer]:wpn_banshee10
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_enforcer_world.ogf
+parent_section              = wpn_banshee10_mrbenforcer
+icons_texture				= ui\ui_icon_mrbs_tenweapons
+inv_grid_height				= 3
+inv_grid_width				= 4
+inv_grid_x					= 13
+inv_grid_y					= 6
+
+ammo_elapsed				= 50
+ammo_mag_size				= 50
+
+silencer_x					= 176
+silencer_y					= 22
+
+inv_weight					= 3.645
+cost						= 55520
+scope_status				= 1
+scope_texture				= wpn_crosshair_specter
+scope_zoom_factor			= 25
+zoom_rotate_time			= 0.25
+scope_dynamic_zoom			= on
+
+scope_zoom_factor_alt		= 0
+
+hud							= wpn_banshee10_kobra_hud
+
+use_alt_aim_hud				= true
+
+[wpn_banshee10_kobra_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_enforcer_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.080361, 0.000996, -0.028658
+aim_hud_offset_alt_pos_16x9	= -0.080361, 0.000996, -0.028658
+aim_hud_offset_alt_rot		= 0.005616, 0.010243, 0.228344
+aim_hud_offset_alt_rot_16x9	= 0.005616, 0.010243, 0.228344
+
+aim_hud_offset_pos			= -0.055245, 0.008843, -0.058992
+aim_hud_offset_pos_16x9		= -0.055245, 0.008843, -0.058992
+aim_hud_offset_rot			= 0.0214, 0.029945, 0
+aim_hud_offset_rot_16x9		= 0.0214, 0.029945, 0
+
+hands_orientation			= 0.483969, 1.449196, 0
+hands_orientation_16x9		= 0.483969, 1.449196, 0
+hands_position				= 0.015051, -0.004183, 0.019123
+hands_position_16x9			= 0.015051, -0.004183, 0.019123
+
+anm_hide					= banshee_drum_hand_out, idle
+anm_idle					= banshee_drum_hand_idle, idle
+anm_idle_aim				= banshee_drum_hand_idle_aim, idle
+anm_idle_aim_moving			= banshee_drum_hand_idle_walk,idle
+anm_idle_moving_crouch		= banshee_drum_hand_crouch, idle
+anm_idle_aim_moving_crouch	= banshee_drum_hand_crouch, idle
+anm_idle_moving				= banshee_drum_hand_walk, idle
+anm_idle_sprint				= banshee_drum_hand_run, idle
+anm_reload					= banshee_drum_hand_reload, ras_m4a1_reload
+anm_reload_empty			= banshee_drum_hand_reload_empty, ras_m4a1_reload_empty
+anm_shots					= banshee_drum_hand_shot, ras_m4a1_shot
+anm_show					= banshee_drum_hand_in, idle
+anm_reload_misfire			= banshee_drum_hand_misfire, ras_m4a1_misfire
+anm_bore					= banshee_drum_hand_inspect, idle
+
+;--------------------------------------------------------------------Addons--------------------------------------------------------------------------
+[wpn_banshee10_mrboperative]:wpn_banshee10
+visual						= dynamics\weapons\wpn_banshee10\wpn_banshee10_operative_world.ogf
+parent_section              = wpn_banshee10_mrboperative
+icons_texture				= ui\ui_icon_mrbs_tenweapons
+inv_grid_height				= 2
+inv_grid_width				= 4
+inv_grid_x					= 13
+inv_grid_y					= 9
+
+inv_weight					= 2.850
+cost						= 37520
+scope_dynamic_zoom			= off
+
+silencer_x					= 178
+silencer_y					= 7
+
+hud							= wpn_banshee10_rmr_hud
+
+laser_status				= true
+
+use_alt_aim_hud				= true
+
+snd_reload					= weapons\m4a1_young_prince\m4_reload_fast
+snd_reload_empty			= weapons\m4a1_young_prince\m4_reload_empty_fast
+
+[wpn_banshee10_rmr_hud]:wpn_banshee10_hud
+item_visual					= anomaly_weapons\wpn_banshee10\wpn_banshee10_operative_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.085811, -0.035976, 0
+aim_hud_offset_alt_pos_16x9	= -0.085811, -0.035976, 0
+aim_hud_offset_alt_rot		= -0.001136, 0.013817, 0.345954
+aim_hud_offset_alt_rot_16x9	= -0.001136, 0.013817, 0.345954
+aim_hud_offset_pos			= -0.054499, 0.009414, -0.023085
+aim_hud_offset_pos_16x9		= -0.054499, 0.009414, -0.023085
+aim_hud_offset_rot			= 7e-05, 0.007917, 0
+aim_hud_offset_rot_16x9		= 7e-05, 0.007917, 0
+hands_orientation			= 0.564205, 1.394525, 0
+hands_orientation_16x9		= 0.564205, 1.394525, 0
+hands_position				= 0.017344, -0.010223, 0.030429
+hands_position_16x9			= 0.017344, -0.010223, 0.030429
+
+anm_reload					= ras_m4a1_hand_reload, ras_m4a1_reload, 1.2
+anm_reload_empty			= ras_m4a1_hand_reload_empty, ras_m4a1_reload_empty, 1.2

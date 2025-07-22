@@ -1,0 +1,509 @@
+
+[up_sect_firsta_10milbanshee]
+cost                                     = 1840
+value                                    = +10
+
+condition_shot_dec                       = -0.0001
+condition_queue_shot_dec                 = -0.0001
+misfire_start_prob                       = -0.0007
+misfire_end_prob                         = -0.012
+inv_weight                               = +0.05
+
+[up_sect_firstc_10milbanshee]
+cost                                     = 2050
+value                                    = +10
+bullet_speed                             = +43
+fire_dispersion_base                     = -0.01
+inv_weight                               = +0.05
+
+[up_sect_firstd_10milbanshee]
+cost                                     = 2140
+value                                    = +5
+rpm                                      = +45
+inv_weight                               = +0.05
+
+[up_sect_firste_10milbanshee]
+cost                                     = 2280
+value                                    = +30
+
+condition_shot_dec                       = -0.0003
+condition_queue_shot_dec                 = -0.0003
+misfire_start_prob                       = -0.0025
+misfire_end_prob                         = -0.025
+inv_weight                               = +0.10
+
+[up_sect_secona_10milbanshee]
+cost                                     = 2460
+value                                    = -15
+cam_dispersion                           = -0.115
+cam_dispersion_inc                       = 0.0 ;-0.063
+cam_step_angle_horz                      = -0.221 
+zoom_cam_dispersion                      = -0.088
+zoom_cam_dispersion_inc                  = 0.0 ; -0.051
+zoom_cam_step_angle_horz                 = -0.193
+inv_weight                               = +0.05
+
+[up_sect_seconc_10milbanshee]
+cost                                     = 2180
+value                                    = +15
+
+condition_shot_dec                       = -0.00015
+condition_queue_shot_dec                 = -0.00015
+misfire_start_prob                       = -0.0015
+misfire_end_prob                         = -0.018
+inv_weight                               = +0.05
+
+[up_sect_secone_10milbanshee]
+cost                                     = 2680
+value                                    = -15
+cam_dispersion                           = -0.115
+cam_dispersion_inc                       = 0.0 ;-0.063
+cam_step_angle_horz                      = -0.221 
+zoom_cam_dispersion                      = -0.088
+zoom_cam_dispersion_inc                  = 0.0 ; -0.051
+zoom_cam_step_angle_horz                 = -0.193
+inv_weight                               = +0.05
+
+[up_sect_seconf_10milbanshee]
+cost                                     = 2190
+value                                    = +10
+fire_dispersion_base                     = -0.03
+
+inv_weight                               = +0.05
+
+[up_sect_thirda_10milbanshee]
+cost                                     = 2020
+value                                    = +10
+crosshair_inertion                       = -0.5
+PDM_disp_base                            = -0.05
+PDM_disp_vel_factor                      = -0.245
+PDM_disp_accel_factor                    = -0.245
+inv_weight                               = +0.05
+
+[up_sect_thirdc_10milbanshee]
+cost                                     = 2290
+value                                    = +10
+fire_dispersion_base                     = -0.03
+
+inv_weight                               = +0.05
+
+[up_sect_thirdd_10milbanshee]
+cost                                     = 2180
+value                                    = +10
+rpm                                      = +45
+inv_weight                               = +0.05
+
+[up_sect_thirde_10milbanshee]
+cost                                     = 2290
+value                                    = +5
+rpm                                      = +25
+inv_weight                               = +0.05
+
+[up_sect_fourta_10milbanshee]
+cost                                     = 1720
+value                                    = -0.6
+inv_weight                               = -0.4
+crosshair_inertion                       = -0.2
+PDM_disp_base                            = -0.05
+PDM_disp_vel_factor                      = -0.1
+PDM_disp_accel_factor                    = -0.1
+
+[up_sect_fourtc_10milbanshee]
+cost                                     = 2490
+value                                    = +15
+crosshair_inertion                       = -0.6
+PDM_disp_base                            = -0.1
+PDM_disp_vel_factor                      = -0.35
+PDM_disp_accel_factor                    = -0.35
+inv_weight                               = +0.05
+
+[up_sect_fourte_10milbanshee]
+cost                                     = 2260
+value                                    = +25
+crosshair_inertion                       = -0.75
+PDM_disp_base                            = -0.15
+PDM_disp_vel_factor                      = -0.4
+PDM_disp_accel_factor                    = -0.4
+inv_weight                               = +0.1
+
+[up_sect_fourtf_10milbanshee]
+cost                                     = 1660
+value                                    = +10
+bullet_speed                             = +43
+fire_dispersion_base                     = -0.01
+inv_weight                               = +0.1
+
+[up_sect_fiftha_10milbanshee]
+cost                                     = 2050
+value                                    = +5
+rpm                                      = +45
+inv_weight                               = +0.1
+
+[up_sect_fifthc_10milbanshee]
+cost                                     = 2380
+value                                    = +5000
+inv_weight                               = +0.1
+fire_modes                               = 1, -1
+
+;----------------------------------------------------------------------------------------------------------------------
+[up_firsta_10milbanshee]
+scheme_index                             = 0, 0
+known                                    = 1
+effects                                  = up_gr_firstcd_10milbanshee
+section                                  = up_sect_firsta_10milbanshee
+property                                 = prop_reliability
+
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = on_weapon_upgrade_something_here
+
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_zat_a1_name
+description                              = st_up_zat_a1_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_1
+
+
+[up_firstc_10milbanshee]
+scheme_index                             = 1, 0
+known                                    = 1
+effects                                  = up_gr_firstef_10milbanshee
+section                                  = up_sect_firstc_10milbanshee
+property                                 = prop_bullet_speed
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_zat_b5_name
+description                              = st_up_zat_b5_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_2
+
+[up_firstd_10milbanshee]
+scheme_index                             = 1, 1
+known                                    = 1
+effects                                  = up_gr_firstef_10milbanshee
+section                                  = up_sect_firstd_10milbanshee
+property                                 = prop_rpm
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_zat_b6_name
+description                              = st_up_zat_b6_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_3
+
+[up_firste_10milbanshee]
+scheme_index                             = 2, 0
+known                                    = 1
+effects                                  =
+section                                  = up_sect_firste_10milbanshee
+property                                 = prop_reliability
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_zat_c2_name
+description                              = st_up_zat_c2_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_4
+
+[up_secona_10milbanshee]
+scheme_index                             = 0, 1
+known                                    = 1
+effects                                  = up_gr_seconcd_10milbanshee
+section                                  = up_sect_secona_10milbanshee
+property                                 = prop_recoil
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_auto_a1_name
+description                              = st_up_auto_a1_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_5
+
+[up_seconc_10milbanshee]
+scheme_index                             = 1, 2
+known                                    = 1
+effects                                  = up_gr_seconef_10milbanshee
+section                                  = up_sect_seconc_10milbanshee
+property                                 = prop_reliability
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_auto_b1_name
+description                              = st_up_auto_b1_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_6
+
+[up_secone_10milbanshee]
+scheme_index                             = 2, 1
+known                                    = 1
+effects                                  =
+section                                  = up_sect_secone_10milbanshee
+property                                 = prop_recoil
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_auto_c1_name
+description                              = st_up_auto_c1_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_7
+
+[up_seconf_10milbanshee]
+scheme_index                             = 2, 2
+known                                    = 1
+effects                                  =
+section                                  = up_sect_seconf_10milbanshee
+property                                 = prop_dispersion
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here_h
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_auto_c5_name
+description                              = st_up_auto_c5_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_8
+
+[up_thirda_10milbanshee]
+scheme_index                             = 0, 2
+known                                    = 1
+effects                                  = up_gr_thirdcd_10milbanshee
+section                                  = up_sect_thirda_10milbanshee
+property                                 = prop_inertion
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_ret_a2_name
+description                              = st_up_ret_a2_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_9
+
+[up_thirdc_10milbanshee]
+scheme_index                             = 1, 3
+known                                    = 1
+effects                                  = up_gr_thirdef_10milbanshee
+section                                  = up_sect_thirdc_10milbanshee
+property                                 = prop_dispersion
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_ret_b3_name
+description                              = st_up_ret_b3_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_10
+
+
+[up_thirdd_10milbanshee]
+scheme_index                             = 1, 4
+known                                    = 1
+effects                                  = up_gr_thirdef_10milbanshee
+section                                  = up_sect_thirdd_10milbanshee
+property                                 = prop_rpm
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_ret_b2_name
+description                              = st_up_ret_b2_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_11
+
+[up_thirde_10milbanshee]
+scheme_index                             = 2, 3
+known                                    = 1
+effects                                  =
+section                                  = up_sect_thirde_10milbanshee
+property                                 = prop_rpm
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_ret_c3_name
+description                              = st_up_ret_c3_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_12
+
+[up_fourta_10milbanshee]
+scheme_index                             = 0, 3
+known                                    = 1
+effects                                  = up_gr_fourtcd_10milbanshee
+section                                  = up_sect_fourta_10milbanshee
+property                                 = prop_weight
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_stk_a1_name
+description                              = st_up_stk_a1_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_13
+
+[up_fourtc_10milbanshee]
+scheme_index                             = 1, 5
+known                                    = 1
+effects                                  = up_gr_fourtef_10milbanshee
+section                                  = up_sect_fourtc_10milbanshee
+property                                 = prop_inertion
+known                                    = 1
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_stk_b2_name
+description                              = st_up_stk_b2_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_14
+
+[up_fourte_10milbanshee]
+scheme_index                             = 2, 4
+known                                    = 1
+effects                                  =
+section                                  = up_sect_fourte_10milbanshee
+property                                 = prop_inertion
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_stk_c3_name
+description                              = st_up_stk_c3_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_15
+
+[up_fourtf_10milbanshee]
+scheme_index                             = 2, 5
+known                                    = 1
+effects                                  =
+section                                  = up_sect_fourtf_10milbanshee
+property                                 = prop_bullet_speed
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_stk_c2_name
+description                              = st_up_stk_c2_descr
+icon                                     = ui_inGame2_upgrade_TRs_301_16
+
+[up_fiftha_10milbanshee]
+scheme_index                             = 0, 4
+known                                    = 1
+effects                                  = up_gr_fifthcd_10milbanshee
+section                                  = up_sect_fiftha_10milbanshee
+property                                 = prop_rpm
+
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = on_weapon_upgrade_something_here
+
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_zat_a3_name
+description                              = st_up_zat_a3_descr
+icon                                     = ui_inGame2_upgrade_SGI_5K_1
+
+[up_fifthc_10milbanshee]
+scheme_index                             = 1, 6
+known                                    = 1
+effects                                  = 
+section                                  = up_sect_fifthc_10milbanshee
+property                                 = prop_autofire
+precondition_functor                     = inventory_upgrades.precondition_functor_a
+precondition_parameter                   = a & b
+effect_functor                           = inventory_upgrades.effect_functor_a
+effect_parameter                         = something_here
+prereq_functor                           = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor                   = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params                            =
+name                                     = st_up_banshee10auto_name
+description                              = st_up_banshee10auto_descr
+icon                                     = ui_inGame2_upgrade_Marta_4
+
+;----------------------------------------------------------------------------------------------------------------------
+[up_gr_firstab_10milbanshee]
+elements                                 = up_firsta_10milbanshee
+
+[up_gr_firstcd_10milbanshee]
+elements                                 = up_firstc_10milbanshee, up_firstd_10milbanshee
+
+[up_gr_firstef_10milbanshee]
+elements                                 = up_firste_10milbanshee
+
+[up_gr_seconab_10milbanshee]
+elements                                 = up_secona_10milbanshee
+
+[up_gr_seconcd_10milbanshee]
+elements                                 = up_seconc_10milbanshee
+
+[up_gr_seconef_10milbanshee]
+elements                                 = up_secone_10milbanshee, up_seconf_10milbanshee,
+
+[up_gr_thirdab_10milbanshee]
+elements                                 = up_thirda_10milbanshee
+
+[up_gr_thirdcd_10milbanshee]
+elements                                 = up_thirdc_10milbanshee, up_thirdd_10milbanshee
+
+[up_gr_thirdef_10milbanshee]
+elements                                 = up_thirde_10milbanshee
+
+[up_gr_fourtab_10milbanshee]
+elements                                 = up_fourta_10milbanshee
+
+[up_gr_fourtcd_10milbanshee]
+elements                                 = up_fourtc_10milbanshee
+
+[up_gr_fourtef_10milbanshee]
+elements                                 = up_fourte_10milbanshee, up_fourtf_10milbanshee
+
+[up_gr_fifthab_10milbanshee]
+elements                                 = up_fiftha_10milbanshee
+
+[up_gr_fifthcd_10milbanshee]
+elements                                 = up_fifthc_10milbanshee
