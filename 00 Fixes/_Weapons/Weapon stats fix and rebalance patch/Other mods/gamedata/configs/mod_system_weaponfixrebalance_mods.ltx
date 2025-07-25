@@ -3,15 +3,6 @@
 
 ;;;;;;; OTHER MODS
 
-;AEK Kit
-![wpn_aek_camo]
-bullet_speed	= 850
-; rpm				= 900
-
-![wpn_aek_duty]
-bullet_speed	= 700
-; rpm				= 900
-
 
 ;Agram 2000
 ![wpn_agram2000]
@@ -22,7 +13,6 @@ misfire_start_condition	= 0.9
 misfire_start_prob		= 0.09
 misfire_end_condition	= 0.26
 misfire_end_prob		= 0.21
-
 
 ;AR Pack Complete
 ![wpn_ddm4v7]
@@ -37,6 +27,26 @@ rpm				= 700
 fire_distance	= 500
 rpm				= 700
 
+;Sturmgewehr 57
+![wpn_sg510]
+fire_distance	= 800
+bullet_speed	= 750
+rpm				= 525
+
+
+;;BLACKGROWL
+
+;AEK Kit
+![wpn_aek_camo]
+bullet_speed	= 850
+; rpm				= 900
+
+![wpn_aek_duty]
+bullet_speed	= 700
+; rpm				= 900
+
+
+;;FIREBREATH
 
 ;AUGmented
 ;Aug 9mm
@@ -44,6 +54,18 @@ rpm				= 700
 fire_distance	= 300
 rpm				= 680
 
+;Tommy gun drop
+![wpn_thompson_m1a1]
+$spawn			= "weapons\thompson_m1a1"
+inv_weight		= 4.5
+bullet_speed	= 285
+rpm				= 750
+
+![wpn_thompson_1921]
+$spawn			= "weapons\thompson_1921"
+bullet_speed	= 285
+
+;;LEWD
 
 ;FAMAS Replacer
 ![wpn_famas_commando]
@@ -72,8 +94,62 @@ bullet_speed	= 925
 rpm				= 1050
 
 
-;Sturmgewehr 57
-![wpn_sg510]
-fire_distance	= 800
-bullet_speed	= 750
-rpm				= 525
+;;BILLWA
+
+;M3A1 Grease Gun
+![wpn_m3a1]
+fire_distance	= 200
+bullet_speed	= 274
+
+![wpn_greasegun]
+fire_distance	= 200
+bullet_speed	= 274
+
+
+;;JMERC
+
+;MP9
+; Holy shit what's this about making a 9mm smg hit like a rifle? For a pistol slot? "slightly reduced damage" my ass
+![wpn_mp9_n]
+$spawn			= "weapons\mp9_n"
+slot			= 2
+ef_main_weapon_type	= 2
+ef_weapon_type	= 6
+single_handed	= 0
+inv_weight		= 1.4
+cost			= 24410
+silencer_name	= wpn_sil_gemtech
+hit_impulse		= 24
+hit_power		= 0.47, 0.47, 0.47, 0.47
+fire_distance	= 200
+bullet_speed	= 710
+rpm				= 900
+rpm_empty_click	= 200
+ap_modifier		= 1
+
+![wpn_mp9_j]
+$spawn			= "weapons\mp9_j"
+slot			= 2
+ef_main_weapon_type	= 2
+ef_weapon_type	= 6
+single_handed	= 0
+inv_weight		= 1.6
+cost			= 42410
+silencer_name	= wpn_sil_gemtech
+hit_impulse		= 24
+hit_power		= 0.47, 0.47, 0.47, 0.47
+fire_distance	= 200
+bullet_speed	= 710
+;a jump of 200 rpm seems too big
+rpm				= 1000
+ap_modifier		= 1
+
+
+
+;;Gunslinger
+
+;P90 Tactical
+![wpn_p90tac]
+fire_distance	= 400
+bullet_speed	= 715
+rpm				= 975
