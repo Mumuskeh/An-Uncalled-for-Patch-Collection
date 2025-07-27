@@ -1,0 +1,691 @@
+;------------------------------------------------------------------------------------------------
+[wpn_izh18]:identity_immunities,weapon_probability,default_weapon_params,wpn_toz34_sounds
+GroupControlSection                      = spawn_group
+$npc                                     = on
+$prefetch                                = 8
+$spawn                                   = "weapons\toz-34"
+scheduled                                = off
+cform                                    = skeleton
+parent_section                           = wpn_izh18
+
+hud_fov                                  = 0.65
+
+class                                    = WP_BM16
+slot                                     = 2
+animation_slot                           = 3
+ef_main_weapon_type                      = 1
+ef_weapon_type                           = 9
+hand_dependence                          = 1
+single_handed                            = 0
+
+
+icons_texture               = ui\ui_izh18
+inv_grid_width     = 6
+inv_grid_height    = 1
+inv_grid_x         = 0
+inv_grid_y         = 0
+
+inv_name                                 = st_wpn_izh18
+inv_name_short                           = st_wpn_izh18
+description                              = st_wpn_izh18_descr
+
+kind                                     = w_shotgun
+inv_weight                               = 2.7
+cost                                     = 14800
+repair_type                              = shotgun
+weapon_class                             = shotgun
+
+hud                                      = wpn_toz34_hud
+visual                                   = anomaly_weapons\wpn_izh18\wpn_izh18.ogf
+position                                 = -0.019586, -0.105358, 0.064854
+orientation                              = 0, 30, 0
+fire_point                               = 0, 0.168, 0.755
+fire_point2                              = 0, 0.168, 0.755
+strap_bone0                              = bip01_spine2
+strap_bone1                              = bip01_spine1
+strap_position                           = -0.26, -0.11, 0.15
+strap_orientation                        = -15, -9, 110
+ph_mass                                  = 3
+
+flame_particles                          = weapons\generic_weapon05
+smoke_particles                          = amik\weapons\smoke_particles\smoke_particles_pump_01
+
+shell_point				                 = 0, 0.183, 0.07
+
+light_color                              = 0.6, 0.5, 0.3
+light_range                              = 6.0
+light_time                               = 0.2
+light_var_color                          = 0.05
+light_var_range                          = 0.5
+
+upgrades                                 = up_gr_firstab_toz34, up_gr_seconab_toz34, up_gr_thirdab_toz34
+installed_upgrades                       =
+upgrade_scheme                           = upgrade_scheme_toz34
+upgr_icon_x                              = 1450
+upgr_icon_y                              = 550
+upgr_icon_width                          = 300
+upgr_icon_height                         = 50
+
+tri_state_reload                         = off
+ammo_class                               = ammo_12x70_buck, ammo_12x70_buck_bad, ammo_12x70_buck_verybad, ammo_12x76_zhekan, ammo_12x76_zhekan_bad, ammo_12x76_zhekan_verybad, ammo_12x76_dart, ammo_12x76_dart_bad, ammo_12x76_dart_verybad, ammo_12x70_buck_self
+ammo_elapsed                             = 2
+ammo_mag_size                            = 1
+startup_ammo                             = 10
+
+scopes                                   = 0kp2, ac10632, acog, point_aimpro, leupold, marchf, specter, compm4s
+scope_status                             = 0
+scope_zoom_factor                        = 0
+
+silencer_status                          = 0
+
+grenade_launcher_status                  = 0
+
+hit_impulse                              = 30
+hit_power                                = 0.83, 0.83, 0.83, 0.83
+hit_type                                 = fire_wound
+fire_distance                            = 300
+bullet_speed                             = 330
+rpm                                      = 1000
+rpm_empty_click                          = 200
+
+zoom_dof                                 = 0.5, 1.0, 180
+zoom_enabled                             = true
+control_inertion_factor = 1.0f
+crosshair_inertion                       = 7.3
+fire_dispersion_base                     = 0.28
+fire_dispersion_condition_factor         = 0.001
+
+misfire_probability                      = 0.005
+misfire_start_condition                  = 0.7 ;  0.88
+misfire_start_prob                       = 0.007
+misfire_end_condition                    = 0.12
+misfire_end_prob                         = 0.11
+
+condition_queue_shot_dec                 = 0.0004
+condition_shot_dec                       = 0.0004
+
+cam_return                               = 0
+cam_relax_speed                          = 5.0
+cam_dispersion                           = 5.84
+cam_dispersion_frac                      = 0.9
+cam_dispersion_inc                       = 4.48
+cam_max_angle                            = 50.0
+cam_max_angle_horz                       = 50.0
+cam_step_angle_horz                      = 1.0
+zoom_cam_relax_speed                     = 5.0
+zoom_cam_dispersion                      = 5.04
+zoom_cam_dispersion_frac                 = 0.7
+zoom_cam_dispersion_inc                  = 4.98
+zoom_cam_max_angle                       = 50.0
+zoom_cam_max_angle_horz                  = 50.0
+zoom_cam_step_angle_horz                 = 1.0
+
+PDM_disp_accel_factor                    = 1.955
+PDM_disp_base                            = 1.85
+PDM_disp_crouch                          = 1.0
+PDM_disp_crouch_no_acc                   = 1.0
+PDM_disp_vel_factor                      = 1.95
+
+snd_draw				                 = weapons\izh18\toz34_draws
+snd_holster				                 = weapons\izh18\toz34_hides
+snd_empty				                 = weapons\izh18\toz34_empty
+snd_reload				                 = weapons\izh18\toz34_reload_fulls
+snd_reload_1				             = weapons\izh18\toz34_reloads
+snd_reload_misfire                       = weapons\izh18\toz34_revival
+
+cam_relax_speed_ai                       = 360
+zoom_cam_relax_speed_ai                  = 120.75
+holder_fov_modifier                      = 1.0
+holder_range_modifier                    = 1.0
+min_radius                               = 0
+max_radius                               = 500
+hit_probability_gd_novice                = 1.00
+hit_probability_gd_stalker               = 1.00
+hit_probability_gd_veteran               = 1.00
+hit_probability_gd_master                = 1.00
+
+kill_msg_x                               = 127
+kill_msg_y                               = 82
+kill_msg_width                           = 97
+kill_msg_height                          = 23
+
+hud                                      = wpn_izh18_hud
+hud_fov                                  = 0.65
+
+[wpn_izh18_hud]:hud_base
+item_visual                      = anomaly_weapons\wpn_izh18\wpn_izh18_hud.ogf
+attach_place_idx                 = 0
+zoom_hide_crosshair              = true
+
+item_position                    = 0, 0, 0
+item_orientation                 = -0.7586, -0.105645, 0
+
+hands_orientation                = 0.4658, 0.490405, 0
+hands_orientation_16x9           = 0.4658, 0.490405, 0
+hands_position                   = -0.010162, -0.001723, -0.047022
+hands_position_16x9              = -0.010162, -0.001723, -0.047022
+
+aim_hud_offset_pos               = 0.015327, -0.003383, 0.022989
+aim_hud_offset_pos_16x9          = 0.015327, -0.003383, 0.022989
+aim_hud_offset_rot               = 0.00512, 0.015911, 0.001
+aim_hud_offset_rot_16x9          = 0.00512, 0.015911, 0.001
+
+lowered_hud_offset_pos           = 0.128562, -0.021533, 0
+lowered_hud_offset_pos_16x9      = 0.128562, -0.021533, 0
+
+anm_idle_aim_1              = izh_aim
+anm_idle_aim_0              = izh_aim
+anm_hide                    = izh_hide
+anm_hide_0                  = izh_hide
+anm_hide_1                  = izh_hide
+anm_hide_2                  = izh_hide
+anm_idle                    = izh_idle
+anm_idle_0                  = izh_idle
+anm_idle_1                  = izh_idle
+anm_idle_2                  = izh_idle
+anm_idle_aim                = izh_aim
+anm_idle_aim_moving         = izh_walk, idle, 0.75
+anm_idle_aim_moving_crouch  = izh_walk, idle, 0.7
+anm_idle_moving             = izh_walk
+anm_idle_moving_0           = izh_walk
+anm_idle_moving_1           = izh_walk
+anm_idle_moving_2           = izh_walk
+anm_idle_moving_crouch      = izh_walk, 0.7
+anm_idle_moving_crouch_0    = izh_walk, 0.7
+anm_idle_moving_crouch_1    = izh_walk, 0.7
+anm_idle_moving_crouch_2    = izh_walk, 0.7
+anm_idle_sprint             = izh_sprint
+anm_idle_sprint_0           = izh_sprint
+anm_idle_sprint_1           = izh_sprint
+anm_idle_sprint_2           = izh_sprint
+anm_reload_1                = izh_reload, toz34_reload
+anm_reload_2                = izh_reload, toz34_reload
+anm_shots                   = izh_shoot, idle
+anm_show                    = izh_draw
+anm_show_0                  = izh_draw
+anm_show_1                  = izh_draw
+anm_show_2                  = izh_draw
+anm_reload_misfire          = izh_misfire, toz34_revival
+anm_idle_aim_start          = izh_aim_start, idle
+anm_idle_aim_end            = izh_aim_end, idle
+anm_shot_1                  = izh_shoot, idle
+anm_shot_2                  = izh_shoot, idle
+
+;--- Переходы спринта---
+
+anm_sprint_start             = izh_sprint_start, idle
+anm_sprint_start_0           = izh_sprint_start, idle
+anm_sprint_start_1           = izh_sprint_start, idle
+anm_sprint_start_2           = izh_sprint_start, idle
+anm_sprint_end               = izh_sprint_end, idle
+anm_sprint_end_0             = izh_sprint_end, idle
+anm_sprint_end_1             = izh_sprint_end, idle
+anm_sprint_end_2             = izh_sprint_end, idle
+
+;--- Паттерны спринта---
+
+ts_pattern_sprint_start      = .+, anm_idle_sprint, anm_sprint_start, 1
+ts_pattern_sprint_end        = anm_idle_sprint, ^anm_idle.*, anm_sprint_end
+ts_strict_sprint_end_move    = anm_sprint_start, anm_idle_moving, anm_sprint_end
+
+;--- Переходы выстрела в аиме---
+anm_shots_aim = izh_aim_shoot, idle
+	
+;--- Паттерны выстрела в аиме---
+ts_pattern_aimshoot1_start   = anm_idle_aim, anm_shot_1, anm_shots_aim
+ts_pattern_aimshoot2_start   = anm_idle_aim, anm_shot_2, anm_shots_aim
+
+shell_bone                               = wpn_body
+shell_dir                                = 0, 1, 0
+shell_point                              = 0, 0, 0
+
+fire_bone                                = wpn_body
+fire_point                               = 0, 0, 0.6
+
+freelook_z_offset_mul					 = 0.4
+
+;-------------------------------------------------------------------------------
+[wpn_izh18_acog]:wpn_izh18
+visual					     = anomaly_weapons\wpn_izh18\wpn_izh18.ogf
+
+1icon_layer                  = acog
+1icon_layer_x                = 115
+1icon_layer_y                = -31
+
+inv_weight                   = 3.550
+scope_status                 = 1
+scope_texture                = wpn_crosshair_acog
+scope_zoom_factor            = 25
+zoom_rotate_time             = 0.25
+
+hud					         = wpn_izh18_acog_hud
+
+[wpn_izh18_acog_hud]:wpn_izh18_hud
+item_visual				= anomaly_weapons\wpn_izh18\wpn_izh18_acog_hud.ogf
+
+aim_hud_offset_pos               = 0.015808, -0.028982, -0.050183
+aim_hud_offset_pos_16x9          = 0.015808, -0.028982, -0.050183
+;-------------------------------------------------------------------------------
+[wpn_izh18_specter]:wpn_izh18
+visual				= anomaly_weapons\wpn_izh18\wpn_izh18.ogf
+hud					= wpn_izh18_specter_hud
+
+1icon_layer         = specter
+1icon_layer_x       = 105
+1icon_layer_y       = -34
+inv_weight          = 3.870
+scope_status        = 1
+scope_texture       = wpn_crosshair_specter
+scope_zoom_factor   = 25
+zoom_rotate_time    = 0.25
+scope_dynamic_zoom  = off
+use_alt_aim_hud     = true
+
+[wpn_izh18_specter_hud]:wpn_izh18_hud
+item_visual				= anomaly_weapons\wpn_izh18\wpn_izh18_specter_hud.ogf
+
+aim_hud_offset_alt_pos      = 0.015206, -0.050069, 0
+aim_hud_offset_alt_pos_16x9 = 0.015206, -0.050069, 0
+aim_hud_offset_alt_rot      = 0.007253, 0.017118, 0
+aim_hud_offset_alt_rot_16x9 = 0.007253, 0.017118, 0
+aim_hud_offset_pos          = 0.015167, -0.029338, -0.040229
+aim_hud_offset_pos_16x9     = 0.015167, -0.029338, -0.040229
+;--------------------------------------------------------------------------------
+[wpn_izh18_leupold]:wpn_izh18
+visual				= anomaly_weapons\wpn_izh18\wpn_izh18.ogf
+
+hud					= wpn_izh18_leupold_hud
+
+1icon_layer         = leupold
+1icon_layer_x       = 115
+1icon_layer_y       = -31
+
+inv_weight          = 3.880
+scope_status        = 1
+scope_texture       = wpn_crosshair_leupold_rmr
+scope_zoom_factor   = 7
+zoom_rotate_time    = 0.25
+scope_dynamic_zoom  = off
+
+[wpn_izh18_leupold_hud]:wpn_izh18_hud
+item_visual				= anomaly_weapons\wpn_izh18\wpn_izh18_leupold_hud.ogf
+aim_hud_offset_pos               = 0.01517, -0.028629, -0.022165
+aim_hud_offset_pos_16x9          = 0.01517, -0.028629, -0.022165
+
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_izh18_marchf]:wpn_izh18
+1icon_layer         = marchf
+1icon_layer_x       = 115
+1icon_layer_y       = -31
+
+inv_weight          = 3.840
+
+hud                 = wpn_izh18_marchf_hud
+visual              = anomaly_weapons\wpn_izh18\wpn_izh18.ogf
+
+scope_status        = 1
+scope_dynamic_zoom  = off
+scope_texture       = wpn_crosshair_marchf
+scope_zoom_factor   = 6
+
+[wpn_izh18_marchf_hud]:wpn_izh18_hud
+item_visual         = anomaly_weapons\wpn_izh18\wpn_izh18_marchf_hud.ogf
+
+aim_hud_offset_pos      = 0.015433, -0.027775, -0.018323
+aim_hud_offset_pos_16x9 = 0.015433, -0.027775, -0.018323
+;-----------------------------------------------------------------------------------------------------
+
+
+;---------------------------------------------------Red_Dot_Sights--------------------------------------------------
+[wpn_izh18_ac10632]:wpn_izh18
+visual = anomaly_weapons\wpn_izh18\wpn_izh18.ogf        ;Barska ac10632
+
+1icon_layer		= ac10632
+1icon_layer_x   = 115
+1icon_layer_y   = -31
+
+inv_weight      = 3.215
+
+hud				= wpn_izh18_ac10632_hud
+
+[wpn_izh18_ac10632_hud]:wpn_izh18_hud
+item_visual                	= anomaly_weapons\wpn_izh18\wpn_izh18_ac10632_hud.ogf
+
+aim_hud_offset_pos               = 0.01549, -0.027623, 0.022989
+aim_hud_offset_pos_16x9          = 0.01549, -0.027623, 0.022989
+aim_hud_offset_rot               = -0.002924, 0.01495, 0.001
+aim_hud_offset_rot_16x9          = -0.002924, 0.01495, 0.001
+;--------------------------------------------------------------------------------
+[wpn_izh18_0kp2]:wpn_izh18
+visual					= anomaly_weapons\wpn_izh18\wpn_izh18.ogf
+
+hud						= wpn_izh18_0kp2_hud
+
+inv_weight                                         = 3.400
+
+1icon_layer			    = 0kp2
+1icon_layer_x                                      = 115
+1icon_layer_y                                      = -28
+
+[wpn_izh18_0kp2_hud]:wpn_izh18_ac10632_hud
+item_visual				= anomaly_weapons\wpn_izh18\wpn_izh18_0kp2_hud.ogf
+
+aim_hud_offset_pos               = 0.015216, -0.023574, 0.022989
+aim_hud_offset_pos_16x9          = 0.015216, -0.023574, 0.022989
+aim_hud_offset_rot               = 0.004547, 0.016553, 0.001
+aim_hud_offset_rot_16x9          = 0.004547, 0.016553, 0.001
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_izh18_point_aimpro]:wpn_izh18
+visual					     = anomaly_weapons\wpn_izh18\wpn_izh18.ogf
+
+hud						= wpn_izh18_point_aimpro_hud
+
+inv_weight                                         = 3.730
+
+1icon_layer			    = point_aimpro
+1icon_layer_x                                      = 115
+1icon_layer_y                                      = -35
+
+[wpn_izh18_point_aimpro_hud]:wpn_izh18_ac10632_hud
+item_visual				= anomaly_weapons\wpn_izh18\wpn_izh18_aimpoint_pro_hud.ogf
+
+aim_hud_offset_pos               = 0.014532, -0.036804, 0.022989
+aim_hud_offset_pos_16x9          = 0.014532, -0.036804, 0.022989
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_izh18_compm4s]:wpn_izh18
+hud					= wpn_izh18_compm4s_hud
+
+visual					= anomaly_weapons\wpn_izh18\wpn_izh18.ogf
+
+1icon_layer                              = compm4s
+1icon_layer_x                                      = 115
+1icon_layer_y                                      = -34
+
+inv_weight                               = 3.580
+
+[wpn_izh18_compm4s_hud]:wpn_izh18_ac10632_hud
+item_visual                		= anomaly_weapons\wpn_izh18\wpn_izh18_compm4s_hud.ogf
+
+aim_hud_offset_pos               = 0.015701, -0.028622, 0.022989
+aim_hud_offset_pos_16x9          = 0.015701, -0.028622, 0.022989
+;------------------------------------------------------------------------------------------------
+[wpn_mp18]:wpn_izh18
+parent_section       = wpn_mp18
+
+hud                  = wpn_toz34_hud
+visual               = anomaly_weapons\wpn_mp18\wpn_mp18.ogf
+position             = -0.023799, -0.137727, 0.03804
+
+tri_state_reload     = off
+ammo_class           = ammo_7.62x54_7h1, ammo_7.62x54_7h1_bad, ammo_7.62x54_7h1_verybad, ammo_7.62x54_ap, ammo_7.62x54_ap_bad, ammo_7.62x54_ap_verybad, ammo_7.62x54_7h14, ammo_7.62x54_7h14_bad, ammo_7.62x54_7h14_verybad
+ammo_elapsed         = 2
+ammo_mag_size        = 1
+startup_ammo         = 10
+
+icons_texture        = ui\ui_izh18
+inv_grid_width     = 6
+inv_grid_height    = 1
+inv_grid_x         = 0
+inv_grid_y         = 1
+
+inv_name           = st_wpn_mp18
+inv_name_short     = st_wpn_mp18
+description        = st_wpn_mp18_descr
+
+scopes             = 0kp2, ac10632, acog, point_aimpro, leupold, marchf, specter
+scope_status       = 0
+scope_zoom_factor  = 0
+
+hit_impulse        = 38
+hit_power          = 1.135, 1.135, 1.135, 1.135
+hit_type           = fire_wound
+fire_distance      = 1100
+bullet_speed       = 845
+rpm                = 1000
+rpm_empty_click    = 200
+
+fire_dispersion_base                     = 0.11
+fire_dispersion_condition_factor         = 0.001
+
+hud                                      = wpn_mp18_hud
+hud_fov                                  = 0.65
+;--------------------------------------------------------------------------
+[wpn_mp18_hud]:hud_base
+item_visual                              = anomaly_weapons\wpn_mp18\wpn_mp18_hud.ogf
+attach_place_idx                         = 0
+zoom_hide_crosshair                      = true   
+
+item_position                            = 0, 0, 0
+item_orientation                 = -0.7586, -0.105645, 0
+
+hands_orientation                = 0.4658, 0.490405, 0
+hands_orientation_16x9           = 0.4658, 0.490405, 0
+hands_position                   = -0.010162, -0.001723, -0.047022
+hands_position_16x9              = -0.010162, -0.001723, -0.047022
+
+aim_hud_offset_pos               = 0.015326, -0.011908, 0.022989
+aim_hud_offset_pos_16x9          = 0.015326, -0.011908, 0.022989
+aim_hud_offset_rot               = -0.005111, 0.013355, 0.001
+aim_hud_offset_rot_16x9          = -0.005111, 0.013355, 0.001
+
+lowered_hud_offset_pos           = 0.128562, -0.021533, 0
+lowered_hud_offset_pos_16x9      = 0.128562, -0.021533, 0
+
+anm_idle_aim_1              = izh_aim 
+anm_idle_aim_0              = izh_aim 
+anm_hide                    = izh_hide
+anm_hide_0                  = izh_hide
+anm_hide_1                  = izh_hide
+anm_hide_2                  = izh_hide
+anm_idle                    = izh_idle
+anm_idle_0                  = izh_idle
+anm_idle_1                  = izh_idle
+anm_idle_2                  = izh_idle
+anm_idle_aim                = izh_aim
+anm_idle_aim_moving         = izh_walk, idle, 0.75
+anm_idle_aim_moving_crouch  = izh_walk, idle, 0.7
+anm_idle_moving             = izh_walk
+anm_idle_moving_0           = izh_walk
+anm_idle_moving_1           = izh_walk
+anm_idle_moving_2           = izh_walk
+anm_idle_moving_crouch      = izh_walk, 0.7
+anm_idle_moving_crouch_0    = izh_walk, 0.7
+anm_idle_moving_crouch_1    = izh_walk, 0.7
+anm_idle_moving_crouch_2    = izh_walk, 0.7
+anm_idle_sprint             = izh_sprint
+anm_idle_sprint_0           = izh_sprint
+anm_idle_sprint_1           = izh_sprint
+anm_idle_sprint_2           = izh_sprint
+anm_reload_1                = izh_reload, toz34_reload
+anm_reload_2                = izh_reload, toz34_reload
+anm_shots                   = izh_shoot, idle
+anm_show                    = izh_draw
+anm_show_0                  = izh_draw
+anm_show_1                  = izh_draw
+anm_show_2                  = izh_draw
+anm_reload_misfire          = izh_misfire, toz34_revival
+anm_idle_aim_start          = izh_aim_start, idle
+anm_idle_aim_end            = izh_aim_end, idle
+anm_shot_1                  = izh_shoot, idle
+anm_shot_2                  = izh_shoot, idle
+
+;--- Переходы спринта---
+
+anm_sprint_start             = izh_sprint_start, idle
+anm_sprint_start_0           = izh_sprint_start, idle
+anm_sprint_start_1           = izh_sprint_start, idle
+anm_sprint_start_2           = izh_sprint_start, idle
+anm_sprint_end               = izh_sprint_end, idle
+anm_sprint_end_0             = izh_sprint_end, idle
+anm_sprint_end_1             = izh_sprint_end, idle
+anm_sprint_end_2             = izh_sprint_end, idle
+
+;--- Паттерны спринта---
+
+ts_pattern_sprint_start      = .+, anm_idle_sprint, anm_sprint_start, 1
+ts_pattern_sprint_end        = anm_idle_sprint, ^anm_idle.*, anm_sprint_end
+ts_strict_sprint_end_move    = anm_sprint_start, anm_idle_moving, anm_sprint_end
+
+
+;--- Переходы выстрела в аиме---
+anm_shots_aim = izh_aim_shoot, idle
+	
+;--- Паттерны выстрела в аиме---
+ts_pattern_aimshoot1_start   = anm_idle_aim, anm_shot_1, anm_shots_aim
+ts_pattern_aimshoot2_start   = anm_idle_aim, anm_shot_2, anm_shots_aim
+
+shell_bone                  = wpn_body
+shell_dir                   = 0, 1, 0
+shell_point                 = 0, 0, 0
+
+fire_bone                   = wpn_body
+fire_point                  = 0, 0, 0.6
+
+freelook_z_offset_mul		= 0.4
+
+;-------------------------------------------------------------------------------
+[wpn_mp18_acog]:wpn_mp18
+visual					     = anomaly_weapons\wpn_mp18\wpn_mp18.ogf
+
+1icon_layer                                        = acog
+1icon_layer_x                                      = 115
+1icon_layer_y                                      = -31
+
+inv_weight                                         = 3.550
+scope_status                                       = 1
+scope_texture                                      = wpn_crosshair_acog
+scope_zoom_factor                                  = 25
+zoom_rotate_time                                   = 0.25
+
+hud					                               = wpn_mp18_acog_hud
+
+[wpn_mp18_acog_hud]:wpn_mp18_hud
+item_visual				= anomaly_weapons\wpn_mp18\wpn_mp18_acog_hud.ogf
+
+aim_hud_offset_pos               = 0.015541, -0.038855, 0.011397
+aim_hud_offset_pos_16x9          = 0.015541, -0.038855, 0.011397
+;-------------------------------------------------------------------------------
+[wpn_mp18_specter]:wpn_mp18
+visual					= anomaly_weapons\wpn_mp18\wpn_mp18.ogf
+hud					= wpn_mp18_specter_hud
+
+1icon_layer                              = specter
+1icon_layer_x                                      = 105
+1icon_layer_y                                      = -34
+inv_weight                                         = 3.870
+scope_status                                       = 1
+scope_texture                                      = wpn_crosshair_specter
+scope_zoom_factor                                  = 25
+zoom_rotate_time                                   = 0.25
+scope_dynamic_zoom                                 = off
+use_alt_aim_hud                   = true
+
+[wpn_mp18_specter_hud]:wpn_mp18_hud
+item_visual				= anomaly_weapons\wpn_mp18\wpn_mp18_specter_hud.ogf
+
+aim_hud_offset_alt_pos           = 0.014937, -0.060448, 0.037769
+aim_hud_offset_alt_pos_16x9      = 0.014937, -0.060448, 0.037769
+aim_hud_offset_alt_rot           = 0.009033, 0.008805, 0
+aim_hud_offset_alt_rot_16x9      = 0.009033, 0.008805, 0
+aim_hud_offset_pos               = 0.014528, -0.038431, 0.006703
+aim_hud_offset_pos_16x9          = 0.014528, -0.038431, 0.006703
+;--------------------------------------------------------------------------------
+[wpn_mp18_leupold]:wpn_mp18
+visual					= anomaly_weapons\wpn_mp18\wpn_mp18.ogf
+
+hud					= wpn_mp18_leupold_hud
+
+1icon_layer                              = leupold
+1icon_layer_x                                      = 108
+1icon_layer_y                                      = -28
+
+inv_weight                                         = 3.880
+scope_status                                       = 1
+scope_texture                                      = wpn_crosshair_leupold_rmr
+scope_zoom_factor                                  = 7
+zoom_rotate_time                                   = 0.25
+scope_dynamic_zoom                                 = off
+
+[wpn_mp18_leupold_hud]:wpn_mp18_hud
+item_visual				= anomaly_weapons\wpn_mp18\wpn_mp18_leupold_hud.ogf
+
+aim_hud_offset_pos               = 0.014154, -0.037865, 0.022989
+aim_hud_offset_pos_16x9          = 0.014154, -0.037865, 0.022989
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_mp18_marchf]:wpn_mp18
+1icon_layer                              = marchf
+1icon_layer_x                                      = 105
+1icon_layer_y                                      = -28
+
+inv_weight                               = 3.840
+
+hud                                      = wpn_mp18_marchf_hud
+visual                                   = anomaly_weapons\wpn_mp18\wpn_mp18.ogf
+
+scope_status                             = 1
+scope_dynamic_zoom                       = off
+scope_texture                            = wpn_crosshair_marchf
+scope_zoom_factor                        = 6
+
+[wpn_mp18_marchf_hud]:wpn_mp18_hud
+item_visual                              = anomaly_weapons\wpn_mp18\wpn_mp18_marchf_hud.ogf
+
+aim_hud_offset_pos               = 0.016713, -0.03686, 0.038497
+aim_hud_offset_pos_16x9          = 0.016713, -0.03686, 0.038497
+;-----------------------------------------------------------------------------------------------------
+
+
+;---------------------------------------------------Red_Dot_Sights--------------------------------------------------
+[wpn_mp18_ac10632]:wpn_mp18
+visual = anomaly_weapons\wpn_mp18\wpn_mp18.ogf        ;Barska ac10632
+
+1icon_layer			= ac10632
+1icon_layer_x                                      = 115
+1icon_layer_y                                      = -31
+
+inv_weight                                         = 3.215
+
+hud				= wpn_mp18_ac10632_hud
+
+[wpn_mp18_ac10632_hud]:wpn_mp18_hud
+item_visual                	= anomaly_weapons\wpn_mp18\wpn_mp18_ac10632_hud.ogf
+
+aim_hud_offset_pos               = 0.015328, -0.035936, 0.042332
+aim_hud_offset_pos_16x9          = 0.015328, -0.035936, 0.042332
+;--------------------------------------------------------------------------------
+[wpn_mp18_0kp2]:wpn_mp18
+visual					= anomaly_weapons\wpn_mp18\wpn_mp18.ogf
+
+hud						= wpn_mp18_0kp2_hud
+
+inv_weight                                         = 3.400
+
+1icon_layer			    = 0kp2
+1icon_layer_x                                      = 110
+1icon_layer_y                                      = -26
+
+[wpn_mp18_0kp2_hud]:wpn_mp18_ac10632_hud
+item_visual				= anomaly_weapons\wpn_mp18\wpn_mp18_0kp2_hud.ogf
+
+aim_hud_offset_pos               = 0.015641, -0.03324, 0.022989
+aim_hud_offset_pos_16x9          = 0.015641, -0.03324, 0.022989
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_mp18_point_aimpro]:wpn_mp18
+visual					     = anomaly_weapons\wpn_mp18\wpn_mp18.ogf
+
+hud						= wpn_mp18_point_aimpro_hud
+
+inv_weight                                         = 3.730
+
+1icon_layer			    = point_aimpro
+1icon_layer_x                                      = 115
+1icon_layer_y                                      = -35
+
+[wpn_mp18_point_aimpro_hud]:wpn_mp18_ac10632_hud
+item_visual				= anomaly_weapons\wpn_mp18\wpn_mp18_aimpoint_pro_hud.ogf
+
+aim_hud_offset_pos               = 0.01405, -0.044117, 0.022989
+aim_hud_offset_pos_16x9          = 0.01405, -0.044117, 0.022989
+aim_hud_offset_rot               = 0.006056, 0.013995, 0.001
+aim_hud_offset_rot_16x9          = 0.006056, 0.013995, 0.001
+;-------------------------------------------------------------------------------------------------------------------------------
