@@ -1,0 +1,237 @@
+;---------------------------------New_M4_Alt---------------------------------------------------------------
+[wpn_m4_alt]:wpn_m4
+parent_section					= wpn_m4_alt
+
+icons_texture					= ui\ui_icon_arpack
+inv_grid_height					= 2
+inv_grid_width					= 5
+inv_grid_x						= 0
+inv_grid_y						= 8
+inv_name						= st_wpn_m4_alt
+inv_name_short					= st_wpn_m4_alt
+description						= st_wpn_m4_alt_descr
+
+hud								= wpn_m4_alt_hud
+visual							= dynamics\weapons\wpn_m4_alt\wpn_m4a1_ras.ogf
+position						= -0.026, -0.130, 0.0
+orientation						= 0.0, 0.0, 0.0
+fire_point						= 0.0, 0.199, 0.575
+fire_point2						= 0.0, 0.199, 0.575
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+strap_position					= -0.15, -0.37, 0.2
+strap_orientation				= -10, -5, 10
+ph_mass							= 3
+
+flame_particles					= weapons\generic_weapon05
+smoke_particles					= weapons\generic_shoot_00
+grenade_flame_particles			= weapons\generic_weapon01
+
+shell_point						= 0.120000, 0.000000, 0.070000
+shell_dir						= 0.0, 0.0, 0.4
+shell_particles					= weapons\556x45
+
+light_disabled					= false
+light_color						= 0.6, 0.5, 0.3
+light_range						= 5
+light_time						= 0.2
+light_var_color					= 0.05
+light_var_range					= 0.1
+light_trace_bone				= muzzle
+
+silencer_name					= wpn_sil_nato
+silencer_status					= 2
+silencer_x						= 230
+silencer_y						= 14
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time				= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_smoke_particles		= weapons\generic_shoot_00
+
+grenade_class					= ammo_m209, ammo_m209_bad, ammo_m209_verybad
+grenade_launcher_name			= wpn_addon_grenade_launcher_m203
+grenade_launcher_status			= 2
+grenade_launcher_x				= 131
+grenade_launcher_y				= 29
+grenade_vel						= 76
+launch_speed					= 0
+	
+scopes							= acog, eot, ac10632
+scope_status					= 0
+scope_zoom_factor				= 0
+
+;-------------------------------------------------------------------------------
+snd_reload			= weapons\m4a1_Ras\m4a1_reload
+snd_reload_empty	= weapons\m4a1_Ras\m4a1_reload_empty
+snd_reload_misfire	= weapons\m4a1_Ras\m4a1_misfire
+snd_reload_g		= weapons\m4a1_Ras_alt\m4a1_grenload
+snd_shoot			= weapons\m4a1_Ras\m4a1_1
+snd_shoot1			= weapons\m4a1_Ras\m4a1_2
+snd_shoot2			= weapons\m4a1_Ras\m4a1_3
+snd_silncer_shot	= weapons\m4a1_Ras\m4a1_SIL-1
+snd_silncer_shot1	= weapons\m4a1_Ras\m4a1_SIL-2
+snd_silncer_shot2	= weapons\m4a1_Ras\m4a1_SIL-3
+;-------------------------------------------------------------------------------
+
+;-------------------------------------------------------------------------------
+[wpn_m4_alt_hud]:hud_base
+item_visual			= dynamics\weapons\wpn_m4_alt\wpn_m4a1_ras_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+hands_orientation		= -0.04516, -1.085381, 0
+hands_orientation_16x9	= -0.04516, -1.085381, 0
+hands_position			= 0.010053, -0.008226, 0.138356
+hands_position_16x9		= 0.010053, -0.008226, 0.138356
+
+aim_hud_offset_pos		= -0.049489, 0.009376, -0.035
+aim_hud_offset_pos_16x9	= -0.049489, 0.009376, -0.035
+aim_hud_offset_rot		= -0.018262, -0.00069, 0
+aim_hud_offset_rot_16x9	= -0.018262, -0.00069, 0
+
+gl_hud_offset_pos		= -0.065633, -0.013561, -0.170593
+gl_hud_offset_pos_16x9	= -0.065633, -0.013561, -0.170593
+gl_hud_offset_rot		= 0.015972, 0.030711, 0.25
+gl_hud_offset_rot_16x9	= 0.015972, 0.030711, 0.25
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+lowered_hud_offset_pos		= 0.1, -0.01, 0
+lowered_hud_offset_pos_16x9	= 0.1, -0.01, 0
+lowered_hud_offset_rot		= 0.1, -0.8, 0.1
+lowered_hud_offset_rot_16x9	= 0.1, -0.8, 0.1
+
+anm_hide					= ras_m4a1_alt_hand_out, idle
+anm_idle					= ras_m4a1_alt_hand_idle, idle
+anm_idle_aim				= ras_m4a1_alt_hand_idle_aim, idle
+anm_idle_aim_moving			= ras_m4a1_alt_hand_idle_walk,idle
+anm_idle_moving_crouch		= ras_m4a1_alt_hand_crouch, idle
+anm_idle_aim_moving_crouch	= ras_m4a1_alt_hand_crouch, idle
+anm_idle_moving				= ras_m4a1_alt_hand_walk, idle
+anm_idle_sprint				= ras_m4a1_alt_hand_run, idle
+anm_reload					= ras_m4a1_alt_hand_reload, ras_m4a1_alt_reload
+anm_reload_empty			= ras_m4a1_alt_hand_reload_empty, ras_m4a1_alt_reload_empty
+anm_shots					= ras_m4a1_alt_hand_shot, ras_m4a1_alt_shot
+anm_show					= ras_m4a1_alt_hand_in, idle
+anm_reload_misfire			= ras_m4a1_alt_hand_misfire, ras_m4a1_alt_misfire
+anm_bore					= ras_m4a1_alt_hand_inspect, idle
+
+; Gl_off
+; ---------------------------------------
+
+anm_hide_w_gl					= ras_m4a1_alt_hand_out_w_gl, idle
+anm_idle_moving_crouch_w_gl_aim	= ras_m4a1_alt_hand_crouch_w_gl, idle
+anm_idle_moving_w_gl			= ras_m4a1_alt_hand_walk_w_gl, idle
+anm_idle_moving_w_gl_aim		= ras_m4a1_alt_hand_walk_w_gl_aim, idle
+anm_idle_sprint_w_gl			= ras_m4a1_alt_hand_run_w_gl, idle
+anm_idle_w_gl					= ras_m4a1_alt_hand_idle_w_gl, idle
+anm_idle_w_gl_aim				= ras_m4a1_alt_hand_idle_w_gl_aim, idle
+anm_reload_w_gl					= ras_m4a1_alt_hand_reload_w_gl, ras_m4a1_alt_reload_w_gl
+anm_reload_empty_w_gl			= ras_m4a1_alt_hand_reload_empty_w_gl, ras_m4a1_alt_reload_empty
+anm_shots_w_gl					= ras_m4a1_alt_hand_shot_w_gl, ras_m4a1_alt_shot
+anm_show_w_gl					= ras_m4a1_alt_hand_in_w_gl, idle
+anm_switch_g					= ras_m4a1_alt_hand_switch_on, ras_m4a1_alt_switch_on
+anm_reload_misfire_w_gl			= ras_m4a1_alt_hand_misfire_w_gl, ras_m4a1_alt_misfire
+anm_bore_w_gl					= ras_m4a1_alt_hand_inspect_w_gl, idle
+
+; GL_OFF
+; ----------------------------------------
+
+anm_hide_g						= ras_m4a1_alt_hand_out_gl, ras_m4a1_alt_idle_gl
+anm_idle_g						= ras_m4a1_alt_hand_idle_gl, ras_m4a1_alt_idle_gl
+anm_idle_g_aim					= ras_m4a1_alt_hand_idle_gl_aim, ras_m4a1_alt_idle_gl
+anm_idle_moving_g				= ras_m4a1_alt_hand_walk_gl, ras_m4a1_alt_idle_gl
+anm_idle_moving_g_aim			= ras_m4a1_alt_hand_walk_gl, ras_m4a1_alt_idle_gl
+anm_idle_sprint_g				= ras_m4a1_alt_hand_run_gl, ras_m4a1_alt_idle_gl
+anm_reload_g					= ras_m4a1_alt_hand_reload_gl, ras_m4a1_alt_reload_gl
+anm_shots_g						= ras_m4a1_alt_hand_shot_gl, ras_m4a1_alt_idle_gl
+anm_show_g						= ras_m4a1_alt_hand_in_gl, ras_m4a1_alt_idle_gl
+anm_switch						= ras_m4a1_alt_hand_switch_off, ras_m4a1_alt_switch_off
+
+shell_bone	= gilza
+shell_dir	= 0, 1, 0
+shell_point	= 0, 0, 0
+
+fire_bone	= muzzle
+fire_bone2	= muzzle_gl
+fire_point	= 0, 0, 0
+fire_point2	= 0, 0, 0
+
+freelook_z_offset_mul	= 0.15
+
+;---------------------------------------------------------------------------Addons----------------------------------------------------------------------
+[wpn_m4_alt_ac10632]:wpn_m4_alt
+inv_grid_x		= 5
+inv_grid_y		= 8
+1icon_layer		= ac10632
+1icon_layer_x	= 90
+1icon_layer_y	= -7
+
+inv_weight		= 3.250
+
+hud				= wpn_m4_alt_ac10632_hud
+visual			= dynamics\weapons\wpn_m4_alt\wpn_m4a1_ras.ogf
+
+[wpn_m4_alt_ac10632_hud]:wpn_m4_alt_hud
+item_visual	= dynamics\weapons\wpn_m4_alt\wpn_m4a1_ras_barska_hud.ogf
+
+aim_hud_offset_pos		= -0.049195, 0.009574, -0.054847
+aim_hud_offset_pos_16x9	= -0.049195, 0.009574, -0.054847
+aim_hud_offset_rot		= -0.000264, -0.000453, 0
+aim_hud_offset_rot_16x9	= -0.000264, -0.000453, 0
+;-------------------------------------------------------------------------------
+[wpn_m4_alt_acog]:wpn_m4_alt
+inv_grid_x		= 5
+inv_grid_y		= 8
+1icon_layer		= acog
+1icon_layer_x	= 87
+1icon_layer_y	= -6
+
+inv_weight		= 3.3
+
+hud				= wpn_m4_alt_acog_hud
+visual			= dynamics\weapons\wpn_m4_alt\wpn_m4a1_ras_acog.ogf
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 30
+zoom_rotate_time	= 0.15
+scope_dynamic_zoom	= off
+
+;zoom_rotate_time	= 0.25
+;scope_lense_fov	= 11
+
+[wpn_m4_alt_acog_hud]:wpn_m4_alt_hud
+item_visual	= dynamics\weapons\wpn_m4_alt\wpn_m4a1_ras_acog_hud.ogf
+
+aim_hud_offset_pos		= -0.050735, 0.011555, -0.065
+aim_hud_offset_pos_16x9	= -0.050735, 0.011555, -0.065
+aim_hud_offset_rot		= -0.000284, -0.00043, 0
+aim_hud_offset_rot_16x9	= -0.000284, -0.00043, 0
+;-------------------------------------------------------------------------------
+[wpn_m4_alt_eot]:wpn_m4_alt
+inv_grid_x		= 5
+inv_grid_y		= 8
+1icon_layer		= eot
+1icon_layer_x	= 86
+1icon_layer_y	= -3
+
+inv_weight		= 3.250
+
+hud				= wpn_m4_alt_eot_hud
+visual 			= dynamics\weapons\wpn_m4_alt\wpn_m4a1_ras_eot.ogf
+
+[wpn_m4_alt_eot_hud]:wpn_m4_alt_hud
+item_visual	= dynamics\weapons\wpn_m4_alt\wpn_m4a1_ras_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.050682, 0.009469, -0.054847
+aim_hud_offset_pos_16x9	= -0.050682, 0.009469, -0.054847
+aim_hud_offset_rot		= -0.003244, 0.001941, 0
+aim_hud_offset_rot_16x9	= -0.003244, 0.001941, 0
+;-------------------------------------------------------------------------------
