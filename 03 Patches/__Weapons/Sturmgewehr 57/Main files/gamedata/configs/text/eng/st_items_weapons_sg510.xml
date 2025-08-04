@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_sg510">
+		<text>Sturmgewehr 57 (Stgw. 57)</text>
+	</string>
+	<string id="st_wpn_sg510_descr">
+		<text>
+		The Sturmgewehr 57 (Stgw. 57)is a selective fire battle rifle designed by Schweizerische Industrie Gesellschaft of Switzerland. It uses a roller-delayed blowback system similar to the blowback system of the HK G3. As an assault rifle, the model AM 55 entered service in the Swiss Army in three designations F. ass. 57 7.5mm and 7.5mm Stgw. 57. Technologically, the Stgw. 57 was the mechanical and design basis for the export-variations of the SG 510 family of small arms. After thirty-three years, from 1957 to 1990, the Swiss Army replaced the Stgw. 57 with the SIG SG 550, a lighter-weight assault rifle.\n
+		This sample was modified to use the barrel of a SG 510-4, a variant chambered in 7.62x51mm NATO. Why bother doing this instead of acquiring a real SG 510-4 is anyone's guess. 
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632 scopes\n
+		%c[d_purple] • %c[ui_gray_2] SR-25 suppressor
+		</text>
+	</string>
+	
+</string_table>
