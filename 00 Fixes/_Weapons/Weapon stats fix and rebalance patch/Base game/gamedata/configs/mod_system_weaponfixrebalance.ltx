@@ -12,12 +12,14 @@ bullet_speed	= 270
 fire_distance	= 800
 rpm				= 660
 cycle_down		= 1
-
 ![wpn_abakan_camo]
 bullet_speed	= 900
 rpm				= 680
 rpm_mode_2		= 1240
 scope_dynamic_zoom	= off
+
+![wpn_ace21]
+fire_distance	= 400
 
 ![wpn_aek]
 fire_distance	= 800
@@ -26,7 +28,6 @@ fire_distance	= 800
 fire_distance	= 500
 bullet_speed	= 910
 rpm				= 660
-
 ![wpn_ak101_camo]
 rpm				= 680
 
@@ -36,7 +37,6 @@ rpm				= 660
 
 ![wpn_ak103]
 rpm				= 650
-
 ![wpn_ak103_camo]
 rpm				= 680
 
@@ -55,26 +55,20 @@ rpm				= 700
 ![wpn_ak74]
 fire_distance	= 650
 rpm				= 660
-
 ![wpn_ak74_alt]
 rpm				= 680
 
 ![wpn_ak74m]
 fire_distance	= 650
 rpm				= 675
-
 ![wpn_ak74m_camo]
 rpm				= 700
-
 ![wpn_ak74m_alt]
 rpm				= 715
-
 ![wpn_ak74m_custom]
 rpm				= 720
-
 ![wpn_ak74m_duty]
 rpm				= 675
-
 ![wpn_ak74m_pka]
 rpm				= 675
 
@@ -86,7 +80,6 @@ fire_distance	= 350
 
 ![wpn_akm]
 rpm				= 650
-
 ![wpn_akms_alt]
 rpm				= 660
 
@@ -107,7 +100,6 @@ rpm				= 600
 fire_distance	= 400
 bullet_speed	= 970
 rpm				= 690
-
 ![wpn_aug_a3]
 fire_distance	= 400
 bullet_speed	= 970
@@ -156,7 +148,8 @@ bullet_speed	= 900
 $spawn			= "weapons\fn57"
 fire_distance	= 100
 bullet_speed	= 650
-rpm				= 550 ; 245, 550 is the BaS' FN57 rpm, I've seen mentions of a cyclical rate of 850 but nothing concrete. And given it's said to have little recoil, the original 245 Anomaly RPM feels a tad slow
+rpm				= 550 ; 245
+;550 is the BaS' FN57 rpm, I've seen mentions of a cyclical rate of 850 but nothing concrete. And given it's said to have little recoil, the original 245 Anomaly RPM feels a tad slow
 
 ![wpn_fnc]
 fire_distance	= 400
@@ -173,23 +166,19 @@ fire_distance	= 75
 ![wpn_g36]
 fire_distance	= 600
 bullet_speed	= 920
-
 ![wpn_g36k]
 fire_distance	= 500
 bullet_speed	= 920
 
 ![wpn_g43]
+inv_weight		= 4.4 ;4.33
 fire_distance	= 800
 bullet_speed	= 776
 rpm				= 290
 
-![wpn_ace21]
-fire_distance	= 400
-
 ![wpn_glock]
 fire_distance	= 100
 bullet_speed	= 375
-
 ![wpn_glock_modern]
 rpm				= 1100
 
@@ -213,10 +202,14 @@ inv_weight		= 0.912
 fire_distance	= 100
 bullet_speed	= 335
 
+![wpn_k98]
+$spawn			= "weapons\k98"
+inv_weight		= 3.7
+fire_distance	= 1000 ;1100
+
 ![wpn_l85]
 fire_distance	= 400
 rpm				= 630
-
 ![wpn_l85_alt]
 fire_distance	= 400
 rpm				= 670
@@ -262,19 +255,29 @@ rpm				= 200
 fire_modes		= 1, -1
 bullet_speed	= 853
 
+![wpn_mosin]
+$spawn			= "weapons\mosin"
+inv_weight		= 4 ;3.8
+fire_distance	= 1000 ;1100
+bullet_speed	= 865 ;845
+
+![wpn_mossberg590]
+;this will also affect Soulcrystal's Mossberg 590A1
+$spawn			= "weapons\mossberg590"
+ammo_elapsed	= 9
+ammo_mag_size	= 9
+fire_distance	= 100
+
 ![wpn_mp153]
 rpm				= 300
 
 ![wpn_mp5]
 fire_distance	= 200
-
 ![wpn_mp5sd]
 rpm				= 700
 ;Wikipedia states 700 rpm for the SD variant
-
 ![wpn_mp5sd_new]
 rpm				= 720 ;820
-
 ![wpn_mp5sd_custom]
 rpm				= 735 ;835
 
@@ -305,46 +308,46 @@ fire_distance	= 75
 ![wpn_pkm]
 rpm				= 700 ;650
 ;wikipedia says "Cyclic: 600–800 rounds/min"
-
 ![wpn_pkm_zulus]
 rpm				= 720 ;680
 
 ![wpn_ppsh41]
 kind			= w_smg
-rpm				= 950
- 
+rpm				= 950 
 ![wpn_ppsh41_rednew]
 rpm				= 950
- 
-![wpn_ppsh41_woodnew]
+ ![wpn_ppsh41_woodnew]
 rpm				= 1000
 
 ![wpn_rpd]
 rpm				= 660
 
 ![wpn_rpk]
+$spawn			= "weapons\rpk"
 fire_distance	= 750
 bullet_speed	= 960
 rpm				= 650
-
 ![wpn_rpk74]
+$spawn			= "weapons\rpk74"
 rpm				= 675
 
 ![wpn_saiga12s]
+$spawn			= "weapons\saiga12s"
+inv_weight		= 3.5
 fire_modes		= 1, -1
 ammo_elapsed	= 12
 ammo_mag_size	= 12
 hit_power		= 0.68, 0.68, 0.68, 0.68 ;0.78, 0.78, 0.78, 0.78
+fire_distance	= 100; 300
+bullet_speed	= 335 ;300
 rpm				= 180; 220
 PDM_disp_accel_factor	= 1.40 ; 2.4
 PDM_disp_vel_factor		= 1.8 ; 2.4
 
 ![wpn_scar]
 rpm				= 550
-
 ![wpn_scar_custom]
 rpm				= 600
-
 ![wpn_scar_new]
 rpm				= 620
 
@@ -354,7 +357,6 @@ fire_distance	= 100
 ![wpn_sig550]
 fire_distance	= 400
 bullet_speed	= 911
-
 ![wpn_sig550_sniper]
 fire_distance	= 600
 bullet_speed	= 911
@@ -368,10 +370,8 @@ rpm				= 700
 ![wpn_spas12]
 rpm				= 200
 ; fire_modes		= 1
-
 ![wpn_spas12_custom]
 rpm				= 205
-
 ![wpn_spas12_nimble]
 rpm				= 210
 
@@ -382,19 +382,15 @@ fire_modes		= 1
 
 ![wpn_svd]
 rpm				= 300
-
 ![wpn_svd_custom]
 rpm				= 305
-
 ![wpn_svd_nimble]
 rpm				= 250
 
 ![wpn_svu]
 rpm				= 310
-
 ![wpn_svu_alt]
 rpm				= 315
-
 ![wpn_svu_nimble]
 rpm				= 650
 

@@ -3,7 +3,9 @@
 
 ;;;;;;; OTHER MODS
 
+;lol what is reasonable ranges even. At least the vanilla ones are merely gamified.
 
+;;MAID
 ;Agram 2000
 ![wpn_agram2000]
 bullet_speed	= 330
@@ -14,7 +16,10 @@ misfire_start_prob		= 0.09
 misfire_end_condition	= 0.26
 misfire_end_prob		= 0.21
 
+
+;;SIBERCAT DEMONIZED LASSIE
 ;AR Pack Complete
+;this assumes my fix patch to modify the DDM4
 ![wpn_ddm4v7]
 fire_distance	= 500
 
@@ -27,6 +32,8 @@ rpm				= 700
 fire_distance	= 500
 rpm				= 700
 
+
+;;POPOTTARA
 ;Sturmgewehr 57
 ![wpn_sg510]
 fire_distance	= 800
@@ -64,6 +71,7 @@ rpm				= 750
 ![wpn_thompson_1921]
 $spawn			= "weapons\thompson_1921"
 bullet_speed	= 285
+
 
 ;;LEWD
 
@@ -144,12 +152,33 @@ bullet_speed	= 710
 rpm				= 1000
 ap_modifier		= 1
 
+;Arbiter pack
+![wpn_arbiter_bushmaster]
+$spawn			= "weapons\arbiter_bushmaster"
+fire_distance	= 400
+hit_impulse		= 50
+
+![wpn_arbiter_defender]
+$spawn			= "weapons\arbiter_defender"
+fire_distance	= 100
+
+![wpn_arbiter_revolver]
+$spawn			= "weapons\arbiter_revolver"
+fire_distance	= 150
 
 
-;;Gunslinger
+;;GUNSLINGER
 
 ;P90 Tactical
 ![wpn_p90tac]
 fire_distance	= 400
 bullet_speed	= 715
 rpm				= 975
+
+
+;;SOULCRYSTAL
+
+;Benelli M4
+![wpn_benelli_m4]
+silencer_name	= wpn_sil_nato
+fire_distance	= 100
