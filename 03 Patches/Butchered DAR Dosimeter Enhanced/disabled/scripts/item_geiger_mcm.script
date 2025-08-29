@@ -1,5 +1,5 @@
 local defaults = {
-    ["mode"] = true
+    ["mode"] = false
 }
 
 function on_mcm_load()
