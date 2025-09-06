@@ -1,0 +1,106 @@
+function on_game_start()
+    RegisterScriptCallback("on_specific_character_init", function(character_id, data)
+        if character_id == "bar_dolg_leader" then
+            data.supplies= [[
+				[spawn] \n
+				wpn_sig220 \n
+				ammo_11.43x23_hydro \n
+				wpn_val \n
+				ammo_9x39_pab9 = 1 \n
+				dolg_leader_pda = 1 \n
+				#include "gameplay\supplies\character_food.xml"
+				#include "gameplay\supplies\character_drugs.xml"
+				]]
+        end
+		
+		if character_id == "zat_b7_bandit_boss_sultan" then
+            data.supplies= [[
+				[spawn] \n
+				wpn_desert_eagle = 1 \n
+				ammo_11.43x23_hydro = 1 \n
+				bandit_leader_pda = 1 \n
+				#include "gameplay\supplies\character_items_nd.xml"
+				#include "gameplay\supplies\character_food.xml"
+				#include "gameplay\supplies\character_drugs_2.xml"
+				]]
+        end
+		
+		if character_id == "cit_killers_merc_trader_stalker" then
+            data.supplies= [[
+				[spawn] \n
+				wpn_sig550 = 1 \n
+				ammo_5.56x45_ss190 = 1 \n
+				wpn_hpsa = 1 \n
+				merc_leader_pda = 1 \n
+				ammo_9x19_fmj = 1 \n
+				#include "gameplay\supplies\character_items_nd.xml"
+				#include "gameplay\supplies\character_food.xml"
+				#include "gameplay\supplies\character_drugs.xml"
+				]]
+        end
+		
+		if character_id == "mar_smart_terrain_doc_doctor" then
+            data.supplies= [[
+				[spawn] \n
+				wpn_fort \n
+				ammo_9x18_fmj = 3 \n
+				cit_doctors_key = 1 \n
+				cit_doctors_pda = 1 \n"
+				]]
+        end
+		
+		if character_id == "mar_smart_terrain_base_stalker_leader_mars" then
+            data.supplies= [[
+				[spawn] \n
+				wpn_desert_eagle = 1 \n
+				ammo_11.43x23_fmj = 1 \n
+				wpn_ak74 = 1 \n
+				ammo_5.45x39_fmj = 1 \n
+				csky_leader_pda = 1 \n
+				#include "gameplay\supplies\character_items_3.xml"
+				#include "gameplay\supplies\character_food.xml"
+				#include "gameplay\supplies\character_drugs_3.xml"
+				]]
+        end
+		
+		if character_id == "mil_smart_terrain_7_7_freedom_leader_stalker" then
+            data.supplies= [[
+				[spawn] \n
+				wpn_usp  \n
+				ammo_11.43x23_hydro = 1 \n
+				wpn_g36 \n
+				ammo_5.56x45_ap = 1 \n
+				freedom_leader_pda = 1 \n
+				#include "gameplay\supplies\character_items.xml"
+				#include "gameplay\supplies\character_drugs.xml"
+				#include "gameplay\supplies\character_food.xml"
+				]]
+        end
+		
+		if character_id == "pri_b36_monolith_master_hiding_place" then
+            data.supplies= [[
+				[spawn] \n
+				wpn_protecta = 1 \n
+				ammo_12x76_zhekan = 1 \n
+				wpn_desert_eagle = 1 \n
+				ammo_11.43x23_hydro = 1 \n
+				pri_b36_monolith_hiding_place_pda = 1 \n
+				#include "gameplay\supplies\character_items_nd.xml"
+				#include "gameplay\supplies\character_food.xml"
+				#include "gameplay\supplies\character_drugs_3.xml"
+				]]
+        end
+		
+		if character_id == "lider_monolith_haron" then
+            data.supplies= [[
+				[spawn] \n
+				wpn_val = 1 \n
+				ammo_9x39_ap = 1 \n
+				monolith_leader_pda = 1 \n
+				#include "gameplay\supplies\character_items.xml"
+				#include "gameplay\supplies\character_food.xml"
+				#include "gameplay\supplies\character_drugs.xml"
+				]]
+        end
+    end)
+end

@@ -1,0 +1,25 @@
+'Medical' Balance Changes
+
+Easy Mode
+Medical equipment:
+-Bandage price halved
+-Medkit price dropped from 2500 to 2000, uses increased from 2 to 5.
+-Army and Science medkit uses doubled
+-Prices of all drugs dropped to 2/3 their normal price.
+
+Drinks/Smokes:
+-Increased uses of all cigarettes to 10.
+
+
+
+Regular Mode
+Same as Easy mode, except:
+-No price drops except bandage, medkit and cigarette quantities are still increased.
+-Cigarette pack prices increased by 50% to compensate for increased uses.
+
+
+
+Very Easy Mode
+Same as Easy mode, but also includes:
+-All buff drug boost times are doubled, including food items (currently just mints) and cigarettes. Drinks are not changed since they are already effective.
+-Mint quantity increased to 10, price increased to 400 to compensate.

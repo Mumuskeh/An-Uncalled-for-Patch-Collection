@@ -1,0 +1,60 @@
+'Drops' Balance Changes
+
+Easy Mode
+Helps make the game easier for beginners by affecting the drop quality of weapons and armor and increasing the drop rate of certain essential items. On easy difficulties this may seem like too much but on harder difficulties it will help prevent seal clubbing of newer players.
+
+death_generic.ltx changes:
+-Increased min/max quality of weapon drops around 5-20% depending on the enemy's rank. Tried to not increase maximum qualities too much, but just enough so that tougher enemies should be able to drop kit-repairable weapons now and then.
+-10%/25% for novice up from 5%/20%
+-25%/65% for legend up from 20%/45%
+improved armor to a similar degree 
+-5%/20% novice up from 5%/15%
+-25%/55% legend up from 15%/30%
+-Significantly increased maximum ammo drops for good and bad ammo (quantities vary based on type, overall power of weapon, and rarity of ammunition), did not change very bad ammo as most people are smart enough not to bother carrying it.
+
+death_items.ltx changes:
+-Significantly increased chance of certain essential items for stalkers, such as bandages. (Really, the default medkit drop chance is 1 in 100, and the other two are one in 10,000!?)
+-Increased items that would be popular in the Zone to a lesser degree. You probably won't notice the difference.
+
+Base drop rate changes (most of them):
+Medical items:
+-15% chance of bandage up from 5%. (bonuses depending on rank of enemy)
+-10% chance of medkit up from 1%. (bonuses depending on rank and faction of enemy)
+-2.5% chance of army and science medkit up from 0.01% chance (1 in 10000) each. (bonuses depending on rank and faction of enemy)
+-5% chance of stimpack up from 0.5% chance
+-1 in 1,000 chance of antirad up from 1 in 100,000, same change for army/science stimpack, survival kit, drug_booster, coagulant, psy-block, crow drink.
+-1 in 10,000 chance of anabiotic dropping up from 1 in 1,000,000.
+-1% chance of antidote, radioprotectant up from 0.1%
+
+Food:
+-Any food or drink that drops more rarely than 1 in 100 were brought to that rarity
+-Sausage drops 3% up from 0.6%.
+
+Tools:
+-4.5% chance to get a swiss knife, 2.5% chance of grooming tools
+-Reduced chance to get ball hammer by 50% to 1.5% chance
+-50% higher chance to get duct tape, 3% chance.
+-3% chance of gloves from 1%
+-Increased chance of salvageable electronics by 50%
+-Doubled chances of some crafting bonus gear, like magazines, most of these are pretty good already.
+-Chance of matches increased to 7.5% from 5%.
+
+Monster drops:
+-Chances of getting these were absurdly low, 1 in 1 million, raised those to 1 in 1000.
+-increased pseudodog meat to same as dog, to 1% up from .01%
+
+
+
+Regular Mode
+Same ammo drop increases as Easy mode, and:
+-No changes to enemy item drop chances
+-Less significant bonuses to weapon/armor quality, only a bit above vanilla. Novice remains the same and legend ranks get about a 15% max quality bonus, not enough to let you use a repair kit on their dropped armor unless you use the rebalanced repair mod. Minimum drop qualities are not changed at all.
+
+
+
+Very Easy Mode
+Same as Easy Mode, except:
+-Has even higher dropped weapon/armor qualities. You'll semi-regularly find weapons and armors in good enough conditions to use repair kits on.
+-Increased min/max quality of weapon drops significantly (25%/45% for novice, 70%/95% for legend), and improved drops of armor to a lesser degree (10%/25% novice, 50%/85% legend).
+
+
