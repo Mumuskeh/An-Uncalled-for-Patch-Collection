@@ -1,0 +1,20 @@
+<specific_character id="sim_default_greh_3_csvars_1" team_default = "1">
+#include "gameplay\profiles\character_desc_greh_3.xml"
+    <icon>ui_inGame2_csky_5_2</icon>
+    <snd_config>characters_voice\human\greh_3\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_b_sin</visual>
+</specific_character>
+
+<specific_character id="sim_default_greh_3_csvars_2" team_default = "1">
+#include "gameplay\profiles\character_desc_greh_3.xml"
+	<icon>ui_inGame2_csky_1_2</icon>
+    <snd_config>characters_voice\human\greh_1\</snd_config>
+	<visual>actors\stalker_csvars\stalker_nebo_a_sin</visual>
+</specific_character>
+
+<specific_character id="sim_default_greh_3_csvars_3" team_default = "1">
+#include "gameplay\profiles\character_desc_greh_3.xml"
+	<icon>ui_inGame2_csky_1_1</icon>
+    <snd_config>characters_voice\human\greh_1\</snd_config>
+	<visual>actors\stalker_csvars\stalker_nebo_1_sin</visual>
+</specific_character>

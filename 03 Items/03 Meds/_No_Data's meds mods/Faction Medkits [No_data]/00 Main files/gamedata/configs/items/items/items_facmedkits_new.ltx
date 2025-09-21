@@ -1,0 +1,378 @@
+;===============================================================================
+;===============================================================================
+
+[dutymedkit]:booster_multi
+$spawn						= "food and drugs\dutymedkit"
+visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_duty_world.ogf
+kind						= i_medical
+description					= st_dutymedkit_descr
+cost						= 5500
+icons_texture				= ui\ui_icon_facmedkits ; ui\ui_icon_facmedkits
+inv_name					= st_dutymedkit
+inv_name_short				= st_dutymedkit
+	
+script_binding				= bind_item.bind
+inv_weight					= 1.2
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 0
+inv_grid_y					= 0
+
+max_uses					= 2
+boost_time					= 25
+boost_health_restore		= 0.006
+boost_bleeding_restore		= 0.009
+boost_wound_immunity		= 0.22
+boost_fire_wound_immunity	= 0.12
+boost_explosion_immunity	= 0.22
+boost_strike_immunity		= 0.17
+boost_power_restore			= 0.0025
+eat_thirstiness				= 0.15
+eat_health					= 0.01
+
+use_sound					= interface\inv_medkit
+use_condition				= true
+remove_after_use			= true
+empty_weight				= 0.1
+tier						= 4
+
+[banditmedkit]:booster_multi
+$spawn						= "food and drugs\banditmedkit"
+visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_bandit_world.ogf
+kind						= i_medical
+description					= st_banditmedkit_descr
+cost						= 900
+icons_texture				= ui\ui_icon_facmedkits ;ui\ui_icon_facmedkits
+inv_name					= st_banditmedkit
+inv_name_short				= st_banditmedkit
+
+script_binding				= bind_item.bind
+inv_weight					= 0.4
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 1
+inv_grid_y					= 0
+
+max_uses					= 1
+boost_time					= 60
+boost_health_restore		= 0.001
+boost_power_restore			= 0.004
+eat_thirstiness				= 0.2
+eat_alcohol					= 0.35
+eat_health					= -0.05
+
+facmeds_effect_blurriness	= 35
+
+use_sound					= interface\inv_medkit
+use_condition				= false
+remove_after_use			= true
+empty_weight				= 0.1
+tier						= 1
+
+[freedommedkit]:booster_multi
+$spawn						= "food and drugs\freedommedkit"
+visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_freedom_world.ogf
+kind						= i_medical
+description					= st_freedommedkit_descr
+cost						= 3500
+icons_texture				= ui\ui_icon_facmedkits ;ui\ui_icon_facmedkits
+inv_name					= st_freedommedkit
+inv_name_short				= st_freedommedkit
+
+script_binding				= bind_item.bind
+inv_weight					= 1
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 2
+inv_grid_y					= 0
+
+max_uses					= 2
+boost_time					= 90
+boost_health_restore		= 0.0012
+boost_radiation_restore		= 0.00025
+boost_telepat_protection	= 0.0166
+eat_alcohol					= 0.2
+eat_satiety					= -0.294
+eat_sleepiness				= 1.21
+eat_thirstiness				= 0.15
+
+facmeds_effect_blurriness	= 45
+facmeds_effect_psi_health	= 0.1
+
+use_sound					= interface\inv_medkit
+use_condition				= true
+remove_after_use			= true
+empty_weight				= 0.1
+tier						= 2
+
+[mercmedkit]:booster_multi
+$spawn						= "food and drugs\mercmedkit"
+visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_merc_world.ogf
+kind						= i_medical
+description					= st_mercmedkit_descr
+cost						= 6500
+icons_texture				= ui\ui_icon_facmedkits ;ui\ui_icon_facmedkits
+inv_name					= st_mercmedkit
+inv_name_short				= st_mercmedkit
+
+script_binding				= bind_item.bind
+inv_weight					= 2
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 3
+inv_grid_y					= 0
+
+max_uses					= 3
+boost_time					= 40
+boost_health_restore		= 0.004
+boost_bleeding_restore		= 0.004
+boost_wound_immunity		= 0.15
+boost_fire_wound_immunity	= 0.08
+boost_explosion_immunity	= 0.16
+boost_strike_immunity		= 0.14
+boost_power_restore			= 0.005
+eat_thirstiness				= 0.1
+
+use_sound					= interface\inv_medkit
+use_condition				= true
+remove_after_use			= true
+empty_weight				= 0.1
+tier						= 4
+
+[monolithmedkit]:booster_multi
+$spawn						= "food and drugs\monolithmedkit"
+visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_monolith_world.ogf
+kind						= i_medical
+description					= st_monolithmedkit_descr
+cost						= 5400
+icons_texture				= ui\ui_icon_facmedkits ;ui\ui_icon_facmedkits
+inv_name					= st_monolithmedkit
+inv_name_short				= st_monolithmedkit
+
+script_binding				= bind_item.bind
+inv_weight					= 1
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 4
+inv_grid_y					= 0
+
+max_uses					= 2
+boost_time					= 40
+boost_health_restore		= 0.0035
+boost_bleeding_restore		= 0.002
+boost_wound_immunity		= 0.15
+boost_fire_wound_immunity	= 0.08
+boost_explosion_immunity	= 0.16
+boost_strike_immunity		= 0.14
+boost_power_restore			= 0.01
+boost_radiation_restore		= 0.0025
+boost_radiation_protection	= 0.0125
+boost_telepat_protection	= -0.8
+eat_satiety					= -0.102
+eat_thirstiness				= 0.15
+eat_alcohol					= 0.25
+eat_health					= -0.01
+
+facmeds_effect_psi_health	= -0.2
+facmeds_effect_blurriness	= 5
+
+use_sound					= interface\inv_medkit
+use_condition				= true
+remove_after_use			= true
+empty_weight				= 0.1
+tier						= 4
+
+[clearskymedkit]:booster_multi
+$spawn						= "food and drugs\clearskymedkit"
+visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_clearsky_world.ogf
+kind						= i_medical
+description					= st_clearskymedkit_descr
+cost						= 3200
+icons_texture				= ui\ui_icon_facmedkits ;ui\ui_icon_facmedkits
+inv_name					= st_clearskymedkit
+inv_name_short				= st_clearskymedkit
+
+script_binding				= bind_item.bind
+inv_weight					= 0.7
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 0 ; 5
+inv_grid_y					= 1 ; 0
+
+max_uses					= 2
+boost_time					= 60
+boost_health_restore		= 0.002
+boost_radiation_restore		= 0.00150
+boost_radiation_protection	= 0.01
+eat_thirstiness				= 0.1
+
+facmeds_effect_blurriness	= 15
+
+use_sound					= interface\inv_medkit
+use_condition				= true
+remove_after_use			= true
+empty_weight				= 0.1
+tier						= 2
+
+[sinmedkit]:booster_multi
+$spawn						= "food and drugs\sinmedkit"
+visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_sin_world.ogf
+kind						= i_medical
+description					= st_sinmedkit_descr
+cost						= 1200
+icons_texture				= ui\ui_icon_facmedkits ;ui\ui_icon_facmedkits
+inv_name					= st_sinmedkit
+inv_name_short				= st_sinmedkit
+
+script_binding				= bind_item.bind
+inv_weight					= 1
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 1 ; 6
+inv_grid_y					= 1 ; 0
+
+max_uses					= 1
+boost_time					= 60
+boost_health_restore		= 0.0018
+boost_power_restore			= 0.012
+eat_thirstiness				= 0.4
+eat_alcohol					= 1.25
+eat_health					= -0.05
+
+facmeds_effect_blackout		= 15
+facmeds_effect_blurriness	= 15
+facmeds_effect_psi_health	= -0.1
+
+use_sound					= interface\inv_medkit
+use_condition				= false
+remove_after_use			= true
+empty_weight				= 0.1
+tier						= 2
+
+[renegademedkit]:booster_multi
+$spawn						= "food and drugs\renegademedkit"
+visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_renegade_world.ogf
+kind						= i_medical
+description					= st_renegademedkit_descr
+cost						= 800
+icons_texture				= ui\ui_icon_facmedkits ;ui\ui_icon_facmedkits
+inv_name					= st_renegademedkit
+inv_name_short				= st_renegademedkit
+
+script_binding				= bind_item.bind
+inv_weight					= 0.5
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 2 ; 7
+inv_grid_y					= 1 ; 0
+
+max_uses					= 1
+boost_time					= 60
+boost_health_restore		= 0.001
+boost_power_restore			= 0.004
+eat_thirstiness				= 0.2
+eat_alcohol					= 0.5
+eat_health					= -0.07
+
+facmeds_effect_blurriness	= 45
+
+use_sound					= interface\inv_medkit
+use_condition				= false
+remove_after_use			= true
+empty_weight				= 0.1
+tier						= 1
+
+[isgmedkit]:booster_multi
+$spawn						= "food and drugs\isgmedkit"
+visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_isg_world.ogf
+kind						= i_medical
+description					= st_isgmedkit_descr
+cost						= 10500
+icons_texture				= ui\ui_icon_facmedkits ;ui\ui_icon_facmedkits
+inv_name					= st_isgmedkit
+inv_name_short				= st_isgmedkit
+
+script_binding				= bind_item.bind
+inv_weight					= 2.5
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 3 ; 8
+inv_grid_y					= 1 ; 0
+
+max_uses					= 4
+boost_time					= 60
+boost_health_restore		= 0.005
+boost_bleeding_restore		= 0.005
+boost_radiation_restore		= 0.003
+boost_radiation_protection	= 0.03
+boost_telepat_protection	= 0.01
+eat_alcohol					= -0.1
+eat_thirstiness				= 0.1
+
+facmeds_effect_blurriness	= -15
+
+use_sound					= interface\inv_medkit
+use_condition				= true
+remove_after_use			= true
+empty_weight				= 0.1
+tier						= 4
+
+[spongebobmedkit]:booster_multi
+$spawn						= "food and drugs\spongebobmedkit"
+visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_spongebob_world.ogf
+kind						= i_medical
+description					= st_spongebobmedkit_descr
+cost						= 1
+icons_texture				= ui\ui_icon_facmedkits ;ui\ui_icon_facmedkits
+inv_name					= st_spongebobmedkit
+inv_name_short				= st_spongebobmedkit
+
+script_binding				= bind_item.bind
+inv_weight					= 1
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 5 ; 0
+inv_grid_y					= 0 ; 1
+
+max_uses					= 5
+boost_time					= 180
+boost_health_restore		= 0.1
+boost_bleeding_restore		= 0.5
+boost_radiation_restore		= 0.5
+boost_radiation_protection	= 0.5
+boost_telepat_protection	= 0.5
+boost_wound_immunity		= 0.8
+boost_fire_wound_immunity	= 0.8
+boost_explosion_immunity	= 0.8
+boost_strike_immunity		= 0.8
+eat_alcohol					= -1
+eat_thirstiness				= 0.05
+
+facmeds_effect_blurriness	= -120
+facmeds_effect_psi_health	= 0.8
+
+use_sound					= interface\inv_medkit
+use_condition				= true
+remove_after_use			= true
+empty_weight				= 0.1
+tier						= 4
+
+![medkit]
+description					= st_medkit_new_descr
+boost_wound_immunity		= 0.07
+boost_fire_wound_immunity	= 0.04
+boost_explosion_immunity	= 0.07
+boost_strike_immunity		= 0.06
+
+![medkit_army]
+visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_military_world.ogf
+icons_texture				= ui\ui_icon_facmedkits ;ui\ui_icon_facmedkits
+description					= st_medkit_army_new_descr
+inv_grid_x					= 4 ; 9
+inv_grid_y					= 1 ; 0
+
+![medkit_scientific]
+description					= st_medkit_science_new_descr
+
+facmeds_effect_blurriness	= -120
+facmeds_effect_psi_health	= 0.2

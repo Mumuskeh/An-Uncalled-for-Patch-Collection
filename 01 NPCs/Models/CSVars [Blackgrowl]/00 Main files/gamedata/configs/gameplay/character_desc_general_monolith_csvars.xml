@@ -1,0 +1,106 @@
+<specific_character id="sim_default_monolith_1_csvars_1" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_1.xml"
+    <icon>ui_inGame2_csky_1_2</icon>
+    <snd_config>characters_voice\human\monolith_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_a_mono</visual>
+</specific_character>
+
+<specific_character id="sim_default_monolith_1_csvars_2" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_1.xml"
+    <icon>ui_inGame2_csky_1_2</icon>
+    <snd_config>characters_voice\human\monolith_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_a_mono2</visual>
+</specific_character>
+
+<specific_character id="sim_default_monolith_1_csvars_3" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_1.xml"
+    <icon>ui_inGame2_csky_1_2</icon>
+    <snd_config>characters_voice\human\monolith_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_a_mono3</visual>
+</specific_character>
+
+<specific_character id="sim_default_monolith_1_csvars_4" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_1.xml"
+    <icon>ui_inGame2_csky_1_1</icon>
+    <snd_config>characters_voice\human\monolith_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_1_mono</visual>
+</specific_character>
+
+<specific_character id="sim_default_monolith_1_csvars_5" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_1.xml"
+    <icon>ui_inGame2_csky_1_1</icon>
+    <snd_config>characters_voice\human\monolith_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_1_mono2</visual>
+</specific_character>
+
+<specific_character id="sim_default_monolith_1_csvars_6" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_1.xml"
+    <icon>ui_inGame2_csky_1_1</icon>
+    <snd_config>characters_voice\human\monolith_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_1_mono3</visual>
+</specific_character>
+
+
+<specific_character id="sim_default_monolith_2_csvars_1" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_2.xml"
+    <icon>ui_inGame2_csky_1_2</icon>
+    <snd_config>characters_voice\human\monolith_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_a_mono</visual>
+</specific_character>
+
+<specific_character id="sim_default_monolith_2_csvars_2" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_2.xml"
+    <icon>ui_inGame2_csky_1_2</icon>
+    <snd_config>characters_voice\human\monolith_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_a_mono2</visual>
+</specific_character>
+
+<specific_character id="sim_default_monolith_2_csvars_3" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_2.xml"
+    <icon>ui_inGame2_csky_1_2</icon>
+    <snd_config>characters_voice\human\monolith_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_a_mono3</visual>
+</specific_character>
+
+<specific_character id="sim_default_monolith_2_csvars_4" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_2.xml"
+    <icon>ui_inGame2_csky_1_1</icon>
+    <snd_config>characters_voice\human\monolith_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_1_mono</visual>
+</specific_character>
+
+<specific_character id="sim_default_monolith_2_csvars_5" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_2.xml"
+    <icon>ui_inGame2_csky_1_1</icon>
+    <snd_config>characters_voice\human\monolith_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_1_mono2</visual>
+</specific_character>
+
+<specific_character id="sim_default_monolith_2_csvars_6" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_2.xml"
+    <icon>ui_inGame2_csky_1_1</icon>
+    <snd_config>characters_voice\human\monolith_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_1_mono3</visual>
+</specific_character>
+
+
+<specific_character id="sim_default_monolith_3_csvars_1" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_3.xml"
+    <icon>ui_inGame2_csky_5_2</icon>
+    <snd_config>characters_voice\human\monolith_3\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_b_mono</visual>
+</specific_character>
+    
+<specific_character id="sim_default_monolith_3_csvars_2" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_3.xml"
+    <icon>ui_inGame2_csky_5_2</icon>
+    <snd_config>characters_voice\human\monolith_3\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_b_mono2</visual>
+</specific_character>
+        
+<specific_character id="sim_default_monolith_3_csvars_3" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_3.xml"
+    <icon>ui_inGame2_csky_5_2</icon>
+    <snd_config>characters_voice\human\monolith_3\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_b_mono3</visual>
+</specific_character>

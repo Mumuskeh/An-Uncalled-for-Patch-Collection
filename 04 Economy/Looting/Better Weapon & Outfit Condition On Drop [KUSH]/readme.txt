@@ -7,7 +7,8 @@ Original mod not required.
 
 ----------------------------------------------------------
 -Explanation:
-DLTX conversion.
+DLTX conversion. Use this as an alternative to equivalent mods that use scripts.
+
 
 From the original readme:
 

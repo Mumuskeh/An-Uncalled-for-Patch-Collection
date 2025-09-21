@@ -1,0 +1,853 @@
+function on_game_start()
+    RegisterScriptCallback("on_specific_character_init", function(character_id, data)
+
+-- army
+        if character_id == "sim_default_military_0_default_1" then
+            data.snd_config = "characters_voice\\human\\stalker_soldier_2"
+        end
+
+        if character_id == "sim_default_military_0_default_3" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_0_default_5" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_0_default_7" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_0_default_10" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_0_default_12" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_0_default_14" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_0_default_16" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_0_default_17" then
+            data.snd_config = "characters_voice\\human\\military_3"
+        end
+
+
+        if character_id == "sim_default_military_1_default_0" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_1_default_2" then
+            data.snd_config = "characters_voice\\human\\military_3"
+        end
+
+        if character_id == "sim_default_military_1_default_5" then
+            data.snd_config = "characters_voice\\human\\military_3"
+        end
+
+        if character_id == "sim_default_military_1_default_8" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+
+        if character_id == "sim_default_military_2_default_0" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_2_default_2" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_2_default_3" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_2_default_4" then
+            data.snd_config = "characters_voice\\human\\military_3"
+        end
+
+        if character_id == "sim_default_military_2_default_7" then
+            data.snd_config = "characters_voice\\human\\military_3"
+        end
+
+
+        if character_id == "sim_default_military_3_default_3" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_3_default_5" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_3_default_8" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_3_default_10" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_3_default_12" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_3_default_14" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_3_default_16" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_3_default_18" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_3_default_20" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_3_default_22" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_3_default_24" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_3_default_26" then
+            data.snd_config = "characters_voice\\human\\military_3"
+        end
+
+
+        if character_id == "sim_default_military_4_default_3" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_4_default_17" then
+            data.snd_config = "characters_voice\\human\\military_3"
+        end
+
+        if character_id == "sim_default_military_4_default_18" then
+            data.snd_config = "characters_voice\\human\\military_3"
+        end
+
+        if character_id == "sim_default_military_4_default_20" then
+            data.snd_config = "characters_voice\\human\\military_1"
+        end
+
+
+        if character_id == "sim_default_military_3_default_sniper" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_army_medic" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_dead_default_1" then
+            data.snd_config = "characters_voice\\human\\military_2"
+        end
+
+
+-- Duty
+
+        if character_id == "sim_default_duty_0_default_0" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_0_default_1" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_0_default_2" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_0_default_3" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_0_default_6" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_0_default_7" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_0_default_9" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_0_default_12" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_0_default_14" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_0_default_16" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_0_default_17" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_0_default_18" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+
+
+        if character_id == "sim_default_duty_1_default_0" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_1_default_1" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_1_default_4" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_1_default_5" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_1_default_6" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_1_default_7" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_1_default_10" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_1_default_15" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_1_default_16" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_1_default_22" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_1_default_24" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_1_default_28" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_1_default_30" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_1_default_31" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+
+
+        if character_id == "sim_default_duty_2_default_0" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_2_default_1" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_2_default_4" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_2_default_5" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_2_default_6" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_2_default_7" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_2_default_8" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_2_default_9" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_2_default_10" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_2_default_11" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_2_default_12" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_2_default_18" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_2_default_19" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_2_default_25" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_2_default_27" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_2_default_31" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_2_default_33" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_2_default_34" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_2_default_35" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_2_default_36" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+
+
+        if character_id == "sim_default_duty_3_default_0" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_3_default_1" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_3_default_2" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_3_default_3" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_3_default_4" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_3_default_5" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_3_default_6" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_3_default_7" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_3_default_8" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_3_default_9" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_3_default_10" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_3_default_12" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_3_default_13" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_3_default_14" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_3_default_15" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_3_default_16" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_3_default_17" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_3_default_19" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_3_default_23" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_3_default_24" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_3_default_25" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_3_default_27" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+
+
+
+        if character_id == "sim_default_duty_4_default_0" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_4_default_1" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_4_default_2" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_4_default_3" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_4_default_4" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_4_default_5" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_4_default_6" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_duty_4_default_7" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_4_default_16" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+
+        if character_id == "sim_default_dolg_trader" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_dolg_mechanic" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_dolg_medic" then
+            data.snd_config = "characters_voice\\human\\dolg_2"
+        end
+
+        if character_id == "sim_default_dolg_barman" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+
+        if character_id == "sim_default_duty_dead_default_0" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_dead_default_1" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_dead_default_2" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+        if character_id == "sim_default_duty_dead_default_3" then
+            data.snd_config = "characters_voice\\human\\dolg_3"
+        end
+
+
+-- freedom
+
+        if character_id == "sim_default_freedom_0_default_0" then
+            data.snd_config = "characters_voice\\human\\freedom_1"
+        end
+
+        if character_id == "sim_default_freedom_0_default_1" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_0_default_13" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+
+        if character_id == "sim_default_freedom_1_default_0" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_1_default_1" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_1_default_7" then
+            data.snd_config = "characters_voice\\human\\freedom_1"
+        end
+
+        if character_id == "sim_default_freedom_1_default_10" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_1_default_20" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_1_default_21" then
+            data.snd_config = "characters_voice\\human\\freedom_3"
+        end
+
+        if character_id == "sim_default_freedom_1_default_22" then
+            data.snd_config = "characters_voice\\human\\freedom_1"
+        end
+
+        if character_id == "sim_default_freedom_1_default_23" then
+            data.snd_config = "characters_voice\\human\\freedom_1"
+        end
+
+        if character_id == "sim_default_freedom_1_default_25" then
+            data.snd_config = "characters_voice\\human\\freedom_1"
+        end
+
+        if character_id == "sim_default_freedom_1_default_26" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_1_default_29" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_1_default_30" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_1_default_31" then
+            data.snd_config = "characters_voice\\human\\freedom_3"
+        end
+
+
+        if character_id == "sim_default_freedom_2_default_0" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_2_default_3" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_2_default_4" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_2_default_7" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_2_default_8" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_2_default_9" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_2_default_16" then
+            data.snd_config = "characters_voice\\human\\freedom_3"
+        end
+
+        if character_id == "sim_default_freedom_2_default_18" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_2_default_19" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_2_default_21" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_2_default_22" then
+            data.snd_config = "characters_voice\\human\\freedom_1"
+        end
+
+        if character_id == "sim_default_freedom_2_default_23" then
+            data.snd_config = "characters_voice\\human\\freedom_1"
+        end
+
+        if character_id == "sim_default_freedom_2_default_25" then
+            data.snd_config = "characters_voice\\human\\freedom_3"
+        end
+
+        if character_id == "sim_default_freedom_2_default_26" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_2_default_27" then
+            data.snd_config = "characters_voice\\human\\freedom_3"
+        end
+
+        if character_id == "sim_default_freedom_2_default_28" then
+            data.snd_config = "characters_voice\\human\\freedom_3"
+        end
+
+        if character_id == "sim_default_freedom_2_default_29" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+
+        if character_id == "sim_default_freedom_3_default_2" then
+            data.snd_config = "characters_voice\\human\\freedom_3"
+        end
+
+        if character_id == "sim_default_freedom_3_default_4" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_3_default_6" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_3_default_9" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_3_default_11" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_3_default_12" then
+            data.snd_config = "characters_voice\\human\\freedom_1"
+        end
+
+        if character_id == "sim_default_freedom_3_default_13" then
+            data.snd_config = "characters_voice\\human\\freedom_1"
+        end
+
+
+        if character_id == "sim_default_freedom_4_default_0" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_4_default_1" then
+            data.snd_config = "characters_voice\\human\\freedom_3"
+        end
+
+        if character_id == "sim_default_freedom_4_default_4" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_4_default_5" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_4_default_7" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_4_default_8" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_4_default_9" then
+            data.snd_config = "characters_voice\\human\\freedom_1"
+        end
+
+        if character_id == "sim_default_freedom_4_default_11" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+        if character_id == "sim_default_freedom_4_default_12" then
+            data.snd_config = "characters_voice\\human\\freedom_2"
+        end
+
+
+        if character_id == "sim_default_freedom_trader" then
+            data.snd_config = "characters_voice\\human\\freedom_3"
+        end
+
+        if character_id == "sim_default_freedom_medic" then
+            data.snd_config = "characters_voice\\human\\freedom_3"
+        end
+
+        if character_id == "sim_default_freedom_barman" then
+            data.snd_config = "characters_voice\\human\\freedom_3"
+        end
+
+
+-- mercs
+
+        if character_id == "sim_default_killer_0_default_4" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+        if character_id == "sim_default_killer_0_default_5" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+        if character_id == "sim_default_killer_0_default_6" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+        if character_id == "sim_default_killer_0_default_7" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+        if character_id == "sim_default_killer_0_default_11" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+
+        if character_id == "sim_default_killer_1_default_4" then
+            data.snd_config = "characters_voice\\human\\killer_2"
+        end
+
+        if character_id == "sim_default_killer_1_default_5" then
+            data.snd_config = "characters_voice\\human\\killer_2"
+        end
+
+        if character_id == "sim_default_killer_1_default_6" then
+            data.snd_config = "characters_voice\\human\\killer_2"
+        end
+
+        if character_id == "sim_default_killer_1_default_7" then
+            data.snd_config = "characters_voice\\human\\killer_2"
+        end
+
+        if character_id == "sim_default_killer_1_default_11" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+        if character_id == "sim_default_killer_1_default_14" then
+            data.snd_config = "characters_voice\\human\\killer_2"
+        end
+
+        if character_id == "sim_default_killer_1_default_16" then
+            data.snd_config = "characters_voice\\human\\killer_2"
+        end
+
+        if character_id == "sim_default_killer_1_default_19" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+        if character_id == "sim_default_killer_1_default_21" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+
+        if character_id == "sim_default_killer_2_default_4" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+        if character_id == "sim_default_killer_2_default_5" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+        if character_id == "sim_default_killer_2_default_6" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+        if character_id == "sim_default_killer_2_default_7" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+        if character_id == "sim_default_killer_2_default_11" then
+            data.snd_config = "characters_voice\\human\\killer_2"
+        end
+
+        if character_id == "sim_default_killer_2_default_14" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+        if character_id == "sim_default_killer_2_default_16" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+        if character_id == "sim_default_killer_2_default_19" then
+            data.snd_config = "characters_voice\\human\\killer_2"
+        end
+
+        if character_id == "sim_default_killer_2_default_21" then
+            data.snd_config = "characters_voice\\human\\killer_2"
+        end
+
+
+        if character_id == "sim_default_killer_3_default_5" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+
+        if character_id == "sim_default_killer_trader" then
+            data.snd_config = "characters_voice\\human\\killer_3"
+        end
+
+        if character_id == "sim_default_killer_medic" then
+            data.snd_config = "characters_voice\\human\\killer_3"
+        end
+
+        if character_id == "sim_default_killer_barman" then
+            data.snd_config = "characters_voice\\human\\killer_3"
+        end
+
+
+        if character_id == "sim_default_killer_dead_default_0" then
+            data.snd_config = "characters_voice\\human\\killer_1"
+        end
+
+        if character_id == "sim_default_killer_dead_default_1" then
+            data.snd_config = "characters_voice\\human\\killer_2"
+        end
+
+    end)
+end

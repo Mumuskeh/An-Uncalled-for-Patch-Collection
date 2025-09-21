@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<game_dialogs>
+
+	<!--
+	===
+	===
+	=== Stalker tasks
+	===
+	===
+	--> 
+	
+	<!--loris-->
+	<dialog id="facmedkits_loris_medkitinfo">
+		<dont_has_info>loris_facmeds</dont_has_info>
+		<dont_has_info>loris_facmeds_notask</dont_has_info>
+        <phrase_list>
+            <phrase id="0"> <!-- actor -->
+                <text>st_medkits_loris_askinfo1</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1"> <!-- npc -->
+                <text>st_medkits_loris_answerinfo1</text>
+			    <next>2</next> <!-- only available if darkscape WASN'T visited -->
+				<next>4</next> <!-- only available if darkscape WAS visited -->
+            </phrase>
+		    <phrase id="2"> <!-- actor, job accepted -->
+                <text>st_medkits_loris_askinfo2</text>
+				<dont_has_info>visited_darkscape_facmeds</dont_has_info>
+                <next>3</next>
+            </phrase>
+			<phrase id="3"> <!-- npc -->
+                <text>st_medkits_loris_answerinfo2</text>
+				<give_info>loris_facmeds</give_info>
+				<action>facmedkits.relocate_item_darkscapemap_to_actor</action>
+            </phrase>
+			
+            <phrase id="4"> <!-- actor, job NOT accepted -->
+                <text>st_medkits_loris_beentods1</text>
+				<has_info>visited_darkscape_facmeds</has_info>
+			    <next>5</next>
+            </phrase>
+			<phrase id="5"> <!-- npc -->
+                <text>st_medkits_loris_beentods2</text>
+				<give_info>loris_facmeds_notask</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+	
+	<dialog id="facmedkits_loris_backfromds">
+		<has_info>visited_darkscape_facmeds</has_info>
+		<has_info>loris_facmeds</has_info>
+		<dont_has_info>loris_facmeds_notask</dont_has_info>
+		<dont_has_info>loris_facmeds_fromds</dont_has_info>
+        <phrase_list>
+            <phrase id="0"> <!-- actor -->
+                <text>st_medkits_loris_backfromds1</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1"> <!-- npc -->
+                <text>st_medkits_loris_backfromds2</text>
+			    <next>2</next>
+            </phrase>
+		    <phrase id="2"> <!-- actor -->
+                <text>st_medkits_loris_backfromds3</text>
+                <next>3</next>
+            </phrase>
+			<phrase id="3"> <!-- npc -->
+                <text>st_medkits_loris_backfromds4</text>
+                <next>4</next>
+            </phrase>
+			<phrase id="4"> <!-- act -->
+                <text>st_medkits_loris_backfromds5</text>
+                <next>5</next>
+            </phrase>
+				<phrase id="5"> <!-- npc -->
+                <text>st_medkits_loris_backfromds6</text>
+				<give_info>loris_facmeds_fromds</give_info>
+				<action>facmedkits.relocate_item_banditmedkit_to_actor</action>
+				<action>facmedkits.relocate_item_beer_to_actor</action>
+				<action>facmedkits.relocate_facmeds_money_to_actor</action>
+				<action>facmedkits.goodwill_for_loris_task</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+	<dialog id="facmedkits_sidorovich_medkitsnitch">
+		<has_info>loris_facmeds_fromds</has_info>
+		<dont_has_info>sidorovich_facmeds_snitched</dont_has_info>
+		<precondition>facmedkits.is_actor_noob_sidorsnitch</precondition>
+        <phrase_list>
+            <phrase id="0"> <!-- actor -->
+                <text>st_medkits_sidorovich_snitch1</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1"> <!-- npc -->
+                <text>st_medkits_sidorovich_snitch2</text>
+			    <next>2</next>
+            </phrase>
+		    <phrase id="2"> <!-- actor -->
+                <text>st_medkits_sidorovich_snitch3</text>
+                <next>3</next>
+            </phrase>
+			<phrase id="3"> <!-- npc -->
+                <text>st_medkits_sidorovich_snitch4</text>
+				<action>facmedkits.take_banditmedkit</action>
+                <next>4</next>
+            </phrase>
+			<phrase id="4"> <!-- act -->
+                <text>st_medkits_sidorovich_snitch5</text>
+                <next>5</next>
+            </phrase>
+				<phrase id="5"> <!-- npc -->
+                <text>st_medkits_sidorovich_snitch6</text>
+				<give_info>sidorovich_facmeds_snitched</give_info>
+				<action>facmedkits.relocate_item_banditmedkit_to_actor</action>
+				<action>facmedkits.relocate_money_to_actor_sidorsnitch</action>
+				<action>facmedkits.decrease_rep_sidorsnitch</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+	
+	<!--
+	===
+	===
+	=== Clear Sky tasks (NEEDS FIXING, THEY CRASH, EXCLUDED IN facmedkits_dialogues.script)
+	===
+	===
+	-->
+	<dialog id="facmedkits_novikov_chiptask">
+		<has_info>facmeds_told_by_cold</has_info>
+		<dont_has_info>facmeds_novikov_jobtaken</dont_has_info>
+		<dont_has_info>facmeds_novikov_jobnottaken</dont_has_info>
+		<phrase_list>
+		 <phrase id="0"> <!-- actor -->
+                <text>st_medkits_novikov_chiptask0</text>
+                <next>1</next>
+        </phrase>
+		<phrase id="1"> <!-- npc -->
+                <text>st_medkits_novikov_chiptask1</text>
+                <next>2</next>
+        </phrase>
+		<phrase id="2"> <!-- actor -->
+                <text>st_medkits_novikov_chiptask2</text>
+                <next>3</next>
+        </phrase>
+		<phrase id="3"> <!-- npc -->
+                <text>st_medkits_novikov_chiptask3</text>
+                <next>4</next>  <!--job taken-->
+				<next>04</next> <!--job not taken-->
+        </phrase>
+		<phrase id="4"> <!-- actor -->
+                <text>st_medkits_novikov_chiptask4</text>
+                <next>5</next>
+        </phrase>
+		<phrase id="5"> <!-- npc -->
+                <text>st_medkits_novikov_chiptask5</text>
+				<give_info>facmeds_novikov_jobtaken</give_info>
+				<action>facmedkits.relocate_item_chipmap_to_actor</action>
+				<action>facmedkits.spawn_microchip_facmeds</action>
+        </phrase>
+		
+		<phrase id="04"> <!-- actor -->
+                <text>st_medkits_novikov_chiptask04</text>
+                <next>05</next>
+        </phrase>
+		<phrase id="05"> <!-- npc -->
+                <text>st_medkits_novikov_chiptask05</text>
+				<give_info>facmeds_novikov_jobnottaken</give_info>
+        </phrase>
+	</phrase_list>
+    </dialog>
+	
+	
+	<dialog id="facmedkits_novikov_chiptask_done">
+		<dont_has_info>facmeds_novikov_jobdone</dont_has_info>
+		<has_info>facmeds_novikov_jobtaken</has_info>
+		<precondition>facmeds_has_microchip</precondition>
+		<phrase_list>
+		 <phrase id="0"> <!-- actor -->
+                <text>st_medkits_novikov_chiptaskdone0</text>
+                <next>1</next>
+        </phrase>
+		<phrase id="1"> <!-- npc -->
+                <text>st_medkits_novikov_chiptaskdone1</text>
+                <next>2</next>
+        </phrase>
+		<phrase id="2"> <!-- actor -->
+                <text>st_medkits_novikov_chiptaskdone2</text>
+                <next>3</next>
+        </phrase>
+		<phrase id="3"> <!-- npc -->
+                <text>st_medkits_novikov_chiptaskdone3</text>
+				<action>facmedkits.goodwill_for_cs_task</action>
+				<action>facmedkits.relocate_item_csmedkit_to_actor</action>
+				<action>facmedkits.relocate_item_chipmap_from_actor</action>
+				<give_info>facmedkits.facmeds_novikov_jobdone</give_info>
+        </phrase>
+		</phrase_list>
+    </dialog>
+		
+		<dialog id="facmedkits_cold_oscilotask"> 		
+		<dont_has_info>facmeds_cold_jobtaken</dont_has_info>
+		<dont_has_info>facmeds_cold_jobnottaken</dont_has_info>
+		<phrase_list>
+		 <phrase id="0"> <!-- actor -->
+                <text>st_medkits_cold_task0</text>
+                <next>1</next>
+        </phrase>
+		<phrase id="1"> <!-- npc -->
+                <text>st_medkits_cold_task1</text>
+                <next>2</next>
+        </phrase>
+		<phrase id="2"> <!-- actor -->
+                <text>st_medkits_cold_task2</text>
+                <next>3</next>
+        </phrase>
+		<phrase id="3"> <!-- npc -->
+                <text>st_medkits_cold_task3</text>
+                <next>4</next>  <!--job taken-->
+				<next>04</next> <!--job not taken-->
+        </phrase>
+		<phrase id="4"> <!-- actor -->
+                <text>st_medkits_cold_task4</text>
+				<give_info>facmeds_cold_jobtaken</give_info>
+                <next>5</next>
+        </phrase>
+		<phrase id="5"> <!-- npc -->
+                <text>st_medkits_cold_task5</text>
+        </phrase>
+		
+		<phrase id="04"> <!-- actor -->
+                <text>st_medkits_cold_task04</text>
+                <next>05</next>
+        </phrase>
+		<phrase id="05"> <!-- npc -->
+                <text>st_medkits_cold_task05</text>
+				<give_info>facmeds_cold_jobnottaken</give_info>
+				<give_info>facmeds_told_by_cold</give_info>
+		</phrase>
+		</phrase_list>
+		</dialog>
+		
+	<dialog id="facmedkits_cold_oscilotask_done">
+		<has_info>facmeds_cold_jobtaken</has_info>
+		<precondition>facmeds_has_oscillograph</precondition>
+		<phrase_list>
+		 <phrase id="0"> <!-- actor -->
+                <text>st_medkits_cold_task_done0</text>
+                <next>1</next>
+        </phrase>
+		<phrase id="1"> <!-- npc -->
+                <text>st_medkits_cold_task_done1</text>
+                <next>2</next>
+				<action>relocate_item_oscillograph_from_actor</action>
+        </phrase>
+		<phrase id="2"> <!-- actor -->
+                <text>st_medkits_cold_task_done2</text>
+                <next>3</next>
+        </phrase>
+		<phrase id="3"> <!-- npc -->
+                <text>>st_medkits_cold_task_done3</text>
+				<action>facmedkits.goodwill_for_cs_task</action>
+				<action>facmedkits.relocate_item_csmedkit_to_actor</action>
+				<action>facmedkits.relocate_facmeds_money_to_actor</action>
+				<action>facmedkits.relocate_item_csbackpack_to_actor</action>
+				<give_info>facmeds_told_by_cold</give_info>
+        </phrase>
+		</phrase_list>
+	    </dialog>
+	
+	
+	<dialog id="facmedkits_sakharov_oscilotask">
+		<has_info>facmeds_cold_jobtaken</has_info>
+		<dont_has_info>facmeds_oscillograph_taken</dont_has_info>
+		<phrase_list>
+		 <phrase id="0"> <!-- actor -->
+                <text>st_medkits_cold_yan_task0</text>
+                <next>1</next>
+        </phrase>
+		<phrase id="1"> <!-- npc -->
+                <text>st_medkits_cold_yan_task1</text>
+                <next>2</next>
+				<action>facmedkits.relocate_item_oscillograph_to_actor</action>
+        </phrase>
+		<phrase id="2"> <!-- actor -->
+                <text>st_medkits_cold_yan_task2</text>
+                <next>3</next>
+        </phrase>
+		<phrase id="3"> <!-- npc -->
+                <text>>st_medkits_cold_yan_task3</text>
+				<action>facmedkits.relocate_facmeds_hercules_to_actor</action>
+				<give_info>facmeds_oscillograph_taken</give_info>
+        </phrase>
+		</phrase_list>
+	    </dialog>
+	
+	
+</game_dialogs>

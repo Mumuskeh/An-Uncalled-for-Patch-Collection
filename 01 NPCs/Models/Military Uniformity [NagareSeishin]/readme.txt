@@ -1,12 +1,15 @@
 -Module:
-Military Uniformity [NagareSeishin]
+Military Uniformity (Vanilla) [NagareSeishin]
 
 ----------------------------------------------------------
 -Compatibility:
+Original mod not required.
 
 ----------------------------------------------------------
 -Explanation:
-DLTX conversion, for the "Vanilla USS uniformity with Service Suit and Helmet player model" option.
+DLTX and DXML conversion.
+
+Options for Army NPCs only, and for player as well.
 
 ----------------------------------------------------------
 -Patches:

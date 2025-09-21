@@ -1,0 +1,305 @@
+function on_game_start()
+    RegisterScriptCallback("on_specific_character_init", function(character_id, data)
+
+        if character_id == "sim_default_military_0_default_0" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+        if character_id == "sim_default_military_0_default_1" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+        if character_id == "sim_default_military_0_default_2" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+        if character_id == "sim_default_military_0_default_3" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config = "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+        if character_id == "sim_default_military_0_default_4" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+        if character_id == "sim_default_military_0_default_5" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+        if character_id == "sim_default_military_0_default_6" then
+            data.icon		= "ui_inGame2_neutral_tactic"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_2_helm_tactic"
+        end
+
+        if character_id == "sim_default_military_0_default_7" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+        if character_id == "sim_default_military_0_default_8" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+        if character_id == "sim_default_military_0_default_9" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+        if character_id == "sim_default_military_0_default_10" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+        if character_id == "sim_default_military_0_default_11" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+        if character_id == "sim_default_military_0_default_12" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+        if character_id == "sim_default_military_0_default_13" then
+            data.icon		= "ui_inGame2_neutral_tactic"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+        if character_id == "sim_default_military_0_default_14" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+        if character_id == "sim_default_military_0_default_15" then
+            data.icon		= "ui_inGame2_soldier_green_mask"
+            data.visual		= "actors\\stalker_soldier\\soldier_mask_green"
+        end
+
+        if character_id == "sim_default_military_0_default_16" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+        if character_id == "sim_default_military_0_default_17" then
+            data.icon		= "ui_inGame2_neutral_tactic"
+            data.snd_config	= "characters_voice\\human\\military_3"
+        end
+
+        if character_id == "sim_default_military_0_default_18" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+
+        if character_id == "sim_default_military_1_default_1" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_1_default_3" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_1_default_5" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config = "characters_voice\\human\\military_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_1_default_7" then
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_6_helm_battle"
+        end
+
+        if character_id == "sim_default_military_1_default_8" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_1_helm_battle"
+        end
+
+
+        if character_id == "sim_default_military_2_default_0" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_2_default_1" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_2_default_2" then
+            data.icon		= "ui_inGame2_Soldier_2"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_2"
+        end
+
+        if character_id == "sim_default_military_2_default_3" then
+            data.snd_config	= "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_2_default_4" then
+            data.icon		= "ui_inGame2_Soldier_2"
+            data.snd_config	= "characters_voice\\human\\military_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_2"
+        end
+
+        if character_id == "sim_default_military_2_default_6" then
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_2_helm_battle"
+        end
+
+        if character_id == "sim_default_military_2_default_7" then
+            data.snd_config	= "characters_voice\\human\\military_3"
+        end
+
+        if character_id == "sim_default_military_2_default_8" then
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_2_helm_tactic"
+        end
+
+
+        if character_id == "sim_default_military_3_default_3" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_3_default_4" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_3_default_5" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_3_default_6" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config	= "characters_voice\\human\\military_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_3_default_8" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_3_default_9" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_3_default_10" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_3_default_11" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_3_default_12" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_3_default_13" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_3_default_14" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_3_default_16" then
+            data.snd_config	= "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_3_default_18" then
+            data.snd_config	= "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_3_default_20" then
+            data.icon		= "ui_inGame2_Soldier_2"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_2"
+        end
+
+        if character_id == "sim_default_military_3_default_22" then
+            data.icon		= "ui_inGame2_Soldier_2"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_2"
+        end
+
+        if character_id == "sim_default_military_3_default_23" then
+            data.icon		= "ui_npc_u_stalker_militari_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_4"
+        end
+
+        if character_id == "sim_default_military_3_default_24" then
+            data.icon		= "ui_inGame2_Soldier_2"
+            data.snd_config	= "characters_voice\\human\\military_2"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_2"
+        end
+
+        if character_id == "sim_default_military_3_default_25" then
+            data.icon		= "ui_inGame2_Soldier_3"
+            data.visual		= "actors\\stalker_soldier\\stalker_soldier_3"
+        end
+
+        if character_id == "sim_default_military_3_default_26" then
+            data.snd_config	= "characters_voice\\human\\military_3"
+        end
+
+
+        if character_id == "sim_default_military_4_default_3" then
+            data.snd_config	= "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_4_default_17" then
+            data.snd_config	= "characters_voice\\human\\military_3"
+        end
+
+        if character_id == "sim_default_military_4_default_18" then
+            data.snd_config	= "characters_voice\\human\\military_3"
+        end
+
+        if character_id == "sim_default_military_4_default_20" then
+            data.snd_config	= "characters_voice\\human\\military_1"
+        end
+
+        if character_id == "sim_default_military_3_default_sniper" then
+            data.snd_config	= "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_army_medic" then
+            data.snd_config	= "characters_voice\\human\\military_2"
+        end
+
+        if character_id == "sim_default_military_dead_default_1" then
+            data.snd_config	= "characters_voice\\human\\military_2"
+        end
+
+    end)
+end

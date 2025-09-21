@@ -1,0 +1,9 @@
+function on_game_start()
+    RegisterScriptCallback("on_specific_character_init", function(character_id, data)
+
+        if character_id == "zat_stancia_mech_merc" then
+            data.snd_config = "characters_voice\\human\\killer_3"
+            data.visual = "actors\\mnp_npc_remeik\\merc_meshanik"
+        end
+    end)
+end

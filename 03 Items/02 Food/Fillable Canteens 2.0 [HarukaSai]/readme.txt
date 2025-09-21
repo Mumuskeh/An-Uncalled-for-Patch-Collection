@@ -7,7 +7,9 @@ Fillable Canteens 2.0 [HarukaSai]
 ----------------------------------------------------------
 -Explanation:
 
-Includes integration with vanilla looting, reward, and stash systems, and Grok's Stash Overhaul.
+Integrated into the vanilla looting, reward, and stash systems.
+
+Grok's Stash Overhaul integration.
 
 ----------------------------------------------------------
 -Patches:

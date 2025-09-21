@@ -3,20 +3,20 @@ CSVars - Alternative Clear Sky Variants addon [Blackgrowl]
 
 ----------------------------------------------------------
 -Compatibility:
+NOTE: You still need the original mod. Disable the configs/gameplay folder.
 
 ----------------------------------------------------------
 -Explanation:
-Fixes a (harmless) typo. The character_desc_general_monolith.xml file, between sim_default_monolith_1_default_13 and 15, adds a 144 instead of 14.
+DXML conversion for better compatibility.
+
+It also gives all new spawns a "csvars" ID of their own instead of a vanilla like IDs, for further compatibility.
+
+Option to use the original mod IDs. I'm not aware of any such mod, but there may be some that try to look the original IDs for whatever. You may try this instead for such a situation.
 
 ----------------------------------------------------------
 -Patches:
-All patches also include the typo fix above.
 
-Anomaly English Voice Restoration Project
-
-Ukranian Voices
-
-Women of the Zone
+Patches deprecated.
 
 ----------------------------------------------------------
 -Known issues:

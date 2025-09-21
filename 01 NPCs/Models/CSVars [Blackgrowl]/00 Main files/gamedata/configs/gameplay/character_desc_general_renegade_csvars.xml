@@ -1,0 +1,44 @@
+﻿<!-- renegade expirienced -->
+<specific_character id="sim_default_renegade_1_csvars_1" team_default = "1">
+#include "gameplay\profiles\character_desc_renegade_1.xml"
+    <icon>ui_inGame2_csky_1_2</icon>
+		<snd_config>characters_voice\human\bandit_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_a_rene</visual>
+</specific_character>
+
+<specific_character id="sim_default_renegade_1_csvars_2" team_default = "1">
+#include "gameplay\profiles\character_desc_renegade_1.xml"
+    <icon>ui_inGame2_csky_1_2</icon>
+		<snd_config>characters_voice\human\bandit_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_a_rene2</visual>
+</specific_character>
+
+<specific_character id="sim_default_renegade_1_csvars_3" team_default = "1">
+#include "gameplay\profiles\character_desc_renegade_1.xml"
+    <icon>ui_inGame2_csky_1_1</icon>
+		<snd_config>characters_voice\human\bandit_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_1_rene</visual>
+</specific_character>
+
+<specific_character id="sim_default_renegade_1_csvars_4" team_default = "1">
+#include "gameplay\profiles\character_desc_renegade_1.xml"
+    <icon>ui_inGame2_csky_1_1</icon>
+		<snd_config>characters_voice\human\bandit_1\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_1_rene2</visual>
+</specific_character>
+
+
+<!-- renegade expirienced 2 -->
+<specific_character id="sim_default_renegade_2_csvars_1" team_default = "1">
+#include "gameplay\profiles\character_desc_renegade_2.xml"
+    <icon>ui_inGame2_csky_5_2</icon>
+		<snd_config>characters_voice\human\bandit_3\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_b_rene</visual>
+</specific_character>
+
+<specific_character id="sim_default_renegade_2_csvars_2" team_default = "1">
+#include "gameplay\profiles\character_desc_renegade_2.xml"
+    <icon>ui_inGame2_csky_5_2</icon>
+		<snd_config>characters_voice\human\bandit_3\</snd_config>
+    <visual>actors\stalker_csvars\stalker_nebo_b_rene2</visual>
+</specific_character>

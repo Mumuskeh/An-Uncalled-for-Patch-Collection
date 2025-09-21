@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<string_table>
+
+<!--
+---		STALKER TASKS
+-->
+
+	<string id="st_medkits_loris_askinfo1">
+		<text>Hey Loris, do you have any work that needs to be done?</text>
+	</string>
+	<string id="st_medkits_loris_answerinfo1">
+		<text>Actually I do. The gist is this - a few days ago one of my groups has gone to the Darkscape for a deal with er... A certain group of people. The deal went smoothly, but there was mutual distrust between both parties and things seemed fishy. After the deal, one of my guys named Danila, took notice that the bandits were still hanging around the premises and heard talks of some 'nearby stash' and thus, he made a sketch of a map with a few marked points of interest for us. A couple stalkers have already gone there with the map, but found nothing, so perhaps you'll have better luck.</text>
+	</string>
+	<string id="st_medkits_loris_askinfo2">
+		<text>So you're saying I should be searching for a stash? How come other stalkers didn't find anything after visiting the spots multiple times? Maybe there's nothing there? I mean, I'll gladly do it, I'm just afraid I won't find anything.</text>
+	</string>
+	<string id="st_medkits_loris_answerinfo2">
+		<text>Well, the stalkers I sent there were total rookies, some got scared away by mutants, some didn't even thoroughly check the locations we marked. Perhaps you'll have better luck? Anyways, here's the map, please don't lose it.</text>
+	</string>
+	
+	<string id="st_medkits_loris_beentods1">
+		<text>Darkscape..? Sorry, Loris. I don't feel like going back there, I already visited that place and it sucked big time. I'll have to pass up on this one.</text>
+	</string>
+	<string id="st_medkits_loris_beentods2">
+		<text>Well, I understand - no one wants to go to the Darkscape in the first place, after all. Maybe I'll manage to convince one of my guys to do it for me.</text>
+	</string>
+	
+	<string id="st_medkits_loris_backfromds1">
+		<text>Loris, I knew it. There's nothing there, it feels like Danila's intel was off.</text>
+	</string>
+	<string id="st_medkits_loris_backfromds2">
+		<text>Damn... It's a shame, really. But I feel like it's no coincidence multiple guys haven't found anything by now.</text>
+	</string>
+	<string id="st_medkits_loris_backfromds3">
+		<text>May I ask what this whole thing is about?</text>
+	</string>
+	<string id="st_medkits_loris_backfromds4">
+		<text>You see, with Sidorovich stomping down on my connections, I had to look for alternatives to keep my business running. I caught word of this one group operating in the Dark Valley and Darkscape who manufacture their own medical kits. They're not as good as the imported orange medkits, however, they're still effective in a pinch and I thought this might be a good thing to sell to the locals who can't afford higher quality medical supplies. The meet I mentioned last time was between that group and my guys, the whole thing seemed a little sketchy.</text>
+	</string>
+	<string id="st_medkits_loris_backfromds5">
+		<text>Interesting. Will I get a reward for my time even if I didn't find anything?</text>
+	</string>
+	<string id="st_medkits_loris_backfromds6">
+		<text>I'm sorry, but I really can't afford to give you a lot. You can have a few of these medical kits that I mentioned and I'll throw in some beer and a little cash for your time and effort. You can also keep the map, Danila said he was going to make a better one.</text>
+	</string>
+	
+	<string id="st_medkits_sidorovich_snitch1">
+		<text>Hey, Sidorovich, I came to tell you about this one matter that's putting me off. It's about Loris.</text>
+	</string>
+	<string id="st_medkits_sidorovich_snitch2">
+		<text>Loris?! I already had to go through hell to help him set up his trader outpost at the farm and now he's bringing trouble? Tell me all about this.</text>
+	</string>
+	<string id="st_medkits_sidorovich_snitch3">
+		<text>Well from what I could piece together, Loris might be doing deals with the Bandits. As I understand, his group had a meeting with some Bandits in the Darkscape and I suspect Loris is buying these less than optimal medkits and selling them out to the local rookies, who probably have no idea about the effects of them. This is pretty messed up, he's putting rookies in danger.</text>
+	</string>
+	<string id="st_medkits_sidorovich_snitch4">
+		<text>What?! Show me that medkit. Hmmh, it does seem like it's produced by a bandit squad based on all the insignias all over. Now who he does business with is not my problem, but I'm not going to let him endanger my rookies.</text>
+	</string>
+	<string id="st_medkits_sidorovich_snitch5">
+		<text>So what will you do about this?</text>
+	</string>
+	<string id="st_medkits_sidorovich_snitch6">
+		<text>Another war in the Cordon is what I need the least, especially after what happened back in 2011. I'll do my best to disrupt his supply lines, maybe sabotage the meets or so. As for now, I want us both to keep quiet about this. But really, thank you for telling me about this, here's a token of my appreciation.</text>
+	</string>
+	
+<!--
+---		CS  TASKS
+-->
+
+	<string id="st_medkits_novikov_chiptask0">
+		<text>Hey, Novikov. Got any interesting work for me?</text>
+	</string>
+	<string id="st_medkits_novikov_chiptask1">
+		<text>I had this one little errand. One of our scouts saw a group of stalker scavengers right at the train in northern Swamps. An emission started right before he could check what they scavenged off that train, so he had to book it.</text>
+	</string>
+	<string id="st_medkits_novikov_chiptask2">
+		<text>So? What happened?</text>
+	</string>
+	<string id="st_medkits_novikov_chiptask3">
+		<text>He made it back to base empty handed, but he drew this scheme of the train, he said someone might still find something in the vicinity. I would need you to check it out and bring me whatever you find - electronic components, wiring, anything. What do you say?</text>
+	</string>
+	<string id="st_medkits_novikov_chiptask4">
+		<text>I'd be down. It doesn't sound overly complicated. Just give me that drawing and I'll check it out.</text>
+	</string>
+	<string id="st_medkits_novikov_chiptask5">
+		<text>Here you go... Good luck out there. Just make sure you check the area well.</text>
+	</string>
+	
+	<string id="st_medkits_novikov_chiptask04">
+		<text>I'm sorry, but I really don't feel like going around the Great Swamps - one wrong step into the water and I'll be glowing for weeks. Plus the presence of military and bandits closeby doesn't give any sense of safety.</text>
+	</string>
+	<string id="st_medkits_novikov_chiptask05">
+		<text>I understand. I'll send someone better equipped there then. Your choice.</text>
+	</string>
+	
+
+
+	<string id="st_medkits_novikov_chiptaskdone0">
+		<text>Novikov, I'm back. Your guy was right, they left behind what looks like a microchip.</text>
+	</string>
+	<string id="st_medkits_novikov_chiptaskdone1">
+		<text>Sweet, I can make use of this. Encountered any trouble on the way there?</text>
+	</string>
+	<string id="st_medkits_novikov_chiptaskdone2">
+		<text>Not really. It's nothing I couldn't handle.</text>
+	</string>
+	<string id="st_medkits_novikov_chiptaskdone3">
+		<text>Well, thank you for your efforts. Give me that drawing back if you didn't lose it. And here's your reward, a couple medkits Kalancha designed. Stay safe out there.</text>
+	</string>
+	
+	
+	
+	
+	<string id="st_medkits_cold_task0">
+		<text>Cold, do you have any special work for me to do?</text>
+	</string>
+	<string id="st_medkits_cold_task1">
+		<text>You came just at the perfect moment. Mere moments ago Kalancha said he'll be closely inspecting some new anomalous samples - electric artifacts, as stalkers call them. And for this, he needs an entirely new oscillograph that we've rented from Sakharov.</text>
+	</string>
+	<string id="st_medkits_cold_task2">
+		<text>Let me guess, you want me to deliver it?</text>
+	</string>
+	<string id="st_medkits_cold_task3">
+		<text>That's right. Everything's been paid for, so you just need to grab it and bring it back. Just that it's fairly heavy, so think twice before grabbing it from him. And it is fairly expensive lab equipment, so you better take good care of it.</text>
+	</string>
+	<string id="st_medkits_cold_task4">
+		<text>Sure, I can do that. I do expect to be properly rewarded for it, though.</text>
+	</string>
+	<string id="st_medkits_cold_task5">
+		<text>Yes, of course. I will let Sakharov know about your arrival. Good luck, make sure you're not overencumbering yourself with other shit.</text>
+	</string>
+	
+	<string id="st_medkits_cold_task04">
+		<text>Eh, I'm sorry Cold, but I don't feel like lugging such heavy equipment across half the southern Zone.</text>
+	</string>
+	<string id="st_medkits_cold_task05">
+		<text>Well, your choice. Frankly, even if I had an exoskeleton, I wouldn't do it, but I'll find someone else to do this. In the meanwhile, Novikov mentioned he's looking for someone to go scavenge something for him. You could try asking him what's it all about.</text>
+	</string>
+	
+	
+	
+	<string id="st_medkits_cold_task_done0">
+		<text>Fuck... This thing must weigh a million tons. Here's the apparatus, whatever you said you need it for.</text>
+	</string>
+	<string id="st_medkits_cold_task_done1">
+		<text>Oh, good, good. Seems to be in working order. Thanks a ton for this, we won't forget your contributions.</text>
+	</string>
+	<string id="st_medkits_cold_task_done2">
+		<text>What about my reward?</text>
+	</string>
+	<string id="st_medkits_cold_task_done3">
+		<text>Right, nearly forgot. Here's some of our own produced medical supplies alongside some money. And I'll also throw in one of our left-over backpacks, use it, stash it, do what you want with it. Also Novikov said he needs help - he said he needs people to pick some stuff up for him.</text>
+	</string>
+	
+	<string id="st_medkits_cold_task_done0">
+		<text>Fuck... This thing must weigh a million tons. Here's the apparatus, whatever you said you need it for.</text>
+	</string>
+	<string id="st_medkits_cold_task_done1">
+		<text>Oh, good, good. Seems to be in working order. Thanks a ton for this, we won't forget your contributions.</text>
+	</string>
+	<string id="st_medkits_cold_task_done2">
+		<text>What about my reward?</text>
+	</string>
+	<string id="st_medkits_cold_task_done3">
+		<text>Right, nearly forgot. Here's some of our own produced medical supplies alongside some money. And I'll also throw in one of our left-over backpacks, use it, stash it, do what you want with it. Also Novikov said he needs help - he said he needs people to pick some stuff up for him.</text>
+	</string>
+
+	<string id="st_medkits_cold_yan_task0">
+		<text>Hello, professor. I was sent here by Cold from the Great Swamps. I was told I had to pick up some laboratory equipment?</text>
+	</string>
+	<string id="st_medkits_cold_yan_task1">
+		<text>Yes, indeed. I'm sure you were informed that the Oscillograph is fairly heavy, but here it is. Please take care while taking it back to the Swamps, it's an expensive and irreplaceable piece of equipment.</text>
+	</string>
+	<string id="st_medkits_cold_yan_task2">
+		<text>Augh, christ... This thing must weight a million tons. Professor, can I do anything about this? I don't know if I'll make it to the Swamps.</text>
+	</string>
+	<string id="st_medkits_cold_yan_task3">
+		<text>Mmmh... I'm not supposed to do this, but I'll give you this to help bear the weight. Just please don't tell anyone about this. Good luck out there.</text>
+	</string>
+
+
+</string_table>

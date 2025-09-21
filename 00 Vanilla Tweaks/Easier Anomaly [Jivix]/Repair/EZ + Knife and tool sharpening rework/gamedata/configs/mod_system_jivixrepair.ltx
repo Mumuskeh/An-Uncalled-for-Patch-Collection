@@ -1,0 +1,272 @@
+;;; Repair
+
+![sharpening_stones]:identity_immunities
+cost					= 9495
+inv_weight				= 0.56
+empty_weight			= 0.06
+max_uses				= 204
+<repair_parts_sections	= steel_wool, powder_poltergeist
+>repair_parts_sections	= gun_oil_ru, gun_oil, gun_oil_ru_d, mineral_water, flask
+use_condition			= true
+
+![gun_oil]
+cost					= 3000
+inv_weight				= 0.3
+max_uses				= 6
+repair_min_condition	= 0.88
+repair_add_condition	= 0.03
+repair_part_bonus		= 0.04
+<repair_parts_sections	= duct_tape, solvent, gun_oil, gun_oil_ru, gun_oil_ru_d, tarpaulin, grooming, cutlery, swiss_knife
+>repair_parts_sections	= rope
+
+![gun_oil_ru_d]
+cost					= 2156
+max_uses				= 3
+repair_min_condition	= 0.83
+<repair_parts_sections	= duct_tape, solvent, gun_oil, gun_oil_ru, gun_oil_ru_d, tarpaulin, grooming, cutlery, swiss_knife
+>repair_parts_sections	= rope
+
+![gun_oil_ru]
+cost					= 1196
+inv_weight				= 0.103
+max_uses				= 6
+repair_min_condition	= 0.90
+repair_add_condition	= 0.02
+repair_part_bonus		= 0.02
+<repair_parts_sections	= duct_tape, solvent, gun_oil, gun_oil_ru, gun_oil_ru_d, tarpaulin, grooming, cutlery, swiss_knife
+>repair_parts_sections	= rope
+
+![solvent]
+cost					= 5400
+inv_weight				= 0.148
+max_uses				= 3
+repair_min_condition	= 0.8
+repair_part_bonus		= 0.12
+<repair_parts_sections	= duct_tape, solvent, gun_oil, gun_oil_ru, gun_oil_ru_d, tarpaulin, grooming, cutlery, swiss_knife
+>repair_parts_sections	= rope
+tier					= 3
+
+![cleaning_kit_p]
+repair_min_condition	= 0.70
+<repair_parts_sections	= duct_tape
+>repair_parts_sections	= rope, helm_cloth_mask, underwear
+
+![cleaning_kit_s]
+repair_min_condition	= 0.70
+<repair_parts_sections	= duct_tape
+>repair_parts_sections	= rope, helm_cloth_mask, underwear
+
+![cleaning_kit_r5]
+repair_min_condition	= 0.70
+<repair_parts_sections	= duct_tape
+>repair_parts_sections	= rope, helm_cloth_mask, underwear
+
+![cleaning_kit_r7]
+repair_min_condition	= 0.70
+<repair_parts_sections	= duct_tape
+>repair_parts_sections	= rope, helm_cloth_mask, underwear
+
+![cleaning_kit_u]
+cost					= 16065
+max_uses				= 5
+repair_min_condition	= 0.55
+repair_add_condition	= 0.1
+repair_part_bonus		= 0.1
+<repair_parts_sections	= duct_tape
+>repair_parts_sections	= rope, helm_cloth_mask, underwear
+
+![toolkit_p]
+cost					= 11470
+max_uses				= 6
+repair_min_condition	= 0.4
+<repair_parts_sections	= gun_oil, gun_oil_ru
+>repair_parts_sections	= duct_tape
+
+![toolkit_s]
+cost					= 15660
+max_uses				= 6
+repair_min_condition	= 0.4
+<repair_parts_sections	= gun_oil, gun_oil_ru
+>repair_parts_sections	= duct_tape
+
+![toolkit_r5]
+max_uses				= 6
+repair_min_condition	= 0.4
+<repair_parts_sections	= gun_oil, gun_oil_ru, cleaning_kit_r7, cleaning_kit_r7_2, cleaning_kit_r7_3
+>repair_parts_sections	= duct_tape, cleaning_kit_p, cleaning_kit_p_2, cleaning_kit_p_3
+
+![toolkit_r7]
+max_uses				= 6
+repair_min_condition	= 0.4
+<repair_parts_sections	= gun_oil, gun_oil_ru, cleaning_kit_r7, cleaning_kit_r7_2, cleaning_kit_r7_3
+>repair_parts_sections	= duct_tape, cleaning_kit_p, cleaning_kit_p_2, cleaning_kit_p_3
+
+![glue_b]
+cost					= 1040
+max_uses				= 6
+repair_min_condition	= 0.95
+repair_add_condition	= 0.01
+repair_part_bonus		= 0.04
+repair_use_parts		= true
+<repair_only			= outfit_heavy, outfit_exo
+<repair_parts_sections	= sewing_kit_h, sewing_kit_a, sewing_kit_b, glue_a, glue_b, af_plates
+>repair_parts_sections	= rope, synthrope, sewing_kit_h, sewing_kit_a, sewing_kit_b, tarpaulin, underwear
+
+![glue_a]
+cost					= 2295
+max_uses				= 5
+repair_min_condition	= 0.90
+repair_add_condition	= 0.02
+repair_part_bonus		= 0.07
+repair_use_parts		= true
+<repair_only			= outfit_exo
+<repair_parts_sections	= sewing_kit_h, sewing_kit_a, sewing_kit_b, glue_a, glue_b, af_plates
+>repair_parts_sections	= rope, synthrope, sewing_kit_h, sewing_kit_a, sewing_kit_b, tarpaulin, underwear
+
+![glue_e]
+max_uses				= 4
+repair_min_condition	= 0.85
+repair_add_condition	= 0.03
+repair_part_bonus		= 0.10
+<repair_parts_sections	= sewing_kit_h, sewing_kit_a, sewing_kit_b, glue_a, glue_b, af_plates
+>repair_parts_sections	= rope, synthrope, sewing_kit_h, sewing_kit_a, sewing_kit_b, tarpaulin, underwear
+
+![armor_repair_fa]
+cost					= 2848
+max_uses				= 4
+repair_min_condition	= 0.80
+repair_add_condition	= 0.08
+repair_part_bonus		= 0.04
+repair_use_parts		= true
+<repair_only			= outfit_exo
+>repair_parts_sections	= rope, synthrope, tarpaulin, underwear
+
+![sewing_kit_b]
+repair_min_condition	= 0.70
+repair_add_condition	= 0.10
+repair_part_bonus		= 0.05
+<repair_parts_sections	= sewing_kit_a, sewing_kit_b
+>repair_parts_sections	= synthrope
+
+![sewing_kit_a]
+inv_weight				= 1.437
+repair_min_condition	= 0.60
+repair_add_condition	= 0.10
+repair_part_bonus		= 0.05
+repair_use_parts		= true
+<repair_only			= outfit_exo
+<repair_parts_sections	= sewing_kit_a, sewing_kit_b
+
+![sewing_kit_h]
+inv_weight				= 4.586
+empty_weight			= 0.886
+repair_min_condition	= 0.50
+repair_add_condition	= 0.10
+repair_part_bonus		= 0.05
+repair_use_parts		= true
+<repair_parts_sections	= sewing_kit_a, sewing_kit_b
+
+![helmet_repair_kit]
+repair_min_condition	= 0.25
+repair_add_condition	= 0.25
+
+![light_repair_kit]
+max_uses				= 8
+repair_min_condition	= 0.15
+repair_add_condition	= 0.2
+<repair_parts_sections	= underwear
+
+
+![medium_repair_kit]
+cost					= 14360
+repair_min_condition	= 0.35
+repair_add_condition	= 0.2
+<repair_parts_sections	= underwear
+
+![heavy_repair_kit]
+max_uses				= 4
+repair_min_condition	= 0.45
+repair_add_condition	= 0.2
+<repair_parts_sections	= underwear
+
+![exo_repair_kit]
+max_uses				= 4
+repair_min_condition	= 0.50
+repair_add_condition	= 0.2
+<repair_parts_sections	= underwear
+
+
+;;----==================================================================
+;;----=====================| Part repair tools |=====================
+;;----==================================================================
+
+![rasp_tool]
+cost					= 900
+max_uses				= 4
+repair_min_condition	= 0
+repair_add_condition	= 1.0
+
+![ramrod_tool]
+cost					= 1150
+max_uses				= 4
+repair_min_condition	= 0
+repair_add_condition	= 1.0
+
+![leatherman_tool]
+cost					= 2000
+repair_min_condition	= 0
+repair_add_condition	= 1.0
+
+![sewing_thread]
+max_uses				= 4
+repair_min_condition	= 0
+repair_add_condition	= 1.0
+
+![heavy_sewing_thread]
+max_uses				= 4
+repair_min_condition	= 0
+repair_add_condition	= 1.0
+
+
+;;--=========================================================
+;;--================| TOOLS / SPECIAL ITEMS |================
+;;--=========================================================
+
+![swiss_knife]
+degradation_factor	= 0.035
+
+![grooming]
+degradation_factor	= 0.06
+
+![box_matches]
+inv_weight			= 0.02
+max_uses			= 30
+tier				= 2
+
+
+;;--=========================================================
+;;--=========================| JUNK |========================
+;;--=========================================================
+
+![rope]
+inv_weight			= 0.19
+
+![beadspread]
+repair_part_bonus	= 0.04
+
+![synthrope]
+repair_part_bonus	= 0.05
+
+![duct_tape]
+inv_weight			= 0.02
+
+
+;;; Consumables
+
+![mineral_water]:booster_multi
+max_uses			= 5
+repair_part_bonus	= 0.05
+
+![flask]:booster_multi
+max_uses			= 5
+repair_part_bonus	= 0.05
