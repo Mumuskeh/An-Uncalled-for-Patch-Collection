@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="ammo_23x75_shrapnel">
+		<text>"Shrapnel-25" 23x75mm</text>
+	</string>
+
+	<string id="ammo_23x75_barrikada">
+		<text>"Barrikada" 23x75мм</text>
+	</string>
+
+	<string id="ammo_9x21_sp10">
+		<text>9x21 mm SP10</text>
+	</string>
+
+	<string id="ammo_20x70_buck">
+		<text>20x70 buckshot round</text>
+	</string>
+
+	<string id="ammo_23_eco">
+		<text>Ecolog-23 cartridge</text>
+	</string>
+
+	<string id="ammo_vog_30">
+		<text>VOG-30 Grenade</text>
+	</string>
+
+	<string id="ammo_338_federal">
+		<text>.338 Federal</text>
+	</string>
+
+</string_table>

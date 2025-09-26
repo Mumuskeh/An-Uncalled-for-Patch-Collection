@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_tasters_choice">
+		<text>Jar of instant coffee "Taster's Choice"</text>
+	</string>
+	<string id="st_tasters_desc">
+		<text>A jar with enough freeze dried coffee to make 16 cups. It is cheap, tastes like swill, and is barley caffeinated but it is coffee nonetheless. For stalkers short on roubles, this stuff is what keeps them from dropping dead from exhaustion. It's also very easy to prepare, simply pour into some water and stir.\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] instant usage\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_red • %c[ui_gray_2] low quality</text>
+	</string>
+	<string id="st_earl_grey">
+		<text>Tin of teabags "Twinings"</text>
+	</string>
+	<string id="st_earl_desc">
+		<text>A tin of 4 Earl Grey teabags. A step above other tea brands, a step below the gourmet options. The box produces a faint but strong citrus like scent. You could eat the tea leaves but this is best enjoyed when steeped in rolling water.\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] stimulant</text>
+	</string>
+	<string id="st_cocoa_warm">
+		<text>Box of hot cocoa mix "Swiss Miss"</text>
+	</string>
+	<string id="st_cocoa_desc">
+		<text>With marshmellows. A very sweet drink that warms one up quite well. Best used when mixed into warm water, but for the stalker on the go cold water will do just fine. Some Military stalkers like to mix this cocoa powder into their coffee to make an "army mocha". Nice!\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] instant usage\n
+		%c[d_red] • %c[ui_gray_2] unhealthy</text>
+	</string>
+	<string id="st_earl_grey_hot">
+		<text>Cup of Earl Grey tea</text>
+	</string>
+	<string id="st_earl_hot_desc">
+		<text>A mug full of Earl Grey tea. A wonderful thing to sip on during a rainy day. When drinking it, you strangely feel at peace despite being in the most dangerous place on Earth.\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] stimulant</text>
+	</string>
+	<string id="st_gourmet_shit_cup">
+		<text>Cup of instant coffee</text>
+	</string>
+	<string id="st_gourmet_cup_desc">
+		<text>A mug full of low quality instant coffee. It may not be the best tasting thing in the world, but it'll warm you up and give you a little bit of a boost.\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_red • %c[ui_gray_2] low quality</text>
+	</string>
+	<string id="st_comfy_cocoa">
+		<text>Cup of hot cocoa</text>
+	</string>
+	<string id="st_comfy_cocoa_desc">
+		<text>A mug of hot cocoa. Marshmallows float in the chocolaty liquid like rubber duckies. The taste and smell remind you of your childhood years, but they're long gone now. The memories and warmth help soothe your soul in this awful place.\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_red • %c[ui_gray_2] low quality\n
+    %c[d_red] • %c[ui_gray_2] unhealthy</text>
+	</string>
+	<string id="st_matcha_tin">
+		<text>Tin of instant matcha "Aromandise"</text>
+	</string>
+	<string id="st_matcha_tin_desc">
+		<text>A box of 4 instant matcha packs, imported from France. Simply tear off the top of one of the packs, pour into water, and stir until powder is thoroughly dissolved. A very, very green drink that is good for you. The drink lacks caffeine though, so don't expect this to keep you awake.\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] instant usage</text>
+	</string>
+	<string id="st_carpathian_bag">
+		<text>Bag of Carpathian blend tea "Pure Flora - Bee"</text>
+	</string>
+	<string id="st_carpathian_bag_desc">
+		<text>A bag of enough tea leaves for four cups. Originating from the Carpathian mountain range in Ukraine, this special blend is made up of lavender, linden, hazel, acacia, melissa, and sunflower leaves along with thyme, oregano, salvia herbs. Is lightly caffeinated.\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] stimulant</text>
+	</string>
+	<string id="st_berry_blend_bag">
+		<text>Bag of fruit tea blend "Pure Flora - Galicja"</text>
+	</string>
+	<string id="st_berry_blend_bag_desc">
+		<text>A blend of various berries, fruits, and herbs that originates from the Galicja region of western Ukraine and south-eastern Poland. A lightly caffeinated blend of primarily elderberries, forest apples, blackthorn fruits, and Hibiscus tea leaves.\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] stimulant</text>
+	</string>
+	<string id="st_carpathian_blend_hot">
+		<text>Cup of Carpathian blend tea</text>
+	</string>
+	<string id="st_carpathian_hot_desc">
+		<text>A mug full of Carpathian mountain berry blend tea originating from western Ukraine. Consisting of carefully picked berries, fruits, leaves, and herbs that were carefully sun dried, slightly crushed, and then packaged into this bag.\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] stimulant</text>
+	</string>
+	<string id="st_instant_matcha_hot">
+		<text>Cup of instant matcha tea</text>
+	</string>
+	<string id="st_matcha_hot_desc">
+		<text>A mug full of instant matcha tea. Although it may look unappetizing before the powder is thouroughly mixed in, it tastes very fresh despite having been sitting in a tin for well over a year according to it's best before label.\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink</text>
+	</string>
+	<string id="st_berry_blend_hot">
+		<text>Cup of Galicja berry blend tea</text>
+	</string>
+	<string id="st_berry_desc">
+		<text>A mug full of lovely berry blend tea from the Galicja region of Ukraine. A slightly sweet drink that leaves you very refreshed. A truly gourmet item, this is some top tier tea in the Zone.\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] stimulant</text>
+	</string>
+	<string id="st_yarrow_tea_hot">
+		<text>Cup of yarrow tea</text>
+	</string>
+	<string id="st_yarrow_hot_desc">
+		<text>A mug full of yarrow tea. An abundant herb, this particular variety was picked right here, in the exclusion zone. And, perhaps as a result of anomalous activity, has an increased effect on one's health than that of a baseline variety.\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] stimulant</text>
+	</string>
+	<string id="st_sbiten_hot">
+		<text>Cup of sbiten</text>
+	</string>
+	<string id="st_sbiten_hot_desc">
+		<text>A mug full of delicious spiten. A sweet, honey flavoured drink with coffee as the main ingredient, followed by honey. Perfect for a sore throat or a broken mind, this drink makes you feel as though your wounds will heal and your diseases will be cast away in no time.\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_blue] • %c[ui_gray_2] light alcohol</text>
+	</string>
+	<string id="st_sbiten_jar">
+		<text>Jar of sbiten ingredients "Pushkinskiye"</text>
+	</string>
+	<string id="st_sbiten_jar_desc">
+		<text>A jar containing honey, a Bill's Brew instant coffee packet, a bag of ground ibuprofen and acetaminophen pills, a cinnamon stick, and a small, single serving sized bottle of vodka. Marketed as alcohol at times and a medical concotion at others, this jar contains enough ingredients to make two servings of the delicious and very sweet sbiten. Originating in Russia during medieval times, this drink has since then become very popular in many eastern Slavic cultures. In the Zone, a small mom and pa shop in the Russian city of Pushkinskiye Gory produces the majority of the drink here. They have included ingredients specifically tailored for stalkers, hence the painkillers. Considered a delicacy here in the Zone for it's taste, the care put into it's creation, and the scarcity of it in trader stocks.\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] stimulant</text>
+	</string>
+	<string id="st_yarrow_bag">
+		<text>Bag of yarrow tea leaves</text>
+	</string>
+	<string id="st_yarrow_bag_desc">
+		<text>A small bag containing enough dried yarrow leaves to fix up 4 cups of yarrow tea. A very healthy drink, this common variety of tea has inevitably found it's way to the exclusion zone through it's vast network of smugglers and sales-persons.\n
+		%c[ui_gray_3]Specifications:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] stimulant</text>
+	</string>
+
+</string_table>

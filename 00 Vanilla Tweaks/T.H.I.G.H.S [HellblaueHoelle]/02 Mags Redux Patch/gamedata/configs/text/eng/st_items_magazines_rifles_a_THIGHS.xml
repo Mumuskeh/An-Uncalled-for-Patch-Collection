@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_ak74_5.45x39">
+		<text>AK-74 Magazine</text>
+	</string>
+
+	<string id="st_mag_ak74_5.45x39_extended">
+		<text>60-round AK-74 Magazine</text>
+	</string>
+
+	<string id="st_mag_ak74m_5.45x39">
+		<text>AK-74M Magazine</text>
+	</string>
+
+	<string id="st_mag_ak74_fast_5.45x39">
+		<text>AK-12 Magazine</text>
+	</string>
+
+	<string id="st_mag_rpk74_5.45x39">
+		<text>RPK-74 Magazine</text>
+	</string>
+
+	<string id="st_mag_ak_7.62x39">
+		<text>AKM Magazine</text>
+	</string>
+
+	<string id="st_mag_ak103_7.62x39">
+		<text>AK-103 Magazine</text>
+	</string>
+
+	<string id="st_mag_ak103_fast_7.62x39">
+		<text>Magpul 7.62 AK Magazine</text>
+	</string>
+
+	<string id="st_mag_rpd_7.62x39">
+		<text>RPD Drum</text>
+	</string>
+	<string id="st_mag_rpd_7.62x39_descr">
+		<text>
+			Drum with a belt for the RPD. The box holds 100 rounds in a belt. While the RPD was ultimately supplanted by the more accurate and flexible RPK, being able to shoot off 100 rounds is nothing to scoff at. 
+		</text>
+	</string>
+
+	<string id="st_mag_rpk_7.62x39">
+		<text>RPK Magazine</text>
+	</string>
+
+	<string id="st_mag_rpk_7.62x39_drum">
+		<text>RPK Drum Magazine</text>
+	</string>
+
+	<string id="st_mag_ace21_5.56x45">
+		<text>Galil ACE-21 Magazine</text>
+	</string>
+
+	<string id="st_mag_ak101_5.56x45">
+		<text>AK-101 Magazine</text>
+	</string>
+
+	<string id="st_mag_aug_5.56x45">
+		<text>AUG Magazine</text>
+	</string>
+
+	<string id="st_mag_g36_5.56x45">
+		<text>G36 Magazine</text>
+	</string>
+
+	<string id="st_mag_stanag">
+		<text>STANAG magazine</text>
+	</string>
+
+	<string id="st_mag_nato_5.56x45_fast">
+		<text>Magpul STANAG magazine</text>
+	</string>
+
+	<string id="st_mag_nato_5.56x45_extended">
+		<text>Extended STANAG Magazine</text>
+	</string>
+
+	<string id="st_mag_nato_5.56x45_casket">
+		<text>60-round STANAG Magazine</text>
+	</string>
+
+	<string id="st_mag_sig550_5.56x45">
+		<text>SG550 Magazine</text>
+	</string>
+
+	<string id="st_mag_sig550_sniper_5.56x45">
+		<text>SG550-1 Magazine</text>
+	</string>
+
+	<string id="st_mag_m249_5.56x45">
+		<text>M249 Box</text>
+	</string>
+
+	<string id="st_mag_xm8_5.56x45">
+		<text>XM8 Magazine</text>
+	</string>
+
+	<string id="st_mag_type63_7.62x39">
+		<text>Type 63 Magazine</text>
+	</string>
+
+	<string id="st_mag_val_9x39_pab9">
+		<text>20-round 9x39 Magazine</text>
+	</string>
+
+	<string id="st_mag_vihr_9x39_pab9">
+		<text>30-round 9x39 Magazine</text>
+	</string>
+
+	<string id="st_mag_vintorez_9x39_pab9">
+		<text>10-round 9x39 Magazine</text>
+	</string>
+
+	<string id="st_mag_groza_9x39_pab9">
+		<text>Groza Magazine</text>
+	</string>
+
+	<string id="st_mag_g43_7.92x33">
+		<text>G43 Magazine</text>
+	</string>
+
+	<string id="st_mag_galil_7.62x51">
+		<text>7.62x51 Galil Magazine</text>
+	</string>
+
+	<string id="st_mag_stanag_7.62x51">
+		<text>7.62x51 STANAG Magazine</text>
+	</string>
+
+	<string id="st_mag_stanag_fast_7.62x51">
+		<text>Magpul 7.62x51 STANAG Magazine</text>
+	</string>
+
+	<string id="st_mag_stanag_7.62x51_short">
+		<text>Compact 7.62x51 STANAG Magazine</text>
+	</string>
+
+	<string id="st_mag_l96a1_7.62x51">
+		<text>7.62x51 L96A1 Magazine</text>
+	</string>
+
+	<string id="st_mag_remington700_7.62x51">
+		<text>Remington 700 Magazine</text>
+	</string>
+	<string id="st_mag_remington700_7.62x51_descr">
+		<text>
+		Standard 5-round 7.62x51 Remington 700 Magazine. The Remington 700 is a popular hunting rifle and fares rather well in the Zone's conditions.
+		</text>
+	</string>
+
+	<string id="st_mag_wa2000_7.62x51">
+		<text>Walther WA 2000 Magazine</text>
+	</string>
+
+	<string id="st_mag_pkm_pkm">
+		<text>PKM Box</text>
+	</string>
+
+	<string id="st_mag_l96a1_pkm">
+		<text>Modified 7.62x54 L96A1 Magazine</text>
+	</string>
+
+	<string id="st_mag_sv98_7.62x54">
+		<text>SV98 Magazine</text>
+	</string>
+
+	<string id="st_mag_svd_7.62x54">
+		<text>SVD Magazine</text>
+	</string>
+
+	<string id="st_mag_svd_7.62x54_extended">
+		<text>Extended SVD Magazine</text>
+	</string>
+
+	<string id="st_mag_svt40_7.62x54">
+		<text>SVT-40 Magazine</text>
+	</string>
+
+	<string id="st_mag_svt40_pkm">
+		<text>Adjusted SVT-40 Magazine</text>
+	</string>
+
+	<string id="st_mag_trg_magnum_300">
+		<text>.338 LM Magazine</text>
+	</string>
+
+
+<!-- There's no L115A1? -->
+<!-- 	<string id="st_mag_l96a1m_magnum_300">
+		<text>L115A1 Magazine</text>
+	</string>
+	<string id="st_mag_l96a1m_magnum_300_descr">
+		<text>
+			Standard-issue 10-round magazine for the L115A1 that fits the slightly larger and considerably more powerful .338 Lapua Magnum. The AW is a favorite of Western mercenaries and Monolith forces.
+		</text>
+	</string> -->
+	
+	<string id="st_mag_m98b_magnum_300">
+		<text>M98B Magazine</text>
+	</string>
+
+	<string id="st_mag_vssk_12.7x55">
+		<text>VSSK Magazine</text>
+	</string>
+
+	<string id="st_mag_ash12_12.7x55">
+		<text>ASh-12 Magazine</text>
+	</string>
+
+	<string id="st_mag_ash12_ext_12.7x55">
+		<text>Extended ASh-12 Magazine</text>
+	</string>
+
+	<string id="st_mag_m82_12.7x55">
+		<text>Modified 12.7x55 M82 Magazine</text>
+	</string>
+
+	<string id="st_mag_saiga12s_12x70">
+		<text>Saiga-12 Magazine</text>
+	</string>
+
+	<string id="st_mag_saiga12s_ext_12x70">
+		<text>Extended Saiga-12 Magazine</text>
+	</string>
+	<string id="st_mag_saiga12s_ext_12x70_descr">
+		<text>
+		Extended Saiga-12 magazine with capacity for 12 shotshells. More shells means more mutants you can kill each each magazine.
+		</text>
+	</string>
+	
+	<string id="st_mag_usas12_12x70">
+		<text>USAS-12 Drum</text>
+	</string>
+
+	<string id="st_mag_vepr_12x70">
+		<text>Vepr-12 Magazine</text>
+	</string>
+
+	<string id="st_mag_vepr_compact_12x70">
+		<text>Compact Vepr-12 Magazine</text>
+	</string>
+
+</string_table>

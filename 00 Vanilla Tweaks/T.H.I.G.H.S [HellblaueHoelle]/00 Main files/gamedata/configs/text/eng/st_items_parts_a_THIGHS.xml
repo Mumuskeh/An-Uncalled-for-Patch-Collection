@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+<!-- Barrels-->
+	<string id="st_barrel_1">
+		<text>12ga. TOZ-34 barrel</text>
+	</string>
+	<string id="st_barrel_1_descr">
+		<text>Barrel from a TOZ-34 shotgun.\n</text>
+	</string>
+
+	<string id="st_barrel_2">
+		<text>12ga. TOZ-66 barrel</text>
+	</string>
+	<string id="st_barrel_2_descr">
+		<text>Barrel from a TOZ-66 shotgun.\n</text>
+	</string>
+
+	<string id="st_barrel_3">
+		<text>12-gauge barrel</text>
+	</string>
+	<string id="st_barrel_3_descr">
+		<text>Barrel from a 12-gauge shotgun.\n</text>
+	</string>
+
+	<string id="st_barrel_4">
+		<text>Long 7.62mm barrel</text>
+	</string>
+	<string id="st_barrel_4_descr">
+		<text>Barrel from a 7.62mm long rifle.\n</text>
+	</string>
+
+	<string id="st_barrel_5">
+		<text>7.92mm barrel</text>
+	</string>
+	<string id="st_barrel_5_descr">
+		<text>Barrel from a German 7.92mm rifle.\n</text>
+	</string>
+
+	<string id="st_barrel_6">
+		<text>9x39mm barrel/suppressor</text>
+	</string>
+	<string id="st_barrel_6_descr">
+		<text>Barrel with an integrated suppressor from an automatic special-purpose 9x39mm rifle.\n</text>
+	</string>
+
+	<string id="st_barrel_7">
+		<text>7.62mm barrel</text>
+	</string>
+	<string id="st_barrel_7_descr">
+		<text>Barrel with a gas port from a self-loading 7.62mm rifle.\n</text>
+	</string>
+
+	<string id="st_barrel_8">
+		<text>5.45mm barrel</text>
+	</string>
+	<string id="st_barrel_8_descr">
+		<text>Barrel from an automatic 5.45mm rifle.\n</text>
+	</string>
+
+	<string id="st_barrel_9">
+		<text>5.56mm barrel</text>
+	</string>
+	<string id="st_barrel_9_descr">
+		<text>Barrel from an automatic 5.56mm rifle.\n</text>
+	</string>
+
+	<string id="st_barrel_10">
+		<text>7.62mm PK barrel</text>
+	</string>
+	<string id="st_barrel_10_descr">
+		<text>Barrel from a PK machine gun.\n</text>
+	</string>
+
+	<string id="st_barrel_11">
+		<text>9mm rifle barrel</text>
+	</string>
+	<string id="st_barrel_11_descr">
+		<text>Barrel from an automatic special purpose 9mm rifle.\n</text>
+	</string>
+
+	<string id="st_barrel_12">
+		<text>7.62mm PPSh-41 barrel</text>
+	</string>
+	<string id="st_barrel_12_descr">
+		<text>Barrel from the infamous or even legendary PPSh-41 submachine gun system.\n</text>
+	</string>
+
+	<string id="st_barrel_13">
+		<text>12.7mm barrel</text>
+	</string>
+	<string id="st_barrel_13_descr">
+		<text>Barrel from a 12.7mm (.50 caliber) rifle.\n</text>
+	</string>
+
+
+<!-- Trigger mechanisms -->
+	<string id="st_trigger_components_1">
+		<text>Single-fire hammer trigger</text>
+	</string>
+	<string id="st_trigger_components_1_descr">
+		<text>Single-fire hammer-type trigger mechanism.\n</text>
+	</string>
+
+	<string id="st_trigger_components_2">
+		<text>Semi-auto/auto hammer trigger</text>
+	</string>
+
+	<string id="st_trigger_components_3">
+		<text>Semi-auto/auto/burst hammer trigger</text>
+	</string>
+	<string id="st_trigger_components_3_descr">
+		<text>Triple-mode hammer type trigger. Designed for the conduct of automatic, single and burst fire.\n</text>
+	</string>
+
+	<string id="st_trigger_components_4">
+		<text>Single-fire striker trigger
+		</text>
+	</string>
+	<string id="st_trigger_components_4_descr">
+		<text>Single-fire trigger mechanism with firing pin.\n</text>
+	</string>
+
+	<string id="st_trigger_components_5">
+		<text>Semi-auto/auto striker trigger</text>
+	</string>
+
+	<string id="st_trigger_components_6">
+		<text>Double-barrel trigger</text>
+	</string>
+	<string id="st_trigger_components_6_descr">
+		<text>Trigger mechanism from a double-barrel shotgun.\n</text>
+	</string>
+
+
+<!-- Breech blocks -->
+	<string id="st_bolt_carrier_1">
+		<text>Russian bolt carrier</text>
+	</string>
+	<string id="st_bolt_carrier_1_descr">
+		<text>Sliding bolt carrier with a turning bolt lock, produced by Warsaw-Pact manufacturers.\n</text>
+	</string>
+
+	<string id="st_bolt_carrier_2">
+		<text>9x39mm bolt carrier</text>
+	</string>
+	<string id="st_bolt_carrier_2_descr">
+		<text>Sliding bolt carrier with turning bolt lock, produced by Russian factories, from automatic weapons chambered in 9x39mm.\n</text>
+	</string>
+
+	<string id="st_bolt_carrier_3">
+		<text>NATO bolt carrier</text>
+	</string>
+
+	<string id="st_bolt_carrier_5">
+		<text>H&amp;K bolt carrier</text>
+	</string>
+	<string id="st_bolt_carrier_5_descr">
+		<text>Half-free sliding bolt carrier with a roller brake from a German H&amp;K weapon.\n</text>
+	</string>
+
+	<string id="st_bolt_carrier_6">
+		<text>Bolt-action bolt carrier</text>
+	</string>
+	<string id="st_bolt_carrier_6_descr">
+		<text>Sliding bolt carrier with a locking bolt from a bolt-action rifle.\n</text>
+	</string>
+
+	<string id="st_bolt_carrier_7">
+		<text>Mag-tube shotgun bolt carrier</text>
+	</string>
+	<string id="st_bolt_carrier_7_descr">
+		<text>Lever type bolt carrier with locking wedge from a shotgun that uses a magazine tube.\n</text>
+	</string>
+
+	<string id="st_bolt_carrier_8">
+		<text>TOZ-34 Lever</text>
+	</string>
+	<string id="st_bolt_carrier_8_descr">
+		<text>Lever system from a TOZ-34 shotgun.\n</text>
+	</string>
+
+	<string id="st_bolt_carrier_9">
+		<text>TOZ-66 Lever</text>
+	</string>
+	<string id="st_bolt_carrier_9_descr">
+		<text>Lever system from a TOZ-66 shotgun.\n</text>
+	</string>
+
+	<string id="st_bolt_carrier_10">
+		<text>NATO heavy bolt carrier</text>
+	</string>
+	<string id="st_bolt_carrier_10_descr">
+		<text>Bolt carrier from a large, Western automatic weapon.\n</text>
+	</string>
+
+	<string id="st_bolt_carrier_11">
+		<text>SMG bolt carrier</text>
+	</string>
+	<string id="st_bolt_carrier_11_descr">
+		<text>Bolt carrier from a submachine gun.\n</text>
+	</string>
+
+
+<!-- Breech heads -->
+	<string id="st_bolt_1">
+		<text>Mag-tube shotgun bolt</text>
+	</string>
+	<string id="st_bolt_1_descr">
+		<text>Bolt from a shotgun that uses a magazine tube.\n</text>
+	</string>
+
+	<string id="st_bolt_2">
+		<text>Machine gun bolt</text>
+	</string>
+	<string id="st_bolt_2_descr">
+		<text>Bolt from a machine gun.\n</text>
+	</string>
+
+	<string id="st_bolt_3">
+		<text>Self-loading shotgun bolt</text>
+	</string>
+	<string id="st_bolt_3_descr">
+		<text>Bolt from a self-loading 12ga. shotgun.\n</text>
+	</string>
+
+	<string id="st_bolt_4">
+		<text>Rifle bolt</text>
+	</string>
+	<string id="st_bolt_4_descr">
+		<text>Rotating locking bolt from a rifle.\n</text>
+	</string>
+
+	<string id="st_bolt_5">
+		<text>Sniper rifle bolt</text>
+	</string>
+	<string id="st_bolt_5_descr">
+		<text>Bolt from a full-caliber sniper rifle.\n</text>
+	</string>
+
+	<string id="st_bolt_6">
+		<text>Warsaw-Pact assault rifle bolt</text>
+	</string>
+	<string id="st_bolt_6_descr">
+		<text>Bolt from an Eastern European assault rifle.\n</text>
+	</string>
+
+	<string id="st_bolt_7">
+		<text>9A-91 bolt</text>
+	</string>
+	<string id="st_bolt_7_descr">
+		<text>Bolt from a 9A-91 compact assault rifle.\n</text>
+	</string>
+
+	<string id="st_bolt_8">
+		<text>Heavy assault rifle bolt</text>
+	</string>
+	<string id="st_bolt_8_descr">
+		<text>Bolt from a full-caliber automatic rifle.\n</text>
+	</string>
+
+	<string id="st_bolt_9">
+		<text>NATO assault rifle bolt</text>
+	</string>
+	<string id="st_bolt_9_descr">
+		<text>Bolt from a Western assault rifle.\n</text>
+	</string>
+
+	<string id="st_bolt_10">
+		<text>AUG bolt</text>
+	</string>
+	<string id="st_bolt_10_descr">
+		<text>Bolt from an AUG Austrian assault rifle.\n</text>
+	</string>
+
+	<string id="st_bolt_11">
+		<text>TOZ-34 break-action system</text>
+	</string>
+	<string id="st_bolt_11_descr">
+		<text>Break-action system from a TOZ-34 shotgun.\n</text>
+	</string>
+
+	<string id="st_bolt_12">
+		<text>TOZ-66 hammers</text>
+	</string>
+	<string id="st_bolt_12_descr">
+		<text>Right and left hammers from a TOZ-66 shotgun.\n</text>
+	</string>
+
+	<string id="st_bolt_13">
+		<text>Galil bolt</text>
+	</string>
+	<string id="st_bolt_13_descr">
+		<text>Bolt from an Israeli Galil assault rifle.\n</text>
+	</string>
+
+	<string id="st_bolt_14">
+		<text>H&amp;K bolt</text>
+	</string>
+	<string id="st_bolt_14_descr">
+		<text>Bolt from an H&amp;K rifle or SMG.\n</text>
+	</string>
+
+	<string id="st_bolt_15">
+		<text>Warsaw-Pact SMG bolt</text>
+	</string>
+	<string id="st_bolt_15_descr">
+		<text>Bolt from an Eastern European submachine gun.\n</text>
+	</string>
+
+	<string id="st_bolt_16">
+		<text>NATO SMG bolt</text>
+	</string>
+	<string id="st_bolt_16_descr">
+		<text>Bolt from a Western submachine gun.\n</text>
+	</string>
+
+	<string id="st_bolt_17">
+		<text>PPSh-41 recoil spring</text>
+	</string>
+	<string id="st_bolt_17_descr">
+		<text>Recoil spring from a PPSh-41 SMG.\n</text>
+	</string>
+
+
+<!-- Gas tubes, etc -->
+	<string id="st_gas_tube_1">
+		<text>Shotgun gas tube</text>
+	</string>
+	<string id="st_gas_tube_1_descr">
+		<text>Gas tube from a self-loading shotgun.\n</text>
+	</string>
+
+	<string id="st_gas_tube_2">
+		<text>Shotgun pump</text>
+	</string>
+	<string id="st_gas_tube_2_descr">
+		<text>Sliding forend from a pump-action shotgun.\n</text>
+	</string>
+
+	<string id="st_gas_tube_3">
+		<text>Rifle gas tube</text>
+	</string>
+
+	<string id="st_gas_tube_4">
+		<text>9mm gas tube</text>
+	</string>
+	<string id="st_gas_tube_4_descr">
+		<text>Gas tube from a 9mm assault rifle or SMG.\n</text>
+	</string>
+
+	<string id="st_gas_tube_5">
+		<text>Russian gas tube</text>
+	</string>
+	<string id="st_gas_tube_5_descr">
+		<text>Gas tube from a Russian self-loading rifle.\n</text>
+	</string>
+
+	<string id="st_gas_tube_6">
+		<text>NATO gas tube</text>
+	</string>
+	<string id="st_gas_tube_6_descr">
+		<text>Gas tube from a NATO self-loading rifle.\n</text>
+	</string>
+
+	<string id="st_gas_tube_7">
+		<text>Machine gun gas tube</text>
+	</string>
+	<string id="st_gas_tube_8">
+		<text>Bolt-action rifle ejector</text>
+	</string>
+	<string id="st_gas_tube_8_descr">
+		<text>Ejector from a bolt-action rifle.\n</text>
+	</string>
+
+	<string id="st_gas_tube_9">
+		<text>TOZ-34 extractor/ejector</text>
+	</string>
+	<string id="st_gas_tube_9_descr">
+		<text>Extractor/ejector from a TOZ-34 shotgun.\n</text>
+	</string>
+
+	<string id="st_gas_tube_10">
+		<text>TOZ-66 extractor</text>
+	</string>
+	<string id="st_gas_tube_10_descr">
+		<text>Extractor from a TOZ-66 shotgun.\n</text>
+	</string>
+
+	<string id="st_gas_tube_11">
+		<text>MP5 charging handle</text>
+	</string>
+	<string id="st_gas_tube_11_descr">
+		<text>Charging handle assembly from an MP5 submachine gun.\n</text>
+	</string>
+
+
+<!--
+WEAPONS (pistols)
+-->
+
+<!-- barrels -->
+	<string id="st_prt_w_p_barrel_3">
+		<text>.45 ACP barrel</text>
+	</string>
+	<string id="st_prt_w_p_barrel_4">
+		<text>5.7mm Five-seveN barrel</text>
+	</string>
+	<string id="st_prt_w_p_barrel_5">
+		<text>7.62mm TT-33 barrel</text>
+	</string>
+	<string id="st_prt_w_p_barrel_6">
+		<text>9x18mm PB barrel/suppressor</text>
+	</string>
+
+<!-- trigger mechanism -->
+	<string id="st_prt_w_p_trigger_2">
+		<text>Russian double-action trigger mechanism</text>
+	</string>
+	<string id="st_prt_w_p_trigger_3">
+		<text>Double-action trigger mechanism</text>
+	</string>
+	<string id="st_prt_w_p_trigger_4">
+		<text>MP412 double-action trigger mechanism</text>
+	</string>
+
+<!-- recoil spring assembly -->
+	<string id="st_prt_w_p_spring_1">
+		<text>Soviet pistol recoil spring assembly</text>
+	</string>
+	<string id="st_prt_w_p_spring_2">
+		<text>Russian 9mm recoil spring assembly</text>
+	</string>
+	<string id="st_prt_w_p_spring_3">
+		<text>.45 ACP recoil spring assembly</text>
+	</string>
+	<string id="st_prt_w_p_spring_4">
+		<text>Western 9mm recoil spring assembly</text>
+	</string>
+	<string id="st_prt_w_p_spring_5">
+		<text>TT-33 recoil spring assembly</text>
+	</string>
+	<string id="st_prt_w_p_spring_6">
+		<text>Desert Eagle recoil spring assembly</text>
+	</string>
+</string_table>

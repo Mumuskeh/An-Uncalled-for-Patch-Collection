@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_medkit">
+		<text>AI-2 medkit</text>
+	</string>
+	<string id="st_medkit_army">
+		<text>AI-2V army medkit</text>
+	</string>
+	<string id="st_medkit_science">
+		<text>AI-2N scientific medkit</text>
+	</string>
+</string_table>

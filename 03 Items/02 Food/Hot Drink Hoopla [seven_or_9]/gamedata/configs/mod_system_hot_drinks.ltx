@@ -1,0 +1,265 @@
+[tasters_choice]:booster_multi
+$spawn					= "food and drugs\ground_coffee"
+cform					= skeleton
+visual					= dynamics\ground_coffee\ground_coffee
+kind					= i_drink
+description				= st_tasters_desc
+inv_name				= st_tasters_choice
+inv_name_short			= st_tasters_choice
+cost					= 2500
+use_condition			= true
+script_binding			= bind_item.bind
+max_uses				= 16
+inv_weight				= 0.300
+empty_weight			= 0.010
+inv_grid_width			= 1
+inv_grid_height			= 2
+inv_grid_x				= 0
+inv_grid_y				= 0
+icons_texture			= ui\ui_icons_hoopla
+attach_angle_offset		= 0.000000, 0.000000, 0.000000
+attach_position_offset	= 0.000000, 0.000000, 0.000000
+attach_bone_name		= bip01_r_hand
+auto_attach				= true
+bone_name				= bip01_r_hand
+position_offset			= 0.0,0.0,0.0
+angle_offset			= 0.0,0.0,0.0
+eat_satiety				= 0.01
+eat_sleepiness			= -0.03
+eat_thirstiness			= 0.30
+use_sound				= interface\inv_eat_paperwrap_2
+tier					= 1
+
+[earl_box]:tasters_choice
+description				= st_earl_desc
+inv_name				= st_earl_grey
+inv_name_short			= st_earl_grey
+cost					= 4150
+max_uses				= 4
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 1
+inv_grid_y				= 0
+attach_angle_offset		= -0.287979, 1.560923, 1.544060
+attach_position_offset	= 0.096910, -0.013594, 0.107925
+angle_offset			= 1.570790,1.570790,3.92699
+
+[swiss_miss]:tasters_choice
+description				= st_cocoa_desc
+inv_name				= st_cocoa_warm
+inv_name_short			= st_cocoa_warm
+cost					= 2750
+max_uses				= 5
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 1
+inv_grid_y				= 1
+attach_angle_offset		= -0.287979, 1.560923, 1.544060
+attach_position_offset	= 0.096910, -0.013594, 0.107925
+angle_offset			= 1.570790,1.570790,3.92699
+
+[instant_matcha_tin]:tasters_choice
+description				= st_matcha_tin_desc
+inv_name				= st_matcha_tin
+inv_name_short			= st_matcha_tin
+cost					= 4350
+max_uses				= 5
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 2
+inv_grid_y				= 0
+attach_angle_offset		= -0.287979, 1.560923, 1.544060
+attach_position_offset	= 0.096910, -0.013594, 0.107925
+angle_offset			= 1.570790,1.570790,3.92699
+
+[carpathian_blend_bag]:tasters_choice
+description				= st_carpathian_bag_desc
+inv_name				= st_carpathian_bag
+inv_name_short			= st_carpathian_bag
+cost					= 4550
+max_uses				= 4
+inv_grid_x				= 3
+inv_grid_y				= 0
+attach_angle_offset		= -0.287979, 1.560923, 1.544060
+attach_position_offset	= 0.096910, -0.013594, 0.107925
+angle_offset			= 1.570790,1.570790,3.92699
+
+[berry_blend_bag]:tasters_choice
+description				= st_berry_blend_bag_desc
+inv_name				= st_berry_blend_bag
+inv_name_short			= st_berry_blend_bag
+cost					= 4750
+max_uses				= 4
+inv_grid_x				= 4
+inv_grid_y				= 0
+
+[yarrow_tea_blend]:tasters_choice
+description				= st_yarrow_bag_desc
+inv_name				= st_yarrow_bag
+inv_name_short			= st_yarrow_bag
+cost					= 4750
+max_uses				= 4
+inv_grid_x				= 5
+inv_grid_y				= 0
+
+[sbiten_jar]:tasters_choice
+description				= st_sbiten_jar_desc
+inv_name				= st_sbiten_jar
+inv_name_short			= st_spiten_jar
+cost					= 4750
+max_uses				= 2
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 2
+inv_grid_y				= 1
+eat_sleepiness			= -0.06
+eat_alcohol				= -0.180
+
+[gourmet_shit]:booster_multi
+$spawn					= "food and drugs\brewed_coffee"
+cform					= skeleton
+visual					= dynamics\brewed_coffee\brewed_coffee
+kind					= i_drink
+description				= st_gourmet_cup_desc
+inv_name				= st_gourmet_shit_cup
+inv_name_short			= st_gourmet_shit_cup
+cost					= 500
+use_condition			= false
+inv_weight				= 0.100
+empty_weight			= 0.010
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 6
+inv_grid_y				= 0
+attach_angle_offset		= 0.000000, 0.000000, 0.000000
+attach_position_offset	= 0.087266, -0.078540, 0.052360
+attach_bone_name		= bip01_r_hand
+auto_attach				= true
+bone_name				= bip01_r_hand
+position_offset			= 0.0,0.0,0.0
+angle_offset			= 1.570790,1.570790,3.92699
+boost_time				= 500
+boost_max_weight		= 1.2
+boost_radiation_restore	= 0.00005
+boost_power_restore		= 0.0025
+eat_alcohol				= -0.250
+eat_satiety				= 0.120
+eat_sleepiness			= -0.120
+eat_thirstiness			= -2.30
+use_sound				= interface\inv_drink_flask_2
+tier					= 1
+
+[earl_grey_hot]:gourmet_shit
+description				= st_earl_hot_desc
+inv_name				= st_earl_grey_hot
+inv_name_short			= st_earl_grey_hot
+inv_weight				= 0.33
+script_binding			= bind_item.bind
+inv_grid_x				= 6
+inv_grid_y				= 1
+auto_attach				= false
+boost_time				= 38
+boost_radiation_restore	= 0.00128
+eat_alcohol				= -0.274
+eat_satiety				= 0.050
+eat_sleepiness			= -0.225
+eat_thirstiness			= -0.195
+
+[items_earl_grey_hot_hud]:item_ea_energy_drink_nonstop_hud
+hands_position			= 0,0,0
+hands_position_16x9		= 0,0,0
+item_visual				= dynamics\brewed_coffee\brewed_coffee_hud.ogf
+anm_ea_show				= hand_coffee_drink_anim, brewed_coffee_hud_item_anims
+
+[comfy_cocoa]:gourmet_shit
+description				= st_comfy_cocoa_desc
+inv_name				= st_comfy_cocoa
+inv_name_short			= st_comfy_cocoa
+inv_grid_x				= 7
+inv_grid_y				= 0
+boost_time				= 35
+boost_radiation_restore	= 0.0004
+eat_satiety				= 0.01
+eat_sleepiness			= -0.06
+eat_thirstiness			= -3.20
+
+[berry_blend_hot]:gourmet_shit
+description				= st_berry_desc
+inv_name				= st_berry_blend_hot
+inv_name_short			= st_berry_blend_hot
+inv_weight				= 0.33
+script_binding			= bind_item.bind
+icons_texture			= ui\berry_blend_mug_icon
+inv_grid_x				= 7
+inv_grid_y				= 1
+auto_attach				= false
+boost_time				= 50
+boost_radiation_restore	= 0.00128
+eat_alcohol				= -0.304
+eat_satiety				= 0.050
+eat_sleepiness			= -0.075
+eat_thirstiness			= -0.265
+
+[instant_matcha_hot]:gourmet_shit
+description				= st_matcha_hot_desc
+inv_name				= st_instant_matcha_hot
+inv_name_short			= st_instant_matcha_hot
+inv_weight				= 0.33
+script_binding			= bind_item.bind
+inv_grid_x				= 8
+inv_grid_y				= 0
+auto_attach				= false
+boost_time				= 38
+boost_radiation_restore	= 0.00235
+eat_alcohol				= -0.350
+eat_satiety				= 0.085
+eat_sleepiness			= -0.010
+eat_thirstiness			= -0.300
+
+[carpathian_blend_hot]:gourmet_shit
+description				= st_carpathian_hot_desc
+inv_name				= st_carpathian_blend_hot
+inv_name_short			= st_carpathian_blend_hot
+inv_weight				= 0.33
+script_binding			= bind_item.bind
+inv_grid_x				= 8
+inv_grid_y				= 1
+auto_attach				= false
+boost_time				= 38
+boost_radiation_restore	= 0.00200
+eat_alcohol				= -0.350
+eat_satiety				= 0.100
+eat_thirstiness			= -0.250
+
+[yarrow_tea_hot]:gourmet_shit
+description				= st_yarrow_hot_desc
+inv_name				= st_yarrow_tea_hot
+inv_name_short			= st_yarrow_tea_hot
+inv_weight				= 0.33
+script_binding			= bind_item.bind
+inv_grid_x				= 9
+inv_grid_y				= 0
+auto_attach				= false
+boost_time				= 38
+boost_radiation_restore	= 0.00235
+eat_alcohol				= -0.350
+eat_satiety				= 0.1025
+eat_sleepiness			= -0.010
+eat_thirstiness			= -0.300
+boost_health_restore	= 0.0005
+
+[sbiten_mug_hot]:gourmet_shit
+description				= st_sbiten_hot_desc
+inv_name				= st_sbiten_hot
+inv_name_short			= st_sbiten_hot
+inv_weight				= 0.33
+script_binding			= bind_item.bind
+inv_grid_x				= 9
+inv_grid_y				= 1
+auto_attach				= false
+boost_time				= 50
+boost_radiation_restore	= 0.00128
+eat_alcohol				= -0.304
+eat_satiety				= 0.050
+eat_sleepiness			= -0.0100
+eat_thirstiness			= -0.265

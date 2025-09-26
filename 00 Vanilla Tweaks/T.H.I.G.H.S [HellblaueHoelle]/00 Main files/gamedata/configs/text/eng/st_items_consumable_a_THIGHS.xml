@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_cigar1">
+		<text>Iskra cigarettes</text>
+	</string>
+	<string id="st_cigar1_descr">
+		<text>A pack of budget, strong and very low quality "Искра" (Spark) cigarettes. Someone must have smoked most of them since there are only a few left. Genuine USSR flavour has been carefully preserved.\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect</text>
+	</string>
+	<string id="st_cigar2">
+		<text>Slava cigarettes</text>
+	</string>
+	<string id="st_cigar2_descr">
+		<text>A pack of budget, strong and very low quality "Слава" (Glory) cigarettes. Someone must have smoked most of them since there are only a few left. Genuine USSR flavour has been carefully preserved.\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect</text>
+	</string>
+	<string id="st_cigar3">
+		<text>Zvezda cigarettes</text>
+	</string>
+	<string id="st_cigar3_descr">
+		<text>A pack of budget, strong and very low quality "Звезда" (Star) cigarettes. Someone must have smoked most of them since there are only a few left. Genuine USSR flavour has been carefully preserved.\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect</text>
+	</string>
+</string_table>

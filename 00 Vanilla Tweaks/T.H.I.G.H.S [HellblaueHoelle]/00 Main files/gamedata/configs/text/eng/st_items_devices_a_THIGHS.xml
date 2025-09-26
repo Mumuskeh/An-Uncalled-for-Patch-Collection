@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_pda_2_name">
+		<text>PDA 2.0</text>
+	</string>
+	<string id="st_pda_3_name">
+		<text>PDA 3.1</text>
+	</string>
+	<string id="st_device_torch_nv_1_name">
+		<text>1PN93-1 Nightvision</text>
+	</string>
+	<string id="st_device_torch_nv_2_name">
+		<text>PN21KL Nightvision</text>
+	</string>
+	<string id="st_device_torch_nv_3_name">
+		<text>Oracle psy-stimulator</text>
+	</string>
+</string_table>

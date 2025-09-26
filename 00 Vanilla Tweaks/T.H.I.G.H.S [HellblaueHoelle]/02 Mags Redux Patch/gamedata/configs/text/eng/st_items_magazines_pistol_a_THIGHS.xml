@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_aps_9x18_fmj">
+		<text>APS Magazine</text>
+	</string>
+
+	<string id="st_mag_beretta_9x19_fmj">
+		<text>Beretta 92F Magazine</text>
+	</string>
+
+	<string id="st_mag_colt1911_11.43x23_fmj">
+		<text>Colt 1911 Magazine </text>
+	</string>
+
+	<string id="st_mag_colt_kimber_11.43x23_fmj">
+		<text>Colt Kimber Magazine</text>
+	</string>
+
+	<string id="st_mag_cz52_7.62x25_p">
+		<text>CZ-52 Magazine</text>
+	</string>
+
+	<string id="st_mag_cz75_9x19_fmj">
+		<text>CZ-75 Magazine</text>
+	</string>
+
+	<string id="st_mag_desert_eagle_357_hp">
+		<text>Desert Eagle Magazine</text>
+	</string>
+<!-- 	<string id="st_mag_desert_eagle_357_hp_descr">
+		<text>
+		Standard .357 Desert Eagle Magazine holding 7 rounds. Even the magazine is massive.
+		</text>
+	</string> -->
+
+	<string id="st_mag_fn57_5.7x28_ss190">
+		<text>Five-seveN Magazine</text>
+	</string>
+
+	<string id="st_mag_fnp45_11.43x23_fmj">
+		<text>FNP-45 Magazine</text>
+	</string>
+
+	<string id="st_mag_fnx45_11.43x23_fmj">
+		<text>FNX-45 Magazine</text>
+	</string>
+
+	<string id="st_mag_fort_9x18_fmj">
+		<text>Fort-17 Magazine</text>
+	</string>
+<!-- 	<string id="st_mag_fort_9x18_fmj_descr">
+		<text>
+		Standard-issue 17-round magazine for the Fort-12 handgun. Commonly seen in the Zone as the sidearm of backline Ukrainian Military troops or stalkers with backgrounds as police officers.
+		</text>
+	</string> -->
+
+	<string id="st_mag_glock_9x19_fmj">
+		<text>Glock Magazine</text>
+	</string>
+
+	<string id="st_mag_gsh18_9x19_fmj">
+		<text>GSh-18 Magazine</text>
+	</string>
+	<string id="st_mag_gsh18_9x19_fmj_descr">
+		<text>
+		Standard-issue GSh-18 Magazine holding 18 rounds. The GSh-18 is one of the modern sidearms used by Russian military and law enforcement.
+		</text>
+	</string>
+
+	<string id="st_mag_hpsa_9x19_fmj">
+		<text>Browning Hi-Power Magazine</text>
+	</string>
+
+	<string id="st_mag_mp443_9x19_fmj">
+		<text>MP-443 Magazine</text>
+	</string>
+
+	<string id="st_mag_oc33_9x18_fmj">
+		<text>OTs-33 Pernach Magazine</text>
+	</string>
+
+	<string id="st_mag_pm_9x18_fmj">
+		<text>PM Magazine</text>
+	</string>
+
+	<string id="st_mag_pmm_9x18_fmj">
+		<text>PMM magazine</text>
+	</string>
+
+	<string id="st_mag_pp2000_9x19_fmj">
+		<text>PP-2000 Magazine</text>
+	</string>
+
+	<string id="st_mag_sig220_11.43x23_fmj">
+		<text>SIG Sauer P220 Magazine</text>
+	</string>
+
+	<string id="st_mag_tt33_7.62x25_p">
+		<text>TT-33 Magazine</text>
+	</string>
+
+	<string id="st_mag_usp_11.43x23_fmj">
+		<text>.45 ACP USP Magazine</text>
+	</string>
+
+	<string id="st_mag_usp_9x19_fmj">
+		<text>9x19 USP Magazine</text>
+	</string>
+
+	<string id="st_mag_walther_9x19_fmj">
+		<text>Walther P99 Magazine</text>
+	</string>
+
+	<string id="st_mag_bizon_9x18_fmj">
+		<text>PP-19 Magazine </text>
+	</string>
+
+	<string id="st_mag_kiparis_9x18_fmj">
+		<text>Kiparis Magazine</text>
+	</string>
+
+	<string id="st_mag_vityaz_9x19_fmj">
+		<text>Vityaz-SN Magazine</text>
+	</string>
+
+	<string id="st_mag_vz61_9x19_fmj">
+		<text>9x19 vz.68 Magazine</text>
+	</string>
+	<string id="st_mag_vz61_9x19_fmj_descr">
+		<text>
+		20-round modified Vz.61 magazine. A reliable weapon that enjoys immense popularity with the criminal underworld.
+		</text>
+	</string>
+
+	<string id="st_mag_vz61_9x18_fmj">
+		<text>9x18 vz.65 Magazine</text>
+	</string>
+
+	<string id="st_mag_p90_5.7x28_ss190">
+		<text>P90 Magazine</text>
+	</string>
+
+	<string id="st_mag_ppsh41_7.62x25_p">
+		<text>PPSh41 Drum</text>
+	</string>
+
+	<string id="st_mag_mp5_9x19_fmj">
+		<text>MP5 Magazine</text>
+	</string>
+
+	<string id="st_mag_ump45_11.43x23_fmj">
+		<text>UMP Magazine</text>
+	</string>
+
+</string_table>

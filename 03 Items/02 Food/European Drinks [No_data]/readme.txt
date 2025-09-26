@@ -14,6 +14,8 @@ DLTX conversion.
 Fixed trader file, and allows you to sell the drinks.
 The icons are gathered into a single file and the items file DLTXd.
 
+Added basic animation settings.
+
 Integrated into vanilla stash and rewards systems.
 
 Grok's Stash Overhaul integration.

@@ -12,10 +12,15 @@ The Fixes option reorganizes the icons file to group them up in a more compact m
 
 The Lite options includes the same, and to avoid item bloat for lower spec PCs, disables certain items like miscellanous junk and food, leaving only ammo boxes, repair tools, and turn in objects (Snitch's phones, ecologists' equipment, technicians' parts and toolkits, intel docs).
 
+Added basic animation settings.
+
 Grok's Stash Overhaul integration. The more a item can be sold for to particular NPCs (phones, documents, etc), the rarer it will be.
 
 ----------------------------------------------------------
 -Patches:
+
+Food Poisoning
+Price of MRE parts increased, to conform to FP standards.
 
 ----------------------------------------------------------
 -Known issues:

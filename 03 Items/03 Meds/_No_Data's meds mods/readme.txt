@@ -33,6 +33,9 @@ For Lootboxes, if you were complaining about getting too many bandages and stand
 
 It would also be neat to make a certain per faction/area loot chance for the faction medkits. Will look in the future.
 
+
+A version for Food Poisoning is provided for Minor Meds and the merge. It will disable Minor Meds' active charcoal in favor of Food Poisoning.
+
 ----------------------------------------------------------
 -Patches:
 

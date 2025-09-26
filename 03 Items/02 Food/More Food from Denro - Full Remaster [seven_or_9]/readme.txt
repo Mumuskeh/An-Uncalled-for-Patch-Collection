@@ -13,11 +13,18 @@ New Food seems a bit better balanced, even if keeping more items from the origin
 ----------------------------------------------------------
 -Explanation:
 Configs file spring cleaned a bit.
-Allows you to sell the items.
-Again, icons file remade because holy crap what's with using 128MB files for this the games allows you to use your own files why do you people have to be like this aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-
+Streamlined trade files. Allows you to sell the items.
+Icons moved into a file of their own, sharpened up a little bit, and reorganized.
 
 ----------------------------------------------------------
 -Patches:
+
+Food Poisoning
+Tweaks food to the standards of Food Poisoning.
+Chewing gum won't sate hunger nor thirst, but it will help with alcohol and sleep.
+
+Western Goods
+Repeating items are disabled in favor of Western Goods.
 
 ----------------------------------------------------------
 -Known issues:

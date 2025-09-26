@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_helm_battle">
+		<text>S10 gas mask with Mk 6 Helmet</text>
+	</string>
+
+	<string id="st_helm_battle_descr">
+		<text>%c[ui_gray_1]A British ballistic-nylon helmet used in conjunction with an S10 gas mask. This equipment is in common use among Mercenaries, and to some extent, the partially Western-funded Ukrainian military, who typically use it in tandem with PSZ-series body armour. Overall, these pieces of headgear provide some of the best combat-oriented protection in the Zone, and is in demand among any wealthy stalker who expects to get caught in a serious battle.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_respirator">
+		<text>PBF gas mask</text>
+	</string>
+
+	<string id="st_helm_respirator_descr">
+		<text>%c[ui_gray_1]A Soviet ShMB gas mask, quite unique in its use of large integrated cheek filters. A few of these masks have been upgraded by Monolith technicians to have a single horizontal visor. As a general rule, masks like this offer respectable protection in areas of increased radioactive activity, but suffer from a high failure rate in toxic environments and have negligible protection against physical impacts, rapidly breaking when placed under such conditions.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_m40">
+		<text>S10 gas mask</text>
+	</string>
+	<string id="st_helm_m40_descr">
+		<text>%c[ui_gray_1]This S10 is equipped with a multilayered 40-millimetre breathing filter placed on the left. This mask provides respectable radiation and chemical protection for extended periods, even after suffering damage. This gas mask is mass-produced for the British SAS, and finds great use among Mercenaries.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_tactic">
+		<text>PMK gas mask with Lynx helmet</text>
+	</string>
+	<string id="st_helm_tactic_descr">
+		<text>%c[ui_gray_1]A modern, high quality helmet with a military gas mask. The design consists of a metal helmet and visor to protect the wearer from severe physical harm. The helmet is also upgraded with composite dielectric materials, thereby granting the wearer greater insulation from shock than most similar models. Most commonly used by the Zone's Spetsnaz operators, especially in conjunction with the PS5 body armour series.\n \n
+		</text>
+	</string>
+
+	<string id="helm_ach7">
+		<text>ACH-z headgear set</text>
+	</string>
+	<string id="helm_ach7_descr">
+		<text>%c[ui_gray_1]The ACH-z (Advanced Combat Helmet (zone)) is a more modern and specialized version of the American Kevlar helmet. It is marginally better at stopping shrapnel. Its main draw, however, is its surprising resistance to psychic attacks, along with its unexpectedly low cost. That said, its lack of a respiratory device makes it an extremely poor choice for the Zone's conditions overall, and is typically only purchased by rookies brave enough to investigate psy-anomalies so early in their stalking careers.\n \n
+		</text>
+	</string>
+
+	<string id="helm_ach7ex">
+		<text>ACH-zA1 headgear set</text>
+	</string>
+	<string id="helm_ach7ex_descr">
+		<text>%c[ui_gray_1]The ACH-zA1 is an "Extended" version of the original ACH-z headgear set. The inclusion of a respiratory system alone makes this model a major improvement over its predecessor. Boasting chemical and radiological protection somewhere between that of a GP-5 and a PBF kit, along with respectable physical protection makes this headgear an appealing choice for many stalkers who are looking for a good but economical balance between anomalous and combat protection.\n \n
+		</text>
+	</string>
+
+</string_table>

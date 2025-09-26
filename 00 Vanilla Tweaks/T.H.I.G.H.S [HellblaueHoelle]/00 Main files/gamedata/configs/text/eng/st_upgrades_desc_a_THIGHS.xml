@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_up_armor_1_descr">
+		<text>Reinforced plates that improve armor efectiveness.</text>
+	</string>
+
+	<string id="st_up_durability_2_name">
+		<text>"Shield" high durability protective frame</text>
+	</string>
+
+	<string id="st_up_weight_2_name">
+		<text>Lighter aluminium frame</text>
+	</string>
+
+	<string id="st_up_weight_3_name">
+		<text>Lighter synthetic and plastic components</text>
+	</string>
+
+	<string id="st_up_tele_1_name">
+		<text>Psy-protection band</text>
+	</string>
+	<string id="st_up_tele_1_descr">
+		<text>The closed band made of paired steel grills has been demonstrated to provide partial protection against direct psy-emissions.</text>
+	</string>
+	<string id="st_up_helm_tele_1_name">
+		<text>Psy-Dome band</text>
+	</string>
+
+	<string id="st_up_bleed_2_name">
+		<text>"Hydra" haemoglobin injector</text>
+	</string>
+
+	<string id="st_up_health_1_name">
+		<text>"Fury" adrenalin injector</text>
+	</string>
+
+	<string id="st_up_health_2_name">
+		<text>"Phoenix" restoration system</text>
+	</string>
+
+</string_table>

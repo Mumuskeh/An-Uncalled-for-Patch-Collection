@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_guitar_descr">
+		<text>Guitar is a string instrument widely used by stalkers of all factions throughout the Zone in order to raise spirits and fraternize. Stalkers can often be seen playing the guitar in camps, outposts or other places of relative safety - usually by the fire.\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item</text>
+	</string>
+
+	<string id="st_walkie">
+		<text>Broken walkie-talkie</text>
+	</string>
+	
+	<string id="st_synthrope">
+		<text>2 synthetic ropes</text>
+	</string>
+	<string id="st_synthrope_descr">
+		<text>Synthetic ropes are commonly found in military warehouses, but for some reason few military stalkers actually carry them. A good rope serves many purposes, especially in a place like the Zone. Many stalkers can put this to good use, which generates a rather high trading value. Each is about 5 metres long.\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item</text>
+	</string>
+	
+	<string id="st_radio">
+		<text>Broken radio</text>
+	</string>
+	<string id="st_radio_descr">
+		<text>Music is a good way to calm your nerves, but with a broken antenna, this radio is of little use. Moisture and dirt have also damaged this item.\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_red] • %c[ui_gray_2] broken beyond repair\n
+		%c[d_red] • %c[ui_gray_2] unusable</text>
+	</string>
+
+	<string id="st_hand_watch">
+		<text>Wristwatch</text>
+	</string>
+	<string id="st_hand_watch_descr">
+		<text>An old, classic Soviet "Raketa" watch. Looks like it's still in a good shape. It's not surprising that many stalkers prefer mechanical watches over PDAs for usual time checking. Giving the fact that those watches are reliable and durable even at the worst situations, they come in handy where PDAs fail due to strong electromagnetic waves coming from emissions or nearby anomaly fields. However, some simply wear them as a style accessory.\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belongings\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] valuable</text>
+	</string>
+</string_table>

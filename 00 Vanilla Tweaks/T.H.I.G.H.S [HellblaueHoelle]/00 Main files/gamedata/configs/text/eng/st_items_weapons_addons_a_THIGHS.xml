@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_addon_scope_ac10632">
+		<text>Barska Electro Sight</text>
+	</string>
+	
+	<string id="st_addon_scope_acog">
+		<text>ACOG scope</text>
+	</string>
+	
+	<string id="st_addon_scope_eotech">
+		<text>EOTech sight</text>
+	</string>
+	
+	<string id="st_addon_sil_45">
+		<text>Black Box .45 suppressor</text>
+	</string>
+	<string id="st_addon_sil_45_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] .45 calibre weapons\n \n%c[ui_gray_1]Suppressor for .45 ACP pistols and submachine guns. This model is known to be one of the most effective "dry" .45 ACP suppressors in the world. It was designed by Advanced Armament Corporation in the USA for environments in which lubricating a suppressor is not always practical.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]very high</text>
+	</string>
+	
+	<string id="st_addon_sil_57">
+		<text>FN Attenuator suppressor</text>
+	</string>
+	<string id="st_addon_sil_57_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 5.7x28mm weapons\n \n%c[ui_gray_1]Suppressor for the FN-P90 PDW. Manufactured by FN Herstal, the maker of the P90, the Attenuator fits like a glove on the gun.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]high</text>
+	</string>
+	
+	<string id="st_addon_sil_6p9">
+		<text>6P9 suppressor (UNUSED ITEM)</text>
+	</string>
+	
+	<string id="st_addon_sil_9a91">
+		<text>9A-91 suppressor</text>
+	</string>
+	<string id="st_addon_sil_9a91_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 9x39mm weapons\n \n%c[ui_gray_1]Suppressor for the 9A-91 carbine. The VSK-94 also comes with this attatchment, but it is not meant to be removed from the weapon.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]very high</text>
+	</string>
+
+	<string id="st_addon_sil_9mm_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 9mm weapons\n \n%c[ui_gray_1]Suppressor for 9mm pistols and submachine guns. An effective sound suppressor for calibre 9mm weapons. It is very archaic and yet quite effective. Its body contains a tightly-packed roll of fine brass mesh. The front of the unit comprises a set of rubber wipes with calibre-sized holes for the bullet to pass through. Normally used for close-combat engagements against lightly-armoured enemies and for assassinations.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]very high</text>
+	</string>
+	
+	<string id="st_addon_sil_aps">
+		<text>APB suppressor</text>
+	</string>
+	<string id="st_addon_sil_aps_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 9x18mm weapons\n \n%c[ui_gray_1]Suppressor for the APS and OTs-33 pistols, after their barrels have been threaded to accept it. This model originally belonged to an APB, an exceedingly rare variant of the APS that was modified to fit a suppressor.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
+	</string>
+
+	<string id="st_addon_sil_atg_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 5.56x45mm and 7.62x39mm weapons\n \n%c[ui_gray_1]Suppressor for the AK-100 series of rifles. The ATG (Автоматный Тактический Глушитель - "Tactical Assault Rifle Suppressor") is a modernized form of the PBS-1.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
+	</string>
+	
+	<string id="st_addon_sil_gemtech">
+		<text>Gemtech Blackside-45 suppressor</text>
+	</string>
+	<string id="st_addon_sil_gemtech_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 9x19mm and .45 calibre weapons\n \n%c[ui_gray_1]Suppressor for sevral modern handguns and SMGs. Designed to be durable and compact, this American-made aluminum device can be used "wet" or "dry" (with or without lubricants). It was originally designed by a military request for a small but effective suppressor for the M1911A1. Since then, it has found a place among Stalkers, for whom reliability and low weight are king.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]high</text>
+	</string>
+	
+	<string id="st_addon_sil_kzrzp">
+		<text>KZRZP SVD suppressor</text>
+	</string>
+	<string id="st_addon_sil_kzrzp_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 7.62mm weapons\n \n%c[ui_gray_1]Suppressor for the SVD sniper rifle. "KZRZP" is a designation of Russian-built suppressors. This model was specifically constructed with the SVD in mind, although a standard SVD does not have the correct threading from the factory, so it must be re-threaded. It can also be used on other 7.62mm rifles after their barrels have been also threaded to accept it.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
+	</string>
+
+	<string id="st_addon_sil_nato_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 5.56x45mm and 7.62x51mm weapons\n \n%c[ui_gray_1]Suppressor for standard NATO rifles. Without any serial number, this model has likely been produced by or for the Mercenaries. It is quite a versatile device with a simple and durable design.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]high</text>
+	</string>
+
+	<string id="st_addon_sil_pbs1_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 7.62mm, 9mm and 12-gauge weapons\n \n%c[ui_gray_1]Suppressor for the older AK models, such as the AKM and AK-47, as well as the 9mm Kalashnikov SMGs and the 12ga. Kalashnikov shotguns. It was introduced in the 1960s for use mostly among Spetsnaz and KGB, and saw widespread use in the Soviet-Afghan War of the 1980s. It is composed of two parts: a wider rubber wipe section in the back, and a narrower baffle section in the front. The former seems to have not been replaced in a long time. In fact, the tediousness of replacing the wipes is what lead to the development of the VSS and AS Val integrally silenced rifles.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
+	</string>
+
+	<string id="st_addon_sil_pbs4_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 5.45x39mm weapons\n \n%c[ui_gray_1]Suppressor for AKS-74U rifle. It was often issued with the AKS-74UB special variant alongside subsonic rounds.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
+	</string>
+	
+	<string id="st_addon_sil_sr25">
+		<text>KAC SR-25 suppressor</text>
+	</string>
+	<string id="st_addon_sil_sr25_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 7.62x51mm weapons\n \n%c[ui_gray_1]Suppressor for the SR-25. Produced by the maker of the SR-25, Knight's Armament Company, this suppressor comes in the same military-issue kit as the rifle.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]high</text>
+	</string>
+
+	<string id="st_addon_sil_tgp-a_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 5.45x39mm weapons\n \n%c[ui_gray_1]Suppressor for AK-74 rifles and RPK-74 machine guns. It was created in the mid-1980s due to a lack of a suppressor design for the 5.45x39mm round.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
+	</string>
+
+	<string id="st_addon_sil_vihr_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 9x39mm weapons\n \n%c[ui_gray_1]Suppressor for the SR-3M carbine. This model is very similar to the VSS/Val suppressor, but it differs in that it can be quickly and easily attatched to and detatched from the weapon.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]very high</text>
+	</string>
+	
+	<string id="st_addon_silencer">
+		<text>US Army smallbore rifle suppressor (UNUSED ITEM)</text>
+	</string>
+	<string id="st_addon_silencer_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 5.56x45mm weapons \n \n%c[ui_gray_1]Advanced rifle suppressor of US design and manufacture, which has apparently 'disappeared' from one of the US Army supply containers. It consists of hi-grade steel body filled with four extension chambers, followed by a series of Z-type titanium baffles. The unit almost completely reduces muzzle flash and considerably suppresses sound emitted when firing. It also requires minimum maintenance. Suppressors of this and similar types are commonly used on all smallbore Western-made rifles and remain in active service in Western armed forces.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_prop_underbarrel_slot">
+		<text>Underbarrel mount</text>
+	</string>
+
+	<string id="st_up_add_a4_name">
+		<text>Extended magazines</text>
+	</string>
+
+	<string id="st_up_add_b1_name">
+		<text>Rechamber to 5.45x39</text>
+	</string>
+
+	<string id="st_up_add_b2_name">
+		<text>Rechamber to 5.56x45</text>
+	</string>
+
+	<string id="st_up_add_b3_name">
+		<text>Rechamber to 9x18</text>
+	</string>
+
+	<string id="st_up_add_b4_name">
+		<text>Rechamber to 9x19</text>
+	</string>
+
+	<string id="st_up_add_b5_name">
+		<text>Rechamber to 7.62x39</text>
+	</string>
+
+	<string id="st_up_add_b6_name">
+		<text>Rechamber to 7.62x51</text>
+	</string>
+
+	<string id="st_up_add_b7_name">
+		<text>Rechamber to 7.62x54</text>
+	</string>
+
+	<string id="st_up_autd_b2_name">
+		<text>Round positioning unit</text>
+	</string>
+
+	<string id="st_up_autd_b4_name">
+		<text>Additional gas cylinder</text>
+	</string>
+
+	<string id="st_up_autd_b5_name">
+		<text>Gas motor</text>
+	</string>
+
+	<string id="st_up_autd_c3_name">
+		<text>Inertial automatic system</text>
+	</string>
+
+	<string id="st_up_autd_c5_name">
+		<text>Automatic driving rod</text>
+	</string>
+	<string id="st_up_auth_a1_descr">
+		<text>An active counterweight moves from the bolt frame, partially compensating for recoil.</text>
+	</string>
+	<string id="st_up_auth_a1_name">
+		<text>Active counterweight</text>
+	</string>
+
+	<string id="st_up_auth_b1_name">
+		<text>Blowback roller compensation system</text>
+	</string>
+
+	<string id="st_up_auth_c2_descr">
+		<text>When the weapon is fired, the bolt frame counterweight moves in the opposite direction to the bolt, which allows for more comfortable firing of the machine gun.</text>
+	</string>
+	<string id="st_up_auth_c2_name">
+		<text>Self-regulating counterweight</text>
+	</string>
+	<string id="st_up_auto_a1_descr">
+		<text>A counterweight is installed as an additional component into the receiver to reduce recoil by means of counter force.</text>
+	</string>
+	<string id="st_up_auto_a1_name">
+		<text>Addition of a mobile counterweight</text>
+	</string>
+
+	<string id="st_up_auto_b2_name">
+		<text>Barrel closing device</text>
+	</string>
+
+	<string id="st_up_auto_c1_name">
+		<text>Blowback speed reduction device</text>
+	</string>
+
+	<string id="st_up_auto_c5_name">
+		<text>Stopping device</text>
+	</string>
+
+	<string id="st_up_auto_c6_name">
+		<text>"Smart compensation" component</text>
+	</string>
+
+	<string id="st_up_auts_a1_name">
+		<text>Trigger release regulation mechanism</text>
+	</string>
+
+	<string id="st_up_auts_a2_name">
+		<text>Advance notice trigger</text>
+	</string>
+
+	<string id="st_up_auts_b3_name">
+		<text>Automatic three-position gas regulation device</text>
+	</string>
+
+	<string id="st_up_auts_c2_descr">
+		<text>Sanding of the bolt allows a sniper rifle to be fired much faster.</text>
+	</string>
+	<string id="st_up_auts_c2_name">
+		<text>Smooth bolt</text>
+	</string>
+
+	<string id="st_up_auts_c3_name">
+		<text>Stopping device</text>
+	</string>
+
+	<string id="st_up_bar_a2_name">
+		<text>Free-floating barrel</text>
+	</string>
+
+	<string id="st_up_bar_a3_name">
+		<text>Finned barrel</text>
+	</string>
+
+	<string id="st_up_bar_b2_name">
+		<text>Additional rifling</text>
+	</string>
+
+	<string id="st_up_bar_b3_name">
+		<text>Barrel with a simplified rifled section</text>
+	</string>
+
+	<string id="st_up_bar_c1_name">
+		<text>Barrel with a polygon rifled section</text>
+	</string>
+
+	<string id="st_up_bard_b3_name">
+		<text>Longer barrel</text>
+	</string>
+
+	<string id="st_up_bard_b5_name">
+		<text>Longer barrel</text>
+	</string>
+
+	<string id="st_up_bard_b6_name">
+		<text>Protective sputter for the internal part of the barrel</text>
+	</string>
+
+	<string id="st_up_bard_c5_descr">
+		<text>When the weapon is fired, an active counterweight simultaneously moves to the muzzle section of the barrel, thus compensating for part of the recoil.</text>
+	</string>
+	<string id="st_up_bard_c5_name">
+		<text>Active counterweight for the barrel jacket</text>
+	</string>
+	<string id="st_up_bard_c6_descr">
+		<text>The weapon accepts cheap rounds meant for PK machine guns.</text>
+	</string>
+	<string id="st_up_bard_c6_name">
+		<text>PK ammunition</text>
+	</string>
+
+	<string id="st_up_barp_a3_name">
+		<text>Shortened barrel</text>
+	</string>
+
+	<string id="st_up_barp_b1_name">
+		<text>Chrome-lined barrel</text>
+	</string>
+
+	<string id="st_up_barp_b2_name">
+		<text>Rubber separators.</text>
+	</string>
+
+	<string id="st_up_barp_b3_name">
+		<text>Barrel with a simplified rifled section</text>
+	</string>
+
+	<string id="st_up_barp_c2_name">
+		<text>Barrel with a polygon rifled section</text>
+	</string>
+
+	<string id="st_up_pri_b1_name">
+		<text>Amortization shoulder rest</text>
+	</string>
+
+	<string id="st_up_pri_c1_name">
+		<text>Bolt assembly gas buffer</text>
+	</string>
+
+	<string id="st_up_pri_c3_name">
+		<text>Mobile counterweight</text>
+	</string>
+
+	<string id="st_up_ret_b2_descr">
+		<text>A stiffer recoil spring sends the bolt assembly back into battery faster than the normal one.</text>
+	</string>
+	<string id="st_up_ret_b2_name">
+		<text>Stiff recoil spring</text>
+	</string>
+
+	<string id="st_up_ret_c3_descr">
+		<text>Replacement of the return mechanism with a more powerful version comprising two spring guides and recoil springs. Increases the weapon's rate of fire.</text>
+	</string>
+	<string id="st_up_ret_c3_name">
+		<text>Double recoil springs</text>
+	</string>
+
+	<string id="st_up_stk_a1_descr">
+		<text>Sevral unnoticable cutouts in the stock to decrease weight. The advantage of this common modification is reduced weight without a fall in reliability.</text>
+	</string>
+	<string id="st_up_stk_a1_name">
+		<text>Stock lightening cuts</text>
+	</string>
+
+	<string id="st_up_stk_a2_name">
+		<text>High-durability alloy receiver</text>
+	</string>
+
+	<string id="st_up_stk_a3_name">
+		<text>Addition of counterweight to the steel box</text>
+	</string>
+
+	<string id="st_up_stk_c3_descr">
+		<text>A more modern and ergonomic pistol grip improves handling greatly.</text>
+	</string>
+	<string id="st_up_stk_c3_name">
+		<text>Pistol grip replacement</text>
+	</string>
+
+	<string id="st_up_stvd_b1_name">
+		<text>Addition of a counterweight</text>
+	</string>
+	<string id="st_up_stvd_b2_descr">
+		<text>A more modern and comfortable grip simplifies weapon handling.</text>
+	</string>
+	<string id="st_up_stvd_b2_name">
+		<text>Ergonomic grip</text>
+	</string>
+
+	<string id="st_up_stvd_c2_descr">
+		<text>A free-moving impulse counterweight component, which moves from the bolt when the weapon is fired and absorbs some of the recoil.</text>
+	</string>
+	<string id="st_up_stvd_c2_name">
+		<text>Addition of an impulse counterweight</text>
+	</string>
+
+	<string id="st_up_stvp_b1_descr">
+		<text>Sevral unnoticable cuts in the pistol frame to decrease weight. This does not affect the weapon's reliability.</text>
+	</string>
+	<string id="st_up_stvp_b1_name">
+		<text>Lightening cuts</text>
+	</string>
+	<string id="st_up_stvp_b2_descr">
+		<text>A more modern and comfortable grip simplifies weapon handling.</text>
+	</string>
+	<string id="st_up_stvp_b2_name">
+		<text>Ergonomic grip</text>
+	</string>
+
+	<string id="st_up_stvp_b5_descr">
+		<text>A new hand grip makes for a more ergonomic handle shape.</text>
+	</string>
+	<string id="st_up_stvp_b5_name">
+		<text>Grip replacement</text>
+	</string>
+
+	<string id="st_up_usm_a2_name">
+		<text>Lighter trigger</text>
+	</string>
+
+	<string id="st_up_usmp_b1_name">
+		<text>Lighter trigger</text>
+	</string>
+
+	<string id="st_up_zat_b2_descr">
+		<text>A second piston moves the counterweight, compensating for the bolt mechanism movement impulse.</text>
+	</string>
+
+	<string id="st_up_zatp_c6_descr">
+		<text>Modernization of the weapon's automatic parts suitable for automatic fire.</text>
+	</string>
+
+	<string id="st_up_zatp_c7_descr">
+		<text>Improvement of the weapon's automatic parts suitable for three round burst fire.</text>
+	</string>
+
+</string_table>

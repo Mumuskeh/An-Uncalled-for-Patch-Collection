@@ -1,0 +1,150 @@
+[paracetamol]:booster_multi
+$spawn						= "food and drugs\paracetamol"
+visual						= dynamics\equipments\medical\drug_sleeping_pills.ogf
+kind						= i_medical
+description					= st_paracetamol_descr
+cost						= 1800
+icons_texture				= ui\ui_icon_minormeds ; ui\ui_icon_paracetamol
+inv_name					= st_paracetamol
+inv_name_short				= st_paracetamol
+
+script_binding				= bind_item.bind
+inv_weight					= 0.05
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 0
+inv_grid_y					= 0
+
+max_uses					= 5
+boost_time					= 300
+boost_wound_immunity		= 0.05
+boost_fire_wound_immunity	= 0.05
+boost_explosion_immunity	= 0.05
+boost_strike_immunity		= 0.06
+eat_thirstiness				= 0.1
+
+use_sound					= interface\inv_eat_pills_2
+use_condition				= true
+remove_after_use			= true
+empty_weight				= 0.1
+tier						= 1
+
+[multivitamin]:booster_multi
+$spawn						= "food and drugs\multivitamin"
+visual						= dynamics\equipments\medical\drug_coagulant.ogf
+kind						= i_medical
+description					= st_multivitamin_descr
+cost						= 2500
+icons_texture				= ui\ui_icon_minormeds ; ui\ui_icon_multivitamin
+inv_name					= st_multivitamin
+inv_name_short				= st_multivitamin
+
+script_binding				= bind_item.bind
+inv_weight					= 0.05
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 1 ; 0
+inv_grid_y					= 0
+
+max_uses					= 5
+boost_time					= 300
+boost_health_restore		= 0.0001
+eat_thirstiness				= 0.05
+
+use_sound					= interface\inv_eat_pills_2
+use_condition				= true
+remove_after_use			= true
+empty_weight				= 0.1
+tier						= 1
+
+; [active_charcoal]:booster_multi
+; $spawn						= "food and drugs\active_charcoal"
+; visual						= dynamics\equipments\medical\drug_radioprotector.ogf
+; kind						= i_medical
+; description					= st_active_charcoal_descr
+; cost						= 300
+; icons_texture				= ui\ui_icon_minormeds ; ui\ui_icon_active_charcoal
+; inv_name					= st_active_charcoal
+; inv_name_short				= st_active_charcoal
+
+; script_binding				= bind_item.bind
+; inv_weight					= 0.05
+; inv_grid_width				= 1
+; inv_grid_height				= 1
+; inv_grid_x					= 2 ; 0
+; inv_grid_y					= 0
+
+; max_uses					= 2
+; boost_time					= 5
+; eat_alcohol					= -0.5
+; eat_thirstiness				= 0.1
+; facmeds_effect_blurriness	= -30
+
+; use_sound					= interface\inv_eat_pills_2
+; use_condition				= true
+; remove_after_use			= true
+; empty_weight				= 0.1
+; tier						= 1
+
+[iodine]:booster_multi
+$spawn						= "food and drugs\iodine"
+visual						= dynamics\equipments\medical\drug_sleeping_pills.ogf
+kind						= i_medical
+description					= st_iodine_descr
+cost						= 2000
+icons_texture				= ui\ui_icon_minormeds ; ui\ui_icon_iodine
+inv_name					= st_iodine
+inv_name_short				= st_iodine
+
+script_binding				= bind_item.bind
+inv_weight					= 0.05
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 3 ; 0
+inv_grid_y					= 0
+
+max_uses					= 5
+boost_time					= 30
+boost_radiation_restore		= 0.00065
+boost_radiation_protection	= 0.00104
+eat_thirstiness				= 0.1
+facmeds_effect_blurriness	= 15
+
+use_sound					= interface\inv_eat_pills_2
+use_condition				= true
+remove_after_use			= true
+empty_weight				= 0.1
+tier						= 1
+
+[tramadol]:booster_multi
+$spawn						= "food and drugs\tramadol"
+visual						= dynamics\equipments\medical\antirad_kalium.ogf
+kind						= i_medical
+description					= st_tramadol_descr
+cost						= 3600
+icons_texture				= ui\ui_icon_minormeds ; ui\ui_icon_tramadol
+inv_name					= st_tramadol
+inv_name_short				= st_tramadol
+
+script_binding				= bind_item.bind
+inv_weight					= 0.05
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 4 ; 0
+inv_grid_y					= 0
+
+max_uses					= 5
+boost_time					= 300
+boost_wound_immunity		= 0.174
+boost_fire_wound_immunity	= 0.100
+boost_explosion_immunity	= 0.180
+boost_strike_immunity		= 0.137
+eat_alcohol					= 0.15
+eat_thirstiness				= 0.2
+eat_health					= 0.01
+
+use_sound					= interface\inv_eat_pills_2
+use_condition				= true
+remove_after_use			= true
+empty_weight				= 0.1
+tier						= 1
