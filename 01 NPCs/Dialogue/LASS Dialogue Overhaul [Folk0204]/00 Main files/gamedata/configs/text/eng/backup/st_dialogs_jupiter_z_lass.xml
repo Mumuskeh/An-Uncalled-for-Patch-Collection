@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+<!-- (Monolith Mechanic - Jupiter factory) -->
+	<string id="mechanic_monolith_jup_depo_start_0">
+		<text>Salutations, fellow sister. My duty is to provide technical support for our brethren in the area.</text>
+	</string>
+
+<!-- Garry (Guide) -->
+	<string id="meet_guid_jup_1">
+		<text>Nice to meet you, sis. Name's Garry, and I'm a guide - I usually roam around the centre of the Zone. I can take you to the Bar, Pripyat, the Red Forest, Zaton and the Jupiter Underground.</text>
+	</string>
+
+	<!-- Trapper (Loner) in Yanov -->
+	<string id="jup_trapper_about_retire_1">
+		<text>I’m getting old, girl. That’s why Fox died... He was my partner, and one of my best friends. We hunted many a beast together, shoulder to shoulder... Then we ran into these two chimeras by Zaton that haven’t been seen in the Zone for eighteen months... One knocked Fox to the ground before I could even get my shotgun out. When I wounded the other one, they ran off... I hope they burn in hell forever!</text>
+	</string>
+
+	<!-- -->
+	<string id="jup_a6_stalker_medik_need_health_care_11113">
+		<text>Then... To a good death, friend.</text>
+	</string>
+
+    <!-- Hawaiian (Bartender at Yanov Station) -->
+	<string id="hawaiian_yanov_1">
+		<text>Welcome to Yanov Station, fellow stalker! Full of jolly people! Yes...full of them! Friends and companions that you can talk, drink and gamble with between trips through the Zone. Wanna buy something to help you out? Between Ashot and I, we've got you covered, lass. Better safe than sorry!</text>
+	</string>
+
+</string_table>

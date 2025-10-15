@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="esc_m_trader_task_3_fetch_finish">
+		<text>That's my girl! This should teach these punks to think twice before messing with free stalkers. Keep up the rhythm, and you'll see how your name will be feared among them. Here's your reward - you've earned it, lass.</text>
+	</string>
+
+	<!-- Nimble (Loner Trader) Find Weapon Task -->
+	<string id="esc_2_12_stalker_nimble_task_1_fetch_about">
+		<text>%s... That is what I need, but it must be in mint condition. The client is paying top dollar, and he doesn't want a rusty piece of shit that will jam up in a life or death situation. I'll give you most of the profit since you are doing all the work. Come back when you find it, girl.</text>
+	</string>
+
+	<!-- Xenotech (Loner Mechanic) Find Level 1 Toolkit Task -->
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_about">
+		<text>I need a favour, girl. A lot of stalkers have come by here asking if I can tune their weapons a certain way but I can't. Between the bandits and the military, I've lost all my tools. If you could get me some more - even just some basic ones - I could start performing upgrades on equipment and maybe help the Cordon become more than just a place for rookies. So, girl, will you help me out?</text>
+	</string>
+
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_3_fetch_about">
+		<text>Thank you, lass. Remember, these are expert tools for calibration work. Try not to break them on a pseudogiant or something. But in all seriousness - I appreciate you agreeing to do this. Take care.</text>
+	</string>
+
+<!-- Fanatic -->
+	<string id="esc_2_12_stalker_fanat_task_1_name">
+		<text>Culling the Den</text>
+	</string>
+
+	<string id="esc_2_12_stalker_fanat_task_1_about">
+		<text>Mutants in the Cordon aren't too bad - they give rookies something to overcome and learn from in the Zone. The problem is when they set up a lair. Ever seen a pack of angry boars? Last time, we had to blow them to pieces with grenades just to let rookies walk around freely. It was ugly, and I don't want that happening again for the safety of the rookies. Any mutant lair is a threat and needs to be cleared. Do that, and I'll make it worth your while.</text>
+	</string>
+
+	<string id="esc_2_12_stalker_fanat_task_1_finish">
+		<text>I knew the job would suit you. You've got the look of a true huntress. Maybe Butcher could put your skills to use. Oh, and here's your reward - each stalker contributed a bit of cash to thank you.</text>
+	</string>
+
+</string_table>

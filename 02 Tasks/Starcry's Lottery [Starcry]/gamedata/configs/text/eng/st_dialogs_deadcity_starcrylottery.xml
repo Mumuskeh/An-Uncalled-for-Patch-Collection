@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="talk_to_aslan_about_lottery_1">
+		<text>How can I put this? Personally, no, I'm not "interested" in them - the higher-ups want them - I'm just a middle manager for everything, I'd rather deal with stuff that's easier to understand... like tangible goods and straight up cash. What I think it is, with morale being rather low lately and all, that it could be another engaging way for our guys to earn some spoils of war. You know, to keep things interesting and fresh, I guess contract payouts are too predictable nowadays... So, here's how it works: you bring me patches from stalkers, you get a chance to dip into a number of goods that my men gathered, sounds like a good deal, eh?  For fifteen patches of any faction, you have a chance to get artefact containers, medical supplies, tools or artefacts. With thirty patches, you'll have a chance to get rewards of the same kind but upgraded, this time you'll also be able to win some high-end weapons and armor. Oh, and one more thing to note - patches from stronger, better equipped factions mean better rewards, Duty patches for example will tend to have higher payout than from those Bandit thugs. You might ask, "why so generous?"... Because many people prefer to keep the patches for themselves as combat trophies, especially the ones that are worth gloating over, this will ensure that those patches get circulated around, now that there is real value in them.</text>
+	</string>
+
+	<string id="lottery_ds_aslan_mlr_2">
+		<text>Clear Sky, fifteen patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_3">
+		<text>Freedom, fifteen patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_4">
+		<text>Loners, fifteen patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_5">
+		<text>Ecologists, fifteen patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_6">
+		<text>Bandits, fifteen patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_7">
+		<text>Duty, fifteen patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_8">
+		<text>Monolith, fifteen patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_9">
+		<text>Military, fifteen patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_50">
+		<text>Mercenaries, fifteen patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_53">
+		<text>Renegades, fifteen patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_51">
+		<text>Sin, fifteen patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_52">
+		<text>UNISG, fifteen patches.</text>
+	</string>									   
+	<string id="lottery_ds_aslan_mlr_11">
+		<text>Clear Sky, thirty patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_12">
+		<text>Freedom, thirty patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_13">
+		<text>Loners, thirty patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_14">
+		<text>Ecologists, thirty patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_15">
+		<text>Bandits, thirty patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_16">
+		<text>Duty, thirty patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_17">
+		<text>Monolith, thirty patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_18">
+		<text>Military, thirty patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_56">
+		<text>Renegades, thirty patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_54">
+		<text>Sin, thirty patches.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_55">
+		<text>UNISG, thirty patches.</text>
+	</string>  
+	<string id="lottery_ds_aslan_mlr_57">
+		<text>Mercenaries, thirty patches.</text>
+	</string>
+
+	<string id="lottery_ds_aslan_mlr_42">
+		<text>Here's an improvised application module. It's cobbled together from surplus materials but it does its job at filtering some radiation from artefacts, can't complain too much.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_43">
+		<text>You landed on a basic medical package, it's just the basic one but it'll get you out of a pinch, plenty of staple goodies in here.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_44">
+		<text>Ya got a basic toolkit. I'm no MacGyver but I bet you can cobble up something half-decent for your equipment with this.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_45">
+		<text>You landed on an artefact application container. The materials here are better than the improvised stuff from what I've been told by the scientists, should provide some pretty good radiation shielding from artefacts.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_46">
+		<text>Here's an army medical package, we've stockpiled plenty of these off dead Military and Duty soldiers. Contains most of the staple items you'd find in a basic med pack, but got some extra utility items as well.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_47">
+		<text>An advanced tool set here for ya. This one includes some precision tools for working with more complex equipment.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_48">
+		<text>You now got your hands on an artefact application module, a piece of brilliant engineering from some the best scientists. You will not find anything better in the Zone for personal carry of Artefacts. The artefact is not included, of course, do your own dirty work!</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_49">
+		<text>You've won this science-grade med-pack. We sometimes snag these in our drug smuggling contracts whenever we can, they fetch a good price in certain market. Specialist stalkers love to bring these when spelunking in some sketchy places.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_58">
+		<text>This expert toolkit is pretty sweet, and it's now yours! Got some of the best tools an electrical or mechanical technician could ask for, at least in the Zone anyway.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_59">
+		<text>You are now the new owner of a M79, congrats! Here's some free ammo as well, just don't do any celebratory shooting anywhere near here...</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_60">
+		<text>A shiny new Remington 700 is yours! Remington Arms designed a beauty, and she can bite too, from quite a distance no doubt...</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_61">
+		<text>God damn, you won the gun lottery jackpot, congratulations, Stalker! Don't ask me where I found this beast of a gun though, I didn't find it, someone else did, two identical one in fact! He owed me 25,000 rubles though, with some heavy interests, and made due with one of them to pay off his debt. Hopefully you'll never have to give up this monster of a gun to pay off your debt, eh? </text>
+	</string>
+
+</string_table>

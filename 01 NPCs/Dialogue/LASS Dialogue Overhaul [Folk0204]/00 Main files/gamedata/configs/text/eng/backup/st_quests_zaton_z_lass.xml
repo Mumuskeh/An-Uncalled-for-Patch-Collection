@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="drx_sl_zat_b18_noah_task_1_about">
+		<text>Where the hell you been girl? I'm out of dog food! This little bitch is gonna eat me out of house and home. She's a looker though, ain't she? Just like her master.</text>
+	</string>
+
+	<string id="drx_sl_zat_stancia_trader_merc_task_2_about">
+		<text>Bad news, and this time it's the fucking monolith. The underground network between Jupiter and Outskirts has been used for while by our squads. That's how we carry operations inside the Outskirts of Pripyat while avoiding contact with the fanatics above. But just when you thought that business is good, the last mercs who went there have been ambushed by a monolith squad out of no where, as if the mutants are not enough already. I need a brave girl like you to get rid of them and secure the passage. We can't let them lurk there.</text>
+	</string>
+
+	<string id="zat_a2_stalker_barmen_task_1_finish">
+		<text>Haha! Well done, sister! Have a drink on Beard!</text>
+	</string>
+
+	<string id="zat_a2_stalker_barmen_task_2_fetch_finish">
+		<text>Good hunting, sister! Have a drink on the house!</text>
+	</string>
+
+	<string id="zat_stancia_mech_merc_task_3_fetch_finish">
+		<text>Oh, fuck... You are the hope of every technician! Well done indeed... I'll be doubling your discount.</text>
+	</string>
+
+</string_table>

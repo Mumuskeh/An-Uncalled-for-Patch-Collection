@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+<!-- Forester -->
+	<string id="red_forester_hello_dialog_1">
+		<text>What is a girl like you looking for in Forester's estate?</text>
+	</string>
+
+	<string id="red_forester_hello_dialog_3">
+		<text>Good luck, girl!</text>
+	</string>
+
+	<string id="red_forester_who_are_you_1">
+		<text>What can I tell you about myself? I'm Forester. I've been here a long time; I've spent my whole life living next to this forest. I'm old. At my age, you grow attached to your place of residence, no matter what it is. I refused to be evacuated after the accident at the power plant, and I also survived the appearance of the Zone. I remember a flash on the horizon... Many folks died that day, but the Zone spared me, you see? Heck, it didn't just spare me, it gave me a gift! I used to be able to find paths in the forest, and now I can feel out a safe path through deadly anomalies. Stalkers envy me, but I can't say I'm all that happy about my gift. You must understand that everything comes at a price. Someday, the Zone will take payment for my gift. That's what I am afraid of, girl.</text>
+	</string>
+
+	<string id="red_forester_about_doc_111">
+		<text>Careful what you're wishing for, young lady.</text>
+	</string>
+
+<!-- Sin trader -->
+	<string id="red_greh_trader_start_dialog_0">
+		<text>Come, sister. I'll make sure you can serve the Zone well.</text>
+	</string>
+
+	<string id="red_greh_trader_st_1">
+		<text>If you need equipment, I can provide. I don't merely collect and manage the gear that our brave crusaders take from fallen enemies. No, no, no, throughout the years I have established many contacts with outside suppliers. You see, sister, others may not understand the magnificence of the Zone, disagree with the justness of our cause, even want us dead... but as soon as they recognise a chance to make profits, they're more than willing to cooperate. And I'm more than willing to exploit their flaws to our advantage. While they provide us with the tools required to realise our vision of Vyraj, all they gain in return is digits, metal disks, and scraps of paper. Ironic, isn't it?</text>
+	</string>
+
+</string_table>

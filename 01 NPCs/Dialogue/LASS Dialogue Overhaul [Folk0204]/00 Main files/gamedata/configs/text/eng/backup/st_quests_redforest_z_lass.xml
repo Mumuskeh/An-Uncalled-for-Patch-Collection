@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<!-- Stribog (Sin Trader) Retrieve the Secrets of Lab X-16 Storyline Task -->
+	<string id="drx_sl_red_greh_trader_task_1_about">
+		<text>As the true keepers of the Zone, we must act fast and keep its secrets hidden away from the eyes of this sinning world. One of the many secrets can be found inside the laboratory known as "X-16". Bring them to me, sister. We will keep them safe.</text>
+	</string>
+
+	<!-- Stribog (Sin Trader) Escort The Believer Storyline Task -->
+	<string id="drx_sl_red_greh_trader_task_2_msg_join">
+		<text>Thank you, sister. I'm truly thankful... Lead the way, it is time to leave this old world behind.</text>
+	</string>
+
+	<!-- Stribog (Sin Trader) Limansk Purge Storyline Task -->
+	<string id="drx_sl_red_greh_trader_task_4_about">
+		<text>Time has come, sister. The monolith elders are seeking our help to purge Limansk and defeat the enemies lurking inside. Make us proud.</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_4_finish">
+		<text>You are a true warrioress.</text>
+	</string>
+
+	<!-- Dazhbog (Sin Mechanic) Default Storyline Task -->
+	<string id="drx_sl_red_greh_tech_default_task_about">
+		<text>My daughter, you serve the Sinners and Monolith well. Speak with one of the elders and ask what you may do to further help our great cause.</text>
+	</string>
+	
+	<!-- Dazhbog (Sin Mechanic) Retrieve the Secrets of Lab X-18 Storyline Task -->
+	<string id="drx_sl_red_greh_tech_task_1_about">
+		<text>As the true keepers of the Zone, we must act fast and keep its secrets hidden away from the eyes of this sinning world. One of the many secrets can be found inside the laboratory known as "X-18". Bring them to me, sister. We will keep them safe.</text>
+	</string>
+</string_table>

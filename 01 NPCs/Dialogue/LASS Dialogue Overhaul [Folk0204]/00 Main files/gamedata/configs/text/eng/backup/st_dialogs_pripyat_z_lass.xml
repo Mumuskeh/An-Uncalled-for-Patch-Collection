@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+<!-- Monolith Mechanic in the Yubileiny service center -->
+	<string id="mechanic_monolith_kbo_start_0">
+		<text>Greetings, sister. I carry out Its will by preserving the equipment of our brotherhood.</text>
+	</string>
+
+<!---- Charon, in the basement of the Palace of Culture --->
+	<string id="travel_guid_l11pri_mon_haron_1">
+		<text>To which location do you seek to go, sister?</text>
+	</string>
+</string_table>

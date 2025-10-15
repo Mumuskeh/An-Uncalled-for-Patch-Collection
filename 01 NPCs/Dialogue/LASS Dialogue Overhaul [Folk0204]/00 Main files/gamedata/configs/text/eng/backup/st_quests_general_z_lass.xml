@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<!-- Procure Supplies for Clear Sky Simulation Task -->
+	<string id="simulation_task_1_fetch_finish">
+		<text>Great, girl! Thanks!</text>
+	</string>
+
+	<!-- FIND SUPPLIES FOR FREEDOM OR MERC TASK -->
+	<string id="simulation_task_2_about">
+		<text>Shit, girl. Can you do me a huge favour? I'm running low on supplies. Can you help me out?</text>
+	</string>
+
+	<string id="simulation_task_2_fetch_finish">
+		<text>Awesome, girl. Thanks!</text>
+	</string>
+
+	<!-- FIND SUPPLIES FOR BANDIT TASK -->
+	<string id="simulation_task_3_fetch_finish">
+		<text>Great, girl, thanks!</text>
+	</string>
+
+	<!-- FIND SUPPLIES FOR MILITARY TASK -->
+	<string id="simulation_task_4_fetch_finish">
+		<text>Great, girl, thanks!</text>
+	</string>
+
+	<!-- Bring Supplies for Monolith Simulation Task -->
+	<string id="simulation_task_5_about">
+		<text>I must be strong to serve the Monolith well but I confess my strength is weakening. Can you help me, sister?</text>
+	</string>
+
+	<string id="simulation_task_5_fetch_about">
+		<text>My sister, I am very ill. Cleric has graciously offered to pray for me but I'm pretty sure I just need %ss. Please bring me some.</text>
+	</string>
+
+	<string id="simulation_task_5_fetch_finish">
+		<text>Thank you my sister. May the glory of the Monolith shine upon you.</text>
+	</string>
+
+	<!-- FIND ARTEFACT FOR MILITARY TASK -->
+	<string id="simulation_task_13_about">
+		<text>Hey, listen, girl. I know this is against regulations, but I'm going to be rotating home soon, and I want to bring back a souvenir. You think you can find an artefact for me?</text>
+	</string>
+
+	<!-- FIND MUTANT MEAT FOR STALKER, CLEAR SKY, MERC, FREEDOM, OR BANDIT TASK -->
+	<string id="simulation_task_14_about">
+		<text>Girl, you ever tried mutant meat? A lot of guys won't touch it unless they're starving, but personally I love it. You any good at hunting?</text>
+	</string>
+
+	<!-- Mutant Meat Stew for Bandit Simulation Task -->
+	<string id="simulation_task_15_about">
+		<text>Girl, you ever tried mutant meat? A lot of guys won't touch it unless they're starving but personally I love it. You any good at hunting?</text>
+	</string>
+
+	<string id="simulation_task_15_fetch_finish">
+		<text>Yes! I'm going to eat good tonight! Thanks lass, here is your payment and a little loot for ya.</text>
+	</string>
+
+	<!-- Bring patches for Freedom Simulation Task -->
+	<string id="simulation_task_17_about">
+		<text>Hey, girl, can you gather some Duty scum patches for me? That'll make me sleep easier.</text>
+	</string>
+
+	<string id="simulation_task_17_fetch_about">
+		<text>Hey, girl, can you gather some Duty scum patches for me? That'll make me sleep easier.</text>
+	</string>
+
+	<string id="simulation_task_17_fetch_finish">
+		<text>Maximum respect, sis! Hold on to this artefact.</text>
+	</string>
+
+	<!-- Bring patches for Duty Simulation Task -->
+	<string id="simulation_task_18_fetch_finish">
+		<text>Good job, lady. Here, take this artefact before someone sees us.</text>
+	</string>
+
+	<!-- Bring patches for Stalkers Simulation Task -->
+	<string id="simulation_task_19_about">
+		<text>Hello sister, want to kill some bastards? You give me their sweet little patches, and I'll give you an artefact. What do you say?</text>
+	</string>
+
+	<string id="simulation_task_19_fetch_about">
+		<text>Hello sister, want to kill some bastards? You give me their sweet little patches, and I'll give you an artefact. What do you say?</text>
+	</string>
+
+	<string id="simulation_task_19_fetch_finish">
+		<text>Thank you, sister, friend and helper. Here's your artefact.</text>
+	</string>
+
+	<!-- Bring patches for Bandits Simulation Task -->
+	<string id="simulation_task_20_about">
+		<text>Hey, lass. I have some work for you. There's too many punks out there interfering with our business. Whack some of them and return their patches to me, will you?</text>
+	</string>
+
+	<string id="simulation_task_20_fetch_about">
+		<text>Hey, lass. I have some work for you. There's too many punks out there interfering with our business. Whack some of them and return their patches to me, will you? I need %ses.</text>
+	</string>
+
+	<string id="simulation_task_20_fetch_finish">
+		<text>Good job, girl. My respect and artefact to you.</text>
+	</string>
+
+	<!-- Find Trip Equipment Tasks -->
+	<string id="simulation_task_22_fetch_finish">
+		<text>Oh girl! My pals will be happy. Here, take these. You did a nice job.</text>
+	</string>
+
+	<!-- HOSTAGE RESCUE FOR STALKER TASK -->
+	<string id="simulation_task_26_about">
+		<text>I could really use some help, girl. My friend was mugged and taken hostage by some bandits. I really don't know what I should do. Do you think you can help me out and save my friend?</text>
+	</string>
+
+	<!-- ASSASSINATION  FOR STALKER TASK -->
+	<string id="simulation_task_30_about">
+		<text>Yes, help me, sister! Some bastard has put a price on my head. Take care of him for me, and I will pay you double the bounty he has on me.</text>
+	</string>
+
+	<!-- VENGEANCE  FOR STALKER TASK -->
+	<string id="simulation_task_31_finish">
+		<text>Thank you lass, you are a good warrioress. Join me in a drink to my fallen brother.</text>
+	</string>
+
+	<!-- Redemption for Monolith Simulation Task -->
+	<string id="simulation_task_34_about">
+		<text>My sister, Rabbit has asked of me that I slay one of the infidels for the good of the Monolith. I fear I have failed him, as I was not able to get to the target. Will you not complete my task and redeem my failure?</text>
+	</string>
+
+	<!-- Eliminate Enemy Forces for Monolith Simulation Task -->
+	<string id="simulation_task_36_about">
+		<text>My sister, we have sighted the enemy in the area. We are going to alert our brothers to do battle. Go there now. Destroy them.</text>
+	</string>
+
+	<string id="simulation_task_36_finish">
+		<text>You have done well, my sister.</text>
+	</string>
+
+	<!-- Eliminate Dangerous Mutants for Monolith Simulation Task -->
+	<string id="simulation_task_43_finish">
+		<text>You have done well, my sister.</text>
+	</string>
+
+	<!-- Drug Runner for Freedom Simulation Task -->
+	<string id="simulation_task_45_about">
+		<text>Hey girl, a shipment of, ah, 'medical supplies' dropped off somewhere recently. Could you pick it up and bring it here? It's a little out-of-the-way, but you shouldn't have much trouble. Want to make some extra cash for a good cause?</text>
+	</string>
+
+	<string id="simulation_task_45_finish">
+		<text>Haha, nice! You made it. Thanks a bunch, lass. Me and the boys have a lot of ‘injuries’ we need to take care of, so you’re right on fuckin’ time. And I hope you didn’t try to sample anything, that shit is too hardcore for most stalkers to handle anyways. Alright, girl, here. You have my thanks. </text>
+	</string>
+
+	<!-- Find PDA Tasks -->
+	<string id="simulation_task_cl_about">
+		<text>Hey, lass, can you help me? My PDA's been malfunctioning recently. I really need a replacement quick.</text>
+	</string>
+
+	<string id="simulation_task_cl_fetch_about">
+		<text>Hey, lass, can you help me? My PDA's been malfunctioning recently. I really need a replacement quick. Get back to me asap, okay?</text>
+	</string>
+
+	<string id="simulation_task_cl_fetch_finish">
+		<text>Oh, thank you, girl. Take this.</text>
+	</string>
+
+	<!-- Deliver Package Simulation Task -->
+	<string id="st_simulation_task_47_1">
+		<text>About time... Thanks lass. I'll let my friend know. In the meantime, here's something for your trouble.</text>
+	</string>
+
+	<string id="st_simulation_task_49_1">
+		<text>So the bastard has received my messages, finally!\n \nOh, about your payment... Let's see... here, take this. You've done a good job, girl.</text>
+	</string>
+
+	<!-- FIND SUPPLIES FOR RENEGADE TASK -->
+	<string id="simulation_task_53_fetch_finish">
+		<text>Great, girl, thanks!</text>
+	</string>
+
+	<!-- Mutant Meat Stew for Renegade Simulation Task -->
+	<string id="simulation_task_55_about">
+		<text>Girl, you ever tried mutant meat? A lot of guys won't touch it unless they're starving, but personally I love it. You any good at hunting?</text>
+	</string>
+
+	<string id="simulation_task_55_fetch_finish">
+		<text>Yes! I'm going to eat good tonight! Thanks lass, here is your payment and a little loot for ya.</text>
+	</string>
+
+	<!-- Redemption for Sin Simulation Task -->
+	<string id="simulation_task_63_about">
+		<text>Sister, we shall slay the brazen infidel for the good of the Monolith and our cause. Are you willing to help?</text>
+	</string>
+	
+	<!-- Eliminate Enemy Forces for Sin Simulation Task -->
+	<string id="simulation_task_64_about">
+		<text>My sister, we have sighted the enemy in the area. We are going to alert our brothers to prepare for battle. Go there now. The infidels must be purified.</text>
+	</string>
+
+	<string id="simulation_task_64_finish">
+		<text>You have done well, my sister.</text>
+	</string>
+
+	<!-- Eliminate Dangerous Mutants for Sin Simulation Task -->
+	<string id="simulation_task_65_about">
+		<text>The mutant population in the area is growing unstable, sister. We must cull their numbers to maintain balance.</text>
+	</string>
+
+	<string id="simulation_task_65_finish">
+		<text>You have done well, my sister.</text>
+	</string>
+
+</string_table>

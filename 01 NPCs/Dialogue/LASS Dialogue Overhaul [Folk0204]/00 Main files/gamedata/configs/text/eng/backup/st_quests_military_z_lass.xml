@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<!-- Lukash (Freedom Honcho) Assassination Storyline Task- -->
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_1_finish">
+		<text>Awesome sis! Thanks.</text>
+	</string>
+
+	<!-- Lukash (Freedom Honcho) Freedom Assault on Monolith Storyline Task -->
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_2_finish">
+		<text>Girl, you've got a set on you. Great job.</text>
+	</string>
+
+	<!-- Lukash (Freedom Honcho) Stop Enemy Assault Task -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_2_finish">
+		<text>Ha! You actually did it, you mad bitch! Here, you've earned this, along with my respect.</text>
+	</string>
+
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_about">
+		<text>I've got some real heavy news, girl. One of our Freedom fighters has fallen under the influence of the Monolith. He was a good man, and I know he wouldn't have wanted to continue living as some alien crystal's brainwashed killer. Please, find him and take him down. Otherwise, his old friends are going to have to do it.</text>
+	</string>
+	
+	<!-- Lukash (Freedom Honcho) Decimate the Enemy Task -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_fetch_finish">
+		<text>Hey, nice job, girl. Here's your money.</text>
+	</string>
+
+	<!-- Lukash (Freedom Honcho) Mortal Sin Unquenchable Flame Tasks -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_7_about">
+		<text>Hey girl. Here's a thing. Remember those Sin folks? They didn't get the memo the last time you kicked their collective asses, so I think it's high time for an encore. Loki said they've been spotted being unruly in Zaton, especially around the area of abandoned substation workshops. Go put them down.</text>
+	</string>
+
+	<!-- Lukash (Freedom Honcho) Rescue the Freedom Agent Task -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_msg_join">
+		<text>Hey girl, stop! I'm the Freedom spy! Sorry for taking potshots at you. I had to keep my cover just in case...luckily you made it. If you bring me to Army Warehouses safely, Lukash will reward you well. Lead the way, I'll follow!</text>
+	</string>
+
+	<!-- Skinflint (Freedom Trader) Night Terror Task -->
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_3_finish">
+		<text>Wow, you actually did it! You lunatic. I'll let the camp know the good news. Glad we have a huntress like you around.</text>
+	</string>
+
+	<!-- Skinflint (Freedom Trader) Scarce Supplies Task -->
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_about">
+		<text>Hey girl. Some of our guys can get a bit too adventurous from time to time. We haven't got enough supplies to treat all of 'em.</text>
+	</string>
+
+	<!-- Screw (Freedom Mechanic) Find Level 1 Toolkit Task -->
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_fetch_finish">
+		<text>Thanks, girl! I knew there was a reason I asked you. You look like a girl who can get shit done.</text>
+	</string>
+
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_fetch_finish">
+		<text>You keep this shit up, everyone around here is going to love you. Thanks again, girl.</text>
+	</string>
+
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_fetch_about">
+		<text>Ha! You absolute mad bitch! Well, go on then. Once you're back with some expert tools, I will show you what a talented mechanic can do.</text>
+	</string>
+
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_fetch_finish">
+		<text>Girl, Freedom's gonna love this. Shotguns with parachutes! Armoured SMGs! I'll make it happen! Here's your cash, for a job well done.</text>
+	</string>
+
+	<!-- Defend the barrier -->
+	<string id="barrier_defense_monolith_run_announce">
+		<text>This ain't summer camp stalker. Be thankful there's people with more guts than you to keep your lot safe.</text>
+	</string>
+
+	<string id="barrier_defense_monolith_end_announce">
+		<text>Good job brothers and sisters, and thanks to all the volunteers that didn't run away. Come back to me for your reward.</text>
+	</string>
+
+	<string id="barrier_defense_zombie_end_announce">
+		<text>Good job brothers and sisters, finally they can rest in peace. Volunteers, come back to me for your reward.</text>
+	</string>
+
+</string_table>

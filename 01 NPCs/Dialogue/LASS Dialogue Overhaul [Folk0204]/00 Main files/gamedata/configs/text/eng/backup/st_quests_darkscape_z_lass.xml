@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+<!-- Mechanic -->
+	<string id="dasc_tech_mlr_task_1_fetch_finish">
+		<text>Damn! You really pulled it off, lady! Here - might not be the biggest payout, but it's something to cover your effort. You've earned it. Stick around for a bit if you're feeling wiped out.\n
+		Me and Cutter keep this place safe from mutants, so you can catch your breath or grab a nap without worrying about something sneaking up on you.\n
+		After hauling those tools all this way, you've more than earned a bit of peace.</text>
+	</string>
+
+	<string id="dasc_tech_mlr_task_2_about">
+		<text>You know what's great about this place? It's quiet, and if you find a good spot to set up a base - like this sawmill - you've got nothing to fear. It's a luxury being here, really. You've got everything: space, a roof to keep you dry on those cold, rainy days, some beds, a warm bonfire, and most importantly, a beautiful view to wake up to every morning...\n\n
+		Oh? Ahem, yeah, sorry about that… uh, anyway. The tools you brought last time really did their job, but now I could use some advanced tools. I don't know if it's too much to ask, but if you ever come across some, would you bring them my way? You've already made a big difference with the basic ones - but, heh, you know… having more wouldn't hurt.</text>
+	</string>
+
+	<string id="dasc_tech_mlr_task_2_fetch_finish">
+		<text>You've really outdone yourself, lady. At this rate, I'll turn this sawmill into a proper fortress, safe from mutants and bandits alike. Hell, maybe even the Zone itself will think twice before messing with us. Oh, and don't even try to refuse - there's no way you're leaving without your payment. Anytime you need something fixed, just swing by, and I'll give you a solid discount.\n\n
+		It's rare to find someone dependable out here, you know? Not many stalkers care about what happens in the Darkscape, usually it's just a place to hide when you've got a bounty on your head... but it feels good to see more stalkers like you keeping the Zone from swallowing us whole.</text>
+	</string>
+
+	<string id="dasc_tech_mlr_task_3_about">
+		<text>Alright, I know this might sound a bit annoying, but those tools you brought me before - they're still working fine, don't get me wrong - but they've got me feeling a little... ambitious. You see where I'm going with this, right? Heh, I thought so.\n
+		Do me this one last favor, will you? I need some expert tools. I don't care how or where you get them, as long as you can tell they're the real deal - more intricate-looking than the advanced ones. Bring them back to me, and I swear, you'll make me the happiest mechanic in the Zone. I mean it, girl!</text>
+	</string>
+
+	<string id="dasc_tech_mlr_task_3_fetch_about">
+		<text>Alright, I know this might sound a bit annoying, but those tools you brought me before - they're still working fine, don't get me wrong - but they've got me feeling a little... ambitious. You see where I'm going with this, right? Heh, I thought so.\n
+		Do me this one last favor, will you? I need some expert tools. I don't care how or where you get them, as long as you can tell they're the real deal - more intricate-looking than the advanced ones. Bring them back to me, and I swear, you'll make me the happiest mechanic in the Zone. I mean it, girl!</text>
+	</string>
+
+</string_table>

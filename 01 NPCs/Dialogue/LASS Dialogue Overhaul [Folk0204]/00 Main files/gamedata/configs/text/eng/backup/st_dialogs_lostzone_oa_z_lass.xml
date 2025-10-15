@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="sakharov_operation_afterglow_1">
+		<text>Oh, yes, young lady. Do you know Professor Hermann? His bunker up north reported some intriguing radio transmissions occurring in the Iron Forest in Zaton. This is especially interesting considering the prominent anomalous activity in that area. I would like you to conduct research at that location, there's no telling what we might discover.</text>
+	</string>
+
+	<string id="sakharov_operation_afterglow_transmission_report_1">
+		<text>Did you discover anything interesting, young lady?</text>
+	</string>
+
+	<string id="sakharov_operation_afterglow_transmission_report_3">
+		<text>Oh, I see. While researching the Zone itself and its many marvellous phenomena is worthwhile indeed, I could only shudder at the consequences of information pertaining to its creation falling into the wrong hands. Thank you, young lady, you can go now.</text>
+	</string>
+
+	<string id="stalker_rogue_dialog_oa_heal_psycho_1">
+		<text>Th-thank you sis, they almost got me.</text>
+	</string>
+
+	<string id="stalker_stitch_dialog_oa_saved_1">
+		<text>Ha! I'd laugh my ass off if I wasn't still shaking... phew. Thanks for the help, girl, I owe you one.</text>
+	</string>
+
+	<string id="stalker_stitch_dialog_oa_join_1">
+		<text>Sure girl, let's do this!</text>
+	</string>
+
+	<string id="degtyarev_further_cooperation_search_unit_300">
+		<text>You... dammit girl, it was a simple pass-phrase! I expected more of someone with your resume. Still, we might find some use for the info that you've brought. I'm almost done in this sector. There's one more thing: seems that the "thugs" have been thoroughly searching the old Jupiter factory. I don't want them to find anything confidential in case there's something still left, so we should dispose of them. Better safe than sorry.</text>
+	</string>
+
+</string_table>

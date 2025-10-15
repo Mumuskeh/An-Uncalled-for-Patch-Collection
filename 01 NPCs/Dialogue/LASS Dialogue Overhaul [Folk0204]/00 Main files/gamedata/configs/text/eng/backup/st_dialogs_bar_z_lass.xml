@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+<!-- Barkeep -->
+	<string id="bar_visitors_barman_stalker_trader_start_dialog_11">
+		<text>Oh, hello. What's up, lass?</text>
+	</string>
+
+<!-- Mangun (Duty Mechanic) -->
+	<string id="story_dolg_m_3">
+		<text>Girl, it's hard getting by without a drink. Or a few. I wish I could've helped out at Yanov when the Monolith hit... but, then again, I probably wouldn't be alive if I wasn't ordered to stay put here. So many good men were lost defending that place...Huh, looks like we've gone way off topic. Anyway, don't be shy, now - show me your toys if you need 'em fixed.</text>
+	</string>
+
+	<string id="st_top_10_task_about_dialog_1">
+		<text>Fun? This place can get boring fast, lass. Customers nowadays barely seek anything interesting. Just a bunch of amateurs who want to get their hands on artefacts and such, you know what I mean?</text>
+	</string>
+
+	<string id="st_top_10_task_about_dialog_3">
+		<text>Yeah, but don't any of them ever dream of doing something epic, something legendary? Like you, for instance - you seem like an experienced woman for a place like this. Don't you want to accomplish something that people will never forget? </text>
+	</string>
+
+	<string id="st_top_10_task_about_dialog_7">
+		<text>I asked my contact something similar. Well, he said he's tired of walking dreadnoughts vaccuuming up all the loot with their fancy rifles and expensive suits. He wants to give the common stalker more of a chance. Anyways, the pay will be incredible, so who cares?</text>
+	</string>
+
+	<string id="st_top_10_task_about_dialog_8">
+		<text>I knew that you would take the risk. I'll upload the coordinates into your PDA. Every time you kill one of them, you get the location of the next target. It's a pleasure doing business with you, lady.</text>
+	</string>
+
+	<string id="st_top_10_task_finish_dialog_1">
+		<text>Splendid work, girl! Our client is very happy with your results. As promised, here's your reward. Glad you were up to it after all - even now, I can hear people talking about your deeds. The killer of legends! This is gonna shake things up a bit, hehe...</text>
+	</string>
+
+<!-- ARENA -->
+	<string id="bar_arena_manager_start_51">
+		<text>Sorry, sis, but you lose. Come again next time if you want.</text>
+	</string>
+
+</string_table>

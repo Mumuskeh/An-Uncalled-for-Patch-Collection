@@ -1,0 +1,1741 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<!-- SIDOROVICH STORYLINE START GAME 1 END GAME 1 TEXT: -->
+	<string id="drx_sl_esc_m_trader_start_game_1_endgame_1">
+		<text>You've made quite a name for yourself around here, lass. Wolf says some of the rookies are even whispering your tales over the campfire - haha! Thank you for all your help, and try not to die to anything stupid now.</text>
+	</string>
+
+	<!-- LUKASH STORYLINE START GAME 1 END GAME 1 TEXT: -->
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_start_game_1_endgame_1">
+		<text>Hey girl, thanks for helping the boys around here keep the Zone free. Pity that not everyone is living in harmony with each other yet, but what can you do, right? It's not like we can just wish everyone to get along. Anyway, you've done a good thing. Freedom is proud of you.</text>
+	</string>
+
+	<!-- SAKHAROV STORYLINE START GAME 1 DIALOG -->
+	<string id="sakharov_questlines_about_dialog_1">
+		<text>Oh, yes, yes. Good! I'm glad you're here. Something unexpected has happened, young lady. Strelok has been sighted in the Zone once again! Finding him is currently a priority, both to me and our supervisors. If you wish to participate in our search for Strelok, I can tell you more. If not... well... I have another important assignment. It involves travelling the Zone and meeting new people to learn as much as you can - There is so much out there we haven't yet discovered. You could consider it... exploratory research.</text>
+	</string>
+
+	<!-- SULTAN STORYLINE START GAME 1 END GAME 1 TEXT: -->
+	<string id="drx_sl_zat_b7_bandit_boss_sultan_start_game_1_endgame_1">
+		<text>Wadda you want? .. *hic* .. Oh, itz you .. *hic* .. I know you. Hey, didja do that thing I wanted for ya to do? Ahhh, I knew you wouldn't let me down friend, you're always friend .. *hic* .. Here, join me inna drink.. inna.. where'z my bottle? .. *hic* .. It'z a celelelebration! Cus I'm gonna be rizssh! .. *hic* .. See, I just found out something that nobody else knows, but shzzh, you gotta keep it quiet, ok? Cuz if anyone elses knowz then they might beat me to it. See, now that the Brain Szzcortcher .. *hic* .. has been deactivated the path to the Wizzsh Granter is open. All I gotta do is fight my way through a few Monolith pricks and then it's the sweet life for me. I'm gonna wish for all kindsa money, and booze, and guns, and booze, and puzzzshh .. *hic* .. eey. Ya know what it mean, hehe .. *hic* .. So lizzen, just don't go tellin' no one what I juz been tellin' you about, okee? Cuz I'm gonna get there first and I'm gonna be rizssh bizssh!!</text>
+	</string>
+
+	<!-- RABBIT STORYLINE START GAME 1 DIALOG -->
+	<string id="drx_sl_start_msg_monolith">
+		<text>Brothers and sisters, it is time for you to fulfil the wishes of the Monolith. Return to the Palace of Culture's cellar in Pripyat for your tasks.</text>
+	</string>
+
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_game_start_dialog_1_1">
+		<text>There is much work to be done, my sister. The Zone must be purged of the infidels. We must keep control of the mutant population. Your brothers and sisters need food and weapons. You will report to your Monolith elders, and we will give you your assignments. You must do your part. Praise Monolith and may the Monolith bless you.</text>
+	</string>
+	
+	<!-- STRIBOG STORYLINE START GAME 1 DIALOG -->
+	<string id="drx_sl_start_msg_greh">
+		<text>Chernobog has spoken. It is time to let this world be enlightened. Return to me, brothers and sisters. I will inform you about your tasks.</text>
+	</string>
+
+
+<!-- GENERAL -->
+	<string id="dm_no_more_4">
+		<text>God damn, lady! You got a hard-on for me?! Ask someone else, and piss off already!</text>
+	</string>
+
+	<string id="dm_no_more_5">
+		<text>Not much more I can tell you, girl.</text>
+	</string>
+
+	<string id="dm_no_more_7">
+		<text>Drop the subject, it is tiring.</text>
+	</string>
+
+	<string id="dm_no_more_8">
+		<text>Some other time, lady.</text>
+	</string>
+
+	<string id="dm_do_not_know_1">
+		<text>Listen, if I had all the answers, I wouldn't be in this shit dump.</text>
+	</string>
+
+	<string id="dm_do_not_know_3">
+		<text>You are putting me on the spot here, girl. I don't know.</text>
+	</string>
+
+	<string id="dm_do_not_know_4">
+		<text>Hell if I know. Don't you have someone else to piss off?</text>
+	</string>
+
+	<string id="dm_do_not_know_6">
+		<text>I've nothing to tell you, lady. Nobody tells me shit.</text>
+	</string>
+
+	<string id="dm_do_not_know_7">
+		<text>You're asking the wrong stalker, I am not in the mood today.</text>
+	</string>
+
+	<!-- Greetings -->
+	<string id="dm_hello_general_2">
+		<text>Hey, what's up?</text>
+	</string>
+
+	<string id="dm_hello_1">
+		<text>Hello, sister.</text>
+	</string>
+
+	<!-- Help -->
+	<string id="dm_help_2">
+		<text>Help me out, sister... Oh, God, it hurts!</text>
+	</string>
+
+	<string id="dm_help_4">
+		<text>Please... I am bleeding out, save me!</text>
+	</string>
+
+	<string id="dm_help_10">
+		<text>Help, sister!</text>
+	</string>
+
+	<string id="dm_help_13">
+		<text>I need first aid! Somebody patch me up quickly!</text>
+	</string>
+
+	<string id="dm_help_16">
+		<text>Hey, can you share your first aid kit?</text>
+	</string>
+
+	<!-- Anomalies -->
+	<string id="dm_anomalies_3">
+		<text>You ever seen a Vortex before? They're damned near invisible, but one foot too close, and they'll pull you in and splatter you all over the place.</text>
+	</string>
+
+	<string id="dm_anomalies_12">
+		<text>Stay away from Space Anomalies, lady. It's a coin toss whether they'll teleport you somewhere useful or leave you to starve in some limbo. You'd have to be batshit crazy to take that sort of risk.</text>
+	</string>
+
+	<string id="dm_anomalies_27">
+		<text>Get lots of rest and take care of yourself, girl. Anomalies aren't always easy to spot, so you gotta make sure you can be alert. How can you expect to evade a field of Vortexes after a night of vodka abuse?</text>
+	</string>
+
+	<string id="dm_anomalies_32">
+		<text>Girl, the artefact business is competitive enough as it is. If you really wanna join the rat race though, go see the Ecologists. They can gear you up.</text>
+	</string>
+
+	<!-- Information -->
+	<string id="dm_information_26">
+		<text>Seriously, lady? Just consult your PDA Guide. I don't know who updates that thing, but I know it's helped me loads. Just check it out if you're stuck on something.</text>
+	</string>
+
+	<string id="dm_information_34">
+		<text>Fucking Duty. They may be well armed, and have fancy uniforms, but they're not that different from some of the gangs and mafias I knew in the outside world. They're just too self-righteous to see it.</text>
+	</string>
+
+	<string id="dm_information_35">
+		<text>Don't believe Freedom's bullshit, girl. We kicked their asses out of Dark Valley and they're too afraid to do anything about it. Think about that next time they claim to be the Zone's freedom fighters and protectors.</text>
+	</string>
+
+	<string id="dm_information_47">
+		<text>Sorry, lady. I don't have any information for you. I just keep thinking back to the Death Trucks that came through in 2012, and all the old friends they carried from the NPP down to Cordon or Darkscape, all dead...</text>
+	</string>
+
+	<string id="dm_information_54">
+		<text>I miss the old base back in Dark Valley. It was creepy as shit, sure, but still better than camping south of Radar. Wish Lukash would get tough on those Bandits' asses so we can move our boys south again.</text>
+	</string>
+
+	<string id="dm_information_73">
+		<text>I'm sick of how cocky some of the rookies are. Boasting loudly about their loot, playing on their PDAs when they're out in the field, thinking they can kill a rifleman with just a PM...they're too dumb to live, girl.</text>
+	</string>
+
+	<string id="dm_information_75">
+		<text>If you've got the guts, try get the drop on some Mercs or even the Monolith to shake out their loot - they're some of the best armed and equipped dudes in the Zone. Me though, I prefer sticking to rookies.</text>
+	</string>
+
+<!-- monolith -->
+	<string id="dm_information_84">
+		<text>Sister, should you ever be captured by an infidel, see to it that you give your life before you give a word. The secrecy and protection of the Monolith is imperative. All else is secondary.</text>
+	</string>
+
+	<string id="dm_information_85">
+		<text>Pray with me sister!
+		\n\nBlessed are men and women who walk not on the paths of the infidel, nor stands in the way of the sinner. But their delight is the glory of the Monolith alone, and their glory he contemplates day and night. They are like a cliff, planted in streams of water, a stronghold of faith. The infidels are not so, they are like chaff that the wind drives away. Therefore the infidel will not stand before you; no sinner will be in the congregation of your glory. For our Monolith knows the way of the righteous, but the ways of the infidel will perish.</text>
+	</string>
+
+	<string id="dm_information_93">
+		<text>Fuck Duty, sis. They have no idea about the Zone or what it could mean for the future of Mankind. There is a world of wonder around them and all they think to do is enable piss-poor officers on their power trips.</text>
+	</string>
+
+	<!-- Brain Scorcher enabled -->
+	<string id="dm_information_118">
+		<text>Pripyat isn't safe any more, girl. Some hotshot thought he'd try steal an artefact out of the NPP. Before you know it, a legion of those Monolith fanatics came out of nowhere. They're back, and with a vengeance.</text>
+	</string>
+
+	<!-- Sin appearance -->
+	<string id="dm_information_126">
+		<text>So I was picking over corpses the other day, when I find a few wearing colours I haven't seen before. Their faces...Jesus, their faces...I wish it was just decomposition, but what I saw was something else, sis...</text>
+	</string>
+
+	<!-- Sin attack on Limansk -->
+	<string id="dm_information_130">
+		<text>Holy shit girl, how can you not know? The Monolith has some new friends, and they're going ballistic! Freedom can barely hold the Barrier any more. Things are about to get serious.</text>
+	</string>
+
+	<!-- Added Dialog -->
+
+	<!-- ECOLOGIST -->
+	<string id="dm_information_171">
+		<text>Nothing like guard-duty at the Yantar lab: hours on end of lethal boredom until you get jumped by some hell-sped monstrosity and wake up with your internal organs in the wrong place. Sis, we need Duty back.</text>
+	</string>
+
+	<!-- DUTY -->
+	<string id="dm_information_253">
+		<text>Saw one of your birds crossing over Garbage the other day - what's the deal? Sis, Duty could use one of those these days. Although, if you listen to the rumors going around... well, good day to you.</text>
+	</string>
+
+	<!-- MILITARY -->
+	<string id="dm_information_293">
+		<text>We're fighting in a graveyard sister, look around. Rusting shells of APCs, smashed trucks, wrecked choppers.... they all tell a tale. That's aside from the human corpses, a lot of which are up and walking around. I wonder if we'll join them...</text>
+	</string>
+
+	<string id="dm_information_298">
+		<text>I heard that Kuznetsov wanted to position some Spetsnaz advisors in the Duty ranks. Can't imagine that would go over too well at all.</text>
+	</string>
+
+	<!-- CLEAR SKY -->
+	<string id="dm_information_335">
+		<text>Girl, Professor Kalancha's getting old. One day, he'll be gone. Who's going to fill that place? All the greats are dead and buried.</text>
+	</string>
+
+	<!-- FREEDOM -->
+	<string id="dm_information_350">
+		<text>There's just nothing like the Zone, sister. Have you ever just seen the sky after an emission... the feeling of cool wind and a peace in the air... shit, I could write some poetry on that.</text>
+	</string>
+
+	<string id="dm_information_351">
+		<text>Now, I'm not saying there's not any nuts in Freedom, ok? Like those two Czech guys who are committed vegetarians and pacifists. C'mon lady, have you ever seen one of those fucked-up man-eating cats? I bet those two have never been out of the base.</text>
+	</string>
+
+	<string id="dm_information_354">
+		<text>The best thing about Freedom is that we're all brothers and sisters here. There's no sad imitation of the army thugs here: "Yes sir, no sir" bullshit. No, we actually look out for each-other because we care, not because some stuck-up prick tells us to.</text>
+	</string>
+
+	<string id="dm_information_362">
+		<text>Back in the world I was a backpacker, and an extreme backpacker at that. That's really the reason I came here, to tackle some nature that outdid everything else the world had to offer. I thought Freedom was cool, so I joined up, but I still get to take some long trips deep into the Zone. You should come with me sometime, my lady - just bring something for all the mutants.</text>
+	</string>
+
+	<string id="dm_information_363">
+		<text>How about this for a story, sis: I was in the Red Forest because a friend of mine who had just quit the Zone left me coordinates for a stash of all his artefact-finding gear. I'm no blockhead, so I'm taking it real slow, observing first and then sneaking along. My PDA led me up to a big tree; I walked around it and found my friend's pack in a huge fissure that ran down the trunk. I was just about to leave when I heard footsteps from the other side of the tree. I thought there were maybe five or six guys and they stopped moving for awhile so I snuck a peak around the side: a fucking squad of Monolith! So I just crouched there, behind the tree with half my body in the fissure. They didn't talk, but they did this weird sort of humming thing. Meanwhile, I'm thinking that it's all over for me; that they would notice me any second. I waited for six hours like that - imagine that! Then they left, and I hurried my lucky ass home.</text>
+	</string>
+
+	<string id="dm_information_365">
+		<text>It's a shame that its so hard to go between Yanov station and the Warehouses - make your pick between Radar and Red Forest. What a choice! Go ahead and pick between certain death or nearly certain death. Lady, I haven't seen my old friends in awhile.</text>
+	</string>
+
+	<string id="dm_information_367">
+		<text>Just take in the Zone, sister - the freeest place in the world. No laws, no cops, no chokeholds. Just the law of nature out here, and you better get with its program or else you'll end up wasted. Not me, though. The Zone and I are on the same wavelength.</text>
+	</string>
+
+	<string id="dm_information_376">
+		<text>Sis, just keep an eye out for new recruits doing anything fishy. Lukash says that Duty's trying to infiltrate us these days. Duty! Can you imagine some stuck-up army pissant trying to pass himself off as Freedom? Anyway, be on the lookout.</text>
+	</string>
+
+	<string id="dm_information_379">
+		<text>Sis, I've had some sort of burning rash for weeks now. I've been sort of avoiding Solid because... well, there aren't any malpractice attorneys in the Zone. Maybe that's a blessing.</text>
+	</string>
+
+	<string id="dm_information_383">
+		<text>Just hang in there lady, we're the only thing stopping the industrial takeover of the Zone. No one else will do it. When I hold a Moonlight in my hand, after navigating the trials of the Zone's natural defenses, and I look into glowing radiance of its beauty and see the mysteries of nature unraveling before me... I think of what this place would look like if it was turned into a government quarry, extracting such artefacts for the creation of weapons, all to the highest bidder on the global market. Can't let it happen.</text>
+	</string>
+
+	<string id="dm_information_390">
+		<text>Ay, my girl! Hit us up in the Warehouses or Jupiter. We'll have some good times!</text>
+	</string>
+
+	<string id="dm_information_391">
+		<text>Hey sis, do you know Hawaiian? He told me to ask Free Stalkers if you knew about some guy named Degtyarev. Yeah, I don't know. Told him I'd do him a solid.</text>
+	</string>
+
+	<string id="dm_information_392">
+		<text>What is it that you retards like in the Truck Cemetery anyway? Good birdwatching there? Only birds I see are nasty crows and the occasional army gunship.</text>
+	</string>
+
+
+	<!-- MERCENARIES -->
+	<string id="dm_information_406">
+		<text>There's sort of a no-man's land in Limansk where we can look out across the blasted terrain to the land of the enemy, the Monolith. It's always sort of eerie there, and quiet; well, quiet until things heat up. I can tell you why they're called the Monolith: it's because they act as one being, always. That's the "mono" part. They also will not stop coming until you end their lives, they just don't care - while they have motor function, they will be trying to put a bullet in your brain. That's the "lith" part. They disregard everything - pain, cold, dark, numbers - they will continue on like a faultless machine, unchangeable as a rock.</text>
+	</string>
+
+	<string id="dm_information_408">
+		<text>The Army Warehouses is a fun getaway spot if you enjoy war-zones. It's also our backyard, so we need to have a border guard to stop riff-raff from getting in; luckily, we're mostly blocked-off by the Bloodsucker Village and most stalkers shit themselves even talking about that place. Sometimes it feels like we're the only adults on the playground.</text>
+	</string>
+
+	<string id="dm_information_413">
+		<text>It used to be different. Back in the day, we were employed by various outside benefactors for the completion of a small task - usually someone looking for some special artefacts, a set of research documents, or maybe a couple freaks for someone's personal collection. We used to be insertion teams: get in, set up an outpost and get the job done, be out as soon as possible. Now that's all changed. The private teams got pushed out of the Zone or killed when Dushman decided to form all mercenaries in the Zone under a strict hierarchy with a permanent base. Question has always been - is that all? Is there some very powerful employer on the outside looking for something special? Do we work for Dushman or someone else? I've said enough.</text>
+	</string>
+
+	<!-- BANDITS -->
+	<string id="dm_information_451">
+		<text>Hah, we've pulled some stunts my lady. Here's one you can use too. Just check by some of those places where chumps try to get some artefacts until you come across the corpse of some loner who got a little too close to the Electro and got zapped. Then you take his PDA and tell his friends that you had taken him hostage and wanted all the cash and swag they could come up with. Then, arrange the meet in your favor and point them the direction to their old buddy, enjoy! Well, and maybe leave a note on him explaining how he died. We wouldn't want to piss off those stalkers, right?</text>
+	</string>
+
+	<string id="dm_information_460">
+		<text>Lady, I don't like this gunfighting wild west shit that's goin' on around here. We used to be able to frisk some rookies and then send them on their way, but now it's just shoot on sight. Can't even make a decent score without risking a gunshot.</text>
+	</string>
+
+	<string id="dm_information_462">
+		<text>We used to run the Garbage, sis; had a good thing going. But Yoga was weak and look where he got us. Stalkers from the south and those Duty assholes in the north, not to mention the army shits wandering around. That train station's nearly empty now, used to be a good place to rest up and get something to eat.</text>
+	</string>
+
+	<string id="dm_information_465">
+		<text>Those pseudodogs freaks are fuckin' nuts lady, they're like psychopaths dressed up as dogs. They're not just animals, I know that; animals don't enjoy cruelty but those monsters do. I've seen it before, they cripple a guy, rip up his limbs and then just play around with him. Sometimes it's hours before the guy dies. You can see it in their faces, they're way more like people than dogs. It's totally fucked.</text>
+	</string>
+
+	<string id="dm_information_466">
+		<text>I hate Psy storms, girl. Just when you think the Zone is bad enough with its emissions, it surprises you again with yet another trick that can fry your brain. I get headaches too, but I sorta get them right before the storm hits, so I have my own little warning system. Be nice, and I'll let you in on it.</text>
+	</string>
+
+	<string id="dm_information_469">
+		<text>The Swamps are fucked, lady. You know how many people go in and don't come out? Not to mention the war that's been going on for years and years. It's like a knife-fight in a sewer.</text>
+	</string>
+
+	<string id="dm_information_474">
+		<text>Sis, I can't wait until we're in charge of the whole Zone - things will be so much easier. It'll be better for everyone, really: "Sure, we'll let you into the Zone, but you gotta give us half of what you make". Let us see some cash and we'll make sure you get some protection. Simple. Better than the mess we're in right now.</text>
+	</string>
+
+	<string id="dm_information_480">
+		<text>I got some friends in Freedom. They're alright, but they still hang on to their little moral rules and nice guy shit. True freedom is doing whatever the hell you want, true freedom is with the Bandits, sister.</text>
+	</string>
+
+	<string id="dm_information_482">
+		<text>Hey sis, got any of the good stuff on you? Where's Yarik? He owes me three bottles of vodka and no, I wasn't too drunk to remember.</text>
+	</string>
+
+	<string id="dm_information_483">
+		<text>Actually, maybe you could tell me why your boss always seems to have a stick up his ass? Just chill, girl.</text>
+	</string>
+	
+	<!-- RENEGADES -->
+	<string id="dm_information_490">
+		<text>I had to get out of there, girl. Fat-ass Sidorovich his goons, they were all looking at me. Never stopped looking, couldn't sleep. They were just waiting, waiting for me to let my guard down. Screw them, I'm not going to be their lab-rat. I'll take my chances.</text>
+	</string>
+	
+	<!-- LONERS -->
+	<string id="dm_information_534">
+		<text>We risked our necks getting into the Zone, to see its wonders and to maybe to make some cash as well. What keeps running through in my mind... is that when we go back home, home won't be there. What if it's all Zone? All of it. Who's to say that it isn't so right now? How do you know that there's even a real world left? Fucking hell, girl, that scares me.</text>
+	</string>
+
+	<string id="dm_information_537">
+		<text>The Zone requires every stalker here to perform or to die. I think that's why the gunsmiths here are perhaps the best in the entire world. They have jack-shit to work with, they have to put up with the Zone's bullshit, and despite this, they able to churn out amazing mechanical improvements that would make an engineer's head spin. Where would we be without them?</text>
+	</string>
+
+	<string id="dm_information_608">
+		<text>Lady, what happened to Duty? Where did all your territory go? There seems to be so few of you left. I hear rumors about Shulga and his men sometimes. Usually that they're holed-up somewhere in Pripyat, but I don't see it.</text>
+	</string>
+
+	<!-- GENERAL: MUTANTS -->
+	<string id="dm_information_645">
+		<text>Ever hear of the Gromi? They were initiates like us, but given over to special powers when they underwent a deification. I knew one brother, Oleg Mithras, who was entrusted with the power of calling down an Emission - what a gift! Or Timur Magus, who was able to bring about the slow death of any man that he had seen. As for myself, I'm just a humble servant, happy with shooting those bitches who dare oppose the Zone.</text>
+	</string>
+
+	<string id="dm_information_669">
+		<text>Chernobog was wise to make common cause with so mighty a host as the Monolith. Are we not brothers and sisters in spirit? You seek to preserve the noble Zone and we seek to see it grow. No doubt our work is in much of the same.</text>
+	</string>
+
+	<string id="dm_information_670">
+		<text>I was recently initiated into the Zone and it pains me to think of all of the evil said about the Monolith. Do they not know that it was the Zone-foes who struck at the heart of the Zone without cause? They live in ignorance and misery, death should be a solace for them.</text>
+	</string>
+
+	<string id="dm_job_4">
+		<text>Wolf and Fanatic could give you work to do. Bandits are coming more often lately, and not only that, mutants have become more active. They always ask for someone to clean the Cordon from these two threats.</text>
+	</string>
+
+	<string id="dm_job_10">
+		<text>Sorry, lady, I've got nothing for you. Just dig in and help us hold on to what we've got.</text>
+	</string>
+
+	<!-- Surrender -->
+	<string id="st_surrender_query_victim_3">
+		<text>Here's a medkit... but I'm taking your weapons, fucker.</text>
+	</string>
+
+	<string id="st_surrender_victim_answer_3">
+		<text>Please, lady! I will tell you!</text>
+	</string>
+
+	<string id="st_surrender_victim_answer_default_bounty_3">
+		<text>Please, lady! I will tell you!</text>
+	</string>
+
+	<!-- Task cancelling -->
+	<string id="st_default_task_cancel_1">
+		<text>Why the fuck did you ask me for a job just to give up? Piss off, idiot.</text>
+	</string>
+
+	<string id="st_default_task_cancel_2">
+		<text>What? I thought I could trust you to do that job...</text>
+	</string>
+
+<!-- (Bandit ground leader) -->
+	<string id="st_agr_u_bandit_boss_dialog_start_0">
+		<text>Who are you... And what the fuck is a girl like you doing down here?!</text>
+	</string>
+
+	<string id="st_agr_u_bandit_boss_dialog_start_1a_1">
+		<text>No, I haven't "found any". Are you off your mind, bitch? You gotta hear the growls coming from down there first, then you can think about treasures.</text>
+	</string>
+
+	<string id="st_agr_u_bandit_boss_dialog_ask_7">
+		<text>Shit... I don't know, girl... I don't want to see those damn things ever again...\n...</text>
+	</string>
+
+	<string id="st_agr_u_bandit_boss_dialog_ask_81">
+		<text>You're completely crazy, bitch. You know that? Good luck with your search.</text>
+	</string>
+
+	<string id="st_agr_u_bandit_boss_dialog_ask_15">
+		<text>I don't have time for your crap, cunt.</text>
+	</string>
+
+	<string id="st_agr_u_bandit_boss_dialog_give_docs_1">
+		<text>Sis, I don't know what to say, honestly. We can finally leave this shithole. I'm going back to Sultan with these documents, the boys here will stay for a little while once we arrange everything.
+		\nWhat about you? Wanna come with me? I'll make sure Sultan pays you generously.</text>
+	</string>
+
+	<string id="st_agr_u_bandit_boss_dialog_arrived_1">
+		<text>Thanks sister, I won't forget your help. Here, take this. I... eh... found this shiny artefact when we were exploring earlier. Consider it payment for your troubles.</text>
+	</string>
+
+<!-- Barkeep -->
+	<string id="bar_visitors_barman_stalker_trader_start_dialog_11">
+		<text>Oh, hello. What's up, lass?</text>
+	</string>
+
+<!-- Mangun (Duty Mechanic) -->
+	<string id="story_dolg_m_3">
+		<text>Girl, it's hard getting by without a drink. Or a few. I wish I could've helped out at Yanov when the Monolith hit... but, then again, I probably wouldn't be alive if I wasn't ordered to stay put here. So many good men were lost defending that place...Huh, looks like we've gone way off topic. Anyway, don't be shy, now - show me your toys if you need 'em fixed.</text>
+	</string>
+
+	<string id="st_top_10_task_about_dialog_1">
+		<text>Fun? This place can get boring fast, lass. Customers nowadays barely seek anything interesting. Just a bunch of amateurs who want to get their hands on artefacts and such, you know what I mean?</text>
+	</string>
+
+	<string id="st_top_10_task_about_dialog_3">
+		<text>Yeah, but don't any of them ever dream of doing something epic, something legendary? Like you, for instance - you seem like an experienced woman for a place like this. Don't you want to accomplish something that people will never forget? </text>
+	</string>
+
+	<string id="st_top_10_task_about_dialog_7">
+		<text>I asked my contact something similar. Well, he said he's tired of walking dreadnoughts vaccuuming up all the loot with their fancy rifles and expensive suits. He wants to give the common stalker more of a chance. Anyways, the pay will be incredible, so who cares?</text>
+	</string>
+
+	<string id="st_top_10_task_about_dialog_8">
+		<text>I knew that you would take the risk. I'll upload the coordinates into your PDA. Every time you kill one of them, you get the location of the next target. It's a pleasure doing business with you, lady.</text>
+	</string>
+
+	<string id="st_top_10_task_finish_dialog_1">
+		<text>Splendid work, girl! Our client is very happy with your results. As promised, here's your reward. Glad you were up to it after all - even now, I can hear people talking about your deeds. The killer of legends! This is gonna shake things up a bit, hehe...</text>
+	</string>
+
+<!-- ARENA -->
+	<string id="bar_arena_manager_start_51">
+		<text>Sorry, sis, but you lose. Come again next time if you want.</text>
+	</string>
+
+<!-- Olivius (Bandit Trader) -->
+	<string id="val_smart_terrain_7_4_bandit_trader_stalker_start_dialog_1">
+		<text>Hey, girl! Looking for gear? Or maybe some work? I'm the guy to see when you need to unload your habar for cash.</text>
+	</string>
+
+	<string id="val_smart_terrain_7_4_bandit_trader_stalker_start_dialog_2">
+		<text>Hey, lass. What do you need? Looking for work?</text>
+	</string>
+
+<!-- (Bandits Mechanic) -->
+	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_start_dialog_1">
+		<text>What you need today, girl? I'll fix your shit right up. I can also decrypt any locked PDAs you might have, so be sure to bring them over to me.</text>
+	</string>
+
+<!-- Sultan -->
+	<string id="zat_b7_bandit_boss_sultan_intro_0">
+		<text>Welcome to my citadel. Everything that goes down in the surrounding valley is either under my control or will be soon. When you get tired of the shitty life, you come work for me. Then, you get the good life. That's how we roll, girl.</text>
+	</string>
+
+	<string id="sultan_st_1">
+		<text>Yeah, lass, that's right, and I've earned my name. Marched down here from Zaton in the nick of time. Cleared out the mutants swarming this place, saved the defenders, recruited them into my gang... got the whole building back up and running. Many around here still owe me their lives, and they don't forget it.\n \n'Course, it ain't all sunshine and rainbows. Not sure if you heard why I was marching down from Zaton in the first place?</text>
+	</string>
+
+	<string id="sultan_st_3">
+		<text>His name was Alexander, but don't you fret about him. You're a brave lady, daughter. But even his ass is a barbed metal fortress; you can have the most seductive charms in the world, and you still wouldn't be getting in.\n \nHe'll get what's coming to him, don't worry. Just trust that your Sultan has got this one.</text>
+	</string>
+
+	<string id="sultan_st_9">
+		<text>And what did you expect, daughter? Life may not always be a walk in the park, but we've got connections. Speaking of which; if you're looking to get the drop on some stalkers, go see Loris, north-west of the bridge in Cordon. Sometimes there's competition hanging around there, but on quiet days you should be able to just walk up to him, and for the right price he'll hook you up with a disguise. Much easier to get treasure off rooks when they don't see you coming.</text>
+	</string>
+
+<!-- Aslan (Mercenary Barman) -->
+	<string id="lottery_ds_aslan_mlr_26">
+		<text>You're a lucky bitch! Here's something for the radiation.</text>
+	</string>
+
+<!-- Sidrovish -->
+	<string id="esc_2_12_stalker_trader_start_dialog_1">
+		<text>So, a new stalker... and a woman this time, no less. I'm the one in charge of supplying everyone here and making sure that free stalkers have a place to stay, whether they're rookies or veterans.\n\n
+		Now... how you got into the Zone, or if you've been around before, that's your business. But I'm sure you've figured out by now that the Zone isn't exactly the safest place to be. And judging by the look of you, I'd say you've come here for work, eh? If that's the case, I can help you out. There's always work that needs doing - some dirty jobs for those who aren't afraid to get their hands a little messy. And there's a good bit of cash to be made if you're up for it.\n\n
+		Anyway, whether you're here to work or trade, I'd like to remind you just like everyone else in the village, that the Military isn't to be messed with. They don't want any stalkers anywhere near them. Don't waste your time trying to reason with them - not even for a second. They wouldn't trust you even if their lives depended on it. I work my ass off daily to make sure they leave the loners alone, so as long as you and the rest don't interfere with them, things should stay peaceful.</text>
+	</string>
+
+	<string id="esc_2_12_stalker_trader_start_dialog_2">
+		<text>Hey, lass! What do you need?</text>
+	</string>
+
+	<string id="esc_2_12_stalker_trader_start_dialog_esc_m_trader_task_2_complete">
+		<text>You have a real talent, girl, you know that? Here is your payment. This will be good for business.</text>
+	</string>
+
+<!-- Fanatic -->
+	<string id="fanat_training_stash_found_1">
+		<text>Huh... I see that with your level of perception, the Zone won't be taking you so easily. That was your final lesson. You've certainly proven to be your own stalker, and you should be proud of it, gal. There's nothing more I can teach you.</text>
+	</string>
+
+<!-- Hip -->
+	<string id="devushka_1_start_0">
+		<text>Hello, sister.</text>
+	</string>
+
+<!-- Butcher (Hunter-merchant in the Garbage) -->
+	<string id="st_hunter_gar_trader_life_2">
+		<text>Oh girl. Let's talk about dogs. I'm sure you've seen a few packs of strays running around the Zone by now. Even the rookies in Cordon have.\n \nGet rid of any thoughts that these are household pets, or that they can be rehabilitated, or tamed. The Zone has touched all these beasts. You ever seen Zone dogs up close? They're blind, with eyes that have withered away generations ago.\n \nFast creatures, too. Their bite isn't the worst injury someone can get in the Zone, but it's enough to slow you down and, if there's a pack nearby, that's enough to end you.\n \nTo top it all off, their sense of smell is even keener than a greyhound's.\n \nYou asked for a story, but I'm not sure what to tell you. I've seen hundreds of rookies and even some experienced stalkers underestimate these creatures and get ripped apart as a result.\n \nEven Military Stalkers get unlucky. Even the best armour merely means these dogs will try to bleed you out rather than tear you up.\n \nMostly though, they prefer to stick to Fleshes, so as long as there's enough wild food around in proportion to the dog population, you should be alright. In some cases, packs would even let me pass unscathed if I just kept a little quiet as I went through. Of course, it's not something I'd try unless there's an anomaly field between you and those canines, the consequences of them getting a little hungry and suddenly changing their minds are...unsettling to witness, at best.</text>
+	</string>
+
+<!-- (Monolith Mechanic - Jupiter factory) -->
+	<string id="mechanic_monolith_jup_depo_start_0">
+		<text>Salutations, fellow sister. My duty is to provide technical support for our brethren in the area.</text>
+	</string>
+
+<!-- Garry (Guide) -->
+	<string id="meet_guid_jup_1">
+		<text>Nice to meet you, sis. Name's Garry, and I'm a guide - I usually roam around the centre of the Zone. I can take you to the Bar, Pripyat, the Red Forest, Zaton and the Jupiter Underground.</text>
+	</string>
+
+	<!-- Trapper (Loner) in Yanov -->
+	<string id="jup_trapper_about_retire_1">
+		<text>I’m getting old, girl. That’s why Fox died... He was my partner, and one of my best friends. We hunted many a beast together, shoulder to shoulder... Then we ran into these two chimeras by Zaton that haven’t been seen in the Zone for eighteen months... One knocked Fox to the ground before I could even get my shotgun out. When I wounded the other one, they ran off... I hope they burn in hell forever!</text>
+	</string>
+
+	<!-- -->
+	<string id="jup_a6_stalker_medik_need_health_care_11113">
+		<text>Then... To a good death, friend.</text>
+	</string>
+
+    <!-- Hawaiian (Bartender at Yanov Station) -->
+	<string id="hawaiian_yanov_1">
+		<text>Welcome to Yanov Station, fellow stalker! Full of jolly people! Yes...full of them! Friends and companions that you can talk, drink and gamble with between trips through the Zone. Wanna buy something to help you out? Between Ashot and I, we've got you covered, lass. Better safe than sorry!</text>
+	</string>
+
+	<string id="hb_maus_start_2">
+		<text>Yeah, you do seem a little familiar... hang on. Yeah, I know you too! No way! Girl, how'd you make Captain already?</text>
+	</string>
+
+	<string id="hb_maus_start_7">
+		<text>You're extremely happy for a woman stuck in an irradiated hellhole.</text>
+	</string>
+
+	<string id="hb_strelok_escorted_dialog_1">
+		<text>You're a woman of your word. Thank you.</text>
+	</string>
+
+	<string id="lukash_living_legend_finish_5">
+		<text>Really? Well, the Zone's making us happy, so it worked anyway. Hell, I can already imagine the government fuming when we publish everything. Great job, sis. You deserve a medal, and this.</text>
+	</string>
+
+	<string id="sakharov_living_legend_1">
+		<text>That brave man helped us immensely several years ago. He managed to deactivate the Miracle Machine on his own, so that we were no longer threatened by its psychic emanations. He even worked as our Chief Scientist Consultant for some time, but sadly that was not to last. Regardless, Strelok was to the centre of the Zone. I shudder to imagine the things he witnessed and experienced in there. He must possess great knowledge about the inner workings of the Zone, perhaps its true origin as well. Young lady, do you know what that would mean for the scientific community?</text>
+	</string>
+
+	<string id="barkeep_living_legend_7">
+		<text>No problem, lass. Good luck.</text>
+	</string>
+
+	<string id="stalker_rogue_living_legend_start_86">
+		<text>You're a funny girl. Very funny. But I'm sworn off pot until I finish my mission. I'm not gonna budge.</text>
+	</string>
+
+	<string id="dushman_mortal_sin_zone_hero_1">
+		<text>Now that's a feat for a woman like you here in the Zone, if I've ever seen one. Great job, merc.</text>
+	</string>
+
+	<string id="sidorovich_mortal_sin_ambush_1">
+		<text>That's my girl! Glad to keep you around... however, the stakes have been raised. I've received reports from stalkers across the Zone that Sin's main forces have been moving toward the two psy-installations. I think they want to reactivate them and cut the centre of the Zone off again. Obviously, we can't let that happen.</text>
+	</string>
+
+	<string id="cold_mortal_sin_3">
+		<text>Thanks lass. He's somewhere around, I guarantee he'll stand out like a sore thumb, so you shouldn't have any trouble noticing him.</text>
+	</string>
+
+	<string id="lukash_mortal_sin_report_1">
+		<text>Oh, hey sister. How was the trip? Met any interesting people over there?</text>
+	</string>
+
+	<string id="lukash_mortal_sin_report_2">
+		<text>A few of them. Reunited with Stitch, who was being chased by Sin. You were right about them. Anyway, the hunting squad is dead, but Stitch said that Sin has been preparing to launch a large scale invasion on the southern sectors of the Zone. He's trustworthy, and it seems that way anyway. Take a look at this: the head Predator's PDA.</text>
+	</string>
+
+	<string id="lukash_mortal_sin_report_3">
+		<text>Girl, we've got a major war on the horizon. Well, I was fed up with the constant Monolith attacks anyway. This'll be a nice change of pace. I'll rally our guys for another faction war, just give me... a sec... Hmm. Guards at the main gate just reported that a large squad's approaching our base. Shots fired... but they aren't Monolith! Crap. Go help them out, will ya? I'll try to organise something here.</text>
+	</string>
+
+	<string id="lukash_mortal_sin_zone_hero_1">
+		<text>Wow, now that's a job well done! You're on fire, bitch! Let's keep our Zone the way we love it: unpredictable and deadly, but cosy. No need to change a thing about it.</text>
+	</string>
+
+	<string id="lukash_mortal_sin_zone_hero_5">
+		<text>Rest all you want, sister, but don't forget to come to the victory celebration party!</text>
+	</string>
+
+	<string id="sakharov_mortal_sin_1">
+		<text>Sometimes I cannot tell if you are joking, young lady. I suppose the situation is fairly stable, at least. Come to think of it, there has been one unsettling development here lately. Some new stalkers came to Yantar a few days ago, this hooded fellow among them. Rather than help our guards fend off the constant incursions he prefers to preach about the wonders of the Zone. I heard him myself, and I am afraid the man might be insane. He has done no direct harm to us so far, although our guards are growing weary of his presence. Please, try to convince him to leave us be.</text>
+	</string>
+
+	<string id="sakharov_mortal_sin_ambush_1">
+		<text>Excellent work, young lady! I knew I could count on you. Sadly, this is merely the beginning. Military gunships observed substantial Sin forces moving toward both of the psy-installations. Given our current knowledge it is safe to assume they intend to reactivate them. The best course of action is to thwart their plan right now.</text>
+	</string>
+
+	<string id="sakharov_mortal_sin_zone_hero_1">
+		<text>What a horrible conflict, I am glad it is over. You have done well, young lady. I knew I could count on you in this time of need. I sincerely hope that the Zone will be able to reach a state of equilibrium at last.</text>
+	</string>
+
+	<string id="red_forester_mortal_sin_1">
+		<text>Young lady, the Red Forest is home to many strange phenomena and events. If I were to describe all of them, we would...</text>
+	</string>
+
+	<string id="red_forester_mortal_sin_3">
+		<text>Just be patient girl, I'm trying to remember! Ah, yes... I think I know who you're referring to. They appeared without warning a couple of days ago. Came from the north. There was something ominous about them, the way they walked silently in a tight formation... other stalkers immediately sidestepped to make way for them. And then they simply walked into the forest like it was some regular park. I've heard distant gunshots many times since, more often than usual, that is.</text>
+	</string>
+
+	<string id="red_forester_mortal_sin_9">
+		<text>Be careful, young lady. There's more than hostile stalkers that you may encounter there. Stay vigilant.</text>
+	</string>
+
+	<string id="stalker_stitch_mortal_sin_decoder_1">
+		<text>I knew you'd get it no problem, lass. Which is disturbing, actually. Still, thanks.</text>
+	</string>
+
+	<string id="lazarus_greeting_0">
+		<text>What's up, sis?</text>
+	</string>
+
+	<string id="sakharov_operation_afterglow_1">
+		<text>Oh, yes, young lady. Do you know Professor Hermann? His bunker up north reported some intriguing radio transmissions occurring in the Iron Forest in Zaton. This is especially interesting considering the prominent anomalous activity in that area. I would like you to conduct research at that location, there's no telling what we might discover.</text>
+	</string>
+
+	<string id="sakharov_operation_afterglow_transmission_report_1">
+		<text>Did you discover anything interesting, young lady?</text>
+	</string>
+
+	<string id="sakharov_operation_afterglow_transmission_report_3">
+		<text>Oh, I see. While researching the Zone itself and its many marvellous phenomena is worthwhile indeed, I could only shudder at the consequences of information pertaining to its creation falling into the wrong hands. Thank you, young lady, you can go now.</text>
+	</string>
+
+	<string id="stalker_rogue_dialog_oa_heal_psycho_1">
+		<text>Th-thank you sis, they almost got me.</text>
+	</string>
+
+	<string id="stalker_stitch_dialog_oa_saved_1">
+		<text>Ha! I'd laugh my ass off if I wasn't still shaking... phew. Thanks for the help, girl, I owe you one.</text>
+	</string>
+
+	<string id="stalker_stitch_dialog_oa_join_1">
+		<text>Sure girl, let's do this!</text>
+	</string>
+
+	<string id="degtyarev_further_cooperation_search_unit_300">
+		<text>You... dammit girl, it was a simple pass-phrase! I expected more of someone with your resume. Still, we might find some use for the info that you've brought. I'm almost done in this sector. There's one more thing: seems that the "thugs" have been thoroughly searching the old Jupiter factory. I don't want them to find anything confidential in case there's something still left, so we should dispose of them. Better safe than sorry.</text>
+	</string>
+
+    <string id="marsh_stalker_medic_about_zone_1">
+        <text>Young lady, we have been studying the Zone for several years now but remain none the wiser. I can tell you that the Zone is definitely not a natural phenomenon but rather the result of... a futile endeavour devised by some overly ambitious people. We are unable to reverse its effects. The Zone cannot be destroyed, nor will it disappear of its own accord. Furthermore, experience taught us that any attempt to curb or contain it will have catastrophic consequences. Presently we, Clear Sky, believe that there is only one way to reconcile man with the Zone: coexistence.</text>
+    </string>
+
+	<string id="cit_doctor_health_care_112">
+		<text>No injuries or radiation, it seems. Everything's alright, lass.</text>
+	</string>
+
+<!-- Lukash (Freedom Leader) -->
+	<string id="about_freedom_lider_miklyha_3">
+		<text>Look, friend. I know that place is interesting and all, but I'd rather not start reminiscing. What matters most is that I got out safe and sound.</text>
+	</string>
+
+	<string id="monolith_eidolon_start_0">
+		<text>Praise the Monolith.</text>
+	</string>
+
+	<string id="st_mil_smart_terrain_7_7_freedom_leader_stalker_life_end">
+		<text>Maybe another time, girl? Right now, I need to focus on keeping the boys coordinated, and I know a few of them will want to see me in private soon. </text>
+	</string>
+
+<!-- (Freedom guide) -->
+	<string id="mil_freedom_guid_go_1">
+		<text>Sure, girl. Where to?</text>
+	</string>
+
+<!-- Monolith Mechanic in the Yubileiny service center -->
+	<string id="mechanic_monolith_kbo_start_0">
+		<text>Greetings, sister. I carry out Its will by preserving the equipment of our brotherhood.</text>
+	</string>
+
+<!---- Charon, in the basement of the Palace of Culture --->
+	<string id="travel_guid_l11pri_mon_haron_1">
+		<text>To which location do you seek to go, sister?</text>
+	</string>
+
+<!-- Forester -->
+	<string id="red_forester_hello_dialog_1">
+		<text>What is a girl like you looking for in Forester's estate?</text>
+	</string>
+
+	<string id="red_forester_hello_dialog_3">
+		<text>Good luck, girl!</text>
+	</string>
+
+	<string id="red_forester_who_are_you_1">
+		<text>What can I tell you about myself? I'm Forester. I've been here a long time; I've spent my whole life living next to this forest. I'm old. At my age, you grow attached to your place of residence, no matter what it is. I refused to be evacuated after the accident at the power plant, and I also survived the appearance of the Zone. I remember a flash on the horizon... Many folks died that day, but the Zone spared me, you see? Heck, it didn't just spare me, it gave me a gift! I used to be able to find paths in the forest, and now I can feel out a safe path through deadly anomalies. Stalkers envy me, but I can't say I'm all that happy about my gift. You must understand that everything comes at a price. Someday, the Zone will take payment for my gift. That's what I am afraid of, girl.</text>
+	</string>
+
+	<string id="red_forester_about_doc_111">
+		<text>Careful what you're wishing for, young lady.</text>
+	</string>
+
+<!-- Sin trader -->
+	<string id="red_greh_trader_start_dialog_0">
+		<text>Come, sister. I'll make sure you can serve the Zone well.</text>
+	</string>
+
+	<string id="red_greh_trader_st_1">
+		<text>If you need equipment, I can provide. I don't merely collect and manage the gear that our brave crusaders take from fallen enemies. No, no, no, throughout the years I have established many contacts with outside suppliers. You see, sister, others may not understand the magnificence of the Zone, disagree with the justness of our cause, even want us dead... but as soon as they recognise a chance to make profits, they're more than willing to cooperate. And I'm more than willing to exploit their flaws to our advantage. While they provide us with the tools required to realise our vision of Vyraj, all they gain in return is digits, metal disks, and scraps of paper. Ironic, isn't it?</text>
+	</string>
+
+<!-- (Bandit Mechanic) -->
+	<string id="trucks_cemetery_bandit_mechanic_start_0">
+		<text>Eh? What is a girl like you doing in this shithole? Anyway, who gives a fuck. Handle me your shit if you want it fixed, or piss off somewhere else.</text>
+	</string>
+
+<!-- Sakharov -->
+	<string id="st_yan_stalker_sakharov_life_end">
+		<text>Hmm? Perhaps later, young lady. I'm sure you have more pressing matters to attend to now.</text>
+	</string>
+
+<!-- Trading / Repair dialog -->
+	<string id="st_bartender_dialog_reply_2">
+		<text>Feeling hungry, lass? Just check what I've got to sell.</text>
+	</string>
+
+<!-- Selling important documents -->
+	<string id="st_trade_important_documents_answer_zat_b7_bandit_boss_sultan">
+		<text>Nice job, girl. Next time you "find" such a thing, don't forget to give me a visit.</text>
+	</string>
+
+<!-- Swap items with Companions -->
+	<string id="st_companion_inv_take_all_my_items_response_refuse_1">
+		<text>Hold on girl, I have stuff too! I can't carry all of your rubbish at once!</text>
+	</string>
+
+	<string id="st_companion_inv_take_all_my_items_response_refuse_3">
+		<text>What am I, a mule? Come on, girl, my backpack is already bursting!</text>
+	</string>
+
+<!-- Paid Companions -->
+	<string id="st_paid_companion_dialog_text_1">
+		<text>Sure thing, but it does not come for free. It'll be %s rubles if you want the service for 24 hours. And if one day isn't enough for you, we can change it to 48 hours instead, but the price will be a bit higher - %s rubles.\n\n
+		But there's a condition: If you plan to get inside one of these underground places or enter Monolith territory... then you are on your own, we don't want to deal with bullshit like that. Got it right, gal?</text>
+	</string>
+
+	<string id="st_paid_companion_danger_2">
+		<text>Are you retarded or something, bitch?! Did you forget already about the condition?! I'm not going to these places, I'm getting the hell out of this shithole.</text>
+	</string>
+
+<!-- Medic general -->
+	<string id="st_dm_medic_general_text_10_3">
+		<text>Lady, you're healthier than a bloodsucker.</text>
+	</string>
+
+	<!-- About Quests Duty -->
+	<string id="about_quests_dialog_dolg_54">
+		<text>Well, you could start a recruitment campaign in a mental hospital... Then again, I know a good alternative - Monolith fighters. Speaking of which, a squad of them was spotted near AA complex, and they probably even know the way to Pripyat, too... Hey girl, I hope you're not taking me seriously...</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_163">
+		<text>At the plant, girl, where else? It's not exactly lively in there, but the warehouses will cheer you up. It's a bit safer and you're bound to find some decent tools in there.</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_165">
+		<text>That's a good question, girl. Let's think about this one. Where do you find tools outside the Zone? Now, if you got half a brain, you buy them in a store... If you don't, you look for the tools and a brain in a workshop. Right? It's the same thing in the Zone - you have to look in the same places. It's that simple, stalker!</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_166">
+		<text>Tools? Listen, girl, is that code for something? There're no pigs here or anything, you can speak freely... Oh, you're serious? In that case I really don't know.</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_301">
+		<text>Pilot for sure, girl. He's the main free stalker guide around here - if you want to talk maps, he's the one you want.</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_31">
+		<text>Chill, girl. There ain't no cops, no jar-heads and no friggin' militia around here - you're as safe as can be in the Zone.</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_44">
+		<text>Sis, if I knew I'd have gone there a long time ago. Getting away from Duty, the jar-heads and all this fighting would be worth it...</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_91">
+		<text>Girl, you gotta warn the free stalkers - they've got their main camp around here, after all. The Zone's wildlife is valuable, to be sure, but I'm more concerned about the people in this place.</text>
+	</string>
+
+	<!-- About Quests Stalker -->
+	<string id="about_quests_dialog_stalkers_113">
+		<text>I heard that any mutant you meet there will just walk on by without so much as looking at you. They also say that there's an artefact there called the Heart of the Oasis... Nobody knows what it does exactly, but one thing's for sure: you shouldn't touch it. Anyone who takes it won't have no place in the Zone no more... Location? Girl, everyone knows it's in Pripyat under the Ferris wheel! I mean, where else would it be?</text>
+	</string>
+
+	<string id="about_quests_dialog_stalkers_43">
+		<text>How should I know, girl? You got any easier questions for me? All I can say is that you should find Pilot and talk to him - if anyone can help you, it's him.</text>
+	</string>
+
+	<string id="about_quests_dialog_stalkers_44">
+		<text>Hah, if I knew the way to Pripyat I wouldn't be here. Why do you think I went towards the centre of the Zone? Pripyat is full of artefacts, girl! Whoever gets there first is gonna be living the high life!</text>
+	</string>
+
+	<string id="about_quests_dialog_stalkers_54">
+		<text>Listen lass, I heard that a squad was spotted by the dry lake south of the AA complex... Apparently they're not the usual stalkers or Freedom or Duty - they're Monolith men! So if you need someone to go to Pripyat with, they're just the ticket. Haha, you do realize I'm kidding, right?</text>
+	</string>
+
+	<string id="about_quests_dialog_stalkers_28">
+		<text>Girl, I've got other shit to worry about without your choppers... I mean, I bet crashing a heli hurts like hell, but other than that I don't know what to say.</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_27">
+		<text>Huh? Nah, girl, I don't concern myself with shit like that. It don't help with my mission of disseminating knowledge one bit, you know what I mean?</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_502">
+		<text>A good question, girl... We don't ever wear those here in Freedom... I'd ask stalkers at Zaton if I were you. There might be someone there who runs that sort of business.</text>
+	</string>
+
+	<string id="about_quests_dialog_stalkers_503">
+		<text>Girl, you talk about it like it's office supplies or something... No one knows for sure. Pieces like that are few and far between... Consider yourself lucky if you snatch one.</text>
+	</string>
+
+	<!-- Alundaio -->
+	<string id="dm_dialog_companion_final_words_good_alone_3">
+		<text>Bad-ass, girl. Thanks.</text>
+	</string>
+
+	<string id="dm_dialog_companion_final_words_bad_alone_2">
+		<text>Woah, girl! What the hell is your problem?</text>
+	</string>
+
+	<string id="axr_phrase_companion_acknowledge_2">
+		<text>Alright, girl.</text>
+	</string>
+
+<!-- Gonta -->
+	<string id="gonta_about_mutants_11151">
+		<text>They're expert hunters themselves, with excellent disguise. When they're camouflaged you can barely see them. If you're hunting a bloodsucker, try to startle it. You can see it better when it's on the move... Remember, a bloodsucker will try to sneak up behind you and weave its feelers around your neck. That's some creepy shit, girl... If you are unlucky enough to run into a few bloodsuckers, always watch your back.</text>
+	</string>
+
+<!-- Beard (Loner Barman) -->
+	<string id="boroda_story_1">
+		<text>That's right. And judging by looks, you must be a girl. A long while has passed since I've seen a woman roaming these marshes! Feel welcome to the Skadovsk, sister. Keep a cool head and you will be safe from thugs, mutants, and emissions here..</text>
+	</string>
+	<string id="boroda_story_2">
+		<text>Thanks, I apreciate the hospitality. Mind if I ask you what can I do here?</text>
+	</string>
+	<string id="boroda_story_3">
+		<text>Whatever you prefer the most, lass. Ever since the departure of Sultan, the hunt for artefacts around here has been more of a breeze than ever. If you plan on going south in the direction of the substation workshops and the waste processing station, be careful. The Syndicate holds those territories, and they pose quite a threat. If you happen to find any artefacts, feel free to bring them here - I'll be more than happy to offer you a decent price. Stay safe around these parts, stalker.</text>
+	</string>
+
+	<string id="zat_b22_stalker_medic_need_health_care_11112">
+		<text>Well, you won't die from weak radiation. For now at least. But I won't take any responsibility if you bleed to death. Good luck, friend!</text>
+	</string>
+
+	<string id="zat_b3_stalker_tech_drink_1_2">
+		<text>Nah, I'm off the bottle, lass. When I saw item 62, I thought, 'That's it, I'm having the jumps...' See, booze just screws you up. Not a part of a healthy diet. And if I'm gone, who's gonna hammer out ammo for your Gauss rifle?</text>
+	</string>
+
+<!-- Task news -->
+	<!-- Bounty gossip -->
+	<string id="st_dyn_news_gossip_bounty_1">
+		<text>I've just seen $who, $where. I've heard that someone wants that stalker dead.</text>
+	</string>
+
+	<string id="st_dyn_news_gossip_bounty_3">
+		<text>What's up with $who lately? Is it true that someone is after that stalker?</text>
+	</string>
+
+	<string id="st_dyn_news_gossip_bounty_4">
+		<text>It seems $who has made some powerful enemies. That stalker should stop roaming around $where and get the fuck out of there before things get bad.</text>
+	</string>
+
+
+	<!-- Nearby enemy activity -->
+	<string id="st_dyn_news_enemy_activity_stalker_6">
+		<text>We got an outsider. It's not clear, but I think it is $who.</text>
+	</string>
+
+	<string id="st_dyn_news_res_enemy_activity_stalker_3">
+		<text>If that stalker tries something funny, we're gonna have a bad time around here.</text>
+	</string>
+
+	<string id="st_dyn_news_res_enemy_activity_stalker_5">
+		<text>Is that so? Let me know if you see that idiot heading this way.</text>
+	</string>
+
+	<string id="st_dyn_news_res_enemy_activity_stalker_9">
+		<text>If that retard tries to do something stupid, open fire at once.</text>
+	</string>
+
+	<string id="st_dyn_news_res_enemy_activity_stalker_10">
+		<text>They killed one of my friends the other day, fucking bastards.</text>
+	</string>
+
+<!-- Companions news -->
+	<!-- Companions - Life -->
+	<string id="st_dyn_news_companion_life_all_23">
+		<text>You hear those growls in the distance? That's a bad sign, I swear it.</text>
+	</string>
+
+	<string id="st_dyn_news_companion_life_bandit_3">
+		<text>Eh, $name, my girl. You got some smokes?!</text>
+	</string>
+
+	<string id="st_dyn_news_companion_life_stalker_3">
+		<text>Girl, Sidorovich's prices are unbelievable.</text>
+	</string>
+
+	<string id="st_dyn_news_companion_life_monolith_1">
+		<text>Sister, show no mercy to those who stand against the Monolith's will.</text>
+	</string>
+
+	<string id="st_dyn_news_companion_life_monolith_7">
+		<text>Be careful sister, the enemy may show up at any moment.</text>
+	</string>
+
+	<string id="st_dyn_news_companion_life_monolith_8">
+		<text>Trust no one who doesn't wears the colors of the Monolith, sister. We are alone in this world.</text>
+	</string>
+
+	<!-- Companions - Level -->
+	<string id="st_dyn_news_companion_level_l05_bar_1">
+		<text>Hey, wanna have a drink at 100 Rads, babe?</text>
+	</string>
+
+	<string id="st_dyn_news_companion_level_l10_radar_6">
+		<text>Hey, you crazed bitch! Is visiting this place your greatest idea?!</text>
+	</string>
+
+
+	<!-- Companions - Actor - Rank -->
+	<string id="st_dyn_news_companion_rank_1_1">
+		<text>Your name is $name, right? I didn't expect a woman this time.</text>
+	</string>
+
+	<string id="st_dyn_news_companion_rank_1_2">
+		<text>$name?... I don't recall you, how does a girl like you end up in the Zone?</text>
+	</string>
+
+	<string id="st_dyn_news_companion_rank_2_1">
+		<text>Feels good to join a girl who knows what she's doing, $name.</text>
+	</string>
+
+	<string id="st_dyn_news_companion_rank_3_1">
+		<text>You're $name?! I heard a lot about your adventures back at our campfire last night. My friends said you're one of the few girls who survived a while in the Zone.</text>
+	</string>
+
+	<string id="st_dyn_news_companion_rank_3_3">
+		<text>$name?! People say you're trustworthy. Lead the way, ma'am!</text>
+	</string>
+
+	<string id="st_dyn_news_companion_rep_1_4">
+		<text>People say you fucked up big time, $name. What have you done exactly, gal?</text>
+	</string>
+
+	<string id="st_dyn_news_companion_rep_2_3">
+		<text>$name, you seem like a nice girl. Are you new around here?</text>
+	</string>
+
+	<string id="st_dyn_news_companion_rep_3_5">
+		<text>People say that you're a gal of your word, $name. I'm glad to join your team.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_d">
+		<text>Yes, there's a task I could assign to you, young lady. The situation we find ourselves in, is dire. Allow me to explain: one of our researchers went missing three days ago. Everything seemed to be in order during the first days, he had no issues scanning anomalous activity in specific areas we deemed safe, using a new prototype detector our team recently completed. But things changed when he began to notice strange hordes of mutants approaching his location.\n\n
+		According to our initial communications during his trip, the mutants were fleeing in all sort of directions, leading us to believe that something might have scared them. This is highly unusual, as mutants rarely leave the lair that they make their home, unless threatened by hunters.\n
+		We've repeatedly tried to convince the SSU to send a team to investigate, but they've refused - claiming it's pointless to look after a single man.\nPlease, if you're willing to take on the impossible, go after this fellow ecologist and find out what happened to him. If he didn't make it out alive, I implore you for science's sake to retrieve the prototype detector that he carried. It took months of research and planning to develop, and we cannot afford to lose it.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_end">
+		<text>Oh, there it is! You have no idea how much you have done for us all today! It is sad to lose another fellow researcher like this, and even more for the family behind this man... but we cannot grieve all day. Now what matters is that the device is safe, and the data stored in it will greatly help with the progression needed for our research to study the Zone. I will ensure that the sacrifice of this fellow researcher wasn't in vain with the provided data.\n
+		Here is some proper payment for your consideration and heroism, young lady. Oh, and please, I invite you to talk to Spirit for food and water if you feel exhausted or to Peregrine if you want your gear to be repaired.</text>
+	</string>
+
+	<!-- Kuznetsov (Military Honcho) Assault Enemy Camp Storyline Task -->
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_2_finish">
+		<text>Excellent work. You are a fine warrioress.</text>
+	</string>
+
+	<!-- Petrenko (Duty Trader) Raid Enemy Camp Storyline Task- -->
+	<string id="drx_sl_bar_dolg_general_petrenko_stalker_task_1_finish">
+		<text>Excellent work. You are a fine warrioress.</text>
+	</string>
+
+	<!-- Mangun (Duty Mechanic) Find Replacement Weapon Storyline Task- -->
+	<string id="drx_sl_bar_visitors_stalker_mechanic_task_1_about">
+		<text>I need some help, sis. A Dutier brought me in his rifle for repairs but I messed it up pretty bad. I need to find a replacement for him before he comes to pick it up.</text>
+	</string>
+
+	<string id="drx_sl_bar_visitors_stalker_mechanic_task_1_fetch_finish">
+		<text>Hey, great! You found one. Thanks sis, you saved my ass.</text>
+	</string>
+
+	<!-- Mangun (Duty Mechanic) Clear Out Mutants Storyline Task -->
+	<string id="drx_sl_bar_visitors_stalker_mechanic_task_2_about">
+		<text>Hey sis, can you do something for me? I gotta go somewhere but I heard there are mutants on the road leading out of the Bar. I'm no good at shooting, my aim is all shaky for some reason. Could you clear them out for me? I have a rifle that a customer never picked up that I can give you.</text>
+	</string>
+
+	<string id="drx_sl_bar_visitors_stalker_mechanic_task_2_finish">
+		<text>Thanks sis. Here's the rifle I promised you. Hope you have better luck than its previous owner... poor guy. Good thing he paid me in advance, hehe.</text>
+	</string>
+
+	<!-- Voronin (Duty Honcho) Night Terror Task -->
+	<string id="bar_dolg_leader_task_2_about">
+		<text>So, you want to prove your worth to Duty, do you? Very well. I have a task that will test your resolve and courage: There's a monster in the Truck Cemetery that has been instilling fear among our men. Several patrols have already been lost, and the only thing some of our men could find were splattered guts in the mud and traces of blood staining the old, rusty cars.\n\n
+		Just two days ago, one of our soldiers limped back. With his gear nearly destroyed, and he was carrying severe wounds and bruises. He managed to make his way back here, and now, he's resting as he should. Aspirin has been speaking with him to understand what happened, but all he talks about is how a fierce thunderstorm hit them. Apparently, he can't erase the image of his closest friend being dragged into the darkness. He says the screams of fear and anguish from that night still echo in his mind, torturing him for not being able to save his fallen comrades.\n\n
+		Recently, the few soldiers tasked with holding positions in the Truck Cemetery often speak of the tension at night. Even in supposedly safe places, they notice bright eyes in the dark, staring at them without moving at all. The echoes in the air seem to drive them to madness, and they remark that they always hear distant gunshots and screams of pain, only for silence to follow for hours, leaving them with the fear and doubt that something is lurking in the dark again. If you want to make Duty proud and earn the respect of our soldiers, face this monster at night, when it is most active.\n\n
+		Slay this abomination, and you will earn a trophy worthy of a huntress. And remember, if it's hostile, you kill it.</text>
+	</string>
+
+	<string id="bar_dolg_leader_task_2_finish">
+		<text>So the monster is finally dead. Splendid work, stalker, you truly are a fine huntress. We could even use your skills again in the future when another problem like this arises. But for now, here is your monetary retribution for what you've just done, you've earned our respect.</text>
+	</string>
+
+	<!-- Mangun (Duty Mechanic) -->
+	<string id="bar_visitors_stalker_mechanic_task_3_about">
+		<text>I can't believe what you've done for me, stalker! Even some of the neutrals around here are coming to me for upgrades now! But I know, in my heart, I'm not doing as well as I could. If only I had some better tools... Listen, girl. Bring me some expert-level tools, and I'll be in your debt. I could make your shooter into a masterpiece! I can't upgrade your stuff for free, of course, but I'll think of some way I can return the favour.</text>
+	</string>
+
+	<string id="bar_visitors_stalker_mechanic_task_3_fetch_about">
+		<text>Thanks, lass. I'll be sure to let the General know about this if you succeed.</text>
+	</string>
+
+	<!-- Barkeep -->
+	<string id="bar_visitors_barman_stalker_trader_task_1_fetch_finish">
+		<text>Well done, girl. Here is your reward.</text>
+	</string>
+
+	<!-- Barkeep (Loner Trader) New Tasks -->
+	<string id="bar_visitors_barman_stalker_trader_task_4_fetch_finish">
+		<text>Atta girl. Here's your payment.</text>
+	</string>
+
+	<string id="bar_visitors_barman_stalker_trader_task_5_finish">
+		<text>Great job, lass.</text>
+	</string>
+
+<!-- Mechanic -->
+	<string id="dasc_tech_mlr_task_1_fetch_finish">
+		<text>Damn! You really pulled it off, lady! Here - might not be the biggest payout, but it's something to cover your effort. You've earned it. Stick around for a bit if you're feeling wiped out.\n
+		Me and Cutter keep this place safe from mutants, so you can catch your breath or grab a nap without worrying about something sneaking up on you.\n
+		After hauling those tools all this way, you've more than earned a bit of peace.</text>
+	</string>
+
+	<string id="dasc_tech_mlr_task_2_about">
+		<text>You know what's great about this place? It's quiet, and if you find a good spot to set up a base - like this sawmill - you've got nothing to fear. It's a luxury being here, really. You've got everything: space, a roof to keep you dry on those cold, rainy days, some beds, a warm bonfire, and most importantly, a beautiful view to wake up to every morning...\n\n
+		Oh? Ahem, yeah, sorry about that… uh, anyway. The tools you brought last time really did their job, but now I could use some advanced tools. I don't know if it's too much to ask, but if you ever come across some, would you bring them my way? You've already made a big difference with the basic ones - but, heh, you know… having more wouldn't hurt.</text>
+	</string>
+
+	<string id="dasc_tech_mlr_task_2_fetch_finish">
+		<text>You've really outdone yourself, lady. At this rate, I'll turn this sawmill into a proper fortress, safe from mutants and bandits alike. Hell, maybe even the Zone itself will think twice before messing with us. Oh, and don't even try to refuse - there's no way you're leaving without your payment. Anytime you need something fixed, just swing by, and I'll give you a solid discount.\n\n
+		It's rare to find someone dependable out here, you know? Not many stalkers care about what happens in the Darkscape, usually it's just a place to hide when you've got a bounty on your head... but it feels good to see more stalkers like you keeping the Zone from swallowing us whole.</text>
+	</string>
+
+	<string id="dasc_tech_mlr_task_3_about">
+		<text>Alright, I know this might sound a bit annoying, but those tools you brought me before - they're still working fine, don't get me wrong - but they've got me feeling a little... ambitious. You see where I'm going with this, right? Heh, I thought so.\n
+		Do me this one last favor, will you? I need some expert tools. I don't care how or where you get them, as long as you can tell they're the real deal - more intricate-looking than the advanced ones. Bring them back to me, and I swear, you'll make me the happiest mechanic in the Zone. I mean it, girl!</text>
+	</string>
+
+	<string id="dasc_tech_mlr_task_3_fetch_about">
+		<text>Alright, I know this might sound a bit annoying, but those tools you brought me before - they're still working fine, don't get me wrong - but they've got me feeling a little... ambitious. You see where I'm going with this, right? Heh, I thought so.\n
+		Do me this one last favor, will you? I need some expert tools. I don't care how or where you get them, as long as you can tell they're the real deal - more intricate-looking than the advanced ones. Bring them back to me, and I swear, you'll make me the happiest mechanic in the Zone. I mean it, girl!</text>
+	</string>
+
+	<!-- Sultan (Bandit Honcho) Payoff Change Factions Task -->
+	<string id="drx_sl_zat_b7_bandit_boss_sultan_cf_task_1_about">
+		<text>You want to live the romantic life of the rogue, is that it? Listen, lass. Any fucking wankstain with a peashooter can go around like a common thug if he likes. He can wind up dead in a ditch too, for all I care. You want to be a bandit? You want to live the good life? Bring 5,000 RU as tribute, swear fealty to me as your Sultan and I'll let you tag along with my merry men.</text>
+	</string>
+
+	<!-- Sultan (Bandit Honcho) Eliminate Military Presence Dynamic Task -->
+	<string id="zat_b7_bandit_boss_sultan_task_2_finish">
+		<text>You've impressed me, lass. Wish more of the boys around here had your spunk.</text>
+	</string>
+
+	<!-- FIND LEVEL 1 TOOLKIT FOR LIMPID -->
+	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_1_about">
+		<text>I'm in desperate need of new tools, girl.  I can't do anything with the rusty shit I have and I'm running out of gun oil. If you are interested in helping me out, I will tell you what I need.</text>
+	</string>
+
+	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_1_fetch_finish">
+		<text>Perfect! This is just what I need, girl. I can properly upgrade gear now!</text>
+	</string>
+
+	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_2_fetch_finish">
+		<text>You followed through again! Good deal, girl, here is some money.</text>
+	</string>
+
+	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_3_fetch_finish">
+		<text>You followed through again! Good deal, girl, here is some money.</text>
+	</string>
+
+	<!-- Hog (Merc Mechanic) Mutant Part Storyline Task -->
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_task_3_fetch_finish">
+		<text>You killed it! Great! Take that you little fuck! Thanks girl, you've done well.</text>
+	</string>
+
+	<string id="esc_m_trader_task_3_fetch_finish">
+		<text>That's my girl! This should teach these punks to think twice before messing with free stalkers. Keep up the rhythm, and you'll see how your name will be feared among them. Here's your reward - you've earned it, lass.</text>
+	</string>
+
+	<!-- Nimble (Loner Trader) Find Weapon Task -->
+	<string id="esc_2_12_stalker_nimble_task_1_fetch_about">
+		<text>%s... That is what I need, but it must be in mint condition. The client is paying top dollar, and he doesn't want a rusty piece of shit that will jam up in a life or death situation. I'll give you most of the profit since you are doing all the work. Come back when you find it, girl.</text>
+	</string>
+
+	<!-- Xenotech (Loner Mechanic) Find Level 1 Toolkit Task -->
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_about">
+		<text>I need a favour, girl. A lot of stalkers have come by here asking if I can tune their weapons a certain way but I can't. Between the bandits and the military, I've lost all my tools. If you could get me some more - even just some basic ones - I could start performing upgrades on equipment and maybe help the Cordon become more than just a place for rookies. So, girl, will you help me out?</text>
+	</string>
+
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_3_fetch_about">
+		<text>Thank you, lass. Remember, these are expert tools for calibration work. Try not to break them on a pseudogiant or something. But in all seriousness - I appreciate you agreeing to do this. Take care.</text>
+	</string>
+
+<!-- Fanatic -->
+	<string id="esc_2_12_stalker_fanat_task_1_name">
+		<text>Culling the Den</text>
+	</string>
+
+	<string id="esc_2_12_stalker_fanat_task_1_about">
+		<text>Mutants in the Cordon aren't too bad - they give rookies something to overcome and learn from in the Zone. The problem is when they set up a lair. Ever seen a pack of angry boars? Last time, we had to blow them to pieces with grenades just to let rookies walk around freely. It was ugly, and I don't want that happening again for the safety of the rookies. Any mutant lair is a threat and needs to be cleared. Do that, and I'll make it worth your while.</text>
+	</string>
+
+	<string id="esc_2_12_stalker_fanat_task_1_finish">
+		<text>I knew the job would suit you. You've got the look of a true huntress. Maybe Butcher could put your skills to use. Oh, and here's your reward - each stalker contributed a bit of cash to thank you.</text>
+	</string>
+
+<!-- Flea Market -->
+	<string id="baraholka_trader_night_task_1_fetch_finish">
+		<text>Ah, great work, lass. Here, for you.</text>
+	</string>
+
+	<!-- Procure Supplies for Clear Sky Simulation Task -->
+	<string id="simulation_task_1_fetch_finish">
+		<text>Great, girl! Thanks!</text>
+	</string>
+
+	<!-- FIND SUPPLIES FOR FREEDOM OR MERC TASK -->
+	<string id="simulation_task_2_about">
+		<text>Shit, girl. Can you do me a huge favour? I'm running low on supplies. Can you help me out?</text>
+	</string>
+
+	<string id="simulation_task_2_fetch_finish">
+		<text>Awesome, girl. Thanks!</text>
+	</string>
+
+	<!-- FIND SUPPLIES FOR BANDIT TASK -->
+	<string id="simulation_task_3_fetch_finish">
+		<text>Great, girl, thanks!</text>
+	</string>
+
+	<!-- FIND SUPPLIES FOR MILITARY TASK -->
+	<string id="simulation_task_4_fetch_finish">
+		<text>Great, girl, thanks!</text>
+	</string>
+
+	<!-- Bring Supplies for Monolith Simulation Task -->
+	<string id="simulation_task_5_about">
+		<text>I must be strong to serve the Monolith well but I confess my strength is weakening. Can you help me, sister?</text>
+	</string>
+
+	<string id="simulation_task_5_fetch_about">
+		<text>My sister, I am very ill. Cleric has graciously offered to pray for me but I'm pretty sure I just need %ss. Please bring me some.</text>
+	</string>
+
+	<string id="simulation_task_5_fetch_finish">
+		<text>Thank you my sister. May the glory of the Monolith shine upon you.</text>
+	</string>
+
+	<!-- FIND ARTEFACT FOR MILITARY TASK -->
+	<string id="simulation_task_13_about">
+		<text>Hey, listen, girl. I know this is against regulations, but I'm going to be rotating home soon, and I want to bring back a souvenir. You think you can find an artefact for me?</text>
+	</string>
+
+	<!-- FIND MUTANT MEAT FOR STALKER, CLEAR SKY, MERC, FREEDOM, OR BANDIT TASK -->
+	<string id="simulation_task_14_about">
+		<text>Girl, you ever tried mutant meat? A lot of guys won't touch it unless they're starving, but personally I love it. You any good at hunting?</text>
+	</string>
+
+	<!-- Mutant Meat Stew for Bandit Simulation Task -->
+	<string id="simulation_task_15_about">
+		<text>Girl, you ever tried mutant meat? A lot of guys won't touch it unless they're starving but personally I love it. You any good at hunting?</text>
+	</string>
+
+	<string id="simulation_task_15_fetch_finish">
+		<text>Yes! I'm going to eat good tonight! Thanks lass, here is your payment and a little loot for ya.</text>
+	</string>
+
+	<!-- Bring patches for Freedom Simulation Task -->
+	<string id="simulation_task_17_about">
+		<text>Hey, girl, can you gather some Duty scum patches for me? That'll make me sleep easier.</text>
+	</string>
+
+	<string id="simulation_task_17_fetch_about">
+		<text>Hey, girl, can you gather some Duty scum patches for me? That'll make me sleep easier.</text>
+	</string>
+
+	<string id="simulation_task_17_fetch_finish">
+		<text>Maximum respect, sis! Hold on to this artefact.</text>
+	</string>
+
+	<!-- Bring patches for Duty Simulation Task -->
+	<string id="simulation_task_18_fetch_finish">
+		<text>Good job, lady. Here, take this artefact before someone sees us.</text>
+	</string>
+
+	<!-- Bring patches for Stalkers Simulation Task -->
+	<string id="simulation_task_19_about">
+		<text>Hello sister, want to kill some bastards? You give me their sweet little patches, and I'll give you an artefact. What do you say?</text>
+	</string>
+
+	<string id="simulation_task_19_fetch_about">
+		<text>Hello sister, want to kill some bastards? You give me their sweet little patches, and I'll give you an artefact. What do you say?</text>
+	</string>
+
+	<string id="simulation_task_19_fetch_finish">
+		<text>Thank you, sister, friend and helper. Here's your artefact.</text>
+	</string>
+
+	<!-- Bring patches for Bandits Simulation Task -->
+	<string id="simulation_task_20_about">
+		<text>Hey, lass. I have some work for you. There's too many punks out there interfering with our business. Whack some of them and return their patches to me, will you?</text>
+	</string>
+
+	<string id="simulation_task_20_fetch_about">
+		<text>Hey, lass. I have some work for you. There's too many punks out there interfering with our business. Whack some of them and return their patches to me, will you? I need %ses.</text>
+	</string>
+
+	<string id="simulation_task_20_fetch_finish">
+		<text>Good job, girl. My respect and artefact to you.</text>
+	</string>
+
+	<!-- Find Trip Equipment Tasks -->
+	<string id="simulation_task_22_fetch_finish">
+		<text>Oh girl! My pals will be happy. Here, take these. You did a nice job.</text>
+	</string>
+
+	<!-- HOSTAGE RESCUE FOR STALKER TASK -->
+	<string id="simulation_task_26_about">
+		<text>I could really use some help, girl. My friend was mugged and taken hostage by some bandits. I really don't know what I should do. Do you think you can help me out and save my friend?</text>
+	</string>
+
+	<!-- ASSASSINATION  FOR STALKER TASK -->
+	<string id="simulation_task_30_about">
+		<text>Yes, help me, sister! Some bastard has put a price on my head. Take care of him for me, and I will pay you double the bounty he has on me.</text>
+	</string>
+
+	<!-- VENGEANCE  FOR STALKER TASK -->
+	<string id="simulation_task_31_finish">
+		<text>Thank you lass, you are a good warrioress. Join me in a drink to my fallen brother.</text>
+	</string>
+
+	<!-- Redemption for Monolith Simulation Task -->
+	<string id="simulation_task_34_about">
+		<text>My sister, Rabbit has asked of me that I slay one of the infidels for the good of the Monolith. I fear I have failed him, as I was not able to get to the target. Will you not complete my task and redeem my failure?</text>
+	</string>
+
+	<!-- Eliminate Enemy Forces for Monolith Simulation Task -->
+	<string id="simulation_task_36_about">
+		<text>My sister, we have sighted the enemy in the area. We are going to alert our brothers to do battle. Go there now. Destroy them.</text>
+	</string>
+
+	<string id="simulation_task_36_finish">
+		<text>You have done well, my sister.</text>
+	</string>
+
+	<!-- Eliminate Dangerous Mutants for Monolith Simulation Task -->
+	<string id="simulation_task_43_finish">
+		<text>You have done well, my sister.</text>
+	</string>
+
+	<!-- Drug Runner for Freedom Simulation Task -->
+	<string id="simulation_task_45_about">
+		<text>Hey girl, a shipment of, ah, 'medical supplies' dropped off somewhere recently. Could you pick it up and bring it here? It's a little out-of-the-way, but you shouldn't have much trouble. Want to make some extra cash for a good cause?</text>
+	</string>
+
+	<string id="simulation_task_45_finish">
+		<text>Haha, nice! You made it. Thanks a bunch, lass. Me and the boys have a lot of ‘injuries’ we need to take care of, so you’re right on fuckin’ time. And I hope you didn’t try to sample anything, that shit is too hardcore for most stalkers to handle anyways. Alright, girl, here. You have my thanks. </text>
+	</string>
+
+	<!-- Find PDA Tasks -->
+	<string id="simulation_task_cl_about">
+		<text>Hey, lass, can you help me? My PDA's been malfunctioning recently. I really need a replacement quick.</text>
+	</string>
+
+	<string id="simulation_task_cl_fetch_about">
+		<text>Hey, lass, can you help me? My PDA's been malfunctioning recently. I really need a replacement quick. Get back to me asap, okay?</text>
+	</string>
+
+	<string id="simulation_task_cl_fetch_finish">
+		<text>Oh, thank you, girl. Take this.</text>
+	</string>
+
+	<!-- Deliver Package Simulation Task -->
+	<string id="st_simulation_task_47_1">
+		<text>About time... Thanks lass. I'll let my friend know. In the meantime, here's something for your trouble.</text>
+	</string>
+
+	<string id="st_simulation_task_49_1">
+		<text>So the bastard has received my messages, finally!\n \nOh, about your payment... Let's see... here, take this. You've done a good job, girl.</text>
+	</string>
+
+	<!-- FIND SUPPLIES FOR RENEGADE TASK -->
+	<string id="simulation_task_53_fetch_finish">
+		<text>Great, girl, thanks!</text>
+	</string>
+
+	<!-- Mutant Meat Stew for Renegade Simulation Task -->
+	<string id="simulation_task_55_about">
+		<text>Girl, you ever tried mutant meat? A lot of guys won't touch it unless they're starving, but personally I love it. You any good at hunting?</text>
+	</string>
+
+	<string id="simulation_task_55_fetch_finish">
+		<text>Yes! I'm going to eat good tonight! Thanks lass, here is your payment and a little loot for ya.</text>
+	</string>
+
+	<!-- Redemption for Sin Simulation Task -->
+	<string id="simulation_task_63_about">
+		<text>Sister, we shall slay the brazen infidel for the good of the Monolith and our cause. Are you willing to help?</text>
+	</string>
+	
+	<!-- Eliminate Enemy Forces for Sin Simulation Task -->
+	<string id="simulation_task_64_about">
+		<text>My sister, we have sighted the enemy in the area. We are going to alert our brothers to prepare for battle. Go there now. The infidels must be purified.</text>
+	</string>
+
+	<string id="simulation_task_64_finish">
+		<text>You have done well, my sister.</text>
+	</string>
+
+	<!-- Eliminate Dangerous Mutants for Sin Simulation Task -->
+	<string id="simulation_task_65_about">
+		<text>The mutant population in the area is growing unstable, sister. We must cull their numbers to maintain balance.</text>
+	</string>
+
+	<string id="simulation_task_65_finish">
+		<text>You have done well, my sister.</text>
+	</string>
+
+	<!-- Loki  (Freedom Honcho) Clear Monolith Beachhead Storyline Task -->
+	<string id="drx_sl_jup_a6_freedom_leader_task_2_finish">
+		<text>Well done! Now we can begin our invasion! Well, not now, later today... maybe tomorrow. Anyway, thanks sis.</text>
+	</string>
+
+	<!-- Loki  (Freedom Honcho) Hunt Artefact Storyline Task -->
+	<string id="drx_sl_jup_a6_freedom_leader_task_3_fetch_finish">
+		<text>Ah, perfect. Good job sis.</text>
+	</string>
+
+	<!-- Klenov (Bandit Trader) Retrieve Weapons Shipment Storyline Task -->
+	<string id="drx_sl_jup_cont_trader_bandit_task_1_finish">
+		<text>You're a reliable bitch. Great job!</text>
+	</string>
+
+	<!-- Klenov (Bandit Trader) Escort the Bandits Spy Storyline Task -->
+	<string id="drx_sl_jup_cont_trader_bandit_task_3_msg_join">
+		<text>FUCK... Don't shoot! I SAID QUIT SHOOTING, BITCH! They are all dead! Let's get the fuck out and head back to Klenov. Come on, girl...</text>
+	</string>
+
+	<string id="drx_sl_jup_cont_trader_bandit_task_3_msg_leave">
+		<text>We made it... fucking hell! Thanks lass, I will go now.</text>
+	</string>
+
+	<!-- Tukarev (Ecog Mechanic) Escort Jupiter Scientists Task -->
+	<string id="jup_b6_scientist_tech_task_1_fetch_finish">
+		<text>Thank you for your protection, lady. Please take this as a token of our gratitude.</text>
+	</string>
+
+	<!-- FIND MUTANT PARTS FOR HUNTSMAN TASK -->
+	<string id="jup_b220_trapper_task_4_fetch_finish">
+		<text>Ah, another threat eliminated and a new decoration for the camp. Well done, huntress.</text>
+	</string>
+
+	<!--- Call of Chernobyl -->
+<!-- (Ecologists) -->
+	<string id="jup_b6_scientist_nuclear_physicist_task_1_finish">
+		<text>I can see that the scanner is working as intended. Thank you lady, I am very grateful.</text>
+	</string>
+
+<!-- (Monolith Mechanic) -->
+	<string id="mechanic_monolith_jup_depo_task_2_about">
+		<text>Fighting has shown that our weapons are marginally inferior to those of the infidels, among which exist capable technicians. I require tools for fine work to save our brothers from such inferiorities. Will you help, sister?</text>
+	</string>
+
+	<string id="mechanic_monolith_jup_depo_task_2_fetch_about">
+		<text>Fighting has shown that our weapons are marginally inferior to those of the infidels, among which exist capable technicians. I require tools for fine work to save our brothers from such inferiorities. Will you help, sister?</text>
+	</string>
+
+<!-- (Bandits Mechanic) -->
+	<string id="jup_cont_mech_bandit_task_1_about">
+		<text>Stalkers snatched everything and set up defenses at Yanov, those fuckers. We ain't got shit! Need some tools, girl. Get me some, yeah?</text>
+	</string>
+
+	<string id="jup_cont_mech_bandit_task_1_fetch_about">
+		<text>Stalkers snatched everything and set up defenses at Yanov, those fuckers. We ain't got shit! Need some tools, girl. Get me some, yeah?</text>
+	</string>
+
+	<string id="jup_cont_mech_bandit_task_2_fetch_finish">
+		<text>Thanks, girl. I will make sure to fix all the crappy guns and equipment with these tools.</text>
+	</string>
+
+	<string id="jup_cont_mech_bandit_task_3_about">
+		<text>Hey, lass, the two other sets of tools you brought us is really helpin', but I need the best o' the best. You know... the shit that'll make 'em go, "oooh, yeeeah..."</text>
+	</string>
+
+	<string id="jup_cont_mech_bandit_task_3_fetch_about">
+		<text>Hey, lass, the two other sets of tools you brought us is really helpin', but I need the best o' the best. You know... the shit that'll make 'em go, "oooh, yeeeah..."</text>
+	</string>
+
+	<string id="jup_cont_mech_bandit_task_3_fetch_finish">
+		<text>Well, fuck me sideways! What a rarity... a real rarity. I'll give you another discount, you deserve it. Thanks, sis.</text>
+	</string>
+
+	<string id="esc_m_trader_task_4_finish">
+		<text>Aren't you the grim reaper, huh? Well done, stalker. I hope we won't be hearing of them any more.</text>
+	</string>
+
+	<!-- Librarian (Clear Sky Trader) Procure Supplies Storyline Task -->
+	<string id="drx_sl_mar_base_stalker_barmen_task_2_finish">
+		<text>That's great, thanks girl.</text>
+	</string>
+
+	<!-- Cold (Clear Sky Honcho) Decimate the Enemy Task -->
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_1_fetch_finish">
+		<text>Here you are, our professional hitwoman. I suppose those bastards will think twice before they dare visit our Swamp again. I hope. Here's your reward, by the way.</text>
+	</string>
+
+	<!-- Cold (Clear Sky Honcho) Night Terror Task -->
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_2_about">
+		<text>Mutants rarely stray close to our base. But our guys reported that the previous night some giant beast tore apart the whole team that manned the lookout tower to the north west. Four well-armed people just smeared all over the perimeter. Those weren't dogs for sure. I know you're a tough woman, so maybe you could visit the place and get rid of that nasty fucker?</text>
+	</string>
+
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_2_finish">
+		<text>Hey, great job, girl! I hope this reward's good enough for you. That and the stories people'll tell.</text>
+	</string>
+
+	<!-- FIND MUTANT MEAT FOR CLEAR SKY TASK -->
+	<string id="mar_base_stalker_barmen_task_3_fetch_finish">
+		<text>Great, you are a good huntress after all! I have payment for you.</text>
+	</string>
+
+	<!-- FIND LEVEL 1 TOOLS FOR NOVIKOV TASK -->
+	<string id="mar_base_stalker_tech_task_1_fetch_finish">
+		<text>Awesome, girl! Here, let me throw some money at you.</text>
+	</string>
+
+	<!-- FIND LEVEL 2 TOOLS FOR NOVIKOV TASK -->
+	<string id="mar_base_stalker_tech_task_2_fetch_finish">
+		<text>Even better! You came through for me once again! Here, let me throw some money at you.</text>
+	</string>
+
+	<!-- FIND LEVEL 3 TOOLS FOR NOVIKOV TASK -->
+	<string id="mar_base_stalker_tech_task_3_fetch_finish">
+		<text>You make me proud, girl! I wil make sure to do an amazing job with the tools you brought me. Take your reward, you deserve it.</text>
+	</string>
+
+	<!-- ESCORT SCIENTISTS DIALOGS -->
+	<string id="ecolog_companion_task_1_complete">
+		<text>Thank you, friend. You did your job well. Here is your payment.</text>
+	</string>
+
+	<!-- Lukash (Freedom Honcho) Assassination Storyline Task- -->
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_1_finish">
+		<text>Awesome sis! Thanks.</text>
+	</string>
+
+	<!-- Lukash (Freedom Honcho) Freedom Assault on Monolith Storyline Task -->
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_2_finish">
+		<text>Girl, you've got a set on you. Great job.</text>
+	</string>
+
+	<!-- Lukash (Freedom Honcho) Stop Enemy Assault Task -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_2_finish">
+		<text>Ha! You actually did it, you mad bitch! Here, you've earned this, along with my respect.</text>
+	</string>
+
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_about">
+		<text>I've got some real heavy news, girl. One of our Freedom fighters has fallen under the influence of the Monolith. He was a good man, and I know he wouldn't have wanted to continue living as some alien crystal's brainwashed killer. Please, find him and take him down. Otherwise, his old friends are going to have to do it.</text>
+	</string>
+	
+	<!-- Lukash (Freedom Honcho) Decimate the Enemy Task -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_fetch_finish">
+		<text>Hey, nice job, girl. Here's your money.</text>
+	</string>
+
+	<!-- Lukash (Freedom Honcho) Mortal Sin Unquenchable Flame Tasks -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_7_about">
+		<text>Hey girl. Here's a thing. Remember those Sin folks? They didn't get the memo the last time you kicked their collective asses, so I think it's high time for an encore. Loki said they've been spotted being unruly in Zaton, especially around the area of abandoned substation workshops. Go put them down.</text>
+	</string>
+
+	<!-- Lukash (Freedom Honcho) Rescue the Freedom Agent Task -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_msg_join">
+		<text>Hey girl, stop! I'm the Freedom spy! Sorry for taking potshots at you. I had to keep my cover just in case...luckily you made it. If you bring me to Army Warehouses safely, Lukash will reward you well. Lead the way, I'll follow!</text>
+	</string>
+
+	<!-- Skinflint (Freedom Trader) Night Terror Task -->
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_3_finish">
+		<text>Wow, you actually did it! You lunatic. I'll let the camp know the good news. Glad we have a huntress like you around.</text>
+	</string>
+
+	<!-- Skinflint (Freedom Trader) Scarce Supplies Task -->
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_about">
+		<text>Hey girl. Some of our guys can get a bit too adventurous from time to time. We haven't got enough supplies to treat all of 'em.</text>
+	</string>
+
+	<!-- Screw (Freedom Mechanic) Find Level 1 Toolkit Task -->
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_fetch_finish">
+		<text>Thanks, girl! I knew there was a reason I asked you. You look like a girl who can get shit done.</text>
+	</string>
+
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_fetch_finish">
+		<text>You keep this shit up, everyone around here is going to love you. Thanks again, girl.</text>
+	</string>
+
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_fetch_about">
+		<text>Ha! You absolute mad bitch! Well, go on then. Once you're back with some expert tools, I will show you what a talented mechanic can do.</text>
+	</string>
+
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_fetch_finish">
+		<text>Girl, Freedom's gonna love this. Shotguns with parachutes! Armoured SMGs! I'll make it happen! Here's your cash, for a job well done.</text>
+	</string>
+
+	<!-- Defend the barrier -->
+	<string id="barrier_defense_monolith_run_announce">
+		<text>This ain't summer camp stalker. Be thankful there's people with more guts than you to keep your lot safe.</text>
+	</string>
+
+	<string id="barrier_defense_monolith_end_announce">
+		<text>Good job brothers and sisters, and thanks to all the volunteers that didn't run away. Come back to me for your reward.</text>
+	</string>
+
+	<string id="barrier_defense_zombie_end_announce">
+		<text>Good job brothers and sisters, finally they can rest in peace. Volunteers, come back to me for your reward.</text>
+	</string>
+
+	<!-- Rabbit (Monolith Trader) Destroy the Non-Believers Storyline Task -->
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_1_about">
+		<text>The time has come, my daughter. You must lead your brothers into battle. Fight fiecely and accept no surrender. Defeat the infidels for the good of the Monolith.</text>
+	</string>
+
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_1_finish">
+		<text>Excellent work. You are a fine warrioress.</text>
+	</string>
+
+	<!-- Rabbit (Monolith Trader) Collect Supplies Storyline Task -->
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_2_about">
+		<text>My daughter, your brothers need for you to collect provisions.</text>
+	</string>
+
+	<!-- Rabbit (Monolith Trader) Venture into the Zone Storyline Task -->
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_3_about">
+		<text>My daughter, you must prove yourself to the almighty Monolith. You must travel alone deep into the Zone. Face all challenges that confront you. Destroy all enemies you encounter. Do this for the good of the Monolith.</text>
+	</string>
+
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_3_finish">
+		<text>You have done well, my daughter.</text>
+	</string>
+
+	<!-- Cleric (Monolith Mechanic) Default Storyline Task -->
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_default_task_about">
+		<text>My daughter, you serve the Monolith well. Speak with one of the elders and ask what you may do to further help our great cause.</text>
+	</string>
+
+	<!-- Cleric (Monolith Mechanic) Monolith Weapon Arsenal Storyline Task -->
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_about">
+		<text>My daughter, we must build up our mighty arsenal so we may achieve our glorious goals.</text>
+	</string>
+
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_fetch_finish">
+		<text>You have done well, my daughter.</text>
+	</string>
+
+	<!-- Olivar (Monolith Trader) Investigate the Scouts' Location Storyline Task -->
+	<string id="drx_sl_trader_monolith_kbo_task_2_about">
+		<text>I have an important mission for you, sister. We have sent a squad of our scouts to observe unusual activities in the area. A day has passed and they are nowhere to be found. Their failure has brought shame on us all! It is up to us to see if they can still be redeemed. Here, this is the PDA signal frequency for one of the scouts. Trace it and discover what happened to them.</text>
+	</string>
+
+	<string id="drx_sl_trader_monolith_kbo_task_2_finish">
+		<text>This information will be useful. Thank you, sister.</text>
+	</string>
+
+	<!-- Eidolon (Elite Monolith Soldier) Purge the Infidels Task -->
+	<string id="monolith_eidolon_task_1_about">
+		<text>We are besieged. Infidels wish to exploit the almighty Monolith. Driven by avarice. Ignorance. Base desires. On behalf of the Monolith. We act, the guardians. Purge the infidels. Collect their badges. As a trophy. A sign of our unquestionable, superiority. Go, sister. Destroy them all.</text>
+	</string>
+
+	<string id="monolith_eidolon_task_1_fetch_about">
+		<text>We are besieged. Infidels wish to exploit the almighty Monolith. Driven by avarice. Ignorance. Base desires. On behalf of the Monolith. We act, the guardians. Purge the infidels. Collect their badges. As a trophy. A sign of our unquestionable, superiority. Go, sister. Destroy them all. Acquire %s on your mission.</text>
+	</string>
+
+	<!-- Eidolon (Elite Monolith Soldier) Hunt the Mutants Task -->
+	<string id="monolith_eidolon_task_2_name">
+		<text>The Greatest Warrioress</text>
+	</string>	
+	
+	<string id="monolith_eidolon_task_2_about">
+		<text>Dangerous. Lethal beasts. A gift of the Zone, for us to behold. For us to take. Guardians, providers, as well as a milestone. A way to test our strength. Resolve, and combat prowess. Go, sister. Hunt a mighty hunter, woman versus beast.</text>
+	</string>
+	
+	<string id="monolith_eidolon_task_2_fetch_about">
+		<text>Dangerous. Lethal beasts. A gift of the Zone, for us to behold. For us to take. Guardians, providers, as well as a milestone. A way to test our strength. Resolve, and combat prowess. Go, sister. Hunt a mighty hunter, woman versus beast. Collect %s to prove your worth.</text>
+	</string>
+
+	<string id="monolith_eidolon_task_2_fetch_finish">
+		<text>Magnificent trophy. The Monolith is proud. So am I. A reward, for you.</text>
+	</string>
+
+	<!-- Eidolon (Elite Monolith Soldier) Harvest the Fruit Task -->
+	<string id="monolith_eidolon_task_3_about">
+		<text>We protect the Monolith. The Monolith protects us. We serve, and the Zone delivers. Splendid fruit, resplendent with its unequalled brilliance. Powerful, to empower us. Go now, harvest the fruit, sister.</text>
+	</string>
+
+	<string id="monolith_eidolon_task_3_fetch_about">
+		<text>We protect the Monolith. The Monolith protects us. We serve, and the Zone delivers. Splendid fruit, resplendent with its unequalled brilliance. Powerful, to empower us. Go now, harvest the fruit, sister. Harvest a "%s" artefact, to bolster our strength.</text>
+	</string>
+
+	<string id="monolith_eidolon_task_3_fetch_finish">
+		<text>Excellent. Marvellous. A sight to behold. You have got my gratitude, loyal sister.</text>
+	</string>
+
+	<!-- Cleric (Monolith Mechanic) Find Level 1 Toolkit Task -->
+	<string id="lider_monolith_haron_task_1_about">
+		<text>My sister, your help is needed in the destruction of the infidels.</text>
+	</string>
+
+	<string id="lider_monolith_haron_task_1_finish">
+		<text>Blessings of the Monolith upon you, sister! Take what you deserve.</text>
+	</string>
+
+	<string id="lider_monolith_haron_task_2_fetch_finish">
+		<text>Outstanding, sister. This is for you, from the Monolith.</text>
+	</string>
+
+<!-- (Monolith Mechanic) -->
+	<string id="mechanic_monolith_kbo_task_1_about">
+		<text>I need your help, sister. I require tools for our equipment so that our brethren may spread the word of the Monolith more effectively.</text>
+	</string>
+
+	<string id="mechanic_monolith_kbo_task_1_fetch_about">
+		<text>I need your help, sister. I require tools for our equipment so that our brethren may spread the word of the Monolith more effectively.</text>
+	</string>
+
+	<string id="mechanic_monolith_kbo_task_1_fetch_finish">
+		<text>Excellent work, sister. Everything we gain from future improvements will go to our charity, and your contribution will grant you a small discount.</text>
+	</string>
+
+	<string id="mechanic_monolith_kbo_task_2_fetch_finish">
+		<text>Excellent work, sister. Everything we gain from future improvements will go to our charity, and your contribution will grant you an additional discount.</text>
+	</string>
+
+	<string id="mechanic_monolith_kbo_task_3_about">
+		<text>The last set of tools that you brought here was... adequate, but why stop at what has been achieved when we can attain something even better? What we need are the best tools in the Zone. I ask of you to serve Its will one last time, my sister.</text>
+	</string>
+
+	<string id="mechanic_monolith_kbo_task_3_fetch_about">
+		<text>The last set of tools that you brought here was... adequate, but why stop at what has been achieved when we can attain something even better? What we need are the best tools in the Zone. I ask of you to serve Its will one last time, my sister.</text>
+	</string>
+
+	<string id="mechanic_monolith_kbo_task_3_fetch_finish">
+		<text>Outstanding work, sister. Rest assured, I will mention your contribution to our brothers... and I promise to provide any assistance within my ability.</text>
+	</string>
+
+	<!-- Stribog (Sin Trader) Retrieve the Secrets of Lab X-16 Storyline Task -->
+	<string id="drx_sl_red_greh_trader_task_1_about">
+		<text>As the true keepers of the Zone, we must act fast and keep its secrets hidden away from the eyes of this sinning world. One of the many secrets can be found inside the laboratory known as "X-16". Bring them to me, sister. We will keep them safe.</text>
+	</string>
+
+	<!-- Stribog (Sin Trader) Escort The Believer Storyline Task -->
+	<string id="drx_sl_red_greh_trader_task_2_msg_join">
+		<text>Thank you, sister. I'm truly thankful... Lead the way, it is time to leave this old world behind.</text>
+	</string>
+
+	<!-- Stribog (Sin Trader) Limansk Purge Storyline Task -->
+	<string id="drx_sl_red_greh_trader_task_4_about">
+		<text>Time has come, sister. The monolith elders are seeking our help to purge Limansk and defeat the enemies lurking inside. Make us proud.</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_4_finish">
+		<text>You are a true warrioress.</text>
+	</string>
+
+	<!-- Dazhbog (Sin Mechanic) Default Storyline Task -->
+	<string id="drx_sl_red_greh_tech_default_task_about">
+		<text>My daughter, you serve the Sinners and Monolith well. Speak with one of the elders and ask what you may do to further help our great cause.</text>
+	</string>
+	
+	<!-- Dazhbog (Sin Mechanic) Retrieve the Secrets of Lab X-18 Storyline Task -->
+	<string id="drx_sl_red_greh_tech_task_1_about">
+		<text>As the true keepers of the Zone, we must act fast and keep its secrets hidden away from the eyes of this sinning world. One of the many secrets can be found inside the laboratory known as "X-18". Bring them to me, sister. We will keep them safe.</text>
+	</string>
+
+	<!-- FIND LEVEL 1 TOOLKIT FOR BANDIT MLR TASK -->
+	<string id="trucks_cemetery_bandit_mechanic_task_1_about">
+		<text>Sis, more than half of the stuff we got here is breaking apart, and I really need some tools to help out the lads. Wanna help?</text>
+	</string>
+	<string id="trucks_cemetery_bandit_mechanic_task_1_fetch_about">
+		<text>Sis, more than half of the stuff we got here is breaking apart, and I really need some tools to help out the lads. Wanna help?</text>
+	</string>
+
+	<!-- FIND LEVEL 2 TOOLKIT FOR BANDIT MLR TASK -->
+	<string id="trucks_cemetery_bandit_mechanic_task_2_about">
+		<text>This area is complete wilderness, but this place right here... It's a strategic point, girl! To get our comrades as much firepower as possible, we're gonna need some better tools to work with. Help me out again, will ya?</text>
+	</string>
+	<string id="trucks_cemetery_bandit_mechanic_task_2_fetch_about">
+		<text>This area is a complete wilderness, but this place right here... It's a strategic point, girl! To get our comrades as much firepower as possible, we're gonna need some better tools to work with. Help me out again, will ya?</text>
+	</string>
+	<string id="trucks_cemetery_bandit_mechanic_task_2_fetch_finish">
+		<text>Oh, fuck. You're the best, sis. You'll definitely be getting another discount for that!</text>
+	</string>
+
+	<!-- FIND LEVEL 3 TOOLKIT FOR BANDIT BANDIT TASK -->
+	<string id="trucks_cemetery_bandit_mechanic_task_3_fetch_finish">
+		<text>Wow, you actually fuckin' did it! Thanks, sis, you're the best. Biggest discount goes to you, enjoy it!</text>
+	</string>
+
+	<!-- Sakharov (Ecologist) Abnormal Measurement Storyline Task -->
+	<string id="drx_sl_yan_stalker_sakharov_task_2_about">
+		<text>Ah, yes, good! I have been expecting you. Our scanners are showing interesting readings coming from a particular anomaly. I am in need of an experienced stalker to head over there and take measurements closely. I have the right device for you, young lady. Good luck.</text>
+	</string>
+
+	<string id="drx_sl_zat_b18_noah_task_1_about">
+		<text>Where the hell you been girl? I'm out of dog food! This little bitch is gonna eat me out of house and home. She's a looker though, ain't she? Just like her master.</text>
+	</string>
+
+	<string id="drx_sl_zat_stancia_trader_merc_task_2_about">
+		<text>Bad news, and this time it's the fucking monolith. The underground network between Jupiter and Outskirts has been used for while by our squads. That's how we carry operations inside the Outskirts of Pripyat while avoiding contact with the fanatics above. But just when you thought that business is good, the last mercs who went there have been ambushed by a monolith squad out of no where, as if the mutants are not enough already. I need a brave girl like you to get rid of them and secure the passage. We can't let them lurk there.</text>
+	</string>
+
+	<string id="zat_a2_stalker_barmen_task_1_finish">
+		<text>Haha! Well done, sister! Have a drink on Beard!</text>
+	</string>
+
+	<string id="zat_a2_stalker_barmen_task_2_fetch_finish">
+		<text>Good hunting, sister! Have a drink on the house!</text>
+	</string>
+
+	<string id="zat_stancia_mech_merc_task_3_fetch_finish">
+		<text>Oh, fuck... You are the hope of every technician! Well done indeed... I'll be doubling your discount.</text>
+	</string>
+
+</string_table>

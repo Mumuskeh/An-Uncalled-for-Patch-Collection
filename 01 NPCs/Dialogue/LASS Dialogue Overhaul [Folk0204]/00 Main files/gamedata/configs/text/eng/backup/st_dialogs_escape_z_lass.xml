@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+<!-- Sidrovish -->
+	<string id="esc_2_12_stalker_trader_start_dialog_1">
+		<text>So, a new stalker... and a woman this time, no less. I'm the one in charge of supplying everyone here and making sure that free stalkers have a place to stay, whether they're rookies or veterans.\n\n
+		Now... how you got into the Zone, or if you've been around before, that's your business. But I'm sure you've figured out by now that the Zone isn't exactly the safest place to be. And judging by the look of you, I'd say you've come here for work, eh? If that's the case, I can help you out. There's always work that needs doing - some dirty jobs for those who aren't afraid to get their hands a little messy. And there's a good bit of cash to be made if you're up for it.\n\n
+		Anyway, whether you're here to work or trade, I'd like to remind you just like everyone else in the village, that the Military isn't to be messed with. They don't want any stalkers anywhere near them. Don't waste your time trying to reason with them - not even for a second. They wouldn't trust you even if their lives depended on it. I work my ass off daily to make sure they leave the loners alone, so as long as you and the rest don't interfere with them, things should stay peaceful.</text>
+	</string>
+
+	<string id="esc_2_12_stalker_trader_start_dialog_2">
+		<text>Hey, lass! What do you need?</text>
+	</string>
+
+	<string id="esc_2_12_stalker_trader_start_dialog_esc_m_trader_task_2_complete">
+		<text>You have a real talent, girl, you know that? Here is your payment. This will be good for business.</text>
+	</string>
+
+<!-- Fanatic -->
+	<string id="fanat_training_stash_found_1">
+		<text>Huh... I see that with your level of perception, the Zone won't be taking you so easily. That was your final lesson. You've certainly proven to be your own stalker, and you should be proud of it, gal. There's nothing more I can teach you.</text>
+	</string>
+
+<!-- Hip -->
+	<string id="devushka_1_start_0">
+		<text>Hello, sister.</text>
+	</string>
+</string_table>

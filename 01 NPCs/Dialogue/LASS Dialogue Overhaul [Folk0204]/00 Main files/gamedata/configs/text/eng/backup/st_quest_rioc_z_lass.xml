@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="yan_stalker_sakharov_task_rioc_d">
+		<text>Yes, there's a task I could assign to you, young lady. The situation we find ourselves in, is dire. Allow me to explain: one of our researchers went missing three days ago. Everything seemed to be in order during the first days, he had no issues scanning anomalous activity in specific areas we deemed safe, using a new prototype detector our team recently completed. But things changed when he began to notice strange hordes of mutants approaching his location.\n\n
+		According to our initial communications during his trip, the mutants were fleeing in all sort of directions, leading us to believe that something might have scared them. This is highly unusual, as mutants rarely leave the lair that they make their home, unless threatened by hunters.\n
+		We've repeatedly tried to convince the SSU to send a team to investigate, but they've refused - claiming it's pointless to look after a single man.\nPlease, if you're willing to take on the impossible, go after this fellow ecologist and find out what happened to him. If he didn't make it out alive, I implore you for science's sake to retrieve the prototype detector that he carried. It took months of research and planning to develop, and we cannot afford to lose it.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_end">
+		<text>Oh, there it is! You have no idea how much you have done for us all today! It is sad to lose another fellow researcher like this, and even more for the family behind this man... but we cannot grieve all day. Now what matters is that the device is safe, and the data stored in it will greatly help with the progression needed for our research to study the Zone. I will ensure that the sacrifice of this fellow researcher wasn't in vain with the provided data.\n
+		Here is some proper payment for your consideration and heroism, young lady. Oh, and please, I invite you to talk to Spirit for food and water if you feel exhausted or to Peregrine if you want your gear to be repaired.</text>
+	</string>
+
+</string_table>

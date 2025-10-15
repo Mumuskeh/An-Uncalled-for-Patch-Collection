@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<!-- Rabbit (Monolith Trader) Destroy the Non-Believers Storyline Task -->
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_1_about">
+		<text>The time has come, my daughter. You must lead your brothers into battle. Fight fiecely and accept no surrender. Defeat the infidels for the good of the Monolith.</text>
+	</string>
+
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_1_finish">
+		<text>Excellent work. You are a fine warrioress.</text>
+	</string>
+
+	<!-- Rabbit (Monolith Trader) Collect Supplies Storyline Task -->
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_2_about">
+		<text>My daughter, your brothers need for you to collect provisions.</text>
+	</string>
+
+	<!-- Rabbit (Monolith Trader) Venture into the Zone Storyline Task -->
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_3_about">
+		<text>My daughter, you must prove yourself to the almighty Monolith. You must travel alone deep into the Zone. Face all challenges that confront you. Destroy all enemies you encounter. Do this for the good of the Monolith.</text>
+	</string>
+
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_3_finish">
+		<text>You have done well, my daughter.</text>
+	</string>
+
+	<!-- Cleric (Monolith Mechanic) Default Storyline Task -->
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_default_task_about">
+		<text>My daughter, you serve the Monolith well. Speak with one of the elders and ask what you may do to further help our great cause.</text>
+	</string>
+
+	<!-- Cleric (Monolith Mechanic) Monolith Weapon Arsenal Storyline Task -->
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_about">
+		<text>My daughter, we must build up our mighty arsenal so we may achieve our glorious goals.</text>
+	</string>
+
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_fetch_finish">
+		<text>You have done well, my daughter.</text>
+	</string>
+
+	<!-- Olivar (Monolith Trader) Investigate the Scouts' Location Storyline Task -->
+	<string id="drx_sl_trader_monolith_kbo_task_2_about">
+		<text>I have an important mission for you, sister. We have sent a squad of our scouts to observe unusual activities in the area. A day has passed and they are nowhere to be found. Their failure has brought shame on us all! It is up to us to see if they can still be redeemed. Here, this is the PDA signal frequency for one of the scouts. Trace it and discover what happened to them.</text>
+	</string>
+
+	<string id="drx_sl_trader_monolith_kbo_task_2_finish">
+		<text>This information will be useful. Thank you, sister.</text>
+	</string>
+
+	<!-- Eidolon (Elite Monolith Soldier) Purge the Infidels Task -->
+	<string id="monolith_eidolon_task_1_about">
+		<text>We are besieged. Infidels wish to exploit the almighty Monolith. Driven by avarice. Ignorance. Base desires. On behalf of the Monolith. We act, the guardians. Purge the infidels. Collect their badges. As a trophy. A sign of our unquestionable, superiority. Go, sister. Destroy them all.</text>
+	</string>
+
+	<string id="monolith_eidolon_task_1_fetch_about">
+		<text>We are besieged. Infidels wish to exploit the almighty Monolith. Driven by avarice. Ignorance. Base desires. On behalf of the Monolith. We act, the guardians. Purge the infidels. Collect their badges. As a trophy. A sign of our unquestionable, superiority. Go, sister. Destroy them all. Acquire %s on your mission.</text>
+	</string>
+
+	<!-- Eidolon (Elite Monolith Soldier) Hunt the Mutants Task -->
+	<string id="monolith_eidolon_task_2_name">
+		<text>The Greatest Warrioress</text>
+	</string>	
+	
+	<string id="monolith_eidolon_task_2_about">
+		<text>Dangerous. Lethal beasts. A gift of the Zone, for us to behold. For us to take. Guardians, providers, as well as a milestone. A way to test our strength. Resolve, and combat prowess. Go, sister. Hunt a mighty hunter, woman versus beast.</text>
+	</string>
+	
+	<string id="monolith_eidolon_task_2_fetch_about">
+		<text>Dangerous. Lethal beasts. A gift of the Zone, for us to behold. For us to take. Guardians, providers, as well as a milestone. A way to test our strength. Resolve, and combat prowess. Go, sister. Hunt a mighty hunter, woman versus beast. Collect %s to prove your worth.</text>
+	</string>
+
+	<string id="monolith_eidolon_task_2_fetch_finish">
+		<text>Magnificent trophy. The Monolith is proud. So am I. A reward, for you.</text>
+	</string>
+
+	<!-- Eidolon (Elite Monolith Soldier) Harvest the Fruit Task -->
+	<string id="monolith_eidolon_task_3_about">
+		<text>We protect the Monolith. The Monolith protects us. We serve, and the Zone delivers. Splendid fruit, resplendent with its unequalled brilliance. Powerful, to empower us. Go now, harvest the fruit, sister.</text>
+	</string>
+
+	<string id="monolith_eidolon_task_3_fetch_about">
+		<text>We protect the Monolith. The Monolith protects us. We serve, and the Zone delivers. Splendid fruit, resplendent with its unequalled brilliance. Powerful, to empower us. Go now, harvest the fruit, sister. Harvest a "%s" artefact, to bolster our strength.</text>
+	</string>
+
+	<string id="monolith_eidolon_task_3_fetch_finish">
+		<text>Excellent. Marvellous. A sight to behold. You have got my gratitude, loyal sister.</text>
+	</string>
+
+	<!-- Cleric (Monolith Mechanic) Find Level 1 Toolkit Task -->
+	<string id="lider_monolith_haron_task_1_about">
+		<text>My sister, your help is needed in the destruction of the infidels.</text>
+	</string>
+
+	<string id="lider_monolith_haron_task_1_finish">
+		<text>Blessings of the Monolith upon you, sister! Take what you deserve.</text>
+	</string>
+
+	<string id="lider_monolith_haron_task_2_fetch_finish">
+		<text>Outstanding, sister. This is for you, from the Monolith.</text>
+	</string>
+
+<!-- (Monolith Mechanic) -->
+	<string id="mechanic_monolith_kbo_task_1_about">
+		<text>I need your help, sister. I require tools for our equipment so that our brethren may spread the word of the Monolith more effectively.</text>
+	</string>
+
+	<string id="mechanic_monolith_kbo_task_1_fetch_about">
+		<text>I need your help, sister. I require tools for our equipment so that our brethren may spread the word of the Monolith more effectively.</text>
+	</string>
+
+	<string id="mechanic_monolith_kbo_task_1_fetch_finish">
+		<text>Excellent work, sister. Everything we gain from future improvements will go to our charity, and your contribution will grant you a small discount.</text>
+	</string>
+
+	<string id="mechanic_monolith_kbo_task_2_fetch_finish">
+		<text>Excellent work, sister. Everything we gain from future improvements will go to our charity, and your contribution will grant you an additional discount.</text>
+	</string>
+
+	<string id="mechanic_monolith_kbo_task_3_about">
+		<text>The last set of tools that you brought here was... adequate, but why stop at what has been achieved when we can attain something even better? What we need are the best tools in the Zone. I ask of you to serve Its will one last time, my sister.</text>
+	</string>
+
+	<string id="mechanic_monolith_kbo_task_3_fetch_about">
+		<text>The last set of tools that you brought here was... adequate, but why stop at what has been achieved when we can attain something even better? What we need are the best tools in the Zone. I ask of you to serve Its will one last time, my sister.</text>
+	</string>
+
+	<string id="mechanic_monolith_kbo_task_3_fetch_finish">
+		<text>Outstanding work, sister. Rest assured, I will mention your contribution to our brothers... and I promise to provide any assistance within my ability.</text>
+	</string>
+
+</string_table>

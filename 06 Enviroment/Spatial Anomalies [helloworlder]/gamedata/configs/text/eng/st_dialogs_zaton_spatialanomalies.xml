@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="ask_about_compass_0">
+		<text>Listen, what was that in general, there, on the burnt farmstead?</text>
+	</string>
+<!-- 
+	<string id="ask_about_compass_1">
+		<text>One of the many spatial anomalies. With their help, you can cover huge distances in the blink of an eye, but you need to be careful, sometimes they can move you to a dangerous place. Teleportation can be controlled to some extent using the "Compass" artifact.</text>
+	</string>
+	<string id="ask_about_compass_2">
+		<text>Compass? I've never heard of such a thing.</text>	
+	</string>
+	<string id="ask_about_compass_3">
+		<text>And it is not surprising, because they have not been found for a long time... But I have one. You helped me a lot, so you can take it for yourself as a token of gratitude.</text>	
+	</string>
+	-->
+	<string id="ask_about_compass_1">
+		<text>One of many spatial anomalies. With their help, you can cover huge distances in the blink of an eye, but you need to be careful, sometimes they can move you to a dangerous place. Teleportation can be controlled to some extent with a "Compass".</text>
+	</string>
+	<string id="ask_about_compass_2">
+		<text>A compass? Any compass, or am I missing something?</text>	
+	</string>
+	<string id="ask_about_compass_3">
+		<text>No, I mean the artifact. it's not surprising you haven't heard of it, because they have not been found for a long time... But I have one. You helped me a lot, so you can take it for yourself as a token of gratitude.</text>	
+	</string>
+
+</string_table>

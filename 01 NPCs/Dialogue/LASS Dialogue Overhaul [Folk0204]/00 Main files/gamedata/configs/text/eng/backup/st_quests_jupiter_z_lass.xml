@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<!-- Loki  (Freedom Honcho) Clear Monolith Beachhead Storyline Task -->
+	<string id="drx_sl_jup_a6_freedom_leader_task_2_finish">
+		<text>Well done! Now we can begin our invasion! Well, not now, later today... maybe tomorrow. Anyway, thanks sis.</text>
+	</string>
+
+	<!-- Loki  (Freedom Honcho) Hunt Artefact Storyline Task -->
+	<string id="drx_sl_jup_a6_freedom_leader_task_3_fetch_finish">
+		<text>Ah, perfect. Good job sis.</text>
+	</string>
+
+	<!-- Klenov (Bandit Trader) Retrieve Weapons Shipment Storyline Task -->
+	<string id="drx_sl_jup_cont_trader_bandit_task_1_finish">
+		<text>You're a reliable bitch. Great job!</text>
+	</string>
+
+	<!-- Klenov (Bandit Trader) Escort the Bandits Spy Storyline Task -->
+	<string id="drx_sl_jup_cont_trader_bandit_task_3_msg_join">
+		<text>FUCK... Don't shoot! I SAID QUIT SHOOTING, BITCH! They are all dead! Let's get the fuck out and head back to Klenov. Come on, girl...</text>
+	</string>
+
+	<string id="drx_sl_jup_cont_trader_bandit_task_3_msg_leave">
+		<text>We made it... fucking hell! Thanks lass, I will go now.</text>
+	</string>
+
+	<!-- Tukarev (Ecog Mechanic) Escort Jupiter Scientists Task -->
+	<string id="jup_b6_scientist_tech_task_1_fetch_finish">
+		<text>Thank you for your protection, lady. Please take this as a token of our gratitude.</text>
+	</string>
+
+	<!-- FIND MUTANT PARTS FOR HUNTSMAN TASK -->
+	<string id="jup_b220_trapper_task_4_fetch_finish">
+		<text>Ah, another threat eliminated and a new decoration for the camp. Well done, huntress.</text>
+	</string>
+
+	<!--- Call of Chernobyl -->
+<!-- (Ecologists) -->
+	<string id="jup_b6_scientist_nuclear_physicist_task_1_finish">
+		<text>I can see that the scanner is working as intended. Thank you lady, I am very grateful.</text>
+	</string>
+
+<!-- (Monolith Mechanic) -->
+	<string id="mechanic_monolith_jup_depo_task_2_about">
+		<text>Fighting has shown that our weapons are marginally inferior to those of the infidels, among which exist capable technicians. I require tools for fine work to save our brothers from such inferiorities. Will you help, sister?</text>
+	</string>
+
+	<string id="mechanic_monolith_jup_depo_task_2_fetch_about">
+		<text>Fighting has shown that our weapons are marginally inferior to those of the infidels, among which exist capable technicians. I require tools for fine work to save our brothers from such inferiorities. Will you help, sister?</text>
+	</string>
+
+<!-- (Bandits Mechanic) -->
+	<string id="jup_cont_mech_bandit_task_1_about">
+		<text>Stalkers snatched everything and set up defenses at Yanov, those fuckers. We ain't got shit! Need some tools, girl. Get me some, yeah?</text>
+	</string>
+
+	<string id="jup_cont_mech_bandit_task_1_fetch_about">
+		<text>Stalkers snatched everything and set up defenses at Yanov, those fuckers. We ain't got shit! Need some tools, girl. Get me some, yeah?</text>
+	</string>
+
+	<string id="jup_cont_mech_bandit_task_2_fetch_finish">
+		<text>Thanks, girl. I will make sure to fix all the crappy guns and equipment with these tools.</text>
+	</string>
+
+	<string id="jup_cont_mech_bandit_task_3_about">
+		<text>Hey, lass, the two other sets of tools you brought us is really helpin', but I need the best o' the best. You know... the shit that'll make 'em go, "oooh, yeeeah..."</text>
+	</string>
+
+	<string id="jup_cont_mech_bandit_task_3_fetch_about">
+		<text>Hey, lass, the two other sets of tools you brought us is really helpin', but I need the best o' the best. You know... the shit that'll make 'em go, "oooh, yeeeah..."</text>
+	</string>
+
+	<string id="jup_cont_mech_bandit_task_3_fetch_finish">
+		<text>Well, fuck me sideways! What a rarity... a real rarity. I'll give you another discount, you deserve it. Thanks, sis.</text>
+	</string>
+
+</string_table>

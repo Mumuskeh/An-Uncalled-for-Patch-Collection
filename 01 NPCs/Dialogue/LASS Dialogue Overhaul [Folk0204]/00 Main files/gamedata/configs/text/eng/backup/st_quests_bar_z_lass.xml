@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<!-- Petrenko (Duty Trader) Raid Enemy Camp Storyline Task- -->
+	<string id="drx_sl_bar_dolg_general_petrenko_stalker_task_1_finish">
+		<text>Excellent work. You are a fine warrioress.</text>
+	</string>
+
+	<!-- Mangun (Duty Mechanic) Find Replacement Weapon Storyline Task- -->
+	<string id="drx_sl_bar_visitors_stalker_mechanic_task_1_about">
+		<text>I need some help, sis. A Dutier brought me in his rifle for repairs but I messed it up pretty bad. I need to find a replacement for him before he comes to pick it up.</text>
+	</string>
+
+	<string id="drx_sl_bar_visitors_stalker_mechanic_task_1_fetch_finish">
+		<text>Hey, great! You found one. Thanks sis, you saved my ass.</text>
+	</string>
+
+	<!-- Mangun (Duty Mechanic) Clear Out Mutants Storyline Task -->
+	<string id="drx_sl_bar_visitors_stalker_mechanic_task_2_about">
+		<text>Hey sis, can you do something for me? I gotta go somewhere but I heard there are mutants on the road leading out of the Bar. I'm no good at shooting, my aim is all shaky for some reason. Could you clear them out for me? I have a rifle that a customer never picked up that I can give you.</text>
+	</string>
+
+	<string id="drx_sl_bar_visitors_stalker_mechanic_task_2_finish">
+		<text>Thanks sis. Here's the rifle I promised you. Hope you have better luck than its previous owner... poor guy. Good thing he paid me in advance, hehe.</text>
+	</string>
+
+	<!-- Voronin (Duty Honcho) Night Terror Task -->
+	<string id="bar_dolg_leader_task_2_about">
+		<text>So, you want to prove your worth to Duty, do you? Very well. I have a task that will test your resolve and courage: There's a monster in the Truck Cemetery that has been instilling fear among our men. Several patrols have already been lost, and the only thing some of our men could find were splattered guts in the mud and traces of blood staining the old, rusty cars.\n\n
+		Just two days ago, one of our soldiers limped back. With his gear nearly destroyed, and he was carrying severe wounds and bruises. He managed to make his way back here, and now, he's resting as he should. Aspirin has been speaking with him to understand what happened, but all he talks about is how a fierce thunderstorm hit them. Apparently, he can't erase the image of his closest friend being dragged into the darkness. He says the screams of fear and anguish from that night still echo in his mind, torturing him for not being able to save his fallen comrades.\n\n
+		Recently, the few soldiers tasked with holding positions in the Truck Cemetery often speak of the tension at night. Even in supposedly safe places, they notice bright eyes in the dark, staring at them without moving at all. The echoes in the air seem to drive them to madness, and they remark that they always hear distant gunshots and screams of pain, only for silence to follow for hours, leaving them with the fear and doubt that something is lurking in the dark again. If you want to make Duty proud and earn the respect of our soldiers, face this monster at night, when it is most active.\n\n
+		Slay this abomination, and you will earn a trophy worthy of a huntress. And remember, if it's hostile, you kill it.</text>
+	</string>
+
+	<string id="bar_dolg_leader_task_2_finish">
+		<text>So the monster is finally dead. Splendid work, stalker, you truly are a fine huntress. We could even use your skills again in the future when another problem like this arises. But for now, here is your monetary retribution for what you've just done, you've earned our respect.</text>
+	</string>
+
+	<!-- Mangun (Duty Mechanic) -->
+	<string id="bar_visitors_stalker_mechanic_task_3_about">
+		<text>I can't believe what you've done for me, stalker! Even some of the neutrals around here are coming to me for upgrades now! But I know, in my heart, I'm not doing as well as I could. If only I had some better tools... Listen, girl. Bring me some expert-level tools, and I'll be in your debt. I could make your shooter into a masterpiece! I can't upgrade your stuff for free, of course, but I'll think of some way I can return the favour.</text>
+	</string>
+
+	<string id="bar_visitors_stalker_mechanic_task_3_fetch_about">
+		<text>Thanks, lass. I'll be sure to let the General know about this if you succeed.</text>
+	</string>
+
+	<!-- Barkeep -->
+	<string id="bar_visitors_barman_stalker_trader_task_1_fetch_finish">
+		<text>Well done, girl. Here is your reward.</text>
+	</string>
+
+	<!-- Barkeep (Loner Trader) New Tasks -->
+	<string id="bar_visitors_barman_stalker_trader_task_4_fetch_finish">
+		<text>Atta girl. Here's your payment.</text>
+	</string>
+
+	<string id="bar_visitors_barman_stalker_trader_task_5_finish">
+		<text>Great job, lass.</text>
+	</string>
+
+</string_table>

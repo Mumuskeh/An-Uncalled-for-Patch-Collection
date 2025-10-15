@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<game_dialogs>
+	<dialog id="ask_about_compass">
+		<has_info>task_1_noah_done</has_info>
+		<has_info>task_2_noah_done</has_info>
+		<dont_has_info>noah_gave_compass</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>ask_about_compass_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>ask_about_compass_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>ask_about_compass_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>ask_about_compass_3</text>
+				<action>dialogs_zaton.give_compass_to_actor</action>
+				<give_info>noah_gave_compass</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+</game_dialogs>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+<!-- Gonta -->
+	<string id="gonta_about_mutants_11151">
+		<text>They're expert hunters themselves, with excellent disguise. When they're camouflaged you can barely see them. If you're hunting a bloodsucker, try to startle it. You can see it better when it's on the move... Remember, a bloodsucker will try to sneak up behind you and weave its feelers around your neck. That's some creepy shit, girl... If you are unlucky enough to run into a few bloodsuckers, always watch your back.</text>
+	</string>
+
+<!-- Beard (Loner Barman) -->
+	<string id="boroda_story_1">
+		<text>That's right. And judging by looks, you must be a girl. A long while has passed since I've seen a woman roaming these marshes! Feel welcome to the Skadovsk, sister. Keep a cool head and you will be safe from thugs, mutants, and emissions here..</text>
+	</string>
+	<string id="boroda_story_2">
+		<text>Thanks, I apreciate the hospitality. Mind if I ask you what can I do here?</text>
+	</string>
+	<string id="boroda_story_3">
+		<text>Whatever you prefer the most, lass. Ever since the departure of Sultan, the hunt for artefacts around here has been more of a breeze than ever. If you plan on going south in the direction of the substation workshops and the waste processing station, be careful. The Syndicate holds those territories, and they pose quite a threat. If you happen to find any artefacts, feel free to bring them here - I'll be more than happy to offer you a decent price. Stay safe around these parts, stalker.</text>
+	</string>
+
+	<string id="zat_b22_stalker_medic_need_health_care_11112">
+		<text>Well, you won't die from weak radiation. For now at least. But I won't take any responsibility if you bleed to death. Good luck, friend!</text>
+	</string>
+
+	<string id="zat_b3_stalker_tech_drink_1_2">
+		<text>Nah, I'm off the bottle, lass. When I saw item 62, I thought, 'That's it, I'm having the jumps...' See, booze just screws you up. Not a part of a healthy diet. And if I'm gone, who's gonna hammer out ammo for your Gauss rifle?</text>
+	</string>
+
+</string_table>

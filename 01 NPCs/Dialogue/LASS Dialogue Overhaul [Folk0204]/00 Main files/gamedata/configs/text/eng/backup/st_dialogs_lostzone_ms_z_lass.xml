@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="dushman_mortal_sin_zone_hero_1">
+		<text>Now that's a feat for a woman like you here in the Zone, if I've ever seen one. Great job, merc.</text>
+	</string>
+
+	<string id="sidorovich_mortal_sin_ambush_1">
+		<text>That's my girl! Glad to keep you around... however, the stakes have been raised. I've received reports from stalkers across the Zone that Sin's main forces have been moving toward the two psy-installations. I think they want to reactivate them and cut the centre of the Zone off again. Obviously, we can't let that happen.</text>
+	</string>
+
+	<string id="cold_mortal_sin_3">
+		<text>Thanks lass. He's somewhere around, I guarantee he'll stand out like a sore thumb, so you shouldn't have any trouble noticing him.</text>
+	</string>
+
+	<string id="lukash_mortal_sin_report_1">
+		<text>Oh, hey sister. How was the trip? Met any interesting people over there?</text>
+	</string>
+
+	<string id="lukash_mortal_sin_report_2">
+		<text>A few of them. Reunited with Stitch, who was being chased by Sin. You were right about them. Anyway, the hunting squad is dead, but Stitch said that Sin has been preparing to launch a large scale invasion on the southern sectors of the Zone. He's trustworthy, and it seems that way anyway. Take a look at this: the head Predator's PDA.</text>
+	</string>
+
+	<string id="lukash_mortal_sin_report_3">
+		<text>Girl, we've got a major war on the horizon. Well, I was fed up with the constant Monolith attacks anyway. This'll be a nice change of pace. I'll rally our guys for another faction war, just give me... a sec... Hmm. Guards at the main gate just reported that a large squad's approaching our base. Shots fired... but they aren't Monolith! Crap. Go help them out, will ya? I'll try to organise something here.</text>
+	</string>
+
+	<string id="lukash_mortal_sin_zone_hero_1">
+		<text>Wow, now that's a job well done! You're on fire, bitch! Let's keep our Zone the way we love it: unpredictable and deadly, but cosy. No need to change a thing about it.</text>
+	</string>
+
+	<string id="lukash_mortal_sin_zone_hero_5">
+		<text>Rest all you want, sister, but don't forget to come to the victory celebration party!</text>
+	</string>
+
+	<string id="sakharov_mortal_sin_1">
+		<text>Sometimes I cannot tell if you are joking, young lady. I suppose the situation is fairly stable, at least. Come to think of it, there has been one unsettling development here lately. Some new stalkers came to Yantar a few days ago, this hooded fellow among them. Rather than help our guards fend off the constant incursions he prefers to preach about the wonders of the Zone. I heard him myself, and I am afraid the man might be insane. He has done no direct harm to us so far, although our guards are growing weary of his presence. Please, try to convince him to leave us be.</text>
+	</string>
+
+	<string id="sakharov_mortal_sin_ambush_1">
+		<text>Excellent work, young lady! I knew I could count on you. Sadly, this is merely the beginning. Military gunships observed substantial Sin forces moving toward both of the psy-installations. Given our current knowledge it is safe to assume they intend to reactivate them. The best course of action is to thwart their plan right now.</text>
+	</string>
+
+	<string id="sakharov_mortal_sin_zone_hero_1">
+		<text>What a horrible conflict, I am glad it is over. You have done well, young lady. I knew I could count on you in this time of need. I sincerely hope that the Zone will be able to reach a state of equilibrium at last.</text>
+	</string>
+
+	<string id="red_forester_mortal_sin_1">
+		<text>Young lady, the Red Forest is home to many strange phenomena and events. If I were to describe all of them, we would...</text>
+	</string>
+
+	<string id="red_forester_mortal_sin_3">
+		<text>Just be patient girl, I'm trying to remember! Ah, yes... I think I know who you're referring to. They appeared without warning a couple of days ago. Came from the north. There was something ominous about them, the way they walked silently in a tight formation... other stalkers immediately sidestepped to make way for them. And then they simply walked into the forest like it was some regular park. I've heard distant gunshots many times since, more often than usual, that is.</text>
+	</string>
+
+	<string id="red_forester_mortal_sin_9">
+		<text>Be careful, young lady. There's more than hostile stalkers that you may encounter there. Stay vigilant.</text>
+	</string>
+
+	<string id="stalker_stitch_mortal_sin_decoder_1">
+		<text>I knew you'd get it no problem, lass. Which is disturbing, actually. Still, thanks.</text>
+	</string>
+
+	<string id="lazarus_greeting_0">
+		<text>What's up, sis?</text>
+	</string>
+
+</string_table>

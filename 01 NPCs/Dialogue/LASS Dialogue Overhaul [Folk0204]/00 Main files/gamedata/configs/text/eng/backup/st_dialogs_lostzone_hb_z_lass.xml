@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="hb_maus_start_2">
+		<text>Yeah, you do seem a little familiar... hang on. Yeah, I know you too! No way! Girl, how'd you make Captain already?</text>
+	</string>
+
+	<string id="hb_maus_start_7">
+		<text>You're extremely happy for a woman stuck in an irradiated hellhole.</text>
+	</string>
+
+	<string id="hb_strelok_escorted_dialog_1">
+		<text>You're a woman of your word. Thank you.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<!-- Librarian (Clear Sky Trader) Procure Supplies Storyline Task -->
+	<string id="drx_sl_mar_base_stalker_barmen_task_2_finish">
+		<text>That's great, thanks girl.</text>
+	</string>
+
+	<!-- Cold (Clear Sky Honcho) Decimate the Enemy Task -->
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_1_fetch_finish">
+		<text>Here you are, our professional hitwoman. I suppose those bastards will think twice before they dare visit our Swamp again. I hope. Here's your reward, by the way.</text>
+	</string>
+
+	<!-- Cold (Clear Sky Honcho) Night Terror Task -->
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_2_about">
+		<text>Mutants rarely stray close to our base. But our guys reported that the previous night some giant beast tore apart the whole team that manned the lookout tower to the north west. Four well-armed people just smeared all over the perimeter. Those weren't dogs for sure. I know you're a tough woman, so maybe you could visit the place and get rid of that nasty fucker?</text>
+	</string>
+
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_2_finish">
+		<text>Hey, great job, girl! I hope this reward's good enough for you. That and the stories people'll tell.</text>
+	</string>
+
+	<!-- FIND MUTANT MEAT FOR CLEAR SKY TASK -->
+	<string id="mar_base_stalker_barmen_task_3_fetch_finish">
+		<text>Great, you are a good huntress after all! I have payment for you.</text>
+	</string>
+
+	<!-- FIND LEVEL 1 TOOLS FOR NOVIKOV TASK -->
+	<string id="mar_base_stalker_tech_task_1_fetch_finish">
+		<text>Awesome, girl! Here, let me throw some money at you.</text>
+	</string>
+
+	<!-- FIND LEVEL 2 TOOLS FOR NOVIKOV TASK -->
+	<string id="mar_base_stalker_tech_task_2_fetch_finish">
+		<text>Even better! You came through for me once again! Here, let me throw some money at you.</text>
+	</string>
+
+	<!-- FIND LEVEL 3 TOOLS FOR NOVIKOV TASK -->
+	<string id="mar_base_stalker_tech_task_3_fetch_finish">
+		<text>You make me proud, girl! I wil make sure to do an amazing job with the tools you brought me. Take your reward, you deserve it.</text>
+	</string>
+
+	<!-- ESCORT SCIENTISTS DIALOGS -->
+	<string id="ecolog_companion_task_1_complete">
+		<text>Thank you, friend. You did your job well. Here is your payment.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+<!-- Butcher (Hunter-merchant in the Garbage) -->
+	<string id="st_hunter_gar_trader_life_2">
+		<text>Oh girl. Let's talk about dogs. I'm sure you've seen a few packs of strays running around the Zone by now. Even the rookies in Cordon have.\n \nGet rid of any thoughts that these are household pets, or that they can be rehabilitated, or tamed. The Zone has touched all these beasts. You ever seen Zone dogs up close? They're blind, with eyes that have withered away generations ago.\n \nFast creatures, too. Their bite isn't the worst injury someone can get in the Zone, but it's enough to slow you down and, if there's a pack nearby, that's enough to end you.\n \nTo top it all off, their sense of smell is even keener than a greyhound's.\n \nYou asked for a story, but I'm not sure what to tell you. I've seen hundreds of rookies and even some experienced stalkers underestimate these creatures and get ripped apart as a result.\n \nEven Military Stalkers get unlucky. Even the best armour merely means these dogs will try to bleed you out rather than tear you up.\n \nMostly though, they prefer to stick to Fleshes, so as long as there's enough wild food around in proportion to the dog population, you should be alright. In some cases, packs would even let me pass unscathed if I just kept a little quiet as I went through. Of course, it's not something I'd try unless there's an anomaly field between you and those canines, the consequences of them getting a little hungry and suddenly changing their minds are...unsettling to witness, at best.</text>
+	</string>
+
+</string_table>

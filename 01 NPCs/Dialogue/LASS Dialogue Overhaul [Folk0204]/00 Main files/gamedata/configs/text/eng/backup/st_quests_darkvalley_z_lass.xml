@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<!-- Sultan (Bandit Honcho) Payoff Change Factions Task -->
+	<string id="drx_sl_zat_b7_bandit_boss_sultan_cf_task_1_about">
+		<text>You want to live the romantic life of the rogue, is that it? Listen, lass. Any fucking wankstain with a peashooter can go around like a common thug if he likes. He can wind up dead in a ditch too, for all I care. You want to be a bandit? You want to live the good life? Bring 5,000 RU as tribute, swear fealty to me as your Sultan and I'll let you tag along with my merry men.</text>
+	</string>
+
+	<!-- Sultan (Bandit Honcho) Eliminate Military Presence Dynamic Task -->
+	<string id="zat_b7_bandit_boss_sultan_task_2_finish">
+		<text>You've impressed me, lass. Wish more of the boys around here had your spunk.</text>
+	</string>
+
+	<!-- FIND LEVEL 1 TOOLKIT FOR LIMPID -->
+	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_1_about">
+		<text>I'm in desperate need of new tools, girl.  I can't do anything with the rusty shit I have and I'm running out of gun oil. If you are interested in helping me out, I will tell you what I need.</text>
+	</string>
+
+	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_1_fetch_finish">
+		<text>Perfect! This is just what I need, girl. I can properly upgrade gear now!</text>
+	</string>
+
+	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_2_fetch_finish">
+		<text>You followed through again! Good deal, girl, here is some money.</text>
+	</string>
+
+	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_3_fetch_finish">
+		<text>You followed through again! Good deal, girl, here is some money.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+<!-- Task news -->
+	<!-- Bounty gossip -->
+	<string id="st_dyn_news_gossip_bounty_1">
+		<text>I've just seen $who, $where. I've heard that someone wants that stalker dead.</text>
+	</string>
+
+	<string id="st_dyn_news_gossip_bounty_3">
+		<text>What's up with $who lately? Is it true that someone is after that stalker?</text>
+	</string>
+
+	<string id="st_dyn_news_gossip_bounty_4">
+		<text>It seems $who has made some powerful enemies. That stalker should stop roaming around $where and get the fuck out of there before things get bad.</text>
+	</string>
+
+
+	<!-- Nearby enemy activity -->
+	<string id="st_dyn_news_enemy_activity_stalker_6">
+		<text>We got an outsider. It's not clear, but I think it is $who.</text>
+	</string>
+
+	<string id="st_dyn_news_res_enemy_activity_stalker_3">
+		<text>If that stalker tries something funny, we're gonna have a bad time around here.</text>
+	</string>
+
+	<string id="st_dyn_news_res_enemy_activity_stalker_5">
+		<text>Is that so? Let me know if you see that idiot heading this way.</text>
+	</string>
+
+	<string id="st_dyn_news_res_enemy_activity_stalker_9">
+		<text>If that retard tries to do something stupid, open fire at once.</text>
+	</string>
+
+	<string id="st_dyn_news_res_enemy_activity_stalker_10">
+		<text>They killed one of my friends the other day, fucking bastards.</text>
+	</string>
+
+<!-- Companions news -->
+	<!-- Companions - Life -->
+	<string id="st_dyn_news_companion_life_all_23">
+		<text>You hear those growls in the distance? That's a bad sign, I swear it.</text>
+	</string>
+
+	<string id="st_dyn_news_companion_life_bandit_3">
+		<text>Eh, $name, my girl. You got some smokes?!</text>
+	</string>
+
+	<string id="st_dyn_news_companion_life_stalker_3">
+		<text>Girl, Sidorovich's prices are unbelievable.</text>
+	</string>
+
+	<string id="st_dyn_news_companion_life_monolith_1">
+		<text>Sister, show no mercy to those who stand against the Monolith's will.</text>
+	</string>
+
+	<string id="st_dyn_news_companion_life_monolith_7">
+		<text>Be careful sister, the enemy may show up at any moment.</text>
+	</string>
+
+	<string id="st_dyn_news_companion_life_monolith_8">
+		<text>Trust no one who doesn't wears the colors of the Monolith, sister. We are alone in this world.</text>
+	</string>
+
+	<!-- Companions - Level -->
+	<string id="st_dyn_news_companion_level_l05_bar_1">
+		<text>Hey, wanna have a drink at 100 Rads, babe?</text>
+	</string>
+
+	<string id="st_dyn_news_companion_level_l10_radar_6">
+		<text>Hey, you crazed bitch! Is visiting this place your greatest idea?!</text>
+	</string>
+
+
+	<!-- Companions - Actor - Rank -->
+	<string id="st_dyn_news_companion_rank_1_1">
+		<text>Your name is $name, right? I didn't expect a woman this time.</text>
+	</string>
+
+	<string id="st_dyn_news_companion_rank_1_2">
+		<text>$name?... I don't recall you, how does a girl like you end up in the Zone?</text>
+	</string>
+
+	<string id="st_dyn_news_companion_rank_2_1">
+		<text>Feels good to join a girl who knows what she's doing, $name.</text>
+	</string>
+
+	<string id="st_dyn_news_companion_rank_3_1">
+		<text>You're $name?! I heard a lot about your adventures back at our campfire last night. My friends said you're one of the few girls who survived a while in the Zone.</text>
+	</string>
+
+	<string id="st_dyn_news_companion_rank_3_3">
+		<text>$name?! People say you're trustworthy. Lead the way, ma'am!</text>
+	</string>
+
+	<string id="st_dyn_news_companion_rep_1_4">
+		<text>People say you fucked up big time, $name. What have you done exactly, gal?</text>
+	</string>
+
+	<string id="st_dyn_news_companion_rep_2_3">
+		<text>$name, you seem like a nice girl. Are you new around here?</text>
+	</string>
+
+	<string id="st_dyn_news_companion_rep_3_5">
+		<text>People say that you're a gal of your word, $name. I'm glad to join your team.</text>
+	</string>
+
+</string_table>

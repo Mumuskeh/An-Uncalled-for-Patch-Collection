@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+    <string id="marsh_stalker_medic_about_zone_1">
+        <text>Young lady, we have been studying the Zone for several years now but remain none the wiser. I can tell you that the Zone is definitely not a natural phenomenon but rather the result of... a futile endeavour devised by some overly ambitious people. We are unable to reverse its effects. The Zone cannot be destroyed, nor will it disappear of its own accord. Furthermore, experience taught us that any attempt to curb or contain it will have catastrophic consequences. Presently we, Clear Sky, believe that there is only one way to reconcile man with the Zone: coexistence.</text>
+    </string>
+
+	<string id="cit_doctor_health_care_112">
+		<text>No injuries or radiation, it seems. Everything's alright, lass.</text>
+	</string>
+
+</string_table>

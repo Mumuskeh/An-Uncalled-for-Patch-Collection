@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<!-- Trading / Repair dialog -->
+	<string id="st_bartender_dialog_reply_2">
+		<text>Feeling hungry, lass? Just check what I've got to sell.</text>
+	</string>
+
+<!-- Selling important documents -->
+	<string id="st_trade_important_documents_answer_zat_b7_bandit_boss_sultan">
+		<text>Nice job, girl. Next time you "find" such a thing, don't forget to give me a visit.</text>
+	</string>
+
+<!-- Swap items with Companions -->
+	<string id="st_companion_inv_take_all_my_items_response_refuse_1">
+		<text>Hold on girl, I have stuff too! I can't carry all of your rubbish at once!</text>
+	</string>
+
+	<string id="st_companion_inv_take_all_my_items_response_refuse_3">
+		<text>What am I, a mule? Come on, girl, my backpack is already bursting!</text>
+	</string>
+
+<!-- Paid Companions -->
+	<string id="st_paid_companion_dialog_text_1">
+		<text>Sure thing, but it does not come for free. It'll be %s rubles if you want the service for 24 hours. And if one day isn't enough for you, we can change it to 48 hours instead, but the price will be a bit higher - %s rubles.\n\n
+		But there's a condition: If you plan to get inside one of these underground places or enter Monolith territory... then you are on your own, we don't want to deal with bullshit like that. Got it right, gal?</text>
+	</string>
+
+	<string id="st_paid_companion_danger_2">
+		<text>Are you retarded or something, bitch?! Did you forget already about the condition?! I'm not going to these places, I'm getting the hell out of this shithole.</text>
+	</string>
+
+<!-- Medic general -->
+	<string id="st_dm_medic_general_text_10_3">
+		<text>Lady, you're healthier than a bloodsucker.</text>
+	</string>
+
+	<!-- About Quests Duty -->
+	<string id="about_quests_dialog_dolg_54">
+		<text>Well, you could start a recruitment campaign in a mental hospital... Then again, I know a good alternative - Monolith fighters. Speaking of which, a squad of them was spotted near AA complex, and they probably even know the way to Pripyat, too... Hey girl, I hope you're not taking me seriously...</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_163">
+		<text>At the plant, girl, where else? It's not exactly lively in there, but the warehouses will cheer you up. It's a bit safer and you're bound to find some decent tools in there.</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_165">
+		<text>That's a good question, girl. Let's think about this one. Where do you find tools outside the Zone? Now, if you got half a brain, you buy them in a store... If you don't, you look for the tools and a brain in a workshop. Right? It's the same thing in the Zone - you have to look in the same places. It's that simple, stalker!</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_166">
+		<text>Tools? Listen, girl, is that code for something? There're no pigs here or anything, you can speak freely... Oh, you're serious? In that case I really don't know.</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_301">
+		<text>Pilot for sure, girl. He's the main free stalker guide around here - if you want to talk maps, he's the one you want.</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_31">
+		<text>Chill, girl. There ain't no cops, no jar-heads and no friggin' militia around here - you're as safe as can be in the Zone.</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_44">
+		<text>Sis, if I knew I'd have gone there a long time ago. Getting away from Duty, the jar-heads and all this fighting would be worth it...</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_91">
+		<text>Girl, you gotta warn the free stalkers - they've got their main camp around here, after all. The Zone's wildlife is valuable, to be sure, but I'm more concerned about the people in this place.</text>
+	</string>
+
+	<!-- About Quests Stalker -->
+	<string id="about_quests_dialog_stalkers_113">
+		<text>I heard that any mutant you meet there will just walk on by without so much as looking at you. They also say that there's an artefact there called the Heart of the Oasis... Nobody knows what it does exactly, but one thing's for sure: you shouldn't touch it. Anyone who takes it won't have no place in the Zone no more... Location? Girl, everyone knows it's in Pripyat under the Ferris wheel! I mean, where else would it be?</text>
+	</string>
+
+	<string id="about_quests_dialog_stalkers_43">
+		<text>How should I know, girl? You got any easier questions for me? All I can say is that you should find Pilot and talk to him - if anyone can help you, it's him.</text>
+	</string>
+
+	<string id="about_quests_dialog_stalkers_44">
+		<text>Hah, if I knew the way to Pripyat I wouldn't be here. Why do you think I went towards the centre of the Zone? Pripyat is full of artefacts, girl! Whoever gets there first is gonna be living the high life!</text>
+	</string>
+
+	<string id="about_quests_dialog_stalkers_54">
+		<text>Listen lass, I heard that a squad was spotted by the dry lake south of the AA complex... Apparently they're not the usual stalkers or Freedom or Duty - they're Monolith men! So if you need someone to go to Pripyat with, they're just the ticket. Haha, you do realize I'm kidding, right?</text>
+	</string>
+
+	<string id="about_quests_dialog_stalkers_28">
+		<text>Girl, I've got other shit to worry about without your choppers... I mean, I bet crashing a heli hurts like hell, but other than that I don't know what to say.</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_27">
+		<text>Huh? Nah, girl, I don't concern myself with shit like that. It don't help with my mission of disseminating knowledge one bit, you know what I mean?</text>
+	</string>
+
+	<string id="about_quests_dialog_freedom_502">
+		<text>A good question, girl... We don't ever wear those here in Freedom... I'd ask stalkers at Zaton if I were you. There might be someone there who runs that sort of business.</text>
+	</string>
+
+	<string id="about_quests_dialog_stalkers_503">
+		<text>Girl, you talk about it like it's office supplies or something... No one knows for sure. Pieces like that are few and far between... Consider yourself lucky if you snatch one.</text>
+	</string>
+
+	<!-- Alundaio -->
+	<string id="dm_dialog_companion_final_words_good_alone_3">
+		<text>Bad-ass, girl. Thanks.</text>
+	</string>
+
+	<string id="dm_dialog_companion_final_words_bad_alone_2">
+		<text>Woah, girl! What the hell is your problem?</text>
+	</string>
+
+	<string id="axr_phrase_companion_acknowledge_2">
+		<text>Alright, girl.</text>
+	</string>
+
+</string_table>

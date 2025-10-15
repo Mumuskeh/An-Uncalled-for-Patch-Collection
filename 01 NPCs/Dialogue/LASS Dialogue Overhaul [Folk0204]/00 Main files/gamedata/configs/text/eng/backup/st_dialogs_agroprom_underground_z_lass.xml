@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+<!-- (Bandit ground leader) -->
+	<string id="st_agr_u_bandit_boss_dialog_start_0">
+		<text>Who are you... And what the fuck is a girl like you doing down here?!</text>
+	</string>
+
+	<string id="st_agr_u_bandit_boss_dialog_start_1a_1">
+		<text>No, I haven't "found any". Are you off your mind, bitch? You gotta hear the growls coming from down there first, then you can think about treasures.</text>
+	</string>
+
+	<string id="st_agr_u_bandit_boss_dialog_ask_7">
+		<text>Shit... I don't know, girl... I don't want to see those damn things ever again...\n...</text>
+	</string>
+
+	<string id="st_agr_u_bandit_boss_dialog_ask_81">
+		<text>You're completely crazy, bitch. You know that? Good luck with your search.</text>
+	</string>
+
+	<string id="st_agr_u_bandit_boss_dialog_ask_15">
+		<text>I don't have time for your crap, cunt.</text>
+	</string>
+
+	<string id="st_agr_u_bandit_boss_dialog_give_docs_1">
+		<text>Sis, I don't know what to say, honestly. We can finally leave this shithole. I'm going back to Sultan with these documents, the boys here will stay for a little while once we arrange everything.
+		\nWhat about you? Wanna come with me? I'll make sure Sultan pays you generously.</text>
+	</string>
+
+	<string id="st_agr_u_bandit_boss_dialog_arrived_1">
+		<text>Thanks sister, I won't forget your help. Here, take this. I... eh... found this shiny artefact when we were exploring earlier. Consider it payment for your troubles.</text>
+	</string>
+
+</string_table>

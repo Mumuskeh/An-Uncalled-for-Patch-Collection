@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+<!-- Olivius (Bandit Trader) -->
+	<string id="val_smart_terrain_7_4_bandit_trader_stalker_start_dialog_1">
+		<text>Hey, girl! Looking for gear? Or maybe some work? I'm the guy to see when you need to unload your habar for cash.</text>
+	</string>
+
+	<string id="val_smart_terrain_7_4_bandit_trader_stalker_start_dialog_2">
+		<text>Hey, lass. What do you need? Looking for work?</text>
+	</string>
+
+<!-- (Bandits Mechanic) -->
+	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_start_dialog_1">
+		<text>What you need today, girl? I'll fix your shit right up. I can also decrypt any locked PDAs you might have, so be sure to bring them over to me.</text>
+	</string>
+
+<!-- Sultan -->
+	<string id="zat_b7_bandit_boss_sultan_intro_0">
+		<text>Welcome to my citadel. Everything that goes down in the surrounding valley is either under my control or will be soon. When you get tired of the shitty life, you come work for me. Then, you get the good life. That's how we roll, girl.</text>
+	</string>
+
+	<string id="sultan_st_1">
+		<text>Yeah, lass, that's right, and I've earned my name. Marched down here from Zaton in the nick of time. Cleared out the mutants swarming this place, saved the defenders, recruited them into my gang... got the whole building back up and running. Many around here still owe me their lives, and they don't forget it.\n \n'Course, it ain't all sunshine and rainbows. Not sure if you heard why I was marching down from Zaton in the first place?</text>
+	</string>
+
+	<string id="sultan_st_3">
+		<text>His name was Alexander, but don't you fret about him. You're a brave lady, daughter. But even his ass is a barbed metal fortress; you can have the most seductive charms in the world, and you still wouldn't be getting in.\n \nHe'll get what's coming to him, don't worry. Just trust that your Sultan has got this one.</text>
+	</string>
+
+	<string id="sultan_st_9">
+		<text>And what did you expect, daughter? Life may not always be a walk in the park, but we've got connections. Speaking of which; if you're looking to get the drop on some stalkers, go see Loris, north-west of the bridge in Cordon. Sometimes there's competition hanging around there, but on quiet days you should be able to just walk up to him, and for the right price he'll hook you up with a disguise. Much easier to get treasure off rooks when they don't see you coming.</text>
+	</string>
+
+</string_table>
