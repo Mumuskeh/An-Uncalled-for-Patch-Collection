@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<string_table>
+
+<string id="nj_snitch_0">
+    <text>Hey Snitch, do you happen to be interested in various mobile phones?</text>
+</string>
+
+<string id="nj_snitch_1">
+    <text>For sure, sometimes they contain more useful information than an average PDA. I won't be able to pay you much if they're broken, but I'll still buy them off you with no questions asked, at better rates than what Barkeep here would pay you.</text>
+</string>
+
+<string id="nj_phone_dialogue_snitch_0">
+    <text>Hey, Snitch. I heard you're buying old phones. I found a few, here you go...</text>
+</string>
+<string id="nj_phone_dialogue_snitch_1">
+    <text>Sweet, here's your reward. Bring me more any time you find any.</text>
+</string>
+
+<string id="nj_equipment_dialogue_prof_0">
+    <text>Hello Professor! I came across this equipment that I suspect was looted off fallen field researchers. Would you be interested in buying it back?</text>
+</string>
+<string id="nj_equipment_dialogue_prof_1">
+    <text>Certainly, stalker! Thank you for finding this, such equipment is hard to replace. Please, if you find any more, bring everything to us.</text>
+</string>
+
+
+<string id="nj_junk_dialogue_gar_0">
+    <text>Hey! I get that you have a lot of diggers coming to you with various dug up nonsense, but I found some stuff... Interested in buying it?</text>
+</string>
+<string id="nj_junk_dialogue_gar_1">
+    <text>Well this wouldn't be a digger camp if we didn't buy stuff like this. You know, people far north pay top dollar for these components. I heard a couple dudes in Jupiter are working on something huge and they pay top dollar for these parts. Anyways, I'm rambling. Here's all I can pay you.</text>
+</string>
+
+
+<string id="nj_junk_dialogue_sid_0">
+    <text>Hello Sidorovich, would you be interested in buying some electronic components from cars and such?</text>
+</string>
+<string id="nj_junk_dialogue_sid_1">
+    <text>The rookies are already bringing me various kinds of crap already. This is good stuff, but I have no use for it. I'll buy it, but I can't pay you much for it. I suggest you take this to Novikov in the Swamps, he has a knack for these things.</text>
+</string>
+
+
+<string id="nj_junk_dialogue_nov_0">
+    <text>Howdy, I have some electrical components that might be of interest to you. I see you work with this kind of stuff.</text>
+</string>
+<string id="nj_junk_dialogue_nov_1">
+    <text>Oh yes! Trust me, I would kill to get my hands on as much of this as possible. Back in our prime days, we had squads who'd go to the Garbage to pick up some components for us, but since then I've only been getting scraps here and there. So bring me everything you can find, I'll pay you top dollar for this.</text>
+</string>
+
+
+<string id="nj_junk_dialogue_nit_0">
+    <text>Hello Nitro! I heard you and Cardan are interested in car parts, electrical equipment and whatnot. I have some that might be of interest to you.</text>
+</string>
+<string id="nj_junk_dialogue_nit_1">
+    <text>Right on! Me and Cardan started work on a vehicle that could operate here in The Zone a while back, but we faced quite a lot of issues when it comes to actual supplies - there's just a lack of good conditioned car parts, let alone parts that aren't already stolen and turned into scrap metal. Same goes for electrical components. Will gladly buy this off you, bring me any more you can find.</text>
+</string>
+
+<!-----mechanics---->
+
+<string id="nj_tech_dont_want_nit_0">
+    <text>'Sup Nitro! I have some interesting tools here. Would you be interested in them?</text>
+</string>
+<string id="nj_tech_dont_want_nit_1">
+    <text>Thanks for the offer, stalker, but these aren't exactly up to par with what I work with. Not sure if Cardan will be interested either. I'd suggest you take these to Zaton, the technician in Skadovsk will probably buy these off you.</text>
+</string>
+
+<string id="nj_tech_dont_want_yar_0">
+    <text>Hello Yar. I have some interesting tools on me. Take a look, perhaps you'd be interested in buying them?</text>
+</string>
+<string id="nj_tech_dont_want_yar_1">
+    <text>Hmmm... These seem pretty niche, I wouldn't get that much use out of them, so I'll pass. But try taking them to Zaton, the guy there might buy them. I also suppose the Mercs in the bookstore nearby might buy these off you.</text>
+</string>
+
+<string id="nj_tech_dont_want_car_0">
+    <text>Hey Cardan, I have some tools here. Interested?</text>
+</string>
+<string id="nj_tech_dont_want_car_1">
+    <text>These don't seem like stuff we'd normally work with. We have better tools available, so I'll pass. Try asking Tukarev in the mobile science lab for who might be interested.</text>
+</string>
+
+<string id="nj_tech_dont_want_merc_0">
+    <text>Hey Kolin. Are you in need of tools?</text>
+</string>
+<string id="nj_tech_dont_want_merc_1">
+    <text>I very much am, show me what you've got... Err... I don't think I'll be able to get much use out of these. Sorry, but I need something of slightly higher quality and made specifically for weapons.</text>
+</string>
+
+<string id="nj_tech_dont_want_tuk_0">
+    <text>Hello Tukarev! I have some tools here, perhaps I can interest you in them?</text>
+</string>
+<string id="nj_tech_dont_want_tuk_1">
+    <text>Oh no, we're not really looking for tools at the moment. However, I've heard Peregrine at Sakharov's lab is in a dire situation and is in a desperate need of tools. Also when Novikov left the lab some years ago, he left all his old tools here, so maybe he might find use for these, assuming the old man's still alive and well.</text>
+</string>
+
+<string id="nj_tech_dont_want_for_0">
+    <text>Forester, I came here with some tools. Would you be interested in these?</text>
+</string>
+<string id="nj_tech_dont_want_for_1">
+    <text>It's been a long time since I needed any new tools - I definitely won't need any new ones in the foreseeable future. Try asking the stalkers around instead.</text>
+</string>
+
+<string id="nj_tech_dont_want_scr_0">
+    <text>What's up, Screw? In need of any tools?</text>
+</string>
+<string id="nj_tech_dont_want_scr_1">
+    <text>Hell yeah, I'm dying to get my hands on something I can use to modify guns. But these ones you brought me are no good for that. We're not THAT desperate, heh.</text>
+</string>
+
+<string id="nj_tech_dont_want_man_0">
+    <text>Good day, Mangun. I have tools that might interest you.</text>
+</string>
+<string id="nj_tech_dont_want_man_1">
+    <text>From here I can see that what you've got there is some hand-assembled junk. Might be useful to someone who's desperate, but I won't be able to do what Duty's standards demand with those tools. Try taking them to Peregrine in Yantar, I know they're in a pretty dire situation there.</text>
+</string>
+
+<string id="nj_tech_dont_want_dea_0">
+    <text>Hog, are you in need of any tools?</text>
+</string>
+<string id="nj_tech_dont_want_dea_1">
+    <text>I could use something that's suitable for upgrading a shooter or two. These tools you've brought aren't really suitable for that. I'll pass, but try asking Peregrine in Yantar.</text>
+</string>
+
+<string id="nj_tech_dont_want_truckcemetery_0">
+    <text>Sup dude. You need any tools? These might be useful for maintenance or fixing up suits.</text>
+</string>
+<string id="nj_tech_dont_want_truckcemetery_1">
+    <text>I need something for upgrading shooters of our boys that reach these parts. Anything else is no good for me. If you got nothing like that, I ain't buying, but try taking them to our boys up north in Jupiter, I'm sure they're in need of tools way more than we are.</text>
+</string>
+
+<string id="nj_tech_dont_want_limp_0">
+    <text>What's up Limpid? I got some tools here - I don't think these will be usable for upgrading shooters, but maybe something else.</text>
+</string>
+<string id="nj_tech_dont_want_limp_1">
+    <text>Nah dude, I don't need any more loose tools or half-assed kits. Try taking these to our boys far north in Jupiter, they're in deeper shit than we are and will probably buy these tools off ya.</text>
+</string>
+
+<string id="nj_tech_dont_want_agroprom_0">
+    <text>Good day, Lieutenant Kirilov. Are you in need of any tools? I have some DIY stuff here.</text>
+</string>
+<string id="nj_tech_dont_want_agroprom_1">
+    <text>Thank you, but I am not in need of kits that will barely do the job. However, offer these to Peregrine in Yantar. I know he is in a worse situation than I am.</text>
+</string>
+
+<string id="nj_tech_dont_want_cordon_0">
+    <text>Hey, are you in a need of tools? Take a look...</text>
+</string>
+<string id="nj_tech_dont_want_cordon_1">
+    <text>I'd make use of high quality tools, sure, but I don't need anything like what you're offering me. Try taking these to Peregrine in Yantar instead.</text>
+</string>
+
+<string id="nj_tech_dont_want_xen_0">
+    <text>Hi Xenotech! I have some simple tools here that you might be interested in.</text>
+</string>
+<string id="nj_tech_dont_want_xen_1">
+    <text>These might be of use to someone else, but I'll respectfully have to decline. I am looking for something high quality for modifying weapons. I know Novikov is seriously lacking tools, so try offering these to him.</text>
+</string>
+
+<string id="nj_tech_nevermind_0">
+    <text>Nevermind</text>
+</string>
+
+<string id="nj_tech_nevermind_1">
+    <text>Alright then.</text>
+</string>
+
+<string id="nj_tech_want_con_0">
+    <text>Ayo, I have some tools here. They aren't anything special or specialized, but might just do the job. Interested?</text>
+</string>
+<string id="nj_tech_want_con_1">
+    <text>Break out the ice, what have you got?</text>
+</string>
+<string id="nj_tech_want_con_2">
+    <text>I have what looks like a tailor kit. Might be useful for fixing up or tailoring some more complicated outfits.</text>
+</string>
+<string id="nj_tech_want_con_22">
+    <text>I have what looks like a maintenance kit. Might be good for maintaining weapons, rather than upgrading them.</text>
+</string>
+<string id="nj_tech_want_con_3">
+    <text>Oh this is perfect, our boys around here tend to get exposed to radiation and anomalies a lot, so I can finally tailor their suits for this part of The Zone.</text>
+</string>
+<string id="nj_tech_want_con_33">
+    <text>Great, while these aren't any good for upgrading weapons, I can definitely use these for doing some more in-depth cleaning. You're a real one for bringing these, man.</text>
+</string>
+<string id="nj_tech_want_con_4">
+    <text>What about my reward?</text>
+</string>
+<string id="nj_tech_want_con_44">
+    <text>What about my reward?</text>
+</string>
+<string id="nj_tech_want_con_5">
+    <text>Times are tough so I can't really give you a lot, but I hope this will make up for the trouble. You're really saving my ass here.</text>
+</string>
+<string id="nj_tech_want_con_55">
+    <text>Times are tough so I can't really give you a lot, but I hope this will make up for the trouble. You're really saving my ass here.</text>
+</string>
+
+
+<string id="nj_tech_want_skadovsk_0">
+    <text>Hey man, I have some pretty niche tools here, would you perhaps be interested in these?</text>
+</string>
+<string id="nj_tech_want_skadovsk_1">
+    <text>Well what have you got?</text>
+</string>
+<string id="nj_tech_want_skadovsk_2">
+    <text>This here is a tailor kit. I think you could make pretty good use of it for modifying various suits.</text>
+</string>
+<string id="nj_tech_want_skadovsk_22">
+    <text>I have what looks like a maintenance kit. To me it looks like its zone assembled, but there's quite a lot of various tools in this.</text>
+</string>
+<string id="nj_tech_want_skadovsk_3">
+    <text>This is wonderful, there's definitely quite a lot of dudes who come here with their SEVA suits that I can't just fully fix, those damn closed cycle respiratory systems are complex. I should be able to do more now that I have these.</text>
+</string>
+<string id="nj_tech_want_skadovsk_33">
+    <text>Well these are maintenance tools, but they're pretty great, there's screwdrivers of various sizes, multiple pliers with different heads, basically everything. This will be very useful</text>
+</string>
+<string id="nj_tech_want_skadovsk_4">
+    <text>How much can you pay me for these?</text>
+</string>
+<string id="nj_tech_want_skadovsk_44">
+    <text>What can you pay me for these?</text>
+</string>
+<string id="nj_tech_want_skadovsk_5">
+    <text>Here's a bit of money for the tailor kit and to make it fair, I'll also give you this cleaning kit as a bonus.</text>
+</string>
+<string id="nj_tech_want_skadovsk_55">
+    <text>Here's a bit of money for the maintenance kit and to make it fair, I'll also give you this cleaning kit as a bonus.</text>
+</string>
+
+
+<string id="nj_tech_want_tru_0">
+    <text>Hi Trunk, are you guys in need of any tools?</text>
+</string>
+<string id="nj_tech_want_tru_1">
+    <text>Depends on what you have. Show me.</text>
+</string>
+<string id="nj_tech_want_tru_2">
+    <text>Well I have a tailor kit. This might be of use if you want to modify some more complex suits.</text>
+</string>
+<string id="nj_tech_want_tru_22">
+    <text>This seems to be a zone-assembled maintenance kit. Perhaps you'll find it useful if you wanna do some basic maintenance work?</text>
+</string>
+<string id="nj_tech_want_tru_3">
+    <text>Very useful - this'll help me do some more complex work on certain suits. We ran into such problems not too long ago, that's why barely any of us wear SEVA suits... Will buy this.</text>
+</string>
+<string id="nj_tech_want_tru_33">
+    <text>You're right, I can probably make good use of this for maintenance. I see there's a pretty big variety of tools in this. I'll gladly buy it off ya.</text>
+</string>
+<string id="nj_tech_want_tru_4">
+    <text>What can you offer me?</text>
+</string>
+<string id="nj_tech_want_tru_44">
+    <text>How much will you pay me?</text>
+</string>
+<string id="nj_tech_want_tru_5">
+    <text>Take this money. I think it's a fair price. And to sweeten the deal, here's a bit of ammo for your guns.</text>
+</string>
+<string id="nj_tech_want_tru_55">
+    <text>Take this money. I think it's a fair price. And to sweeten the deal, here's a bit of ammo for your guns.</text>
+</string>
+
+
+<string id="nj_tech_want_per_0">
+    <text>Hello Peregrine. Do you need any tools?</text>
+</string>
+<string id="nj_tech_want_per_1">
+    <text>I need them like a human needs air. You've got me all hyped up, spill the beans.</text>
+</string>
+<string id="nj_tech_want_per_2">
+    <text>This here is a tailor kit, could perhaps be of use for repairing the scientists' suits?</text>
+</string>
+<string id="nj_tech_want_per_22">
+    <text>This is a toolkit full of these random tools, probably useful for weapons maintenance.</text>
+</string>
+<string id="nj_tech_want_per_3">
+    <text>This is perfect, up until now I couldn't do any repairs on our scientific suits. I can pay you good money for this.</text>
+</string>
+<string id="nj_tech_want_per_33">
+    <text>Oh this is especially useful, there's really a limit as to what I can do with old soviet tools. I'll gladly buy it.</text>
+</string>
+<string id="nj_tech_want_per_4">
+    <text>How much we talking?</text>
+</string>
+<string id="nj_tech_want_per_44">
+    <text>How much will you offer me?</text>
+</string>
+<string id="nj_tech_want_per_5">
+    <text>Here, take this. I'm really thankful for your help, finally I can keep the bunker's equipment in pristine condition.</text>
+</string>
+<string id="nj_tech_want_per_55">
+    <text>Here, take this. I'm really thankful for your help, finally I can keep the bunker's equipment in pristine condition.</text>
+</string>
+
+
+<string id="nj_tech_want_nov_0">
+    <text>Hey Novikov, are you in need of tools?</text>
+</string>
+<string id="nj_tech_want_nov_1">
+    <text>There's a vast tool deficit here in The Swamps, so I'm all ears. What have ya got?</text>
+</string>
+<string id="nj_tech_want_nov_2">
+    <text>Well this one is full of various threads, needles, yarn and various fabrics. I'm guessing this'd be good for maintaining suits.</text>
+</string>
+<string id="nj_tech_want_nov_22">
+    <text>This one is full of various tools, probably useful for some repairs.</text>
+</string>
+<string id="nj_tech_want_nov_3">
+    <text>Show me... Oh this is great stuff, there was really a limit as to what I could do with duct tape. Hah! No, really, this'll be of great use to me.</text>
+</string>
+<string id="nj_tech_want_nov_33">
+    <text>This'll be useful. Ever since I moved out of Jupiter, I left behind all the tools for gunsmithing I had, I've been trying to rebuild, but I barely have anything to this day. This'll be useful.</text>
+</string>
+<string id="nj_tech_want_nov_4">
+    <text>What can ya pay me?</text>
+</string>
+<string id="nj_tech_want_nov_44">
+    <text>What can you pay me?</text>
+</string>
+<string id="nj_tech_want_nov_5">
+    <text>I can pay you this. I think it's a fair reward.</text>
+</string>
+<string id="nj_tech_want_nov_55">
+    <text>I can pay you this. I think it's a fair reward.</text>
+</string>
+
+
+<string id="nj_tech_give_tru_0">
+    <text>Hey, is the offer still valid? Do you still have ammo I can have?</text>
+</string>
+<string id="nj_tech_give_tru_1">
+    <text>Of course. You helped me, it'd be unfair to leave you bare-handed now.</text>
+</string>
+
+<string id="nj_tech_give_zat_0">
+    <text>Hey, you mentioned you'll give me a cleaning kit for helping ya.</text>
+</string>
+<string id="nj_tech_give_zat_1">
+    <text>I have a universal one left over. Here you go, thanks a lot for the help once more. Also here's a small portion of what I made thanks to the tools you brought me.</text>
+</string>
+
+<string id="nj_tech_give_nov_0">
+    <text>Hello Novikov, you mentioned you'll give me a cut of your profits?</text>
+</string>
+<string id="nj_tech_give_nov_1">
+    <text>Here you go. This is all that's accumulated, I set this aside for you. Thanks a lot for the help again, man.</text>
+</string>
+
+<string id="nj_tech_give_per_0">
+    <text>Hello Professor. Peregrine informed me I will be given medical supplies for the help.</text>
+</string>
+<string id="nj_tech_give_per_1">
+    <text>Indeed. Here you go, your efforts have not gone unnoticed. We are very thankful for your aid! Also here's an extra token of appreciation for the help.</text>
+</string>
+
+<string id="nj_tech_give_con_0">
+    <text>Hey, you mentioned you'll give me a cut of what you make for bringing you those tools.</text>
+</string>
+<string id="nj_tech_give_con_1">
+    <text>That's right. Here's all that's accumulated while you were gone. Thanks once more, dude.</text>
+</string>
+
+<string id="nj_intel_dialogue_bar_0">
+    <text>Hey Barkeep, I have some sensitive information you might be interested in.</text>
+</string>
+<string id="nj_intel_dialogue_bar_1">
+    <text>Eh, I'll pass on anything that might get me on a list. You can bring me PDAs and various laboratory documents, but I suggest you hand this in to Snitch over there. He deals with this stuff.</text>
+</string>
+
+<string id="nj_intel_dialogue_cor_0">
+    <text>Hello. I have some sensitive information here that might be of use to the USS. Would you be interested?</text>
+</string>
+<string id="nj_intel_dialogue_cor_1">
+    <text>Unfortunately, getting this back to the command would be incredibly tough. I suggest you hand this in to Kuznetsov in Agroprom, he has connections that'll make sure such info reaches the right hands.</text>
+</string>
+
+<string id="nj_intel_dialogue_lor_0">
+    <text>Hi Loris. Are you interested in buying some sensitive information?</text>
+</string>
+<string id="nj_intel_dialogue_lor_1">
+    <text>I'll pass, I don't want to get pulled into anything, I'm just here to make money. Try offering it to Sidorovich instead.</text>
+</string>
+
+<string id="nj_intel_dialogue_gar_0">
+    <text>Hey, can I interest you in some sensitive data?</text>
+</string>
+<string id="nj_intel_dialogue_gar_1">
+    <text>Nah man. We diggers aren't interested in whatever controversial you have. Take it to Snitch in the Bar, he has a knack for these things.</text>
+</string>
+
+<string id="nj_intel_dialogue_prof_0">
+    <text>Hello professor. Would you be interested in buying some sensitive information?</text>
+</string>
+<string id="nj_intel_dialogue_prof_1">
+    <text>Forgive me for this, but we are not interested in documentation not backed by science or anything that has to do with illegal activity. We will have to decline.</text>
+</string>
+
+<string id="nj_intel_dialogue_beard_0">
+    <text>Hi Beard, are you perhaps interested in some sensitive data?</text>
+</string>
+<string id="nj_intel_dialogue_beard_1">
+    <text>Tempting, but I'll refuse. I can't really afford to pull myself into things that aren't related to my business. I suggest you take these to the 100 Rads Bar down South, I heard a guy named Snitch buys various information. Or better yet, offer these to Owl.</text>
+</string>
+
+<string id="nj_intel_dialogue_loki_0">
+    <text>Hello Loki! Are you interested in buying some sensitive information?</text>
+</string>
+<string id="nj_intel_dialogue_loki_1">
+    <text>Oh no dude, take these to our base in the Army Warehouses, I'm sure our boys down there will make better use of it.</text>
+</string>
+
+<string id="nj_intel_want_duty">
+	<text>I have some of Duty's documentation here...</text>
+</string>
+<string id="nj_intel_want_freedom">
+	<text>I have some of Freedom's documentation here...</text>
+</string>
+<string id="nj_intel_want_merc">
+	<text>I have some Mercenary documentation here...</text>
+</string>
+<string id="nj_intel_want_isg">
+	<text>I have some documentation of the International Scientific Group here...</text>
+</string>
+<string id="nj_intel_want_maps">
+	<text>I have some maps here. I don't know how useful they'll be to you, but maybe your guides or couriers could make use of these.</text>
+</string>
+<string id="nj_intel_want_flash">
+	<text>For this you'll need a computer, I've got some flash drives here.</text>
+</string>
+<string id="nj_intel_want_notes">
+	<text>I have some paper notes, looks like they're written by stalkers. Maybe there'll be something interesting in them.</text>
+</string>
+
+
+<string id="nj_intel_want_sid_0">
+	<text>Hello, Sid. I have some sensitive info on me. Would you be interested in buying any?</text>
+</string>
+<string id="nj_intel_want_sid_1">
+	<text>Very intriguing. Show me what you have.</text>
+</string>
+
+<string id="nj_intel_want_sid_3">
+	<text>Duty? I definitely have buyers who'd be interested. Duty have been doing a lot of interesting stuff after their latest losses against Freedom so it'll be an interesting read. Thank you for this, here's your reward.</text>
+</string>
+<string id="nj_intel_want_sid_33">
+	<text>Freedom, huh... Freedom have been up to no good these past few months so there's ought to be something interesting here. I'll find a buyer, here's your reward.</text>
+</string>
+<string id="nj_intel_want_sid_333">
+	<text>Mercs!? You got me real excited here - usually such intel doesn't reach anyone's hands, Mercs are very secretive about their work. There'll definitely be someone interested. Thanks a lot, here's your reward...</text>
+</string>
+<string id="nj_intel_want_sid_3333">
+	<text>United Nations?! So those guys are still operating here, after all... I think this kind of documentation would cause a shitstorm in the hands of the government which would result in The Zone being closed down further, so it's good you chose to bring this to me. Here's your reward...</text>
+</string>
+<string id="nj_intel_want_sid_33333">
+	<text>Maps, you say. Well unless these have something interesting marked in them, they won't be of much use. Maybe my couriers will make use of these. I can only pay you this.</text>
+</string>
+<string id="nj_intel_want_sid_333333">
+	<text>Well damn, flash drives aren't really common here in The Zone so these ought to have something interesting. I'll buy this, here...</text>
+</string>
+<string id="nj_intel_want_sid_3333333">
+	<text>Pfff, I already know everything there is to know in The Zone. I seriously doubt these will have anything interesting, but on the offchance.... Well, I can only pay you this.</text>
+</string>
+
+<string id="nj_intel_want_voronin_0">
+	<text>General Voronin, I’ve come across some valuable information. Would you be interested in it?</text>
+</string>
+<string id="nj_intel_want_voronin_1">
+	<text>Duty always has a need for reliable intel. If it helps us maintain order in the Zone and push back the chaos, I’ll gladly take a look.</text>
+</string>
+
+<string id="nj_intel_want_voronin_3">
+	<text>Documents about Duty? Excellent. Internal information like this can help us refine our strategies and secure our operations. You’ve done an admirable job bringing this here. This isn’t just payment; it’s a token of Duty’s appreciation for your effort.</text>
+</string>
+<string id="nj_intel_want_voronin_33">
+	<text>Freedom intel? This is exactly what we need. Knowing what those anarchists are up to will help us prepare for their next reckless move. Every scrap of knowledge helps us stay one step ahead. You’ve earned your reward.</text>
+</string>
+<string id="nj_intel_want_voronin_333">
+	<text>Mercenaries? Their secrecy is legendary, which makes this intel even more valuable. Understanding their operations can help us neutralize their influence and prevent their services from disrupting the Zone’s fragile balance. Take this payment—it’s well-deserved.</text>
+</string>
+<string id="nj_intel_want_voronin_3333">
+	<text>The United Nations? Those outsiders meddle where they don’t belong, and their interference only makes life harder for everyone in the Zone. If this gives us insight into their activities, it could be a game-changer. You’ve done well; here’s your payment.</text>
+</string>
+<string id="nj_intel_want_voronin_33333">
+	<text>Maps of the Zone? Every detail, no matter how small, can provide a tactical advantage. Whether it’s anomalies, patrol routes, or smuggling paths, this is useful intel. Duty thanks you for your diligence. Here’s your reward.</text>
+</string>
+<string id="nj_intel_want_voronin_333333">
+	<text>Flash drives? These are rare in the Zone, and their contents are often critical. Whether they contain encrypted data or simple logs, they could prove immensely valuable. Duty appreciates your initiative. Take this payment.</text>
+</string>
+<string id="nj_intel_want_voronin_3333333">
+	<text>Notes from stalkers? These firsthand accounts can contain a wealth of information, from hidden anomalies to obscure paths. Duty will put this knowledge to good use. Here’s your reward; you’ve earned it.</text>
+</string>
+
+<string id="nj_intel_want_lukash_0">
+	<text>Lukash, I’ve got some intel you might find useful. Interested?</text>
+</string>
+<string id="nj_intel_want_lukash_1">
+	<text>Always. Freedom thrives on knowledge to stay one step ahead of those who want to crush us. Let’s see what you’ve brought.</text>
+</string>
+
+<string id="nj_intel_want_lukash_3">
+	<text>Documents on Duty? Perfect! These could give us the insight we need to counter their authoritarian moves. They think they can cage the Zone, but with intel like this, we’ll show them how wrong they are. Great work—here’s your reward.</text>
+</string>
+<string id="nj_intel_want_lukash_33">
+	<text>Freedom documents? That’s good thinking, keeping it in the family. These will help us refine our plans and ensure no one compromises our operations. You’ve done Freedom proud. Here’s your payment, friend.</text>
+</string>
+<string id="nj_intel_want_lukash_333">
+	<text>Mercenary intel? Hah, those hired guns think they’re untouchable, but this will give us the edge we need to keep them in check. If they’re working against us, this will make it easier to shut them down. Here’s your reward—you’ve earned it.</text>
+</string>
+<string id="nj_intel_want_lukash_3333">
+	<text>The UN? Those bureaucrats have no idea what they’re dealing with, and they think they can clean up the Zone with paperwork. This intel will help us avoid their meddling and keep Freedom strong. Here’s your reward.</text>
+</string>
+<string id="nj_intel_want_lukash_33333">
+	<text>Maps? Always useful. Whether it’s new anomalies, safe routes, or enemy positions, maps help us navigate this ever-changing place. Thanks for bringing this to us. Take your payment.</text>
+</string>
+<string id="nj_intel_want_lukash_333333">
+	<text>Flash drives? These things are rare and often hold vital data. Whatever’s on here, it’s bound to help Freedom in some way. Great work. Here’s your reward.</text>
+</string>
+<string id="nj_intel_want_lukash_3333333">
+	<text>Notes from stalkers? These personal accounts might just hold insights we can use to understand the Zone better. Good thinking bringing this in. Take your reward—you deserve it.</text>
+</string>
+
+<string id="nj_intel_want_kuznetsov_0">
+	<text>Colonel Kuznetsov, I’ve come across some intel. Interested in taking a look?</text>
+</string>
+<string id="nj_intel_want_kuznetsov_1">
+	<text>If it helps enforce order or clamp down on illegal activities in the Zone, I’m all ears. Let’s see it.</text>
+</string>
+
+<string id="nj_intel_want_kuznetsov_3">
+	<text>Duty intel? Good. Their mission aligns with ours, even if they’re too idealistic to admit it. This could help us coordinate efforts and bring some semblance of control here. You’ve done well. Here’s your reward.</text>
+</string>
+<string id="nj_intel_want_kuznetsov_33">
+	<text>Freedom? Those anarchists are nothing but trouble, spreading chaos and undermining authority. This intel could help us dismantle their smuggling networks or track their movements. Well done bringing this to me. Here’s your payment.</text>
+</string>
+<string id="nj_intel_want_kuznetsov_333">
+	<text>Mercenaries? Intel on them is always valuable, especially considering their habit of playing all sides for profit. This could give us the leverage we need to counter their interference. Good work. Take your payment.</text>
+</string>
+<string id="nj_intel_want_kuznetsov_3333">
+	<text>The UN? Meddling fools who think they’re above the law. This intel could expose their hypocrisy or help us navigate their unwanted presence. Excellent find. Here’s your reward.</text>
+</string>
+<string id="nj_intel_want_kuznetsov_33333">
+	<text>Maps? Perfect. These will help us identify smuggling routes or weak points in Zone security. You’ve done a great job bringing this here. Take your payment.</text>
+</string>
+<string id="nj_intel_want_kuznetsov_333333">
+	<text>Flash drives? These might hold encrypted data that’s critical for military operations. It’s good you handed this over instead of someone less reliable. Here’s your payment.</text>
+</string>
+<string id="nj_intel_want_kuznetsov_3333333">
+	<text>Notes from stalkers? Even those scavengers stumble upon useful information sometimes. This will be analyzed for anything of value. Good work. Here’s your reward.</text>
+</string>
+
+<string id="nj_intel_want_snitch_0">
+	<text>Snitch, I’ve got some interesting intel. Any chance you’re interested in buying it?</text>
+</string>
+<string id="nj_intel_want_snitch_1">
+	<text>Information is always valuable—especially in the right hands. Let’s see what you’ve brought, and I’ll decide if it’s worth my time.</text>
+</string>
+
+<string id="nj_intel_want_snitch_3">
+	<text>Duty’s secrets? Very intriguing. They’re always posturing about protecting the Zone, but we both know there’s more to their operations. This could sell well to the right buyer. Nice work. Here’s your cut.</text>
+</string>
+<string id="nj_intel_want_snitch_33">
+	<text>Freedom, huh? They love to pretend they’re the champions of liberty, but I bet this intel will show their true colors. Someone out there will pay handsomely for this. Here’s your share.</text>
+</string>
+<string id="nj_intel_want_snitch_333">
+	<text>Mercenaries? Now we’re talking. They guard their secrets fiercely, which makes this information all the more valuable. It’ll fetch a high price in the right circles. You’ve done well. Take your payment.</text>
+</string>
+<string id="nj_intel_want_snitch_3333">
+	<text>The UN? Oh, this is rich. They’re playing the heroes, but we know better. Exposing their dirty laundry could stir up some chaos. Good thinking bringing this here. Here’s your reward.</text>
+</string>
+<string id="nj_intel_want_snitch_33333">
+	<text>Maps? Always useful, especially for anyone looking to get ahead in the Zone. Smugglers, stalkers, even military types will be interested. I’ll find a buyer. Here’s your payment.</text>
+</string>
+<string id="nj_intel_want_snitch_333333">
+	<text>Flash drives? These always hold something interesting, even if it’s just encrypted chatter. I’ll make sure this lands in the right hands. Nice work. Here’s your cut.</text>
+</string>
+<string id="nj_intel_want_snitch_3333333">
+	<text>Notes from stalkers? They’re not always the brightest, but their observations can be surprisingly valuable. I’ll see what I can make of this. Here’s your payment.</text>
+</string>
+
+<string id="nj_intel_want_cold_0">
+	<text>Cold, I’ve come across some information that might be valuable to Clear Sky. Interested?</text>
+</string>
+<string id="nj_intel_want_cold_1">
+	<text>We’re always in need of knowledge, especially if it helps us understand the Zone better or navigate its dangers. Let’s see what you’ve brought.</text>
+</string>
+
+<string id="nj_intel_want_cold_3">
+	<text>Duty intel? Interesting. Their rigid approach often clashes with ours, but knowing their movements could help us avoid unnecessary conflict. Good work bringing this to me. Here’s your reward.</text>
+</string>
+<string id="nj_intel_want_cold_33">
+	<text>Freedom documents? This could help us find common ground with them or avoid misunderstandings. Clear Sky appreciates knowledge like this. Take your payment—you’ve earned it.</text>
+</string>
+<string id="nj_intel_want_cold_333">
+	<text>Mercenary intel? That’s rare. Their actions can disrupt our research, so understanding their operations is invaluable. You’ve done us a great service. Here’s your reward.</text>
+</string>
+<string id="nj_intel_want_cold_3333">
+	<text>The UN? Their presence complicates things, but knowing what they’re up to will help us avoid their scrutiny. Good thinking bringing this here. Take your payment.</text>
+</string>
+<string id="nj_intel_want_cold_33333">
+	<text>Maps? These are incredibly valuable for planning safe routes and studying changes in the Zone’s layout. You’ve done well. Here’s your reward.</text>
+</string>
+<string id="nj_intel_want_cold_333333">
+	<text>Flash drives? These often contain data that’s crucial for our research. Clear Sky will put this to good use. Take your payment—you’ve earned it.</text>
+</string>
+<string id="nj_intel_want_cold_3333333">
+	<text>Notes from stalkers? They may seem insignificant, but they often hold insights we can build upon. You’ve done well bringing this here. Here’s your reward.</text>
+</string>
+
+<string id="nj_intel_want_dushman_0">
+	<text>Dushman, I’ve come across some valuable information. Would you be interested?</text>
+</string>
+<string id="nj_intel_want_dushman_1">
+	<text>We mercenaries deal in information as much as we deal in bullets. Show me what you’ve got, and I’ll decide if it’s worth my time.</text>
+</string>
+
+<string id="nj_intel_want_dushman_3">
+	<text>Duty intel? Their rigidity makes them predictable, but every detail helps us stay ahead. This will sell well or give us leverage. Nice work. Here’s your payment.</text>
+</string>
+<string id="nj_intel_want_dushman_33">
+	<text>Freedom intel? Those idealists can be surprisingly dangerous, but this will help us anticipate their next moves. You’ve done well. Here’s your reward.</text>
+</string>
+<string id="nj_intel_want_dushman_333">
+	<text>Our own boys' secrets? You’re walking a fine line, but I respect the initiative. This will at least prevent sensitive info from leaking. Good job. Here’s your payment.</text>
+</string>
+<string id="nj_intel_want_dushman_3333">
+	<text>The UN? Their meddling complicates our contracts, but this intel could help us navigate their interference. You’ve done well. Take your reward.</text>
+</string>
+<string id="nj_intel_want_dushman_33333">
+	<text>Maps? Always useful for planning operations and avoiding surprises. This is good work. Here’s your payment.</text>
+</string>
+<string id="nj_intel_want_dushman_333333">
+	<text>Flash drives? These usually hold high-value data, and I know exactly how to extract it. Excellent work. Here’s your reward.</text>
+</string>
+<string id="nj_intel_want_dushman_3333333">
+	<text>Notes from stalkers? They’re often underestimated, but there’s always something of value. Good thinking bringing this here. Take your payment.</text>
+</string>
+
+<string id="nj_intel_want_sultan_0">
+	<text>Sultan, I’ve got some intel that might be of interest to you. Want to take a look?</text>
+</string>
+<string id="nj_intel_want_sultan_1">
+	<text>If it’s useful for expanding my influence or undercutting my enemies, I’ll be more than happy to take it off your hands. Let’s see what you’ve got.</text>
+</string>
+
+<string id="nj_intel_want_sultan_3">
+	<text>Duty intel? Now this is gold. Those do-gooders think they’re untouchable, but this will help us exploit their weaknesses. You’ve done well, my friend. Take your reward and keep up the good work.</text>
+</string>
+<string id="nj_intel_want_sultan_33">
+	<text>Freedom, eh? Those idealists are no different from the rest, just easier to manipulate. This intel will come in handy for keeping them in check. Here’s your cut.</text>
+</string>
+<string id="nj_intel_want_sultan_333">
+	<text>Mercs? That’s a rare find. They’re dangerous, but knowing their plans gives us the upper hand. This is exactly the kind of information I value. You’ve earned your reward.</text>
+</string>
+<string id="nj_intel_want_sultan_3333">
+	<text>The UN? Ha! Those clowns think they’re cleaning up the Zone, but all they’re doing is creating opportunities for someone like me. This intel will pay off nicely. Here’s your payment.</text>
+</string>
+<string id="nj_intel_want_sultan_33333">
+	<text>Maps? Perfect for finding new smuggling routes or avoiding trouble. This will be a great asset. Good job bringing it here. Take your reward.</text>
+</string>
+<string id="nj_intel_want_sultan_333333">
+	<text>Flash drives? They’re hard to come by, but they often hold the kind of secrets I can profit from. Well done. Here’s your payment.</text>
+</string>
+<string id="nj_intel_want_sultan_3333333">
+	<text>Stalker notes? Even these scraps can contain something worth selling or using. Good thinking bringing this here. Here’s your reward.</text>
+</string>
+
+<string id="nj_intel_want_owl_0">
+	<text>Owl, I’ve got some intel. Interested?</text>
+</string>
+<string id="nj_intel_want_owl_1">
+	<text>If it’s valuable enough to pique my interest, I’ll pay. Let’s see what you have.</text>
+</string>
+
+<string id="nj_intel_want_owl_3">
+	<text>Duty documents? Their obsession with control makes them easy to predict, but this will still fetch a good price. You’ve done well. Here’s your reward.</text>
+</string>
+<string id="nj_intel_want_owl_33">
+	<text>Freedom intel? Always useful for someone who knows how to leverage it. This will sell well to the right buyer. Good work. Here’s your payment.</text>
+</string>
+<string id="nj_intel_want_owl_333">
+	<text>Mercenaries? Their secrets are always in high demand. I’ll make sure this gets to the right buyer. Excellent work. Here’s your payment.</text>
+</string>
+<string id="nj_intel_want_owl_3333">
+	<text>The UN? Their meddling might be a headache, but it’s also a profitable one. This intel will fetch a good price. You’ve done well. Take your reward.</text>
+</string>
+<string id="nj_intel_want_owl_33333">
+	<text>Maps? These are always in demand, especially for those venturing deeper into the Zone. I’ll find a buyer. Here’s your cut.</text>
+</string>
+<string id="nj_intel_want_owl_333333">
+	<text>Flash drives? They’re rare and valuable, often holding secrets worth their weight in gold. Excellent find. Here’s your payment.</text>
+</string>
+<string id="nj_intel_want_owl_3333333">
+	<text>Notes from stalkers? These might seem minor, but there’s always value in raw observations. Good thinking. Take your payment.</text>
+</string>
+
+
+</string_table>

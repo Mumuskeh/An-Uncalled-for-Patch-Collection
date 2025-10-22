@@ -1,0 +1,146 @@
+Rebalances the starting loadouts, with accommodations for several mods, including my Black Market Deal, Toxic Air, Hideout Furniture, and more.
+
+Adjusted prices of all weapons to make more sense (bolt-actions and double barrels now cost less, full-autos now cost more, especially for Loners and Bandits)
+Adjusts prices of Western Goods items
+Modified faction summaries with color-coded TL;DRs
+Guitar and Harmonica 5 point items for all factions
+Adds Hideout Furniture placeable radio as a 5 point item for all factions
+Special Toz 106 variant for Duty
+AK74 for Military
+UNISG inventory expanded
+SIN inventory expanded
+Thompson re-priced and added as an option for Mercs. Removed from Loners.
+Factions now each get unique free starter items. Clear Sky gets certain science manuals, Ecologists get free Lvl 1 detector, geiger counter, radio, and anomaly detector. Military factions start with radio but no artefact detector. Explorer factions start with artefact detector but no radio. UNISG starts with no bolt (to simulate being new to the Zone. You must craft one yourself).
+Mercs have access to a sniper rifle starter weapon (K98 Forester) but it is very expensive. Also Mercs have expensive pistol options, so you will need to specialize hard.
+Stalker-fighter factions like Bandits and Mercs tend towards having optional AP ammo.
+Mutant-hunter factions like Clear Sky and Duty tend towards having optional HP ammo.
+Ecologists have access to protective equipment like SSP hazmat and Lvl 2 detector as options, but poor weapon choice with inflated price.
+Some factions get discounts on some things, others suffer penalties. Mercs, for example, get cheaper full-autos, but cannot buy rifles or shotguns. Ecologists also suffer from 4x priced vodka (because Spirit steals it all). Ukrainian Beer unaffected.
+Renegades now start with a copy of Mein Kampf and an optional 800 point Desert Eagle.
+Pistols options across factions made more unique
+Removed Herobrine
+
+Also added more backpack options, cocaine and Hercules drug to Bandits, to emphasize loot goblin behavior. You start with both a normal backpack and a camping backpack. This is intentional. It is meant to pair with the Collector mod. I am also releasing a modded version of Collector that makes it affect Bandits only, again for emphasis on loot goblin behavior, and also to give the Bandits something unique. 
+Nearly forgot to mention each faction gets a fitting selection of knives. Monolith gets the Monolith knife, Clear Sky and Ecologists get hunting knives, Bandits and Military get AK bayonets, Mercs and UNISG get M9 bayonets and so on
+
+
+
+Update V3:
+
+Reduced Clear Sky Winchester price
+Increased PPSH price for Loners, Bandits, and Clear Sky
+Removed smoke grenade from UNISG loadout (it's broken anyway)
+Added DLTX script from 2D Scope Overhaul to add Mosin scopes option to Sin and Loners (compatible with 2D Scope Overhaul, but this mod must overwrite!)
+Changed Bandits M1911 option from Aries variant to standard (better represents "old surplus" or "extra and low qualiy" status)
+
+
+
+Update V4:
+
+Reduced most prices of food items slightly
+Added both brewed and cold-brew coffee as options to various loadouts (I believe these are from Western Goods)
+Added [Western Goods] Lays chips to Freedom (food option)
+Added [Western Goods] Snickers bar to Mercs (food option)
+Added stewed rat skewers to Renegades and Sin (food option)
+Added purified snork meat to Renegades (food option)
+Added raw snork hand to Sin (food option)
+Added stewed flesh meat to Clear Sky (food option)
+Added Bloodsucker Goulash to Monolith (food option)
+Added Ukrainian Combat Ration food item to Loners and Clear Sky (+100% price)
+Added Russian Combat Ration food item to Duty
+Added MRE to Freedom (+100% price)
+Just remembered Western Goods has its own file to import its items to loadouts which I forgot to add lmao. Added and overwritten now, with edits.
+
+Also added optional patch file for the MP-18 and IZH-18 (mod weapons, downloaded separately) that makes their inventory icons shorter so they'll fit in the starting loadout menu (if a gun is too long, it won't fit in GAMMA's menu UI, making it un-buyable)
+
+
+
+
+
+Update V5: LET THERE BE SIN
+
+Added red glowsticks to Sinners loadout
+Added 4 anomalous ammo types from "Arti's Special Ammo + Ammo Rebalance for GAMMA" mod (AKA "Artiballs") to Sinners loadout
+7.62x25 Acid
+20x70 Lightning
+.45 Behemoth
+23x75 Mini-Naplam
+
+
+
+
+Update V6: Funny Name Here
+Note: it is recommended to pair this with my Black Market Deal for a more balanced arsenal, including a couple of starting loadout options that aren't included here.Not* recommended to do this if you don't even run Black Market, obviously*
+
+Removed m1911 from loners and bandits
+Removed c96 from bandits
+Increased optional bear detector price for clear sky (from 300 to 500 points)
+Increased Winchester price (from 550 to 950)
+Added KS-23 to Sin loadout for Tourist difficulty only
+Increased silencer price for Mercenaries
+Increased APS auto pistol price for Loners
+Removed novice jacket option from Ecologists
+Added the option to buy 2 scientific medkits as Ecologist, at a reduced price
+Added M1911 to Renegades loadout
+
+
+
+
+Update V7: LONELY NOT ALONE, STALKERS IN THE ZONE!
+(I had to re-release because a damn bug was making vodka unpurchaseable for military)
+((I then had to re-release it again because the glowstick item descriptions had a bug as well))
+
+Reduced Ecologists' Sig Sauer price from 275 to 200 (equal to M1911, as it is a 7 round .45 ACP caliber handgun)
+Reduced Military's AK74 priced from 1050 to 1000 so you can buy a ballistic helmet / cheap personal item(s) on survivalist
+Removed Beretta Px4 Storm from Monolith (a 200-point 9x19 handgun is already available: the Walther P99)
+Removed Beretta Px4 Storm, USP, and FiveSeven from Clear Sky (Clear Sky instead receives a special M1911 variant and an OTS Pernach for 350 points)
+Added M1911 to Loners loadout again (I realize now that a gun enthusiast free stalker with an old surplus m1911 could pimp it with tritiums and it does make sense)
+Added FiveSeven to Freedom
+Added standard Beretta 92F to Clear Sky
+Added free junk items (spare pair of boots for Army, photo of loved one for Duty, porno mag and broken radio for Bandits, journal for Freedom)
+Journal and photo of loved one can be bought for 5 points by all factions for use with mods like "Photo of loved one use animation" and "stashes from journals"
+Added companions to loadouts (unique from the original "companions in loadout" mod, this new take is completely overhauled: more custom-tailored, balanced, and full of new lore to read)
+For Military and Monolith: A squad of 3 subordinates and 1 higher-ranking leader is issued to you automatically
+
+
+
+Random 8th update incoming
+
+Added alternate kevlar woven bandit jacket for 125 points
+Added PP2000 to Army for 500 points
+Added .357 mp412 rex revolver to all factions for 350 points
+Added SKS Molot to Freedom for 1050 points
+Added Desert Eagle to Mercs for 800 points
+Added P90 to UNISG and Mercs for 900 points
+Added Mossberg to Army for 500
+Added Toz-194 to Duty for 900
+Added M18 Smoke Grenade to UNISG for 50 points if using GT - URBAN TACTICS mod
+Added P90 to Monolith for 1050 points
+Added AK74 to Monolith for 1050 points
+Added Vityaz to Monolith for 500
+Added Bizon to Monolith for 400
+Reduced Mossberg price for UNISG from 900 to 500
+Reduced some drugs prices
+Reduced Bandit's Fenced armor from 650 points to 300
+Reduced Loner's firearm enthusiast jacket price from 250 to 200
+Reduced Monolith's Vintorez price from 1000 to 800
+Increased Bandit's Heavy Brown Trenchcoat price from 250 to 600
+Increased Loner's tourist jacket price from 450 to 500
+Removed PPSH from Army
+
+
+
+Update v9
+Made some minor adjustments to pricings on .357 weapons primarily (REX is now 800 points for all factions similar to how the Desert Eagle is priced for Mercs and Renegades, and the Clear Sky exclusive Winchester is now 500 points)
+Re-organized a couple of things
+Fixed the double Geiger counter Monolith bug
+Added more booklets and recipes to factions (drug making guides for bandits and freedom, combat/survival guides for army and duty, Arti's Special Ammo recipes for respective factions just for flavor, loners can buy any tier 1 recipe for 20 points, etc).
+Also added army medkits to the army faction... can't believe I didn't do this sooner.
+ 
+Attachment file type: archive
+
+
+
+New optional update for people who use "FATAL ERROR" by "NCENKA"
+(replaces DLTX loadout file from Fatal Error with an empty one, and adjusts the PDAs in the main loadout settings file to use the PDA Version 0.1 / old PDA item that was introduced in Fatal Error for Loners, Bandits, Clear Sky, and Military. Also adds a PDA V1 as a buy option for Loners.)
+Attachment file type: archive

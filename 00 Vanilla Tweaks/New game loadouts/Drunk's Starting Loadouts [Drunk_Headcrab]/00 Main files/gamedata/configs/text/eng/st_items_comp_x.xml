@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_companion_item_x_1">
+		<text>Companion [Novice]</text>
+	</string>
+	<string id="st_companion_item_x_1_descr">
+		<text>You and your childhood friend decided to try to earn extra money in the Zone. Having cashed out your savings, you both hitchhike to the Exclusion Zone and begin your adventure...</text>
+	</string>
+
+	<string id="st_companion_item_x_2">
+		<text>Companion [Experienced]</text>
+	</string>
+	<string id="st_companion_item_x_2_descr">
+		<text>As you were breaching the barrier of the Zone, you ran into a fellow stalker, though one much more adept than you. Possibly too drunk to be making such decisions, he agrees to accompany you.</text>
+	</string>
+
+	<string id="st_companion_item_x_3">
+		<text>Companion [Veteran]</text>
+	</string>
+	<string id="st_companion_item_x_3_descr">
+		<text>You have decided to strike it rich in the Zone after hearing of how your cousin, an experienced stalker, has come back into the world and shared his stories. To ensure you don't become dog food your first day, he brings you back with him after he is done replenishing supplies.</text>
+	</string>
+
+	<string id="st_companion_item_merc_1">
+		<text>Hire [Wardog]</text>
+	</string>
+
+	<string id="st_companion_item_merc_2">
+		<text>Hire [Experienced]</text>
+	</string>
+
+	<string id="st_companion_item_merc_3">
+		<text>Hire [Ace]</text>
+	</string>
+
+	<string id="st_companion_item_bandit_1">
+		<text>Accomplice [Freshie]</text>
+	</string>
+
+	<string id="st_companion_item_bandit_2">
+		<text>Accomplice [Experienced]</text>
+	</string>
+
+	<string id="st_companion_item_bandit_3">
+		<text>Accomplice [Zone-Rat]</text>
+	</string>
+
+	<string id="st_companion_item_bandit_4">
+		<text>Renegade [Exile]</text>
+	</string>
+
+	<string id="st_companion_item_military_1">
+		<text>Squadmate [Private]</text>
+	</string>
+
+	<string id="st_companion_item_military_2">
+		<text>Squadmate [Sergeant]</text>
+	</string>
+
+	<string id="st_companion_item_military_3">
+		<text>Squadmate [Senior Sergeant]</text>
+	</string>
+
+	<string id="st_companion_item_military_4">
+		<text>Squadmate [Captain]</text>
+	</string>
+
+	<string id="st_companion_item_contractor_1">
+		<text>Assistant [Researcher]</text>
+	</string>
+
+	<string id="st_companion_item_contractor_2">
+		<text>Assistant [Stalker]</text>
+	</string>
+
+	<string id="st_companion_item_contractor_3">
+		<text>Assistant [Mercenary]</text>
+	</string>
+
+	<string id="st_companion_item_cult_1">
+		<text>Brother [Initiate]</text>
+	</string>
+
+	<string id="st_companion_item_cult_2">
+		<text>Brother [Inquisitor]</text>
+	</string>
+
+	<string id="st_companion_item_cult_3">
+		<text>Brother [Preacher]</text>
+	</string>
+
+
+	<string id="st_companion_item_bandit_1_descr">
+		<text>You asked Sultan for a companion. You received a drunken idiot instead. "With any luck, you'll both die soon."</text>
+	</string>
+	<string id="st_companion_item_bandit_2_descr">
+		<text>An old contact, armed with a liver of titanium and 21 years of experience fending off crooks in the boonies. Can make negligible threats and vodka disappear.</text>
+	</string>
+	<string id="st_companion_item_bandit_3_descr">
+		<text>A psycho with a screw loose. Has so far spent a more-than-sane amount of time in the Zone with a history of drug abuse, mental instability, and being a (very successful) loose cannon. After some... favors: He could be your loose cannon.</text>
+	</string>
+
+	<string id="st_companion_item_csky_1_descr">
+		<text>En route to the southern barrier of the Zone, you run into a fellow traveler walking the same roads. Fresh-faced, ignorant, determined. Fitted with a distinctly "Clear Sky" pattern jacket, complete with a patch and insignia. He says he is on a mission to find his father, who went radio silent about a year ago. After some polite conversation over a bottle of vodka, you both come to the conclusion that dying alone is overrated.</text>
+	</string>
+	<string id="st_companion_item_csky_2_descr">
+		<text>You were lucky, and had a brother who was deep inside of Clear Sky before the catastrophe that almost erased them off the face of the Earth. He must have talked about you to his subordinates, since they aren't willing to release you into the Zone without a bodyguard...</text>
+	</string>
+
+	<string id="st_companion_item_dolg_1_descr">
+		<text>You bitched for a squadmate, and you got one. Let's just hope the brass didn't screw you with a rookie (they did).</text>
+	</string>
+	<string id="st_companion_item_dolg_2_descr">
+		<text>"The difference between a good Dutyer and a bad Dutyer is how they work with a squad." A common mantra amongst Duty's ranks. It wouldn't be hard to find a Duty soldier who'd be willing to accompany you in your escapades, just so long as you remember the mantra.</text>
+	</string>
+	<string id="st_companion_item_dolg_3_descr">
+		<text>Duty's unrelenting strength personified. A walking tank that enforces justice and obliterates abominations. Perhaps he could be assigned as your squadmate, if you can put money in the right people's hands...</text>
+	</string>
+
+	<string id="st_companion_item_freedom_1_descr">
+		<text>"Bro, if you supply me with weed, I'll gladly supply you with a... uh... myself?" (He was probably joking).</text>
+	</string>
+	<string id="st_companion_item_freedom_2_descr">
+		<text>You managed to somehow win over the favor of an experienced Freedom member, who's been around since they held Rostok [citation needed]. You're skeptical of his sexuality.</text>
+	</string>
+	<string id="st_companion_item_freedom_3_descr">
+		<text>The Freedom lifestyle doesn't breed many warriors, but this man's one of them. Well-respected even amongst his enemies for his upstanding character, yet ferocious combat ability. He's offering to help you.</text>
+	</string>
+
+	<string id="st_companion_item_killer_1_descr">
+		<text>An ex-member of the Special Tasks Patrol Police Unit (STPPU), and a close friend of yours, who has fallen for the same promises as you. Well-trained, fit, and adept with a firearm. We'll just have to see how that'll help him in the Zone.</text>
+	</string>
+	<string id="st_companion_item_killer_2_descr">
+		<text>An experienced mercenary from Georgia has agreed to help you out "as a loan." He's probably going to backstab you, but he's better than nothing, right?</text>
+	</string>
+	<string id="st_companion_item_killer_3_descr">
+		<text>"The definitive mercenary; the best money can buy; has never failed a job." All of this and more for a small fortune and your soul. Is it worth it?</text>
+	</string>
+
+	<string id="st_companion_item_army_1_descr">
+		<text>One of the recruits you trained with in basic. Statistically speaking, only 1 in 4 lower enlisted will return from the Zone alive. Better hope it's you.</text>
+	</string>
+	<string id="st_companion_item_army_2_descr">
+		<text>Your Sergeant: the poor bastard in charge of sweeping up your remains when you die. Apparently dealing with some bad marital issues in the Big Land, but he never wants to talk about it.</text>
+	</string>
+
+	<string id="st_companion_item_ecolog_1_descr">
+		<text>A fellow colleague of the sciences. Not adept in combat, but may aid in the procurement, transport, and notation of anomalous samples.</text>
+	</string>
+	<string id="st_companion_item_ecolog_2_descr">
+		<text>One of the so-called "stalkers." With an official permit and a rifle in hand, he offers his services in exchange of rubles. A fair deal, you think.</text>
+	</string>
+	<string id="st_companion_item_ecolog_3_descr">
+		<text>A sanctioned foreign operator. Has the face of a British man, but the accent of a Ukranian, which is worth more than any words could be about his experience in the Zone. Possibly the best there is when it comes to personnel security.</text>
+	</string>
+
+	<string id="st_companion_item_monolith_1_descr">
+		<text>There can never be too many serving the will of the Monolith. Let this initiate aid you on your righteous quest.</text>
+	</string>
+	<string id="st_companion_item_monolith_2_descr">
+		<text>The will of the Monolith cannot be served alone, nor can it be enforced without utmost care. As such, you have been granted a preacher for your travels into the heathenous southern territories. May his faith be strong, and his weapon true.</text>
+	</string>
+
+	<string id="st_companion_item_renegade_3_descr">
+		<text>You don't know who he is, but he insists on tagging along with you. A red flag, to say the least. Do you trust him?</text>
+	</string>
+
+	<string id="st_companion_item_greh_1_descr">
+		<text>"It is rare to capture Zone-foes alive, but not unheard of. Should you require fresh meat: you can make steadfast use of this new convert. Should it show signs of the unwilling flesh, then, well... you know where to get more elixir."</text>
+	</string>
+	<string id="st_companion_item_greh_2_descr">
+		<text>The willing flesh, born again. The inquisitor speaks not of his past sins, or of worthless egotistical interests. "Focus is to be pointed towards the manifestation of Vyraj. Nothing else." </text>
+	</string>
+	<string id="st_companion_item_greh_3_descr">
+		<text>Conscienceless. Endless. Boundless. A holy soldier embued with the power of the Masters. Fierce in devotion as he is in battle. "I have become what I once feared... Death."</text>
+	</string>
+
+	<string id="st_companion_item_isg_3_descr">
+		<text>The Captain is a man of few words, but when he speaks, you listen. He's got the brains, the guts, the heart of a lion. Like a brick wall, unyielding and unstoppable.</text>
+	</string>
+
+</string_table>

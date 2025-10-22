@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_lootbox_note_smg">
+		<text>Note in a SMG case</text>
+	</string>
+	<string id="st_lootbox_note_smg_descr">
+		<text>Got the goods from my Army contact. Not exactly a next generation army rifle, but it's souped up to the gills; if the boss wanted something bigger as he usually does, I don't care, he should have done the walk all the way the checkpoint. Now it's a matter of waiting for the boys for the operation, but damn if I'm freezing my ass in this hill tonight.\n</text>
+	</string>
+
+</string_table>

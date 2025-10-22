@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<string_table>
+	<string id="st_nj_nokia">
+		<text>Nokia 3310</text>
+	</string>
+	<string id="st_nj_nokia_descr">
+		<text>A very famous burner phone, famously used by elderly people, children and everyone in-between since the early 2000s. Still popular to this day among criminals due to how cheap and widespread it is. The screen, somehow, got damaged and is stuck.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to Snitch at the 100 Rads Bar for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_siemens">
+		<text>Siemens A-35</text>
+	</string>
+	<string id="st_nj_siemens_descr">
+		<text>A very basic burner phone with very few features with it's only upside being the very cheap price. Not a very popular choice when better options like the Nokia 3310 exist. The screen does not turn on.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to Snitch at the 100 Rads Bar for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_samsung">
+		<text>Samsung SGH-X495</text>
+	</string>
+	<string id="st_nj_samsung_descr">
+		<text>The Samsung SGH-X495 is a pretty basic burner flip phone that was popular in the early 2000s and is still in demand nowadays due to the amount of features it has for a basic burner phone. The screen does not turn on.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to Snitch at the 100 Rads Bar for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_motorola">
+		<text>Motorola Razr V3</text>
+	</string>
+	<string id="st_nj_motorola_descr">
+		<text>The Motorola Razr V3 is a very capable flip phone despite being released in 2004. Very popular among drug dealers nowadays. The screen does not turn on.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to Snitch at the 100 Rads Bar for an increased reward.</text>
+	</string>
+
+
+	<string id="st_nj_mp3player">
+		<text>iPod Classic 5th Gen.</text>
+	</string>
+	<string id="st_nj_mp3player_descr">
+		<text>This is an old iPod Classic 5th generation, once a very popular device to play music, before smartphones becmae a thing. Some people prefer these over listening to music via PDAs. It likely has a dead battery as it won't turn on.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] everyday item</text>
+	</string>
+
+	<string id="st_nj_calculator">
+		<text>Scientific calculator</text>
+	</string>
+	<string id="st_nj_calculator_descr">
+		<text>A very common scientific calculator. It is both battery and solar-powered. Works just fine, however, unless you're a scientist or a trader, it won't be very useful.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] everyday item</text>
+	</string>
+	
+	<string id="st_nj_earbuds">
+		<text>Generic earbuds</text>
+	</string>
+	<string id="st_nj_earbuds_descr">
+		<text>Generic chinese earbuds. They do not have a very high sound quality, however, will let you listen to music in peace. However, using another person's earphones is unhygienic.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_red] • %c[ui_gray_2] low quality</text>
+	</string>
+	
+	<string id="st_nj_screwdriver">
+		<text>Screwdriver</text>
+	</string>
+	<string id="st_nj_screwdriver_descr">
+		<text>A generic screwdriver. Can be used for a boost during firearm repairs.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] tool\n
+		%c[d_blue] • %c[ui_gray_2] everyday item</text>
+	</string>
+	
+	<string id="st_nj_hammer">
+		<text>Hammer</text>
+	</string>
+	<string id="st_nj_hammer_descr">
+		<text>A generic hammer. Can be used for a boost during firearm repairs.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] tool\n
+		%c[d_blue] • %c[ui_gray_2] everyday item</text>
+	</string>
+	
+	<string id="st_nj_sandpaper">
+		<text>Roll of sandpaper</text>
+	</string>
+	<string id="st_nj_sandpaper_descr">
+		<text>A roll of sandpaper. Sandpaper is very useful in The Zone as files are not always available. Can be used for a boost during repairs.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] tool\n
+		%c[d_blue] • %c[ui_gray_2] everyday item</text>
+	</string>
+	
+	<string id="st_nj_pliers">
+		<text>Pliers</text>
+	</string>
+	<string id="st_nj_pliers_descr">
+		<text>A pair of generic pliers. Can be used for a boost during firearm repairs.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] tool\n
+		%c[d_blue] • %c[ui_gray_2] everyday item</text>
+	</string>
+	
+	<string id="st_nj_wd40">
+		<text>WD-40 (half-used)</text>
+	</string>
+	<string id="st_nj_wd40_descr">
+		<text>A half-used bottle of WD-40 lubricant. Can be used with weapons during maintenance for a repair boost.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] tool\n
+		%c[d_blue] • %c[ui_gray_2] everyday item</text>
+	</string>
+	
+	<string id="st_nj_silverring">
+		<text>Silver ring</text>
+	</string>
+	<string id="st_nj_silverring_descr">
+		<text>A ring of silver. Possibly worn as a sign of marriage or merely just as a decoration. It is fairly valuable.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging\n
+		%c[d_blue] • %c[ui_gray_2] valuable</text>
+	</string>
+	
+	<string id="st_nj_goldring">
+		<text>Golden ring</text>
+	</string>
+	<string id="st_nj_goldring_descr">
+		<text>A ring of gold. Possibly worn as a sign of marriage or merely just as a decoration. It is quite valuable.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging\n
+		%c[d_blue] • %c[ui_gray_2] valuable</text>
+	</string>
+	
+	<string id="st_nj_mre_mc1">
+		<text>MRE Main Course #4</text>
+	</string>
+	<string id="st_nj_mre_mc1_descr">
+		<text>A main course from an MRE. The packaging says it contains plain buckwheat porridge with some kind of sauce.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean source of nutrition\n
+		%c[d_blue] • %c[ui_gray_2] part of a military ration\n
+		%c[d_blue] • %c[ui_gray_2] high quality</text>
+	</string>
+	
+	<string id="st_nj_mre_mc2">
+		<text>MRE Main Course #6</text>
+	</string>
+	<string id="st_nj_mre_mc2_descr">
+		<text>A main course from an MRE. The packaging says it contains rice with chicken, all covered in a chili sauce.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean source of nutrition\n
+		%c[d_blue] • %c[ui_gray_2] part of a military ration\n
+		%c[d_blue] • %c[ui_gray_2] high quality</text>
+	</string>
+	
+	<string id="st_nj_mre_mc3">
+		<text>MRE Main Course #2</text>
+	</string>
+	<string id="st_nj_mre_mc3_descr">
+		<text>A main course from an MRE. The packaging says it contains beef with potato bits and chickpeas in a sweet chili sauce.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean source of nutrition\n
+		%c[d_blue] • %c[ui_gray_2] part of a military ration\n
+		%c[d_blue] • %c[ui_gray_2] high quality</text>
+	</string>
+	
+	<string id="st_nj_mre_snack1">
+		<text>MRE biscuits</text>
+	</string>
+	<string id="st_nj_mre_snack1_descr">
+		<text>A pack of biscuits from an MRE. These biscuits are very hard to chew and could be used as tank armor. Nonetheless, they are quite good.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean source of nutrition\n
+		%c[d_blue] • %c[ui_gray_2] part of a military ration\n
+		%c[d_blue] • %c[ui_gray_2] high quality</text>
+	</string>
+	
+	<string id="st_nj_mre_snack2">
+		<text>MRE Spicy Steak bar</text>
+	</string>
+	<string id="st_nj_mre_snack2_descr">
+		<text>A spicy beef bar from an MRE. It is not clear how these are made, however, they taste pretty good, despite being cold, compressed, spicy meat.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean source of nutrition\n
+		%c[d_blue] • %c[ui_gray_2] part of a military ration\n
+		%c[d_blue] • %c[ui_gray_2] high quality</text>
+	</string>
+	
+	<string id="st_nj_sunglasses">
+		<text>Broken sunglasses</text>
+	</string>
+	<string id="st_nj_sunglasses_descr">
+		<text>A pair of broken sunglasses. Not usable anymore due to the cracked lens and them being broken in general, so these are just dead weight.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_glasses">
+		<text>Broken reading glasses</text>
+	</string>
+	<string id="st_nj_glasses_descr">
+		<text>A pair of reading glasses. The frame is intact, however, there are no lens. Just dead weight.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_wallet">
+		<text>Leather wallet</text>
+	</string>
+	<string id="st_nj_wallet_descr">
+		<text>An old leather wallet, full of some kind of discount cards. Unfortunately, there is no money in this, so it's not very useful.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging\n
+		%c[d_blue] • %c[ui_gray_2] slightly valuable</text>
+	</string>
+	
+	<string id="st_nj_keys">
+		<text>Keys</text>
+	</string>
+	<string id="st_nj_keys_descr">
+		<text>This is a keychain full of random keys that have no clear purpose. As a result, these are not very useful.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_belt">
+		<text>Leather belt</text>
+	</string>
+	<string id="st_nj_belt_descr">
+		<text>This is a leather belt. It is still in fairly good condition and can be used for outfit repair or to secure pants that are slightly too big.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_socks">
+		<text>Black socks</text>
+	</string>
+	<string id="st_nj_socks_descr">
+		<text>This is a pair of clean socks. These are fairly warm and work perfectly in the climate of The Zone.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_gloves">
+		<text>Wool gloves</text>
+	</string>
+	<string id="st_nj_gloves_descr">
+		<text>This is a pair of wool gloves. Perfect for a cold season in The Zone.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_pencil1">
+		<text>Pencil</text>
+	</string>
+	<string id="st_nj_pencil1_descr">
+		<text>This is a black pencil with a rubber eraser on the opposite end. Still in good condition.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_pencil2">
+		<text>Red pencil</text>
+	</string>
+	<string id="st_nj_pencil2_descr">
+		<text>This is a red pencil, perfect for marking spots on a paper map. It's seen better days.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_penbic">
+		<text>BIC pen</text>
+	</string>
+	<string id="st_nj_penbic_descr">
+		<text>One of the most famous pens in the world, manufactured by BIC. It still has some ink left in it.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_penink">
+		<text>Ink pen</text>
+	</string>
+	<string id="st_nj_penink_descr">
+		<text>This is a high quality pen that requires an ink capsule to work. A sign of elegance in The Zone. More valuable than other pens.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_newspaper1">
+		<text>Newspaper</text>
+	</string>
+	<string id="st_nj_newspaper1_descr">
+		<text>A folded Ukrainian newspaper. These are very valuable in The Zone as they can be used as entertainment, firestarters or toilet paper.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_newspaper2">
+		<text>Newspaper</text>
+	</string>
+	<string id="st_nj_newspaper2_descr">
+		<text>A folded Belorussian newspaper. These are very valuable in The Zone as they can be used as entertainment, firestarters or toilet paper.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_book1">
+		<text>A book</text>
+	</string>
+	<string id="st_nj_book1_descr">
+		<text>A soviet-era novel. Was probably found here in The Zone. Great entertainment value for those who enjoy books.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging</text>
+	</string>
+
+	<string id="st_nj_book2">
+		<text>A book</text>
+	</string>
+	<string id="st_nj_book2_descr">
+		<text>A soviet-era novel. Was probably found here in The Zone. Great entertainment value for those who enjoy books.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_note1">
+		<text>Paper note</text>
+	</string>
+	<string id="st_nj_note1_descr">
+		<text>This is a piece of paper with some Zone observations, probably noted down by a local stalker.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	<string id="st_nj_note2">
+		<text>Paper note</text>
+	</string>
+	<string id="st_nj_note2_descr">
+		<text>This is a piece of paper with some mentions of local events, probably noted down by a local stalker.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	
+	<string id="st_nj_sling">
+		<text>AKM sling</text>
+	</string>
+	<string id="st_nj_sling_descr">
+		<text>This is a sling, taken off an AK-series rifle. Made of a very strong fabric that could be used for repairing outfits. Still perfectly usable.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item</text>
+	</string>
+	
+	<string id="st_nj_cleankit">
+		<text>AK cleaning kit</text>
+	</string>
+	<string id="st_nj_cleankit_descr">
+		<text>This is a cleaning kit that's stored in the stocks of AK series of rifles. Contains various tiny brushes and tools for disassembling the rifle in the field. Still in decent condition.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item</text>
+	</string>
+	
+	<string id="st_nj_maskpouch">
+		<text>GP-5 gas mask pouch</text>
+	</string>
+	<string id="st_nj_maskpouch_descr">
+		<text>This is a pouch for a soviet gas mask. It is missing the gas mask, filter, cleaning kit, basically it is just an empty sack. It's made of a pretty durable material, perfect for repairing outfits or for attaching one to an artifact belt to carry more items.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item\n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable</text>
+	</string>
+	
+	<string id="st_nj_flare">
+		<text>ROP-30 flare</text>
+	</string>
+	<string id="st_nj_flare_descr">
+		<text>This is a used soviet-era flare. It is completely burnt and can't be reused. Worthless, dead weight.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item</text>
+	</string>
+	
+	<string id="st_nj_anomac_scanner">
+		<text>Anomalous activity analysis station</text>
+	</string>
+	<string id="st_nj_anomac_scanner_descr">
+		<text>This is a measurement device, widely used by ecologists in The Zone. It is rather heavy, but is staple for scientific analysis of anomalies - it can draw heatmaps of anomalous activity in anomaly fields, capture anomaly density and take various other measurements. Unfortunately, this is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_oscillograph">
+		<text>SI-65A Oscillograph</text>
+	</string>
+	<string id="st_nj_oscillograph_descr">
+		<text>The SI-65A Oscillograph is an oscilloscope used in mobile science labs around The Zone. It is used for conducting various measurements and tests, specifically with electronic devices and certain anomalous phenomena. It operates by detecting electrical and gravitational oscillations caused by anomalous activity. Unfortunately, this is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_scanner1">
+		<text>Stationary anomaly analyzer</text>
+	</string>
+	<string id="st_nj_scanner1_descr">
+		<text>This is a stationary anomaly analyser used by various mobile science labs around The Zone. It is lighter than the anomalous activity analysis station, meaning it can be set up by a single individual and easily relocated, if needed.  Unfortunately, this is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_scanner2">
+		<text>Mutant activity analyzer</text>
+	</string>
+	<string id="st_nj_scanner2_descr">
+		<text>This is a stationary mutant activity analyser used by various mobile science labs around The Zone. It is usually set up in areas with high mutant activity or in nests, thanks to it's wide range of features with the included motion sensor.  Unfortunately, this is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_geigercounter">
+		<text>Scientific geiger counter</text>
+	</string>
+	<string id="st_nj_geigercounter_descr">
+		<text>A scientific geiger counter, used for analyzing radioactive fields, rather than personal use. Because of this, it is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_pda">
+		<text>Scientist's PDA</text>
+	</string>
+	<string id="st_nj_pda_descr">
+		<text>This is a PDA, previously owned by a field researcher of a local mobile science lab. It requires a password to access and because of this, it is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_acanalyser">
+		<text>Acoustics analyser</text>
+	</string>
+	<string id="st_nj_acanalyser_descr">
+		<text>This device is an acoustics analyser, used to capture sound cues given off by anomalies for analysis of their features. Sound is an important factor in anomalous studies, but such device is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_akmparts">
+		<text>AKM spare parts</text>
+	</string>
+	<string id="st_nj_akmparts_descr">
+		<text>Spare parts for what looks to be an AKM assault rifle. The wooden parts are not in a very good condition, and the same can be said of metal elements. Only novices would be interested in buying them. However, it seems that they may be useful for equipment repairs. Certain Zoners replace some parts when finding a new weapon out in the open in order to avoid being hunted for stealing from someone's stash.\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item</text>
+	</string>
+
+	<string id="st_nj_bayonet">
+		<text>Broken bayonet</text>
+	</string>
+	<string id="st_nj_bayonet_descr">
+		<text>Broken military bayonet. It is impossible to fix it without completely replacing the blade, however, it might be useful while repairing another knife or axe.\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item</text>
+	</string>
+		
+	<string id="st_nj_toiletpaper">
+		<text>Toilet paper</text>
+	</string>
+	<string id="st_nj_toiletpaper_descr">
+		<text>A roll of toilet paper. Considered a sign of huge luxury in The Zone, as toilet paper is pretty difficult to obtain. Naturally, this makes it fairly valuable.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging\n
+		%c[d_cyan] • %c[ui_gray_2] semi-valuable in The Zone</text>
+	</string>
+	
+	<string id="st_nj_bugspray">
+		<text>Bug spray</text>
+	</string>
+	<string id="st_nj_bugspray_descr">
+		<text>This is a half-empty bottle of bug spray. Useful against mosquitos during summer evenings.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_brokenpda">
+		<text>Broken PDA</text>
+	</string>
+	<string id="st_nj_brokenpda_descr">
+		<text>This is a PDA with a severely cracked screen and ruined frame. Restoration would be difficult and it's unclear whether it's possible to access the memory chip, meaning it's best disassembled for spare electrical parts.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_red] • %c[ui_gray_2] broken beyond repair</text>
+	</string>
+	
+	<string id="st_nj_coppipes">
+		<text>Copper pipes</text>
+	</string>
+	<string id="st_nj_coppipes_descr">
+		<text>A few small copper pipes, likely looted by a stalker in a factory or similar building. Copper is a very valuable material, so traders would gladly buy these pipes.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] construction material</text>
+	</string>
+	
+	<string id="st_nj_transformer">
+		<text>Microwave transformer</text>
+	</string>
+	<string id="st_nj_transformer_descr">
+		<text>Old microwave transformer taken out of an old Soviet microwave oven. A transformer is generally a passive electrical device that transfers energy from one electrical circuit to another one via a magnetic field, without a conductive connection between the two thick copper wires. This one was generally used for cooking or warming up food within minutes or seconds. Traders would gladly pay good money for this due to the parts potential.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain handlers for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_alternator">
+		<text>"Lada" alternator</text>
+	</string>
+	<string id="st_nj_alternator_descr">
+		<text>A rugged, Soviet-era alternator, taken from an old Lada. Despite its age, it still provides power for vehicle systems, making it a valuable find for scavengers or those skilled in repairs. Perfect for recycling or quick fixes in the Zone.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] car part\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain handlers for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_sparkplug">
+		<text>Spark plug</text>
+	</string>
+	<string id="st_nj_sparkplug_descr">
+		<text>A spark plug taken from an old Soviet car. Not very valuable, but it is a vital part to a functioning vehicle.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] car part\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain handlers for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_fuelpump">
+		<text>"Moskvich" fuel pump</text>
+	</string>
+	<string id="st_nj_fuelpump_descr">
+		<text>A sturdy fuel pump from a Moskvich, designed to keep the engine running smoothly. While old and worn, it’s still useful for repairs or as a source of spare parts for those in need of reliable components. Traders gladly buy parts like these.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] car part\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain handlers for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_radiator">
+		<text>"Lada" radiator</text>
+	</string>
+	<string id="st_nj_radiator_descr">
+		<text>A weathered yet functional radiator from a Lada, crucial for maintaining engine temperature. While showing signs of age, it’s still a valuable component for anyone in need of repairs or parts in the harsh conditions of the Zone. It is quite heavy, but is also rather valuable.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] car part\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain handlers for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_cards">
+		<text>Deck of poker cards</text>
+	</string>
+	<string id="st_nj_cards_descr">
+		<text>A deck of slick black playing cards. A sign of luxury as normally stalkers in The Zone use any cards they come across to play games like durak, rather than poker.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_scarf">
+		<text>Wool scarf</text>
+	</string>
+	<string id="st_nj_scarf_descr">
+		<text>A warm scarf made of wool and cotton. These are super handy to have on cold winters when temperatures drop below zero and staying warm is a necessity.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_beanie">
+		<text>Beanie</text>
+	</string>
+	<string id="st_nj_beanie_descr">
+		<text>A warm handmade beanie. It's a wonderful choice for cold winters, especially to wear under helmets.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_latex">
+		<text>Latex gloves</text>
+	</string>
+	<string id="st_nj_latex_descr">
+		<text>A pair of sterile latex gloves. These are used by medics in camps who have to expose themselves to blood when performing field surgeries or giving other kinds of medical treatment.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] personal belonging</text>
+	</string>
+	
+	<string id="st_nj_tooth">
+		<text>Bloody tooth</text>
+	</string>
+	<string id="st_nj_tooth_descr">
+		<text>A bloody tooth, taken off another human. These are often gathered as combat trophies in The Zone, especially by bandits. Some people make accessories out of these.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] personal belonging\n
+		%c[d_red] • %c[ui_gray_2] not sterile</text>
+	</string>
+
+
+	<string id="st_nj_anom_detect1">
+		<text>Basic anomaly detector</text>
+	</string>
+	<string id="st_nj_anom_detect1_descr">
+		<text>This is a very basic anomaly detector, developed shortly after the first mobile labs were dropped into The Zone. It is a bit out of date compared to other anomaly detectors, but still does its job. Unfortunately, this device is used for research, thus it is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_anom_detect2">
+		<text>Advanced anomaly detector</text>
+	</string>
+	<string id="st_nj_anom_detect2_descr">
+		<text>A very capable anomaly detector that can measure various characteristics of anomalies. Unfortunately, this device is used for research, thus it is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_anom_detect3">
+		<text>Elite anomaly detector</text>
+	</string>
+	<string id="st_nj_anom_detect3_descr">
+		<text>The best anomaly detector around - this device captures many characteristics of all anomalies known to science. It can also draw anomaly maps within minutes. Unfortunately, this device is used for research, thus it is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_soviet_dosimeter">
+		<text>"Pripyat" dosimeter</text>
+	</string>
+	<string id="st_nj_soviet_dosimeter_descr">
+		<text>This is an old, soviet era dosimeter. After the 1986 disaster, many of these were manufactured and thus, there is a huge stockpile of them. This one in particular was modified to record activity of radioactive ions. Unfortunately, this device is used for research, thus it is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_psy_analyser">
+		<text>Psy-emission analyser</text>
+	</string>
+	<string id="st_nj_psy_analyser_descr">
+		<text>This is a high-end psychic emission analyser. Not only can it measure the intensity of an intermittent psy-field and its' waves, but it can also calculate and measure various units, such as psychic energy per cubic meter (psi/m?). Unfortunately, this device is used for research, thus it is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_psy_sensor">
+		<text>Psy-emission sensor</text>
+	</string>
+	<string id="st_nj_psy_sensor_descr">
+		<text>This is a very basic device, based on the design of an Echo detector, capable of detecting psychic emissions. This is a useful device when paired with an analyser. However, unless the user is well protected against psychic emissions, he will not survive a psy-field long enough to use this. Unfortunately, this device is used for research, thus it is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_osc_sensor">
+		<text>Oscillation sensor</text>
+	</string>
+	<string id="st_nj_osc_sensor_descr">
+		<text>This is a pocket device, used for detecting electrical and gravitational oscillations, useful for determining where an oscillograph should be placed. Unfortunately, this device is used for research, thus it is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_anomaly_sensor">
+		<text>Anomaly sensor</text>
+	</string>
+	<string id="st_nj_anomaly_sensor_descr">
+		<text>This anomaly sensor is rather similar to anomaly detectors, however it is far more sensitive and reacts to anomalies regardless of their type, however, doesn't provide any information as to what the anomaly is. Unfortunately, this device is used for research, thus it is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_acsensor">
+		<text>Acoustics sensor</text>
+	</string>
+	<string id="st_nj_acsensor_descr">
+		<text>The acoustics sensor is used for detecting acoustic abnormalities in areas of high anomlaous activities. It features a simple built-in microphone with a filter. It is a rather simple device, however, it is hard to use. Unfortunately, this device is used for research, thus it is not of much use to any stalker in The Zone, however, Mobile Science Labs would gladly pay for recovery of these devices.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] scientific equipment\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to professors at mobile science labs for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_goldchain">
+		<text>Golden chain</text>
+	</string>
+	<string id="st_nj_goldchain_descr">
+		<text>A chain of gold is a very valuable accessory. The gold may not be of the highest quality, however, it can still fetch a very nice price at the right trader.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] valuable</text>
+	</string>
+	
+	<string id="st_nj_crosschain">
+		<text>Chain with cross</text>
+	</string>
+	<string id="st_nj_crosschain_descr">
+		<text>This is a chain with a cross attached to it. Clearly belonging to a religious individual. It is not as valuable as other accessories, however, it may still fetch a nice price.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] valuable</text>
+	</string>
+	
+	<string id="st_nj_goldtooth">
+		<text>Golden tooth</text>
+	</string>
+	<string id="st_nj_goldtooth_descr">
+		<text>Golden teeth are a very widespread unit for trade among bandits and other vermin in the Zone. Usually bandits rip these out of rookie stalkers with pliers in exchange for their freedom. Being made of gold, these are highly valuable.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] valuable</text>
+	</string>
+
+	<string id="st_nj_power_inverter">
+		<text>Power inverter</text>
+	</string>
+	<string id="st_nj_power_inverter_descr">
+		<text>A robust Soviet-era power inverter, once used to convert and regulate electrical currents in industrial or military equipment. Its heavy, weathered casing hints at years of use before being abandoned in the Zone. While outdated, it remains highly sought after by technicians and stalkers for powering makeshift electronics or repairing old machinery.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain handlers for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_control_panel">
+		<text>Control panel</text>
+	</string>
+	<string id="st_nj_control_panel_descr">
+		<text>An aging diagnostic control panel, likely used for monitoring or calibrating industrial equipment. Covered in faded labels and rust spots, it serves as a relic of Soviet engineering. This panel in particular seems to have originated from a train. These devices are very hard to come by and are pretty expensive.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain handlers for an increased reward.</text>
+	</string>
+	
+	<string id="st_nj_car_battery">
+		<text>Car battery</text>
+	</string>
+	<string id="st_nj_car_battery_descr">
+		<text>This is a fairly good-conditioned car battery. It doesn't have signs of heavy wear, meaning the right buyer would pay good money for this.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain handlers for an increased reward.</text>
+	</string>
+
+	<string id="st_nj_steel_bearing">
+		<text>Steel bearing</text>
+	</string>
+	<string id="st_nj_steel_bearing_descr">
+		<text>An essential component in any apparatus or machine that has movement. These steel bearings are easy to come across, but there is great demand for them for anyone crafty enough around The Zone.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain handlers for an increased reward.</text>
+	</string>
+
+	<string id="st_nj_tailor_kit">
+		<text>Tailor toolkit</text>
+	</string>
+	<string id="st_nj_tailor_kit_descr">
+		<text>This is a toolkit full of needles, threads and various tools, suitable for even the heaviest-duty repairs on various outfits in The Zone. A technician could make use of a toolkit like this to modify more complex suits, such as outfits with closed cycle respiratory systems. However, it is not an absolute necessity and most technicians utilize exclusively dedicated repair kits for working on more complex suits and as a result, this toolkit wouldn't be of interest to every technician.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] valuable\n
+		%c[d_red] • %c[ui_gray_2] requires suitable materials\n
+		%c[d_orange] • %c[ui_gray_2] certain technicians may be interested in this toolkit.</text>
+	</string>
+	
+	<string id="st_nj_maintenance_kit">
+		<text>Maintenance toolkit</text>
+	</string>
+	<string id="st_nj_maintenance_kit_descr">
+		<text>This is a hand-assembled toolkit, filled with tools of various sizes, diameters and applications. Not very useful for complex repairs, but it would come in useful for general maintenace. Not all technicians would be interested in this as it wouldn't allow them to make any more complex repairs or upgrades.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] valuable\n
+		%c[d_red] • %c[ui_gray_2] requires suitable materials\n
+		%c[d_orange] • %c[ui_gray_2] certain technicians may be interested in this toolkit.</text>
+	</string>
+	
+	
+	<string id="st_nj_dutydocuments_1">
+		<text>"Duty" reconnaisance report</text>
+	</string>
+	<string id="st_nj_dutydocuments_1_descr">
+		<text>This is a small stack of papers with detailed reports of enemy presence in the area. It contains some battle plans, observations into the environment and other nuanses. This stack of documents would be of great use to a big number of factions.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] faction intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	<string id="st_nj_dutydocuments_2">
+		<text>"Duty" mutant observations</text>
+	</string>
+	<string id="st_nj_dutydocuments_2_descr">
+		<text>This is a small stack of papers with reports regarding local mutant lairs and movement of mutants. This also features Duty's future plans of clearing certain mutant nests. This stack of documents would be of great use to a big number of factions.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] faction intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	<string id="st_nj_dutydocuments_3">
+		<text>"Duty" communications log</text>
+	</string>
+	<string id="st_nj_dutydocuments_3_descr">
+		<text>This is a small stack of papers with an order for a whole page of gear, various communication logs and agreement forms. It is clear that the stack of these papers was supposed to reach the Military. This stack of documents would be of great use to a big number of factions.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] faction intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+
+	
+	<string id="st_nj_freedomdocuments_1">
+		<text>"Freedom" mutant observations</text>
+	</string>
+	<string id="st_nj_freedomdocuments_1_descr">
+		<text>This is a couple of paper pages with some information about the local fauna noted down. There are clear plans of tracking the activities of the mutants mentioned in the paper for research purposes, making this stack of documents of great use to a big number of faction.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] faction intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	<string id="st_nj_freedomdocuments_2">
+		<text>"Freedom" meeting arrangement report</text>
+	</string>
+	<string id="st_nj_freedomdocuments_2_descr">
+		<text>This is a couple of paper pages with some information about an arranged deal between Freedom and an unnamed stalker group. It is clear Freedom are buying firearms from groups of illegals in The Zone. This stack of documents would be of great use to a big number of factions.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] faction intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	<string id="st_nj_freedomdocuments_3">
+		<text>"Freedom" drug recipes</text>
+	</string>
+	<string id="st_nj_freedomdocuments_3_descr">
+		<text>This is a couple of paper pages with some guides and recipes on how to manufacture certain makeshift medications which can be quite useful in The Zone. This stack of documents would be of great use to a big number of factions.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] faction intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	
+	<string id="st_nj_mercdocuments_1">
+		<text>Mercenary contract guide</text>
+	</string>
+	<string id="st_nj_mercdocuments_1_descr">
+		<text>This is a folder with the order of operations for a Mercenary squad, including exact instructions, goals and targets for the contract. This folder would be of great use to a big number of factions.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] faction intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	<string id="st_nj_mercdocuments_2">
+		<text>Mercenary client information</text>
+	</string>
+	<string id="st_nj_mercdocuments_2_descr">
+		<text>This is a folder with various information about a client that hired the mercenary squad. It features a lot of personal information, contacts and other information, enough to prosecute the person for illegally employing unauthorized individuals in The Zone. This folder would be of great use to a big number of factions.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] faction intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	<string id="st_nj_mercdocuments_3">
+		<text>Mercenary contract report</text>
+	</string>
+	<string id="st_nj_mercdocuments_3_descr">
+		<text>This is a folder with an update of an ongoing contract for an unknown client outside of The Zone. This folder would be of great use to a big number of factions.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] faction intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	<string id="st_nj_isgdocuments_1">
+		<text>UNISG research study documentation</text>
+	</string>
+	<string id="st_nj_isgdocuments_1_descr">
+		<text>This is a folder filled with various documented research conducted by an ISG group operating within The Zone. This document would directly prove breach of international laws by a branch of the UN. This folder would be of great use to a big number of factions.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] faction intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] very valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	<string id="st_nj_isgdocuments_2">
+		<text>UNISG cooperation agreements</text>
+	</string>
+	<string id="st_nj_isgdocuments_2_descr">
+		<text>This is a folder filled with agreement forms between the Mercenaries and the UNISG, proving their cooperation within The Zone. This document would directly prove breach of international laws by a branch of the UN. This folder would be of great use to a big number of factions.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] faction intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] very valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	<string id="st_nj_isgdocuments_3">
+		<text>UNISG order of operations</text>
+	</string>
+	<string id="st_nj_isgdocuments_3_descr">
+		<text>This is a folder with some issued orders to a squad of the UNISG, featuring a paragraph that instructs UNISG troops to open fire on scientists of the Ukrainian government. This document would directly prove breach of international laws by a branch of the UN. This folder would be of great use to a big number of factions.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] faction intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] very valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	
+	<string id="st_nj_maps_1">
+		<text>Map with smuggling routes</text>
+	</string>
+	<string id="st_nj_maps_1_descr">
+		<text>This is a map with a note attached. The map has many locations around The Zone marked, specifically, stashes for various contraband and military checkpoints where it is safe to pass for smugglers. This map would be useful to various factions.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	<string id="st_nj_maps_2">
+		<text>Map with secret passages</text>
+	</string>
+	<string id="st_nj_maps_2_descr">
+		<text>This is a map with some secret passages between certains locations marked. Not all of these routes are used by guides or couriers, therefore this map would be useful to various factions.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	<string id="st_nj_maps_3">
+		<text>Map with stalker settlements</text>
+	</string>
+	<string id="st_nj_maps_3_descr">
+		<text>This is an old map with some stalker settlements in southern parts of The Zone. The map is slightly outdated as some of these settlements are long abandoned or overrun by Bandits, therefore this map wouldn't be very valuable to anyone.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] intelligence\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+
+	
+	<string id="st_nj_maps_4">
+		<text>Map of The Zone.</text>
+	</string>
+	<string id="st_nj_maps_4_descr">
+		<text>This is a well-sketched map of The Zone, drawn long before PDAs became mainstream in The Zone. These maps are not of much use nowadays, therefore this map wouldn't be very valuable to anyone.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] intelligence\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	
+	<string id="st_nj_flashdrive">
+		<text>Flash drive with sensitive data</text>
+	</string>
+	<string id="st_nj_flashdrive_descr">
+		<text>This is a flash drive full of sensitive information. Such flash drives are normally used when a lot of data needs to be transported securely. Normally these flash drives are protected with a password and require a computer to access, therefore only traders and information brokers would get any real use out of them.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] intelligence\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] may be handed in to certain information brokers, faction leaders and traders for a reward.</text>
+	</string>
+	
+	
+	<string id="st_nj_mortarammo">
+		<text>Crate of mortar shells</text>
+	</string>
+	<string id="st_nj_mortarammo_descr">
+		<text>This is a crate full of mortar shells. Clearly this was unopened ever since it was taken off the truck it was transported in. In demand among bigger factions as well as stalkers for the potential to use as IEDs. Very heavy to carry.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item\n
+		%c[d_cyan] • %c[ui_gray_2] valuable</text>
+	</string>
+	
+	<string id="st_nj_landmines">
+		<text>Crate of landmines</text>
+	</string>
+	<string id="st_nj_landmines_descr">
+		<text>This is a crate full of anti-tank landmines with some anti-personnel landmines mixed in. Clearly this was unopened ever since it was taken off the truck it was transported in. In demand among bigger factions as well as stalkers for the potential to use as IEDs. Very heavy to carry.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item\n
+		%c[d_cyan] • %c[ui_gray_2] valuable</text>
+	</string>
+	
+	<string id="st_nj_bigradio">
+		<text>R-311 "Omega" radio</text>
+	</string>
+	<string id="st_nj_bigradio_descr">
+		<text>The R-311 "Omega" is a shortwave radio receiver designed for military use back in the USSR. In The Zone these devices are not very useful in their default state, however, certain technicians who are handy with electronics like to work on these devices as they can be remade into virtually anything. These radios also feature a lot of electronic components which are useful for crafting anything related to electronics. In demand among traders and technicians.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_cyan] • %c[ui_gray_2] valuable</text>
+	</string>
+	
+	<string id="st_nj_weldingtools">
+		<text>Welding tools</text>
+	</string>
+	<string id="st_nj_weldingtools_descr">
+		<text>This is a box of military-issued welding tools. Not very common in The Zone, but they are only good for very specific purposes, such as repairing vehicles. Not in high demand, but will fetch a nice price.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item</text>
+	</string>
+	
+	<string id="st_nj_pkmbelts">
+		<text>PKM belts</text>
+	</string>
+	<string id="st_nj_pkmbelts_descr">
+		<text>This is a belt of a PKM box magazine. Not very useful to anyone in The Zone other than people who use PKM machine guns.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item</text>
+	</string>
+	
+	<string id="st_nj_btrammo">
+		<text>Crate of BTR ammo</text>
+	</string>
+	<string id="st_nj_btrammo_descr">
+		<text>This is a crate full of shells for a 30mm cannon for a BTR-80. Clearly this was unopened ever since it was taken off the truck it was transported in. In demand among bigger factions as well as stalkers for the potential to use as IEDs. Very heavy to carry.\n
+		%c[ui_gray_1]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item\n
+		%c[d_cyan] • %c[ui_gray_2] valuable</text>
+	</string>
+	
+</string_table>
