@@ -3,7 +3,7 @@ Emission Weathers fix for Weather mods, by Mumuskeh
 
 ----------------------------------------------------------
 -Compatibility:
-NOTE: You need the original mod. Disable the gamedata/configs/gameplay folder.
+It can be used standalone or with another weather mod.
 
 ----------------------------------------------------------
 -Explanation:
