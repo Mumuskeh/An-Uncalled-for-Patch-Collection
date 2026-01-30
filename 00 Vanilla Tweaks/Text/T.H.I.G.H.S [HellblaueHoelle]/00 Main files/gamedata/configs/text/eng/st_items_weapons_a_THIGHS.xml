@@ -1183,7 +1183,7 @@
 	<string id="st_wpn_toz34_worn">
 		<text>Worn TOZ-34</text>
 	</string>
-	
+
 	<string id="st_wpn_trg_descr">
 		<text>The TRG-42 is not an accurised version of an existing rifle, but was developed from the very beginning as a sniper rifle by the Finnish company SAKO. Its consistent high accuracy and reliability have made it popular both in long-range competitions and military sniper operations.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
@@ -1358,7 +1358,7 @@
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Barska ES AC10632, C-more Railway Tactical, EOTech scopes</text>
 	</string>
-	
+
 	<string id="st_wpn_apb">
 		<text>APB</text>
 	</string>
@@ -1375,7 +1375,7 @@
 		%c[d_purple] • %c[ui_gray_2] NATO suppressor\n
 		%c[d_purple] • %c[ui_gray_2] ACOG, EOTech scopes</text>
 	</string>
-	
+
 	<string id="st_wpn_mp7">
 		<text>MP7</text>
 	</string>
@@ -1393,7 +1393,7 @@
 		%c[d_purple] • %c[ui_gray_2] NATO suppressor\n
 		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech scopes</text>
 	</string>
-	
+
 	<string id="st_grenade_rgd5_descr">
 		<text>An offensive hand grenade with a small kill zone of about 3 metres. Often used by Stalkers to "smoke out" mutants due to its relatively low cost.\n
 		%c[d_purple] • %c[ui_gray_2] Blast power: %c[ui_gray_1]medium\n
@@ -1402,11 +1402,11 @@
 		%c[d_purple] • %c[ui_gray_2] Av. number of fragments: %c[ui_gray_1]240 (small shrapnels)\n
 		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~4 seconds</text>
 	</string>
-	
+
 	<string id="st_knife_nr40_descr">
 		<text>\n%c[ui_gray_1]NOT IN GAME. A rare Soviet military knife of high historic and symbolic value. Decorated with the iron emblem of a certain World War II parachute division on the wooden handle. Possession of such a blade is usually a mark of honour, especially among factions with a proud military tradition. Usually offered to Stalkers only after exceptional displays of loyal, competent service to a given faction or group of traders.</text>
 	</string>
-	
+
 	<string id="st_axe2_descr">
 		<text>Most commonly employed by firefighters, this heavy axe is often used by Stalkers for felling trees, or, like all great things, repurposed for hacking apart one's enemies, living or dead. Thus, it can serve as a formidable weapon in the hands of a skilled Stalker.\n
 		%c[ui_gray_1]PROPERTIES:\n

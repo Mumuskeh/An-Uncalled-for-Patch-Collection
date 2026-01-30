@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_hoc_antirad">
+		<text>Anti-radiation drugs</text>
+	</string>
+	<string id="st_hoc_antirad_descr">
+		<text>A contemporary solution for rapid radiation removal, conveniently packaged in special injectors that some medics find handy to reuse. Do not dispose of the injector!\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Depletes 5%hp on use\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] medicine\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (syringe)\n
+		</text>
+	</string>
+	<string id="st_hoc_bandage">
+		<text>Bandage</text>
+	</string>
+	<string id="st_hoc_bandage_descr">
+		<text>A dressing to stop bleeding, possibly even sterile. Handy for bandaging wounds, stopping arterial bleeding, and preventing infection.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] first-aid item\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (adhesive plaster)\n
+		</text>
+	</string>
+	
+	<string id="st_hoc_hercules">
+		<text>Hercules</text>
+	</string>
+	<string id="st_hoc_hercules_descr">
+		<text>The second generation of a strength-enhancing drug. It effectively raises the fatigue threshold of muscles, enhancing their ability to endure prolonged exertion.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] medicine\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		</text>
+	</string>
+	
+	<string id="st_hoc_psiblock">
+		<text>Psi-Block</text>
+	</string>
+	<string id="st_hoc_psiblock_descr">
+		<text>A drug intended to partially offset the adverse effects of psi-radiation on humans. One of the few available ways to prevent the inside of your head from getting fried.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] medicine\n
+		%c[d_red] • %c[ui_gray_2] causes extreme dizziness\n
+		</text>
+	</string>
+	
+	<string id="st_hoc_vinca">
+		<text>Vinca</text>
+	</string>
+	<string id="st_hoc_vinca_descr">
+		<text>Enhances blood coagulation, accelerates wounbd healing, and reduces the likelihood of severe bleeding. Rumor has it that bloodsuckers tend to steer clear of those who regularly abuse this drug.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_red] • %c[ui_gray_2] causes dizziness\n</text>
+	</string>
+	
+	<string id="st_hoc_medkit">
+		<text>Medkit</text>
+	</string>
+	<string id="st_hoc_medkit_descr">
+		<text>Even if they're past their expiration date, medkits can handle basic first aid, but expecting anything more than that could be deadly.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores 1.8%hp/s, total 60%\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		</text>
+	</string>
+	
+	<string id="st_hoc_medkit_army">
+		<text>Army medkit</text>
+	</string>
+	<string id="st_hoc_medkit_army_descr">
+		<text>This kit has all the essentials needed to deal with shrapnel, bullet wounds, and other battlefield injuries. Fortunately, thanks to the IPSF presence in the Zone, anyone can get their hands on these kits.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores 3%hp/s, total 100%\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		</text>
+	</string>
+	
+	<string id="st_hoc_medkit_scientific">
+		<text>Scientific medkit</text>
+	</string>
+	<string id="st_hoc_medkit_scientific_descr">
+		<text>The experimental drugs included in these kits can work wonders, but keep in mind that many of them haven’t undergone clinical testing yet. Use them at your own risk.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores 3%hp/s, total 100%\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] valuable\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		</text>
+	</string>
+
+</string_table>

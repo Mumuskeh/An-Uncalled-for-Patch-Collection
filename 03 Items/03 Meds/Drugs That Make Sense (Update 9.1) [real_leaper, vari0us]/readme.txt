@@ -9,8 +9,6 @@ NOTE: Disable the folders gamedata/textures and gamedata/configs/items/items in 
 -Explanation:
 Fixes the icons to work in DX8-9 and groups them up in the same file.
 
-Allows you to sell the new items.
-
 Aloa Vera Bandage's bleed reduction nerfed, and gave it a price as it lacked one. It gave it a stupid strong bleed reduction over even tourniquets, but this way and given its lack of thirst/sleep malus, it should make it a good, very long lasting middle ground betwen vanilla and No_Data's bandages, fit for long treks in non-threatening territory and saving your superior resources.
 
 Added basic animation settings.

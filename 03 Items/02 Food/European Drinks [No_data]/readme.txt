@@ -11,14 +11,15 @@ To fix this, you can open either mod and rename, remove or disable their kvas en
 ----------------------------------------------------------
 -Explanation:
 DLTX conversion.
-Fixed trader file, and allows you to sell the drinks.
+Fixed trader file.
 The icons are gathered into a single file and the items file DLTXd.
 
 Added basic animation settings.
 
 Integrated into vanilla stash and rewards systems.
 
-Grok's Stash Overhaul integration.
+Integration into:
+Grok's Stash Overhaul
 
 ----------------------------------------------------------
 -Patches:

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<string id="st_crisp">
+		<text>"Potato Crisps" Soviet chips</text>
+	</string>
+	<string id="st_crisp_descr">
+		<text>The original Soviet potato chip, cheese flavor.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+				%c[d_blue] • %c[ui_gray_2] imported\n
+		</text>
+	</string>
+<string id="st_mishkaa">
+		<text>"Mishka Kosolapy" chocolate</text>
+	</string>
+	<string id="st_mishkaa_descr">
+		<text>Traditional Russian chocolate consisting of almond praline and dark chocolate. The picture is a bear and three cubs in a forest, the name in english is, "Clumsy Bear"\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		</text>
+	</string>
+<string id="st_mishkab">
+		<text>"Alenka" chocolate</text>
+	</string>
+	<string id="st_mishkab_descr">
+		<text>Traditional Russian milk chocolate named in honor of the country's youth, the packaging has retained the same iconic style ever since its creation in 1966.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+				%c[d_blue] • %c[ui_gray_2] imported\n
+		</text>
+	</string>
+<string id="st_mishkac">
+		<text>"Belochka" chocolate</text>
+	</string>
+	<string id="st_mishkac_descr">
+		<text>Traditional Russian chocolate made of almond praline and crushed nuts with a chocolate coating, the picture is of a squirrel.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+				%c[d_blue] • %c[ui_gray_2] imported\n
+		</text>
+	</string>
+<string id="st_mishkad">
+		<text>"Minchanka" chocolate</text>
+	</string>
+	<string id="st_mishkad_descr">
+		<text>Traditional Russian chocolate made of a creamy filling and waffle with a chocolate coating, The artwork is of a young woman in Minsk.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+				%c[d_blue] • %c[ui_gray_2] imported\n
+		</text>
+	</string>
+	<string id="st_mishkae">
+		<text>"Krasnaya Shapochka" chocolate</text>
+	</string>
+	<string id="st_mishkae_descr">
+		<text>Traditional Russian chocolate with praline, wafers, and a chocolate filling, the artwork is of the Red Riding hood.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+				%c[d_blue] • %c[ui_gray_2] imported\n
+		</text>
+	</string>
+<string id="st_mosca">
+		<text>Moscow Potato "cheese flavor"</text>
+	</string>
+	<string id="st_mosca_descr">
+		<text>A decently sized bag of potato chips, cheese flavored.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+				%c[d_blue] • %c[ui_gray_2] imported\n
+		</text>
+	</string>
+<string id="st_moscb">
+		<text>Moscow Potato "bacon flavor"</text>
+	</string>
+	<string id="st_moscb_descr">
+		<text>A decently sized bag of potato chips, bacon flavor.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+				%c[d_blue] • %c[ui_gray_2] imported\n
+		</text>
+	</string>
+	<string id="st_moscc">
+		<text>Moscow Potato "sour cream and chive flavor"</text>
+	</string>
+	<string id="st_moscc_descr">
+		<text>A decently sized bag of potato chips, sour cream and chive flavored.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+				%c[d_blue] • %c[ui_gray_2] imported\n
+		</text>
+	</string>
+<string id="st_moscd">
+		<text>Moscow potato "crawfish and beer flavor"</text>
+	</string>
+	<string id="st_moscd_descr">
+		<text>A decently sized bag of potato chips, crawfish and beer flavor.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+				%c[d_blue] • %c[ui_gray_2] imported\n
+		</text>
+	</string>
+<string id="st_mosce">
+		<text>Moscow Potato "bbq teriyaki flavor"</text>
+	</string>
+	<string id="st_mosce_descr">
+		<text>A decently sized bag of potato chips, bbq teriyaki flavored.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+				%c[d_blue] • %c[ui_gray_2] imported\n
+		</text>
+	</string>
+<string id="st_moscf">
+		<text>Moscow Potato "pizza flavor"</text>
+	</string>
+	<string id="st_moscf_descr">
+		<text>A decently sized bag of potato chips, pizza flavored.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+				%c[d_blue] • %c[ui_gray_2] imported\n
+		</text>
+	</string>
+<string id="st_moscg">
+		<text>Moscow Potato "burger flavor"</text>
+	</string>
+	<string id="st_moscg_descr">
+		<text>A decently sized bag of potato chips, burger flavor.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+				%c[d_blue] • %c[ui_gray_2] imported\n
+		</text>
+	</string>
+<string id="st_mosch">
+		<text>Moscow Potato "Philidelphia rolls flavor"</text>
+	</string>
+	<string id="st_mosch_descr">
+		<text>A decently sized bag of potato chips, sushi flavor.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+				%c[d_blue] • %c[ui_gray_2] imported\n
+		</text>
+	</string>
+	
+	
+	
+</string_table>

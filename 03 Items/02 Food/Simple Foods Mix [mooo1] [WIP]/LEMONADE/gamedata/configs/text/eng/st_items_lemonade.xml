@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_lemonade">
+		<text>Lemonade</text>
+	</string>
+	<string id="st_lemonade_descr">
+		<text>Lemonade made from Lemo drink mix, refreshing, wakes you up, and even cleans some of the radioactive particles from your mouth! \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		</text>
+	</string>
+
+<string id="st_lemo">
+		<text>Lemo drink mix</text>
+	</string>
+	<string id="st_lemo_descr">
+		<text>Lemon flavored drink mix imported from the West, does not look very good on its own.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] one packet makes 10 Lemonades \n
+		</text>
+	</string>
+
+</string_table>

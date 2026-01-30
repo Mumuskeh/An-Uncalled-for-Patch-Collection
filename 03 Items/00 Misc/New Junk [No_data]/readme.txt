@@ -14,7 +14,8 @@ The Lite options includes the same, and to avoid item bloat for lower spec PCs, 
 
 Added basic animation settings.
 
-Grok's Stash Overhaul integration. The more a item can be sold for to particular NPCs (phones, documents, etc), the rarer it will be.
+Integration into:
+Grok's Stash Overhaul. The more a item can be sold for to particular NPCs (phones, documents, etc), the rarer it will be.
 
 ----------------------------------------------------------
 -Patches:

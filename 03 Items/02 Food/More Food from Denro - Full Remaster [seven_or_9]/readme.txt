@@ -13,7 +13,7 @@ New Food seems a bit better balanced, even if keeping more items from the origin
 ----------------------------------------------------------
 -Explanation:
 Configs file spring cleaned a bit.
-Streamlined trade files. Allows you to sell the items.
+Streamlined trade files.
 Icons moved into a file of their own, sharpened up a little bit, and reorganized.
 
 ----------------------------------------------------------

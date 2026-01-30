@@ -15,7 +15,6 @@ Consolidates icons into one single compacted texture.
 Minor corrections to texts.
 Some trade filenames didn't have a suffix, risking being overwritten.
 Fixed Sin not selling their factional medkit.
-Allows selling the new items.
 Value of rags and bandaids reduced by a third. I personally found too many of them, making good money selling them. You may still get some pennies from the bandaids, but the rags you either use or trash them.
 Fixed a message by Loris. I think. There was a duplicated = sign that doesn't seem to happen in other similar configs scripts file, so I deleted one of the two. Tell me if something breaks.
 

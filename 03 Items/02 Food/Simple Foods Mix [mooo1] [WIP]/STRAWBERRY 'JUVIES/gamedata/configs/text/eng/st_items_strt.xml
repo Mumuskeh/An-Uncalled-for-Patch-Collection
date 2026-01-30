@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_strt">
+		<text>Strawberry 'Juvies</text>
+	</string>
+	<string id="st_strt_descr">
+		<text>A box of mysterious candies with delicious strawberry flavor combined with potent stimulants and steroid-like compounds makes for a stalker special.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] imported(?)\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+	%c[d_blue] • %c[ui_gray_2] unknown origin; great taste\n
+		</text>
+	</string>
+
+</string_table>

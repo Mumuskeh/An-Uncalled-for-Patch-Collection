@@ -8,7 +8,7 @@ NOTE: You need the original mod. Disable the textures/ui and configs/items/trade
 ----------------------------------------------------------
 -Explanation:
 Configs file spring cleaned a bit.
-Streamlined trade files. Allows you to sell the items.
+Streamlined trade files.
 Icons moved into a file of their own, sharpened up a little bit, and reorganized.
 
 ----------------------------------------------------------

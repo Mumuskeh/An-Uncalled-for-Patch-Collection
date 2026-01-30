@@ -8,7 +8,8 @@ Milspec PDA [Catspaw]
 -Explanation:
 Icon file reduced in size.
 
-Included integration with Interactive PDA.
+Integration into:
+Interactive PDA.
 
 ----------------------------------------------------------
 -Patches:

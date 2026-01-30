@@ -3,7 +3,7 @@ Ukrainian Voices (original non DMLXd version)
 
 ----------------------------------------------------------
 -Compatibility:
-These patches are from before I learned to work with DMXL, and may not be too compatible.
+NOTE: These patches are from before I learned to work with DMXL, and may not be too compatible.
 
 ----------------------------------------------------------
 -Explanation:

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<string id="st_teablack">
+		<text>Box of black tea</text>
+	</string>
+	<string id="st_teablack_descr">
+		<text>A small box of bagged tea leaves, grown and prepared by Cleric of the Monolith somewhere deep in the heart of the zone, this is classic black tea.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] healthy \n
+		%c[d_blue] • %c[ui_gray_2] 8 tea bags in a box\n
+		</text>
+	</string>
+<string id="st_teacar">
+		<text>Box of caramel tea</text>
+	</string>
+	<string id="st_teacar_descr">
+		<text>A small box of bagged tea leaves, grown and prepared by Cleric of the Monolith somewhere deep in the heart of the zone, this is a sweet caramel blend.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] healthy \n
+		%c[d_blue] • %c[ui_gray_2] 8 tea bags in a box\n
+		</text>
+	</string>
+<string id="st_teachai">
+		<text>Box of chai tea</text>
+	</string>
+	<string id="st_teachai_descr">
+		<text>A small box of bagged tea leaves, grown and prepared by Cleric of the Monolith somewhere deep in the heart of the zone, a rich chai blend.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] healthy \n
+		%c[d_blue] • %c[ui_gray_2] 8 tea bags in a box\n
+		</text>
+	</string>
+<string id="st_teacin">
+		<text>Box of cinnamon tea</text>
+	</string>
+	<string id="st_teacin_descr">
+		<text>A small box of bagged tea leaves, grown and prepared by Cleric of the Monolith somewhere deep in the heart of the zone, sweet and spicy cinnamon flavor.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] healthy \n
+		%c[d_blue] • %c[ui_gray_2] 8 tea bags in a box\n
+		</text>
+	</string>
+<string id="st_teacoco">
+		<text>Box of coconut tea</text>
+	</string>
+	<string id="st_teacoco_descr">
+		<text>A small box of bagged tea leaves, grown and prepared by Cleric of the Monolith somewhere deep in the heart of the zone, coconut tea.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] healthy \n
+		%c[d_blue] • %c[ui_gray_2] 8 tea bags in a box\n
+		</text>
+	</string>
+<string id="st_teaearl">
+		<text>Box of earl grey tea</text>
+	</string>
+	<string id="st_teaearl_descr">
+		<text>A small box of bagged tea leaves, grown and prepared by Cleric of the Monolith somewhere deep in the heart of the zone, this is a classic earl grey mix.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] healthy \n
+		%c[d_blue] • %c[ui_gray_2] 8 tea bags in a box\n
+		</text>
+	</string>
+<string id="st_teaeng">
+		<text>Box of english teatime</text>
+	</string>
+	<string id="st_teaeng_descr">
+		<text>A small box of bagged tea leaves, grown and prepared by Cleric of the Monolith somewhere deep in the heart of the zone, english teatime.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] healthy \n
+		%c[d_blue] • %c[ui_gray_2] 8 tea bags in a box\n
+		</text>
+	</string>
+	<string id="st_teagreen">
+		<text>Box of green tea</text>
+	</string>
+	<string id="st_teagreen_descr">
+		<text>A small box of bagged tea leaves, grown and prepared by Cleric of the Monolith somewhere deep in the heart of the zone, green tea, simple and classic.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] healthy \n
+		%c[d_blue] • %c[ui_gray_2] 8 tea bags in a box\n
+		</text>
+	</string>
+<string id="st_tealemon">
+		<text>Box of lemon tea</text>
+	</string>
+	<string id="st_tealemon_descr">
+		<text>A small box of bagged tea leaves, grown and prepared by Cleric of the Monolith somewhere deep in the heart of the zone, very aromatic lemon tea bags.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] healthy \n
+		%c[d_blue] • %c[ui_gray_2] 8 tea bags in a box\n
+		</text>
+	</string>
+<string id="st_teamint">
+		<text>Box of mint tea</text>
+	</string>
+	<string id="st_teamint_descr">
+		<text>A small box of bagged tea leaves, grown and prepared by Cleric of the Monolith somewhere deep in the heart of the zone, aromatic mint scent surrounds the box.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] healthy \n
+		%c[d_blue] • %c[ui_gray_2] 8 tea bags in a box\n
+		</text>
+	</string>
+<string id="st_teaoolong">
+		<text>Box of oolong tea</text>
+	</string>
+	<string id="st_teaoolong_descr">
+		<text>A small box of bagged tea leaves, grown and prepared by Cleric of the Monolith somewhere deep in the heart of the zone, oolong tea, known for a complex and layered flavor profile.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] healthy \n
+		%c[d_blue] • %c[ui_gray_2] 8 tea bags in a box\n
+		</text>
+	</string>
+<string id="st_teapeach">
+		<text>Box of peach tea</text>
+	</string>
+	<string id="st_teapeach_descr">
+		<text>A small box of bagged tea leaves, grown and prepared by Cleric of the Monolith somewhere deep in the heart of the zone, delicious and fruity smelling peach tea.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] healthy \n
+		%c[d_blue] • %c[ui_gray_2] 8 tea bags in a box\n
+		</text>
+	</string>
+<string id="st_teapump">
+		<text>Box of pumpkin tea</text>
+	</string>
+	<string id="st_teapump_descr">
+		<text>A small box of bagged tea leaves, grown and prepared by Cleric of the Monolith somewhere deep in the heart of the zone, sweet smelling pumpkin tea with notes of cinnamon.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] healthy \n
+		%c[d_blue] • %c[ui_gray_2] 8 tea bags in a box\n
+		</text>
+	</string>
+	<string id="st_tearasp">
+		<text>Box of raspberry tea</text>
+	</string>
+<string id="st_tearasp_descr">
+		<text>A small box of bagged tea leaves, grown and prepared by Cleric of the Monolith somewhere deep in the heart of the zone, sour and slightly astringent raspberry tea.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] healthy \n
+		%c[d_blue] • %c[ui_gray_2] 8 tea bags in a box\n
+		</text>
+	</string>
+<string id="st_teavan">
+		<text>Box of vanilla tea</text>
+	</string>
+	<string id="st_teavan_descr">
+		<text>A small box of bagged tea leaves, grown and prepared by Cleric of the Monolith somewhere deep in the heart of the zone, vanilla flavored and smells divine.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] healthy \n
+		%c[d_blue] • %c[ui_gray_2] 8 tea bags in a box\n
+		</text>
+	</string>
+<string id="st_brewedteablack">
+		<text>Brewed black tea</text>
+	</string>
+	<string id="st_brewedteablack_descr">
+		<text>Freshly brewed black tea, still steaming.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] caffinated\n
+		</text>
+	</string>
+<string id="st_brewedteacar">
+		<text>Brewed caramel tea</text>
+	</string>
+	<string id="st_brewedteacar_descr">
+		<text>Freshly brewed caramel tea, still steaming.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] caffinated\n
+		</text>
+	</string>
+<string id="st_brewedteachai">
+		<text>Brewed chai tea</text>
+	</string>
+	<string id="st_brewedteachai_descr">
+		<text>Freshly brewed chai tea, still steaming.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] caffinated\n
+		</text>
+	</string>
+<string id="st_brewedteacin">
+		<text>Brewed cinnamon tea</text>
+	</string>
+	<string id="st_brewedteacin_descr">
+		<text>Freshly brewed cinnamon tea, still steaming.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] caffinated\n
+		</text>
+	</string>
+<string id="st_brewedteacoco">
+		<text>Brewed coconut tea</text>
+	</string>
+	<string id="st_brewedteacoco_descr">
+		<text>Freshly brewed coconut tea, still steaming.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] caffinated\n
+		</text>
+	</string>
+<string id="st_brewedteaearl">
+		<text>Brewed earl grey tea</text>
+	</string>
+	<string id="st_brewedteaearl_descr">
+		<text>Freshly brewed earl grey tea, still steaming.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] caffinated\n
+		</text>
+	</string>
+<string id="st_brewedteaeng">
+		<text>Brewed english teatime tea</text>
+	</string>
+	<string id="st_brewedteaeng_descr">
+		<text>Freshly brewed english teatime tea, still steaming.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] caffinated\n
+		</text>
+	</string>
+<string id="st_brewedteagreen">
+		<text>Brewed green tea</text>
+	</string>
+	<string id="st_brewedteagreen_descr">
+		<text>Freshly brewed green tea, still steaming.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] caffinated\n
+		</text>
+	</string>
+<string id="st_brewedtealemon">
+		<text>Brewed lemon tea</text>
+	</string>
+	<string id="st_brewedtealemon_descr">
+		<text>Freshly brewed lemon tea, still steaming.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] caffinated\n
+		</text>
+	</string>
+<string id="st_brewedteamint">
+		<text>Brewed mint tea</text>
+	</string>
+	<string id="st_brewedteamint_descr">
+		<text>Freshly brewed mint tea, still steaming.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] caffinated\n
+		</text>
+	</string>
+<string id="st_brewedteaoolong">
+		<text>Brewed oolong tea</text>
+	</string>
+	<string id="st_brewedteaoolong_descr">
+		<text>Freshly brewed oolong tea, still steaming.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] caffinated\n
+		</text>
+	</string>
+<string id="st_brewedteapeach">
+		<text>Brewed peach tea</text>
+	</string>
+	<string id="st_brewedteapeach_descr">
+		<text>Freshly brewed peach tea, still steaming.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] caffinated\n
+		</text>
+	</string>
+<string id="st_brewedteapump">
+		<text>brewed pumpkin tea</text>
+	</string>
+	<string id="st_brewedteapump_descr">
+		<text>Freshly brewed pumpkin tea, still steaming.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] caffinated\n
+		</text>
+	</string>
+<string id="st_brewedtearasp">
+		<text>Brewed raspberry tea</text>
+	</string>
+	<string id="st_brewedtearasp_descr">
+		<text>Freshly brewed raspberry tea, still steaming.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] caffinated\n
+		</text>
+	</string>
+<string id="st_brewedteavan">
+		<text>Brewed vanilla tea</text>
+	</string>
+	<string id="st_brewedteavan_descr">
+		<text>Freshly brewed vanilla tea, still steaming.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		%c[d_blue] • %c[ui_gray_2] caffinated\n
+		</text>
+	</string>
+	<string id="st_wanter">
+		<text>"Pure Springs" brand canned water</text>
+	</string>
+	<string id="st_wanter_descr">
+		<text>Purified and mineralized water in a tall 16oz can. great for taking sips out of and for brewing tea.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] healthy\n
+		</text>
+	</string>
+	<string id="st_korovkamilk">
+		<text>"Korovka" brand milk flavored biscuits</text>
+	</string>
+	<string id="st_korovkamilk_descr">
+		<text>Classic Russian tea biscuits, milk flavor.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] 3 portions per package, 1080 kcal in total\n
+		</text>
+	</string>
+	<string id="st_korovkabmilk">
+		<text>"Korovka" brand baked milk flavored biscuits</text>
+	</string>
+	<string id="st_korovkabmilk_descr">
+		<text>Classic Russian tea biscuits, baked milk flavor.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] 3 portions per package, 1080 kcal in total\n
+		</text>
+	</string>
+	<string id="st_korovkacmilk">
+		<text>"Korovka" brand caramalized milk flavored biscuits</text>
+	</string>
+	<string id="st_korovkacmilk_descr">
+		<text>Classic Russian tea biscuits, caramalized milk flavor.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] 3 portions per package, 1080 kcal in total\n
+		</text>
+	</string>
+	<string id="st_sconea">
+		<text>Zone scones</text>
+	</string>
+	<string id="st_sconea_descr">
+		<text>A plate of reletively fresh, airy, and buttery scones.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] fresh\n
+		</text>
+	</string>
+	<string id="st_sconeb">
+		<text>Zone scones (raspberry)</text>
+	</string>
+	<string id="st_sconeb_descr">
+		<text>A plate of reletively fresh, airy, and buttery scones, filled with raspberry jam.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] fresh\n
+		</text>
+	</string>
+	<string id="st_sconec">
+		<text>Zone scones (cream and raspberry)</text>
+	</string>
+	<string id="st_sconec_descr">
+		<text>A plate of reletively fresh, airy, and buttery scones, overflowing with clotted cream and jam.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] fresh\n
+		</text>
+	</string>
+	
+	
+	
+</string_table>
