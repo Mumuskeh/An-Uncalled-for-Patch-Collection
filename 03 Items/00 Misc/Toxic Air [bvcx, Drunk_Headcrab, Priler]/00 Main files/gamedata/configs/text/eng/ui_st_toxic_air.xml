@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!-- 
+	MCM
+-->
+<string_table>
+
+
+	<string id="ui_mcm_toxic_air_title">
+		<text>Toxic Air</text>
+	</string>
+	<string id="ui_mcm_menu_toxic_air">
+		<text>Toxic Air</text>
+	</string>
+
+	<string id="ui_mcm_toxic_air_mono_sin_exception">
+		<text>Pripyat/Red forest exception</text>
+	</string>
+	<string id="ui_mcm_toxic_air_mono_sin_exception_desc">
+		<text>Gives ability to breathe without tank/mask in Pripyat and Red forest (works only if player's faction is Monolith/Sin).</text>
+	</string>
+
+	<string id="ui_mcm_toxic_air_enable_hud">
+		<text>Enable HUD</text>
+	</string>
+	<string id="ui_mcm_toxic_air_enable_hud_desc">
+		<text>Display condition of equipped tank/filter.</text>
+	</string>
+
+	<string id="ui_mcm_toxic_air_position_x">
+		<text>HUD Position X</text>
+	</string>
+	<string id="ui_mcm_toxic_air_position_y">
+		<text>HUD Position Y</text>
+	</string>
+
+	<string id="ui_mcm_toxic_air_toxic_damage_mult">
+		<text>Toxic Damage</text>
+	</string>
+	<string id="ui_mcm_toxic_air_toxic_damage_mult_desc">
+		<text>Multiplier of toxic damage that you receive when air protection is not high enough.\n 
+		\n Default: 1.0</text>
+	</string>
+
+	<string id="ui_mcm_toxic_air_flow_rate_mult">
+		<text>Flow Rate</text>
+	</string>
+	<string id="ui_mcm_toxic_air_flow_rate_mult_desc">
+		<text>Multiplier for oxygen tank's air flow rate. \n 
+		\n Default: 1.0</text>
+	</string>
+
+	<string id="ui_mcm_toxic_air_tank_sprint_mult">
+		<text>Sprint Mult (Tanks only)</text>
+	</string>
+	<string id="ui_mcm_toxic_air_tank_sprint_mult_desc">
+		<text>Multiplier for oxygen tank's air flow rate during sprint. \n 
+		\n Default: 2.0</text>
+	</string>
+
+	<string id="ui_mcm_toxic_air_trader_items">
+		<text>Items amount at traders</text>
+	</string>
+	<string id="ui_mcm_toxic_air_trader_items_desc">
+		<text>Multiplier for amount of items (filters/tanks) to appear at trader's inventory. \n 
+		\n Default: 2.0</text>
+	</string>
+
+	<string id="ui_mcm_toxic_air_filter_animation">
+		<text>Animations</text>
+	</string>
+	<string id="ui_mcm_toxic_air_filter_animation_desc">
+		<text>Disable/Enable filter changing animation and tank camera animation (for equipped items only).</text>
+	</string>
+
+	<string id="ui_mcm_toxic_air_sound_toggle">
+		<text>Sound Effects</text>
+	</string>
+	<string id="ui_mcm_toxic_air_sound_toggle_desc">
+		<text>Disable/Enable choking sound effects when in a toxic area without high enough air protection.</text>
+	</string>
+
+	<string id="ui_mcm_toxic_air_metro_toggle">
+		<text>Metro-style Alarm</text>
+	</string>
+	<string id="ui_mcm_toxic_air_metro_toggle_desc">
+		<text>Disable/Enable Metro-style watch alarm sound effects and news popup when filter reaches 15% (short alarm) and when filter reaches 0% (long alarm).</text>
+	</string>
+
+	<string id="ui_mcm_toxic_air_ppe_toggle">
+		<text>Screen Effects</text>
+	</string>
+	<string id="ui_mcm_toxic_air_ppe_toggle_desc">
+		<text>Disable/Enable screen effects when in a toxic area without high enough air protection.</text>
+	</string>
+
+	<string id="ui_mcm_toxic_air_delete_items">
+		<text>DELETE ALL TANKS ON NEXT LOAD</text>
+	</string>
+	<string id="ui_mcm_toxic_air_delete_items_desc">
+		<text>To prevent save file corruption, this option will delete all new items added by this addon on next load. \n 
+		\n So, if you want to delete addon: \n
+		\n 1) Enable this option; \n
+		\n 2) Save, load, save again; \n
+		\n 3) Quit game and disable addon.</text>
+	</string>
+
+
+</string_table>

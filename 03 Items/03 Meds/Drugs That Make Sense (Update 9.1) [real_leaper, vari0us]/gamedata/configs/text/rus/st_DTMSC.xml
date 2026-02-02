@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="st_DTMSC_grind_into_powder">
+    <text>стереть в порошок</text>
+  </string>
+  <string id="st_powder_gold_fish">
+    <text>Микрокристаллический порошок «Золотой рыбки»</text>
+  </string>
+  <string id="st_powder_gold_fish_desc">
+    <text>Для создания этого предмета артефакт «Золотая рыбка» был растёрт в порошок. Может быть использован для создания препаратов с мощными положительными и отрицательными эффектами.</text>
+  </string>
+  <string id="st_powder_mincer_meat">
+    <text>Микрокрисаллический порошок «Ломтя мяса»</text>
+  </string>
+  <string id="st_powder_mincer_meat_desc">
+    <text>Для создания этого предмета артефакт «Ломоть мяса» был растёрт в порошок. Может быть использован для создания препаратов с мощными положительными и отрицательными эффектами.</text>
+  </string>
+  <string id="st_powder_electra_moonlight">
+    <text>Микрокрисаллический порошок «Лунного света»</text>
+  </string>
+  <string id="st_powder_electra_moonlight_desc">
+    <text>Для создания этого предмета артефакт «Лунный свет» был растёрт в порошок. Может быть использован для создания препаратов с мощными положительными и отрицательными эффектами.</text>
+  </string>
+</string_table>

@@ -1,15 +1,15 @@
 ;===============================================================================
 ;============================ NEW MEDKITS ======================================
 ;===============================================================================
-[civmedkit]:booster_multi
-$spawn						= "food and drugs\civmedkit"
+[medkit_civilian]:booster_multi
+$spawn						= "food and drugs\medkit_civilian"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_civ_world.ogf
 kind						= i_medical
-description					= st_civmedkit_descr
+description					= st_medkit_civilian_descr
 cost						= 1200
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_newmedkits
-inv_name					= st_civmedkit
-inv_name_short				= st_civmedkit
+inv_name					= st_medkit_civilian
+inv_name_short				= st_medkit_civilian
 script_binding				= bind_item.bind
 max_uses					= 2
 inv_weight					= 0.5
@@ -27,15 +27,15 @@ use_sound					= interface\inv_medkit
 ;hide_time_wpn				=4
 tier						= 2
 
-[commedkit]:booster_multi
-$spawn						= "food and drugs\commedkit"
+[medkit_combat]:booster_multi
+$spawn						= "food and drugs\medkit_combat"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_combat_world.ogf
 kind						= i_medical
-description					= st_commedkit_descr
+description					= st_medkit_combat_descr
 cost						= 4000
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_newmedkits
-inv_name					= st_commedkit
-inv_name_short				= st_commedkit
+inv_name					= st_medkit_combat
+inv_name_short				= st_medkit_combat
 script_binding				= bind_item.bind
 max_uses					= 2
 inv_weight					= 0.5
@@ -68,15 +68,15 @@ empty_weight				= 0.1
 ;hide_time_wpn				=4
 tier						= 3
 
-[tacmedkit]:booster_multi
-$spawn						= "food and drugs\tacmedkit"
+[medkit_tactical]:booster_multi
+$spawn						= "food and drugs\medkit_tactical"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_tac_world.ogf
 kind						= i_medical
-description					= st_tacmedkit_descr
+description					= st_medkit_tactical_descr
 cost						= 6000
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_newmedkits
-inv_name					= st_tacmedkit
-inv_name_short				= st_tacmedkit
+inv_name					= st_medkit_tactical
+inv_name_short				= st_medkit_tactical
 script_binding				= bind_item.bind
 max_uses					= 2
 inv_weight					= 0.5
@@ -108,15 +108,15 @@ empty_weight				= 0.1
 ;hide_time_wpn				=4
 tier						= 4
 
-[toxmedkit]:booster_multi
-$spawn						= "food and drugs\toxmedkit"
+[medkit_detox]:booster_multi
+$spawn						= "food and drugs\medkit_detox"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_detox_world.ogf
 kind						= i_medical
-description					= st_toxmedkit_descr
+description					= st_medkit_detox_descr
 cost						= 3500
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_newmedkits
-inv_name					= st_toxmedkit
-inv_name_short				= st_toxmedkit
+inv_name					= st_medkit_detox
+inv_name_short				= st_medkit_detox
 script_binding				= bind_item.bind
 max_uses					= 2
 inv_weight					= 0.5
@@ -146,15 +146,15 @@ empty_weight				= 0.1
 ;hide_time_wpn				=4
 tier						= 3
 
-[colbandage]:booster
-$spawn						= "food and drugs\colbandage"
+[bandage_cooling]:booster
+$spawn						= "food and drugs\bandage_cooling"
 visual						= dynamics\devices\dev_bandage\dev_bandage.ogf
 kind						= i_medical
-description					= st_colbandage_descr
+description					= st_bandage_cooling_descr
 cost						= 1500
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_newmedkits
-inv_name					= st_colbandage
-inv_name_short				= st_colbandage
+inv_name					= st_bandage_cooling
+inv_name_short				= st_bandage_cooling
 script_binding				= bind_item.bind
 inv_weight					= 0.04
 inv_grid_width				= 1
@@ -169,15 +169,15 @@ eat_sleepiness				= 0.012
 use_sound					= interface\inv_bandage_3p7
 tier						= 3
 
-[prebandage]:booster
-$spawn						= "food and drugs\prebandage"
+[bandage_presure]:booster
+$spawn						= "food and drugs\bandage_presure"
 visual						= dynamics\devices\dev_bandage\dev_bandage.ogf
 kind						= i_medical
-description					= st_prebandage_descr
+description					= st_bandage_presure_descr
 cost						= 1700
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_newmedkits
-inv_name					= st_prebandage
-inv_name_short				= st_prebandage
+inv_name					= st_bandage_presure
+inv_name_short				= st_bandage_presure
 script_binding				= bind_item.bind
 inv_weight					= 0.05
 inv_grid_width				= 1
@@ -193,15 +193,15 @@ eat_sleepiness				= 0.0193
 use_sound					= interface\inv_bandage_3p7
 tier						= 3
 
-[bandaids]:booster
-$spawn						= "food and drugs\bandaids"
+[bandage_bandaids]:booster
+$spawn						= "food and drugs\bandage_bandaids"
 visual						= dynamics\devices\dev_bandage\dev_bandage.ogf
 kind						= i_medical
-description					= st_bandaids_descr
+description					= st_bandage_bandaids_descr
 cost						= 800
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_newmedkits
-inv_name					= st_bandaids
-inv_name_short				= st_bandaids
+inv_name					= st_bandage_bandaids
+inv_name_short				= st_bandage_bandaids
 script_binding				= bind_item.bind
 inv_weight					= 0.15
 inv_grid_width				= 1
@@ -218,15 +218,15 @@ use_sound					= interface\inv_bandage
 use_condition				= true
 tier						= 2
 
-[rag]:booster
-$spawn						= "food and drugs\rag"
+[bandage_rag]:booster
+$spawn						= "food and drugs\bandage_rag"
 visual						= dynamics\devices\dev_bandage\dev_bandage.ogf
 kind						= i_medical
-description					= st_rag_descr
+description					= st_bandage_rag_descr
 cost						= 225
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_newmedkits
-inv_name					= st_rag
-inv_name_short				= st_rag
+inv_name					= st_bandage_rag
+inv_name_short				= st_bandage_rag
 script_binding				= bind_item.bind
 inv_weight					= 0.05
 inv_grid_width				= 1
@@ -247,15 +247,15 @@ tier						= 1
 ;======================== FACTION MEDKITS ======================================
 ;===============================================================================
 
-[dutymedkit]:booster_multi
-$spawn						= "food and drugs\dutymedkit"
+[medkit_faction_duty]:booster_multi
+$spawn						= "food and drugs\medkit_faction_duty"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_duty_world.ogf
 kind						= i_medical
-description					= st_dutymedkit_descr
+description					= st_medkit_faction_duty_descr
 cost						= 5500
 icons_texture				= ui\ui_icon_nodatameds ;  ui\ui_icon_facmedkits
-inv_name					= st_dutymedkit
-inv_name_short				= st_dutymedkit
+inv_name					= st_medkit_faction_duty
+inv_name_short				= st_medkit_faction_duty
 	
 script_binding				= bind_item.bind
 inv_weight					= 1.2
@@ -282,15 +282,15 @@ remove_after_use			= true
 empty_weight				= 0.1
 tier						= 4
 
-[banditmedkit]:booster_multi
-$spawn						= "food and drugs\banditmedkit"
+[medkit_faction_bandit]:booster_multi
+$spawn						= "food and drugs\medkit_faction_bandit"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_bandit_world.ogf
 kind						= i_medical
-description					= st_banditmedkit_descr
+description					= st_medkit_faction_bandit_descr
 cost						= 900
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_facmedkits
-inv_name					= st_banditmedkit
-inv_name_short				= st_banditmedkit
+inv_name					= st_medkit_faction_bandit
+inv_name_short				= st_medkit_faction_bandit
 
 script_binding				= bind_item.bind
 inv_weight					= 0.4
@@ -315,15 +315,15 @@ remove_after_use			= true
 empty_weight				= 0.1
 tier						= 1
 
-[freedommedkit]:booster_multi
-$spawn						= "food and drugs\freedommedkit"
+[medkit_faction_freedom]:booster_multi
+$spawn						= "food and drugs\medkit_faction_freedom"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_freedom_world.ogf
 kind						= i_medical
-description					= st_freedommedkit_descr
+description					= st_medkit_faction_freedom_descr
 cost						= 3500
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_facmedkits
-inv_name					= st_freedommedkit
-inv_name_short				= st_freedommedkit
+inv_name					= st_medkit_faction_freedom
+inv_name_short				= st_medkit_faction_freedom
 
 script_binding				= bind_item.bind
 inv_weight					= 1
@@ -351,15 +351,15 @@ remove_after_use			= true
 empty_weight				= 0.1
 tier						= 2
 
-[mercmedkit]:booster_multi
-$spawn						= "food and drugs\mercmedkit"
+[medkit_faction_merc]:booster_multi
+$spawn						= "food and drugs\medkit_faction_merc"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_merc_world.ogf
 kind						= i_medical
-description					= st_mercmedkit_descr
+description					= st_medkit_faction_merc_descr
 cost						= 6500
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_facmedkits
-inv_name					= st_mercmedkit
-inv_name_short				= st_mercmedkit
+inv_name					= st_medkit_faction_merc
+inv_name_short				= st_medkit_faction_merc
 
 script_binding				= bind_item.bind
 inv_weight					= 2
@@ -385,15 +385,15 @@ remove_after_use			= true
 empty_weight				= 0.1
 tier						= 4
 
-[monolithmedkit]:booster_multi
-$spawn						= "food and drugs\monolithmedkit"
+[medkit_faction_monolith]:booster_multi
+$spawn						= "food and drugs\medkit_faction_monolith"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_monolith_world.ogf
 kind						= i_medical
-description					= st_monolithmedkit_descr
+description					= st_medkit_faction_monolith_descr
 cost						= 5400
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_facmedkits
-inv_name					= st_monolithmedkit
-inv_name_short				= st_monolithmedkit
+inv_name					= st_medkit_faction_monolith
+inv_name_short				= st_medkit_faction_monolith
 
 script_binding				= bind_item.bind
 inv_weight					= 1
@@ -428,15 +428,15 @@ remove_after_use			= true
 empty_weight				= 0.1
 tier						= 4
 
-[clearskymedkit]:booster_multi
-$spawn						= "food and drugs\clearskymedkit"
+[medkit_faction_clearsky]:booster_multi
+$spawn						= "food and drugs\medkit_faction_clearsky"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_clearsky_world.ogf
 kind						= i_medical
-description					= st_clearskymedkit_descr
+description					= st_medkit_faction_clearsky_descr
 cost						= 3200
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_facmedkits
-inv_name					= st_clearskymedkit
-inv_name_short				= st_clearskymedkit
+inv_name					= st_medkit_faction_clearsky
+inv_name_short				= st_medkit_faction_clearsky
 
 script_binding				= bind_item.bind
 inv_weight					= 0.7
@@ -460,15 +460,15 @@ remove_after_use			= true
 empty_weight				= 0.1
 tier						= 2
 
-[sinmedkit]:booster_multi
-$spawn						= "food and drugs\sinmedkit"
+[medkit_faction_sin]:booster_multi
+$spawn						= "food and drugs\medkit_faction_sin"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_sin_world.ogf
 kind						= i_medical
-description					= st_sinmedkit_descr
+description					= st_medkit_faction_sin_descr
 cost						= 1200
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_facmedkits
-inv_name					= st_sinmedkit
-inv_name_short				= st_sinmedkit
+inv_name					= st_medkit_faction_sin
+inv_name_short				= st_medkit_faction_sin
 
 script_binding				= bind_item.bind
 inv_weight					= 1
@@ -495,15 +495,15 @@ remove_after_use			= true
 empty_weight				= 0.1
 tier						= 2
 
-[renegademedkit]:booster_multi
-$spawn						= "food and drugs\renegademedkit"
+[medkit_faction_renegade]:booster_multi
+$spawn						= "food and drugs\medkit_faction_renegade"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_renegade_world.ogf
 kind						= i_medical
-description					= st_renegademedkit_descr
+description					= st_medkit_faction_renegade_descr
 cost						= 800
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_facmedkits
-inv_name					= st_renegademedkit
-inv_name_short				= st_renegademedkit
+inv_name					= st_medkit_faction_renegade
+inv_name_short				= st_medkit_faction_renegade
 
 script_binding				= bind_item.bind
 inv_weight					= 0.5
@@ -528,15 +528,15 @@ remove_after_use			= true
 empty_weight				= 0.1
 tier						= 1
 
-[isgmedkit]:booster_multi
-$spawn						= "food and drugs\isgmedkit"
+[medkit_faction_isg]:booster_multi
+$spawn						= "food and drugs\medkit_faction_isg"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_isg_world.ogf
 kind						= i_medical
-description					= st_isgmedkit_descr
+description					= st_medkit_faction_isg_descr
 cost						= 10500
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_facmedkits
-inv_name					= st_isgmedkit
-inv_name_short				= st_isgmedkit
+inv_name					= st_medkit_faction_isg
+inv_name_short				= st_medkit_faction_isg
 
 script_binding				= bind_item.bind
 inv_weight					= 2.5
@@ -563,15 +563,15 @@ remove_after_use			= true
 empty_weight				= 0.1
 tier						= 4
 
-[spongebobmedkit]:booster_multi
-$spawn						= "food and drugs\spongebobmedkit"
+[medkit_spongebob]:booster_multi
+$spawn						= "food and drugs\medkit_spongebob"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_spongebob_world.ogf
 kind						= i_medical
-description					= st_spongebobmedkit_descr
+description					= st_medkit_spongebob_descr
 cost						= 1
 icons_texture				= ui\ui_icon_nodatameds ; ui\ui_icon_facmedkits
-inv_name					= st_spongebobmedkit
-inv_name_short				= st_spongebobmedkit
+inv_name					= st_medkit_spongebob
+inv_name_short				= st_medkit_spongebob
 
 script_binding				= bind_item.bind
 inv_weight					= 1
@@ -617,7 +617,7 @@ description					= st_medkit_army_new_descr
 inv_grid_x					= 4 ; 9
 inv_grid_y					= 1 ; 0
 
-![medkit_scientific]
+![medkit_scientic]
 description					= st_medkit_science_new_descr
 
 facmeds_effect_blurriness	= -120
@@ -627,7 +627,7 @@ facmeds_effect_psi_health	= 0.2
 ;=================== FACTION MEDKITS READABLES =================================
 ;===============================================================================
 
-[banditletter1]:porn2
+[letter_bandit_letter_1_of_3]:porn2
 $spawn				= "devices\roubles"
 $prefetch			= 16
 class				= II_ATTCH
@@ -649,35 +649,35 @@ readable			= true
 repair_part_bonus	= 0.02
 tier				= 2
 
-inv_name			= st_banditletter1
-inv_name_short		= st_banditletter1
-description			= st_banditletter1_descr
+inv_name			= st_letter_bandit_letter_1_of_3
+inv_name_short		= st_letter_bandit_letter_1_of_3
+description			= st_letter_bandit_letter_1_of_3_descr
 inv_weight			= 0.05
 cost				= 500
 
-[banditletter2]:banditletter1
+[letter_bandit_letter_2_of_3]:letter_bandit_letter_1_of_3
 inv_grid_x			= 7 ; 1
 inv_grid_y			= 0
-inv_name			= st_banditletter2
-inv_name_short		= st_banditletter2
-description			= st_banditletter2_descr
+inv_name			= st_letter_bandit_letter_2_of_3
+inv_name_short		= st_letter_bandit_letter_2_of_3
+description			= st_letter_bandit_letter_2_of_3_descr
 
-[banditletter3]:banditletter1
+[letter_bandit_letter_3_of_3]:letter_bandit_letter_1_of_3
 inv_grid_x			= 8 ; 2
 inv_grid_y			= 0
-inv_name			= st_banditletter3
-inv_name_short		= st_banditletter3
-description			= st_banditletter3_descr
+inv_name			= st_letter_bandit_letter_3_of_3
+inv_name_short		= st_letter_bandit_letter_3_of_3
+description			= st_letter_bandit_letter_3_of_3_descr
 
-[darkscapemap]:banditletter1
+[letter_bandit_map_darkscape]:letter_bandit_letter_1_of_3
 inv_grid_x			= 6 ; 0
 inv_grid_y			= 1
 inv_grid_width		= 2
 inv_grid_height		= 2
 
-inv_name			= st_darkscapemap
-inv_name_short		= st_darkscapemap
-description			= st_darkscapemap_descr
+inv_name			= st_letter_bandit_map_darkscape
+inv_name_short		= st_letter_bandit_map_darkscape
+description			= st_letter_bandit_map_darkscape_descr
 inv_weight			= 0.15
 
 
@@ -733,7 +733,7 @@ inv_grid_x			= 6 ; 1
 inv_grid_y			= 3
 tier				= 2
 
-[facmeds_chipmap]:banditletter1
+[facmeds_chipmap]:letter_bandit_letter_1_of_3
 ;"A map, seemingly sketched out by a member of Clear Sky. It depicts the derelict train in the northern part of The Great Swamps. Novikov said the microchip should be somewhere on the premises. According to the note I was given, it seems like some scavengers might've left it behind."
 
 cost				= 100

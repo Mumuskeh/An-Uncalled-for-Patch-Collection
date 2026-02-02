@@ -1,0 +1,15 @@
+if zzz_player_injuries then
+  zzz_player_injuries.medkits.medkit_civilian = {head=3,torso=3,rightleg=1,leftleg=1,rightarm=1,leftarm=1}
+  zzz_player_injuries.medkits.medkit_tactical = {head=8,torso=9,rightleg=4,leftleg=4,rightarm=4,leftarm=4}
+  zzz_player_injuries.medkits.medkit_combat = {head=1,torso=5,rightleg=4,leftleg=4,rightarm=4,leftarm=4}
+  zzz_player_injuries.medkits.medkit_detox = {head=3,torso=3,rightleg=2,leftleg=2,rightarm=2,leftarm=2}
+  zzz_player_injuries.medkits.bandage_cooling = {torso=3,rightleg=4,leftleg=4,rightarm=4,leftarm=4}
+  zzz_player_injuries.medkits.bandage_presure = {torso=5,rightleg=4,leftleg=4,rightarm=4,leftarm=4}
+  zzz_player_injuries.medkits.bandage_bandaids = {rightleg=1,leftleg=1,rightarm=1,leftarm=1}  
+  zzz_player_injuries.medkits.bandage_rag = {rightarm=1,leftarm=1}
+
+  zzz_player_injuries.healhelp.medkit_tactical = {torso=2,rightleg=2,leftleg=2,rightarm=2,leftarm=2}
+  zzz_player_injuries.healhelp.medkit_combat = {head=2,torso=2,rightleg=1,leftleg=1,rightarm=2,leftarm=2}
+  zzz_player_injuries.healhelp.medkit_detox = {head=3,torso=3,rightarm=1,leftarm=1}
+
+end

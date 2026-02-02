@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="st_DTMSC_grind_into_powder">
+    <text>grind into powder</text>
+  </string>
+  <string id="st_DTMSC_powder_gold_fish">
+    <text>Microcrystalline Goldfish powder</text>
+  </string>
+  <string id="st_DTMSC_powder_gold_fish_desc">
+    <text>A Goldfish artefact was ground into fine powder to produce this item. Can be used to create drugs with powerful positive and negative effects.</text>
+  </string>
+  <string id="st_DTMSC_powder_mincer_meat">
+    <text>Microcrystalline Meatchunk powder</text>
+  </string>
+  <string id="st_DTMSC_powder_mincer_meat_desc">
+    <text>A Meatchunk artefact was ground into fine powder to produce this item. Can be used to create drugs with powerful positive and negative effects.</text>
+  </string>
+  <string id="st_DTMSC_powder_electra_moonlight">
+    <text>Microcrystalline Moonlight powder</text>
+  </string>
+  <string id="st_DTMSC_powder_electra_moonlight_desc">
+    <text>A Moonlight artefact was ground into fine powder to produce this item. Can be used to create drugs with powerful positive and negative effects.</text>
+  </string>
+</string_table>

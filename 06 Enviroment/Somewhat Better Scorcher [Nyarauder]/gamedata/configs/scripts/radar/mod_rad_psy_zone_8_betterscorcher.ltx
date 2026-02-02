@@ -1,0 +1,24 @@
+![logic]
+active = sr_idle ;sr_psy_antenna@no_helmet
+
+[sr_idle]
+on_actor_inside = {+bar_deactivate_radar_done} sr_idle@nil, {=actor_has_item(good_psy_helmet)} sr_timer@good_helmet, {=actor_has_item(bad_psy_helmet)} sr_timer@bad_helmet, %=kill_actor%
+
+[sr_timer@good_helmet]
+on_actor_outside = sr_idle
+type = dec
+start_value = 30000
+on_value = 5000 | %=play_sound(rad_hat_2)% | 0 | sr_idle@nil %=kill_actor%
+on_info = {+bar_deactivate_radar_done} sr_idle@nil
+string = st_helmet_countdown
+
+[sr_timer@bad_helmet]
+on_actor_outside = sr_idle
+on_actor_outside = sr_idle
+type = dec
+start_value = 15000
+on_value = 5000 | %=play_sound(rad_hat_2)% | 0 | sr_idle@nil %=kill_actor%
+on_info = {+bar_deactivate_radar_done} sr_idle@nil
+string = st_helmet_countdown
+
+[sr_idle@nil]

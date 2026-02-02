@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_bandage_descr">
+		<text>A normal elastic bandage used to stop bleeding and prevent infection of wounds. For regular bleeding, carefully apply the bandage to the wound. For arterial bleeding, urgently tie the bandage around the affected area. Older variations of the bandage would somehow make the user hungry and tired. They don't do that anymore.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] first-aid item\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (adhesive plaster)\n
+		</text>
+	</string>
+
+ 	<string id="st_drug_coagulant_descr">
+ 		<text>Ukrainian Vikasolum - an artificial equivalent of vitamin K. The main purpose of this drug is to increase blood coagulation speed. In great demand among stalkers who want slow-healing wounds and lacerations inflicted by mutants to close up faster. The effects of the drug are long-lasting. Take two tablets at a time.\n \n
+ 		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_red] • %c[ui_gray_2] causes dizziness\n
+		%c[d_purple] • %c[ui_gray_2] 5% thermal resistance bonus\n
+		%c[d_purple] • %c[ui_gray_2] 10% rupture resistance bonus\n
+		%c[d_purple] • %c[ui_gray_2] 8% impact, ballistic, and explosive resistance bonus\n
+		</text>
+ 	</string>
+
+ 	<string id="st_drug_psy_blockade">
+		<text>Gabapentin</text>
+ 	</string>
+ 	<string id="st_drug_psy_blockade_descr">
+		<text>A gaba-ergic drug used in the treatment of pain as well as in the treatment of anxiety in the case of patients with a history of drug abuse. It acts on the same receptors as Xanax and Diazepam without being a benzodiapine and without a possibility of abuse. In the zone, this provides a good painkilling effect as well as a decent resistance to psychic attacks.\n \n
+ 		%c[ui_gray_3]PROPERTIES:\n
+ 		%c[d_blue] • %c[ui_gray_2] medicine\n
+		%c[d_purple] • %c[ui_gray_2] 9% ballistic and impact resistance bonus\n
+		%c[d_red] • %c[ui_gray_2] causes some dizziness\n
+ 		</text>
+ 	</string>
+
+ 	<string id="st_drug_antidot">
+		<text>Ground Moonlight Tablets</text>
+ 	</string>
+ 	<string id="st_drug_antidot_descr">
+		<text>After the successful fireball tablets experiment, zone doctors began producing other artifact tablets. This ground moonlight artifact has significant effects and significant drawbacks.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] depletes 40% health on use\n		
+ 		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] zone produced\n
+		%c[d_blue] • %c[ui_gray_2] processed artifact\n
+		</text>
+ 	</string>
+
+ 	<string id="st_medkit_ai1_descr">
+ 		<text>A medical package containing a variety of equipment for treatment of minor injuries.\n \n
+ 		%c[ui_gray_3]CONTENTS:\n
+ 		%c[d_cyan] • %c[default] bandage (4)\n
+		%c[d_cyan] • %c[default] phytomenadione\n
+ 		%c[d_cyan] • %c[default] improvised stimpack\n
+ 		%c[d_cyan] • %c[default] metamizole ampoule\n
+ 		%c[d_cyan] • %c[default] mineral water\n
+		%c[d_cyan] • %c[default] meat chunk tablets\n
+ 		%c[d_cyan] • %c[default] tourniquet\n
+ 		%c[d_cyan] • %c[default] yadulin\n \n
+ 		%c[ui_gray_3]PROPERTIES:\n
+ 		%c[d_blue] • %c[ui_gray_2] storage for medical equipment\n</text>
+ 	</string>
+
+ 	<string id="st_medkit_ai2_descr">
+ 		<text>A military-grade medical package, containing a large amount of stimulating medical drugs.\n \n
+ 		%c[ui_gray_3]CONTENTS:\n
+ 		%c[d_cyan] • %c[default] ampoule of morphine\n
+ 		%c[d_cyan] • %c[default] anti-radiaton preparation\n
+ 		%c[d_cyan] • %c[default] aquatab tablets\n
+ 		%c[d_cyan] • %c[default] bandage (4)\n
+ 		%c[d_cyan] • %c[default] caffeine tablets\n
+		%c[d_cyan] • %c[default] phytomenadione\n
+ 		%c[d_cyan] • %c[default] harness (2)\n
+ 		%c[d_cyan] • %c[default] military stimulant\n
+ 		%c[d_cyan] • %c[default] mineral water\n
+		%c[d_cyan] • %c[default] diazepam\n
+		%c[d_cyan] • %c[default] ketamine\n \n
+ 		%c[ui_gray_3]PROPERTIES:\n
+ 		%c[d_blue] • %c[ui_gray_2] storage for medical equipment\n</text>
+ 	</string>
+
+ 	<string id="st_medkit_ai3_descr">
+ 		<text>A medical package, designed for use specifically in the Zone. It contains a large amount of drugs for the purposes of countering chemical, psy- and radioactive hazards.\n \n
+ 		%c[ui_gray_3]CONTENTS:\n
+ 		%c[d_cyan] • %c[default] anti-radiation drugs (2)\n
+ 		%c[d_cyan] • %c[default] antioxidant IP2\n
+ 		%c[d_cyan] • %c[default] big glucose shot\n
+ 		%c[d_cyan] • %c[default] cystamine (2)\n
+		%c[d_cyan] • %c[default] phytomenadione\n
+ 		%c[d_cyan] • %c[default] epinephrine\n
+ 		%c[d_cyan] • %c[default] harness\n
+ 		%c[d_cyan] • %c[default] indralin-B190\n
+ 		%c[d_cyan] • %c[default] mineral water\n
+ 		%c[d_cyan] • %c[default] psi-block\n
+ 		%c[d_cyan] • %c[default] scientific stimulant (2)\n
+		%c[d_cyan] • %c[default] meat chunk tablets\n \n
+ 		%c[ui_gray_3]PROPERTIES:\n
+ 		%c[d_blue] • %c[ui_gray_2] storage for medical equipment\n
+ 		</text>
+ 	</string>
+
+ 	<string id="st_analgetic">
+		<text>Phytomenadione</text>
+ 	</string>
+ 	<string id="st_analgetic_descr">
+		<text>Also called vitamin K. It has strong anticoagulant effects, and is useful in combat to reduce the severity of bleeding. Lasts for a long duration.\n \n
+			%c[ui_gray_3]Properties:\n
+			%c[d_blue] • %c[ui_gray_2] anticoagulant medicine\n
+			%c[d_purple] • %c[ui_gray_2] 25% rupture resistance bonus\n
+			%c[d_red] • %c[ui_gray_2] Causes mild dizziness\n
+ 		</text>
+ 	</string>
+
+ 	<string id="st_jgut_descr">
+		<text>A haemostatic rubber tourniquet, allowing the user to stop bleeding. Used to make you hungry for some reason. Doesn't anymore.\n \n
+ 		%c[ui_gray_3]PROPERTIES:\n
+ 		%c[d_blue] • %c[ui_gray_2] first-aid item\n
+ 		%c[d_blue] • %c[ui_gray_2] fast usage (tourniquet)\n
+ 		</text>
+ 	</string>
+
+ 	<string id="st_yadylin_descr">
+ 		<text>A semi-drug based on morphine. It allows the user to quickly dull pain and increase production of adrenaline, aiding the user in withstanding even the most intense battles. It is popular among stalkers, often used as a recreative drug among criminal groups, and is allegedly being supplied to the Monolith.\n \n
+ 		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores 0.8%hp/s, total 58%\n
+ 		%c[ui_gray_3]PROPERTIES:\n
+ 		%c[d_blue] • %c[ui_gray_2] medicine\n
+		%c[d_blue] • %c[ui_gray_2] very long lasting\n
+		%c[d_purple] • %c[ui_gray_2] 10% rupture resistance bonus\n
+ 		%c[d_blue] • %c[ui_gray_2] agonistic effect\n
+ 		%c[d_red] • %c[ui_gray_2] causes a short-term clouding of consciousness\n
+ 		</text>
+ 	</string>
+
+ 	<string id="st_glucose_s">
+		<text>Atropine</text>
+ 	</string>
+ 	<string id="st_glucose_s_descr">
+		<text>An essential medicine used to increase heart rate. It is a strong anticholinergic medicine that is also used as an antidote to mushroom poisoning. Useful in the zone to keep the blood pumping without overstimulating the body. Its action on acetylcholine also improves psychic resistance.\n \n
+ 		%c[ui_gray_3]PROPERTIES:\n
+ 		%c[d_blue] • %c[ui_gray_2] medicine\n
+ 		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (syringe)\n
+		%c[d_red] • %c[ui_gray_2] causes mild dizziness\n
+		</text>
+ 	</string>
+
+ 	<string id="st_sleepingpills">
+		<text>Diazepam</text>
+ 	</string>
+ 	<string id="st_sleepingpills_descr">
+		<text>A strong benzodiazapine, used typically for its anticonvulsant properties to treat epillepsy or parkinsons. It can also treat panic disorders, but other benzodiazapines are preffered for that purpose. For a stalker such a calming drug is very useful for protection against a controller's attacks. It also has pain-killing properties, which can provide some relief from from the results of a fire fight. \n \n
+ 		%c[ui_gray_3]PROPERTIES:\n
+ 		%c[d_blue] • %c[ui_gray_2] medicine\n
+		%c[d_red] • %c[ui_gray_2] immediate sleepiness induction\n
+		%c[d_purple] • %c[ui_gray_2] 7% impact and ballistic resistance bonus\n
+ 		</text>
+ 	</string>
+
+ 	<string id="st_adrenalin_descr">
+ 		<text>Epinephrine (also known as adrenalin) is a hormone and a neurotransmitter. Epinephrine has many functions in the body, instantly regulating heart rate, blood vessel and air passage diameters, and metabolic shifts. Epinephrine release is a crucial component of the fight-or-flight response of the sympathetic nervous system. The effects lead to increased blood glucose and fatty acids, providing substrates for instant energy production within cells throughout the body.\n \n
+ 		%c[ui_gray_3]PROPERTIES:\n
+ 		%c[d_blue] • %c[ui_gray_2] medicine\n
+ 		%c[d_blue] • %c[ui_gray_2] high quality\n
+ 		%c[d_blue] • %c[ui_gray_2] fast usage (syringe)\n
+ 		%c[d_blue] • %c[ui_gray_2] very potent alcohol sobering effect\n
+ 		</text>
+ 	</string>
+
+ 	<string id="st_morphine_descr">
+ 		<text>An iron ampoule designed as field equipment for military field personnel for instant pain reduction. This ampoule contains a powerful dose of morphine. In clinical medicine, morphine is regarded as the gold standard of opioid analgesics used to relieve severe or agonizing pain and suffering. Like other opioids, such as oxycodone, hydromorphone, and diacetylmorphine (heroin), morphine acts directly on the central nervous system (CNS) to relieve pain. Injected into an arm or a thigh.\n \n
+ 		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] painkiller medicine\n
+ 		%c[d_blue] • %c[ui_gray_2] high quality\n
+ 		%c[d_blue] • %c[ui_gray_2] fast usage (syringe)\n
+		%c[d_purple] • %c[ui_gray_2] 35% thermal and impact resistance bonus\n
+		%c[d_purple] • %c[ui_gray_2] 37% ballistic and explosive resistance bonus\n
+		%c[d_red] • %c[ui_gray_2] causes respiratory depression\n
+ 		</text>
+ 	</string>
+
+ 	<string id="st_salicidic_acid_descr">
+ 		<text>An iron ampoule designed as field equipment for military field personnel for instant pain reduction. It contains a powerful dose of metamizole mixed with an antihemorrhagic drug. Metamizole is one of the strongest Non-Steroidal Anti-Inflammatory Drugs (NSAIDs), especially effective at easing aches and pains as well as reducing fevers. It is also useful as anti-inflammatory drug when used in higher doses. May cause some delayed side effects such as leucopenia or agranulocytosis, so it should be used with moderation. Injected into an arm or a thigh. Its availability in the Zone is limited due to the difficulty of smuggling the medicine across military cordons.\n \n
+ 		%c[ui_gray_3]PROPERTIES:\n
+ 		%c[d_blue] • %c[ui_gray_2] medicine\n
+ 		%c[d_blue] • %c[ui_gray_2] fast usage (syringe)\n
+		%c[d_purple] • %c[ui_gray_2] 20% explosive and ballistic resistance bonus\n
+		%c[d_purple] • %c[ui_gray_2] 15% thermal and impact resistance bonus\n
+		%c[d_blue] • %c[ui_gray_2] causes mild dizziness\n
+ 		</text>
+ 	</string>
+
+ 	<string id="st_antibio_sulfad">
+		<text>Ground Meatchunk Tablets</text>
+ 	</string>
+ 	<string id="st_antibio_sulfad_descr">
+		<text>Some total genius decided it would be a good idea to crush up a meat chunk artifact and turn it into pills. Somehow, it miraculously worked the way he wanted it too. With some side effects.\n \n
+ 		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] depletes 40% health on use\n
+ 		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] zone produced\n
+		%c[d_blue] • %c[ui_gray_2] processed artifact\n
+ 		</text>
+ 	</string>
+
+ 	<string id="st_antiemetic">
+		<text>Ground Goldfish Tablets</text>
+ 	</string>
+ 	<string id="st_antiemetic_descr">
+		<text>Pills made from a ground up goldfish artifact. Turns the body into a powerful anti-gravity field briefly. Of course, doing that will put immense stress on your bones and organs.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] depletes 40% health on use\n
+		%c[d_red] • %c[ui_gray_2] drains 0.03% hp/s, total 37%\n
+ 		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] zone produced\n
+		%c[d_blue] • %c[ui_gray_2] processed artifact\n
+ 		</text>
+ 	</string>
+
+ 	<string id="st_tetanus">
+		<text>Ketamine</text>
+ 	</string>
+ 	<string id="st_tetanus_descr">
+		<text>A strong disassociative and anesthetic drug. It is used in surgery when a patient needs anesthesia that does not cause respiratory depression. For some reason called "horse tranquilizer" by Americans. It is on the WHOs list of essential medicines, which is a list of medicine that is effective, safe, and necessary for a health care provider to be effective. It is known to cause hallucinations and is used recreationally often. In the zone, it is tremendously useful because it allows a stalker to ignore the pain caused by injuries or by carrying too much. However, one should be cautious when using it. It may put you to sleep, and it will impact your fine motor skills. Administered through injection.\n \n
+ 		%c[ui_gray_3]PROPERTIES:\n
+ 		%c[d_blue] • %c[ui_gray_2] medicine\n
+ 		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_purple] • %c[ui_gray_2] 30% explosive and ballistic resistance bonus\n
+		%c[d_purple] • %c[ui_gray_2] 25% thermal and impact resistance bonus\n
+		%c[d_red] • %c[ui_gray_2] causes dizziness\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (syringe)\n
+		</text>
+ 	</string>
+
+	<string id="st_bandage_aloe">
+		<text>Aloe-vera Bandage</text>
+	</string>
+	<string id="st_bandage_aloe_descr">
+		<text>A bandage coated in aloe vera. Doesn't do much to stop bleeding, but does wonders for preventing and healing burns \n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores 0.1% hp for duration, total 10%\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[ui_purple] • %c[ui_gray_2] 30% thermal damage resistance bonus\n
+		</text>
+	</string>
+</string_table>

@@ -1,0 +1,6 @@
+![sr_idle@start]
+on_actor_inside = {=actor_has_item(good_psy_helmet)} sr_idle@stfu %+actor_in_sarcofag%, sr_idle@call %+actor_in_sarcofag%
+
+[sr_idle@stfu]
+on_info = {+actor_made_wish} sr_idle@nil
+on_info2 = {+sar2_monolith_end} sr_idle@nil
