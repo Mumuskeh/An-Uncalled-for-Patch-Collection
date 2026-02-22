@@ -234,8 +234,6 @@
 	</string>
 	<string id="st_bandage_aloe_descr">
 		<text>A bandage coated in aloe vera. Doesn't do much to stop bleeding, but does wonders for preventing and healing burns \n \n
-		%c[ui_gray_3]HEALING:\n
-		%c[d_red] • %c[ui_gray_2] Restores 0.1% hp for duration, total 10%\n
 		%c[ui_gray_3]PROPERTIES:\n
 		%c[ui_purple] • %c[ui_gray_2] 30% thermal damage resistance bonus\n
 		</text>

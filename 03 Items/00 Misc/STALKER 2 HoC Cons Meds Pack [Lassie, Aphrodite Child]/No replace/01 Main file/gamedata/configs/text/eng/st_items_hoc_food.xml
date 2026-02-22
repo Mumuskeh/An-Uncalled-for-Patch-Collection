@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_hoc_bread">
+		<text>Bread (HoC)</text>
+	</string>
+	<string id="st_hoc_bread_descr">
+		<text>A staple of the stalker diet. Following the takeover of Rostok. Myklukha became the Zone's principal bread supplier. How an ordinary loaf of bread stays fresh for such an extended period of time is one of the greatest mysteries of the Zone.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] food\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+	
+	<string id="st_hoc_freshbread">
+		<text>Fresh bread (HoC)</text>
+	</string>
+	<string id="st_hoc_freshbread_descr">
+		<text>Soft and crispy, with the lingering smell of the oven. How on earth Myklukha gets fresh bread to the Zone is anyone’s guess, but it’s only available in Rostok.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] food\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+	
+	<string id="st_hoc_canned">
+		<text>Canned food (HoC)</text>
+	</string>
+	<string id="st_hoc_canned_descr">
+		<text>The contents of these cans is a mystery that no one dares delve into for the sake of their own sanity. Once healed over a campfire, they transform into a tasty, nutritious meal.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] food\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+	
+	<string id="st_hoc_spoiledcanned">
+		<text>Spoiled canned food (HoC)</text>
+	</string>
+	<string id="st_hoc_spoiledcanned_descr">
+		<text>A swollen can of food, expired long before the Zone came into being. Without a decent gas mask, the stench is unbearable.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] food\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+	
+	<string id="st_hoc_milk">
+		<text>Condensed milk (HoC)</text>
+	</string>
+	<string id="st_hoc_milk_descr">
+		<text>Considered a Zone delicacy, it is often taken on extended expeditions and occasionally used as bait for mutants, which also have a bit of a sweet tooth.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] food\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+	
+	<string id="st_hoc_sausage">
+		<text>Sausage (HoC)</text>
+	</string>
+	<string id="st_hoc_sausage_descr">
+		<text>The key advantage of this suasage is its long shelf life. It's best not to speculate on how this is achieved in order to avoid ruining your appetite and those of others.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] food\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+	
+</string_table>

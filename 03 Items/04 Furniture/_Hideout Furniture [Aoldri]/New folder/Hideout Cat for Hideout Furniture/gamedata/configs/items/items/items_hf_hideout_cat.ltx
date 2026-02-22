@@ -1,0 +1,77 @@
+[hideout_cat]:tch_junk
+class						= II_ATTCH
+kind						= i_tool
+visual						= dynamics\Decor\hideout_cat_no_anim.ogf
+
+description					= st_hideout_cat_descr
+inv_name					= st_hideout_cat
+inv_name_short				= st_hideout_cat
+
+icons_texture				= ui\ui_icon_hideout_cat
+inv_grid_x					= 0
+inv_grid_y					= 0
+inv_grid_width				= 2
+inv_grid_height				= 2
+
+cost						= 780
+inv_weight					= 4.0
+
+use1_functor				= placeable_furniture.place_item
+use1_action_functor			= placeable_furniture.func_place_item
+
+placeable_type				= prop
+placeable_section			= placeable_hideout_cat
+
+[placeable_hideout_cat]:physic_object
+visual						= dynamics\Decor\hideout_cat.ogf
+placeable_type				= prop
+base_rotation				= 0
+fixed_bones					= link
+
+
+script_binding				= bind_hideout_cat.init
+item_section				= hideout_cat
+ui_on_interaction			= bind_hideout_cat.toggle_hideout_cat
+ui_on_simple_interaction	= bind_hideout_cat.toggle_hideout_cat
+
+ui_texture					= ui_icon_hideout_cat
+
+bounding_box_size			= 0.300000, 0.300000, 0.300000
+bounding_box_origin			= 0.000000, 0.150000, 0.000000
+
+[hideout_cat_bed]:tch_junk
+class						= II_ATTCH
+kind						= i_tool
+visual						= dynamics\Decor\hideout_cat_bed.ogf
+
+description					= st_hideout_cat_bed_descr
+inv_name					= st_hideout_cat_bed
+inv_name_short				= st_hideout_cat_bed
+
+icons_texture				= ui\ui_icon_hideout_cat_bed
+inv_grid_x					= 0
+inv_grid_y					= 0
+inv_grid_width				= 2
+inv_grid_height				= 2
+
+cost						= 350
+inv_weight					= 0.5
+
+use1_functor				= placeable_furniture.place_item
+use1_action_functor			= placeable_furniture.func_place_item
+
+placeable_type				= prop
+placeable_section			= placeable_hideout_cat_bed
+
+[placeable_hideout_cat_bed]:physic_object
+visual						= dynamics\Decor\hideout_cat_bed.ogf
+placeable_type				= prop
+base_rotation				= 0
+
+fixed_bones					= link
+
+script_binding				= bind_hf_base.init
+item_section				= hideout_cat_bed
+
+bounding_box_size			= 0.540000, 0.340000, 0.100000
+bounding_box_origin			= 0.000000, 0.050000, 0.000000

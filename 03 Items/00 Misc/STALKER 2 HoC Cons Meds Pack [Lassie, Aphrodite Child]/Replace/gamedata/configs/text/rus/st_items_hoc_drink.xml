@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_hoc_energy">
+		<text>Энергитический напиток «Non Stop»</text>
+	</string>
+	<string id="st_hoc_energy_descr">
+		<text>Улучшенная формула, включающая кофеин, таурин и витамины C, B5, B6, B9, а также расширенные рейды в Зоне.\n \n
+		%c[ui_gray_3]Характеристики:\n
+		%c[d_blue] • %c[ui_gray_2] напиток\n
+		%c[d_blue] • %c[ui_gray_2] импортный\n
+		%c[d_blue] • %c[ui_gray_2] стимулятор\n
+		%c[d_blue] • %c[ui_gray_2] сильное отрезвляющее действие\n
+		%c[d_blue] • %c[ui_gray_2] источник чистого питания\n
+		</text>
+	</string>
+	
+		<string id="st_hoc_energy_le">
+		<text>Энергитический напиток «Non Stop» — ограниченная серия</text>
+	</string>
+	<string id="st_hoc_energy_le_descr">
+		<text>Ограниченная серия энергетического напитка с кофеином, витаминами и освежающим вкусом арбуза.\n \n
+		%c[ui_gray_3]Характеристики:\n
+		%c[d_blue] • %c[ui_gray_2] напиток\n
+		%c[d_blue] • %c[ui_gray_2] импортный\n
+		%c[d_blue] • %c[ui_gray_2] стимулятор\n
+		%c[d_blue] • %c[ui_gray_2] слабый отрезвляющий эффект\n
+		%c[d_blue] • %c[ui_gray_2] сильное отрезвляющее действие\n
+		%c[d_blue] • %c[ui_gray_2] источник чистого питания\n
+		</text>
+	</string>
+	
+		<string id="st_hoc_beer">
+		<text>Пиво</text>
+	</string>
+	<string id="st_hoc_beer_descr">
+		<text>Хотя это правда, что пиво может помочь вывести радиацию, вам нужно будет употребить его в значительном количестве по сравнению с водкой. Кстати, многие люди более чем счастливы делать именно это.\n \n
+		%c[ui_gray_3]Характеристики:\n
+		%c[d_blue] • %c[ui_gray_2] напиток\n
+		%c[d_blue] • %c[ui_gray_2] импортный\n
+		%c[d_blue] • %c[ui_gray_2] стимулятор\n
+		%c[d_red] • %c[ui_gray_2] слабый алкоголь\n
+		%c[d_blue] • %c[ui_gray_2] источник чистого питания\n
+		%c[d_blue] • %c[ui_gray_2] высокое качество\n
+		</text>
+	</string>
+
+	<string id="st_hoc_water">
+		<text>Вода</text>
+	</string>
+	<string id="st_hoc_water_descr">
+		<text>Найти чистую воду в Зоне — задача не из легких, поскольку все природные источники там загрязнены радиацией. К счастью, на вне ЧЗО это пока не проблема.\n \n
+		%c[ui_gray_3]Характеристики:\n
+		%c[d_blue] • %c[ui_gray_2] напиток\n
+		%c[d_blue] • %c[ui_gray_2] источник чистого питания\n
+		</text>
+	</string>
+
+	<string id="st_hoc_vodka">
+		<text>Водка «Казаки»</text>
+	</string>
+	<string id="st_hoc_vodka_descr">
+		<text>Обязательный алкогольный напиток производства GSC, известный своей способностью выводить радиацию из организма. Также это прекрасное средство от скуки повседневной жизни в Зоне.\n \n
+		%c[ui_gray_3]Характеристики:\n
+		%c[d_blue] • %c[ui_gray_2] напиток\n
+		%c[d_blue] • %c[ui_gray_2] стимулятор\n
+		%c[d_red] • %c[ui_gray_2] крепкий алкоголь\n
+		</text>
+	</string>
+
+</string_table>

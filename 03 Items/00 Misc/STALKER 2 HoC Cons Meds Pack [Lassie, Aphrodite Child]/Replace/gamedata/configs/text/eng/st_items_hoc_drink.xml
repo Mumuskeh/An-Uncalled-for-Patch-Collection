@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_hoc_energy">
+		<text>Non Stop Energy Drink</text>
+	</string>
+	<string id="st_hoc_energy_descr">
+		<text>Featuring an enhanced formula comprised of caffeine, taurine, and vitamins C, B5, B6, B9, and extended raids in the Zone.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_blue] • %c[ui_gray_2] potent alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+	
+		<string id="st_hoc_energy_le">
+		<text>Non Stop Limited Edition Energy Drink</text>
+	</string>
+	<string id="st_hoc_energy_le_descr">
+		<text>A limited edition of the energy drink with caffeine, vitamins and a refreshing watermelon flavor.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] potent alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+	
+		<string id="st_hoc_beer">
+		<text>Beer</text>
+	</string>
+	<string id="st_hoc_beer_descr">
+		<text>While it's true that beer can help flush out radiation, you'd need to consume a considerable amount compared to vodka. Incidentally, plenty of folks are more than happy to do just that.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_red] • %c[ui_gray_2] light alcohol\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		</text>
+	</string>
+
+	<string id="st_hoc_water">
+		<text>Water</text>
+	</string>
+	<string id="st_hoc_water_descr">
+		<text>Finding clean water in the Zone is no easy task, since all natural sources there are contaminated with radiation. Fortunately, this isn't an issue on the Mainland yet.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+
+	<string id="st_hoc_vodka">
+		<text>Cossacks Vodka</text>
+	</string>
+	<string id="st_hoc_vodka_descr">
+		<text>A must-have alcoholic drink produced by GSC, renowned for its ability to flush radiation from the body. It's also an excellent remedy against the tedium of everyday life in the Zone.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_red] • %c[ui_gray_2] strong alcohol\n
+		</text>
+	</string>
+
+</string_table>

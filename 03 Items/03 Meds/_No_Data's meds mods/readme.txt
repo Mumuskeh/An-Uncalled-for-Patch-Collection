@@ -13,19 +13,18 @@ IMPORTANT: If you were already using this mod in a current save, a new game is r
 ----------------------------------------------------------
 -Explanation:
 
-Consolidates icons into one single compacted texture.
-Minor corrections to texts.
-Some trade filenames didn't have a suffix, risking being overwritten.
-Fixed Sin not selling their factional medkit.
-Value of rags and bandaids reduced by a third. I personally found too many of them, making good money selling them. You may still get some pennies from the bandaids, but the rags you either use or trash them.
-Fixed a message by Loris. I think. There was a duplicated = sign that doesn't seem to happen in other similar configs scripts file, so I deleted one of the two. Tell me if something breaks.
-Internal ID has also been renamed, so items are ordered better in the inventory along other medkits, bandages, and letters.
-
-The Minor Meds option for reduced prices is included in the files by default. If you don't want it, simply disable the mod_system_minor_meds_reduced_prices.ltx file.
-
-
+The modules for each mod have been gathered in the same folder.
 There's an optional merge of the separate modules to reduce the number of files used; text, corpse looting, and dialogue files were left alone.
 Place the contents of all three original mods into the same folder, then proceed with the merge patch as with the individual ones.
+
+
+-Consolidates icons into one single compacted texture.
+-Minor text editing and corrections.
+-Some trade filenames didn't have a suffix, risking being overwritten.
+-Fixed Sin not selling their factional medkit.
+-Value of rags and bandaids reduced by a third. I personally found too many of them, making good money selling them. You may still get some pennies from the bandaids, but the rags you either use or trash them.
+-Fixed a message by Loris. I think. There was a duplicated = sign that doesn't seem to happen in other similar configs scripts file, so I deleted one of the two. Tell me if something breaks.
+-Internal IDs have also been renamed, so items are ordered better in the inventory along other medkits, bandages, and letters.
 
 
 Integration into:
@@ -53,7 +52,7 @@ Body Health System Reworked [bvcx]
 The new meds will interact with the health system.
 
 Food Poisoning [ahuyn]
-For Minor Meds and the merge. It will disable Minor Meds' active charcoal in favor of Food Poisoning.
+For Minor Meds and the merge. It will disable Minor Meds' active charcoal in favor of Food Poisoning's.
 
 More drops from drugs (DLTX Minimod)
 The new meds will provide discarded parts when used just like other drugs.
