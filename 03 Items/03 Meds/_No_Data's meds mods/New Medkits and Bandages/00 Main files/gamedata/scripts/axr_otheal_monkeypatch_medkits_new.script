@@ -1,37 +1,17 @@
-local function patch_npchealing_tables()
-    if not bandages or not medkits then
-        return false
-    end
-
+function on_game_start()
+    local bandages = axr_otheal.bandages
+    local medkits = axr_otheal.medkits
+	
     if bandages then
+		-- -- New Medkits and Bandages
         bandages["bandage_cooling"] = true
         bandages["bandage_presure"] = true
-		bandages["bandage_rag"] = true
-		bandages["bandage_bandaids"] = true
+        bandages["bandage_rag"] = true
+        bandages["bandage_bandaids"] = true
     end
-
-    if medkits then
+	if medkits then
+		-- -- New Medkits and Bandages
         medkits["medkit_civilian"] = true
         medkits["medkit_tactical"] = true
     end
-
-    return true
-end
-
-if not patch_npchealing_tables() then
-    CreateTimeEvent("npchealing_patch", "wait_for_tables", 1.0, function()
-        if patch_npchealing_tables() then
-            return true
-        end
-        return false
-    end)
-end
-
-local original_on_game_start = on_game_start
-function on_game_start()
-    if original_on_game_start then
-        original_on_game_start()
-    end
-    
-    patch_npchealing_tables()
 end

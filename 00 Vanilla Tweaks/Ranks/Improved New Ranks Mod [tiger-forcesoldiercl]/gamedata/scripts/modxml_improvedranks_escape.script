@@ -1,0 +1,37 @@
+function on_game_start()
+    RegisterScriptCallback("on_specific_character_init", function(character_id, data)
+
+        if character_id == "esc_2_12_stalker_trader" then
+            data.rank = "52453"
+        end
+
+        if character_id == "esc_2_12_stalker_wolf" then
+            data.rank = "35632"
+        end
+
+        if character_id == "esc_2_12_stalker_fanat" then
+            data.rank = "33462"
+        end
+
+        if character_id == "devushka" then
+            data.rank = "11523"
+        end
+
+        if character_id == "esc_smart_terrain_5_7_loner_mechanic_stalker" then
+            data.rank = "13139"
+        end
+
+        if character_id == "esc_main_base_trader_mlr" then
+            data.rank = "9500"
+        end
+
+        if character_id == "army_south_mechan_mlr" then
+            data.rank = "11100"
+        end
+
+        if character_id == "esc_3_16_military_trader" then
+            data.rank = "19000"
+        end
+
+    end)
+end

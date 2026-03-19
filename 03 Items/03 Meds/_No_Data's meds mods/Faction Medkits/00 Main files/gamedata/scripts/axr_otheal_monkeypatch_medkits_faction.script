@@ -1,10 +1,8 @@
-local function patch_npchealing_tables()
-    if not bandages or not medkits then
-        return false
-    end
-
-    if medkits then
-	-- Faction Medkits
+function on_game_start()
+    local medkits = axr_otheal.medkits
+	
+	if medkits then
+		-- -- Faction Medkits
         medkits["medkit_faction_duty"] = true
         medkits["medkit_faction_bandit"] = true
         medkits["medkit_faction_freedom"] = true
@@ -15,24 +13,4 @@ local function patch_npchealing_tables()
         medkits["medkit_faction_renegade"] = true
         medkits["medkit_faction_isg"] = true
     end
-
-    return true
-end
-
-if not patch_npchealing_tables() then
-    CreateTimeEvent("npchealing_patch", "wait_for_tables", 1.0, function()
-        if patch_npchealing_tables() then
-            return true
-        end
-        return false
-    end)
-end
-
-local original_on_game_start = on_game_start
-function on_game_start()
-    if original_on_game_start then
-        original_on_game_start()
-    end
-    
-    patch_npchealing_tables()
 end

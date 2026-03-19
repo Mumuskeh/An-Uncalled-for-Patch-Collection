@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_antirad_descr">
+		<text>Mexaminum radiation protection drugs are common in the Zone. When used, this drug induces contraction of peripheral blood vessels and oxygen deprivation, which serve to treat and prevent radiation exposure. The drug does not have severe side effects, although isolated cases of mild nausea, dizziness, cramps and stomach pain have been reported.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Depletes 5%hp on use\n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 107 mSv/sec., total - 1155 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] medicine\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (syringe)\n
+		</text>
+	</string>
+
+	<string id="st_akvatab_descr">
+		<text>Small plastic bag with pills intended for disinfecting water containing harmful bacteria and viruses. Use two tablets at a time.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 40 mSv/sec., total - 1457 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_red] • %c[ui_gray_2] slow usage (dispersible tablets)\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+
+	<string id="st_medkit_descr">
+		<text>A general purpose medical kit. Handy for treating injuries, wounds, chemical and thermal burns and various types of poisoning.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores 1.8%hp/s, total 60%\n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 15 mSv/sec., total - 505 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		</text>
+	</string>
+
+	<string id="st_medkit_science_descr">
+		<text>A medical kit designed specifically for use in the Zone. The kit contains products for handling wounds, as well as preventing the development of radiation poisoning and reducing accumulated radiation in the body. Contains Vikasolum, Batilolum and Naphazoline, unlike other medkits.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores 3%hp/s, total 100%\n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 47 mSv/sec., total - 1553 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] valuable\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		</text>
+	</string>
+
+	<string id="st_stim_scientic_descr">
+		<text>Created by the same defence research institute in Kiev which developed the well-known SEVA suit, this state-of-the-art solution constitutes the most potent health stabiliser available in the Zone. Best quality ingredients and perfected formula enable almost instant recuperation and ensure prompt radiation cleansing. Side effects are minimised. Extremely high cost practically limits the target group of the drug to most skilful and successful stalkers.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores 6%hp/s, total 90%\n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 70 mSv/sec., total - 1047 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] medicine\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (syringe)\n
+		%c[d_blue] • %c[ui_gray_2] rapid body recovery time\n</text>
+	</string>
+
+	<string id="st_rebirth_descr">
+		<text>Warning! Do not use in combination with any other drug as this may prove lethal. This powerful mixture contained in a small syringe will make you lose consciousness. But when you wake up (if you wake up), you will feel reborn. Inject the syringe into your thigh when sitting down.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores 22.5%hp/s, total 190%\n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 567 mSv/sec., total - 4823 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] medicine\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (syringe)\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_red] • %c[ui_gray_2] causes temporary blackout\n
+		</text>
+	</string>
+
+	<string id="st_tetanus_descr">
+		<text>Tetanus vaccine is composed of inactivated tetanus toxin and is used to prevent an individual from contracting tetanus. Tetanus, also known as lockjaw, is a disease caused by the bacteria Clostridium tetani which enter the body through open wounds and release a poison called tetanospasmin. Tetanus is a potentially deadly disease because the poison attacks the nervous system blocking nerve signals from the spinal cord to and from the muscles. Animals and mutants alike are prone to carry Clostridium tetani which can be transferred through bites. Injection of inactivated toxin enhances your immunological system and can lead to several positive side-effects. Moreover, this vaccine has been supplemented with several additional anti-toxins making it usable for purposes other than preventing contraction of tetanus.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores 0.06%hp/s, total 26.5%\n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 2.1 mSv/sec., total - 929 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] medicine\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (syringe)\n</text>
+	</string>
+
+	<string id="st_antirad_kalium_descr">
+		<text>A pharmacological compound, used in the Zone as a cheap means of countering the effects of radiation on the body. Causes numerous side effects, notably gastrointestinal tract blistering, numbness to pain and dysfunction of the thyroid gland.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Depletes 8%hp on use\n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 107 mSv/sec., total - 1070 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] medicine\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_red] • %c[ui_gray_2] mild dizziness\n
+		</text>
+	</string>
+
+</string_table>

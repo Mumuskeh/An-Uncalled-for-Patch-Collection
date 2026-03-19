@@ -1,123 +1,73 @@
-local function patch_tbrfpackage_tables()
-    if not tb_extraupgrades then
-        return false
-    end
+function on_game_start()
 
-	-- we check first if the Uncalled version of the script is being used, then populate the rest of tables
-    if tb_extraupgrades_up then
-		if tb_extraupgrades then
-			tb_extraupgrades{"paintkit_novice","st_paintkit_novice"}
-			tb_extraupgrades{"paintkit_sunrise","st_paintkit_sunrise"}
-			tb_extraupgrades{"paintkit_trenchcoat","st_paintkit_trenchcoat"}
-			tb_extraupgrades{"gunkit_paint","st_paintkit_gunkit_paint"}
-			tb_extraupgrades{"gunkit_gunsmith","st_paintkit_gunkit_gunsmith"}
-			tb_extraupgrades{"gunkit_replace","st_paintkit_gunkit_replace"}
-		end
-		if tb_extraupgrades_up then
-			tb_extraupgrades_up{"paintkit_skat","st_paintkit_skat"}
-			tb_extraupgrades_up{"paintkit_exo","st_paintkit_exo"}
-			tb_extraupgrades_up{"paintkit_nosorog","st_paintkit_noso"}
-			tb_extraupgrades_up{"paintkit_seva","st_paintkit_seva"}
-			tb_extraupgrades_up{"gunkit_custom","st_paintkit_gunkit_custom"}
-			tb_extraupgrades_up{"gunkit_scope","st_paintkit_gunkit_scope"}
-		end
-		if CB_streamlined_extraupgrades then
-			CB_streamlined_extraupgrades{"paintkit_novice","st_paintkit_novice"}
-			CB_streamlined_extraupgrades{"paintkit_sunrise","st_paintkit_sunrise"}
-			CB_streamlined_extraupgrades{"paintkit_trenchcoat","st_paintkit_trenchcoat"}
-			CB_streamlined_extraupgrades{"gunkit_paint","st_paintkit_gunkit_paint"}
-			CB_streamlined_extraupgrades{"gunkit_gunsmith","st_paintkit_gunkit_gunsmith"}
-			CB_streamlined_extraupgrades{"gunkit_replace","st_paintkit_gunkit_replace"}
-		end
-		if CB_streamlined_extraupgrades_up then
-			CB_streamlined_extraupgrades_up{"paintkit_skat","st_paintkit_skat"}
-			CB_streamlined_extraupgrades_up{"paintkit_exo","st_paintkit_exo"}
-			CB_streamlined_extraupgrades_up{"paintkit_nosorog","st_paintkit_noso"}
-			CB_streamlined_extraupgrades_up{"paintkit_seva","st_paintkit_seva"}
-			CB_streamlined_extraupgrades_up{"gunkit_custom","st_paintkit_gunkit_custom"}
-			CB_streamlined_extraupgrades_up{"gunkit_scope","st_paintkit_gunkit_scope"}
-		end
-
-		-- if mc_faction_army then
-		-- end
-		-- if mc_faction_bandit then
-		-- end
-		if mc_faction_csky then
-			mc_faction_csky{"paintkit_ace","st_paintkit_ace"}
-			mc_faction_csky{"gunkit_cs","st_paintkit_gunkit_cs"}
-		end
-		if mc_faction_dolg then
-			mc_faction_dolg{"paintkit_duty_ps5","st_paintkit_dooty"}
-			mc_faction_dolg{"gunkit_duty","st_paintkit_gunkit_duty"}
-		end
-		if mc_faction_ecolog then
-			mc_faction_ecolog{"paintkit_eco_ssp","st_paintkit_eco"}
-		end
-		if mc_faction_freedom then
-			mc_faction_freedom{"gunkit_freedom","st_paintkit_gunkit_freedom"}
-		end
-		-- if mc_faction_greh then
-		-- end
-		-- if mc_faction_isg then
-		-- end
-		if mc_faction_killer then
-			mc_faction_killer{"paintkit_merc_lcs","st_paintkit_lcs"}
-			mc_faction_killer{"paintkit_merc_tactical","st_paintkit_merc_tactical"}
-			mc_faction_killer{"paintkit_ace","st_paintkit_ace"}
-			mc_faction_killer{"gunkit_merc","st_paintkit_gunkit_merc"}
-		end
-		if mc_faction_monolith then
-			mc_faction_monolith{"gunkit_mono","st_paintkit_gunkit_mono"}
-		end
-		if mc_faction_stalker then
-			mc_faction_stalker{"gunkit_loner","st_paintkit_gunkit_loner"}
-		end
-    else	--if it's TB's or Aeonera's versions, then whatevs, all in
-		if tb_extraupgrades then
-			tb_extraupgrades{"paintkit_novice","st_paintkit_novice"}
-			tb_extraupgrades{"paintkit_sunrise","st_paintkit_sunrise"}
-			tb_extraupgrades{"paintkit_trenchcoat","st_paintkit_trenchcoat"}
-			tb_extraupgrades{"paintkit_skat","st_paintkit_skat"}
-			tb_extraupgrades{"paintkit_exo","st_paintkit_exo"}
-			tb_extraupgrades{"paintkit_nosorog","st_paintkit_noso"}
-			tb_extraupgrades{"paintkit_seva","st_paintkit_seva"}
-			tb_extraupgrades{"gunkit_paint","st_paintkit_gunkit_paint"}
-			tb_extraupgrades{"gunkit_gunsmith","st_paintkit_gunkit_gunsmith"}
-			tb_extraupgrades{"gunkit_replace","st_paintkit_gunkit_replace"}
-			tb_extraupgrades{"gunkit_custom","st_paintkit_gunkit_custom"}
-			tb_extraupgrades{"gunkit_scope","st_paintkit_gunkit_scope"}
-		end
-		if CB_streamlined_extraupgrades then
-			CB_streamlined_extraupgrades{"paintkit_novice","st_paintkit_novice"}
-			CB_streamlined_extraupgrades{"paintkit_sunrise","st_paintkit_sunrise"}
-			CB_streamlined_extraupgrades{"paintkit_trenchcoat","st_paintkit_trenchcoat"}
-			CB_streamlined_extraupgrades{"paintkit_seva","st_paintkit_seva"}
-			CB_streamlined_extraupgrades{"paintkit_skat","st_paintkit_skat"}
-			CB_streamlined_extraupgrades{"paintkit_exo","st_paintkit_exo"}
-			CB_streamlined_extraupgrades{"paintkit_nosorog","st_paintkit_noso"}
-			CB_streamlined_extraupgrades{"gunkit_paint","st_paintkit_gunkit_paint"}
-			CB_streamlined_extraupgrades{"gunkit_gunsmith","st_paintkit_gunkit_gunsmith"}
-			CB_streamlined_extraupgrades{"gunkit_replace","st_paintkit_gunkit_replace"}
-			CB_streamlined_extraupgrades{"gunkit_custom","st_paintkit_gunkit_custom"}
-			CB_streamlined_extraupgrades{"gunkit_scope","st_paintkit_gunkit_scope"}
+	if TB_RF_Receiver_Packages.tb_extraupgrades then
+		-- first we add the basic upgrades
+		table.insert( TB_RF_Receiver_Packages.tb_extraupgrades, {"paintkit_novice","st_paintkit_novice"} )
+		table.insert( TB_RF_Receiver_Packages.tb_extraupgrades, {"paintkit_sunrise","st_paintkit_sunrise"} )
+		table.insert( TB_RF_Receiver_Packages.tb_extraupgrades, {"paintkit_trenchcoat","st_paintkit_trenchcoat"} )
+		table.insert( TB_RF_Receiver_Packages.tb_extraupgrades, {"gunkit_paint","st_paintkit_gunkit_paint"} )
+		table.insert( TB_RF_Receiver_Packages.tb_extraupgrades, {"gunkit_gunsmith","st_paintkit_gunkit_gunsmith"} )
+		table.insert( TB_RF_Receiver_Packages.tb_extraupgrades, {"gunkit_replace","st_paintkit_gunkit_replace"} )
+	
+		table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"paintkit_novice","st_paintkit_novice"} )
+		table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"paintkit_sunrise","st_paintkit_sunrise"} )
+		table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"paintkit_trenchcoat","st_paintkit_trenchcoat"} )
+		table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"gunkit_paint","st_paintkit_gunkit_paint"} )
+		table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"gunkit_gunsmith","st_paintkit_gunkit_gunsmith"} )
+		table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"gunkit_replace","st_paintkit_gunkit_replace"} )
+	
+		-- then check first if the Uncalled version of the script is being used. If so, populate all new faction tables
+		if TB_RF_Receiver_Packages.tb_extraupgrades_up then
+	
+			table.insert( TB_RF_Receiver_Packages.tb_extraupgrades_up, {"paintkit_skat","st_paintkit_skat"} )
+			table.insert( TB_RF_Receiver_Packages.tb_extraupgrades_up, {"paintkit_exo","st_paintkit_exo"} )
+			table.insert( TB_RF_Receiver_Packages.tb_extraupgrades_up, {"paintkit_nosorog","st_paintkit_noso"} )
+			table.insert( TB_RF_Receiver_Packages.tb_extraupgrades_up, {"paintkit_seva","st_paintkit_seva"} )
+			table.insert( TB_RF_Receiver_Packages.tb_extraupgrades_up, {"gunkit_custom","st_paintkit_gunkit_custom"} )
+			table.insert( TB_RF_Receiver_Packages.tb_extraupgrades_up, {"gunkit_scope","st_paintkit_gunkit_scope"} )
+			
+			table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"paintkit_skat","st_paintkit_skat"} )
+			table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"paintkit_exo","st_paintkit_exo"} )
+			table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"paintkit_nosorog","st_paintkit_noso"} )
+			table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"paintkit_seva","st_paintkit_seva"} )
+			table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"gunkit_custom","st_paintkit_gunkit_custom"} )
+			table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"gunkit_scope","st_paintkit_gunkit_scope"} )
+			
+			table.insert( TB_RF_Receiver_Packages.mc_faction_csky, {"paintkit_ace","st_paintkit_ace"} )
+			table.insert( TB_RF_Receiver_Packages.mc_faction_csky, {"gunkit_cs","st_paintkit_gunkit_cs"} )
+			
+			table.insert( TB_RF_Receiver_Packages.mc_faction_dolg, {"paintkit_duty_ps5","st_paintkit_dooty"} )
+			table.insert( TB_RF_Receiver_Packages.mc_faction_dolg, {"gunkit_duty","st_paintkit_gunkit_duty"} )
+			
+			table.insert( TB_RF_Receiver_Packages.mc_faction_ecolog, {"paintkit_eco_ssp","st_paintkit_eco"} )
+			
+			table.insert( TB_RF_Receiver_Packages.mc_faction_freedom, {"gunkit_freedom","st_paintkit_gunkit_freedom"} )
+			
+			table.insert( TB_RF_Receiver_Packages.mc_faction_killer, {"paintkit_merc_lcs","st_paintkit_lcs"} )
+			table.insert( TB_RF_Receiver_Packages.mc_faction_killer, {"paintkit_merc_tactical","st_paintkit_merc_tactical"} )
+			table.insert( TB_RF_Receiver_Packages.mc_faction_killer, {"paintkit_ace","st_paintkit_ace"} )
+			table.insert( TB_RF_Receiver_Packages.mc_faction_killer, {"gunkit_merc","st_paintkit_gunkit_merc"} )
+			
+			table.insert( TB_RF_Receiver_Packages.mc_faction_monolith, {"gunkit_mono","st_paintkit_gunkit_mono"} )
+			
+			table.insert( TB_RF_Receiver_Packages.mc_faction_stalker, {"gunkit_loner","st_paintkit_gunkit_loner"} )
+	
+		else
+			--if it's TB's or Aeonera's versions, only finish the basic tables		
+			table.insert( TB_RF_Receiver_Packages.tb_extraupgrades, {"paintkit_skat","st_paintkit_skat"} )
+			table.insert( TB_RF_Receiver_Packages.tb_extraupgrades, {"paintkit_exo","st_paintkit_exo"} )
+			table.insert( TB_RF_Receiver_Packages.tb_extraupgrades, {"paintkit_nosorog","st_paintkit_noso"} )
+			table.insert( TB_RF_Receiver_Packages.tb_extraupgrades, {"paintkit_seva","st_paintkit_seva"} )
+			table.insert( TB_RF_Receiver_Packages.tb_extraupgrades, {"gunkit_custom","st_paintkit_gunkit_custom"} )
+			table.insert( TB_RF_Receiver_Packages.tb_extraupgrades, {"gunkit_scope","st_paintkit_gunkit_scope"} )
+			
+			table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"paintkit_seva","st_paintkit_seva"} )
+			table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"paintkit_skat","st_paintkit_skat"} )
+			table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"paintkit_exo","st_paintkit_exo"} )
+			table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"paintkit_nosorog","st_paintkit_noso"} )
+			table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"gunkit_custom","st_paintkit_gunkit_custom"} )
+			table.insert( TB_RF_Receiver_Packages.CB_streamlined_extraupgrades, {"gunkit_scope","st_paintkit_gunkit_scope"} )
+	
 		end
 	end
-    return true
-end
-
-if not patch_tbrfpackage_tables() then
-    CreateTimeEvent("tbrfpackage_patch", "wait_for_tables", 1.0, function()
-        if patch_tbrfpackage_tables() then
-            return true
-        end
-        return false
-    end)
-end
-
-local original_on_game_start = on_game_start
-function on_game_start()
-    if original_on_game_start then
-        original_on_game_start()
-    end
-    patch_tbrfpackage_tables()
 end

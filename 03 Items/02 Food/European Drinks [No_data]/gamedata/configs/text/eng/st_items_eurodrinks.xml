@@ -25,7 +25,7 @@
 		%c[d_blue] • %c[ui_gray_2] clean nutrition source</text>
 	</string>
 
-		<string id="st_cedevita">
+	<string id="st_cedevita">
 		<text>Cedevita</text>
 	</string>
 	<string id="st_cedevita_descr">
@@ -65,7 +65,7 @@
 		<text>Apple and cherry kompot (Zone-produced)</text>
 	</string>
 	<string id="st_zonekompot_descr">
-		<text>This zone-made kompot will remind any eastern European stalker of their childhood. Made of apples and cherries with sugar mixed in. A healthy alternative to western sparkling sodas. Comes in a 1l jar\n
+		<text>This Zone-made kompot will remind any eastern European stalker of their childhood. Made of apples and cherries with sugar mixed in. A healthy alternative to western sparkling sodas. Comes in a 1l jar.\n
 		%c[ui_gray_3]PROPERTIES:\n
 		%c[d_blue] • %c[ui_gray_2] drink\n
 		%c[d_blue] • %c[ui_gray_2] zone-produced\n
@@ -78,7 +78,7 @@
 		<text>Local brewed kvass (Zone-produced)</text>
 	</string>
 	<string id="st_zonekvas_descr">
-		<text>This zone-made kvass was brewed by an unknown local stalker. Clearly yeast was used in the fermentation process, because it's slightly alcoholic. Comes in a 1l jar\n
+		<text>This Zone-made kvass was brewed by an unknown local stalker. Clearly yeast was used in the fermentation process, because it's slightly alcoholic. Comes in a 1l jar.\n
 		%c[ui_gray_3]PROPERTIES:\n
 		%c[d_blue] • %c[ui_gray_2] drink\n
 		%c[d_blue] • %c[ui_gray_2] zone-produced\n
@@ -92,7 +92,7 @@
 		<text>Tarchun</text>
 	</string>
 	<string id="st_tarchun_descr">
-		<text>Originally from Georgia, tarchun became a popular drink in the USSR and has remained relatively enjoyed even after the USSR collapsed. It has a distinct taste, however, it's very very sweet and thus, not as rehydrating as other drinks. Comes in a 250ml glass bottle\n
+		<text>Originally from Georgia, tarchun became a popular drink in the USSR and has remained relatively enjoyed even after the USSR collapsed. It has a distinct taste, however, it's very very sweet and thus, not as rehydrating as other drinks. Comes in a 250ml glass bottle.\n
 		%c[ui_gray_3]PROPERTIES:\n
 		%c[d_blue] • %c[ui_gray_2] drink\n
 		%c[d_blue] • %c[ui_gray_2] imported\n
@@ -104,7 +104,7 @@
 		<text>Baikal</text>
 	</string>
 	<string id="st_baikal_descr">
-		<text>Originally from Russia, baikal is a drink that was designed in the 70s by the soviets, in an attempt to mimic the western-made Coca Cola. The taste is quite similar and since Coca Cola is pretty hard to come by in The Zone, many opt for this alternative. Comes in a 250ml glass bottle\n
+		<text>Originally from Russia, baikal is a drink that was designed in the 70s by the soviets, in an attempt to mimic the western-made Coca Cola. The taste is quite similar and since Coca Cola is pretty hard to come by in The Zone, many opt for this alternative. Comes in a 250ml glass bottle.\n
 		%c[ui_gray_3]PROPERTIES:\n
 		%c[d_blue] • %c[ui_gray_2] drink\n
 		%c[d_blue] • %c[ui_gray_2] imported\n
@@ -141,7 +141,7 @@
 		<text>Local fermented wine (Zone-produced)</text>
 	</string>
 	<string id="st_zonewine_descr">
-		<text>It is rumored that an unknown stalker in the outskirts of the Dark Valley makes wine out of blackcurrants he grows not far from anomaly fields. It has a very peculiar taste, however, in a good way and as a result, is fairly highly valued compared to other alcohol in The Zone. Considered fairly high quality alcohol, normally reserved for celebrations and special occassions. It is slightly more alcoholic than beer, but not as strong as vodka. Comes in a 1l jar\n
+		<text>It is rumored that an unknown stalker in the outskirts of the Dark Valley makes wine out of blackcurrants he grows not far from anomaly fields. It has a very peculiar taste, however, in a good way and as a result, is fairly highly valued compared to other alcohol in The Zone. Considered fairly high quality alcohol, normally reserved for celebrations and special occassions. It is slightly more alcoholic than beer, but not as strong as vodka. Comes in a 1l jar.\n
 		%c[ui_gray_3]PROPERTIES:\n
 		%c[d_blue] • %c[ui_gray_2] drink\n
 		%c[d_blue] • %c[ui_gray_2] zone-produced\n

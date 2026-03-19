@@ -213,7 +213,8 @@ function UIInventory:__init() super()
 		["psi"]        = { min= 0 , max= (SYS_GetParam(2,"actor_condition","psi_zone_max_power"))        , hint= "ui_inv_telepatic_protection"},
 		["wound"]      = { min= 0 , max= (SYS_GetParam(2,"actor_condition","max_wound_protection"))      , hint= "ui_inv_wound_protection" },
 		["fire_wound"] = { min= 0 , max= (SYS_GetParam(2,"actor_condition","max_fire_wound_protection")) , hint= "ui_inv_fire_wound_protection" },
-		["power"]      = { min= 0 , max= (SYS_GetParam(2,"actor_condition","max_power_restore_speed"))   },
+		["power"]      = { min= 0 , max= (SYS_GetParam(2,"actor_condition","max_power_restore_speed"))   , hint= "ui_inv_power_restore"},
+		["hunger"]      = { min= 0 , max= (SYS_GetParam(2,"actor_condition","max_power_restore_speed"))   },
 		["thirst"]		= { min= 0 , max= (SYS_GetParam(2,"actor_condition","max_power_restore_speed"))   },
 		["sleep"]		= { min= 0 , max= (SYS_GetParam(2,"actor_condition","max_power_restore_speed"))   },
 	}
@@ -1774,22 +1775,22 @@ function UIInventory:UpdateStats()
 
 	-- Satiety Bar
 	local satiety = actor:cast_Actor():conditions():GetSatiety()
-	satiety = (satiety - 0.1) / 5		-- 5.7
-	self.stat["power"].bar:SetProgressPos( clamp( satiety , 0, 0.2) )
+	satiety = (satiety - 0.1) / 1.739		-- 5.7
+	self.stat["hunger"].bar:SetProgressPos( clamp( satiety , 0, 0.575) )
 
 	-- Thirst Bar
 	local thirst = actor_status_thirst.get_last_drink()
 	local thirst_red_icon = actor_status_thirst.get_thirst_blur_4()
 	thirst = thirst_red_icon - thirst
-	thirst = (thirst / thirst_red_icon) / 5.65
-	self.stat["thirst"].bar:SetProgressPos( clamp( thirst, 0, 0.185))
+	thirst = (thirst / thirst_red_icon) / 1.926
+	self.stat["thirst"].bar:SetProgressPos( clamp( thirst, 0, 0.55))
 
 	-- Sleep bar
 	local sleep = actor_status_sleep.get_last_sleep()
 	local sleep_red_icon = actor_status_sleep.get_sleep_blur_4()
 	sleep = sleep_red_icon - sleep
-	sleep = (sleep / sleep_red_icon) / 5.65
-	self.stat["sleep"].bar:SetProgressPos( clamp( sleep, 0, 0.185))
+	sleep = (sleep / sleep_red_icon) / 1.926
+	self.stat["sleep"].bar:SetProgressPos( clamp( sleep, 0, 0.55))
 
 
 -- Blinking Icons
@@ -1807,13 +1808,12 @@ function UIInventory:UpdateStats()
 	end
 	
 	-- Power
-	--[[
+
 	if (self.stat_boost["power"] < 0) then
 		self.stat["power"].ico_n:Show(true)
 	elseif (self.stat_boost["power"] > 0) then
 		self.stat["power"].ico_p:Show(true)
 	end
-	--]]
 	
 	-- Radiation
 	local radia_restore = self.stat_outfit["radia_restore"] + self.stat_arty["radia_restore"] + self.stat_boost["radia_restore"]

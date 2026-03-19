@@ -25,7 +25,7 @@
 		</community>
 		<icon x="269" y="16" width="99" height="87" stretch="1"/>
 		<money x="140" y="80" width="104" height="22">
-			<text font="letterica18" align="r"/>
+			<text align="r" font="letterica18"/>
 		</money>
 		
 		<!-- weight -->
@@ -33,7 +33,7 @@
 			<text align="r" font="letterica16" color="ui_3">ui_total_weight</text>
 		</weight_caption>
 		<weight x="260" y="742" width="35" height="16">
-			<text font="letterica18" color="ui_7" align="r"/>
+			<text align="c" font="letterica18" color="ui_7"/>
 		</weight>
 		<weight_max x="302" y="742" width="68" height="16">
 			<text align="l" font="letterica16" color="ui_3"/>
@@ -453,7 +453,7 @@
 				<active width="22" height="28" stretch="1" light_anim="ui_slow_blinking_alpha"/>
 			</icon>
 				
-			<health_sensor x="12" y="42" width="225" height="18">
+			<health_sensor x="12" y="38" width="225" height="18">
 				<state_progress x="19" y="0" width="225" height="18" horz="1" min="0" max="1" pos="0">
 					<progress stretch="1">
 						<texture r="100" g="100" b="100">ui_inGame2_inventory_health_bar</texture>
@@ -461,7 +461,7 @@
 				</state_progress>
 			</health_sensor>
 	
-			<radia_sensor x="12" y="72" width="116" height="18">
+			<radia_sensor x="12" y="64" width="116" height="18">
 				<state_progress x="19" y="1" width="98" height="18" horz="1" min="0" max="1" pos="0">
 					<progress stretch="1">
 						<texture r="100" g="100" b="100">ui_inGame2_inventory_progress_bar</texture>
@@ -469,7 +469,7 @@
 				</state_progress>
 			</radia_sensor>
 	
-			<acid_sensor x="12" y="100" width="116" height="18">
+			<acid_sensor x="12" y="88" width="116" height="18">
 				<state_progress x="19" y="1" width="98" height="18" horz="1" min="0" max="1" pos="0">
 					<progress stretch="1">
 						<texture r="100" g="100" b="100">ui_inGame2_inventory_progress_bar</texture>
@@ -477,7 +477,7 @@
 				</state_progress>
 			</acid_sensor>
 	
-			<shock_sensor x="12" y="128" width="116" height="18">
+			<shock_sensor x="12" y="112" width="116" height="18">
 				<state_progress x="19" y="1" width="98" height="18" horz="1" min="0" max="1" pos="0">
 					<progress stretch="1">
 						<texture r="100" g="100" b="100">ui_inGame2_inventory_progress_bar</texture>
@@ -485,7 +485,7 @@
 				</state_progress>
 			</shock_sensor>
 	
-			<fire_sensor x="12" y="156" width="116" height="18">
+			<fire_sensor x="12" y="136" width="116" height="18">
 				<state_progress x="19" y="1" width="98" height="18" horz="1" min="0" max="1" pos="0">
 					<progress stretch="1">
 						<texture r="100" g="100" b="100">ui_inGame2_inventory_progress_bar</texture>
@@ -493,7 +493,7 @@
 				</state_progress>
 			</fire_sensor>
 	
-			<psi_sensor x="139" y="72" width="116" height="18">
+			<psi_sensor x="139" y="64" width="116" height="18">
 				<state_progress x="19" y="1" width="98" height="18" horz="1" min="0" max="1" pos="0">
 					<progress stretch="1">
 						<texture r="100" g="100" b="100">ui_inGame2_inventory_progress_bar</texture>
@@ -501,7 +501,7 @@
 				</state_progress>
 			</psi_sensor>
 	
-			<wound_sensor x="139" y="100" width="116" height="18">
+			<wound_sensor x="139" y="88" width="116" height="18">
 				<state_progress x="19" y="1" width="98" height="18" horz="1" min="0" max="1" pos="0">
 					<progress stretch="1">
 						<texture r="100" g="100" b="100">ui_inGame2_inventory_progress_bar</texture>
@@ -509,7 +509,7 @@
 				</state_progress>
 			</wound_sensor>
 	
-			<fire_wound_sensor x="139" y="128" width="116" height="18">
+			<fire_wound_sensor x="139" y="112" width="116" height="18">
 				<state_progress x="19" y="1" width="98" height="18" horz="1" min="0" max="1" pos="0">
 					<progress stretch="1">
 						<texture r="100" g="100" b="100">ui_inGame2_inventory_progress_bar</texture>
@@ -517,15 +517,23 @@
 				</state_progress>
 			</fire_wound_sensor>
 	
-			<power_sensor x="139" y="156" width="116" height="18">
-				<state_progress x="19" y="1" width="98" height="18" horz="1" min="0" max="1" pos="0">
+			<power_sensor x="139" y="136" width="116" height="18">
+				<state_progress x="19" y="1" width="98" height="18" horz="1" min="0" max="15" pos="0">
 					<progress stretch="1">
 						<texture r="100" g="100" b="100">ui_inGame2_inventory_progress_bar</texture>
 					</progress>
 				</state_progress>
 			</power_sensor>
 
-			<thirst_sensor x="179" y="156" width="116" height="18">
+			<hunger_sensor x="12" y="162" width="116" height="18">
+				<state_progress x="19" y="1" width="98" height="18" horz="1" min="0" max="1" pos="0">
+					<progress stretch="1">
+						<texture r="100" g="100" b="100">ui_inGame2_inventory_progress_bar</texture>
+					</progress>
+				</state_progress>
+			</hunger_sensor>
+
+			<thirst_sensor x="99" y="162" width="116" height="18">
 				<state_progress x="19" y="1" width="98" height="18" horz="1" min="0" max="1" pos="0">
 					<progress stretch="1">
 						<texture r="100" g="100" b="100">ui_inGame2_inventory_progress_bar</texture>
@@ -533,7 +541,7 @@
 				</state_progress>
 			</thirst_sensor>
 			
-			<sleep_sensor x="219" y="156" width="116" height="18">
+			<sleep_sensor x="186" y="162" width="116" height="18">
 				<state_progress x="19" y="1" width="98" height="18" horz="1" min="0" max="1" pos="0">
 					<progress stretch="1">
 						<texture r="100" g="100" b="100">ui_inGame2_inventory_progress_bar</texture>
@@ -572,15 +580,15 @@
 		</community>
 		<icon x="269" y="16" width="99" height="87" stretch="1"/>
 		<money x="140" y="80" width="104" height="22">
-			<text font="letterica18" align="r"/>
+			<text align="r" font="letterica18"/>
 		</money>
 		
 		<!-- weight -->
 		<weight_caption x="200" y="742" width="57" height="16">
 			<text align="r" font="letterica16" color="ui_3">ui_total_weight</text>
 		</weight_caption>
-		<weight x="260" y="742" width="35" height="16">
-			<text font="letterica18" color="ui_7" align="r"/>
+		<weight x="260" y="742" width="35" height="16">	
+			<text align="r" font="letterica18" color="ui_7"/>			
 		</weight>
 		<weight_max x="302" y="742" width="68" height="16">
 			<text align="l" font="letterica16" color="ui_3"/>
@@ -632,21 +640,21 @@
 	    </background>
 		
 		<!-- info -->
+		<name x="17" y="28" width="217" height="16">
+			<text align="l" font="letterica18" color="ui_2"/>
+		</name>
 		<community_overlay x="120" y="20" width="84" height="46" stretch="1" />
 		<community_icon x="30" y="28" width="127" height="56" stretch="1" />
 		<rank x="17" y="67" width="217" height="14">
 			<text align="l" font="letterica16" color="ui_3"/>
 		</rank>
 		<rank_icon x="212" y="20" width="33" height="47" stretch="1"/>
-		<name x="17" y="28" width="217" height="16">
-			<text align="l" font="letterica18" color="ui_2"/>
-		</name>
 		<community x="17" y="46" width="217" height="14">
 			<text align="l" font="letterica16" color="ui_3"/>
 		</community>
 		<icon x="269" y="16" width="99" height="87" stretch="1"/>
 		<money x="140" y="80" width="104" height="22">
-			<text font="letterica18" align="r"/>
+			<text align="r" font="letterica18"/>
 		</money>
 		
 		<!-- upgrade window -->

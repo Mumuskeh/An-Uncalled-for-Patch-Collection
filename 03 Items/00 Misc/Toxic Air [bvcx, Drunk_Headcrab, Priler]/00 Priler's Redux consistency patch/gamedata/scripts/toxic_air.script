@@ -1832,6 +1832,7 @@ local trade_table = {
 			["af_mask_filter_1_gp5"] = 2,
 			["af_mask_filter_2_m10"] = 2,
 			["af_mask_filter_3_fp5"] = 2,
+			["af_mask_filter_4_n750_cs"] = 1,
 		},
 	},
 

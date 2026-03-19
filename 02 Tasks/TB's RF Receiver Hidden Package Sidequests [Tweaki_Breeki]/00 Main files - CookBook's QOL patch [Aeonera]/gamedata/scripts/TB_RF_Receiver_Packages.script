@@ -40,8 +40,9 @@
 --1.5.1
 --unfucked faction check added for previous update
 
---Uncalled for Patch Collection:
+--Uncalled for Patch Collection. With assistance from Antglobes:
 --Added new hidden loot tables
+--Try to scale the hostile NPCs spawning near the package
 
 --[TB] VARIABLES NEEDED TO STORE INFORMATION FOR SAVING AND LOADING
 tb_target_item = 0
@@ -1279,40 +1280,29 @@ function give_bonus_items()
 		artefactpool = tb_artefacts_up
 	end
 
-	if (actor_faction = "army") then
+	if (actor_faction == "army") then
 		factionpool = mc_faction_army
-	else
-	if (actor_faction = "bandit") then
+	elseif (actor_faction == "bandit") then
 		factionpool = mc_faction_bandit
-	else
-	if (actor_faction = "csky") then
+	elseif (actor_faction == "csky") then
 		factionpool = mc_faction_csky
-	else
-	if (actor_faction = "dolg") then
+	elseif (actor_faction == "dolg") then
 		factionpool = mc_faction_dolg
-	else
-	if (actor_faction = "ecolog") then
+	elseif (actor_faction == "ecolog") then
 		factionpool = mc_faction_ecolog
-	else
-	if (actor_faction = "freedom") then
+	elseif (actor_faction == "freedom") then
 		factionpool = mc_faction_freedom
-	else
-	if (actor_faction = "greh") then
+	elseif (actor_faction == "greh") then
 		factionpool = mc_faction_greh
-	else
-	if (actor_faction = "isg") then
+	elseif (actor_faction == "isg") then
 		factionpool = mc_faction_isg
-	else
-	if (actor_faction = "killer") then
+	elseif (actor_faction == "killer") then
 		factionpool = mc_faction_killer
-	else
-	if (actor_faction = "monolith") then
+	elseif (actor_faction == "monolith") then
 		factionpool = mc_faction_monolith
-	else
-	if (actor_faction = "renegade") then
+	elseif (actor_faction == "renegade") then
 		factionpool = mc_faction_renegade
-	else
-	if (actor_faction = "stalker") then
+	elseif (actor_faction == "stalker") then
 		factionpool = mc_faction_stalker
 	end
 
@@ -1693,14 +1683,11 @@ function spawn_some_badguys()
 			
 			if (actor_rank <= 6499) then
 				abadguy = tb_maybe_badguys_1[badguygroup][math.random(#tb_maybe_badguys_1[badguygroup])]
-			else
-			if (actor_rank >= 9000) then
+			elseif (actor_rank >= 9000) then
 				abadguy = tb_maybe_badguys_2[badguygroup][math.random(#tb_maybe_badguys_2[badguygroup])]
-			else
-			if (actor_rank >= 12000) then
+			elseif (actor_rank >= 12000) then
 				abadguy = tb_maybe_badguys_3[badguygroup][math.random(#tb_maybe_badguys_3[badguygroup])]
-			else
-			if (actor_rank >= 18000) then
+			elseif (actor_rank >= 18000) then
 				abadguy = tb_maybe_badguys_4[badguygroup][math.random(#tb_maybe_badguys_4[badguygroup])]
 			end
 

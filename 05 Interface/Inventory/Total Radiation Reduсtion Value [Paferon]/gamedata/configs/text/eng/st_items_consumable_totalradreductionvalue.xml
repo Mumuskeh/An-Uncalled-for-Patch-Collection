@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_vodka_descr">
+		<text>Nemiroff is a Ukrainian producer of alcoholic beverages, specialising in vodkas and other spirits, based in the town of Nemyriv in the Vinnytska oblast. One of the best vodkas in the world and - by extension - in the Zone.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 20 mSv/sec., total - 716 mSv\n
+		%c[ui_gray_3]NOTE:\n \n
+		%c[ui_gray_1]It is commonly known that this brand of alcohol is preferred by the Ecologist's chef at Yantar. Rumours exist that he'll happily smuggle military gear into the hands of common stalkers in exchange for a few swigs from a bottle, but such stories have yet to be substantiated.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_red] • %c[ui_gray_2] strong alcohol\n
+		</text>
+	</string>
+
+	<string id="st_vodka2_descr">
+		<text>Following the tradition of naming vodka brands after Russian leaders, Putinka first went into production after Vladimir Putin was elected president. Produced in Russia from the finest grain and crystal clear water from Siberian springs. Triple purification, smooth texture, unique taste are not the only characteristics of this beverage. Drink with moderation.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 29 mSv/sec., total - 1084 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_red] • %c[ui_gray_2] strong alcohol\n
+		</text>
+	</string>
+
+	<string id="st_vodka_quality_descr">
+		<text>A favourite amongst Russians and many people the world over. A Russian vodka of high quality. Highly popular in the Zone and widely available most probably owing to an outside connection of one of the traders. In order to avoid detection by the military units stationing around the Zone, it is usually shipped in army containers or metal barrels, and then distributed in sturdy metal bottles.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 34 mSv/sec., total - 1205 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_red] • %c[ui_gray_2] strong alcohol\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		</text>
+	</string>
+
+	<string id="st_beer_descr">
+		<text>Ukrainian beer. Another - beside vodka - popular beverage in the Zone.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 14 mSv/sec., total - 433 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_red] • %c[ui_gray_2] light alcohol\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		</text>
+	</string>
+
+	<string id="st_bottle_metal_descr">
+		<text>Metal bottle containing a portion of what seems to be Zone-produced vodka. It doesn't smell right and the fumes are strong.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 19 mSv/sec., total - 540 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_red] • %c[ui_gray_2] strong, low quality alcohol\n
+		</text>
+	</string>
+
+	<string id="st_energy_drink_descr">
+		<text>Often used by stalkers on long trips due to its exhilarating effect when you're tired. The drink also sobers you up a bit if you're drunk as well as induces the release of adrenaline into the bloodstream. Do not overdose.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 1.2 mSv/sec., total - 326 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_blue] • %c[ui_gray_2] potent alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+
+	<string id="st_flask_descr">
+		<text>Military flasks are intended for storing small amounts of water. Prepared by medics and scientists. First, the water - combined with a special type of alcohol - is boiled at a very high temperature for purification and disinfection. Afterwards, it is cooled in refrigerators, to which it owes its refreshing "spark." The end result is water that is completely radiation-free. If in spite of the above, you still have doubts concerning its purity, you can always use akvatab. Due to the cost of production, military flasks are in a limited supply and are sold at a moderate price. Medics also have them in stock, but they're slightly more expensive as they include the cost of transportation.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 6.5 mSv/sec., total - 202 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+
+	<string id="st_tea_descr">
+		<text>Beard's popular hot tea made from a mixture of sugar, edible dried mushrooms and boiled water that is said to be radiation-free. Stalkers who can afford to buy the drink often take it for long trips in the Zone. It's a good and healthy way to stay on your toes when you're getting tired or when you're out exploring on cold nights.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 30 mSv/sec., total - 1131 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] potent alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source \n
+		</text>
+	</string>
+
+	<string id="st_mint_descr">
+		<text>Mint-flavoured altoids imported from the West. They are highly refreshing and remove radiation particles from the mouth. They also seem to reduce sleepiness for a short while. You can take as many as 10 mints at a time but that's only because your mouth isn't able to fit any more.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 5.6 mSv/sec., total - 78 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		</text>
+	</string>
+
+	<string id="st_mineral_water_descr">
+		<text>Mineral water from Ukrainian springs. Carbonated and with additional calcium.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 15 mSv/sec., total - 522 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+
+	<string id="st_water_drink_descr">
+		<text>Sparkling water for thirsty stalkers. It has some exhilarating effect when you're tired.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 10 mSv/sec., total - 313 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] drink\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] clean nutrition source\n
+		</text>
+	</string>
+
+	<string id="st_drink_crow_descr">
+		<text>"The Beak" is a powerful mixture of Zone-produced vodka and pulverised beak of a black crow. Not every beak can be used as an ingredient, because only black male crows that have lived in the Zone for more than 15 years have mutated sufficiently. The rumour has it that such beaks contain a form of enriched protein that cleanses moderate amounts of radiation from the body. Some even say that drinking "the Beak" makes you feel like you have wings for a few seconds. On the downside, however, the taste itself is awful.\n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 20 mSv/sec., total - 3561 mSv\n
+		</text>
+	</string>
+
+	<string id="st_cuban_cigar_descr">
+		<text>This valuable Cuban cigar can bring you bliss for a short while, especially when you're admiring a nice sunset. Some stalkers noticed that smoking strong tobacco repels mosquitoes. Cuban cigars are considered the finest in the world. A rare commodity.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 21 mSv/sec., total - 1155 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_blue] • %c[ui_gray_2] imported\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_blue] • %c[ui_gray_2] valuable\n
+		%c[d_blue] • %c[ui_gray_2] potent alcohol sobering effect\n
+		</text>
+	</string>
+
+	<string id="st_cigarettes_lucky_descr">
+		<text>Cigarettes imported from the West. Some stalkers trade them for a few rounds of ammo within their faction.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 15 mSv/sec., total - 804 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		</text>
+	</string>
+
+	<string id="st_cigarettes_russian_descr">
+		<text>The cheapest pack of cigarettes in the Zone. Russian budget brand.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 5.6 mSv/sec., total - 268 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_red] • %c[ui_gray_2] low quality\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		</text>
+	</string>
+
+	<string id="st_cigar1_descr">
+		<text>A pack of budget, strong and very low quality cigarettes. Someone must have smoked most of them since there are only a few left. Genuine USSR flavour has been carefully preserved.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 13 mSv/sec., total - 796 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		</text>
+	</string>
+
+	<string id="st_cigar2_descr">
+		<text>A pack of budget, strong and very low quality cigarettes. Someone must have smoked most of them since there are only a few left. Genuine USSR flavour has been carefully preserved.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 19 mSv/sec., total - 992 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		</text>
+	</string>
+
+	<string id="st_cigar3_descr">
+		<text>A pack of budget, strong and very low quality cigarettes. Someone must have smoked most of them since there are only a few left. Genuine USSR flavour has been carefully preserved.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 21 mSv/sec., total - 1155 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		</text>
+	</string>
+
+	<string id="st_hand_rolling_tobacco_descr">
+		<text>Precious hand-rolling tobacco, imported from the West. With no additional ingredients, so it's possible to enjoy the original taste of tobacco leaf itself.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 33 mSv/sec., total - 502 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_red] • %c[ui_gray_2] slow usage (roll up)\n
+		%c[d_blue] • %c[ui_gray_2] potent alcohol sobering effect\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		</text>
+	</string>
+
+	<string id="st_cigarettes_descr">
+		<text>Cigarettes imported from the West. Someone must have smoked most of them since there are only a few left. Smoking just one may stabilise your mental state and satisfies hunger a bit. They are rare in the Zone and quite valuable.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 14 mSv/sec., total - 750 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_blue] • %c[ui_gray_2] mild alcohol sobering effect\n
+		</text>
+	</string>
+
+	<string id="st_tobacco_descr">
+		<text>Cigarettes are expensive and rare in the Zone, and having raw tobacco enables you to produce your own cigs at a lower cost. This tin is sealed, which ensures that the tobacco will stay fresh for days or weeks depending on the conditions it's kept in.\n \n
+		%c[ui_gray_3]RADIATION:\n
+		%c[0,250,250,0] • %c[ui_gray_2] Removes 28 mSv/sec., total - 567 mSv\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] stimulant\n
+		%c[d_red] • %c[ui_gray_2] slow usage (roll up)\n
+		%c[d_blue] • %c[ui_gray_2] potent alcohol sobering effect\n
+		%c[d_red] • %c[ui_gray_2] low quality\n
+		</text>
+	</string>
+
+</string_table>

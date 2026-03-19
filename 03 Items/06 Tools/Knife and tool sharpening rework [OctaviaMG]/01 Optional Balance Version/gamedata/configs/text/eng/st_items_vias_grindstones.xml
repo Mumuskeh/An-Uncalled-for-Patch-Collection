@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_sharpening_stones">
+		<text>Three-piece sharpening stone set</text>
+	</string>
+	<string id="st_sharpening_stones_descr">
+		<text>\n \n
+		%c[ui_gray_2]COMPATIBILITY:\n \n
+		%c[d_orange] • %c[ui_gray_2] suited for knives and blades\n \n
+		%c[ui_gray_1]Blunt knives and tools? It doesn't have to be that way. Super-practical 3 piece grindstone set for everyone, packed in a nice polyester bag. No more loose grindstone, sliding about in drawers, scratching everything - no, everything is now in its place. For perfect sharpening, three important grains for pre-grinding, sharpening and for the subsequent stripping of the blade are integrated in the set, so you can achieve a razor-sharp cutting edge. Works better when lubrified by water or grease.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] toolkit\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_orange] • %c[ui_gray_2] usable for repairing equipment\n
+		</text>
+	</string>
+
+</string_table>
