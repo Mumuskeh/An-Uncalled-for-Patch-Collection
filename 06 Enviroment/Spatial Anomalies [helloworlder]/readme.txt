@@ -1,6 +1,8 @@
 -Module:
 Spatial Anomalies [helloworlder]
 
+With additional fixes by Ghstkng.
+
 ----------------------------------------------------------
 -Compatibility:
 NOTE: You still need the original mod. Disable the following folders:
