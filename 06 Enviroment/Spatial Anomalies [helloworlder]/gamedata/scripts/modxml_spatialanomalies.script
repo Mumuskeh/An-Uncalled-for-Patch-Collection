@@ -1,5 +1,5 @@
 function on_game_start()
-    RegisterScriptCallback("on_specific_character_init", function(character_id, data)
+    RegisterScriptCallback("on_specific_character_dialog_list", function(character_id, dialog_list)
 
         if character_id == "zat_b18_noah" then
             local res = dialog_list:add("ask_about_compass")
