@@ -11,6 +11,9 @@ Configs file spring cleaned a bit.
 Streamlined trade files.
 Icons moved into a file of their own, sharpened up a little bit, and reorganized.
 
+Integration into:
+Dynamic Discounts
+
 ----------------------------------------------------------
 -Patches:
 

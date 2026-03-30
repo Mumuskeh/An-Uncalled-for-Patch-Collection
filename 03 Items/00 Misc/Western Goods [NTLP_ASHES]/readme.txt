@@ -7,6 +7,9 @@ Western Goods [NTLP_ASHES]
 ----------------------------------------------------------
 -Explanation:
 
+Integration into:
+Dynamic Discounts
+
 ----------------------------------------------------------
 -Patches:
 

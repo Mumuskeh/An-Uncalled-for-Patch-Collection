@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_dr_pepper">
+		<text>Dr Pepper</text>
+	</string>
+	<string id="st_dr_pepper_descr">
+		<text>Dr Pepper is a carbonated soft drink. Although not very popular in the Zone, it can often be seen with Ecologists.\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] � %c[ui_gray_2] delicious drink\n
+		%c[d_blue] � %c[ui_gray_2] mild nutrition source\n
+		%c[d_blue] � %c[ui_gray_2] mild energy effect\n
+		</text>
+	</string>
+</string_table>

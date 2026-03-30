@@ -11,6 +11,9 @@ Prepared for use with Basic Trader Profiles Expansion.
 
 Icon file made DX8-9 compliant.
 
+Integration into:
+Dynamic Discounts
+
 ----------------------------------------------------------
 -Patches:
 

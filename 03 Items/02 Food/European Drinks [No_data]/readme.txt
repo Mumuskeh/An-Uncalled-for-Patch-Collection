@@ -19,6 +19,7 @@ Added basic animation settings.
 Integrated into vanilla stash and rewards systems.
 
 Integration into:
+Dynamic Discounts
 Grok's Stash Overhaul
 
 ----------------------------------------------------------
