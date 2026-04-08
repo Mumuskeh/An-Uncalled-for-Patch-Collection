@@ -1,0 +1,15 @@
+base_slot_has_filter = toxic_air.slot_has_filter()
+
+function toxic_air.slot_has_filter()
+	local outfit = db.actor:item_in_slot(7)
+	local helmet = db.actor:item_in_slot(12)
+	if (outfit and filters[outfit:id()]) or (helmet and filters[helmet:id()]) then
+		return true
+	end
+	
+	-- if not helmet then
+		-- return true
+	-- end
+
+	return false
+end

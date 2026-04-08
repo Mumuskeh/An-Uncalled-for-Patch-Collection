@@ -249,8 +249,6 @@ function actor_on_before_hit(s_hit)
 	if not helmet then return end
     local headgear_radiation_protection = (helmet and get_radiation_protection(helmet)) or 0
 
-
-
 	if (tank_air_protection + filter_air_protection) > 0 then
 		return
 	end
@@ -262,8 +260,6 @@ function actor_on_before_hit(s_hit)
 	--if (helmet and filters[helmet:id()]) then
 	--	return
 	--end
-
-
 
 	local hit_type_rad = HitTypeID["Radiation"]
 
@@ -936,278 +932,279 @@ function oxygen_tank:load(stpk)
 end
 
 -------------------------- trader artiinject -------------------------
-local trade_table = {
+-- local trade_table = {
 
-	["bandit"] = {
-		[1] = {
-			["af_oxygen_tank_1"] = 1,
-			["af_mask_filter_1_gp5"] = 1,
-		},
-		[2] = {
-			["af_oxygen_tank_1"] = 1,
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_1_gp5"] = 2,
-			["af_mask_filter_2_mof6"] = 1,
-		},
-		[3] = {
-			["af_oxygen_tank_1"] = 2,
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_1_gp5"] = 2,
-			["af_mask_filter_2_mof6"] = 1,
-			["af_mask_filter_2_m10"] = 1,
-			["af_mask_filter_3_fp5"] = 1,
-		},
-	},
+	-- ["bandit"] = {
+		-- [1] = {
+			-- ["af_oxygen_tank_1"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 1,
+		-- },
+		-- [2] = {
+			-- ["af_oxygen_tank_1"] = 1,
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 2,
+			-- ["af_mask_filter_2_mof6"] = 1,
+		-- },
+		-- [3] = {
+			-- ["af_oxygen_tank_1"] = 2,
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 2,
+			-- ["af_mask_filter_2_mof6"] = 1,
+			-- ["af_mask_filter_2_m10"] = 1,
+			-- ["af_mask_filter_3_fp5"] = 1,
+		-- },
+	-- },
 
-	["dolg"] = {
-		[1] = {
-			["af_oxygen_tank_1"] = 1,
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_1_gp5"] = 1,
-		},
-		[2] = {
-			["af_oxygen_tank_1"] = 2,
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_1_gp5"] = 1,
-			["af_mask_filter_2_m10_dolg"] = 2,
-		},
-		[3] = {
-			["af_oxygen_tank_1"] = 2,
-			["af_oxygen_tank_2"] = 2,
-			["af_mask_filter_1_gp5"] = 2,
-			["af_mask_filter_2_m10_dolg"] = 3,
-			["af_mask_filter_3_fp5"] = 1,
-		},
-	},
+	-- ["dolg"] = {
+		-- [1] = {
+			-- ["af_oxygen_tank_1"] = 1,
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 1,
+		-- },
+		-- [2] = {
+			-- ["af_oxygen_tank_1"] = 2,
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 1,
+			-- ["af_mask_filter_2_m10_dolg"] = 2,
+		-- },
+		-- [3] = {
+			-- ["af_oxygen_tank_1"] = 2,
+			-- ["af_oxygen_tank_2"] = 2,
+			-- ["af_mask_filter_1_gp5"] = 2,
+			-- ["af_mask_filter_2_m10_dolg"] = 3,
+			-- ["af_mask_filter_3_fp5"] = 1,
+		-- },
+	-- },
 
-	["ecolog"] = {
-		[1] = {
-			["af_oxygen_tank_2"] = 1,
-			["af_oxygen_tank_3"] = 1,
-			["af_mask_filter_1_m58_sci"] = 1,
-			["af_mask_filter_2_m10"] = 1,
-		},
-		[2] = {
-			["af_oxygen_tank_2"] = 2,
-			["af_oxygen_tank_3"] = 1,
-			["af_mask_filter_2_m10"] = 2,
-			["af_mask_filter_3_nbc70"] = 1,
-		},
-		[3] = {
-			["af_oxygen_tank_2"] = 2,
-			["af_oxygen_tank_3"] = 2,
-			["af_mask_filter_2_m10"] = 2,
-			["af_mask_filter_3_nbc70"] = 2,
-		},
-	},
+	-- ["ecolog"] = {
+		-- [1] = {
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_oxygen_tank_3"] = 1,
+			-- ["af_mask_filter_1_m58_sci"] = 1,
+			-- ["af_mask_filter_2_m10"] = 1,
+		-- },
+		-- [2] = {
+			-- ["af_oxygen_tank_2"] = 2,
+			-- ["af_oxygen_tank_3"] = 1,
+			-- ["af_mask_filter_2_m10"] = 2,
+			-- ["af_mask_filter_3_nbc70"] = 1,
+		-- },
+		-- [3] = {
+			-- ["af_oxygen_tank_2"] = 2,
+			-- ["af_oxygen_tank_3"] = 2,
+			-- ["af_mask_filter_2_m10"] = 2,
+			-- ["af_mask_filter_3_nbc70"] = 2,
+		-- },
+	-- },
 
-	["freedom"] = {
-		[1] = {
-			["af_oxygen_tank_1"] = 1,
-			["af_mask_filter_1_gp5"] = 1,
-			["af_mask_filter_2_m10"] = 1,
-		},
-		[2] = {
-			["af_oxygen_tank_1"] = 1,
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_1_gp5"] = 2,
-			["af_mask_filter_2_m10"] = 2,
-		},
-		[3] = {
-			["af_oxygen_tank_1"] = 1,
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_1_gp5"] = 2,
-			["af_mask_filter_2_m10"] = 3,
-			["af_mask_filter_3_fp5"] = 1,
-		},
-	},
+	-- ["freedom"] = {
+		-- [1] = {
+			-- ["af_oxygen_tank_1"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 1,
+			-- ["af_mask_filter_2_m10"] = 1,
+		-- },
+		-- [2] = {
+			-- ["af_oxygen_tank_1"] = 1,
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 2,
+			-- ["af_mask_filter_2_m10"] = 2,
+		-- },
+		-- [3] = {
+			-- ["af_oxygen_tank_1"] = 1,
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 2,
+			-- ["af_mask_filter_2_m10"] = 3,
+			-- ["af_mask_filter_3_fp5"] = 1,
+		-- },
+	-- },
 
-	["killer"] = {
-		[1] = {
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_0_ms4"] = 1,
-		},
-		[2] = {
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_0_ms4"] = 1,
-			["af_mask_filter_2_m10"] = 1,
-		},
-		[3] = {
-			["af_oxygen_tank_2"] = 2,
-			["af_oxygen_tank_3"] = 1,
-			["af_mask_filter_0_ms4"] = 1,
-			["af_mask_filter_2_m10"] = 2,
-			["af_mask_filter_3_nbc70"] = 1,
-		},
-	},
+	-- ["killer"] = {
+		-- [1] = {
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_0_ms4"] = 1,
+		-- },
+		-- [2] = {
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_0_ms4"] = 1,
+			-- ["af_mask_filter_2_m10"] = 1,
+		-- },
+		-- [3] = {
+			-- ["af_oxygen_tank_2"] = 2,
+			-- ["af_oxygen_tank_3"] = 1,
+			-- ["af_mask_filter_0_ms4"] = 1,
+			-- ["af_mask_filter_2_m10"] = 2,
+			-- ["af_mask_filter_3_nbc70"] = 1,
+		-- },
+	-- },
 
-	["army"] = {
-		[1] = {
-			["af_oxygen_tank_2"] = 1,
-		},
-		[2] = {
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_1_gp5"] = 1,
-		},
-		[3] = {
-			["af_oxygen_tank_1"] = 2,
-			["af_oxygen_tank_2"] = 2,
-			["af_oxygen_tank_3"] = 1,
-			["af_mask_filter_1_gp5"] = 1,
-			["af_mask_filter_2_m10"] = 1,
-			["af_mask_filter_3_fp5"] = 1,
-		},
-	},
+	-- ["army"] = {
+		-- [1] = {
+			-- ["af_oxygen_tank_2"] = 1,
+		-- },
+		-- [2] = {
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 1,
+		-- },
+		-- [3] = {
+			-- ["af_oxygen_tank_1"] = 2,
+			-- ["af_oxygen_tank_2"] = 2,
+			-- ["af_oxygen_tank_3"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 1,
+			-- ["af_mask_filter_2_m10"] = 1,
+			-- ["af_mask_filter_3_fp5"] = 1,
+		-- },
+	-- },
 
-	["monolith"] = {
-		[1] = {
-			["af_oxygen_tank_1"] = 1,
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_1_gp5"] = 1,
-			["af_mask_filter_2_m10"] = 1,
-		},
-		[2] = {
-			["af_oxygen_tank_1"] = 1,
-			["af_oxygen_tank_2"] = 2,
-			["af_mask_filter_1_gp5"] = 2,
-			["af_mask_filter_2_m10"] = 1,
-		},
-		[3] = {
-			["af_oxygen_tank_1"] = 1,
-			["af_oxygen_tank_2"] = 2,
-			["af_oxygen_tank_3"] = 1,
-			["af_mask_filter_1_gp5"] = 2,
-			["af_mask_filter_2_m10"] = 2,
-			["af_mask_filter_3_nbc70"] = 1,
-		},
-	},
+	-- ["monolith"] = {
+		-- [1] = {
+			-- ["af_oxygen_tank_1"] = 1,
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 1,
+			-- ["af_mask_filter_2_m10"] = 1,
+		-- },
+		-- [2] = {
+			-- ["af_oxygen_tank_1"] = 1,
+			-- ["af_oxygen_tank_2"] = 2,
+			-- ["af_mask_filter_1_gp5"] = 2,
+			-- ["af_mask_filter_2_m10"] = 1,
+		-- },
+		-- [3] = {
+			-- ["af_oxygen_tank_1"] = 1,
+			-- ["af_oxygen_tank_2"] = 2,
+			-- ["af_oxygen_tank_3"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 2,
+			-- ["af_mask_filter_2_m10"] = 2,
+			-- ["af_mask_filter_3_nbc70"] = 1,
+		-- },
+	-- },
 
-	["stalker"] = {
-		[1] = {
-			["af_oxygen_tank_1"] = 1,
-			["af_mask_filter_1_gp5"] = 1,
-		},
-		[2] = {
-			["af_oxygen_tank_1"] = 2,
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_1_gp5"] = 2,
-			["af_mask_filter_2_m10"] = 1,
-		},
-		[3] = {
-			["af_oxygen_tank_1"] = 3,
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_1_gp5"] = 3,
-			["af_mask_filter_2_m10"] = 1,
-			["af_mask_filter_3_fp5"] = 1,
-		},
-	},
+	-- ["stalker"] = {
+		-- [1] = {
+			-- ["af_oxygen_tank_1"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 1,
+		-- },
+		-- [2] = {
+			-- ["af_oxygen_tank_1"] = 2,
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 2,
+			-- ["af_mask_filter_2_m10"] = 1,
+		-- },
+		-- [3] = {
+			-- ["af_oxygen_tank_1"] = 3,
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 3,
+			-- ["af_mask_filter_2_m10"] = 1,
+			-- ["af_mask_filter_3_fp5"] = 1,
+		-- },
+	-- },
 
-	["csky"] = {
-		[1] = {
-			["af_oxygen_tank_1"] = 1,
-			["af_oxygen_tank_1_soviet"] = 1,
-			["af_mask_filter_1_gp5"] = 1,
-		},
-		[2] = {
-			["af_oxygen_tank_1"] = 2,
-			["af_oxygen_tank_1_soviet"] = 1,
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_1_gp5"] = 1,
-			["af_mask_filter_2_m10"] = 2,
-		},
-		[3] = {
-			["af_oxygen_tank_1"] = 3,
-			["af_oxygen_tank_1_soviet"] = 1,
-			["af_oxygen_tank_2"] = 1,
-			["af_oxygen_tank_3"] = 1,
-			["af_mask_filter_1_gp5"] = 2,
-			["af_mask_filter_2_m10"] = 2,
-			["af_mask_filter_3_fp5"] = 1,
-		},
-		[5] = {
-			["af_oxygen_tank_1"] = 3,
-			["af_oxygen_tank_1_soviet"] = 1,
-			["af_oxygen_tank_2"] = 1,
-			["af_oxygen_tank_3"] = 1,
-			["af_mask_filter_1_gp5"] = 2,
-			["af_mask_filter_2_m10"] = 2,
-			["af_mask_filter_3_fp5"] = 2,
-			["af_mask_filter_4_n750_cs"] = 1,
-		},
-	},
+	-- ["csky"] = {
+		-- [1] = {
+			-- ["af_oxygen_tank_1"] = 1,
+			-- ["af_oxygen_tank_1_soviet"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 1,
+		-- },
+		-- [2] = {
+			-- ["af_oxygen_tank_1"] = 2,
+			-- ["af_oxygen_tank_1_soviet"] = 1,
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 1,
+			-- ["af_mask_filter_2_m10"] = 2,
+		-- },
+		-- [3] = {
+			-- ["af_oxygen_tank_1"] = 3,
+			-- ["af_oxygen_tank_1_soviet"] = 1,
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_oxygen_tank_3"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 2,
+			-- ["af_mask_filter_2_m10"] = 2,
+			-- ["af_mask_filter_3_fp5"] = 1,
+		-- },
+		-- [5] = {
+			-- ["af_oxygen_tank_1"] = 3,
+			-- ["af_oxygen_tank_1_soviet"] = 1,
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_oxygen_tank_3"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 2,
+			-- ["af_mask_filter_2_m10"] = 2,
+			-- ["af_mask_filter_3_fp5"] = 2,
+			-- ["af_mask_filter_4_n750_cs"] = 1,
+		-- },
+	-- },
 
-	["isg"] = {
-		[1] = {
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_2_m10"] = 1,
-		},
-		[2] = {
-			["af_oxygen_tank_2"] = 2,
-			["af_oxygen_tank_3"] = 1,
-			["af_mask_filter_2_m10"] = 1,
-			["af_mask_filter_3_nbc77_isg"] = 1,
-		},
-		[3] = {
-			["af_oxygen_tank_2"] = 2,
-			["af_oxygen_tank_3"] = 1,
-			["af_mask_filter_2_m10"] = 2,
-			["af_mask_filter_3_nbc77_isg"] = 2,
-		},
-	},
+	-- ["isg"] = {
+		-- [1] = {
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_2_m10"] = 1,
+		-- },
+		-- [2] = {
+			-- ["af_oxygen_tank_2"] = 2,
+			-- ["af_oxygen_tank_3"] = 1,
+			-- ["af_mask_filter_2_m10"] = 1,
+			-- ["af_mask_filter_3_nbc77_isg"] = 1,
+		-- },
+		-- [3] = {
+			-- ["af_oxygen_tank_2"] = 2,
+			-- ["af_oxygen_tank_3"] = 1,
+			-- ["af_mask_filter_2_m10"] = 2,
+			-- ["af_mask_filter_3_nbc77_isg"] = 2,
+		-- },
+	-- },
 
-	["renegade"] = {
-		[1] = {
-			["af_oxygen_tank_1"] = 1,
-			["af_oxygen_tank_1_soviet"] = 1,
-			["af_mask_filter_1_gp5"] = 1,
-			["af_mask_filter_1_dp1"] = 1,
-		},
-		[2] = {
-			["af_oxygen_tank_1"] = 1,
-			["af_oxygen_tank_1_soviet"] = 1,
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_1_gp5"] = 1,
-			["af_mask_filter_1_dp1"] = 1,
-		},
-		[3] = {
-			["af_oxygen_tank_1"] = 2,
-			["af_oxygen_tank_1_soviet"] = 1,
-			["af_oxygen_tank_2"] = 1,
-			["af_mask_filter_1_gp5"] = 1,
-			["af_mask_filter_1_dp1"] = 1,
-			["af_mask_filter_2_m10"] = 1,
-			["af_mask_filter_3_fp5"] = 1,
-		},
-	},
+	-- ["renegade"] = {
+		-- [1] = {
+			-- ["af_oxygen_tank_1"] = 1,
+			-- ["af_oxygen_tank_1_soviet"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 1,
+			-- ["af_mask_filter_1_dp1"] = 1,
+		-- },
+		-- [2] = {
+			-- ["af_oxygen_tank_1"] = 1,
+			-- ["af_oxygen_tank_1_soviet"] = 1,
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 1,
+			-- ["af_mask_filter_1_dp1"] = 1,
+		-- },
+		-- [3] = {
+			-- ["af_oxygen_tank_1"] = 2,
+			-- ["af_oxygen_tank_1_soviet"] = 1,
+			-- ["af_oxygen_tank_2"] = 1,
+			-- ["af_mask_filter_1_gp5"] = 1,
+			-- ["af_mask_filter_1_dp1"] = 1,
+			-- ["af_mask_filter_2_m10"] = 1,
+			-- ["af_mask_filter_3_fp5"] = 1,
+		-- },
+	-- },
 
-}
+-- }
 
-function oxygen_stock(npc)
+-- function oxygen_stock(npc)
 
-	local is_trader = trader_autoinject.get_trader_type(npc) == trader_autoinject.SUPPLIER
-	if not is_trader then return end
+	-- local is_trader = trader_autoinject.get_trader_type(npc) == trader_autoinject.SUPPLIER
+	-- if not is_trader then return end
 
-	local community = npc:character_community() or "stalker"
-	local trader_table = trade_table[community] or trade_table["stalker"]
-	local supply_level = clamp(trader_autoinject.supply_level(npc, true) or 1, 1, 3)
+	-- local community = npc:character_community() or "stalker"
+	-- local trader_table = trade_table[community] or trade_table["stalker"]
+	-- local supply_level = clamp(trader_autoinject.supply_level(npc, true) or 1, 1, 3)
 
-	local multiply_items_by = toxic_air_mcm.get_config("trader_items")
-	if trader_table[supply_level] then
-		for i = 1, multiply_items_by do
-			trader_autoinject.spawn_items(npc, trader_table[supply_level], true)
-		end
-	end
+	-- local multiply_items_by = toxic_air_mcm.get_config("trader_items")
+	-- if trader_table[supply_level] then
+		-- for i = 1, multiply_items_by do
+			-- trader_autoinject.spawn_items(npc, trader_table[supply_level], true)
+		-- end
+	-- end
 
-end
+-- end
 
-TraderAuto = trader_autoinject.update
+-- TraderAuto = trader_autoinject.update
 
-function trader_autoinject.update(npc)
-    TraderAuto(npc)
-    oxygen_stock(npc)
-end
+-- function trader_autoinject.update(npc)
+    -- TraderAuto(npc)
+    -- oxygen_stock(npc)
+-- end
 
 -------------------------- loot -------------------------
+-- MazConnelly: the % can be DLTX'd, but the condition is harder
 
 -- min: 5% = 35 ; 	10% = 50 ;		15% = 60 ;		20% = 65 ;		25% = 70 ;		30% = 74 ; 		35% = 77 ; 		40% = 80
 local loot_table = {
@@ -1428,13 +1425,9 @@ function ToxicAir:Update()
 	local cur_cond = f_cond or t_cond
 	if not cur_cond then return end
 
-
-
 	-- show bar
 	self.bg:Show(true)
 	self.bar:SetProgressPos(cur_cond)
-
-
 
 end
 

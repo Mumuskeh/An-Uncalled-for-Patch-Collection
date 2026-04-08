@@ -1,0 +1,269 @@
+[dolg_leader_pda]:tch_quest
+$spawn			= "food	and	drugs\medkit_ai1"											
+kind			= i_quest
+visual			= dynamics\devices\dev_pda\dev_pda.ogf
+inv_weight		= 0.05
+$prefetch		= 16
+description		= dolg_leader_pda_descr
+inv_name		= dolg_leader_pda_name
+inv_name_short	= dolg_leader_pda_name
+inv_grid_width	= 1
+inv_grid_height	= 1
+inv_grid_x		= 7
+inv_grid_y		= 3
+can_trade		= false
+cost			= 0
+
+story_id		= dolg_leader_pda_name
+
+[merc_leader_pda]:tch_quest
+$spawn			= "food	and	drugs\medkit_ai1"											
+kind			= i_quest
+visual			= dynamics\devices\dev_pda\dev_pda.ogf
+inv_weight		= 0.05
+$prefetch		= 16
+description		= merc_leader_pda_descr
+inv_name		= merc_leader_pda_name
+inv_name_short	= merc_leader_pda_name
+inv_grid_width	= 1
+inv_grid_height	= 1
+inv_grid_x		= 7
+inv_grid_y		= 3
+can_trade		= false
+cost			= 0
+
+story_id		= merc_leader_pda_name
+
+[freedom_leader_pda]:tch_quest
+$spawn			= "food	and	drugs\medkit_ai1"											
+kind			= i_quest
+visual			= dynamics\devices\dev_pda\dev_pda.ogf
+inv_weight		= 0.05
+$prefetch		= 16
+description		= freedom_leader_pda_descr
+inv_name		= freedom_leader_pda_name
+inv_name_short	= freedom_leader_pda_name
+inv_grid_width	= 1
+inv_grid_height	= 1
+inv_grid_x		= 7
+inv_grid_y		= 3
+can_trade		= false
+cost			= 0
+
+story_id		= freedom_leader_pda_name
+
+[bandit_leader_pda]:tch_quest
+$spawn			= "food	and	drugs\medkit_ai1"
+; quest_items\_leader_pda_name"
+kind			= i_quest
+visual			= dynamics\devices\dev_pda\dev_pda.ogf
+inv_weight		= 0.05
+$prefetch		= 16
+description		= bandit_leader_pda_descr
+inv_name		= bandit_leader_pda_name
+inv_name_short	= bandit_leader_pda_name
+inv_grid_width	= 1
+inv_grid_height	= 1
+inv_grid_x		= 7
+inv_grid_y		= 3
+can_trade		= false
+cost			= 0
+
+story_id		= bandit_leader_pda_name
+
+[monolith_leader_pda]:tch_quest
+$spawn			= "food	and	drugs\medkit_ai1"
+;quest_items\_leader_pda_name"
+kind			= i_quest
+visual			= dynamics\devices\dev_pda\dev_pda.ogf
+inv_weight		= 0.05
+$prefetch		= 16
+description		= monolith_leader_pda_descr
+inv_name		= monolith_leader_pda_name
+inv_name_short	= monolith_leader_pda_name
+inv_grid_width	= 1
+inv_grid_height	= 1
+inv_grid_x		= 7
+inv_grid_y		= 3
+can_trade		= false
+cost			= 0
+
+story_id		= monolith_leader_pda_name
+
+[sin_leader_pda]:tch_quest
+$spawn			= "food	and	drugs\medkit_ai1"
+;quest_items\_leader_pda_name"
+kind			= i_quest
+visual			= dynamics\devices\dev_pda\dev_pda.ogf
+inv_weight		= 0.05
+$prefetch		= 16
+description		= sin_leader_pda_descr
+inv_name		= sin_leader_pda_name
+inv_name_short	= sin_leader_pda_name
+inv_grid_width	= 1
+inv_grid_height	= 1
+inv_grid_x		= 7
+inv_grid_y		= 3
+can_trade		= false
+cost			= 0
+
+story_id		= sin_leader_pda_name
+
+[csky_leader_pda]:tch_quest
+$spawn			= "food	and	drugs\medkit_ai1"
+;quest_items\_leader_pda_name"
+kind			= i_quest
+visual			= dynamics\devices\dev_pda\dev_pda.ogf
+inv_weight		= 0.05
+$prefetch		= 16
+description		= csky_leader_pda_descr
+inv_name		= csky_leader_pda_name
+inv_name_short	= csky_leader_pda_name
+inv_grid_width	= 1
+inv_grid_height	= 1
+inv_grid_x		= 7
+inv_grid_y		= 3
+can_trade		= false
+cost			= 0
+
+story_id		= csky_leader_pda_name
+
+[dolg_stash]:identity_immunities	
+$spawn				= "food	and	drugs\medkit_ai1"
+$prefetch			= 16
+cform				= skeleton
+class				= II_ATTCH
+kind				= i_medical
+visual				= dynamics\equipments\quest\safe_container.ogf
+cost				= 15000
+description			= st_monolith_stash_descr
+inv_name			= st_monolith_stash
+inv_name_short		= st_monolith_stash
+inv_weight			= 25
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 4
+inv_grid_y			= 11
+auto_attach			= false
+use1_functor		= itms_manager.menu_unpack
+use1_action_functor	= itms_manager.use_package
+
+[bandit_stash]:identity_immunities	
+$spawn				= "food	and	drugs\medkit_ai1"
+$prefetch			= 16
+cform				= skeleton
+class				= II_ATTCH
+kind				= i_medical
+visual				= dynamics\equipments\quest\safe_container.ogf
+cost				= 13000
+description			= st_monolith_stash_descr
+inv_name			= st_monolith_stash
+inv_name_short		= st_monolith_stash
+inv_weight			= 30
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 4
+inv_grid_y			= 11
+auto_attach			= false
+use1_functor		= itms_manager.menu_unpack
+use1_action_functor	= itms_manager.use_package
+
+[merc_stash]:identity_immunities	
+$spawn				= "food	and	drugs\medkit_ai1"
+$prefetch			= 16
+cform				= skeleton
+class				= II_ATTCH
+kind				= i_medical
+visual				= dynamics\equipments\quest\safe_container.ogf
+cost				= 25000
+description			= st_monolith_stash_descr
+inv_name			= st_monolith_stash
+inv_name_short		= st_monolith_stash
+inv_weight			= 25
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 4
+inv_grid_y			= 11
+auto_attach			= false
+use1_functor		= itms_manager.menu_unpack
+use1_action_functor	= itms_manager.use_package
+
+[freedom_stash]:identity_immunities	
+$spawn				= "food	and	drugs\medkit_ai1"
+$prefetch			= 16
+cform				= skeleton
+class				= II_ATTCH
+kind				= i_medical
+visual				= dynamics\equipments\quest\safe_container.ogf
+cost				= 35000
+description			= st_monolith_stash_descr
+inv_name			= st_monolith_stash
+inv_name_short		= st_monolith_stash
+inv_weight			= 25
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 4
+inv_grid_y			= 11
+auto_attach			= false
+use1_functor		= itms_manager.menu_unpack
+use1_action_functor	= itms_manager.use_package
+
+[csky_stash]:identity_immunities	
+$spawn				= "food	and	drugs\medkit_ai1"
+$prefetch			= 16
+cform				= skeleton
+class				= II_ATTCH
+kind				= i_medical
+visual				= dynamics\equipments\quest\safe_container.ogf
+cost				= 20000
+description			= st_monolith_stash_descr
+inv_name			= st_monolith_stash
+inv_name_short		= st_monolith_stash
+inv_weight			= 30
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 4
+inv_grid_y			= 11
+auto_attach			= false
+use1_functor		= itms_manager.menu_unpack
+use1_action_functor	= itms_manager.use_package
+
+[sin_stash]:identity_immunities	
+$spawn				= "food	and	drugs\medkit_ai1"
+$prefetch			= 16
+cform				= skeleton
+class				= II_ATTCH
+kind				= i_medical
+visual				= dynamics\equipments\quest\safe_container.ogf
+cost				= 40000
+description			= st_monolith_stash_descr
+inv_name			= st_monolith_stash
+inv_name_short		= st_monolith_stash
+inv_weight			= 52
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 4
+inv_grid_y			= 11
+auto_attach			= false
+use1_functor		= itms_manager.menu_unpack
+use1_action_functor	= itms_manager.use_package
+
+[monolith_stash]:identity_immunities	
+$spawn				= "food	and	drugs\medkit_ai1"
+$prefetch			= 16
+cform				= skeleton
+class				= II_ATTCH
+kind				= i_medical
+visual				= dynamics\equipments\quest\safe_container.ogf
+cost				= 50000
+description			= st_monolith_stash_descr
+inv_name			= st_monolith_stash
+inv_name_short		= st_monolith_stash
+inv_weight			= 60
+inv_grid_width		= 2
+inv_grid_height		= 2
+inv_grid_x			= 4
+inv_grid_y			= 11
+auto_attach			= false
+use1_functor		= itms_manager.menu_unpack
+use1_action_functor	= itms_manager.use_package

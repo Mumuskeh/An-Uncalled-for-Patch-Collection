@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_swiss_descr">
+		<text>Want to open cans of food, keep your mechanical gear tight, cut ropes or sharpen your best bullets? Use the universal and elegant Swiss knife. Packed in a small box. Commonly found in the Zone, so it is of little value. However, it can be utilised as a supportive material in both weapon and outfit repairs.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_purple] • %c[ui_gray_2] disassembling tool for clothing and items\n
+		</text>
+	</string>
+
+	<string id="st_grooming_descr">
+		<text>Grooming kit that packs a ballistic nylon travel case with a beard and moustache comb and detail facial scissors, featuring man-sized finger rings, ultra-sharp cutting blades of stainless steel, non-slip rubberised grip, and a precision trimming tip.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_purple] • %c[ui_gray_2] disassembling tool for clothing and items\n
+		</text>
+	</string>
+
+	<string id="st_itm_sleepbag_name">
+		<text>Sleeping bag</text>
+	</string>
+
+	<string id="st_itm_tent_name">
+		<text>Military tent</text>
+	</string>
+
+</string_table>

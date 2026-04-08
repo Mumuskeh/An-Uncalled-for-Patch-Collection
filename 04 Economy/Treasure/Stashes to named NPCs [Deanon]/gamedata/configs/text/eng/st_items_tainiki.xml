@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+
+	<string id="dolg_leader_pda_name">
+		<text>Voronin's PDA</text>
+	</string>
+	<string id="dolg_leader_pda_descr">
+		<text>"Put some of my gear in a box behind one of the red containers near the construction site in Wild Territory. Just in case of emergency."</text>
+	</string>
+	<string id="merc_leader_pda_name">
+		<text>Dushman's PDA</text>
+	</string>
+	<string id="merc_leader_pda_descr">
+		<text>"One of our squad that accompanied the scientists on the helicopter crash left some supplies under a fallen tree near the anomaly field in the forest on Radar. I'll get to that stuff someday."</text>
+	</string>
+	<string id="freedom_leader_pda_name">
+		<text>Lukash's PDA</text>
+	</string>
+	<string id="freedom_leader_pda_descr">
+		<text>"I got information about one of the caches left by Miklukha's squad. It is quite likely that these tenacious guys, who were among the first to break through the barrier, have hidden in their hiding place the rarest khabar. The box lies under a slide in the form of an elephant in the kindergarten in eastern Pripyat."</text>
+	</string>
+	<string id="bandit_leader_pda_name">
+		<text>Sultan's PDA</text>
+	</string>
+	<string id="bandit_leader_pda_descr">
+		<text>"In the Zone, you can't keep everything of value in one place. The military is already in the factory above the laboratory, you have to be ready for anything. I left some of my loot in the train car on the bridge in Darkscape."</text>
+	</string>
+	<string id="monolith_leader_pda_name">
+		<text>Haron's PDA</text>
+	</string>
+	<string id="monolith_leader_pda_descr">
+		<text>"The infidels are getting closer and closer to the Monolith. We must prepare for another attack. I'll leave a spare set of gear under the stairs almost at the top of the nuclear plant."</text>
+	</string>
+	<string id="sin_leader_pda_name">
+		<text>Stribog's PDA</text>
+	</string>
+	<string id="sin_leader_pda_descr">
+		<text>"One last push and we're in the lab at the Generators! I made a hiding place in the attic of one of the houses near the cemetery near the installations. I'm afraid this armor can't withstand the anomalies here."</text>
+	</string>
+	<string id="csky_leader_pda_name">
+		<text>Cold's PDA</text>
+	</string>
+	<string id="csky_leader_pda_descr">
+		<text>"Information has come to light about equipment from the time of our breakthrough to the Center. Those events are long behind us, but we could use the gear. The crate is in a truck near the former military checkpoint in Limansk."</text>
+	</string>
+	<string id="st_monolith_stash">
+		<text>A crate of loot</text>
+	</string>
+	<string id="st_monolith_stash_descr">
+		<text>It weighs a lot. There must be something valuable in there.</text>
+	</string>
+
+</string_table>

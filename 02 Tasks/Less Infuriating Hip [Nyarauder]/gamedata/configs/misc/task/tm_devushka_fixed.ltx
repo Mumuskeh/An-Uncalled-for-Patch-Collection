@@ -1,0 +1,33 @@
+;------------------------------------------------------------------------------------------
+; HIP !!!LESS INFURIATING!!! QUESTLINE
+;------------------------------------------------------------------------------------------
+[devushka_fixed_medicine]
+icon = ui_inGame2_D_Sisshik
+prior = 40
+storyline = false
+title = devushka_fixed_medicine_title
+descr = {=actor_has_item(medkit_ai1)} devushka_fixed_medicine_deliver, {=actor_has_item(medkit_ai2)} devushka_fixed_medicine_deliver, {=actor_has_item(medkit_ai3)} devushka_fixed_medicine_deliver, devushka_fixed_medicine_find
+target = {=actor_has_item(medkit_ai1)} devushka, {=actor_has_item(medkit_ai2)} devushka, {=actor_has_item(medkit_ai3)} devushka
+condlist_0 = {+devushka_quest_medicine_done} complete, {+devushka_death} fail
+on_complete = %=inc_faction_goodwill_to_actor(stalker:100)%
+
+
+[devushka_fixed_tools]
+icon = ui_inGame2_Instrumenti
+prior = 41
+storyline = false
+title = devushka_fixed_tools_title
+descr = {=actor_has_item(itm_basickit)} devushka_fixed_tools_deliver, devushka_fixed_tools_find
+target = {=actor_has_item(itm_basickit)} devushka
+condlist_0 = {+devushka_quest_tools_done} complete, {+devushka_death} fail
+on_complete = %=reward_item(cleaning_kit_u) =inc_faction_goodwill_to_actor(stalker:75)%
+
+[devushka_fixed_delivery]
+icon = ui_inGame2_Mesta_evakuatsii
+prior = 42
+storyline = false
+title = devushka_fixed_delivery_title
+descr = devushka_fixed_delivery_descr
+target = mar_smart_terrain_base_stalker_leader_marsh
+condlist_0 = {+devushka_quest_delivery_done} complete
+on_complete = %=inc_faction_goodwill_to_actor(stalker:25) =inc_faction_goodwill_to_actor(csky:25)%

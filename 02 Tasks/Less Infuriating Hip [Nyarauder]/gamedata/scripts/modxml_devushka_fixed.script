@@ -1,0 +1,469 @@
+-- modxml_devushka_fixed.script
+-- Converts "Anastasia (fixed Hip)" mod to DXML with full English and Russian support.
+
+function on_xml_read()
+    ------------------------------------------------------------
+    -- 1. Insert new dialog definitions into gameplay\dialogs_escape.xml
+    ------------------------------------------------------------
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        if xml_file_name == "gameplay\\dialogs_escape.xml" then
+            local existing = xml_obj:query("dialog[id=devushka_meet_fixed]")
+            if is_empty(existing) then
+                local new_dialogs = [[
+<dialog id="devushka_meet_fixed">
+    <phrase_list>
+        <phrase id="0"><next>1</next></phrase>
+        <phrase id="1"><next>1111</next></phrase>
+        <phrase id="1111"><text>devushka_meet_fixed</text></phrase>
+    </phrase_list>
+</dialog>
+
+<dialog id="devushka_asked_about_1">
+    <dont_has_info>devushka_asked_about_1</dont_has_info>
+    <phrase_list>
+        <phrase id="0"><text>devushka_asked_about_1_1</text><next>1</next></phrase>
+        <phrase id="1"><text>devushka_asked_about_1_2</text><next>2</next></phrase>
+        <phrase id="2"><text>devushka_asked_about_1_3</text><next>3</next></phrase>
+        <phrase id="3"><text>devushka_asked_about_1_4</text><give_info>devushka_asked_about_1</give_info></phrase>
+    </phrase_list>
+</dialog>
+
+<dialog id="devushka_asked_about_2">
+    <has_info>devushka_asked_about_1</has_info>
+    <dont_has_info>devushka_asked_about_2</dont_has_info>
+    <phrase_list>
+        <phrase id="0"><text>devushka_asked_about_2_1</text><next>1</next></phrase>
+        <phrase id="1"><text>devushka_asked_about_2_2</text><next>2</next></phrase>
+        <phrase id="2"><text>devushka_asked_about_2_3</text><next>3</next></phrase>
+        <phrase id="3"><text>devushka_asked_about_2_4</text><give_info>devushka_asked_about_2</give_info></phrase>
+    </phrase_list>
+</dialog>
+
+<dialog id="devushka_quest_medicine">
+    <has_info>devushka_asked_about_2</has_info>
+    <dont_has_info>devushka_quest_medicine_start</dont_has_info>
+    <phrase_list>
+        <phrase id="0"><text>devushka_quest_medicine_1</text><next>1</next></phrase>
+        <phrase id="1"><text>devushka_quest_medicine_2</text><next>2</next></phrase>
+        <phrase id="2"><text>devushka_quest_medicine_3</text><next>3</next></phrase>
+        <phrase id="3"><text>devushka_quest_medicine_4</text><give_info>devushka_quest_medicine_start</give_info><action>dialogs_devushka_fix.give_task_devushka_medicine</action></phrase>
+    </phrase_list>
+</dialog>
+
+<dialog id="devushka_quest_medicine_done">
+    <has_info>devushka_quest_medicine_start</has_info>
+    <dont_has_info>devushka_quest_medicine_done</dont_has_info>
+    <phrase_list>
+        <phrase id="0"><text>devushka_medicine_1</text><next>1</next></phrase>
+        <phrase id="1"><text>devushka_medicine_2</text><next>2</next><next>3</next><next>4</next><next>777</next></phrase>
+        <phrase id="2"><precondition>dialogs_devushka_fix.devushka_medicine_ai1</precondition><text>devushka_medicine_3</text><next>5</next></phrase>
+        <phrase id="3"><precondition>dialogs_devushka_fix.devushka_medicine_ai2</precondition><text>devushka_medicine_5</text><next>6</next></phrase>
+        <phrase id="4"><precondition>dialogs_devushka_fix.devushka_medicine_ai3</precondition><text>devushka_medicine_7</text><next>7</next></phrase>
+        <phrase id="5"><text>devushka_medicine_4</text><give_info>devushka_quest_medicine_done</give_info><action>dialogs.become_friend</action><action>dialogs_devushka_fix.devushka_remove_ai1</action></phrase>
+        <phrase id="6"><text>devushka_medicine_6</text><give_info>devushka_quest_medicine_done</give_info><action>dialogs.become_friend</action><action>dialogs_devushka_fix.devushka_medicine_reward_tier2</action><action>dialogs_devushka_fix.devushka_remove_ai2</action></phrase>
+        <phrase id="7"><text>devushka_medicine_8</text><give_info>devushka_quest_medicine_done</give_info><action>dialogs.become_friend</action><action>dialogs_devushka_fix.devushka_medicine_reward_tier3</action><action>dialogs_devushka_fix.devushka_remove_ai3</action></phrase>
+        <phrase id="777"><text>devushka_medicine_break</text><next>778</next></phrase>
+        <phrase id="778"></phrase>
+    </phrase_list>
+</dialog>
+
+<dialog id="devushka_quest_tools">
+    <has_info>devushka_quest_medicine_done</has_info>
+    <dont_has_info>devushka_quest_tools_start</dont_has_info>
+    <phrase_list>
+        <phrase id="0"><text>devushka_quest_tools_1</text><next>1</next></phrase>
+        <phrase id="1"><text>devushka_quest_tools_2</text><next>2</next></phrase>
+        <phrase id="2"><text>devushka_quest_tools_3</text><next>3</next></phrase>
+        <phrase id="3"><text>devushka_quest_tools_4</text><next>4</next></phrase>
+        <phrase id="4"><text>devushka_quest_tools_5</text><next>5</next></phrase>
+        <phrase id="5"><text>devushka_quest_tools_6</text><give_info>devushka_quest_tools_start</give_info><action>dialogs_devushka_fix.give_task_devushka_tools</action></phrase>
+    </phrase_list>
+</dialog>
+
+<dialog id="devushka_quest_tools_done">
+    <has_info>devushka_quest_tools_start</has_info>
+    <dont_has_info>devushka_quest_tools_done</dont_has_info>
+    <precondition>dialogs_devushka_fix.devushka_basic_toolkit</precondition>
+    <phrase_list>
+        <phrase id="0"><text>devushka_quest_tools_done_1</text><next>1</next></phrase>
+        <phrase id="1"><text>devushka_quest_tools_done_2</text><give_info>devushka_quest_tools_done</give_info><action>dialogs_devushka_fix.devushka_remove_tools</action></phrase>
+    </phrase_list>
+</dialog>
+
+<dialog id="devushka_pls_heal">
+    <has_info>devushka_quest_medicine_done</has_info>
+    <phrase_list>
+        <phrase id="0"><text>devushka_pls_heal_1</text><next>1</next></phrase>
+        <phrase id="1"><text>devushka_pls_heal_2</text><action>dialogs.medic_magic_potion</action></phrase>
+    </phrase_list>
+</dialog>
+
+<dialog id="devushka_pls_fix">
+    <has_info>devushka_quest_tools_done</has_info>
+    <phrase_list>
+        <phrase id="0"><text>devushka_pls_fix_1</text><next>1</next></phrase>
+        <phrase id="1"><text>devushka_pls_fix_2</text><action>dialogs.npc_is_tech</action><action>dialogs.break_dialog</action></phrase>
+    </phrase_list>
+</dialog>
+
+<dialog id="devushka_pls_trade">
+    <has_info>devushka_quest_medicine_done</has_info>
+    <phrase_list>
+        <phrase id="0"><text>devushka_pls_trade_1</text><next>1</next></phrase>
+        <phrase id="1"><text>devushka_pls_trade_2</text><action>dialogs.npc_is_trader</action></phrase>
+    </phrase_list>
+</dialog>
+
+<dialog id="devushka_no_more_quest">
+    <has_info>devushka_quest_medicine_done</has_info>
+    <has_info>devushka_quest_tools_done</has_info>
+    <phrase_list>
+        <phrase id="0"><text>devushka_no_more_quest_1</text><next>1</next></phrase>
+        <phrase id="1"><text>devushka_no_more_quest_2</text></phrase>
+    </phrase_list>
+</dialog>
+
+<dialog id="devushka_fixed_delivery_start">
+    <dont_has_info>devushka_fixed_delivery_init</dont_has_info>
+    <has_info>devushka_quest_medicine_start</has_info>
+    <phrase_list>
+        <phrase id="0"><text>devushka_fixed_delivery_start_1</text><next>1</next></phrase>
+        <phrase id="1"><text>devushka_fixed_delivery_start_2</text><next>2</next></phrase>
+        <phrase id="2"><text>devushka_fixed_delivery_start_3</text><next>3</next></phrase>
+        <phrase id="3"><text>devushka_fixed_delivery_start_4</text><next>4</next></phrase>
+        <phrase id="4"><text>devushka_fixed_delivery_start_5</text><next>5</next></phrase>
+        <phrase id="5"><text>devushka_fixed_delivery_start_6</text><give_info>devushka_fixed_delivery_init</give_info><action>dialogs_devushka_fix.devushka_cold_delivery_start</action></phrase>
+    </phrase_list>
+</dialog>
+
+<dialog id="devushka_fixed_delivery_finish">
+    <precondition>dialogs_devushka_fix.devushka_delivery_cold</precondition>
+    <dont_has_info>devushka_quest_delivery_done</dont_has_info>
+    <has_info>devushka_fixed_delivery_init</has_info>
+    <phrase_list>
+        <phrase id="0"><text>devushka_fixed_delivery_finish_1</text><next>1</next></phrase>
+        <phrase id="1"><text>devushka_fixed_delivery_finish_2</text><action>dialogs_devushka_fix.devushka_cold_delivery_reward</action><give_info>devushka_quest_delivery_done</give_info></phrase>
+    </phrase_list>
+</dialog>
+]]
+                xml_obj:insertFromXMLString(new_dialogs)
+                printf("DXML: Inserted devushka_fixed dialogs into dialogs_escape.xml")
+            end
+        end
+    end)
+
+    ------------------------------------------------------------
+    -- 2. Insert string table entries (English + Russian)
+    ------------------------------------------------------------
+    local function insert_string(xml_obj, string_id, text_content)
+        local query_str = 'string[id="' .. string_id .. '"]'
+        local existing = xml_obj:query(query_str)
+        if is_empty(existing) then
+            local new_string = '<string id="' .. string_id .. '">\n<text>' .. text_content .. '</text>\n</string>'
+            xml_obj:insertFromXMLString(new_string)
+            return true
+        else
+            local text_elem = xml_obj:query(query_str .. ' > text')
+            if not is_empty(text_elem) then
+                xml_obj:setText(text_elem[1], text_content)
+            end
+            return false
+        end
+    end
+
+    -- English strings (from original fixed files)
+    local eng_strings = {
+        { "devushka_meet_fixed", "Hello!" },
+        { "devushka_asked_about_1_1", "Far from home?" },
+        { "devushka_asked_about_1_2", "You could say that. I don't think I've seen you here before. I'm Anastasia, but you can call me Ana." },
+        { "devushka_asked_about_1_3", "Nice to meet you. So, what are you doing in the Zone, Ana?" },
+        { "devushka_asked_about_1_4", "Right now? Sitting on my ass with whole lot of nothing to do." },
+        { "devushka_asked_about_2_1", "Isn't that Freedom armour you're wearing?" },
+        { "devushka_asked_about_2_2", "Yes, I used to stick around with them before... before we parted ways. Had a few friends in there. Past tense. Some died, god rest their souls, and some left the Zone for good." },
+        { "devushka_asked_about_2_3", "Why stay then?" },
+        { "devushka_asked_about_2_4", "I've got medical background. Look at the guys around. Aside from Sidorovich, Wolf, Fanatic, and that ex-merc I helped in patching up some time back, most of them are callow, green rookies. Besides, I'm sure it's uplifting their spirits if it's a woman's gentle touch they feel when they are getting brought back from the brink." },
+        { "devushka_quest_medicine_1", "I sure wouldn't mind if you helped me get back into stalking shape." },
+        { "devushka_quest_medicine_2", "Haha, I'm sure you wouldn't. But there's a problem. I ran out of supplies to patch up anyone with wounds more severe than a paper cut. Tell you what - if you get any package with medical supplies during your trips into the wild outside the village, bring it to me. I'll put it to good use, be it on you or anyone else bleeding to death." },
+        { "devushka_quest_medicine_3", "I'll see what I can do." },
+        { "devushka_quest_medicine_4", "Thank you. You know where to find me." },
+        { "devushka_medicine_1", "I've got something for you." },
+        { "devushka_medicine_2", "Found anything for me?" },
+        { "devushka_medicine_3", "A package of basic medical supplies." },
+        { "devushka_medicine_4", "Ah, thank you, it will more than suffice. I'll be able to patch you up now any time you come back. Just make sure to come back alive - I'm not good enough to resurrect the dead." },
+        { "devushka_medicine_5", "A package of military medical supplies." },
+        { "devushka_medicine_6", "That's amazing! Thank you so much! With this, I'll be able to patch up anyone unlucky to have a close call, including you. Please, take this as a token of my gratitude. And again, thank you." },
+        { "devushka_medicine_7", "A package of medical supplies the scientists use." },
+        { "devushka_medicine_8", "You're a real hotshot, you know that? All that medicine... Thank you so much! I won't be able to ever repay you properly, but please, take it. You've more than earned it with all the lives you've helped me save with this." },
+        { "devushka_medicine_break", "Nevermind." },
+        { "devushka_pls_heal_1", "Could you patch me up, Ana?" },
+        { "devushka_pls_heal_2", "Of course. Please, hold still. It might sting..." },
+        { "devushka_pls_trade_1", "Do you have any spare supplies I could take for the road?" },
+        { "devushka_pls_trade_2", "Please, have a look." },
+        { "devushka_pls_fix_1", "Could you help me with my gear?" },
+        { "devushka_pls_fix_2", "Sure thing." },
+        { "devushka_quest_tools_1", "Do you need any more help?" },
+        { "devushka_quest_tools_2", "Hmm.. Yes, I could use your help with one other thing. There's no mechanic here in the Rookie Village. Now, I may be coming from a med school, but I didn't survive here in the Zone on looks and kind word alone. I know the basics of how to work a gun." },
+        { "devushka_quest_tools_3", "In other words, you want me to bring you some tools?" },
+        { "devushka_quest_tools_4", "Bingo. Just the basic kind, though, there's simply no proper environment here for more than some basic maintenance, and I'm not remotely good enough to provide any kind of help with modification. Still, even just that should be more than enough. Can I count on you again?" },
+        { "devushka_quest_tools_5", "I'll see what I can do." },
+        { "devushka_quest_tools_6", "Great! Then you know where to find me." },
+        { "devushka_quest_tools_done_1", "I've got some tools for you." },
+        { "devushka_quest_tools_done_2", "Ah, thanks a ton. Here, take this. It's not much, but you've really helped make a difference." },
+        { "devushka_no_more_quest_1", "Do you need any more help, Ana?" },
+        { "devushka_no_more_quest_2", "I've got everything I need, thank you. You're always a welcome sight to me." },
+        { "devushka_fixed_delivery_start_1", "Sidorovich, I need a hand with some matter." },
+        { "devushka_fixed_delivery_start_2", "Really?" },
+        { "devushka_fixed_delivery_start_3", "Really. I'd like to help Ana get medical supplies to treat any injured rookies and I hoped you'd contribute to the effort." },
+        { "devushka_fixed_delivery_start_4", "Aren't that nice of you. Well, you're in luck. My last runner had an... unfortunate accident with local wildlife and is no longer around to deliver a package for me. Tell you what, kid. I've got here two Doppler weather radar kits that need to find their way to Cold - he's the one calling the shots around Great Swamps. I'll make an arrangement for him to get you the supplies, but you're going to be the one running the lap. How does that sound?" },
+        { "devushka_fixed_delivery_start_5", "Like a favour for a favour." },
+        { "devushka_fixed_delivery_start_6", "Damn straight. Here are the devices, don't lose them along the way. Now get going. I have to contact Cold." },
+        { "devushka_fixed_delivery_finish_1", "Cold? I've got a package from Sidorovich addressed to you." },
+        { "devushka_fixed_delivery_finish_2", "Ah, finally, thank you. I'll take them to Novikov later. Here, your reward as promised. Sit down and have a drink with the boys before your trip back if you want. Now, if you'll excuse me, if there's nothing else you'd like to bring up, I'm going to get back to work." }
+    }
+
+    -- Russian strings (from provided st_dialogs_devushka_fixed.xml)
+    local rus_strings = {
+        { "devushka_meet_fixed", "Привет!" },
+        { "devushka_asked_about_1_1", "Далеко от дома?" },
+        { "devushka_asked_about_1_2", "Ну, можно и так сказать. Я не видела тебя здесь раньше. Меня зовут Анастасия, но можешь звать меня Ана." },
+        { "devushka_asked_about_1_3", "Приятно познакомиться. Чем занимаешься в Зоне, Ана?" },
+        { "devushka_asked_about_1_4", "Прямо сейчас - до неприличия бездельничаю." },
+        { "devushka_asked_about_2_1", "Кстати, это случаем не форма свободных на тебе?" },
+        { "devushka_asked_about_2_2", "Да, я была с ними... Да вышла вся. Были и друзья там. Были, да... Одни умерли, земля им пухом, ну а другие с Зоной завязали, совсем." },
+        { "devushka_asked_about_2_3", "И почему же ты осталась?" },
+        { "devushka_asked_about_2_4", "У меня образование есть медицинское. Посмотри вокруг. Помимо Сидора, Волка, Фаната и того бывшего найма, что я латала как-то раз, тут ведь сплошная наивная зелень. К тому же, я уверена, что им приятно знать, что женская рука подлатает их и вернёт к жизни." },
+        { "devushka_quest_medicine_1", "Ну, я не против, чтобы и меня подлатали." },
+        { "devushka_quest_medicine_2", "Хах, не спорю. Но проблема есть. У меня почти закончились лекарства, и ничего серьёзнее пореза бумагой уже не вылечу. Слушай... Если вдруг где попадётся набор медикаментов, любой что сможешь найти - принеси мне, тогда я и тебе смогу помочь, и всем кому нужна будет медицинская помощь." },
+        { "devushka_quest_medicine_3", "Я посмотрю, что можно сделать." },
+        { "devushka_quest_medicine_4", "Спасибо. Ты знаешь, где меня найти." },
+        { "devushka_medicine_1", "У меня есть кое-что для тебя." },
+        { "devushka_medicine_2", "Что ты смог найти?" },
+        { "devushka_medicine_3", "Обычный набор." },
+        { "devushka_medicine_4", "Спасибо, этого более чем достаточно. Я смогу подлечить тебя, когда пожелаешь. Только живым приходи - увы, я не сильна в воскрешении." },
+        { "devushka_medicine_5", "Военный набор." },
+        { "devushka_medicine_6", "Потрясающе! Спасибо тебе огромное! С этими лекарствами я любого на ноги поставлю, и тебя в том числе. Пожалуйста, возьми это в знак моей благодарности. И ещё раз - спасибо." },
+        { "devushka_medicine_7", "Набор, что используют учёные." },
+        { "devushka_medicine_8", "Ты реально пробивной, ты в курсе? Все эти медикаменты... Большущее тебе спасибо, правда! Я не смогу тебе отплатить достойно, но, пожалуйста, возьми это. Ты более чем заслужил всё это, за все жизни, что я смогу спасти с этими лекарствами." },
+        { "devushka_medicine_break", "Ничего." },
+        { "devushka_pls_heal_1", "Ана, можешь меня подлатать?" },
+        { "devushka_pls_heal_2", "Конечно! Так, стой ровно. Может быть немного больно..." },
+        { "devushka_pls_trade_1", "У тебя будет что-нибудь на продажу из лекарств?" },
+        { "devushka_pls_trade_2", "Конечно, выбирай." },
+        { "devushka_pls_fix_1", "Можешь помочь со снарягой?" },
+        { "devushka_pls_fix_2", "Конечно." },
+        { "devushka_quest_tools_1", "Нужно ещё с чем-нибудь помочь?" },
+        { "devushka_quest_tools_2", "Хм... Есть одно дело, думаю, тебе по плечу. Проблема в том, что в деревне нет никого, похожего на техника. А я хоть и заканчивала медшколу, но я бы в Зоне не протянула за красивые глазки и на добром слове. Кое-что в работе с оружием я смыслю." },
+        { "devushka_quest_tools_3", "Другими словами - тебе нужны инструменты?" },
+        { "devushka_quest_tools_4", "Бинго. Но только самые простые, здесь особо не разживёшься на крутые апгрейды, да и я не настолько хороша в этом. Тем не менее, инструментов для грубой работы должно быть достаточно. Могу я снова на тебя положиться?" },
+        { "devushka_quest_tools_5", "Я посмотрю, что можно сделать." },
+        { "devushka_quest_tools_6", "Отлично! Тогда ты знаешь, где меня найти." },
+        { "devushka_quest_tools_done_1", "Я нашёл инструменты." },
+        { "devushka_quest_tools_done_2", "Ого, ну спасибо тебе. Вот, возьми. Этого не слишком много за помощь, но ты действительно помог, правда." },
+        { "devushka_no_more_quest_1", "Тебе нужна ещё помощь в чём-либо?" },
+        { "devushka_no_more_quest_2", "Благодаря тебе, у меня есть всё необходимое, спасибо. Я всегда рада тебя видеть." },
+        { "devushka_fixed_delivery_start_1", "Сидорович, слушай, нужна помощь." },
+        { "devushka_fixed_delivery_start_2", "Да ну?" },
+        { "devushka_fixed_delivery_start_3", "Ну да. Я хотел бы помочь добыть для Аны набор медикаментов для лечения раненых... И я подумал, что ты мог бы помочь." },
+        { "devushka_fixed_delivery_start_4", "Гляньте-ка, джентельмен, ха. А вообще... Тебе повезло. Мой прошлый курьер попал в... неприятную ситуацию с местной живностью и посылки доставлять уже не может. Расклад такой: есть два доплеровский метеорада для Холода - он заправляет делами на Болотах. Я договорюсь с ним насчёт медикаментов, а на тебе доставка аппаратуры в целости и сохранности. Что скажешь?" },
+        { "devushka_fixed_delivery_start_5", "Услуга за услугу." },
+        { "devushka_fixed_delivery_start_6", "Эт верно. Держи технику, и не потеряй её по пути. Давай в темпе, а я свяжусь с Холодом." },
+        { "devushka_fixed_delivery_finish_1", "Холод? Я с посылкой от Сидоровича." },
+        { "devushka_fixed_delivery_finish_2", "О, наконец-то, спасибо. Потом их Новикову передам. Вот, обещанная награда. Можешь с парнями в лагере выпить да отдохнуть с дороги. Ну а я, с твоего позволения, если дел ко мне больше нет, вернусь к работе." }
+    }
+
+    -- Russian quest strings (from st_quests_devushka_fixed.xml)
+    local rus_quest_strings = {
+        { "devushka_fixed_medicine_title", "Полевая медсестра: Медикаменты" },
+        { "devushka_fixed_medicine_find", "Анастасия попросила меня принести ей медицинский набор - подойдёт любой, какой я смогу найти." },
+        { "devushka_fixed_medicine_deliver", "Я добыл медикаменты. Нужно принести их Анастасии." },
+        { "devushka_fixed_tools_title", "Полевая медсестра: Инструменты" },
+        { "devushka_fixed_tools_find", "Анастасия попросила меня добыть для неё инструменты для грубой работы - не больше, не меньше." },
+        { "devushka_fixed_tools_deliver", "Я добыл инструменты. Нужно принести их Анастасии." },
+        { "devushka_fixed_delivery_title", "Доставка: Юг" },
+        { "devushka_fixed_delivery_descr", "Сидорович хочет, чтобы я доставил Холоду на Болотах комплект доплеровского метеорадара" }
+    }
+
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        -- English files
+        if xml_file_name == "text\\eng\\st_characters.xml" then
+            -- Change existing devushka name to "Anastasia"
+            local devushka_elem = xml_obj:query('string[id="devushka"] > text')
+            if not is_empty(devushka_elem) then
+                xml_obj:setText(devushka_elem[1], "Anastasia")
+                printf("DXML: Changed devushka name to Anastasia (eng)")
+            end
+            insert_string(xml_obj, "devushka_fixed", "Anastasia")
+        end
+
+        if xml_file_name == "text\\eng\\st_dialogs_escape.xml" or xml_file_name == "text\\eng\\st_dialogs_zaton.xml" then
+            for _, entry in ipairs(eng_strings) do
+                insert_string(xml_obj, entry[1], entry[2])
+            end
+        end
+
+        if xml_file_name == "text\\eng\\st_quests.xml" then
+            local eng_quest_strings = {
+                { "devushka_fixed_medicine_title", "Field Nurse: Medical Supplies" },
+                { "devushka_fixed_medicine_find", "Anastasia asked me to bring her a package with medical supplies. It doesn't matter what kind they are or where do I get them." },
+                { "devushka_fixed_medicine_deliver", "I've got the medical supplies. I should bring them back to Anastasia." },
+                { "devushka_fixed_tools_title", "Field Nurse: Tools" },
+                { "devushka_fixed_tools_find", "Anastasia asked me to procure a basic toolkit for her. It doesn't matter where I get it, but I can't bring her any other kind of tools." },
+                { "devushka_fixed_tools_deliver", "I've got the tools. I should bring them back to Anastasia." },
+                { "devushka_fixed_delivery_title", "Delivery South" },
+                { "devushka_fixed_delivery_descr", "Sidorovich tasked me with delivering weather radar kits to Cold in Great Swamps." }
+            }
+            for _, entry in ipairs(eng_quest_strings) do
+                insert_string(xml_obj, entry[1], entry[2])
+            end
+        end
+
+        -- Russian files
+        if xml_file_name == "text\\rus\\st_characters.xml" then
+            -- st_characters.xml already has devushka = "Анастасия", but ensure it's correct
+            local devushka_elem = xml_obj:query('string[id="devushka"] > text')
+            if not is_empty(devushka_elem) then
+                if xml_obj:getText(devushka_elem[1]) ~= "Анастасия" then
+                    xml_obj:setText(devushka_elem[1], "Анастасия")
+                end
+            end
+            insert_string(xml_obj, "devushka_fixed", "Анастасия")
+        end
+
+        if xml_file_name == "text\\rus\\st_dialogs_escape.xml" or xml_file_name == "text\\rus\\st_dialogs_zaton.xml" then
+            for _, entry in ipairs(rus_strings) do
+                insert_string(xml_obj, entry[1], entry[2])
+            end
+        end
+
+        if xml_file_name == "text\\rus\\st_quests.xml" then
+            for _, entry in ipairs(rus_quest_strings) do
+                insert_string(xml_obj, entry[1], entry[2])
+            end
+        end
+
+        -- Encyclopedia (same file for both languages, but strings are language-specific via different XML files in text/eng and text/rus)
+        -- The UI file ui_st_encyclopedia_characters.xml is located in gamedata/configs/ui/ and is not language-specific.
+        -- However, the actual string IDs are defined in language files. We already modified st_characters.xml for the name.
+        -- The encyclopedia text itself is in separate string files? Actually, in your provided files, the Russian encyclopedia is a separate XML with <string id="encyclopedia_characters_hip_text"> etc.
+        -- That file should be placed in gamedata/configs/text/rus/ui_st_encyclopedia_characters.xml.
+        -- DXML can also modify that file if it exists. We'll add a handler for it.
+        if xml_file_name == "ui\\ui_st_encyclopedia_characters.xml" then
+            -- This is the English UI file. We'll change Hip entry to Anastasia.
+            local hip_name = xml_obj:query('string[id="encyclopedia_characters_hip"] > text')
+            if not is_empty(hip_name) then
+                xml_obj:setText(hip_name[1], "Anastasia")
+            end
+            local hip_text = xml_obj:query('string[id="encyclopedia_characters_hip_text"] > text')
+            if not is_empty(hip_text) then
+                local new_text = [[
+%c[pda_white]Anastasia%c[ui_gray_1] is a former Freedom member who took residence in the Rookie Village.\n
+\n%c[pda_green]Information%c[ui_gray_1]
+\nNobody knows when Anastasia joined Zone's ecosystem, but her first reported sighting was among Freedom members around year 2017. She quickly gained popularity among its members, but at the same time began realising she deeply disagrees with some of Freedom's values. For better or for worse, she left not long after and stayed in Rookie Village. Owing to optimism and skill in treating wounds, she found acceptance among free stalkers.\nRumour has it she used to go by nickname "Hip".
+]]
+                xml_obj:setText(hip_text[1], new_text)
+            end
+        end
+
+        -- Russian encyclopedia file (if it exists at text\rus\ui_st_encyclopedia_characters.xml)
+        -- Note: The path may vary. Usually it's text\rus\ui\ui_st_encyclopedia_characters.xml. We'll check both common locations.
+        if xml_file_name == "text\\rus\\ui\\ui_st_encyclopedia_characters.xml" or xml_file_name == "text\\rus\\ui_st_encyclopedia_characters.xml" then
+            local hip_name = xml_obj:query('string[id="encyclopedia_characters_hip"] > text')
+            if not is_empty(hip_name) then
+                xml_obj:setText(hip_name[1], "Анастасия")
+            end
+            local hip_text = xml_obj:query('string[id="encyclopedia_characters_hip_text"] > text')
+            if not is_empty(hip_text) then
+                local new_text_rus = [[
+%c[pda_white]Анастасия%c[ui_gray_1] - бывший член группировки «Свободы», нашедшая своё прибежище в Деревне новичков на Кордоне.\n
+\n%c[pda_green]Информация%c[ui_gray_1]
+\nВ Никто точно не знает, когда она появилась в Зоне, первые упоминания о ней в рядах «Свободы» появляются с 2017 года. Она быстро заработала репутацию в группировке, однако спустя некоторое время её взгляды с идеологией «Свободы» стали разниться. После того, как она покинула группировку, Анастасия осела в деревне новичков. Будучи всегда оптимистичной и обладая медицинскими навыками, получила одобрение среди новичков. \nПо слухам, ранее имела прозвище «Хип».
+]]
+                xml_obj:setText(hip_text[1], new_text_rus)
+            end
+        end
+    end)
+end
+
+----------------------------------------------------------------
+-- Game start callbacks (unchanged)
+----------------------------------------------------------------
+function on_game_start()
+    RegisterScriptCallback("on_specific_character_init", function(character_id, data)
+        if character_id == "devushka" then
+            data.name = "devushka_fixed"
+            data.rank_min = 350
+            data.rank_max = 350
+            data.reputation_min = 750
+            data.reputation_max = 750
+            data.money_min = 1000000
+            data.money_max = 1000000
+            data.money_infinitive = true
+            data.start_dialog = "devushka_meet_fixed"
+            data.supplies = [[
+[spawn] \n
+wpn_glock \n
+ammo_9x19_ap = 15 \n
+wpn_knife3 \n
+af_dummy_battery \n
+#include "gameplay\supplies\character_drugs_2.xml"
+]]
+            printf("DXML: Modified devushka (Anastasia) character data")
+        end
+    end)
+
+    RegisterScriptCallback("on_specific_character_dialog_list", function(character_id, dialog_list)
+        if character_id == "devushka" then
+            local old_dialogs = {
+                "devushka_1_start", "devushka_2_start", "devushka_0_dialog",
+                "devushka_1_dialog", "devushka_2_dialog", "devushka_3_quest_money",
+                "devushka_heal", "devushka_3_dialog", "devushka_4_dialog",
+                "devushka_4_quest", "devushka_about_artefact", "devushka_about_semeckiy",
+                "give_devushka_medved", "devushka_give_present", "devushka_go_village",
+                "adventure_time_with_hip"
+            }
+            for _, dlg in ipairs(old_dialogs) do
+                dialog_list:remove(dlg)
+            end
+            local new_dialogs = {
+                "devushka_asked_about_1",
+                "devushka_asked_about_2",
+                "devushka_quest_medicine",
+                "devushka_quest_medicine_done",
+                "devushka_quest_tools",
+                "devushka_quest_tools_done",
+                "devushka_no_more_quest",
+                "devushka_pls_heal",
+                "devushka_pls_fix",
+                "devushka_pls_trade",
+                "actor_break_dialog"
+            }
+            for _, dlg in ipairs(new_dialogs) do
+                dialog_list:add_last(dlg)
+            end
+            printf("DXML: Updated devushka's dialog list")
+        end
+
+        if character_id == "esc_2_12_stalker_trader" then
+            if not dialog_list:has("devushka_fixed_delivery_start") then
+                local pos = dialog_list:has("actor_break_dialog")
+                if pos then
+                    dialog_list:add("devushka_fixed_delivery_start", pos)
+                else
+                    dialog_list:add_last("devushka_fixed_delivery_start")
+                end
+                printf("DXML: Added devushka_fixed_delivery_start to Sidorovich")
+            end
+        end
+
+        if character_id == "mar_smart_terrain_base_stalker_leader_marsh" then
+            if not dialog_list:has("devushka_fixed_delivery_finish") then
+                dialog_list:add_last("devushka_fixed_delivery_finish")
+                printf("DXML: Added devushka_fixed_delivery_finish to Cold")
+            end
+        end
+    end)
+end
+
+function is_empty(t)
+    return t == nil or #t == 0
+end

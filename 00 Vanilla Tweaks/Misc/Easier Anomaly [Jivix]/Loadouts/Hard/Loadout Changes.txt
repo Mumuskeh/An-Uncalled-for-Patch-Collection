@@ -1,0 +1,130 @@
+'Loadouts' Balance Changes
+
+Rebalances new game loadout screen and adds some missing items back. Inspired by "Improved Starting Loadout" from the "Various Tweaks for Anomaly" mod by Audixas.
+
+
+
+These are the base changes made to all versions:
+
+
+Price Changes
+-Increased/decreased all point values to be multiples of 50, usually a decrease in price. Most notably, regular Medkits are now 50 instead of 75.
+
+-Geiger counter cost reduced by 150 to encourage player to take it as it can be extremely difficult to find in game.
+
+-Increased cost of echo detector by 100 to discourage you taking it, you'll come across one by the time you're ready for anomalies, and probably really want a Bear detector anyways. But for new players who want to try it, they can still get it, trust me, those extra points aren't going to be useful for long (player usually goes squish in the anomaly).
+
+
+
+Item Changes
+-Doubled amount of available starting bandages, since they are ABSOLUTELY essential items, and gives them to the player for free.
+
+-Added 2x Tourniquet as an additional option for wound treatment, have no idea why they weren't there to begin with (actually, I do, it's because nobody has bothered rebalancing the start items).
+
+
+
+Changes to Default Long Gun Availability
+-Mp5 is now only available for factions that generally use Nato weapons (Duty, Military, and Clear Sky no longer offer this weapon).
+
+-The Toz-66, rest assured, remains as an option at all times for all factions. I think changing this is sacrilegious. Then again, I am sure there are people who hate me for reducing the availability of the Mp5...
+
+-The Toz-34, hoever, is now only available to Poor factions (Stalkers, Bandits, Clear Sky, and Renegades), and only on Tourist or Scavenger difficulties! If you have a problem with this, just use a Toz-66 instead and stop complaining! You don't actually need to snipe with your shotgun on every single run. You'll thank me later. The entire point is to radically increase the different kinds of starting runs, so yeah, I had to nerf the meta gun because otherwise there would be no reason to take a pistol at all.
+
+-The UMP45 is a pretty special weapon so I have made it only available to 'wealthy' factions, and disabled it from being an option on Survivalist runs.
+
+-Ecologists: PP-2000 has been made available in Scavenger difficulty. I think this is actually a rather challenging starting choice considering the ecologist player starts in Yantar with extremely limited access to ammunition and eats up 9mm, so I haven't applied any other balancing. I dropped the point values of the other 2 SMG's by 50 to give the player a reason to pick the other two - and those are only available on Tourist.
+
+-Duty: AKS-74 is now available on Scavenger difficulty. Note that scopes are not available on this difficulty so I don't think it's too OP at all. I usually prefer to go with a pistol because most of the rifle options are usually painfully bad until you get a few upgrades in 'em, whereas the pistols hold up much better. So might as well open up this option.
+
+-Mercenaries: The AK102 is now available in Scavenger difficulty, but to compensate for that change I have adjusted the ammo it spawns with - you get Old ammo, but you get one more mag of it than you did before. I feel that this is a nice middle ground that also better suits the Assaulter early game lifestyle (like raiding a squad of armored enemies) while not also making the gun overpowered. An assaulter will have to get right on top of that weapon maintenance lifestyle as soon as they possibly can.
+
+
+
+Long Gun Availability Improvements
+-Clear Sky: Now gets a Mosin-Nagant option for Tourist or Scavenger difficulty. I think this is a really fun starting option for the Great Swamp and really helps you get over that massive early game hump for Clear Sky starts. I also gave it an extra 4 reloads (20rds) of Old ammo, to help balance the effects of starting with this. You can also spend an extra 150 points for the PU scope which allows for long range sniper play.
+
+-Duty: Now gets a custom PPSH-41 option but only on Tourist difficulty. This gets an Old ammo treatment as well, with a full extra mag available, making this the most "heavy machine gun" start of all the classes. Which you're gonna want since you picked Duty, which is often so boring or repetitive!
+
+-Freedom: I realized Freedom can't get any more interesting so I didn't touch its rifle options. Sorry guys they are basically just Americans in disguise and all the other Nato weapons are too good for a Freedom starter.
+
+-Military: It's the damn Army so let a new player use 7.62x39! Added AK-104 with a Old ammo penalty applied. This ammo is fairly expensive for a starter player so it's not exactly an optimal choice. I honestly have no idea why they let Mercenaries have the AK-102 while the Army got nothing cool.
+
+
+
+
+
+Handgun Availability Improvements
+-My goal is basically to recommend different playstyles by using better gun offerings. There are so many handguns in the game, it is a shame that the starts are all very generic or bad and there's no option to switch. However this was actually a difficult task because all the handguns have very big performance differences and the fairly different playstyles of different factions had to be considered as well.
+
+-The starter pistols for most factions have changed, although for most you can still get the original as an option. I really went to town on this one to give substantial variety to the starting offerings, without turning it into too much of a choose-your-weapon marathon. These change depending on the progression speed (Tourist, Scavenger, Survivalist) in a relatively balanced manner. Way too many changes to discuss, you'll have to investigate any one of the new_game_loadouts.txt to see all the changes.
+
+-Starter pistols are no longer automatically given to you. It was difficult finding a good point value for these weapons across the different progression types, but I think I struck a reasonable middle ground for most of them without turning the game start into "buy all the pistols and sell the extras for more ammo". Hopefully.
+
+-To determine the common starter pistols, Factions have been grouped by Preferred Weapon Nationality + Wealthiness, which changes which basic offerings are provided by each faction. Basically, there are now 6 'mixed' factions, 3 'nato' factions, and 3 'russian' factions, and 3 of those are considered Wealthy and 4 are considered Poor.
+
+-Each faction also has at least 2 less-common or even unique handgun options on Scavenger difficulty, and at least 2 common options for Survivalist, but some have as many as 5 options on Tourist, since why the hell not? I decided upon these values by reading up on STALKER faction lore and extrapolating as best I could, if you find something you disagree with please provide a lore source that supports it and I will gladly debate with you about how to make a correct change :).
+
+-I'm not going to mention every pistol here, but here's a noteworthy one: I added the MP-412 as an all-time option to Monolith (though it will consume ALL your extra points on Survivalist). I think this is such a difficult starting choice that I gave it much more extra ammo than default (now 50), so you get 8 extra full reloads! It also really suits the Monolith philosophy, if you think deeply about it. This is a starting loadout I have wanted to have in a STALKER game for YEARS!
+
+-The same ammo bonus for the MP-412 also applies to the Desert Eagle you can acquire from a Mercenary start, but it's not available on Survivalist difficulty, you'll have to see what you can do with a Merc-camo M1911 with less ammo instead.
+
+
+My personal favorite pistols for each faction, split up by progression difficulty
+
+Stalkers: TT-33 for Survivalist, CZ-75 or P220 for others.
+Bandits: PB for Survivalist, APS for others.
+Clear Sky: PMM + hollow points ASAP for Survivalist, Gsh-18 or CZ-52 for others.
+Duty: Colt 1911 Duty Camo or TT-33 Modern for any difficulty.
+Freedom: Browning Hi-Power so you can have 2 Medkits on Hard Mode's Survivalist, otherwise Glock-19, then Colt M1911 New or USP45 for other difficulties.
+Mercenaries: Colt M1911 Merc camo + Hydra-Shok ASAP on Survivalist, Desert Eagle or USP-45 for others.
+Military: MP-443 Grach for Survivalist, APS for others.
+Ecologists: Glock 19 for Survivalist, CZ-75 Automatic for others (or just go for the PP-2000 and use the points for something else).
+Monolith: MP-412 on any difficulty, or alternatively a CZ-75 Automatic on Scavenger or Tourist.
+
+
+
+
+These are the changes that vary by the different Easier Anomaly files:
+
+Regular Mode
+-Increased starting points by barely enough to compensate for the handgun cost, +350/+300/+250 for Tourist/Scavenger/Survivalist. This roughly accounts for the reduced costs of items and the free bandages, so should be very close to vanilla difficulty.
+-Doubled all starting money over vanilla. Since its practically nothing anyways.
+-All weapon & item point values and availability changes described above.
+
+Easy Mode
+-Even more points than Regular Mode, +500/+450/+400, so you might be able to get a few more items or spring for a better gun.
+-Same starting money as Regular.
+
+Very Easy Mode
+-Same amount as Easy Mode, +500/+450/+400.
+-Players now start with $67-$270 worth of roubles in their pocket (5000-20000) depending on the wealthiness of their faction. I'm sure this isn't really that unbalanced but it can make quite a stark difference for a beginner who tries to purchase items to solve problems as they hit them one after another. This might help a not-so-confident player buy their way through the difficult early game of a Survivalist playthrough, as well.
+
+Hard Mode
+-The point values stay the same as vanilla. You may still go with a handgun, but you're not going to be bringing much else. Perhaps you'd prefer to try a Knife-only start? If you do go with a handgun, I suggest springing for the best one or you might have a very hard time indeed.
+-On the upside, you get to keep the same money as Regular mode, but you'll have to be real clever with those 3-6 bandages worth of roubles.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

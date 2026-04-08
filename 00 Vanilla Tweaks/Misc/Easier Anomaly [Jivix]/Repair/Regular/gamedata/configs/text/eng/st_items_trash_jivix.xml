@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_jar_descr">
+		<text>
+		A tiny plastic jar. Such jars are always handy for keeping small items safe, especially drugs and medicine. It protects the contents from moisture and ensures the moisture content of the product remains the same.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] basic material\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_orange] • %c[ui_gray_2] crafting component\n
+		</text>
+	</string>
+
+	<string id="st_e_syringe_descr">
+		<text>A 12mL medical syringe with a lousy plunger. Seems like it has been used quite frequently. With a drug-making kit and proper knowledge, this syringe can come in handy for the creation of various types of drugs.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] basic material\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_orange] • %c[ui_gray_2] crafting component\n
+		</text>
+	</string>
+
+	<string id="st_rope_descr">
+		<text>
+		A good rope serves many purposes, especially in a place like the Zone. Many stalkers can put it to good use, which generates a rather high trading value. About 10-meters long.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] basic material\n
+		%c[d_orange] • %c[ui_gray_2] maintenance component\n
+		</text>
+	</string>
+
+	<string id="st_porn_descr">
+		<text>100-pages worth of prime nude Russian girls. Probably the easiest way to travel to a better place, at least mentally. Common contraband among conscripts, criminals, and other unfortunates who are stuck in the Zone against their will. Westerners often joke about it saying "From Russia, with love".\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_orange] • %c[ui_gray_2] maintenance component\n
+		</text>
+	</string>
+
+	<string id="st_steel_wool_descr">
+		<text>Steel wool, also known as wire wool or wire sponge, is a bundle of strands of very fine soft steel filaments. It is used as an abrasive in finishing and repair work for polishing wood or metal objects, cleaning household cookware, and sanding in light painting. Steel wool is made from low-carbon steel (carbon content is low enough to be close to plain iron). It is not made by drawing "steel wool wire" through a tapered die, but rather by a process more like broaching where a heavy steel wire is pulled through a toothed die that removes a thin wire shaving. Bundles of steel wool can be used in precision equipment cleaning and to improve spreading of lubricants and cleaning solvents.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_orange] • %c[ui_gray_2] valuable maintenance component\n
+		</text>
+	</string>
+
+	<string id="st_grease_descr">
+		<text>Grease is a semi-solid lubricant. It generally consists of a soap emulsified with mineral or vegetable oil. Greases are applied to mechanisms that cannot be lubricated constantly or where typical lubricating oil would not stay in position. They also act as sealants to prevent ingress of water and incompressible materials. Grease-lubricated bearings have greater frictional characteristics due to their high viscosity.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_orange] • %c[ui_gray_2] valuable maintenance component\n
+		</text>
+	</string>
+
+	<string id="st_shovel_old_descr">
+		<text>An old metal shovel used for various field purposes. Few people actually keep shovels in their backpacks as they are quite commonly found in the Zone, especially in industrial areas.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_blue] • %c[ui_gray_2] source of materials\n
+		</text>
+	</string>
+
+	<string id="st_shovel_mili_descr">
+		<text>High-quality black military shovel. Used for numerous field purposes. Training regimen of Spetsnaz soldiers covers hand-to-hand combat and use of hand-held weapons and other equipment for the purposes of eliminating enemies. One famous example is the entrenching shovel which is a formidable weapon in close combat when used by a Spetsnaz operator.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item\n
+		%c[d_blue] • %c[ui_gray_2] source of materials\n
+		</text>
+	</string>
+
+	<string id="st_journal_descr">
+		<text>A leather-bound journal. It's filled with the original bearer's inner thoughts, observations, and some rough sketches with notations. A light skim reveals helpful advice for the common man, but little else beyond sentimental value.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] personal belongings\n
+		%c[d_orange] • %c[ui_gray_2] maintenance component\n
+		</text>
+	</string>
+
+	<string id="st_welding_goggles_descr">
+		<text>Old and corroded welding goggles with a broken leather band. Welding goggles are designed to provide eye protection while welding or cutting. Useless in their current state and of no to little value.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_blue] • %c[ui_gray_2] source of materials\n
+		</text>
+	</string>
+
+	<string id="st_survival_kit_descr">
+		<text>Survival kit containing fabric, sewing needles and a few leather strips. Primarily used as a means to stop the bleeding and treat lacerations, in the hands of a skilled user this small survival kit may prove essential during prolonged excursions in the Zone. It can also be utilized for outfit repairs of even most severe damage.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores 3.6%hp/s, total 162%\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		%c[d_blue] • %c[ui_gray_2] immediately stops heavy bleeding\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		</text>
+	</string>
+
+	<string id="st_jewelry_box">
+		<text>Decorated jewelry box</text>
+	</string>
+
+	<string id="st_picture_woman_descr">
+		<text>This photo contains a softly rendered figure, smiling back at you encouragingly. Great attention has been given to the lighting and the atmosphere around the person within the frame, demonstrating a thoughtful, observational tenderness. The name at the bottom of the picture has been crossed out. Wrapped in plastic.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] personal belongings\n
+		</text>
+	</string>
+
+	<string id="st_porn2_descr">
+		<text>This magazine is well-worn but still contains some glossy spreads of beautiful Slavic girls. Many of the pages have been torn out. Some stalkers argue whether it's funny or sad that rookies bring stuff like this into a place as deadly and sublime as the Zone. It smells faintly of cheese.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_orange] • %c[ui_gray_2] maintenance component\n
+		</text>
+	</string>
+
+	<string id="st_boots_descr">
+		<text>Everyone is aware of the importance of good gear. An extra pair of boots can prove extremely useful and may be the object of envy of other stalkers since it is such a rarity.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_blue] • %c[ui_gray_2] personal belongings\n
+		%c[d_orange] • %c[ui_gray_2] maintenance component\n
+		</text>
+	</string>
+
+	<string id="st_flashlight_broken_descr">
+		<text>The handle is broken and even duct tape wouldn't be able to keep the batteries in place. This is no longer of any value.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_red] • %c[ui_gray_2] unusable\n
+		%c[d_red] • %c[ui_gray_2] broken beyond repair\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] source of materials\n
+		</text>
+	</string>
+
+	<string id="st_underwear_descr">
+		<text>An extra pair of socks, a shirt and pants could substantially increase your comfort. Unfortunately, this set is completely soaked. There is little chance any stalker will pay for this garbage. Although they might seem worthless, the material the underwear is made of can be used in armor and weapon maintenance.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_blue] • %c[ui_gray_2] personal belongings\n
+		%c[d_orange] • %c[ui_gray_2] maintenance component\n
+		</text>
+	</string>
+
+	<string id="st_beadspread_descr">
+		<text>Luxury item in the Zone. Since there are only a few beds in safehouses in the Zone, having a sleeping bag and a bed spread may prove essential if you don't want to hit the wall in most inappropriate of circumstances. Bed spreads are included in the equipment of some military units.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_red] • %c[ui_gray_2] unusable\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_blue] • %c[ui_gray_2] source of materials\n
+		%c[d_orange] • %c[ui_gray_2] maintenance component\n
+		</text>
+	</string>
+
+	<string id="st_walkie_descr">
+		<text>The display is dead and there is a constant hiss from the speaker indicating that this is of no use. Has what appears to be mutant bite marks all over it.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_red] • %c[ui_gray_2] unusable\n
+		%c[d_red] • %c[ui_gray_2] broken beyond repair\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] source of materials\n
+		</text>
+	</string>
+
+	<string id="st_headlamp_descr">
+		<text>Although few dare to explore the Zone during the night, there are circumstances where a head lamp is crucial. And another source of light won't hurt, because you never know when you'll have to move from place to place. Unfortunately, this particular unit has long seen its working days and can now only serve as a source of cheap spare parts.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_red] • %c[ui_gray_2] unusable\n
+		%c[d_red] • %c[ui_gray_2] broken beyond repair\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] source of materials\n
+		</text>
+	</string>
+
+	<string id="st_tarpaulin_descr">
+		<text>
+		A tarpaulin (or hootch) is a large sheet of strong, flexible, water-resistant or waterproof material, often cloth such as canvas or polyester coated with urethane, or made of plastics such as polyethylene. It has reinforced grommets at the corners and along the sides to form attachment points for rope, allowing them to be tied down or suspended. Serves many purposes, but is mainly used to create small and simple tent-like hideouts. Trading value is low due to easily found alternatives.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item\n
+		%c[d_orange] • %c[ui_gray_2] valuable maintenance component\n
+		</text>
+	</string>
+
+	<string id="st_synthrope_descr">
+		<text>
+		Synthetic ropes are commonly found in military warehouses. But for some reason few military stalkers actually carry them. A good rope serves many purposes, especially in a place like the Zone. Many stalkers can put this to good use, which generates a rather high trading value. Each is about 5 meters long.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_red] • %c[ui_gray_2] bulky and heavy\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		</text>
+	</string>
+
+	<string id="st_cutlery_descr">
+		<text>
+		A spoon, a knife and a fork made of heavy steel. A robust and reasonably light cutlery set, ideal for backpacking and field exploration. The cutlery is held together by a copper cord. If cleaned properly and derusted, it would be safe to use.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_orange] • %c[ui_gray_2] maintenance component\n
+		</text>
+	</string>
+
+	<string id="st_radio_descr">
+		<text>
+		Music is a good way to calm your nerves. But with a broken antenna this radio is of little use. Moisture and dirt have also damaged this item.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_red] • %c[ui_gray_2] unusable\n
+		%c[d_red] • %c[ui_gray_2] broken beyond repair\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] source of materials\n
+		</text>
+	</string>
+
+	<string id="st_radio2_descr">
+		<text>
+		A small radio in a poor condition. Dirty and damaged by moisture. The interior seems to be in quite a bad shape as the radio rattles when moved around. No to little value.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_red] • %c[ui_gray_2] unusable\n
+		%c[d_red] • %c[ui_gray_2] broken beyond repair\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] source of materials\n
+		</text>
+	</string>
+
+	<string id="st_broken_detector_descr">
+		<text>
+		A broken Bear detector. The screen is smashed and the interior seems to be in quite a bad shape. Some of the electronic parts inside are still safe. They can be reused for repair purposes, or perhaps even in crafting.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_red] • %c[ui_gray_2] unusable\n
+		%c[d_red] • %c[ui_gray_2] broken beyond repair\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] source of materials\n
+		</text>
+	</string>
+
+	<string id="st_gloves_descr">
+		<text>
+		A pair of leather gloves. Feel and smell good as if they are bought recently. When the weather gets cold, it's important to keep your hands warm and ready.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_orange] • %c[ui_gray_2] valuable maintenance component\n
+		</text>
+	</string>
+
+	<string id="st_hand_watch_descr">
+		<text>
+		An old, classic Soviet "raketa3" watch. Looks like it's still in a good shape. It's not surprising that many stalkers prefer mechanical watches over PDAs for usual time checking. Giving the fact that those watches are reliable and durable even at the worst situations, they come in handy where PDAs fail due to strong electromagnetic waves coming from emissions or nearby anomaly fields. However, some simply wear them as a style accessory.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] personal belongings\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] valuable\n
+		%c[d_orange] • %c[ui_gray_2] usable for telling time\n
+		</text>
+	</string>
+
+	<string id="st_ball_hammer_descr">
+		<text>
+		Also known as a machinist's hammer. Ball-peen hammer is a type of peening hammer used in metalworking. Despite being old and rusty, you can never go wrong with having one for small repair jobs.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_orange] • %c[ui_gray_2] valuable maintenance component\n
+		</text>
+	</string>
+
+	<string id="st_duct_tape_descr">
+		<text>
+		Duct tape is commonly used in situations that require a strong, flexible, and very sticky tape. An easy and temporary solution for quick repair jobs. This type also has a long-lasting adhesive and resistance to weathering.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] everyday item\n
+		%c[d_orange] • %c[ui_gray_2] maintenance component\n
+		</text>
+	</string>
+
+	<string id="st_itm_cutting_tools_2_descr">
+		<text>A rusted set of tools for medium armor disassembly.\n \n%c[ui_gray_2]PROPERTIES:\n%c[0,155,155,155] • %c[ui_gray_2]Crafting Tools\n%c[0,255,1,1] • %c[0,100,250,100]Works on medium armor
+		</text>
+	</string>
+
+	<string id="st_itm_cutting_tools_3_descr">
+		<text>Improvised tools designed for fabric or light gas masks.\n \n%c[ui_gray_2]PROPERTIES:\n%c[0,155,155,155] • %c[ui_gray_2]Crafting Tools\n%c[0,255,1,1] • %c[0,100,250,100]Works on light armor and gas masks</text>
+	</string>
+
+</string_table>

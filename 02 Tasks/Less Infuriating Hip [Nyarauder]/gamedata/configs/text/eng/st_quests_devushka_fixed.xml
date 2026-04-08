@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="devushka_fixed_medicine_title">
+		<text>Field Nurse: Medical Supplies</text>
+	</string>
+	<string id="devushka_fixed_medicine_find">
+		<text>Anastasia asked me to bring her a package with medical supplies. It doesn't matter what kind they are or where do I get them.</text>
+	</string>
+	<string id="devushka_fixed_medicine_deliver">
+		<text>I've got the medical supplies. I should bring them back to Anastasia.</text>
+	</string>
+	<string id="devushka_fixed_tools_title">
+		<text>Field Nurse: Tools</text>
+	</string>
+	<string id="devushka_fixed_tools_find">
+		<text>Anastasia asked me to procure a basic toolkit for her. It doesn't matter where I get it, but I can't bring her any other kind of tools.</text>
+	</string>
+	<string id="devushka_fixed_tools_deliver">
+		<text>I've got the tools. I should bring them back to Anastasia.</text>
+	</string>
+	<string id="devushka_fixed_delivery_title">
+		<text>Delivery South</text>
+	</string>
+	<string id="devushka_fixed_delivery_descr">
+		<text>Sidorovich tasked me with delivering weather radar kits to Cold in Great Swamps.</text>
+	</string>
+</string_table>

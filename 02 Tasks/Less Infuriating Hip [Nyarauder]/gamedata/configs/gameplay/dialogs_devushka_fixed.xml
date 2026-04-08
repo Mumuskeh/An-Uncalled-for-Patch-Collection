@@ -1,0 +1,295 @@
+
+<dialog id="devushka_meet_fixed">
+	<phrase_list>
+		<phrase id="0">
+		<next>1</next>
+		</phrase>
+
+		<phrase id="1">
+		<next>1111</next>
+		</phrase>
+
+		<phrase id="1111">
+		<text>devushka_meet_fixed</text>
+		</phrase>
+	</phrase_list>
+</dialog>
+
+<dialog id="devushka_asked_about_1">
+	<dont_has_info>devushka_asked_about_1</dont_has_info>
+	<phrase_list>
+		<phrase id="0">
+		<text>devushka_asked_about_1_1</text>
+		<next>1</next>
+		</phrase>
+
+		<phrase id="1">
+		<text>devushka_asked_about_1_2</text>
+		<next>2</next>
+		</phrase>
+
+		<phrase id="2">
+		<text>devushka_asked_about_1_3</text>
+		<next>3</next>
+		</phrase>
+
+		<phrase id="3">
+		<text>devushka_asked_about_1_4</text>
+		<give_info>devushka_asked_about_1</give_info>
+		</phrase>
+	</phrase_list>
+</dialog>
+
+<dialog id="devushka_asked_about_2">
+	<has_info>devushka_asked_about_1</has_info>
+	<dont_has_info>devushka_asked_about_2</dont_has_info>
+	<phrase_list>
+		<phrase id="0">
+		<text>devushka_asked_about_2_1</text>
+		<next>1</next>
+		</phrase>
+
+		<phrase id="1">
+		<text>devushka_asked_about_2_2</text>
+		<next>2</next>
+		</phrase>
+
+		<phrase id="2">
+		<text>devushka_asked_about_2_3</text>
+		<next>3</next>
+		</phrase>
+
+		<phrase id="3">
+		<text>devushka_asked_about_2_4</text>
+		<give_info>devushka_asked_about_2</give_info>
+		</phrase>
+	</phrase_list>
+</dialog>
+
+<dialog id="devushka_quest_medicine">
+	<has_info>devushka_asked_about_2</has_info>
+	<dont_has_info>devushka_quest_medicine_start</dont_has_info>
+	<phrase_list>
+		<phrase id="0">
+		<text>devushka_quest_medicine_1</text>
+		<next>1</next>
+		</phrase>
+
+		<phrase id="1">
+		<text>devushka_quest_medicine_2</text>
+		<next>2</next>
+		</phrase>
+
+		<phrase id="2">
+		<text>devushka_quest_medicine_3</text>
+		<next>3</next>
+		</phrase>
+
+		<phrase id="3">
+		<text>devushka_quest_medicine_4</text>
+		<give_info>devushka_quest_medicine_start</give_info>
+		<action>dialogs_devushka_fix.give_task_devushka_medicine</action>
+		</phrase>
+	</phrase_list>
+</dialog>
+
+<dialog id="devushka_quest_medicine_done">
+	<has_info>devushka_quest_medicine_start</has_info>
+	<dont_has_info>devushka_quest_medicine_done</dont_has_info>
+	<phrase_list>
+		<phrase id="0">
+		<text>devushka_medicine_1</text>
+		<next>1</next>
+		</phrase>
+
+		<phrase id="1">
+		<text>devushka_medicine_2</text>
+		<next>2</next>
+		<next>3</next>
+		<next>4</next>
+		<next>777</next>
+		</phrase>
+
+		<phrase id="2">
+	<precondition>dialogs_devushka_fix.devushka_medicine_ai1</precondition>
+		<text>devushka_medicine_3</text>
+		<next>5</next>
+		</phrase>
+
+		<phrase id="3">
+	<precondition>dialogs_devushka_fix.devushka_medicine_ai2</precondition>
+		<text>devushka_medicine_5</text>
+		<next>6</next>
+		</phrase>
+
+		<phrase id="4">
+	<precondition>dialogs_devushka_fix.devushka_medicine_ai3</precondition>
+		<text>devushka_medicine_7</text>
+		<next>7</next>
+		</phrase>
+
+		<phrase id="5">
+		<text>devushka_medicine_4</text>
+		<give_info>devushka_quest_medicine_done</give_info>
+		<action>dialogs.become_friend</action>
+		<action>dialogs_devushka_fix.devushka_remove_ai1</action>
+		</phrase>
+
+		<phrase id="6">
+		<text>devushka_medicine_6</text>
+		<give_info>devushka_quest_medicine_done</give_info>
+		<action>dialogs.become_friend</action>
+		<action>dialogs_devushka_fix.devushka_medicine_reward_tier2</action>
+		<action>dialogs_devushka_fix.devushka_remove_ai2</action>
+		</phrase>
+
+		<phrase id="7">
+		<text>devushka_medicine_8</text>
+		<give_info>devushka_quest_medicine_done</give_info>
+		<action>dialogs.become_friend</action>
+		<action>dialogs_devushka_fix.devushka_medicine_reward_tier3</action>
+		<action>dialogs_devushka_fix.devushka_remove_ai3</action>
+		</phrase>
+
+		<phrase id="777">
+		<text>devushka_medicine_break</text>
+		<next>778</next>
+		</phrase>
+
+		<phrase id="778">
+		</phrase>
+	</phrase_list>
+</dialog>
+
+<dialog id="devushka_quest_tools">
+	<has_info>devushka_quest_medicine_done</has_info>
+	<dont_has_info>devushka_quest_tools_start</dont_has_info>
+	<phrase_list>
+		<phrase id="0">
+		<text>devushka_quest_tools_1</text>
+		<next>1</next>
+		</phrase>
+
+		<phrase id="1">
+		<text>devushka_quest_tools_2</text>
+		<next>2</next>
+		</phrase>
+
+		<phrase id="2">
+		<text>devushka_quest_tools_3</text>
+		<next>3</next>
+		</phrase>
+
+		<phrase id="3">
+		<text>devushka_quest_tools_4</text>
+		<next>4</next>
+		</phrase>
+
+		<phrase id="4">
+		<text>devushka_quest_tools_5</text>
+		<next>5</next>
+		</phrase>
+
+		<phrase id="5">
+		<text>devushka_quest_tools_6</text>
+		<give_info>devushka_quest_tools_start</give_info>
+		<action>dialogs_devushka_fix.give_task_devushka_tools</action>
+		</phrase>
+	</phrase_list>
+</dialog>
+
+<dialog id="devushka_quest_tools_done">
+	<has_info>devushka_quest_tools_start</has_info>
+	<dont_has_info>devushka_quest_tools_done</dont_has_info>
+	<precondition>dialogs_devushka_fix.devushka_basic_toolkit</precondition>
+	<phrase_list>
+		<phrase id="0">
+		<text>devushka_quest_tools_done_1</text>
+		<next>1</next>
+		</phrase>
+
+		<phrase id="1">
+		<text>devushka_quest_tools_done_2</text>
+		<give_info>devushka_quest_tools_done</give_info>
+		<action>dialogs_devushka_fix.devushka_remove_tools</action>
+		</phrase>
+	</phrase_list>
+</dialog>
+
+<dialog id="devushka_pls_heal">
+	<has_info>devushka_quest_medicine_done</has_info>
+	<phrase_list>
+		<phrase id="0">
+		<text>devushka_pls_heal_1</text>
+		<next>1</next>
+		</phrase>
+
+		<phrase id="1">
+		<text>devushka_pls_heal_2</text>
+                <action>dialogs.medic_magic_potion</action>
+		</phrase>
+	</phrase_list>
+</dialog>
+
+<dialog id="devushka_pls_fix">
+	<has_info>devushka_quest_tools_done</has_info>
+	<phrase_list>
+		<phrase id="0">
+		<text>devushka_pls_fix_1</text>
+		<next>1</next>
+		</phrase>
+
+		<phrase id="1">
+		<text>devushka_pls_fix_2</text>
+                <action>dialogs.npc_is_tech</action>
+		<action>dialogs.break_dialog</action>
+		</phrase>
+	</phrase_list>
+</dialog>
+
+<dialog id="devushka_pls_trade">
+	<has_info>devushka_quest_medicine_done</has_info>
+	<phrase_list>
+		<phrase id="0">
+		<text>devushka_pls_trade_1</text>
+		<next>1</next>
+		</phrase>
+
+		<phrase id="1">
+		<text>devushka_pls_trade_2</text>
+		<action>dialogs.npc_is_trader</action>
+		</phrase>
+	</phrase_list>
+</dialog>
+
+<dialog id="devushka_no_more_quest">
+	<has_info>devushka_quest_medicine_done</has_info>
+	<has_info>devushka_quest_tools_done</has_info>
+	<phrase_list>
+		<phrase id="0">
+		<text>devushka_no_more_quest_1</text>
+		<next>1</next>
+		</phrase>
+
+		<phrase id="1">
+		<text>devushka_no_more_quest_2</text>
+		</phrase>
+	</phrase_list>
+</dialog>
+
+	<dialog id="devushka_fixed_delivery_finish">
+		<precondition>dialogs_devushka_fix.devushka_delivery_cold</precondition>
+		<dont_has_info>devushka_quest_delivery_done</dont_has_info>
+		<has_info>devushka_fixed_delivery_init</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>devushka_fixed_delivery_finish_1</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>devushka_fixed_delivery_finish_2</text>
+				<action>dialogs_devushka_fix.devushka_cold_delivery_reward</action>
+				<give_info>devushka_quest_delivery_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>

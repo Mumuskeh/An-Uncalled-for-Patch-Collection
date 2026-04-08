@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+
+	<string id="dolg_leader_pda_name">
+		<text>ПДА Воронина</text>
+	</string>
+	<string id="dolg_leader_pda_descr">
+		<text>"Положил часть своего снаряжения в ящик за одним из красных контейнеров около стройки на Дикой Территории. На крайний случай."</text>
+	</string>
+	<string id="merc_leader_pda_name">
+		<text>ПДА Душмана</text>
+	</string>
+	<string id="merc_leader_pda_descr">
+		<text>"Один из наших отрядов, что сопровождал ученых на вертолете, потерпевшем крушение, оставил часть припасов под упавшим деревом рядом с полем аномалий в лесу на Радаре. Когда-нибудь я доберусь до этих вещичек."</text>
+	</string>
+	<string id="freedom_leader_pda_name">
+		<text>ПДА Лукаша</text>
+	</string>
+	<string id="freedom_leader_pda_descr">
+		<text>"До меня дошла информация об одном из схронов, оставленных отрядом Миклухи. Вполне вероятно, что эти живучие ребята, одними из первых прорвавшиеся за барьер, припрятали в своем тайнике редчайший хабар. Ящик лежит под горкой в виде слона в детском саду восточной Припяти."</text>
+	</string>
+	<string id="bandit_leader_pda_name">
+		<text>ПДА Султана</text>
+	</string>
+	<string id="bandit_leader_pda_descr">
+		<text>"В Зоне нельзя все ценное хранить в одном месте. Военные уже на фабрике над лабораторией, нужно быть готовым ко всему. Часть своего хабара оставил в вагоне поезда на мосту в Темной Лощине."</text>
+	</string>
+	<string id="monolith_leader_pda_name">
+		<text>ПДА Харона</text>
+	</string>
+	<string id="monolith_leader_pda_descr">
+		<text>"Неверные подбираются все ближе к Монолиту. Необходимо приготовиться к новой атаке. Оставлю запасной комплект снаряжения под лестницей почти на самом верху атомной станции."</text>
+	</string>
+	<string id="sin_leader_pda_name">
+		<text>ПДА Стрибога</text>
+	</string>
+	<string id="sin_leader_pda_descr">
+		<text>"Остался последний рывок и мы в лаборатории у Генераторов! Сделал схрон на чердаке одного из домов рядом с кладбишем около установок. Боюсь здесь эта броня уже не выдержит аномалий."</text>
+	</string>
+	<string id="csky_leader_pda_name">
+		<text>ПДА Холода</text>
+	</string>
+	<string id="csky_leader_pda_descr">
+		<text>"Появилась информация о снаряжении времен нашего прорыва к Центру. Эти события уже давно позади, но обмундирование не помешает. Ящик лежит в грузовике рядом с бывшим блокпостом военных в Лиманске."</text>
+	</string>
+	<string id="st_monolith_stash">
+		<text>Ящик с хабаром</text>
+	</string>
+	<string id="st_monolith_stash_descr">
+		<text>Весит не мало. Там должно быть что-то ценное.</text>
+	</string>
+
+</string_table>

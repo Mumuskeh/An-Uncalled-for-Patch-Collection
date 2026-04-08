@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="devushka_fixed_medicine_title">
+		<text>Полевая медсестра: Медикаменты</text>
+	</string>
+	<string id="devushka_fixed_medicine_find">
+		<text>Анастасия попросила меня принести ей медицинский набор - подойдёт любой, какой я смогу найти.</text>
+	</string>
+	<string id="devushka_fixed_medicine_deliver">
+		<text>Я добыл медикаменты. Нужно принести их Анастасии.</text>
+	</string>
+	<string id="devushka_fixed_tools_title">
+		<text>Полевая медсестра: Инструменты</text>
+	</string>
+	<string id="devushka_fixed_tools_find">
+		<text>Анастасия попросила меня добыть для неё инструменты для грубой работы - не больше, не меньше.</text>
+	</string>
+	<string id="devushka_fixed_tools_deliver">
+		<text>Я добыл инструменты. Нужно принести их Анастасии.</text>
+	</string>
+	<string id="devushka_fixed_delivery_title">
+		<text>Доставка: Юг</text>
+	</string>
+	<string id="devushka_fixed_delivery_descr">
+		<text>Сидорович хочет, чтобы я доставил Холоду на Болотах комплект доплеровского метеорадара</text>
+	</string>
+</string_table>

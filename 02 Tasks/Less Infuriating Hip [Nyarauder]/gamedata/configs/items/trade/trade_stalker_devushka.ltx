@@ -1,0 +1,40 @@
+#include "presets\trade_discounts.ltx"
+#include "presets\trade_presets.ltx"
+
+[trader]
+buy_condition = trade_generic_buy 
+sell_condition = trade_generic_sell
+buy_supplies = supplies_1
+buy_item_condition_factor = 0.50
+buy_item_exponent = 2.0
+sell_item_exponent = 1.0
+
+discounts = discount_medic
+
+[trade_generic_buy]:medic
+itm_drugkit	= 2.0, 2.0
+
+[trade_generic_sell]:medic
+itm_drugkit	= 2.0, 2.0
+
+[supplies_1]:common_stock
+drug_sleepingpills	= 1, 1
+bandage				= 4, 1
+medkit				= 2, 1
+antirad_cystamine	= 2, 1
+antibio_chlor		= 2, 1
+jgut				= 2, 1
+yadylin				= 2, 1
+antirad_kalium		= 2, 1
+antibio_sulfad		= 2, 1
+antiemetic   		= 2, 1
+antirad				= 2, 1
+stimpack			= 2, 1
+caffeine			= 2, 1
+akvatab				= 2, 1
+tetanus				= 2, 1
+morphine			= 2, 1
+drug_booster		= 1, 1
+drug_coagulant		= 1, 1
+drug_antidot		= 1, 1
+drug_radioprotector	= 1, 1

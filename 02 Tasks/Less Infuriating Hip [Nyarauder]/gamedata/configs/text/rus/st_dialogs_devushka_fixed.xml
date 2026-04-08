@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="devushka_fixed">
+		<text>Анастасия</text>
+	</string>
+
+	<string id="devushka_meet_fixed">
+		<text>Привет!</text>
+	</string>
+
+
+	<string id="devushka_asked_about_1_1">
+		<text>Далеко от дома?</text>
+	</string>
+	<string id="devushka_asked_about_1_2">
+		<text>Ну, можно и так сказать. Я не видела тебя здесь раньше. Меня зовут Анастасия, но можешь звать меня Ана.</text>
+	</string>
+	<string id="devushka_asked_about_1_3">
+		<text>Приятно познакомиться. Чем занимаешься в Зоне, Ана?</text>
+	</string>
+	<string id="devushka_asked_about_1_4">
+		<text>Прямо сейчас - до неприличия бездельничаю.</text>
+	</string>
+
+
+	<string id="devushka_asked_about_2_1">
+		<text>Кстати, это случаем не форма свободных на тебе?</text>
+	</string>
+	<string id="devushka_asked_about_2_2">
+		<text>Да, я была с ними... Да вышла вся. Были и друзья там. Были, да... Одни умерли, земля им пухом, ну а другие с Зоной завязали, совсем.</text>
+	</string>
+	<string id="devushka_asked_about_2_3">
+		<text>И почему же ты осталась?</text>
+	</string>
+	<string id="devushka_asked_about_2_4">
+		<text>У меня образование есть медицинское. Посмотри вокруг. Помимо Сидора, Волка, Фаната и того бывшего найма, что я латала как-то раз, тут ведь сплошная наивная зелень. К тому же, я уверена, что им приятно знать, что женская рука подлатает их и вернёт к жизни.</text>
+	</string>
+
+
+	<string id="devushka_quest_medicine_1">
+		<text>Ну, я не против, чтобы и меня подлатали.</text>
+	</string>
+	<string id="devushka_quest_medicine_2">
+		<text>Хах, не спорю. Но проблема есть. У меня почти закончились лекарства, и ничего серьёзнее пореза бумагой уже не вылечу. Слушай... Если вдруг где попадётся набор медикаментов, любой что сможешь найти - принеси мне, тогда я и тебе смогу помочь, и всем кому нужна будет медицинская помощь.</text>
+	</string>
+	<string id="devushka_quest_medicine_3">
+		<text>Я посмотрю, что можно сделать.</text>
+	</string>
+	<string id="devushka_quest_medicine_4">
+		<text>Спасибо. Ты знаешь, где меня найти.</text>
+	</string>
+
+
+	<string id="devushka_medicine_1">
+		<text>У меня есть кое-что для тебя.</text>
+	</string>
+	<string id="devushka_medicine_2">
+		<text>Что ты смог найти?</text>
+	</string>
+	<string id="devushka_medicine_3">
+		<text>Обычный набор.</text>
+	</string>
+	<string id="devushka_medicine_4">
+		<text>Спасибо, этого более чем достаточно. Я смогу подлечить тебя, когда пожелаешь. Только живым приходи - увы, я не сильна в воскрешении.</text>
+	</string>
+	<string id="devushka_medicine_5">
+		<text>Военный набор.</text>
+	</string>
+	<string id="devushka_medicine_6">
+		<text>Потрясающе! Спасибо тебе огромное! С этими лекарствами я любого на ноги поставлю, и тебя в том числе. Пожалуйста, возьми это в знак моей благодарности. И ещё раз - спасибо.</text>
+	</string>
+	<string id="devushka_medicine_7">
+		<text>Набор, что используют учёные.</text>
+	</string>
+	<string id="devushka_medicine_8">
+		<text>Ты реально пробивной, ты в курсе? Все эти медикаменты... Большущее тебе спасибо, правда! Я не смогу тебе отплатить достойно, но, пожалуйста, возьми это. Ты более чем заслужил всё это, за все жизни, что я смогу спасти с этими лекарствами.</text>
+	</string>
+	<string id="devushka_medicine_break">
+		<text>Ничего.</text>
+	</string>
+
+	<string id="devushka_pls_heal_1">
+		<text>Ана, можешь меня подлатать?</text>
+	</string>
+	<string id="devushka_pls_heal_2">
+		<text>Конечно! Так, стой ровно. Может быть немного больно...</text>
+	</string>
+
+	<string id="devushka_pls_trade_1">
+		<text>У тебя будет что-нибудь на продажу из лекарств?</text>
+	</string>
+	<string id="devushka_pls_trade_2">
+		<text>Конечно, выбирай.</text>
+	</string>
+
+	<string id="devushka_pls_fix_1">
+		<text>Можешь помочь со снарягой?</text>
+	</string>
+	<string id="devushka_pls_fix_2">
+		<text>Конечно.</text>
+	</string>
+
+	<string id="devushka_quest_tools_1">
+		<text>Нужно ещё с чем-нибудь помочь?</text>
+	</string>
+	<string id="devushka_quest_tools_2">
+		<text>Хм... Есть одно дело, думаю, тебе по плечу. Проблема в том, что в деревне нет никого, похожего на техника. А я хоть и заканчивала медшколу, но я бы в Зоне не протянула за красивые глазки и на добром слове. Кое-что в работе с оружием я смыслю.</text>
+	</string>
+	<string id="devushka_quest_tools_3">
+		<text>Другими словами - тебе нужны инструменты?</text>
+	</string>
+	<string id="devushka_quest_tools_4">
+		<text>Бинго. Но только самые простые, здесь особо не разживёшься на крутые апгрейды, да и я не настолько хороша в этом. Тем не менее, инструментов для грубой работы должно быть достаточно. Могу я снова на тебя положиться?</text>
+	</string>
+	<string id="devushka_quest_tools_5">
+		<text>Я посмотрю, что можно сделать.</text>
+	</string>
+	<string id="devushka_quest_tools_6">
+		<text>Отлично! Тогда ты знаешь, где меня найти.</text>
+	</string>
+
+	<string id="devushka_quest_tools_done_1">
+		<text>Я нашёл инструменты.</text>
+	</string>
+	<string id="devushka_quest_tools_done_2">
+		<text>Ого, ну спасибо тебе. Вот, возьми. Этого не слишком много за помощь, но ты действительно помог, правда.</text>
+	</string>
+
+	<string id="devushka_no_more_quest_1">
+		<text>Тебе нужна ещё помощь в чём-либо?</text>
+	</string>
+	<string id="devushka_no_more_quest_2">
+		<text>Благодаря тебе, у меня есть всё необходимое, спасибо. Я всегда рада тебя видеть.</text>
+	</string>
+
+	<string id="devushka_fixed_delivery_start_1">
+		<text>Сидорович, слушай, нужна помощь.</text>
+	</string>
+	<string id="devushka_fixed_delivery_start_2">
+		<text>Да ну?</text>
+	</string>
+	<string id="devushka_fixed_delivery_start_3">
+		<text>Ну да. Я хотел бы помочь добыть для Аны набор медикаментов для лечения раненых... И я подумал, что ты мог бы помочь.</text>
+	</string>
+	<string id="devushka_fixed_delivery_start_4">
+		<text>Гляньте-ка, джентельмен, ха. А вообще... Тебе повезло. Мой прошлый курьер попал в... неприятную ситуацию с местной живностью и посылки доставлять уже не может. Расклад такой: есть два доплеровский метеорада для Холода - он заправляет делами на Болотах. Я договорюсь с ним насчёт медикаментов, а на тебе доставка аппаратуры в целости и сохранности. Что скажешь?</text>
+	</string>
+	<string id="devushka_fixed_delivery_start_5">
+		<text>Услуга за услугу.</text>
+	</string>
+	<string id="devushka_fixed_delivery_start_6">
+		<text>Эт верно. Держи технику, и не потеряй её по пути. Давай в темпе, а я свяжусь с Холодом.</text>
+	</string>
+
+	<string id="devushka_fixed_delivery_finish_1">
+		<text>Холод? Я с посылкой от Сидоровича.</text>
+	</string>
+	<string id="devushka_fixed_delivery_finish_2">
+		<text>О, наконец-то, спасибо. Потом их Новикову передам. Вот, обещанная награда. Можешь с парнями в лагере выпить да отдохнуть с дороги. Ну а я, с твоего позволения, если дел ко мне больше нет, вернусь к работе.</text>
+	</string>
+</string_table>

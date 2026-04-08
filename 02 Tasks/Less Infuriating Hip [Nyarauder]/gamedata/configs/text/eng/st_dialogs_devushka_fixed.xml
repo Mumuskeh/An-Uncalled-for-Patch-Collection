@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="devushka_fixed">
+		<text>Anastasia</text>
+	</string>
+
+	<string id="devushka_meet_fixed">
+		<text>Hello!</text>
+	</string>
+
+
+	<string id="devushka_asked_about_1_1">
+		<text>Far from home?</text>
+	</string>
+	<string id="devushka_asked_about_1_2">
+		<text>You could say that. I don't think I've seen you here before. I'm Anastasia, but you can call me Ana.</text>
+	</string>
+	<string id="devushka_asked_about_1_3">
+		<text>Nice to meet you. So, what are you doing in the Zone, Ana?</text>
+	</string>
+	<string id="devushka_asked_about_1_4">
+		<text>Right now? Sitting on my ass with whole lot of nothing to do.</text>
+	</string>
+
+
+	<string id="devushka_asked_about_2_1">
+		<text>Isn't that Freedom armour you're wearing?</text>
+	</string>
+	<string id="devushka_asked_about_2_2">
+		<text>Yes, I used to stick around with them before... before we parted ways. Had a few friends in there. Past tense. Some died, god rest their souls, and some left the Zone for good.</text>
+	</string>
+	<string id="devushka_asked_about_2_3">
+		<text>Why stay then?</text>
+	</string>
+	<string id="devushka_asked_about_2_4">
+		<text>I've got medical background. Look at the guys around. Aside from Sidorovich, Wolf, Fanatic, and that ex-merc I helped in patching up some time back, most of them are callow, green rookies. Besides, I'm sure it's uplifting their spirits if it's a woman's gentle touch they feel when they are getting brought back from the brink.</text>
+	</string>
+
+
+	<string id="devushka_quest_medicine_1">
+		<text>I sure wouldn't mind if you helped me get back into stalking shape.</text>
+	</string>
+	<string id="devushka_quest_medicine_2">
+		<text>Haha, I'm sure you wouldn't. But there's a problem. I ran out of supplies to patch up anyone with wounds more severe than a paper cut. Tell you what - if you get any package with medical supplies during your trips into the wild outside the village, bring it to me. I'll put it to good use, be it on you or anyone else bleeding to death.</text>
+	</string>
+	<string id="devushka_quest_medicine_3">
+		<text>I'll see what I can do.</text>
+	</string>
+	<string id="devushka_quest_medicine_4">
+		<text>Thank you. You know where to find me.</text>
+	</string>
+
+
+	<string id="devushka_medicine_1">
+		<text>I've got something for you.</text>
+	</string>
+	<string id="devushka_medicine_2">
+		<text>Found anything for me?</text>
+	</string>
+	<string id="devushka_medicine_3">
+		<text>A package of basic medical supplies.</text>
+	</string>
+	<string id="devushka_medicine_4">
+		<text>Ah, thank you, it will more than suffice. I'll be able to patch you up now any time you come back. Just make sure to come back alive - I'm not good enough to resurrect the dead.</text>
+	</string>
+	<string id="devushka_medicine_5">
+		<text>A package of military medical supplies.</text>
+	</string>
+	<string id="devushka_medicine_6">
+		<text>That's amazing! Thank you so much! With this, I'll be able to patch up anyone unlucky to have a close call, including you. Please, take this as a token of my gratitude. And again, thank you.</text>
+	</string>
+	<string id="devushka_medicine_7">
+		<text>A package of medical supplies the scientists use.</text>
+	</string>
+	<string id="devushka_medicine_8">
+		<text>You're a real hotshot, you know that? All that medicine... Thank you so much! I won't be able to ever repay you properly, but please, take it. You've more than earned it with all the lives you've helped me save with this.</text>
+	</string>
+	<string id="devushka_medicine_break">
+		<text>Nevermind.</text>
+	</string>
+
+	<string id="devushka_pls_heal_1">
+		<text>Could you patch me up, Ana?</text>
+	</string>
+	<string id="devushka_pls_heal_2">
+		<text>Of course. Please, hold still. It might sting...</text>
+	</string>
+
+	<string id="devushka_pls_trade_1">
+		<text>Do you have any spare supplies I could take for the road?</text>
+	</string>
+	<string id="devushka_pls_trade_2">
+		<text>Please, have a look.</text>
+	</string>
+
+	<string id="devushka_pls_fix_1">
+		<text>Could you help me with my gear?</text>
+	</string>
+	<string id="devushka_pls_fix_2">
+		<text>Sure thing.</text>
+	</string>
+
+	<string id="devushka_quest_tools_1">
+		<text>Do you need any more help?</text>
+	</string>
+	<string id="devushka_quest_tools_2">
+		<text>Hmm.. Yes, I could use your help with one other thing. There's no mechanic here in the Rookie Village. Now, I may be coming from a med school, but I didn't survive here in the Zone on looks and kind word alone. I know the basics of how to work a gun.</text>
+	</string>
+	<string id="devushka_quest_tools_3">
+		<text>In other words, you want me to bring you some tools?</text>
+	</string>
+	<string id="devushka_quest_tools_4">
+		<text>Bingo. Just the basic kind, though, there's simply no proper environment here for more than some basic maintenance, and I'm not remotely good enough to provide any kind of help with modification. Still, even just that should be more than enough. Can I count on you again?</text>
+	</string>
+	<string id="devushka_quest_tools_5">
+		<text>I'll see what I can do.</text>
+	</string>
+	<string id="devushka_quest_tools_6">
+		<text>Great! Then you know where to find me.</text>
+	</string>
+
+	<string id="devushka_quest_tools_done_1">
+		<text>I've got some tools for you.</text>
+	</string>
+	<string id="devushka_quest_tools_done_2">
+		<text>Ah, thanks a ton. Here, take this. It's not much, but you've really helped make a difference.</text>
+	</string>
+
+	<string id="devushka_no_more_quest_1">
+		<text>Do you need any more help, Ana?</text>
+	</string>
+	<string id="devushka_no_more_quest_2">
+		<text>I've got everything I need, thank you. You're always a welcome sight to me.</text>
+	</string>
+
+	<string id="devushka_fixed_delivery_start_1">
+		<text>Sidorovich, I need a hand with some matter.</text>
+	</string>
+	<string id="devushka_fixed_delivery_start_2">
+		<text>Really?</text>
+	</string>
+	<string id="devushka_fixed_delivery_start_3">
+		<text>Really. I'd like to help Ana get medical supplies to treat any injured rookies and I hoped you'd contribute to the effort.</text>
+	</string>
+	<string id="devushka_fixed_delivery_start_4">
+		<text>Aren't that nice of you. Well, you're in luck. My last runner had an... unfortunate accident with local wildlife and is no longer around to deliver a package for me. Tell you what, kid. I've got here two Doppler weather radar kits that need to find their way to Cold - he's the one calling the shots around Great Swamps. I'll make an arrangement for him to get you the supplies, but you're going to be the one running the lap. How does that sound?</text>
+	</string>
+	<string id="devushka_fixed_delivery_start_5">
+		<text>Like a favour for a favour.</text>
+	</string>
+	<string id="devushka_fixed_delivery_start_6">
+		<text>Damn straight. Here are the devices, don't lose them along the way. Now get going. I have to contact Cold.</text>
+	</string>
+
+	<string id="devushka_fixed_delivery_finish_1">
+		<text>Cold? I've got a package from Sidorovich addressed to you.</text>
+	</string>
+	<string id="devushka_fixed_delivery_finish_2">
+		<text>Ah, finally, thank you. I'll take them to Novikov later. Here, your reward as promised. Sit down and have a drink with the boys before your trip back if you want. Now, if you'll excuse me, if there's nothing else you'd like to bring up, I'm going to get back to work.</text>
+	</string>
+</string_table>
