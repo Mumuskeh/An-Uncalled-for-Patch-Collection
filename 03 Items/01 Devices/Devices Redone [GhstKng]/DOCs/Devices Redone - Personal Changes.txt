@@ -1,0 +1,3 @@
+Uses DamieneX' Detector Redone to cover all of devices position for 0.4 HUD FOV
+Uses Apathy_Knight's Better Detector Reposition for the PDA position
+Uses VonAvalon for Better PDA Rarity Model

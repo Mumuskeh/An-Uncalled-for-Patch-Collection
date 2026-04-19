@@ -16,6 +16,8 @@ IMPORTANT: If you were already using this mod in a current save, a new game is r
 The modules for each mod have been gathered in the same folder.
 There's an optional merge of the separate modules to reduce the number of files used; text, corpse looting, and dialogue files were left alone.
 Place the contents of all three original mods into the same folder, then proceed with the merge patch as with the individual ones.
+===IMPORTANT NOTE: this merge is deprecated and abandoned, as it complicated compatibility too much. It's left here for preserving yadda yadda yadda, I won't support it.
+
 
 
 -Consolidates icons into one single compacted texture.
@@ -30,7 +32,6 @@ Place the contents of all three original mods into the same folder, then proceed
 Integration into:
 Grok's Stash Overhaul
 Lootboxes
-NPCs Limping and Healing
 TB's RF Receiver Hidden Package Sidequests + CookBook's QOL patch (requires the module in this package)
 
 Minor Meds are excluded from the last two. Who's gonna reward you with a goose chase for some paracetamol?
@@ -56,6 +57,8 @@ For Minor Meds and the merge. It will disable Minor Meds' active charcoal in fav
 
 More drops from drugs (DLTX Minimod)
 The new meds will provide discarded parts when used just like other drugs.
+
+NPCs Limping and Healing
 
 New medkits & Faction medkits exo animations [RuJohnny]
 Makes the patch use the renamed IDs.

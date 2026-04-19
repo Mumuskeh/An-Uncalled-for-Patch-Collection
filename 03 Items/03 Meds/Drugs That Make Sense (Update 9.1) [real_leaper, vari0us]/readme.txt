@@ -23,11 +23,12 @@ Integrated into the vanilla rewards, looting, and stash systems.
 Integration into:
 Grok's Stash Overhaul
 Lootboxes
-NPCs Limping and Healing
-TB's RF Receiver Hidden Package Sidequests + CookBook's QOL patch
+TB's RF Receiver Hidden Package Sidequests + CookBook's QOL patch (requires the module in this package)
 
 ----------------------------------------------------------
 -Patches:
+
+NPCs Limping and Healing
 
 ----------------------------------------------------------
 -Known issues:

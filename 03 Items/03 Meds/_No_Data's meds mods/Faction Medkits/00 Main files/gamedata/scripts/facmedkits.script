@@ -9,7 +9,7 @@ end
 
 --- give letter_bandit_map_darkscape
 function relocate_item_letter_bandit_map_darkscape_to_actor(a, b)
- dialogs.relocate_item_section_to_actor(a, b, "letter_bandit_map_darkscape")
+ dialogs.relocate_item_section_to_actor(a, b, "darkscapemap")
 end
 
 --- give beer

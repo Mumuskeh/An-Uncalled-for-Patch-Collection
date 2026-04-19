@@ -5,9 +5,10 @@ Trader Sell Mods Merge [various authors]
 -Compatibility:
 Original mods not required.
 
-Prepared to make use of the new trader profiles in:
--Basic Trader Profiles Expansion.
--Spleen Stock Fix
+Prepared to be compatible with Spleen Stock Fix
+
+NOTE: This feature is already included in Basic Trader Profiles Expansion.
+Avoid using this module with that mod.
 
 ----------------------------------------------------------
 -Explanation:

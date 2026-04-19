@@ -16,7 +16,7 @@
 		</text>
 	</string>
 	
-		<string id="st_medkit_tactical">
+	<string id="st_medkit_tactical">
 		<text>Тактическая аптечка</text>
 	</string>
 	<string id="st_medkit_tactical_descr">
@@ -33,7 +33,7 @@
 		</text>
 	</string>
 	
-		<string id="st_medkit_combat">
+	<string id="st_medkit_combat">
 		<text>Комплект боевого стимулятора</text>
 	</string>
 		<string id="st_medkit_combat_descr">
@@ -65,7 +65,7 @@
 		</text>
 	</string>
 	
-		<string id="st_bandage_cooling">
+	<string id="st_bandage_cooling">
 		<text>Охлаждающий бинт</text>
 	</string>
 	<string id="st_bandage_cooling_descr">
@@ -76,7 +76,7 @@
 		</text>
 	</string>
 	
-		<string id="st_bandage_presure">
+	<string id="st_bandage_presure">
 		<text>Давящая повязка</text>
 	</string>
 	<string id="st_bandage_presure_descr">
@@ -87,7 +87,7 @@
 		</text>
 	</string>
 	
-		<string id="st_bandage_rag">
+	<string id="st_bandage_rag">
 		<text>Тряпки</text>
 	</string>
 	<string id="st_bandage_rag_descr">
@@ -102,7 +102,7 @@
 		</text>
 	</string>
 	
-		<string id="st_bandage_bandaids">
+	<string id="st_bandage_bandaids">
 		<text>Лейкопластыри</text>
 	</string>
 	<string id="st_bandage_bandaids_descr">

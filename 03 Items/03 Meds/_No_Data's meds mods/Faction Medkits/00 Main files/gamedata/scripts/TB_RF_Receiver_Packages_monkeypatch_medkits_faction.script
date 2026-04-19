@@ -1,19 +1,18 @@
 function on_game_start()
 
-
 	if TB_RF_Receiver_Packages.tb_extraloot then
+		if TB_RF_Receiver_Packages.mc_faction_bandit then
+			table.insert( TB_RF_Receiver_Packages.mc_faction_bandit, {"medkit_faction_bandit","st_medkit_faction_bandit"} )
+			table.insert( TB_RF_Receiver_Packages.mc_faction_csky, {"medkit_faction_clearsky","st_medkit_faction_clearsky"} )
+			table.insert( TB_RF_Receiver_Packages.mc_faction_dolg, {"medkit_faction_duty","st_medkit_faction_duty"} )
+			table.insert( TB_RF_Receiver_Packages.mc_faction_freedom, {"medkit_faction_freedom","st_medkit_faction_freedom"} )
+			table.insert( TB_RF_Receiver_Packages.mc_faction_greh, {"medkit_faction_sin","st_medkit_faction_sin"} )
+			table.insert( TB_RF_Receiver_Packages.mc_faction_isg, {"medkit_faction_isg","st_medkit_faction_isg"} )
+			table.insert( TB_RF_Receiver_Packages.mc_faction_killer, {"medkit_faction_merc","st_medkit_faction_merc"} )
+			table.insert( TB_RF_Receiver_Packages.mc_faction_monolith, {"medkit_faction_monolith","st_medkit_faction_monolith"} )
+			table.insert( TB_RF_Receiver_Packages.mc_faction_renegade, {"medkit_faction_renegade","st_medkit_faction_renegade"} )
+			-- table.insert( TB_RF_Receiver_Packages.mc_faction_stalker,  )
 
-		table.insert( TB_RF_Receiver_Packages.mc_faction_bandit, {"medkit_faction_bandit","st_medkit_faction_bandit"} )
-		table.insert( TB_RF_Receiver_Packages.mc_faction_csky, {"medkit_faction_clearsky","st_medkit_faction_clearsky"} )
-		table.insert( TB_RF_Receiver_Packages.mc_faction_dolg, {"medkit_faction_duty","st_medkit_faction_duty"} )
-		table.insert( TB_RF_Receiver_Packages.mc_faction_freedom, {"medkit_faction_freedom","st_medkit_faction_freedom"} )
-		table.insert( TB_RF_Receiver_Packages.mc_faction_greh, {"medkit_faction_sin","st_medkit_faction_sin"} )
-		table.insert( TB_RF_Receiver_Packages.mc_faction_isg, {"medkit_faction_isg","st_medkit_faction_isg"} )
-		table.insert( TB_RF_Receiver_Packages.mc_faction_killer, {"medkit_faction_merc","st_medkit_faction_merc"} )
-		table.insert( TB_RF_Receiver_Packages.mc_faction_monolith, {"medkit_faction_monolith","st_medkit_faction_monolith"} )
-		table.insert( TB_RF_Receiver_Packages.mc_faction_renegade, {"medkit_faction_renegade","st_medkit_faction_renegade"} )
-		-- table.insert( TB_RF_Receiver_Packages.mc_faction_stalker,  )
-
-	
+		end
 	end
 end

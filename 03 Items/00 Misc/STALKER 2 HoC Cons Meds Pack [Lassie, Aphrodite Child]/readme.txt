@@ -41,5 +41,8 @@ Lootboxes
 More drops from drugs (DLTX MiniMod)
 For the Replacer option only.
 
+DLTX distribution
+Disables the scripted methods of distribution (ie: trader_autoinject) in favor of DLTX.
+
 ----------------------------------------------------------
 -Known issues:

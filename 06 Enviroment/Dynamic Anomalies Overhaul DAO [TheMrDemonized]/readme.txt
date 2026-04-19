@@ -1,8 +1,10 @@
 -Module:
-Random RPK [Firebreath]
+Dynamic Anomalies Overhaul DAO [TheMrDemonized]
 
 ----------------------------------------------------------
 -Compatibility:
+
+Also compatible with Arrival.
 
 ----------------------------------------------------------
 -Explanation:

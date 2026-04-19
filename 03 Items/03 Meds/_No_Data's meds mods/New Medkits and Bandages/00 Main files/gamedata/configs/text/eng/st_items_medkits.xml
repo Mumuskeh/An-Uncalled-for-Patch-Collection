@@ -94,10 +94,10 @@
 	</string>
 
 	<string id="st_bandage_rag">
-		<text>bandage_rags</text>
+		<text>Rags</text>
 	</string>
 	<string id="st_bandage_rag_descr">
-		<text>A couple dirty bandage_rags, torn from a t-shirt or some kind of cotton clothing. They are not sterile and are not suitable in a medical setting, however, not all stalkers can afford high quality imported bandages, so these are a semi effective alternative. Simply unsuitable for treating heavy bleeding, because the blood will simply soak through the bandage_rag.\n
+		<text>A couple of dirty cloth rags, torn from a t-shirt or some kind of cotton clothing. They are not sterile and are not suitable in a medical setting, however, not all stalkers can afford high quality imported bandages, so these are a semi effective alternative. Simply unsuitable for treating heavy bleeding, because the blood will simply soak through the rags.\n
 		%c[ui_gray_3]PROPERTIES:\n
 		%c[d_blue] • %c[ui_gray_2] everyday item\n
 		%c[d_blue] • %c[ui_gray_2] fast usage\n
