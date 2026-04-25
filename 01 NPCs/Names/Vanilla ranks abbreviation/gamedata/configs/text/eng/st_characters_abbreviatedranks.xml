@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="jup_a6_duty_leader">
+		<text>Lt. Col. Shulga</text>
+	</string>
+	<string id="jup_b46_duty_founder_name">
+		<text>Gen. Tachenko</text>
+	</string>
+	<string id="jup_b46_duty_founder_squad_02_name">
+		<text>Lt. Bunchuk</text>
+	</string>
+	<string id="jup_b46_duty_founder_squad_03_name">
+		<text>Col. Kosmach</text>
+	</string>
+	<string id="jup_b46_duty_founder_squad_04_name">
+		<text>Lt. Zaharchuk</text>
+	</string>
+	<string id="jup_b6_scientist_biochemist">
+		<text>Prof. Ozersky</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist">
+		<text>Prof. Hermann</text>
+	</string>
+	<string id="jup_b9_shliachin_name">
+		<text>Sgt. Shlyachin</text>
+	</string>
+	<string id="pri_a15_military_recon_1_name">
+		<text>Lt. Sergeev</text>
+	</string>
+	<string id="pri_a15_military_recon_2_name">
+		<text>Sgt. Valyushok</text>
+	</string>
+	<string id="pri_a15_military_recon_3_name">
+		<text>Sgt. Ostrovskiy</text>
+	</string>
+	<string id="pri_a15_military_recon_leader_name">
+		<text>Capt. Klimenko</text>
+	</string>
+	<string id="pri_a15_sokolov_name">
+		<text>Lt. Sokolov</text>
+	</string>
+	<string id="pri_a17_military_captain_tarasov">
+		<text>Capt. Tarasov</text>
+	</string>
+	<string id="pri_a17_military_colonel_kovalski_name">
+		<text>Col. Kovalsky</text>
+	</string>
+	<string id="pri_a17_military_lieutenant_podorojniy">
+		<text>Lt. Podorozhniy</text>
+	</string>
+	<string id="pri_a18_skorlupko_in_suit_name">
+		<text>Lt. Skelya</text>
+	</string>
+	<string id="pri_a18_vano_in_suit_reserve_name">
+		<text>Sgt. Merkulov</text>
+	</string>
+	<string id="pri_a21_sentry_lieutenant_stecenko_name">
+		<text>Lt. Stecenko</text>
+	</string>
+	<string id="pri_a22_military_yarmoshuk_name">
+		<text>Sgt. Yarmoshuk</text>
+	</string>
+	<string id="pri_a25_army_medic_name">
+		<text>Lt. Rogovets</text>
+	</string>
+	<string id="pri_a28_evac_com_name">
+		<text>Lt. Smirnov</text>
+	</string>
+	<string id="st_jup_b207_duty_security_squad_leader_name">
+		<text>Lt. Gavrilenko</text>
+	</string>
+	<string id="st_pri_a22_army_signaller">
+		<text>Lt. Kirillov</text>
+	</string>
+	<string id="zat_b28_draper_name">
+		<text>Lt. Drapey</text>
+	</string>
+	<string id="zat_b28_umerov_name">
+		<text>Sgt. Umerov</text>
+	</string>
+	<string id="jup_b46_duty_founder_squad_01_name">
+		<text>Maj. Chepurnoy</text>
+	</string>
+	<string id="pri_a17_military_prapor_valentyr">
+		<text>Sgt. Valentir</text>
+	</string>
+	<string id="pri_a17_military_sergeant_morozov">
+		<text>Senior Sgt. Morozov</text>
+	</string>
+	<string id="zat_b28_smoliak_name">
+		<text>Senior Lt. Smolyak</text>
+	</string>
+	<string id="zat_b100_army_1">
+		<text>Sgt. Gazda</text>
+	</string>
+	<string id="zat_b100_army_2">
+		<text>Capt. Furtes</text>
+	</string>
+	<string id="zat_b100_army_3">
+		<text>Senior Sgt. Shveyko</text>
+	</string>
+
+	<string id="st_bar_duty_security_squad_leader_name">
+		<text>Capt. Gavrilenko</text>
+	</string>
+	<string id="bar_kicenko_name">
+		<text>Master Sgt. Kitsenko</text>
+	</string>
+	<string id="yan_st_sakharov_name">
+		<text>Prof. Sakharov</text>
+	</string>
+	<string id="yan_semenov_name">
+		<text>Prof. Semenov</text>
+	</string>
+	<string id="yan_vasilyev_name">
+		<text>Prof. Vasiliev</text>
+	</string>
+	<string id="yan_kruglov_name">
+		<text>Prof. Kruglov</text>
+	</string>
+	<string id="bar_petrenko_name">
+		<text>Col. Petrenko</text>
+	</string>
+	<string id="bar_voronin_name">
+		<text>Gen. Voronin</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_name">
+		<text>Senior Lt. Kirilov</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_trader_stalker_name">
+		<text>Sgt. Spooner</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_medic_stalker_name">
+		<text>Lt. Rogovets</text>
+	</string>
+	<string id="bar_visitors_stalker_mechanic_name">
+		<text>Senior Sgt. "Mangun" Potryko</text>
+	</string>
+
+	<string id="sar2_kruglov_name">
+		<text>Prof. Kruglov</text>
+	</string>
+	<string id="sar2_kuznetsov_name">
+		<text>Col. Kuznetsov</text>
+	</string>
+	<string id="sar2_petrenko_name">
+		<text>Col. Petrenko</text>
+	</string>
+
+	<string id="sar2_voronin_name">
+		<text>Gen. Voronin</text>
+	</string>
+	<string id="agr_kuznetsov_name">
+		<text>Col. Kuznetsov</text>
+	</string>
+
+	<!-- Characters in MLR -->
+
+	<string id="agr_1_6_medic_army_mlr_name">
+		<text>Lt. Rogovets</text>
+	</string>
+	<string id="bar_dolg_medic_name">
+		<text>Lt. "Aspirin" Sostradov</text>
+	</string>
+	<string id="esc_3_16_military_trader_name">
+		<text>Maj. Zhurov</text>
+	</string>
+	<string id="army_degtyarev_name">
+		<text>Col. Degtyarev</text>
+	</string>
+	<string id="army_isg_spy_name">
+		<text>Cpl. Antonov</text>
+	</string>
+	<string id="army_tarasov_name">
+		<text>Maj. Tarasov</text>
+	</string>
+	<string id="ds_domik_isg_leader_name">
+		<text>Maj. Hernandez</text>
+	</string>
+	<string id="jup_depo_isg_tech_name">
+		<text>Lt. Maus</text>
+	</string>
+</string_table>

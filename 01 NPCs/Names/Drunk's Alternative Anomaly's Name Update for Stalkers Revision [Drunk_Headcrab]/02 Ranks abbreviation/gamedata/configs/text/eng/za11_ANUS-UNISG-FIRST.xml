@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="name_isg_private_0">
+		<text>Pvt.</text>
+	</string>
+	<string id="name_isg_private_1">
+		<text>Senior Pvt.</text>
+	</string>
+	<string id="name_isg_private_2">
+		<text>Cpl.</text>
+	</string>
+	<string id="name_isg_sergeant_0">
+		<text>Sgt.</text>
+	</string>
+	<string id="name_isg_sergeant_1">
+		<text>Sgt. Maj.</text>
+	</string>
+	<string id="name_isg_sergeant_2">
+		<text>Warrant Officer</text>
+	</string>
+	<string id="name_isg_lieutenant_0">
+		<text>Second Lt.</text>
+	</string>
+	<string id="name_isg_lieutenant_1">
+		<text>First Lt.</text>
+	</string>
+	<string id="name_isg_captain_0">
+		<text>Capt.</text>
+	</string>
+
+</string_table>

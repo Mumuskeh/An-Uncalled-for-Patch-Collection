@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="name_private_0">
+		<text>Pvt.</text>
+	</string>
+	<string id="name_private_1">
+		<text>Senior Pvt.</text>
+	</string>
+	<string id="name_senior_sergeant_0">
+		<text>Senior Sgt.</text>
+	</string>
+	<string id="name_senior_sergeant_1">
+		<text>Chief Sgt.</text>
+	</string>
+	<string id="name_senior_sergeant_2">
+		<text>Staff Sgt.</text>
+	</string>
+	<string id="name_senior_sergeant_3">
+		<text>Master Sgt.</text>
+	</string>
+	<string id="name_senior_sergeant_4">
+		<text>Senior Master Sgt.</text>
+	</string>
+	<string id="name_senior_sergeant_5">
+		<text>Chief Master Sgt.</text>
+	</string>
+	<string id="name_sergeant_0">
+		<text>Junior Sgt.</text>
+	</string>
+	<string id="name_sergeant_1">
+		<text>Sgt.</text>
+	</string>
+	<string id="name_lieutenant_0">
+		<text>Junior Lt.</text>
+	</string>
+	<string id="name_lieutenant_1">
+		<text>Lt.</text>
+	</string>
+	<string id="name_lieutenant_2">
+		<text>Senior Lt.</text>
+	</string>
+	<string id="name_captain_0">
+		<text>Capt.</text>
+	</string>
+	<string id="name_captain_1">
+		<text>Maj.</text>
+	</string>
+
+</string_table>

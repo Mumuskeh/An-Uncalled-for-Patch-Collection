@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="name_guard_0">
+		<text>Field Expert</text>
+	</string>
+	<string id="name_guard_1">
+		<text>Security Spc.</text>
+	</string>
+	<string id="name_guard_2">
+		<text>Combat Spc.</text>
+	</string>
+	<string id="name_guard_3">
+		<text>Field Operator</text>
+	</string>
+	<string id="name_guard_4">
+		<text>Security Operator</text>
+	</string>
+	<string id="name_guard_5">
+		<text>Research Guard</text>
+	</string>
+	<string id="name_guard_6">
+		<text>I.S.R.I.T. Expeditionary</text>
+	</string>
+	<string id="name_guard_7">
+		<text>I.S.R.I.T. Operative</text>
+	</string>
+	<string id="name_guard_8">
+		<text>I.S.R.I.T. Spc.</text>
+	</string>
+	<string id="name_guard_9">
+		<text>I.S.R.I.T. Agent</text>
+	</string>
+	<string id="name_guard_10">
+		<text>Security Agent</text>
+	</string>
+
+</string_table>
