@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_lootbox_helmet_lig">
+		<text>Helmet Case</text>
+	</string>
+	<string id="st_lootbox_helmet_lig_descr">
+		<text>
+			A hard plastic case, usually meant for safe storing of hardhats or gas masks. The fact that the lock is still intact suggests it has succeded in that purpose.\n\n
+		</text>
+	</string>
+
+	<string id="st_lootbox_outfit_lig">
+		<text>Wooden Armor Case</text>
+	</string>
+	<string id="st_lootbox_outfit_lig_descr">
+		<text>A wooden box, often used for storing and transporting various sets of apparel or kevlar. While reasonably tamperproof, it would not be used to store valuable things for long periods of time. At least not without risking them being exposed to the elements.\n\n</text>
+	</string>
+
+	<string id="st_lootbox_outfit_low">
+		<text>Locked Cloth Bag</text>
+	</string>
+	<string id="st_lootbox_outfit_low_descr">
+		<text>This "bag" appears to be a lazily bundled piece of waterproof fabric. It is tied together with thin cordage which looks to be rotting. Even so, a cheap looking SpongeBob SquarePants themed padlock adorns the central "knot". This kind of craftsmanship is never seen alongside long-lived stalkers.\n\n</text>
+	</string>
+
+	<string id="st_lootbox_outfit_med">
+		<text>Sturdy Backpack</text>
+	</string>
+	<string id="st_lootbox_outfit_med_descr">
+		<text>Despite a total loss of the compression straps, this backpack is in remarkably good condition. The previous owner seems to have been using it as a makeshift lockbox, with a heavy lock keeping its contents safe. You could simply cut it open, but the thought of destroying such a nice backpack makes that an impossibility.\n\n</text>
+	</string>
+
+	<string id="st_lootbox_outfit_heavy">
+		<text>Armor Case</text>
+	</string>
+	<string id="st_lootbox_outfit_heavy_descr">
+		<text>The weathered markings on the side of this case suggest it contains some form of protective gear, shipped from some part of the Zone. Whomever it was meant for, it's yours now... As long as you can get through the locks.\n\n</text>
+	</string>
+
+	<string id="st_lootbox_outfit_exo">
+		<text>Exo Box</text>
+	</string>
+	<string id="st_lootbox_outfit_exo_descr">
+		<text>Back when scientists were still manning the labs hidden under the exclusion Zone, boxes like these were made to store experimental exoskeleton suits. Most have been looted by now, but by some luck, this one is still being used for that purpose. The locks on it are top-of-the-line.\n\n</text>
+	</string>
+
+	<string id="st_lootbox_headhunter">
+		<text>Secure Wallet</text>
+	</string>
+	<string id="st_lootbox_headhunter_descr">
+		<text>This is a thick metal wallet with a very compact lock sealing it shut. Wallets like these are often used by headhunter mercenaries to store proof of kills, like dog tags or faction patches.\n\n
+		</text>
+	</string>
+
+	<string id="st_lootbox_airtight">
+		<text>Sample Container</text>
+	</string>
+	<string id="st_lootbox_airtight_descr">
+		<text>These air-tight containers are often used by hunters and ecologists to store meats and other samples from mutants. They are designed to insulate and cool its contents for long periods of time.\n\n
+		</text>
+	</string>
+
+	<string id="st_lootbox_fridge">
+		<text>A Refrigerator</text>
+	</string>
+	<string id="st_lootbox_fridge_descr">
+		<text>This is a mini-refrigerator. Don't question it...\n
+			\n
+			\n
+			\n
+			\n
+			\n
+			\n
+			Hey! I can see you questioning it!\n \n</text>
+	</string>
+
+	<string id="st_lootbox_attachment">
+		<text>Polymer Case</text>
+	</string>
+	<string id="st_lootbox_attachment_descr">
+		<text>A polymer case designed to securely contain gun attachments such as optics and laser designators. The case is typically lined with foam padding to reduce damage from impacts. These items are highly prized in the Zone for both the container and its contents.\n \n
+		</text>
+	</string>
+
+</string_table>

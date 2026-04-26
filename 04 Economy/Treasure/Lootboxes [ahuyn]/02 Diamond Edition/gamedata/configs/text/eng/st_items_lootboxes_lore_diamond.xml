@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_lootbox_note_spankbank_descr">
+		<text>Good haul today! I might even have to ask the professor for help later in the evening. Though, getting Semenov of your suit can be a real nightmare!\n \n 
+		</text>
+	</string>
+
+	<string id="st_lootbox_note_lootsmash">
+		<text>Advertizement in a Wooden Crate</text>
+	</string>
+	<string id="st_lootbox_note_lootsmash_descr">
+		<text>ARE YOU TIRED CONSTANTLY HAVING YOUR POCKETS FULL OF LOCKPICKS?\n
+		There has to be a better way into all these locks!\n
+		WELL, WE AT BandiTech® HAVE THE SOLUTION FOR YOU!\n
+		INTRODUCING THE SMASH-A-BOX-2000™!!!!\n
+		Is that an axe?\n
+		NO!\n
+		ITS A SMASH-A-BOX-2000™ AND FOR ONLY 5000$ A MONTH IT CAN BE YOURS\n
+		That's ridiculous! Why would I ever pay for that?!\n
+		WELL, YOU'RE NOT THE ONE WITH THE AXE NOW ARE YOU?\n
+		HAHA! So it is just an a.....</text>
+	</string>
+
+</string_table>

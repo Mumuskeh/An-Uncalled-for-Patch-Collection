@@ -21,8 +21,24 @@ The normal "Old weapon crate", "Army weapon crate", "Pelican Rifle case", and "M
 ----------------------------------------------------------
 -Patches:
 
+DLTX distribution
+Scripted methods of distribution will be substituted for DLTX.
+In addition to lockpicks, technicians will now have very rarely locksmith tools and snap guns.
+DO NOT USE the folder "01 DLTX distribution - corpses [WIP]"
+
 AUGmented
 Add the 9mm AUG to the rifle pool, and make all variants progressively more rare.
+
+Loot from corpses
+Boxes and lockpicks will be found in looted corpses.
+
+Lootboxes Diamond Edition for Gamma
+Rework of this expansion for vanilla and compatibility with future Lootboxes expansions, plus typos fixes.
+The new cases and note are kept, as well as the reweight of existing cases.
+Additions and rebalances to item pools are kept when it makes sense for a purely vanilla game.
+Entries for VSSK Reanimation, Ashey 'n Shakky, Streamlined Upgrades, and Powered Exos are removed; instead the modules for them in this package and Uncle Yar's Workshop include the support for it.
+Entries for BaS items are removed (BaS Lite already supports Lootboxes, and might add support for these files as well. Anyone using OG BaS... uh... is there anyone still?)
+The Gamma intended content, such as item pool for artifact melter is removed.
 
 ----------------------------------------------------------
 -Known issues:
