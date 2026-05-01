@@ -1,5 +1,6 @@
 -Module:
 Somewhat Better Scorcher [Nyarauder]
+https://www.moddb.com/mods/stalker-anomaly/addons/somewhat-better-scorcher-15x
 
 ----------------------------------------------------------
 -Compatibility:

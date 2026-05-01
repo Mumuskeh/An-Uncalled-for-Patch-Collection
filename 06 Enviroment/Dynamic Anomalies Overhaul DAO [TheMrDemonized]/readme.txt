@@ -1,5 +1,6 @@
 -Module:
 Dynamic Anomalies Overhaul DAO [TheMrDemonized]
+https://www.moddb.com/mods/stalker-anomaly/addons/dynamic-anomalies-overhaul-dao-read-description-please
 
 ----------------------------------------------------------
 -Compatibility:

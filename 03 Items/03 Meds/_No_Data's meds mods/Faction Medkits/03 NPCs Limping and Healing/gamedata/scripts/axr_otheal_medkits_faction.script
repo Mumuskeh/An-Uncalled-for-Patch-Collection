@@ -1,0 +1,15 @@
+function on_game_start()
+	local medkits = axr_otheal.medkits
+	
+	if medkits then
+		medkits["dutymedkit"] = true
+		medkits["banditmedkit"] = true
+		medkits["freedommedkit"] = true
+		medkits["mercmedkit"] = true
+		medkits["monolithmedkit"] = true
+		medkits["clearskymedkit"] = true
+		medkits["sinmedkit"] = true
+		medkits["renegademedkit"] = true
+		medkits["isgmedkit"] = true
+	end
+end

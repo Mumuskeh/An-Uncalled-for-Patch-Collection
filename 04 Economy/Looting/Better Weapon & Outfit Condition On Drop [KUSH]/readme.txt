@@ -1,5 +1,6 @@
 -Module:
 Better Weapon & Outfit Condition On Drop [KUSH]
+https://www.moddb.com/mods/stalker-anomaly/addons/better-weapon-outfit-condition-on-drop
 
 ----------------------------------------------------------
 -Compatibility:

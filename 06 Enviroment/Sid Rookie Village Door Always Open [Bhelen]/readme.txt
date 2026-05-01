@@ -1,5 +1,6 @@
 -Module:
 Sid Rookie Village Door Always Open [Bhelen]
+https://www.moddb.com/mods/stalker-anomaly/addons/sidopen
 
 ----------------------------------------------------------
 -Compatibility:

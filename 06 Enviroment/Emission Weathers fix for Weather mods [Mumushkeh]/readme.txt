@@ -1,5 +1,6 @@
 -Module:
-Emission Weathers fix for Weather mods, by Mumuskeh
+Emission Weathers fix for Weather mods
+by Mumuskeh
 
 ----------------------------------------------------------
 -Compatibility:

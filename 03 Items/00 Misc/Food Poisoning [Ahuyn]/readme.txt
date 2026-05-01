@@ -1,5 +1,6 @@
 -Module:
 Food Poisoning [Ahuyn]
+https://github.com/ahuyn/anomaly-food-poisoning
 
 ----------------------------------------------------------
 -Compatibility:

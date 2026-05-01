@@ -1,0 +1,46 @@
+; setting up another basic toolkit definition here so the workshop->use addon 
+; doesn't give workshop functionality to the hunter's toolkit
+[itm_basic2kit]:identity_immunities
+GroupControlSection		= spawn_group 
+discovery_dependency	= 
+$spawn					= "devices\repair_kit_10"
+$prefetch				= 16
+class					= II_ATTCH
+kind					= i_kit
+cform					= skeleton
+inv_grid_x				= 0
+inv_grid_y				= 54
+inv_grid_width			= 2
+inv_grid_height			= 1
+upgr_icon_path			= ui\items\ui_toolkits_big
+upgr_icon_x				= 0
+upgr_icon_y				= 0
+upgr_icon_width			= 186
+upgr_icon_height		= 157
+inv_weight				= 2.29
+cost					= 7000
+visual					= dynamics\equipments\quest\box_toolkit_1.ogf
+description				= st_itm_basickit_descr
+inv_name				= st_itm_basickit_name
+inv_name_short			= st_itm_basickit_name
+attach_angle_offset		= 0.000000, -1.204452, -1.262921 
+attach_position_offset	= 0.081856, -0.035081, 0.011694 
+attach_bone_name		= bip01_l_hand 
+auto_attach				= false
+tier					= 2
+
+;;--==========================< hunting tools >=============================
+[itm_huntkit]:itm_basic2kit
+icons_texture	= ui\ui_hsurv
+inv_grid_width	= 2
+inv_grid_height	= 1
+inv_grid_x		= 0
+inv_grid_y		= 4
+upgr_icon_y		= 628
+inv_weight		= 0.5
+cost			= 8800
+visual			= dynamics\equipments\quest\box_toolkit_hunting.ogf
+description		= st_itm_huntkit_descr
+inv_name		= st_itm_huntkit
+inv_name_short	= st_itm_huntkit
+tier			= 3

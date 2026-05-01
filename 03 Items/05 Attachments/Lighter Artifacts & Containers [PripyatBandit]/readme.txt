@@ -1,5 +1,6 @@
 -Module:
 Lighter Artifacts & Containers [PripyatBandit]
+https://www.moddb.com/mods/stalker-anomaly/addons/na191980
 
 ----------------------------------------------------------
 -Compatibility:

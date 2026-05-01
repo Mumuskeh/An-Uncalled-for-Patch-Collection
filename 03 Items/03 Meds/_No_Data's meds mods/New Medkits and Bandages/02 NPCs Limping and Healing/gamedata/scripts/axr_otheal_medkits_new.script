@@ -1,0 +1,29 @@
+function on_game_start()
+
+	if axr_otheal.bandages then
+		axr_otheal.bandages["colbandage"] = true
+		axr_otheal.bandages["prebandage"] = true
+		axr_otheal.bandages["rag"] = true
+		axr_otheal.bandages["bandaids"] = true
+	end
+	if axr_otheal.medkits then
+		axr_otheal.medkits["civmedkit"] = true
+		axr_otheal.medkits["tacmedkit"] = true
+	end
+end
+
+-- function on_game_start()
+    -- local bandages = axr_otheal.bandages
+    -- local medkits = axr_otheal.medkits
+	
+    -- if bandages then
+        -- bandages["bandage_cooling"] = true
+        -- bandages["bandage_presure"] = true
+        -- bandages["bandage_rag"] = true
+        -- bandages["bandage_bandaids"] = true
+    -- end
+	-- if medkits then
+        -- medkits["medkit_civilian"] = true
+        -- medkits["medkit_tactical"] = true
+    -- end
+-- end

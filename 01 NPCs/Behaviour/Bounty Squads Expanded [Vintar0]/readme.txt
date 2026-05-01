@@ -1,5 +1,6 @@
 -Module:
 Bounty Squads Expanded [Vintar0]
+https://www.moddb.com/mods/stalker-anomaly/addons/bounty-squads-expanded1
 
 ----------------------------------------------------------
 -Compatibility:

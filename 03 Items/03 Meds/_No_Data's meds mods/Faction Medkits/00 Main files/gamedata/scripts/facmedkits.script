@@ -2,13 +2,13 @@
 ---					STALKER TASKS
 ---
 
---- give medkit_faction_bandit to player
-function relocate_item_medkit_faction_bandit_to_actor(a, b)
- dialogs.relocate_item_section_to_actor(a, b, "medkit_faction_bandit")
+--- give banditmedkit to player
+function relocate_item_banditmedkit_to_actor(a, b)
+ dialogs.relocate_item_section_to_actor(a, b, "banditmedkit")
 end
 
---- give letter_bandit_map_darkscape
-function relocate_item_letter_bandit_map_darkscape_to_actor(a, b)
+--- give darkscapemap
+function relocate_item_darkscapemap_to_actor(a, b)
  dialogs.relocate_item_section_to_actor(a, b, "darkscapemap")
 end
 
@@ -52,8 +52,8 @@ end
 --end
 
 --- takes item from player inventory
-function take_medkit_faction_bandit(first_speaker, second_speaker)
-    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "medkit_faction_bandit",1)
+function take_banditmedkit(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "banditmedkit",1)
 end
 
 --- give money 
@@ -121,7 +121,7 @@ function goodwill_for_cs_task(a, b)
 end
 
 function relocate_item_csmedkit_to_actor(a, b)
- dialogs.relocate_item_section_to_actor(a, b, "medkit_faction_clearsky", 2)
+ dialogs.relocate_item_section_to_actor(a, b, "clearskymedkit", 2)
 end
 
 function relocate_item_csbackpack_to_actor(a, b)
@@ -143,15 +143,15 @@ end
 ---huge thanks to NLTP_ASHES for this whole section
 local facmeds_medkits = {
     "dutymedkit",
-    "medkit_faction_bandit",
-    "medkit_faction_clearsky",
-    "medkit_faction_merc",
-    "medkit_faction_monolith",
-    "medkit_faction_renegade",
-    "medkit_faction_isg",
-    "medkit_faction_freedom",
-    "medkit_faction_sin",
-    "medkit_spongebob"
+    "banditmedkit",
+    "clearskymedkit",
+    "mercmedkit",
+    "monolithmedkit",
+    "renegademedkit",
+    "isgmedkit",
+    "freedommedkit",
+    "sinmedkit",
+    "spongebobmedkit"
 }
 
 dialogs_actor_have_medkit = dialogs.actor_have_medkit

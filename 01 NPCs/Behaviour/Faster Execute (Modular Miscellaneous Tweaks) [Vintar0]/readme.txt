@@ -1,6 +1,7 @@
 -Module:
 Faster Execute (Modular Miscellaneous Tweaks) [Vintar0]
 by Mumushkeh
+https://www.moddb.com/mods/stalker-anomaly/addons/modular-miscellaneous-tweaks
 
 ----------------------------------------------------------
 -Compatibility:

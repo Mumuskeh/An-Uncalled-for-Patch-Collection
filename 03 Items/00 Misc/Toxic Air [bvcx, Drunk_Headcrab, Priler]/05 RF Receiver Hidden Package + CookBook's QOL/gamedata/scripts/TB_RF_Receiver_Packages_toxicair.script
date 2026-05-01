@@ -1,0 +1,25 @@
+function on_game_start()
+
+    if TB_RF_Receiver_Packages.mc_extrautilities then
+	
+		table.insert( TB_RF_Receiver_Packages.mc_extrautilities, {"af_oxygen_tank_1","st_af_oxygen_tank_1_name"} )
+		table.insert( TB_RF_Receiver_Packages.mc_extrautilities, {"af_oxygen_tank_2","st_af_oxygen_tank_2_name"} )
+		table.insert( TB_RF_Receiver_Packages.mc_extrautilities, {"af_oxygen_tank_3","st_af_oxygen_tank_3_name"} )
+		table.insert( TB_RF_Receiver_Packages.mc_extrautilities, {"af_mask_filter_1_gp5","st_af_mask_filter_1_gp5_name"} )
+		table.insert( TB_RF_Receiver_Packages.mc_extrautilities, {"af_mask_filter_2_m10","st_af_mask_filter_2_m10_name"} )
+		table.insert( TB_RF_Receiver_Packages.mc_extrautilities, {"af_mask_filter_3_fp5","st_af_mask_filter_3_fp5_name"} )
+		table.insert( TB_RF_Receiver_Packages.mc_extrautilities, {"af_mask_filter_3_nbc70","st_af_mask_filter_3_nbc70_name"} )
+		-- table.insert( TB_RF_Receiver_Packages.mc_faction_army, {"af_oxygen_tank_3_military","st_af_oxygen_tank_3_military_name"} )
+		table.insert( TB_RF_Receiver_Packages.mc_faction_bandit, {"af_mask_filter_2_mof6","st_af_mask_filter_2_mof6_name"} )
+		table.insert( TB_RF_Receiver_Packages.mc_faction_csky, {"af_oxygen_tank_1_soviet","st_af_oxygen_tank_1_soviet_name"} )
+		table.insert( TB_RF_Receiver_Packages.mc_faction_dolg, {"af_mask_filter_2_m10_dolg","st_af_mask_filter_2_m10_dolg_name"} )
+		table.insert( TB_RF_Receiver_Packages.mc_faction_ecolog, {"af_mask_filter_1_m58_sci","st_af_mask_filter_1_m58_sci_name"} )
+		-- table.insert( TB_RF_Receiver_Packages.mc_faction_freedom,  )
+		-- table.insert( TB_RF_Receiver_Packages.mc_faction_greh,  )
+		table.insert( TB_RF_Receiver_Packages.mc_faction_isg, {"af_mask_filter_3_nbc77_isg","st_af_mask_filter_3_nbc77_isg_name"} )
+		table.insert( TB_RF_Receiver_Packages.mc_faction_killer, {"af_mask_filter_0_ms4","st_af_mask_filter_0_ms4_name"} )
+		table.insert( TB_RF_Receiver_Packages.mc_faction_killer, {"af_mask_filter_3_r18","st_af_mask_filter_3_r18_name"} )
+		table.insert( TB_RF_Receiver_Packages.mc_faction_renegade, {"af_oxygen_tank_1_soviet","st_af_oxygen_tank_1_soviet_name"} )
+		-- table.insert( TB_RF_Receiver_Packages.mc_faction_stalker,  )
+	end
+end

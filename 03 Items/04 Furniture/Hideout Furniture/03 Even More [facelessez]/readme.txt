@@ -1,5 +1,6 @@
 -Module:
 Even More Hideout Furniture [facelessez]
+https://www.moddb.com/mods/stalker-anomaly/addons/even-more-hideout-furniture
 
 ----------------------------------------------------------
 -Compatibility:

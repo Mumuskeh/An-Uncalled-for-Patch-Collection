@@ -1,5 +1,6 @@
 -Module:
 War Nymph [Isthar]
+https://www.moddb.com/mods/stalker-anomaly/addons/war-nymph
 
 ----------------------------------------------------------
 -Compatibility:

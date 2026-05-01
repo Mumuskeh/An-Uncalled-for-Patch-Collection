@@ -1,5 +1,6 @@
 -Module:
 Starcry's Lottery [Starcry]
+https://www.moddb.com/mods/stalker-anomaly/addons/aslans-lottery-changes-and-fixes-151
 
 ----------------------------------------------------------
 -Compatibility:

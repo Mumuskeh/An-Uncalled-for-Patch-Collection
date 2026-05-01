@@ -1,5 +1,6 @@
 -Module:
 Xenotech/Combat Behaviour [malac88]
+https://www.moddb.com/mods/stalker-anomaly/addons/xenotech-behavior
 
 ----------------------------------------------------------
 -Compatibility:

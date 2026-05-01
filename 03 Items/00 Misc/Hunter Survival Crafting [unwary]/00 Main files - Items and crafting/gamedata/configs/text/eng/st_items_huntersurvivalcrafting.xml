@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_hide_flesh2_name">
+		<text>Cured Flesh Hide</text>
+	</string>
+	<string id="st_hide_flesh2_descr">
+		<text>This is a collection of flesh hides that have been cured and sewn into one piece. A lot of excess tissue has been removed, keeping only the useful material behind with properties of the collection, helping to enhance its protective properties.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_yellow] Uncommon\n
+		%c[d_cyan] • %c[ui_gray_2] Cured mutant hide\n
+		%c[d_cyan] • %c[ui_gray_2] Damage prot. is about half of a steel plate\n
+		%c[d_cyan] • %c[ui_gray_2] Effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_flesh3_name">
+		<text>Cured Flesh Pelt</text>
+	</string>
+	<string id="st_hide_flesh3_descr">
+		<text>The flesh pelt is the product of crafting skill and many cured hides. The absolute best parts of the flesh have been collected and sewn together to provide a product that is comparable to a steel plate.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_blue] Rare\n
+		%c[d_cyan] • %c[ui_gray_2] Cured mutant hide\n
+		%c[d_cyan] • %c[ui_gray_2] Damage prot. is similar to a steel plate\n
+		%c[d_cyan] • %c[ui_gray_2] Effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_flesh4_name">
+		<text>Hardened Swine Pelt</text>
+	</string>
+	<string id="st_hide_flesh4_descr">
+		<text>An extremely unique creation, rumours say that this recipe came as a dream from the Wishgranter itself. Both a flesh pelt and boar pelt are merged and hardened using two Jellyfish and and one Grapes artifacts to help remove impurities, only leaving the ballistic benefits. Much of the power of the Jellyfish is lost.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[d_purple] Epic\n
+		%c[d_cyan] • %c[ui_gray_2] Hardened artifact/mutant hide\n
+		%c[d_cyan] • %c[ui_gray_2] Damage prot. slightly above that of a regular jellyfish artifact\n
+		%c[d_cyan] • %c[ui_gray_2] Effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_boar2_name">
+		<text>Cured Boar Hide</text>
+	</string>
+	<string id="st_hide_boar2_descr">
+		<text>This is a collection of boar hides that have been cured and sewn into one piece. A lot of excess tissue has been removed, keeping only the useful material behind with properties of the collection helping to enhance its protective properties.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_yellow] Uncommon\n
+		%c[d_cyan] • %c[ui_gray_2] Cured mutant hide\n
+		%c[d_cyan] • %c[ui_gray_2] Damage prot. is about three quarters of a steel plate\n
+		%c[d_cyan] • %c[ui_gray_2] Effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_boar3_name">
+		<text>Cured Boar Pelt</text>
+	</string>
+	<string id="st_hide_boar3_descr">
+		<text>The boar pelt is the product of crafting skill and many cured hides. The absolute best parts of the boar have been collected and sewn together to provide a product that is comparable to a steel plate.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_blue] Rare\n
+		%c[d_cyan] • %c[ui_gray_2] Cured mutant hide\n
+		%c[d_cyan] • %c[ui_gray_2] Damage prot. is similar to a steel plate\n
+		%c[d_cyan] • %c[ui_gray_2] Effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_bloodsucker2_name">
+		<text>Cured Bloodsucker Skin</text>
+	</string>
+	<string id="st_hide_bloodsucker2_descr">
+		<text>The cured skin of a bloodsucker. This refined product has the weaknesses of the skin removed or reduced, while improving on all its previous properties. Further refinement of the skin is still possible.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_yellow] Uncommon\n
+		%c[d_cyan] • %c[ui_gray_2] medium mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] valuable \n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_bloodsucker3_name">
+		<text>Cured Bloodsucker Pelt</text>
+	</string>
+	<string id="st_hide_bloodsucker3_descr">
+		<text>Many bloodsuckers were killed to create this pelt and your hard work has payed off with this impressive product.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_blue] Rare\n
+		%c[d_cyan] • %c[ui_gray_2] medium mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] valuable \n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_psysucker2_name">
+		<text>Cured Psysucker Skin</text>
+	</string>
+	<string id="st_hide_psysucker2_descr">
+		<text>This cured psysucker skin will do a much better job protecting you than its previous owners.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_yellow] Uncommon\n
+		%c[d_cyan] • %c[ui_gray_2] medium mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] valuable \n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_psysucker3_name">
+		<text>Cured Psysucker Pelt</text>
+	</string>
+	<string id="st_hide_psysucker3_descr">
+		<text>The product of many cured psysucker skins. A useful pelt that helps protect from psy effects\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_blue] Rare\n
+		%c[d_cyan] • %c[ui_gray_2] medium mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] valuable \n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_lurker2_name">
+		<text>Cured Lurker Hide</text>
+	</string>
+	<string id="st_hide_lurker2_descr">
+		<text>A cured lurker hide that is mainly useful for combat situations.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_yellow] Uncommon\n
+		%c[d_cyan] • %c[ui_gray_2] light mutant pelt \n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_lurker3_name">
+		<text>Cured Lurker Pelt</text>
+	</string>
+	<string id="st_hide_lurker3_descr">
+		<text>A cured lurker pelt that is mainly useful for combat situations.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_blue] Rare\n
+		%c[d_cyan] • %c[ui_gray_2] light mutant pelt \n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_burer2_name">
+		<text>Cured Burer Skin</text>
+	</string>
+	<string id="st_hide_burer2_descr">
+		<text>A cured burer skin that offers some ballistic resistance and helps protect your brain from melting.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_yellow] Uncommon\n
+		%c[d_cyan] • %c[ui_gray_2] light mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] rare scientific specimen\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_burer3_name">
+		<text>Cured Burer Pelt</text>
+	</string>
+	<string id="st_hide_burer3_descr">
+		<text>A cured burer pelt that offers some ballistic resistance and helps protect your brain from melting.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_blue] Rare\n
+		%c[d_cyan] • %c[ui_gray_2] light mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] rare scientific specimen\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_chimera2_name">
+		<text>Cured Chimera Hide</text>
+	</string>
+	<string id="st_hide_chimera2_descr">
+		<text>A cured chimera hide. Even as a simple cured hide, this offers good all around protection, showing why the chimera is one of the top predators in the Zone.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_blue] Rare\n
+		%c[d_cyan] • %c[ui_gray_2] heavy mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] very rare scientific specimen\n
+		%c[d_cyan] • %c[ui_gray_2] extremely valuable\n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_chimera3_name">
+		<text>Cured Chimera Pelt</text>
+	</string>
+	<string id="st_hide_chimera3_descr">
+		<text>A cured chimera pelt, a product that is extremely difficult to refine. A Meat Chunk and one Eye artifacts are required to fuse multiple cured chimera hides together.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[d_purple] Epic\n
+		%c[d_cyan] • %c[ui_gray_2] heavy mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] very rare scientific specimen\n
+		%c[d_cyan] • %c[ui_gray_2] extremely valuable\n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_pseudogiant2_name">
+		<text>Cured Pseudogiant Hide</text>
+	</string>
+	<string id="st_hide_pseudogiant2_descr">
+		<text>The thick hide of a pseudogiant provides very strong protection even in a basic cured state. Mutants will have a hard time puncturing through it.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_blue] Rare\n
+		%c[d_cyan] • %c[ui_gray_2] very heavy mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] scientific specimen\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_pseudogiant3_name">
+		<text>Cured Pseudogiant Pelt</text>
+	</string>
+	<string id="st_hide_pseudogiant3_descr">
+		<text>A cured pseudogiant pelt. Many pseudogiants hides and the power of both an Eye and Meat Chunk artefacts are needed to create this immensely dense product.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[d_purple] Epic\n
+		%c[d_cyan] • %c[ui_gray_2] very heavy mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] scientific specimen\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_controller2_name">
+		<text>Cured Controller scalp</text>
+	</string>
+	<string id="st_hide_controller2_descr">
+		<text>A cured controller's scalp. A comfy snug fit similar to a toque while protecting your head from both rain and dangerous psy effects.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_yellow] Uncommon\n
+		%c[d_cyan] • %c[ui_gray_2] light mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] rare scientific specimen\n
+		%c[d_cyan] • %c[ui_gray_2] very valuable\n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_controller3_name">
+		<text>Hardened Controller scalp</text>
+	</string>
+	<string id="st_hide_controller3_descr">
+		<text>A hardened controller's scalp. A comfy snug fit similar to a toque while protecting your head from both rain and dangerous psy effects.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_blue] Rare\n
+		%c[d_cyan] • %c[ui_gray_2] light mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] rare scientific specimen\n
+		%c[d_cyan] • %c[ui_gray_2] very valuable\n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_pseudodog2_name">
+		<text>Cured Pseudodog hide</text>
+	</string>
+	<string id="st_hide_pseudodog2_descr">
+		<text>A cured pseudodog's hide that shows why these puppers are the Zone's top dogs. They frequently fight other mutants and so evolved to have good rupture protection for a common animal.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_yellow] Uncommon\n
+		%c[d_cyan] • %c[ui_gray_2] medium mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_pseudodog3_name">
+		<text>Hardened Pseudodog hide</text>
+	</string>
+	<string id="st_hide_pseudodog3_descr">
+		<text>A hardened pseudodog's hide that shows why these puppers are the Zone's top dogs. They frequently fight other mutants and so evolved to have good rupture protection for a common animal.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_blue] Rare\n
+		%c[d_cyan] • %c[ui_gray_2] medium mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+	
+	<string id="st_hide_psy_dog2_name">
+		<text>Cured Psy-dog hide</text>
+	</string>
+	<string id="st_hide_psy_dog2_descr">
+		<text>A psydog is basically just a pseudodog that decided to git gud. Offers an improvement over their regular cousins.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_yellow] Uncommon\n
+		%c[d_cyan] • %c[ui_gray_2] medium mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hide_psy_dog3_name">
+		<text>Hardened Psy-dog hide</text>
+	</string>
+	<string id="st_hide_psy_dog3_descr">
+		<text>A hardened psy-dog hide. Offers a good overall improvement over their regular cousins.\n\n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_blue] Rare\n
+		%c[d_cyan] • %c[ui_gray_2] medium mutant pelt\n
+		%c[d_cyan] • %c[ui_gray_2] valuable\n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n
+		</text>
+	</string>
+
+	<string id="st_hsurv_workshop">
+		<text>Survival Workshop</text>
+	</string>
+	<string id="st_hsurv_utility_maintenance">
+		<text>Utility Maintenance</text>
+	</string>
+	<string id="st_hsurv_zone_crafts">
+		<text>Zone Craft</text>
+	</string>
+	<string id="st_hsurv_zone_medicine">
+		<text>Zone Medicine</text>
+	</string>
+
+	<string id="st_itm_huntkit">
+		<text>Hunting tools</text>
+	</string>
+	<string id="st_itm_huntkit_descr">
+		<text>A decent set of old hunting tools and accessories. Contains hooks, a variety of cutting implements, and other equipment used for skinng and gutting animals. Essentially the hardware from the hunting backpack but without the excess bulk. You still need a knife to help with the initial cuts.\n\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_purple] • %c[ui_gray_2] Aids in looting mutants.\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_blue] • %c[ui_gray_2] valuable\n
+		%c[d_red] • %c[ui_gray_2] requires suitable materials\n</text>
+	</string>
+
+	<string id="st_itm_scarf">
+		<text>Scarf</text>
+	</string>
+	<string id="st_itm_scarf_descr">
+		<text>A fuzzy scarf that can help you keep warm in winter. Stitched together from old cloth.\n\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_purple] • %c[ui_gray_2] Aids in warmth.\n
+		%c[d_blue] • %c[ui_gray_2] Zone quality\n
+		%c[d_blue] • %c[ui_gray_2] Fuzzy\n</text>
+	</string>
+
+	<string id="st_hsurv_bandage">
+		<text>Bandage (Zone-made)</text>
+	</string>
+	<string id="st_hsurv_bandage_descr">
+		<text>A normal elastic bandage used to stop bleeding and prevent infection of wounds. For regular bleeding, carefully apply the bandage to the wound. For arterial bleeding, urgently tie the bandage around the affected area.\n\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] first-aid item\n
+		%c[d_blue] • %c[ui_gray_2] Zone-produced\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (adhesive plaster)\n
+		</text>
+	</string>
+
+	<string id="st_hsurv_medkit_light">
+		<text>First-aid kit (Zone-made, light)</text>
+	</string>
+	<string id="st_hsurv_medkit_light_descr">
+		<text>A general purpose Zone-made medical kit. Handy for treating injuries, wounds, chemical and thermal burns and various types of poisoning.\n\n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Slowly restores a light amount of health\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] Zone-produced\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		</text>
+  </string>
+
+	<string id="st_hsurv_medkit_med">
+		<text>First-aid kit (Zone-made, medium)</text>
+	</string>
+	<string id="st_hsurv_medkit_med_descr">
+		<text>A general purpose Zone-made medical kit. Handy for treating injuries, wounds, chemical and thermal burns and various types of poisoning.\n\n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Slowly restores a moderate amount of health\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] Zone-produced\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		</text>
+	</string>
+
+	<string id="st_hsurv_medkit_heavy">
+		<text>First-aid kit (Zone-made, heavy)</text>
+	</string>
+	<string id="st_hsurv_medkit_heavy_descr">
+		<text>A general purpose Zone-made medical kit. Handy for treating injuries, wounds, chemical and thermal burns and various types of poisoning.\n\n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Slowly restores a large amount of health\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] Zone-produced\n
+		%c[d_red] • %c[ui_gray_2] slow usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		</text>
+	</string>
+
+	<string id="st_hsurv_stimpack">
+		<text>Improvised stimpack (Zone-made)</text>
+	</string>
+	<string id="st_hsurv_stimpack_descr">
+		<text>Improvised stimpacks are popular among novice Zoners as they are easy to obtain and inexpensive. Produced in the Zone from commonly available ingredients, without proper equipment and purification. This is the cause of many side effects which include headache, paraesthesia and considerable increase in nutrition demand. Injected in the thigh.\n\n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores a moderate amount of hp\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] medicine\n
+		%c[d_blue] • %c[ui_gray_2] Zone-produced\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (syringe)\n
+		%c[d_blue] • %c[ui_gray_2] moderate body recovery time\n</text>
+	</string>
+	
+	<string id="st_hsurv_morphine">
+		<text>Morphine ampoule (Zone-made)</text>
+	</string>
+	<string id="st_hsurv_morphine_descr">
+		<text>An iron ampoule designed as field equipment for military field personnel for instant pain reduction. This ampoule contains a powerful dose of morphine. In clinical medicine, morphine is regarded as the gold standard of opioid analgesics used to relieve severe or agonizing pain and suffering. Like other opioids, such as oxycodone, hydromorphone, and diacetylmorphine (heroin), morphine acts directly on the central nervous system (CNS) to relieve pain. Injected into an arm or a thigh.\n\n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores some hp on use\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] medicine\n
+		%c[d_blue] • %c[ui_gray_2] Zone-produced\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (syringe)\n
+		%c[d_purple] • %c[ui_gray_2] damage resistance bonus\n
+		</text>
+	</string>
+
+	<string id="st_itm_mutant_fat">
+		<text>Mutant fat</text>
+	</string>
+	<string id="st_itm_mutant_fat_descr">
+		<text>Purified fat source distilled from the meat of mutants\n\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] Used as a component for Zone produced medicine\n
+		%c[d_blue] • %c[ui_gray_2] Zone-produced\n
+		</text>
+	</string>
+
+	<string id="st_food_tactical_tuna">
+		<text>Tactical Tuna</text>
+	</string>
+	<string id="st_food_tactical_tuna_descr">
+		<text>A concoction that was first developed from military soldiers stationed in the Zone. Tactical Tuna is usually eaten in a pre-battle ritual that helps boost the courage of any stalker.\n\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] Tuna\n
+		%c[d_blue] • %c[ui_gray_2] Alcohol\n
+		%c[d_blue] • %c[ui_gray_2] Pablo approved\n
+		</text>
+	</string>
+
+	<string id="st_itm_basictoolkit_partial">
+		<text>Basic toolkit (partial)</text>
+	</string>
+	<string id="st_itm_basictoolkit_partial_descr">
+		<text>Partial set of tools. Could be combined with another partial kit or used in repairs.\n\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_purple] • %c[ui_gray_2] Junk.\n
+		%c[d_blue] • %c[ui_gray_2] Incomplete\n</text>
+	</string>
+
+</string_table>

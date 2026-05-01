@@ -1,5 +1,6 @@
 -Module:
 Money reward messages for Warfare [Karelian]
+https://www.moddb.com/mods/stalker-anomaly/addons/money-reward-messages-for-warfare
 
 ----------------------------------------------------------
 -Compatibility:

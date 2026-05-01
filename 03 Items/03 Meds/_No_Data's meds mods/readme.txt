@@ -1,14 +1,20 @@
 -Module:
 No_data's Meds mods:
+
 -Minor Meds
+https://www.moddb.com/mods/stalker-anomaly/addons/minor-meds-fdda-dltx
 -New Medkits and Bandages
+https://www.moddb.com/mods/stalker-anomaly/addons/new-medkits
 -Faction Medkits
+https://www.moddb.com/mods/stalker-anomaly/addons/faction-medkits-fdda-dltx
 
 ----------------------------------------------------------
 -Compatibility:
 NOTE: You still need the original mods. Disable the configs and textures/ui folders.
 
-IMPORTANT: If you were already using this mod in a current save, a new game is required.
+You may still use the patches included in the mods for other BHS versions, Cold and Realistic Needs.
+
+IMPORTANT: If you were already using a previous version of this mod in a current save, a new game is required to update.
 
 ----------------------------------------------------------
 -Explanation:
@@ -26,7 +32,7 @@ Place the contents of all three original mods into the same folder, then proceed
 -Fixed Sin not selling their factional medkit.
 -Value of rags and bandaids reduced by a third. I personally found too many of them, making good money selling them. You may still get some pennies from the bandaids, but the rags you either use or trash them.
 -Fixed a message by Loris. I think. There was a duplicated = sign that doesn't seem to happen in other similar configs scripts file, so I deleted one of the two. Tell me if something breaks.
--Internal IDs have also been renamed, so items are ordered better in the inventory along other medkits, bandages, and letters.
+-Internal IDs have also been renamed, so items are ordered better in the inventory along other medkits, bandages, and letters. NOTE: REGRESSED CHANGE. It was both disabling the FDDA animations and causing crashes and I still have no idea WHY. ლ(ಠ益ಠლ)
 
 
 Integration into:
@@ -61,7 +67,8 @@ The new meds will provide discarded parts when used just like other drugs.
 NPCs Limping and Healing
 
 New medkits & Faction medkits exo animations [RuJohnny]
-Makes the patch use the renamed IDs.
+Replaces the original mod to use the renamed IDs.
+NOTE: DEPRECATED. DO NOT USE
 
 ----------------------------------------------------------
 -Known issues:

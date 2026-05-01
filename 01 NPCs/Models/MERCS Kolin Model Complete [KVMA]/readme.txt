@@ -1,5 +1,6 @@
 -Module:
 MERCS: Kolin Model Complete [KVMA]
+https://www.moddb.com/mods/stalker-anomaly/addons/mercs-kolin-model-replacement
 
 ----------------------------------------------------------
 -Compatibility:

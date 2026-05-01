@@ -1,5 +1,6 @@
 -Module:
 Propaganda back to the Zone in RUS, UK and ENG [Dental_dolbayob]
+https://www.moddb.com/mods/stalker-anomaly/addons/propaganda-back-to-the-zone-in-rus-uk-and-eng
 
 ----------------------------------------------------------
 -Compatibility:

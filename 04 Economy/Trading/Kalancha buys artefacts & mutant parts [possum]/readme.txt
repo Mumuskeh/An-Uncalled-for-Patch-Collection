@@ -1,5 +1,6 @@
 -Module:
 Kalancha buys artefacts & mutant parts [possum]
+https://www.moddb.com/mods/stalker-anomaly/addons/kalancha-buys-artefacts-mutant-parts-rc18
 
 ----------------------------------------------------------
 -Compatibility:

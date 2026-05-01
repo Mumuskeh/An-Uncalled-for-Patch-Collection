@@ -75,7 +75,7 @@
 				<phrase id="5"> <!-- npc -->
                 <text>st_medkits_loris_backfromds6</text>
 				<give_info>loris_facmeds_fromds</give_info>
-				<action>facmedkits.relocate_item_medkit_faction_bandit_to_actor</action>
+				<action>facmedkits.relocate_item_banditmedkit_to_actor</action>
 				<action>facmedkits.relocate_item_beer_to_actor</action>
 				<action>facmedkits.relocate_facmeds_money_to_actor</action>
 				<action>facmedkits.goodwill_for_loris_task</action>
@@ -102,7 +102,7 @@
             </phrase>
 			<phrase id="3"> <!-- npc -->
                 <text>st_medkits_sidorovich_snitch4</text>
-				<action>facmedkits.take_medkit_faction_bandit</action>
+				<action>facmedkits.take_banditmedkit</action>
                 <next>4</next>
             </phrase>
 			<phrase id="4"> <!-- act -->
@@ -112,7 +112,7 @@
 				<phrase id="5"> <!-- npc -->
                 <text>st_medkits_sidorovich_snitch6</text>
 				<give_info>sidorovich_facmeds_snitched</give_info>
-				<action>facmedkits.relocate_item_medkit_faction_bandit_to_actor</action>
+				<action>facmedkits.relocate_item_banditmedkit_to_actor</action>
 				<action>facmedkits.relocate_money_to_actor_sidorsnitch</action>
 				<action>facmedkits.decrease_rep_sidorsnitch</action>
             </phrase>

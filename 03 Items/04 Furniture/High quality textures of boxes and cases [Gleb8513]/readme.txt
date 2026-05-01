@@ -1,5 +1,6 @@
 -Module:
 High quality textures of boxes and cases [Gleb8513]
+https://www.moddb.com/mods/stalker-anomaly/addons/high-quality-textures-of-boxes-and-cases
 
 ----------------------------------------------------------
 -Compatibility:

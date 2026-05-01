@@ -1,5 +1,6 @@
 -Module:
 CSVars - Alternative Clear Sky Variants [Blackgrowl]
+https://www.moddb.com/mods/stalker-anomaly/addons/csvars
 
 ----------------------------------------------------------
 -Compatibility:

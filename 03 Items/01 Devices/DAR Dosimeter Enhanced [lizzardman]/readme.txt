@@ -1,5 +1,6 @@
 -Module:
 DAR Dosimeter Enhanced [lizzardman]
+https://www.moddb.com/mods/stalker-anomaly/addons/dar-dosimeter-enhanced-v1-0
 
 ----------------------------------------------------------
 -Compatibility:

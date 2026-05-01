@@ -1,5 +1,6 @@
 -Module:
 Propaganda back to the Zone [whereismy]
+https://www.moddb.com/mods/stalker-anomaly/addons/propaganda-back-to-the-zone
 
 ----------------------------------------------------------
 -Compatibility:

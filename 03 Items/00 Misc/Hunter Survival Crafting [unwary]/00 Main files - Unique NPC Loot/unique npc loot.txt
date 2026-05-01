@@ -1,0 +1,16 @@
+Based off Tougher Important NPCs and Companions.
+
+Makes some unique NPCs tougher and have unique loot to drop. Delete /scripts to remove bonus npc toughness
+New item added in, partial basic toolkit parts.  Dropped from technicians.  Needs Hunter Survival Crafting loaded before this addon.
+
+Maps now drop from certain NPCs.  Such as:
+
+Stribog drops a partial Red Forest map, letting you reach Jupiter or Army Warehouse.
+The Doc in Great Swamp will drop a partial Agroprom map that gives access to the underground.
+General Voronin in Rostok will now always drop an Army Warehouse map and partial Radar map to Lab x19.
+Lukash in Army Warehouse also drops an Army Warehouse map and partial Radar map to Lab x19.
+Sultan will drop the Truck Cemetary map and strelok's notes to reach x18.
+Deadcity guide will drop 3 maps: Dead city, Limansk, and partial Red Forest.
+The Outskirts guide drops a Jupiter Underground map.
+Eidolon drops four maps.  All the routes needed to reach the CNPP and Generators.
+Griffin in Outskirts drops the partial Radar to Pripyat map.

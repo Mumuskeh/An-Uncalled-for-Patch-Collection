@@ -1,5 +1,5 @@
 -Module:
-Characters die properly [MangoesMang]
+Less NPC Jamming (Modular Miscellaneous Tweaks) [Vintar0]
 
 ----------------------------------------------------------
 -Compatibility:

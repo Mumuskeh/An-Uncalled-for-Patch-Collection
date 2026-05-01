@@ -1,5 +1,6 @@
 -Module:
 Boxes loot redone [zoust]
+https://www.moddb.com/addons/boxes-loot-redone
 
 ----------------------------------------------------------
 -Compatibility:

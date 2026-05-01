@@ -1,7 +1,7 @@
 -Module:
 Less Infuriating Hip [Nyarauder]
-
-Module by Ghstkng.
+by Ghstkng
+https://www.moddb.com/mods/stalker-anomaly/addons/less-infuriating-hip-for-anomaly-15x
 
 ----------------------------------------------------------
 -Compatibility:

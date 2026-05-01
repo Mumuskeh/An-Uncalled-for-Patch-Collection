@@ -1,5 +1,6 @@
 -Module:
 Hideout Furniture [Aoldri]
+https://www.moddb.com/mods/stalker-anomaly/addons/hideout-furniture-hf
 
 ----------------------------------------------------------
 -Compatibility:

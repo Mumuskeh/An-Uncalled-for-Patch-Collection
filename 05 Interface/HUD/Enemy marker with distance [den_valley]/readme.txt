@@ -1,5 +1,6 @@
 -Module:
 Enemy marker with distance [den_valley]
+https://www.moddb.com/mods/stalker-anomaly/addons/enemy-marker-with-distance
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 Access to vice 15 minutes [swergdach]
+https://www.moddb.com/mods/stalker-anomaly/addons/access-to-vice-15-minutes
 
 ----------------------------------------------------------
 -Compatibility:

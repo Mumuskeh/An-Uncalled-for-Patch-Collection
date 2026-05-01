@@ -1,5 +1,7 @@
 -Module:
 TB's RF Receiver Hidden Package Sidequests [Tweaki_Breeki] + CookBook's QOL patch [Aeonera]
+https://www.moddb.com/mods/stalker-anomaly/addons/tbs-rf-receiver-hidden-package-sidequests
+https://www.moddb.com/mods/stalker-anomaly/addons/rf-receiver-tasks-qol-update
 
 ----------------------------------------------------------
 -Compatibility:

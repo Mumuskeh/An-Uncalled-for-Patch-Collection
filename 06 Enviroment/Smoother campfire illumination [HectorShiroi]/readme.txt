@@ -1,5 +1,6 @@
 -Module:
 Smoother campfire illumination [HectorShiroi]
+https://www.moddb.com/mods/stalker-anomaly/addons/smoother-campfire-illumination
 
 ----------------------------------------------------------
 -Compatibility:

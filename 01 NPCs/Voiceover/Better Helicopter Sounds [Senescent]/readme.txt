@@ -1,5 +1,6 @@
 -Module:
 Better Helicopter Sounds [Senescent]
+https://www.moddb.com/mods/stalker-anomaly/addons/senescent-better-helicopter-sounds
 
 ----------------------------------------------------------
 -Compatibility:

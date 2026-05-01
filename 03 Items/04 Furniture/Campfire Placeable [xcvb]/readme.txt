@@ -1,5 +1,6 @@
 -Module:
 Campfires placeable [xcvb]
+https://www.moddb.com/mods/stalker-anomaly/addons/campfires-placeable-01
 
 ----------------------------------------------------------
 -Compatibility:

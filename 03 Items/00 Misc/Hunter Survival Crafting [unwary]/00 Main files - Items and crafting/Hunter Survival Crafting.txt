@@ -1,0 +1,124 @@
+Hunter Survival Crafting 
+
+todo: fix lua error spam from equipping scarf
+
+------- Changelog ---------
+0.7d
+- Added FDDA dltx patch for related zone healing item animations
+- Changed syringe usage buff to dltx
+- Added Tactical Tuna and Beard's Tea cooking recipe
+- Added cooking patch for FCR Campfires (Fillable Canteens and Roasting)
+- Added potato patch for Outfit Parts Overhaul.  This disables the Outfit part crafting component as it was conflicting with Banjaji's crafting.
+
+0.7c
+- Added recipe patch for Placeable Campfire wood.
+- Added first aid kits to list of items that return syringes.
+- Multitool no longer needs to be learned through recipe.
+- Ammo crafting no longer shows duplicate older recipes.
+
+0.7b
+- Fixed Cat thyroid recipe version of Zone First Aid Kits
+- Rebalanced quantities needed for dog liver and pig eyes.
+
+0.7
+- Uses Banjaji's Crafting System 3.0 now
+- Can now craft some basic items with no toolkit requirements at a workstation.
+	- basic knife, grooming kits, firestarter kit, matches, ballpeen hammer, knife maintenance, basic zone medicine
+- Added in Zone Medicine, now you can make bandages and first aid kits from mutant parts.  Not as strong as imported.
+- Added in partial toolkits which are used in a different mod, Unique NPC loot, so that killed technicians drop them.
+- Buffed ammo crafting, now fixing old ammo is a 1:1 conversion with increased need of ammo parts.
+
+- Added patch for ColdSystem 0.6
+	- Added custom scarf item for crafting, keeps u a little bit warmer when equipped in headlamp slot
+	- Yadulin can be used to reduce fever
+	
+- Added a patch for FDDA (Food Drinks Drugs Animation) addon, version 0.8.8i
+	- New medical items copy animations from the old items they are based on (new bandage copies old bandage and all that)
+
+- Currently have a ui bug with learning recipes from books.  It won't show the items in the books but you will still learn them and can craft as normal.
+	
+0.6C
+- ammo crafting values set to sane values. binoc recipe less extreme.
+
+0.6B 
+- Added alternate fuelstove recipes, tweaked binocular recipe since it was stupid
+
+0.6
+- Added the Hunting toolkit.  An alternative to the Hunting backpack but without the excessive bulk.  Only available thru crafting.
+- Added patch for Outfit Attachment Overhaul, all it did was changed some recipes for making new attachment in craft.ltx
+- Added patch for Dynamic Mutants 1.42
+
+0.5
+- Added weapon barrel disassembly for more metal scrap. Pistol barrels disassemble into 1 scrap, shotguns and rifles disassemble into 2 scrap.
+- Added new Zone Crafting section in workshop for mutant hides
+- Added new Utility Maintenance section in workshop if you have a basic toolkit.  You can now fully repair your knife or multitool using scrap instead of sharpstones.
+- Added new t2/t3 recipes for the other mutants.  Still need to work on new palette swap skins.
+
+0.3
+- Added patch for Bas and Bas + Exoseva
+- Noticed Hunting Knife recipe referenced itself and slightly reduced requirements for both knives.
+- Metal Shovel disassembly had a typo
+
+todo: Update art assets for new items.
+
+-------------------------------------------
+
+This addon provides recipes so you can craft more of the basic items using frequently found utility trash loot like durable textiles, scrap metal, and wood.  Also provides some alternate recipes for medic related items.
+
+Slight buffs were done to several disassemblies
+
+Equipment
+-----------------
+Grooming Kit
+Swiss Knife
+Firestarter Kit
+Match Boxes
+Cutlery
+Scout Knife
+Hunting Knife
+Axe
+
+Repair 
+-----------------
+Sewing Thread
+Ballpeen Hammer
+Sharpening Stones
+Steel Wool
+Small Glucose Shot
+Large Glucose Shot
+Vinca
+Yadulin
+First Aid Kit
+
+New mutant part recipes
+----------------------------
+Flesh and boar hides can now be cured and formed into pelt.  This can be further upgraded by merging with artifacts.
+
+Flesh hide -> Cured Flesh Hide -> Cured Flesh Pelt
+Board hide -> Cured Boar Hide -> Cured Boar Pelt
+
+Both flesh and boar pelts can be combined into a hardened pelt using artifacts.  An immense amount of time and effort is required to craft this epic item.
+
+Buffed disassemblies
+----------------------------
+Cloth Mask
+Balas
+Bandanas
+Old shovel
+Military Shovel
+Recipe books, more paper when disassembled
+
+- Removed middle man step of needing to empty them before disassembly
+Gas Balloons
+Jerry Cans
+
+-----------------------------------------------
+Included Unique NPC Loot in the download since it ties so closely with partial basic toolkits.  Goes after HCS
+
+
+
+Mazconnelly:
+-Updated for BCSI v4.4
+-New sections renamed for better ordering with BCSI Patch Collection's reordering.
+-Removed fasteners as disassembly parts of cloth headgear.
+-Mipmapped hunter kit texture.

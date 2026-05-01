@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<!-- No need to repeat the same text in different entries. Maybe if they were customized for each.-->
+
+	<string id="st_itm_mapkit_radar">
+		<text>Map (Radar)</text>
+	</string>
+<!-- 	<string id="st_itm_mapkit_radar_desc">
+		<text>A collection of notes that show a safe route.</text>
+	</string> -->
+	
+	<string id="st_itm_mapkit_limansk">
+		<text>Map (Limansk)</text>
+	</string>
+<!-- 	<string id="st_itm_mapkit_limansk_desc">
+		<text>A collection of notes that show a safe route.</text>
+	</string> -->
+	
+	<string id="st_itm_mapkit_pripyat">
+		<text>Map (Pripyat)</text>
+	</string>
+<!-- 	<string id="st_itm_mapkit_pripyat_desc">
+		<text>A collection of notes that show a safe route.</text>
+	</string> -->
+	
+	<string id="st_itm_mapkit_outskirts">
+		<text>Map (Outskirts)</text>
+	</string>	
+<!-- 	<string id="st_itm_mapkit_outskirts_desc">
+		<text>A collection of notes that show a safe route.</text>
+	</string> -->
+
+	<string id="st_itm_mapkit_outskirts_nerfed">
+		<text>Map (Outskirts to Jupiter)</text>
+	</string>
+<!-- 	<string id="st_itm_mapkit_outskirts_nerfed_desc">
+		<text>A collection of notes that show a safe route.</text>
+	</string> -->
+
+	<string id="st_itm_mapkit_chernobyl_s">
+		<text>Map (Chernobyl NPP South)</text>
+	</string>
+<!-- 	<string id="st_itm_mapkit_chernobyl_s_desc">
+		<text>A collection of notes that show a safe route.</text>
+	</string> -->
+	
+	<string id="st_itm_mapkit_chernobyl_n">
+		<text>Map (Chernobyl NPP North)</text>
+	</string>
+<!-- 	<string id="st_itm_mapkit_chernobyl_n_desc">
+		<text>A collection of notes that show a safe route.</text>
+	</string> -->
+	
+	<string id="st_itm_mapkit_generators">
+		<text>Map (Generators)</text>
+	</string>
+<!-- 	<string id="st_itm_mapkit_generators_desc">
+		<text>A collection of notes that show a safe route.</text>
+	</string> -->
+	
+	<string id="st_itm_mapkit_agroprom_underground">
+		<text>Map (Agroprom Underground)</text>
+	</string>
+<!-- 	<string id="st_itm_mapkit_agroprom_underground_desc">
+		<text>A collection of notes that show a safe route.</text>
+	</string> -->
+
+	<string id="st_itm_mapkit_redforest">
+		<text>Map (Red Forest)</text>
+	</string>
+<!-- 	<string id="st_itm_mapkit_redforest_desc">
+		<text>A collection of notes that show a safe route.</text>
+	</string> -->
+
+	<string id="st_itm_mapkit_zaton">
+		<text>Map (Zaton)</text>
+	</string>
+<!-- 	<string id="st_itm_mapkit_zaton_desc">
+		<text>A collection of notes that show a safe route.</text>
+	</string> -->
+
+	<string id="st_itm_mapkit_desc">
+		<text>A collection of notes that show a safe route.</text>
+	</string>
+
+</string_table>

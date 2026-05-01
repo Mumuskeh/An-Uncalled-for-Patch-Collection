@@ -1,5 +1,6 @@
 -Module:
 Throw Indicator [KalakCZ]
+https://www.moddb.com/mods/stalker-anomaly/addons/151-152-throw-indicator
 
 ----------------------------------------------------------
 -Compatibility:

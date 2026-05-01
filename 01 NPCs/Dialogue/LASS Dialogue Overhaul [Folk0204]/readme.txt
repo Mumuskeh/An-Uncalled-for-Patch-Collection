@@ -1,5 +1,6 @@
 -Module:
 LASS Dialogue Overhaul [Folk0204]
+https://www.moddb.com/mods/stalker-anomaly/addons/lass-dialogue-overhaul
 
 ----------------------------------------------------------
 -Compatibility:

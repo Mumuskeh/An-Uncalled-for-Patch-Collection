@@ -1,5 +1,6 @@
 -Module:
 Glowsticks [Lucy]
+https://www.moddb.com/mods/stalker-anomaly/addons/glowsticks
 
 ----------------------------------------------------------
 -Compatibility:

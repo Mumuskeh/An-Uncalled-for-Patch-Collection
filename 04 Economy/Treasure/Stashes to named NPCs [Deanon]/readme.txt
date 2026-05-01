@@ -1,6 +1,7 @@
 -Module:
 Stashes to named NPCs [Deanon]
 by V4l14nc3
+https://www.moddb.com/mods/stalker-anomaly/addons/stashes
 
 ----------------------------------------------------------
 -Compatibility:

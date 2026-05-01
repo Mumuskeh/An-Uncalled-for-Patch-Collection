@@ -1,5 +1,6 @@
 -Module:
 Anomaly English Voice Restoration Project [SociocidalAussie]
+https://www.moddb.com/mods/stalker-anomaly/addons/stalker-anomaly-complete-english-voice-pack-151-wip1
 
 ----------------------------------------------------------
 -Compatibility:

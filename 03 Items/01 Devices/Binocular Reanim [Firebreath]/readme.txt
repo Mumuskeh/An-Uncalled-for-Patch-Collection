@@ -1,5 +1,6 @@
 -Module:
 Binocular Reanim [Firebreath]
+https://www.moddb.com/mods/stalker-anomaly/addons/binocular-reanim
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 Improved Ranks [Yakovleva]
+https://www.moddb.com/mods/stalker-anomaly/addons/improved-ranks
 
 ----------------------------------------------------------
 -Compatibility:

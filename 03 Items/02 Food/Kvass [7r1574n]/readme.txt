@@ -1,5 +1,6 @@
 -Module:
 Kvass [7r1574n]
+https://www.moddb.com/mods/stalker-anomaly/addons/kvass-01
 
 ----------------------------------------------------------
 -Compatibility:

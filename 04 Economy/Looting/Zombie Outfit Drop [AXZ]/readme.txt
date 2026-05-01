@@ -1,5 +1,6 @@
 -Module:
 Zombie Outfit Drop [AXZ]
+https://www.moddb.com/mods/stalker-anomaly/addons/axzs-zombie-outfit-drop
 
 ----------------------------------------------------------
 -Compatibility:

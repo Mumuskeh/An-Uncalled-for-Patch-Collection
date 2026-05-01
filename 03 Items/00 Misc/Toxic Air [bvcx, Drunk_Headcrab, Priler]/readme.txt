@@ -1,5 +1,6 @@
 -Module:
 Enhanced Toxic Air [bvcx, Drunk_Headcrab]
+https://www.moddb.com/mods/stalker-anomaly/addons/drunks-enhanced-toxic-air-152
 
 ----------------------------------------------------------
 -Compatibility:
@@ -16,14 +17,14 @@ IMPORTANT: A new game is required if you were already using Toxic Air in a curre
 
 Internal IDs renamed such as [itemtype_tier_name], for better inventory organization. Filters won't be mixed among themselves without order, instead being ordered by tiers, so you should be able to differentiate different tiers more easily.
 
-Consolidates the icon files. Instead of loading icons from two different files, all used icons are now kept in the ui_oxygen_tank.dds file, while ui_oxygen_tank2.dds is unused and keeps unused icons for reference or later use.
-It also adjusts the icon for the FP-5 Filter (though it is unused. Maybe I'll enable it some time).
-
 Reenables the oxygen tanks world models. The mod was using the camelback attachment's model instead of the included tank models for some reason.
 
 FP-5 filter enabled. Heavier and less protective than other tier 3 filters, but lasts longer. Widely used by most factions who don't already have a tier 3 filter of their own.
 
 N750-CS filter finished (I think?). The best protection, longevity, and weight. Extremely rare, Spore sells it only to players with high Clear Sky goodwill, and you can only rarely loot it from CS stalkers (not even worth going out of your way just for it, that's how rare).
+
+Consolidates the icon files. Instead of loading icons from two different files, all used icons are now kept in the ui_oxygen_tank.dds file, while ui_oxygen_tank2.dds is unused and keeps unused icons for reference or later use.
+It also adjusts the icon for the FP-5 Filter correctly.
 
 Integration into:
 Grok's Stash Overhaul
@@ -35,6 +36,7 @@ TB's RF Receiver Hidden Package Sidequests + CookBook's QOL patch (requires the 
 -Patches:
 
 Priler's Toxic Air v2.0 REDUX consistency patch
+https://www.moddb.com/mods/stalker-anomaly/addons/toxic-air-v20-redux
 Use for compatibility with Priler's Redux. Make sure to apply this on top of the Main Files if you'll use Priler's Redux version.
 Tested for the update of Dec 24th, 2025.
 

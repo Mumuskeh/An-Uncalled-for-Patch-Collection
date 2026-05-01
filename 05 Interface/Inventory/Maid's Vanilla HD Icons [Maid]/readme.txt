@@ -1,5 +1,6 @@
 -Module:
 Maid's Vanilla HD Icons [Maid]
+https://www.moddb.com/mods/stalker-anomaly/addons/maids-vanilla-hd-icons
 
 ----------------------------------------------------------
 -Compatibility:

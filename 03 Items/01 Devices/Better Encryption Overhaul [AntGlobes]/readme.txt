@@ -1,5 +1,6 @@
 -Module:
 Better Encryption Overhaul [AntGlobes]
+https://www.moddb.com/mods/stalker-anomaly/addons/better-encryption-overhaul101
 
 ----------------------------------------------------------
 -Compatibility:

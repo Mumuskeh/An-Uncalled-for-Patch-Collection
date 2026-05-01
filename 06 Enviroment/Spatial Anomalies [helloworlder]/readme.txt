@@ -1,7 +1,8 @@
 -Module:
 Spatial Anomalies [helloworlder]
-
 With additional fixes by Ghstkng.
+
+https://www.moddb.com/mods/stalker-anomaly/addons/spatial-anomalies-mcm-1531
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 Breakable Devices [FeldW]
+https://www.moddb.com/mods/stalker-anomaly/addons/breakable-devices
 
 ----------------------------------------------------------
 -Compatibility:

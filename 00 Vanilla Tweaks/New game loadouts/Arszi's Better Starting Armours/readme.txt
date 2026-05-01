@@ -1,5 +1,6 @@
 -Module:
 Arszi's Better Starting Armours [Arszi]
+https://www.moddb.com/mods/stalker-anomaly/addons/arszis-better-starting-armours
 
 ----------------------------------------------------------
 -Compatibility:

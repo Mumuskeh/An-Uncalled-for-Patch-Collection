@@ -1,5 +1,6 @@
 -Module:
 Milspec PDA [Catspaw]
+https://www.moddb.com/mods/stalker-anomaly/addons/milspec-pda-for-anomaly-151-152-and-gamma
 
 ----------------------------------------------------------
 -Compatibility:

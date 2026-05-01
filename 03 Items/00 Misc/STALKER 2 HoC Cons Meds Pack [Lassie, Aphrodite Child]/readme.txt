@@ -1,5 +1,6 @@
 -Module:
 STALKER 2 HoC Consumables & Meds Pack [Lassie, Aphrodite Child]
+https://www.moddb.com/mods/stalker-anomaly/addons/stalker-2-hoc-consumables-meds-anims
 
 ----------------------------------------------------------
 -Compatibility:

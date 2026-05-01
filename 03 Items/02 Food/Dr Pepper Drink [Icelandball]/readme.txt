@@ -1,5 +1,6 @@
 -Module:
 Dr Pepper Drink [Icelandball]
+https://www.moddb.com/mods/stalker-anomaly/addons/dr-pepper-drink
 
 ----------------------------------------------------------
 -Compatibility:

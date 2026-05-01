@@ -1,5 +1,6 @@
 -Module:
 T.H.I.G.H.S. (The Hellblau Item/Gun Header Substitution) [HellblaueHoelle]
+https://www.moddb.com/mods/stalker-anomaly/addons/hellblaus-weapon-ammo-names
 
 ----------------------------------------------------------
 -Compatibility:

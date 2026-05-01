@@ -1,5 +1,6 @@
 -Module:
 Hideout Furniture Icons & Descriptions [SaintAugustDay]
+https://www.moddb.com/mods/stalker-anomaly/addons/hideout-furniture-icons-descriptions
 
 ----------------------------------------------------------
 -Compatibility:

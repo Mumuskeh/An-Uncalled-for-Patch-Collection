@@ -1,5 +1,6 @@
 -Module:
 Drugs That Make Sense (Update 9.1) [real_leaper, vari0us]
+https://www.moddb.com/mods/stalker-anomaly/addons/drugs-that-make-sense-compatibility
 
 ----------------------------------------------------------
 -Compatibility:

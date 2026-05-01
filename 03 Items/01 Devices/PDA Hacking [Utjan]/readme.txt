@@ -1,5 +1,6 @@
 -Module:
 PDA Hacking [Utjan]
+https://www.moddb.com/mods/stalker-anomaly/addons/pda-hacking
 
 ----------------------------------------------------------
 -Compatibility:

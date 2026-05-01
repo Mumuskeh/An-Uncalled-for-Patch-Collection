@@ -1,5 +1,6 @@
 -Module:
 Arszi's Controller Overhaul [Arszi]
+https://www.moddb.com/mods/stalker-anomaly/addons/arszis-psy-and-controller-overhaul
 
 ----------------------------------------------------------
 -Compatibility:

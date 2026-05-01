@@ -1,5 +1,6 @@
 -Module:
-Disable Mutant Radiation Effect & Sound, by Mumushkeh
+Disable Mutant Radiation Effect & Sound
+by Mumushkeh
 
 ----------------------------------------------------------
 -Compatibility:

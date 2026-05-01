@@ -1,5 +1,6 @@
 -Module:
 Hot Drink Hoopla [seven_or_9]
+https://www.moddb.com/mods/stalker-anomaly/addons/hot-drink-hoopla-dltx
 
 ----------------------------------------------------------
 -Compatibility:

@@ -1,5 +1,6 @@
 -Module:
 Craftable Upgradable Detectors [Inunekochan]
+https://www.moddb.com/mods/stalker-anomaly/addons/nekomaster-mods-craftable-upgradable-af-detectors
 
 ----------------------------------------------------------
 -Compatibility:

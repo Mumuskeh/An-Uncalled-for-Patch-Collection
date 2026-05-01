@@ -1,12 +1,12 @@
-[medkit_civilian]:booster_multi
-$spawn						= "food and drugs\medkit_civilian"
+[civmedkit]:booster_multi
+$spawn						= "food and drugs\civmedkit"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_civ_world.ogf
 kind						= i_medical
-description					= st_medkit_civilian_descr
+description					= st_civmedkit_descr
 cost						= 1200
 icons_texture				= ui\ui_icon_newmedkits
-inv_name					= st_medkit_civilian
-inv_name_short				= st_medkit_civilian
+inv_name					= st_civmedkit
+inv_name_short				= st_civmedkit
 script_binding				= bind_item.bind
 max_uses					= 2
 inv_weight					= 0.5
@@ -24,15 +24,15 @@ use_sound					= interface\inv_medkit
 ;hide_time_wpn				=4
 tier						= 2
 
-[medkit_combat]:booster_multi
-$spawn						= "food and drugs\medkit_combat"
+[commedkit]:booster_multi
+$spawn						= "food and drugs\commedkit"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_combat_world.ogf
 kind						= i_medical
-description					= st_medkit_combat_descr
+description					= st_commedkit_descr
 cost						= 4000
 icons_texture				= ui\ui_icon_newmedkits
-inv_name					= st_medkit_combat
-inv_name_short				= st_medkit_combat
+inv_name					= st_commedkit
+inv_name_short				= st_commedkit
 script_binding				= bind_item.bind
 max_uses					= 2
 inv_weight					= 0.5
@@ -65,15 +65,15 @@ empty_weight				= 0.1
 ;hide_time_wpn				=4
 tier						= 3
 
-[medkit_tactical]:booster_multi
-$spawn						= "food and drugs\medkit_tactical"
+[tacmedkit]:booster_multi
+$spawn						= "food and drugs\tacmedkit"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_tac_world.ogf
 kind						= i_medical
-description					= st_medkit_tactical_descr
+description					= st_tacmedkit_descr
 cost						= 6000
 icons_texture				= ui\ui_icon_newmedkits
-inv_name					= st_medkit_tactical
-inv_name_short				= st_medkit_tactical
+inv_name					= st_tacmedkit
+inv_name_short				= st_tacmedkit
 script_binding				= bind_item.bind
 max_uses					= 2
 inv_weight					= 0.5
@@ -105,15 +105,15 @@ empty_weight				= 0.1
 ;hide_time_wpn				=4
 tier						= 4
 
-[medkit_detox]:booster_multi
-$spawn						= "food and drugs\medkit_detox"
+[toxmedkit]:booster_multi
+$spawn						= "food and drugs\toxmedkit"
 visual						= dynamics\weapons\wpn_eat\world_models\aptechki\aptechka_detox_world.ogf
 kind						= i_medical
-description					= st_medkit_detox_descr
+description					= st_toxmedkit_descr
 cost						= 3500
 icons_texture				= ui\ui_icon_newmedkits
-inv_name					= st_medkit_detox
-inv_name_short				= st_medkit_detox
+inv_name					= st_toxmedkit
+inv_name_short				= st_toxmedkit
 script_binding				= bind_item.bind
 max_uses					= 2
 inv_weight					= 0.5
@@ -143,15 +143,15 @@ empty_weight				= 0.1
 ;hide_time_wpn				=4
 tier						= 3
 
-[bandage_cooling]:booster
-$spawn						= "food and drugs\bandage_cooling"
+[colbandage]:booster
+$spawn						= "food and drugs\colbandage"
 visual						= dynamics\devices\dev_bandage\dev_bandage.ogf
 kind						= i_medical
-description					= st_bandage_cooling_descr
+description					= st_colbandage_descr
 cost						= 1500
 icons_texture				= ui\ui_icon_newmedkits
-inv_name					= st_bandage_cooling
-inv_name_short				= st_bandage_cooling
+inv_name					= st_colbandage
+inv_name_short				= st_colbandage
 script_binding				= bind_item.bind
 inv_weight					= 0.04
 inv_grid_width				= 1
@@ -166,15 +166,15 @@ eat_sleepiness				= 0.012
 use_sound					= interface\inv_bandage_3p7
 tier						= 3
 
-[bandage_presure]:booster
-$spawn						= "food and drugs\bandage_presure"
+[prebandage]:booster
+$spawn						= "food and drugs\prebandage"
 visual						= dynamics\devices\dev_bandage\dev_bandage.ogf
 kind						= i_medical
-description					= st_bandage_presure_descr
+description					= st_prebandage_descr
 cost						= 1700
 icons_texture				= ui\ui_icon_newmedkits
-inv_name					= st_bandage_presure
-inv_name_short				= st_bandage_presure
+inv_name					= st_prebandage
+inv_name_short				= st_prebandage
 script_binding				= bind_item.bind
 inv_weight					= 0.05
 inv_grid_width				= 1
@@ -190,15 +190,15 @@ eat_sleepiness				= 0.0193
 use_sound					= interface\inv_bandage_3p7
 tier						= 3
 
-[bandage_bandaids]:booster
-$spawn						= "food and drugs\bandage_bandaids"
+[bandaids]:booster
+$spawn						= "food and drugs\bandaids"
 visual						= dynamics\devices\dev_bandage\dev_bandage.ogf
 kind						= i_medical
-description					= st_bandage_bandaids_descr
+description					= st_bandaids_descr
 cost						= 800
 icons_texture				= ui\ui_icon_newmedkits
-inv_name					= st_bandage_bandaids
-inv_name_short				= st_bandage_bandaids
+inv_name					= st_bandaids
+inv_name_short				= st_bandaids
 script_binding				= bind_item.bind
 inv_weight					= 0.15
 inv_grid_width				= 1
@@ -215,15 +215,15 @@ use_sound					= interface\inv_bandage
 use_condition				= true
 tier						= 2
 
-[bandage_rag]:booster
-$spawn						= "food and drugs\bandage_rag"
+[rag]:booster
+$spawn						= "food and drugs\rag"
 visual						= dynamics\devices\dev_bandage\dev_bandage.ogf
 kind						= i_medical
-description					= st_bandage_rag_descr
+description					= st_rag_descr
 cost						= 225
 icons_texture				= ui\ui_icon_newmedkits
-inv_name					= st_bandage_rag
-inv_name_short				= st_bandage_rag
+inv_name					= st_rag
+inv_name_short				= st_rag
 script_binding				= bind_item.bind
 inv_weight					= 0.05
 inv_grid_width				= 1

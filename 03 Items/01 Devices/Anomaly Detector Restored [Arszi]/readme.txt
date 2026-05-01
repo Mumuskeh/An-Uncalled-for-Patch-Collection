@@ -1,5 +1,6 @@
 -Module:
 Anomaly Detector Restored [Arszi]
+https://www.moddb.com/mods/stalker-anomaly/addons/arszis-anomaly-detector-restored
 
 ----------------------------------------------------------
 -Compatibility:

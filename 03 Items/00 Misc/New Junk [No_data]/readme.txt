@@ -1,5 +1,6 @@
 -Module:
 New Junk [No_Data]
+https://www.moddb.com/mods/stalker-anomaly/addons/datas-new-junk
 
 ----------------------------------------------------------
 -Compatibility:

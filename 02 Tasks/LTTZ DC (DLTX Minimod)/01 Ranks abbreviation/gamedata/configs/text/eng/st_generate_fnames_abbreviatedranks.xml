@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="name_private_0">
+		<text>Pvt.</text>
+	</string>
+	<string id="name_private_1">
+		<text>Senior Pvt.</text>
+	</string>
+	<string id="name_senior_sergeant_0">
+		<text>Master Sgt.</text>
+	</string>
+	<string id="name_senior_sergeant_1">
+		<text>Senior Sgt.</text>
+	</string>
+	<string id="name_sergeant_0">
+		<text>Junior Sgt.</text>
+	</string>
+	<string id="name_sergeant_1">
+		<text>Sgt.</text>
+	</string>
+	<string id="name_lieutenant_0">
+		<text>Junior Lt.</text>
+	</string>
+	<string id="name_lieutenant_1">
+		<text>Lt.</text>
+	</string>
+	<string id="name_lieutenant_2">
+		<text>Senior Lt.</text>
+	</string>
+	<string id="name_captain_0">
+		<text>Capt.</text>
+	</string>
+	<string id="name_isg_private_0">
+		<text>Pvt.</text>
+	</string>
+	<string id="name_isg_private_1">
+		<text>Lance Cpl.</text>
+	</string>
+	<string id="name_isg_private_2">
+		<text>Cpl.</text>
+	</string>
+	<string id="name_isg_sergeant_0">
+		<text>Sgt.</text>
+	</string>
+	<string id="name_isg_sergeant_1">
+		<text>Staff Sgt.</text>
+	</string>
+	<string id="name_isg_sergeant_2">
+		<text>Warrant Officer</text>
+	</string>
+	<string id="name_isg_lieutenant_0">
+		<text>2nd Lt.</text>
+	</string>
+	<string id="name_isg_lieutenant_1">
+		<text>Lt.</text>
+	</string>
+	<string id="name_isg_captain_0">
+		<text>Capt.</text>
+	</string>
+</string_table>

@@ -1,5 +1,6 @@
 -Module:
 Looting takes time REDUX (Tarkov like looting) [Priler]
+https://www.moddb.com/mods/stalker-anomaly/addons/looting-takes-time-redux-tarkov-like-looting
 
 ----------------------------------------------------------
 -Compatibility:

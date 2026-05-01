@@ -1,0 +1,36 @@
+function on_game_start()
+    local medicine	= cold_system.medicine
+	local hides		= cold_system.hides
+	
+	if medicine then
+		medicine["hsurv_medkit_light"] = true
+		medicine["hsurv_medkit_medium"] = true
+		medicine["hsurv_medkit_heavy"] = true
+		medicine["hsurv_stimpack"] = true
+		medicine["yadylin"] = true
+    end
+    if hides then
+        hides["hide_flesh2"] = true
+        hides["hide_flesh3"] = true
+        hides["hide_boar2"] = true
+        hides["hide_boar3"] = true
+        hides["hide_lurker2"] = true
+        hides["hide_lurker3"] = true
+        hides["hide_psysucker2"] = true
+        hides["hide_psysucker3"] = true
+        hides["hide_bloodsucker2"] = true
+        hides["hide_bloodsucker3"] = true
+        hides["hide_controller2"] = true
+        hides["hide_controller3"] = true
+        hides["hide_burer2"] = true
+        hides["hide_burer3"] = true
+        hides["hide_pseudodog2"] = true
+        hides["hide_pseudodog3"] = true
+        hides["hide_psy_dog2"] = true
+        hides["hide_psy_dog3"] = true
+        hides["hide_pseudogiant2"] = true
+        hides["hide_pseudogiant3"] = true
+        hides["hide_chimera2"] = true
+        hides["hide_chimera3"] = true
+    end
+end

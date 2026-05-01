@@ -1,5 +1,6 @@
 -Module:
 European Drinks [No_data]
+https://www.moddb.com/mods/stalker-anomaly/addons/european-drinks
 
 ----------------------------------------------------------
 -Compatibility:

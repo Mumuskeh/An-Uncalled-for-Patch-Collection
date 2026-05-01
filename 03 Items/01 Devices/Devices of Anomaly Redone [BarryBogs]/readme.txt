@@ -1,5 +1,6 @@
 -Module:
 Devices of Anomaly Redone [BarryBogs]
+https://www.moddb.com/mods/stalker-anomaly/addons/devices-of-anomaly-redone
 
 ----------------------------------------------------------
 -Compatibility:

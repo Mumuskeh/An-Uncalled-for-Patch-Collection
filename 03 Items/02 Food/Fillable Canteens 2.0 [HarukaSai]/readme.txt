@@ -1,5 +1,6 @@
 -Module:
 Fillable Canteens 2.0 [HarukaSai]
+https://www.moddb.com/mods/stalker-anomaly/addons/fillable-canteens-20
 
 ----------------------------------------------------------
 -Compatibility:

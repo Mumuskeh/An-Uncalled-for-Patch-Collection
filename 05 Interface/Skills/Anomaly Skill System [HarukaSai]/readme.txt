@@ -1,5 +1,6 @@
 -Module:
 Anomaly Skill System [HarukaSai]
+https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-skill-system
 
 ----------------------------------------------------------
 -Compatibility:
@@ -16,6 +17,7 @@ Do note there will be a decrease in quality.
 -Patches:
 
 Skills Expansion [Utjan]
+https://www.moddb.com/mods/stalker-anomaly/addons/skills-expansion-for-anomaly-skill-system
 Same deal about compressed textures.
 
 ----------------------------------------------------------

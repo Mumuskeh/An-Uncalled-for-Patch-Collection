@@ -1,5 +1,6 @@
 -Module:
-Performance Reasonable alife.ltx [mrgretto]
+Performance Reasonable alife.ltx settings [mrgretto]
+https://www.moddb.com/mods/stalker-anomaly/addons/performance-and-reasonable-alifeltx-settings
 
 ----------------------------------------------------------
 -Compatibility:

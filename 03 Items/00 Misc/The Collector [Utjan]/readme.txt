@@ -1,5 +1,6 @@
 -Module:
 The Collector [Utjan]
+https://www.moddb.com/mods/stalker-anomaly/addons/the-collector1
 
 ----------------------------------------------------------
 -Compatibility:

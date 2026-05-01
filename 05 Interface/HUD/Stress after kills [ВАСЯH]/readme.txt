@@ -1,5 +1,6 @@
 -Module:
 Stress after kills [ВАСЯH]
+https://www.moddb.com/mods/stalker-anomaly/addons/stress-after-kills
 
 ----------------------------------------------------------
 -Compatibility:

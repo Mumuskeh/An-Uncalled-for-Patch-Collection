@@ -1,5 +1,6 @@
 -Module:
 Western Goods [NTLP_ASHES]
+https://www.moddb.com/mods/stalker-anomaly/addons/western-goods
 
 ----------------------------------------------------------
 -Compatibility:

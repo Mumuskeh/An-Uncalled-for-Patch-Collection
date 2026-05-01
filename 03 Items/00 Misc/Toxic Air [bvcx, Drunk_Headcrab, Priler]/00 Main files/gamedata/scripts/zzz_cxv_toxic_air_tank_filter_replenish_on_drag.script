@@ -13,7 +13,7 @@ local filters = {
 ["af_mask_filter_2_m10_dolg"] = 7,
 ["af_mask_filter_2_mof6"] = 8,
 ["af_mask_filter_3_nbc70"] = 9,
-["af_mask_filter_3_fp5"] = 0,	-- 10 - debug item so it is set to zero to ignore
+["af_mask_filter_3_fp5"] = 10,	-- 10 - debug item so it is set to zero to ignore -- MazConnelly: Not anymore!
 ["af_mask_filter_3_r18"] = 11,
 ["af_mask_filter_3_nbc77_isg"] = 12,
 }

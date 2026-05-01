@@ -1,5 +1,6 @@
 -Module:
 Stealth 2.31 [bvcx]
+https://www.moddb.com/mods/stalker-anomaly/addons/stealth1
 
 ----------------------------------------------------------
 -Compatibility:
@@ -22,8 +23,4 @@ Mind, neither change solves anything serious. The icon files were already pretty
 ----------------------------------------------------------
 -Known issues:
 
-
-
-
-
-
+Incompatibility known with GT's Emplacement. Can't be solved, except by including the functionality of Stealth directly into the modded exes. However I understand bvcx refused to do so. [citation needed and allat]

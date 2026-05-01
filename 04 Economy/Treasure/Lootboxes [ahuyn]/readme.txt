@@ -1,5 +1,6 @@
 -Module:
 Lootboxes [ahuyn]
+https://github.com/ahuyn/anomaly-loot
 
 ----------------------------------------------------------
 -Compatibility:
@@ -33,7 +34,8 @@ Loot from corpses
 Boxes and lockpicks will be found in looted corpses.
 
 Lootboxes Diamond Edition for Gamma
-Rework of this expansion for vanilla and compatibility with future Lootboxes expansions, plus typos fixes.
+https://www.moddb.com/mods/stalker-anomaly/addons/lootboxes-diamond-edition-v1-2
+Standalone rework of this expansion for vanilla and compatibility with future Lootboxes expansions, plus typos fixes.
 The new cases and note are kept, as well as the reweight of existing cases.
 Additions and rebalances to item pools are kept when it makes sense for a purely vanilla game.
 Entries for VSSK Reanimation, Ashey 'n Shakky, Streamlined Upgrades, and Powered Exos are removed; instead the modules for them in this package and Uncle Yar's Workshop include the support for it.

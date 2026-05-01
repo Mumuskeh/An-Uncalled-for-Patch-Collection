@@ -1,5 +1,6 @@
 -Module:
 Easier Anomaly [Jivix]
+https://www.moddb.com/mods/stalker-anomaly/addons/easier-anomaly
 
 ----------------------------------------------------------
 -Compatibility:

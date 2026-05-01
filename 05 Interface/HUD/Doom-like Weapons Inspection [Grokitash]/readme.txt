@@ -1,5 +1,6 @@
 -Module:
 Doom-like Weapons Inspection [Grokitash]
+https://www.moddb.com/mods/stalker-anomaly/addons/100-groks-doom-like-weapons-inspection
 
 ----------------------------------------------------------
 -Compatibility:

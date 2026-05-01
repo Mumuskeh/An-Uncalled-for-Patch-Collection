@@ -1,5 +1,7 @@
 -Module:
 Trader Sell Mods Merge [various authors]
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-dltx-minimod-pack
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-traders-sell-recipes
 
 ----------------------------------------------------------
 -Compatibility:

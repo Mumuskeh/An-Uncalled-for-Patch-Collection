@@ -1,5 +1,6 @@
 -Module:
 Improved New Ranks Mod [tiger-forcesoldiercl]
+https://www.moddb.com/mods/stalker-anomaly/addons/improved-new-ranks-mod-dltx
 
 ----------------------------------------------------------
 -Compatibility:

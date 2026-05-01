@@ -1,5 +1,6 @@
 -Module:
 Total Radiation Reduсtion Value [Paferon]
+https://www.moddb.com/mods/stalker-anomaly/addons/total-radiation-redution-value
 
 ----------------------------------------------------------
 -Compatibility:

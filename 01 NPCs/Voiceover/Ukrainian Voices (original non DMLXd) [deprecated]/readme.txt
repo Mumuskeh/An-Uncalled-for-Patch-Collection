@@ -1,5 +1,6 @@
 -Module:
 Ukrainian Voices (original non DMLXd version)
+https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-ukrainian-voices
 
 ----------------------------------------------------------
 -Compatibility:

@@ -16,6 +16,7 @@ https://www.moddb.com/mods/stalker-anomaly/addons/damiens-animation-compedium
 https://www.moddb.com/mods/stalker-anomaly/addons/eft-style-weapons-re-position-redux
 
 -VonAvalon for Better PDA Rarity Model
+https://www.moddb.com/mods/stalker-anomaly/addons/dead-stalker-pda-rarity-models
 
 ----------------------------------------------------------
 -Patches:

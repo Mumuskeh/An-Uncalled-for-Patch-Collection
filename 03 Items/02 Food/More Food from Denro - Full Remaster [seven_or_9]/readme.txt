@@ -1,5 +1,6 @@
 -Module:
 More Food from Denro - Full Remaster [seven_or_9]
+https://www.moddb.com/mods/stalker-anomaly/addons/more-food-from-denro-full-remaster-dltx
 
 ----------------------------------------------------------
 -Compatibility:

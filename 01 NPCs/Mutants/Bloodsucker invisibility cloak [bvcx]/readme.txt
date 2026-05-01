@@ -1,5 +1,6 @@
 -Module:
 Bloodsucker invisibility cloak [bvcx]
+https://www.moddb.com/mods/stalker-anomaly/addons/bloodsucker-invisibility-cloak
 
 ----------------------------------------------------------
 -Compatibility:

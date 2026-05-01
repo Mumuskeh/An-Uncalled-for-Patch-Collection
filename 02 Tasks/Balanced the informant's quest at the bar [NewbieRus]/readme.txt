@@ -1,5 +1,6 @@
 -Module:
 Balanced the informant's quest at the bar [NewbieRus]
+https://www.moddb.com/mods/stalker-anomaly/addons/balanced-the-informants-quest-at-the-bar
 
 ----------------------------------------------------------
 -Compatibility:

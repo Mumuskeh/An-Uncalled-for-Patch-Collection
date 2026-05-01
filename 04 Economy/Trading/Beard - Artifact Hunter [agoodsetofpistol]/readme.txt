@@ -1,5 +1,6 @@
 -Module:
 Beard - Artifact Hunter [agoodsetofpistol]
+https://www.moddb.com/mods/stalker-anomaly/addons/beard-artifact-hunter
 
 ----------------------------------------------------------
 -Compatibility:

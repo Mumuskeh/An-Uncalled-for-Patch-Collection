@@ -1,5 +1,6 @@
 -Module:
 Sin Upgrade Software - Elixir Edition [Ryiverz, Drunk_Headcrab]
+https://www.moddb.com/mods/stalker-anomaly/addons/sin-upgrade-software-elixir-edition
 
 ----------------------------------------------------------
 -Compatibility:

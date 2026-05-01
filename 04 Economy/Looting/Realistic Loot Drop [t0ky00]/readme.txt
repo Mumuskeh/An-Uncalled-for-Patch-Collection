@@ -1,5 +1,6 @@
 -Module:
 Realistic Loot Drop [t0ky00]
+https://www.moddb.com/mods/stalker-anomaly/addons/realistic-loot-drop-15
 
 ----------------------------------------------------------
 -Compatibility:
