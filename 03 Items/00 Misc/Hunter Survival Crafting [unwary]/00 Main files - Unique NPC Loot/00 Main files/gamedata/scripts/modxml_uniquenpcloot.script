@@ -1,0 +1,671 @@
+if dialogs_devushka_fix then
+    detected_less_infuriating_hip = true
+	printf("Less Infuriating Hip detected. Making extended changes...")
+end
+if modxml_stashesnamednpcs or spawn_tainiki then
+    detected_stashesnamednpcs = true
+	printf("Stashes to named NPCs detected. Making extended changes...")
+end
+
+function on_game_start()
+    RegisterScriptCallback("on_specific_character_init", function(character_id, data)
+
+-- Agroprom underground
+        if character_id == "agr_u_bandit_boss" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_fort = 1 \n
+			ammo_9x18_fmj = 5 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs_2.xml"
+			]]
+        end
+
+-- bar
+        if character_id == "bar_visitors_garik_stalker_guard" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74 \n
+			ammo_5.45x39_fmj \n
+			grenade_f1 = 2 \n
+			]]
+        end
+
+        if character_id == "bar_dolg_leader" then
+			if detected_stashesnamednpcs == true then
+				printf("Stashes to named NPCs detected. Making extended changes...")
+				data.supplies= [[
+				[spawn] \n
+				wpn_sig220 \n
+				ammo_11.43x23_hydro \n
+				wpn_val \n
+				ammo_9x39_pab9 = 1 \n
+				grenade_f1 = 2 \n
+				itm_mapkit_1 = 1 \n
+				itm_mapkit_radar = 1 \n
+				dolg_leader_pda = 1 \n
+				#include "gameplay\supplies\character_items.xml"
+				#include "gameplay\supplies\character_food.xml"
+				#include "gameplay\supplies\character_drugs.xml"
+				]]
+			else
+				data.supplies= [[
+				[spawn] \n
+				wpn_sig220 \n
+				ammo_11.43x23_hydro \n
+				wpn_val \n
+				ammo_9x39_pab9 = 1 \n
+				grenade_f1 = 2 \n
+				itm_mapkit_1 = 1 \n
+				itm_mapkit_radar = 1 \n
+				#include "gameplay\supplies\character_items.xml"
+				#include "gameplay\supplies\character_food.xml"
+				#include "gameplay\supplies\character_drugs.xml"
+				]]
+			end
+        end
+
+        if character_id == "bar_dolg_general_petrenko_stalker" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_walther \n
+			ammo_9x19_fmj \n
+			wpn_groza \n
+			ammo_9x39_ap \n
+			grenade_f1 = 2 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs_2.xml"
+			]]
+        end
+
+        if character_id == "bar_visitors_stalker_mechanic" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_fort = 1 \n
+			ammo_9x18_fmj = 5 \n
+			grenade_f1 = 2 \n
+			#include "gameplay\character_criticals.xml"
+			]]
+        end
+
+        if character_id == "bar_informator_mlr" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_fort = 1 \n
+			ammo_9x18_fmj = 5 \n
+			grenade_f1 = 2 \n
+			wpn_beretta \n
+			ammo_9x19_fmj = 1 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs.xml"
+			]]
+        end
+
+        if character_id == "bar_dolg_medic" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_walther \n
+			ammo_9x19_fmj \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_fort = 1 \n
+			ammo_9x18_fmj = 5 \n
+			grenade_f1 = 2 \n	
+			#include "gameplay\supplies\character_food.xml" \n
+			#include "gameplay\supplies\character_drugs.xml"
+			]]
+        end
+
+-- darkscape
+        if character_id == "dasc_tech_mlr" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_fort = 1 \n
+			ammo_9x18_fmj = 5 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs_2.xml"
+			]]
+        end
+
+        if character_id == "dasc_trade_mlr" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_fort = 1 \n
+			ammo_9x18_fmj = 5 \n
+			grenade_f1 = 2 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs_2.xml"
+			]]
+        end
+
+-- dark valley
+        if character_id == "zat_b7_bandit_boss_sultan" then
+			if detected_stashesnamednpcs == true then
+				data.supplies= [[
+				[spawn] \n
+				wpn_ak74_custom = 1 \n
+				ammo_5.45x39_fmj = 5 \n
+				wpn_fort = 1 \n
+				ammo_9x18_fmj = 5 \n
+				itm_mapkit_5 = 1 \n
+				mlr_strelok_item_01 = 1 \n
+				bandit_leader_pda = 1 \n
+				#include "gameplay\supplies\character_items.xml"
+				#include "gameplay\supplies\character_food.xml"
+				#include "gameplay\supplies\character_drugs_2.xml"
+				]]
+			else
+				data.supplies= [[
+				[spawn] \n
+				wpn_ak74_custom = 1 \n
+				ammo_5.45x39_fmj = 5 \n
+				wpn_fort = 1 \n
+				ammo_9x18_fmj = 5 \n
+				itm_mapkit_5 = 1 \n
+				mlr_strelok_item_01 = 1 \n
+				#include "gameplay\supplies\character_items.xml"
+				#include "gameplay\supplies\character_food.xml"
+				#include "gameplay\supplies\character_drugs_2.xml"
+				]]
+			end
+        end
+
+        if character_id == "val_smart_terrain_7_4_bandit_trader_stalker" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_fort = 1 \n
+			ammo_9x18_fmj = 5 \n
+			grenade_f1 = 2 \n
+			itm_mapkit_5 = 1 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs_2.xml"
+			]]
+        end
+
+        if character_id == "bandit_main_base_medic_mlr" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_fort \n
+			ammo_9x18_fmj = 1 \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_fort = 1 \n
+			ammo_9x18_fmj = 5 \n
+			grenade_f1 = 2 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs.xml"
+			]]
+        end
+
+        if character_id == "guid_dv_mal_mlr" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_abakan \n
+			ammo_5.45x39_fmj = 1 \n
+			itm_mapkit_5 = 1 \nk
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs.xml"
+			]]
+        end
+
+-- Dead city
+        if character_id == "cit_killers_merc_mechanic_stalker" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_sig550_custom \n
+			ammo_5.56x45_fmj = 5 \n
+			wpn_colt1911 \n
+			ammo_11.43x23_hydro = 5 \n
+			grenade_f1 = 2 \n
+			itm_mapkit_redforest \n
+			itm_mapkit_limansk \n
+			]]
+        end
+
+        if character_id == "ds_killer_guide_main_base" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_abakan \n
+			ammo_5.45x39_fmj = 1 \n
+			itm_mapkit_redforest \n
+			itm_mapkit_limansk \n
+			itm_mapkit_4 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs.xml"
+			]]
+        end
+
+-- cordon
+        if character_id == "esc_2_12_stalker_wolf" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_pm = 1 \n
+			ammo_9x18_fmj = 4 \n
+			wpn_pkm = 1\n
+			ammo_pkm_100 = 6 \n
+			device_torch = 1 \n
+			hand_radio = 1 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs_2.xml"
+			]]
+        end
+
+        if character_id == "esc_2_12_stalker_fanat" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_binoc \n
+			wpn_pmm \n
+			ammo_9x18_fmj = 5 \n
+			wpn_ak74u_camo_kobra = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			grenade_f1 = 2 \n
+			#include "gameplay\supplies\character_items_nd.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs_3.xml"
+			]]
+        end
+
+        if character_id == "devushka" then
+			if detected_less_infuriating_hip == true then
+				data.supplies= [[
+				[spawn] \n
+				wpn_hpsa_alt \n
+				ammo_9x19_fmj = 3 \n
+				wpn_m4a1_freedom_ac10632 = 1 \n
+				ammo_5.56x45_ap = 3 \n
+				grenade_f1 = 2 \n
+				af_dummy_battery \n
+				#include "gameplay\supplies\character_items.xml"
+				#include "gameplay\supplies\character_food.xml"
+				#include "gameplay\supplies\character_drugs_2.xml"
+				]]
+			else
+				data.supplies= [[
+				[spawn] \n
+				wpn_hpsa_alt \n
+				ammo_9x19_fmj = 3 \n
+				wpn_m4a1_freedom_ac10632 = 1 \n
+				ammo_5.56x45_ap = 3 \n
+				grenade_f1 = 2 \n
+				#include "gameplay\supplies\character_items.xml"
+				#include "gameplay\supplies\character_food.xml"
+				#include "gameplay\supplies\character_drugs_2.xml"
+				]]
+			end
+        end
+
+        if character_id == "esc_smart_terrain_5_7_loner_mechanic_stalker" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_fort = 1 \n
+			ammo_9x18_fmj = 5 \n
+			grenade_f1 = 1 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs_2.xml"
+			]]
+        end
+
+        if character_id == "esc_main_base_trader_mlr" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_fort \n
+			ammo_9x18_fmj = 5 \n
+			grenade_f1 = 1 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs.xml"
+			]]
+        end
+
+        if character_id == "army_south_mechan_mlr" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom = 1  \n
+			ammo_5.45x39_fmj = 5  \n
+			wpn_fort = 1  \n
+			ammo_9x18_fmj = 5  \n
+			grenade_f1 = 1  \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs.xml"
+			]]
+        end
+
+        if character_id == "esc_3_16_military_trader" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_fort \n
+			ammo_9x18_fmj = 5 \n
+			grenade_f1 = 3 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs.xml"
+			]]
+        end
+
+-- garbage
+        if character_id == "hunter_gar_trader" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_mossberg590 \n
+			ammo_12x70_buck = 2 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs.xml"
+			]]
+        end
+
+-- jupiter
+        if character_id == "jup_a6_freedom_leader" then
+			data.supplies= [[
+			[spawn] \n
+			hand_radio \n
+			wpn_sig550 \n
+			ammo_5.56x45_fmj = 5 \n
+			wpn_colt1911 \n
+			ammo_11.43x23_hydro = 5 \n
+			grenade_f1 = 2 \n
+			#include "gameplay\supplies\character_items_3.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs_4.xml"
+			#include "gameplay\supplies\character_drugs_sci.xml"
+			]]
+        end
+
+        if character_id == "jup_b217_stalker_tech" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_fort = 1 \n
+			ammo_9x18_fmj = 5 \n
+			grenade_f1 = 2 \n
+			#include "gameplay\supplies\character_items_2.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs_3.xml"
+			]]
+        end
+
+        if character_id == "jup_a12_bandit_chief" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_hpsa \n
+			ammo_9x19_pbp = 5 \n
+			grenade_f1 = 2 \n
+			#include "gameplay\supplies\character_items_nd.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs_3.xml"
+			]]
+        end
+
+-- katakombs
+        if character_id == "kat_enemy_sniper_strong" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_pkm_zulus = 1 \n
+			ammo_pkm_100 = 2 \n
+			wpn_sig220 \n
+			ammo_11.43x23_fmj  = 1 \n
+			grenade_gd-05 = 2 \n
+			itm_mapkit_outskirts \n
+			itm_mapkit_pripyat \n
+			]]
+        end
+
+-- marsh
+        if character_id == "mar_smart_terrain_doc_doctor" then
+			data.supplies= [[
+			[spawn] \n 
+			wpn_fort \n
+			ammo_9x18_fmj = 3 \n
+			cit_doctors_key = 1 \n
+			cit_doctors_pda = 1 \n
+			itm_mapkit_agroprom_underground = 1 \n
+			]]
+        end
+
+-- army warehouses
+        if character_id == "mil_smart_terrain_7_7_freedom_leader_stalker" then
+			if detected_stashesnamednpcs == true then
+				data.supplies= [[
+				[spawn] \n
+				wpn_usp  \n
+				ammo_11.43x23_hydro = 1 \n
+				wpn_g36 \n
+				ammo_5.56x45_ap = 1 \n
+				grenade_f1 = 2 \n
+				itm_mapkit_1 = 1 \n
+				itm_mapkit_radar = 1 \n
+				freedom_leader_pda = 1 \n
+				#include "gameplay\supplies\character_items.xml"
+				#include "gameplay\supplies\character_drugs.xml"
+				#include "gameplay\supplies\character_food.xml"
+				]]
+			else
+				data.supplies= [[
+				[spawn] \n
+				wpn_usp  \n
+				ammo_11.43x23_hydro = 1 \n
+				wpn_g36 \n
+				ammo_5.56x45_ap = 1 \n
+				grenade_f1 = 2 \n
+				itm_mapkit_1 = 1 \n
+				itm_mapkit_radar = 1 \n
+				#include "gameplay\supplies\character_items.xml"
+				#include "gameplay\supplies\character_drugs.xml"
+				#include "gameplay\supplies\character_food.xml"
+				]]
+			end
+        end
+
+-- prypiat
+        if character_id == "monolith_eidolon" then
+			data.supplies= [[
+			[spawn_loadout] \n
+				wpn_groza = 1 \n
+				wpn_val_kobra = 1 \n
+				wpn_vihr_kobra = 1 \n
+			[spawn_loadout2] \n
+				wpn_fort_snag = 1 \n
+				wpn_gsh18_custom = 1 \n
+			[spawn] \n
+				grenade_f1 = 2 \n
+				detector_elite = 1 \n
+				af_monolith = 1 \n
+				itm_mapkit_pripyat = 1 \n
+				itm_mapkit_generators = 1 \n
+				itm_mapkit_chernobyl_s = 1 \n
+				itm_mapkit_chernobyl_n = 1 \n
+			#include "gameplay\supplies\character_food_army.xml"
+			#include "gameplay\supplies\character_drugs_4.xml"
+			#include "gameplay\supplies\character_drugs_sci.xml"
+			#include "gameplay\supplies\character_drugs_mil.xml"
+			]]
+        end
+
+        if character_id == "lider_monolith_haron" then
+			if detected_stashesnamednpcs == true then
+				data.supplies= [[
+				[spawn] \n
+				wpn_val = 1 \n
+				ammo_9x39_ap = 1 \n
+				itm_mapkit_pripyat = 1 \n
+				itm_mapkit_generators = 1 \n
+				itm_mapkit_chernobyl_s = 1 \n
+				itm_mapkit_chernobyl_n = 1 \n
+				monolith_leader_pda = 1 \n
+				#include "gameplay\supplies\character_items.xml"
+				#include "gameplay\supplies\character_food.xml"
+				#include "gameplay\supplies\character_drugs.xml"
+				]]
+			else
+				data.supplies= [[
+				[spawn] \n
+				wpn_val = 1 \n
+				ammo_9x39_ap = 1 \n
+				itm_mapkit_pripyat = 1 \n
+				itm_mapkit_generators = 1 \n
+				itm_mapkit_chernobyl_s = 1 \n
+				itm_mapkit_chernobyl_n = 1 \n
+				#include "gameplay\supplies\character_items.xml"
+				#include "gameplay\supplies\character_food.xml"
+				#include "gameplay\supplies\character_drugs.xml"
+				]]
+			end
+        end
+
+        if character_id == "lider_monolith_haron" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_val = 1 \n
+			ammo_9x39_ap = 1 \n
+			itm_mapkit_pripyat = 1 \n
+			itm_mapkit_generators = 1 \n
+			itm_mapkit_chernobyl_s = 1 \n
+			itm_mapkit_chernobyl_n = 1 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs.xml"
+			]]
+        end
+
+        if character_id == "guid_pri_a15_mlr" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_svu \n
+			ammo_7.62x54_7h1 = 1 \n
+			itm_mapkit_outskirts_nerfed = 1 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs.xml"
+			]]
+        end
+
+        if character_id == "mechanic_monolith_kbo" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_abakan = 1 \n
+			ammo_5.45x39_ap = 1 \n
+			itm_mapkit_outskirts_nerfed = 1 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs.xml"
+			]]
+        end
+
+        if character_id == "trader_monolith_kbo" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_val = 1 \n
+			ammo_9x39_ap = 1 \n
+			itm_mapkit_pripyat \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs.xml"
+			]]
+        end
+
+-- truck cemetery
+        if character_id == "trucks_cemetery_bandit_trader" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_fort = 1 \n
+			ammo_9x18_fmj = 5 \n
+			grenade_f1 = 2 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs_2.xml"
+			]]
+        end
+
+-- yantar
+        if character_id == "yan_povar_army_mlr" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_fort = 1 \n
+			ammo_9x18_fmj = 5 \n
+			grenade_f1 = 2 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs.xml"
+			]]
+        end
+
+-- zaton
+        if character_id == "zaton_killer_guide_station" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_abakan \n
+			ammo_5.45x39_fmj = 1 \n
+			itm_mapkit_zaton = 1 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs.xml"
+			]]
+        end
+
+        if character_id == "zat_tech_mlr" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_colt1911 \n
+			ammo_11.43x23_fmj = 5 \n
+			grenade_f1 = 2 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs_2.xml"
+			]]
+        end
+
+        if character_id == "guid_zan_stalker_locman" then
+			data.supplies= [[
+			[spawn] \n
+			wpn_ak74_custom = 1 \n
+			ammo_5.45x39_fmj = 5 \n
+			wpn_desert_eagle \n
+			ammo_11.43x23_fmj = 5 \n
+			grenade_f1 = 2 \n
+			#include "gameplay\supplies\character_items.xml"
+			#include "gameplay\supplies\character_food.xml"
+			#include "gameplay\supplies\character_drugs_2.xml"
+			]]
+        end
+
+    end)
+end

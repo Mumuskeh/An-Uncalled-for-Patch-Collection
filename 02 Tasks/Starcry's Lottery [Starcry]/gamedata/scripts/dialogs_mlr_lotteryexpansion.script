@@ -1,0 +1,226 @@
+--====================< Check if actor has required items  >====================--
+base_have_csky_patch_for_lottery_10		= dialogs_mlr.have_csky_patch_for_lottery_10
+base_have_freedom_patch_for_lottery_10	= dialogs_mlr.have_freedom_patch_for_lottery_10
+base_have_stalker_patch_for_lottery_10	= dialogs_mlr.have_stalker_patch_for_lottery_10
+base_have_ecolog_patch_for_lottery_10	= dialogs_mlr.have_ecolog_patch_for_lottery_10
+base_have_bandit_patch_for_lottery_10	= dialogs_mlr.have_bandit_patch_for_lottery_10
+base_have_duty_patch_for_lottery_10		= dialogs_mlr.have_duty_patch_for_lottery_10
+base_have_monolith_patch_for_lottery_10	= dialogs_mlr.have_monolith_patch_for_lottery_10
+base_have_army_patch_for_lottery_10		= dialogs_mlr.have_army_patch_for_lottery_10
+base_have_csky_patch_for_lottery_50		= dialogs_mlr.have_csky_patch_for_lottery_50
+base_have_freedom_patch_for_lottery_50	= dialogs_mlr.have_freedom_patch_for_lottery_50
+base_have_stalker_patch_for_lottery_50	= dialogs_mlr.have_stalker_patch_for_lottery_50
+base_have_ecolog_patch_for_lottery_50	= dialogs_mlr.have_ecolog_patch_for_lottery_50
+base_have_bandit_patch_for_lottery_50	= dialogs_mlr.have_bandit_patch_for_lottery_50
+base_have_duty_patch_for_lottery_50		= dialogs_mlr.have_duty_patch_for_lottery_50
+base_have_monolith_patch_for_lottery_50	= dialogs_mlr.have_monolith_patch_for_lottery_50
+base_have_army_patch_for_lottery_50		= dialogs_mlr.have_army_patch_for_lottery_50
+
+base_take_csky_patch_for_lottery_10		= dialogs_mlr.take_csky_patch_for_lottery_10
+base_take_duty_patch_for_lottery_10		= dialogs_mlr.take_duty_patch_for_lottery_10
+base_take_freedom_patch_for_lottery_10	= dialogs_mlr.take_freedom_patch_for_lottery_10
+base_take_stalker_patch_for_lottery_10	= dialogs_mlr.take_stalker_patch_for_lottery_10
+base_take_ecolog_patch_for_lottery_10	= dialogs_mlr.take_ecolog_patch_for_lottery_10
+base_take_bandit_patch_for_lottery_10	= dialogs_mlr.take_bandit_patch_for_lottery_10
+base_take_monolith_patch_for_lottery_10	= dialogs_mlr.take_monolith_patch_for_lottery_10
+base_take_army_patch_for_lottery_10		= dialogs_mlr.take_army_patch_for_lottery_10
+base_take_csky_patch_for_lottery_50		= dialogs_mlr.take_csky_patch_for_lottery_50
+base_take_duty_patch_for_lottery_50		= dialogs_mlr.take_duty_patch_for_lottery_50
+base_take_freedom_patch_for_lottery_50	= dialogs_mlr.take_freedom_patch_for_lottery_50
+base_take_stalker_patch_for_lottery_50	= dialogs_mlr.take_stalker_patch_for_lottery_50
+base_take_ecolog_patch_for_lottery_50	= dialogs_mlr.take_ecolog_patch_for_lottery_50
+base_take_bandit_patch_for_lottery_50	= dialogs_mlr.take_bandit_patch_for_lottery_50
+base_take_monolith_patch_for_lottery_50	= dialogs_mlr.take_monolith_patch_for_lottery_50
+base_take_army_patch_for_lottery_50		= dialogs_mlr.take_army_patch_for_lottery_50
+
+
+function dialogs_mlr.have_csky_patch_for_lottery_10(first_speaker, second_speaker)
+	return mlr_utils.have_item('csky_patch', 15)
+end 
+function dialogs_mlr.have_freedom_patch_for_lottery_10(first_speaker, second_speaker)
+	return mlr_utils.have_item('freedom_patch', 15)
+end 
+function dialogs_mlr.have_stalker_patch_for_lottery_10(first_speaker, second_speaker)
+	return mlr_utils.have_item('stalker_patch', 15)
+end 
+function dialogs_mlr.have_ecolog_patch_for_lottery_10(first_speaker, second_speaker)
+	return mlr_utils.have_item('ecolog_patch', 15)
+end 
+function dialogs_mlr.have_bandit_patch_for_lottery_10(first_speaker, second_speaker)
+	return mlr_utils.have_item('bandit_patch', 15)
+end 
+function dialogs_mlr.have_duty_patch_for_lottery_10(first_speaker, second_speaker)
+	return mlr_utils.have_item('dolg_patch', 15)
+end 
+function dialogs_mlr.have_monolith_patch_for_lottery_10(first_speaker, second_speaker)
+	return mlr_utils.have_item('monolith_patch', 15)
+end 
+function dialogs_mlr.have_army_patch_for_lottery_10(first_speaker, second_speaker)
+	return mlr_utils.have_item('army_patch', 15)
+end 
+function dialogs_mlr.have_csky_patch_for_lottery_50(first_speaker, second_speaker)
+	return mlr_utils.have_item('csky_patch', 30)
+end 
+function dialogs_mlr.have_freedom_patch_for_lottery_50(first_speaker, second_speaker)
+	return mlr_utils.have_item('freedom_patch', 30)
+end 
+function dialogs_mlr.have_stalker_patch_for_lottery_50(first_speaker, second_speaker)
+	return mlr_utils.have_item('stalker_patch', 30)
+end 
+function dialogs_mlr.have_ecolog_patch_for_lottery_50(first_speaker, second_speaker)
+	return mlr_utils.have_item('ecolog_patch', 30)
+end 
+function dialogs_mlr.have_bandit_patch_for_lottery_50(first_speaker, second_speaker)
+	return mlr_utils.have_item('bandit_patch', 30)
+end 
+function dialogs_mlr.have_duty_patch_for_lottery_50(first_speaker, second_speaker)
+	return mlr_utils.have_item('dolg_patch', 30)
+end 
+function dialogs_mlr.have_monolith_patch_for_lottery_50(first_speaker, second_speaker)
+	return mlr_utils.have_item('monolith_patch', 30)
+end 
+function dialogs_mlr.have_army_patch_for_lottery_50(first_speaker, second_speaker)
+	return mlr_utils.have_item('army_patch', 30)
+end
+
+function have_killer_patch_for_lottery_10(first_speaker, second_speaker)
+	return mlr_utils.have_item('killer_patch', 15)	
+end 
+function have_greh_patch_for_lottery_10(first_speaker, second_speaker)
+	return mlr_utils.have_item('greh_patch', 15)	
+end 
+function have_isg_patch_for_lottery_10(first_speaker, second_speaker)
+	return mlr_utils.have_item('isg_patch', 15)	
+end 
+function have_renegade_patch_for_lottery_10(first_speaker, second_speaker)
+	return mlr_utils.have_item('renegade_patch', 15)	
+end 
+function have_killer_patch_for_lottery_50(first_speaker, second_speaker)
+	return mlr_utils.have_item('killer_patch', 30)	
+end 
+function have_greh_patch_for_lottery_50(first_speaker, second_speaker)
+	return mlr_utils.have_item('greh_patch', 30)
+end
+function have_isg_patch_for_lottery_50(first_speaker, second_speaker)
+	return mlr_utils.have_item('isg_patch', 30)
+end
+function have_renegade_patch_for_lottery_50(first_speaker, second_speaker)
+	return mlr_utils.have_item('renegade_patch', 30)
+end
+
+
+--====================< Take items from actor >====================--
+function dialogs_mlr.take_csky_patch_for_lottery_10(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "csky_patch",15)
+end
+function dialogs_mlr.take_duty_patch_for_lottery_10(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "dolg_patch",15)
+end
+function dialogs_mlr.take_freedom_patch_for_lottery_10(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "freedom_patch",15)
+end
+function dialogs_mlr.take_stalker_patch_for_lottery_10(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "stalker_patch",15)
+end
+function dialogs_mlr.take_ecolog_patch_for_lottery_10(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "ecolog_patch",15)
+end
+function dialogs_mlr.take_bandit_patch_for_lottery_10(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "bandit_patch",15)
+end
+function dialogs_mlr.take_monolith_patch_for_lottery_10(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "monolith_patch",15)
+end
+function dialogs_mlr.take_army_patch_for_lottery_10(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "army_patch",15)
+end
+function dialogs_mlr.take_csky_patch_for_lottery_50(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "csky_patch",30)
+end
+function dialogs_mlr.take_duty_patch_for_lottery_50(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "dolg_patch",30)
+end
+function dialogs_mlr.take_freedom_patch_for_lottery_50(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "freedom_patch",30)
+end
+function dialogs_mlr.take_stalker_patch_for_lottery_50(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "stalker_patch",30)
+end
+function dialogs_mlr.take_ecolog_patch_for_lottery_50(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "ecolog_patch",30)
+end
+function dialogs_mlr.take_bandit_patch_for_lottery_50(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "bandit_patch",30)
+end
+function dialogs_mlr.take_monolith_patch_for_lottery_50(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "monolith_patch",30)
+end
+function dialogs_mlr.take_army_patch_for_lottery_50(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "army_patch",30)
+end
+
+function take_killer_patch_for_lottery_10(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "killer_patch",15)
+end
+function take_greh_patch_for_lottery_10(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "greh_patch",15)
+end
+function take_isg_patch_for_lottery_10(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "isg_patch",15)
+end
+function take_renegade_patch_for_lottery_10(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "renegade_patch",15)
+end
+function take_killer_patch_for_lottery_50(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "killer_patch",30)
+end
+function take_greh_patch_for_lottery_50(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "greh_patch",30)
+end
+function take_isg_patch_for_lottery_50(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "isg_patch",30)
+end
+function take_renegade_patch_for_lottery_50(first_speaker, second_speaker)
+    dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "renegade_patch",30)
+end
+
+--====================< Give items to actor >====================--
+function lottery_present_low_7(first_speaker, second_speaker) 
+dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "af_iam", 2)  
+end
+function lottery_present_low_8(first_speaker, second_speaker) 
+dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "medkit_ai1", 2) 
+end
+function lottery_present_low_9(first_speaker, second_speaker) 
+dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "itm_basickit")  
+end
+function lottery_present_medium_8(first_speaker, second_speaker) 
+dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "af_aac", 2)  
+end
+function lottery_present_medium_9(first_speaker, second_speaker) 
+dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "medkit_ai2", 2)
+end
+function lottery_present_medium_10(first_speaker, second_speaker) 
+dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "itm_advancedkit")  
+end
+function lottery_present_hight_6(first_speaker, second_speaker) 
+dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "af_aam", 2)  
+end
+function lottery_present_hight_7(first_speaker, second_speaker) 
+dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "medkit_ai3", 2)  
+end
+function lottery_present_hight_8(first_speaker, second_speaker) 
+dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "itm_expertkit")  
+end
+function lottery_present_hight_9(first_speaker, second_speaker) 
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_m79")
+	dialogs.relocate_item_section(second_speaker, "ammo_m209", "in",15)  
+end
+function lottery_present_hight_10(first_speaker, second_speaker) 
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_remington700")
+	dialogs.relocate_item_section(second_speaker, "ammo_7.61x51_ap", "in",3)  
+end
+function lottery_present_hight_11(first_speaker, second_speaker) 
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_pkm_zulus")
+	dialogs.relocate_item_section(second_speaker, "ammo_pkm_100", "in",3)  
+end

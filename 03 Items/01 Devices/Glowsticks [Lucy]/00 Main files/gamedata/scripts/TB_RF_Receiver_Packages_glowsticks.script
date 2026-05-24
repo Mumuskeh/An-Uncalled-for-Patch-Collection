@@ -1,0 +1,47 @@
+if not TB_RF_Receiver_Packages then
+    printf("TB's RF Receiver Hidden Package Sidequests not found. Going back to sleep...")
+    return
+end
+
+function on_game_start()
+
+	if TB_RF_Receiver_Packages.mc_faction_army then
+		printf("CookBook's QOL - An Uncalled for patch detected. Making extended changes...")
+		table.insert( TB_RF_Receiver_Packages.mc_faction_army, {"device_glowstick_red","st_device_glowstick_red"} )
+		
+		table.insert( TB_RF_Receiver_Packages.mc_faction_bandit, {"device_glowstick_orange","st_device_glowstick_orange"} )
+		table.insert( TB_RF_Receiver_Packages.mc_faction_bandit, {"device_glowstick_red","st_device_glowstick_red"} )
+		
+		table.insert( TB_RF_Receiver_Packages.mc_faction_csky, {"device_glowstick_blue","st_device_glowstick_blue"} )
+		
+		table.insert( TB_RF_Receiver_Packages.mc_faction_dolg, {"device_glowstick_red","st_device_glowstick_red"} )
+		
+		table.insert( TB_RF_Receiver_Packages.mc_faction_ecolog, {"device_glowstick_blue","st_device_glowstick_blue"} )
+		table.insert( TB_RF_Receiver_Packages.mc_faction_ecolog, {"device_glowstick_orange","st_device_glowstick_orange"} )
+		
+		table.insert( TB_RF_Receiver_Packages.mc_faction_freedom, {"device_glowstick","st_device_glowstick"} )
+		table.insert( TB_RF_Receiver_Packages.mc_faction_freedom, {"device_glowstick_orange","st_device_glowstick_orange"} )
+		
+		table.insert( TB_RF_Receiver_Packages.mc_faction_greh, {"device_glowstick_orange","st_device_glowstick_orange"} )
+		table.insert( TB_RF_Receiver_Packages.mc_faction_greh, {"device_glowstick_red","st_device_glowstick_red"} )
+		
+		table.insert( TB_RF_Receiver_Packages.mc_faction_isg, {"device_glowstick","st_device_glowstick"} )
+		
+		table.insert( TB_RF_Receiver_Packages.mc_faction_killer, {"device_glowstick_blue","st_device_glowstick_blue"} )
+		
+		table.insert( TB_RF_Receiver_Packages.mc_faction_monolith, {"device_glowstick_blue","st_device_glowstick_blue"} )
+		
+		table.insert( TB_RF_Receiver_Packages.mc_faction_renegade, {"device_glowstick_orange","st_device_glowstick_orange"} )
+		table.insert( TB_RF_Receiver_Packages.mc_faction_renegade, {"device_glowstick_red","st_device_glowstick_red"} )
+		
+		table.insert( TB_RF_Receiver_Packages.mc_faction_stalker, {"device_glowstick","st_device_glowstick"} )
+		
+	elseif TB_RF_Receiver_Packages.tb_extraloot then
+		printf("CookBook's QOL - An Uncalled for patch not found. Making default changes...")
+		table.insert( TB_RF_Receiver_Packages.tb_extraloot, {"device_glowstick","st_device_glowstick"} )
+		table.insert( TB_RF_Receiver_Packages.tb_extraloot, {"device_glowstick_blue","st_device_glowstick_blue"} )
+		table.insert( TB_RF_Receiver_Packages.tb_extraloot, {"device_glowstick_orange","st_device_glowstick_orange"} )
+		table.insert( TB_RF_Receiver_Packages.tb_extraloot, {"device_glowstick_red","st_device_glowstick_red"} )
+	end
+
+end

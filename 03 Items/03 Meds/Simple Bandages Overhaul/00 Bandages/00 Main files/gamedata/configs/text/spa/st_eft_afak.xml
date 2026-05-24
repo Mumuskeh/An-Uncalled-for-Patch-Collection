@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<string_table>
+
+	<string id="st_eft_afak">
+		<text>Bolsa de vendas</text>
+	</string>
+	<string id="st_eft_afak_descr">
+		<text>Un paquete de botiquines, con suficiente espacio para diez de ellos.\n \n
+		%c[ui_gray_3]PROPIEDADES:\n
+		%c[d_blue] • %c[ui_gray_2] artículo de primeros auxilios\n
+		%c[d_blue] • %c[ui_gray_2] uso rápido (yeso adhesivo)\n
+		</text>
+	</string>
+
+</string_table>

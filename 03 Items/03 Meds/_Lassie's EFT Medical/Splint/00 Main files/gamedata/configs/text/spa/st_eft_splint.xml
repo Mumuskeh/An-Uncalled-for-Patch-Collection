@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<string_table>
+
+	<string id="st_eft_splint">
+		<text>IMMOBILIZING SPLINT (EFT)</text>
+	</string>
+	<string id="st_eft_splint_descr">
+		<text>Un splint común para fijar huesos dañados en su lugar. Al colocar el splint en la pierna, no podrá moverse mientras esté colocada. Podrá moverse mientres esté colocada en el brazo.\n \n
+		%c[ui_gray_3]PROPIEDADES:\n
+		%c[d_blue] • %c[ui_gray_2] artículo de primeros auxilios\n
+		%c[d_blue] • %c[ui_gray_2] uso rápido (torniquete)\n
+		</text>
+	</string>
+	
+</string_table>

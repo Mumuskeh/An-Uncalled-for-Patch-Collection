@@ -16,5 +16,8 @@ Grok's Stash Overhaul
 ----------------------------------------------------------
 -Patches:
 
+Rain fills canteens, by S7X
+When raining with certain intensity, empty canteens are refilled passively.
+
 ----------------------------------------------------------
 -Known issues:

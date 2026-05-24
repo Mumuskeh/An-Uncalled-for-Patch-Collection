@@ -1,0 +1,11 @@
+if not TB_RF_Receiver_Packages then
+    printf("TB's RF Receiver Hidden Package Sidequests not found. Going back to sleep...")
+    return
+end
+
+function on_game_start()
+
+	if TB_RF_Receiver_Packages.tb_extraloot then
+		table.insert( TB_RF_Receiver_Packages.tb_extraloot, {"eft_cmskit","st_eft_cmskit"} )
+	end
+end

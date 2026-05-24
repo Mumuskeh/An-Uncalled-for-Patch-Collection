@@ -1,0 +1,20 @@
+if not axr_otheal then
+    printf("NPCs Limping and Healing not found. Going back to sleep...")
+    return
+end
+
+function on_game_start()
+	local medkits = axr_otheal.medkits
+	
+	if medkits then
+		medkits["dutymedkit"] = true
+		medkits["banditmedkit"] = true
+		medkits["freedommedkit"] = true
+		medkits["mercmedkit"] = true
+		medkits["monolithmedkit"] = true
+		medkits["clearskymedkit"] = true
+		medkits["sinmedkit"] = true
+		medkits["renegademedkit"] = true
+		medkits["isgmedkit"] = true
+	end
+end

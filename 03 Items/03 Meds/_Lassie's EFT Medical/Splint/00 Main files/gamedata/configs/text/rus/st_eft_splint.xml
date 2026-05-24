@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_eft_splint">
+		<text>Шина для переломов (EFT)</text>
+	</string>
+	<string id="st_eft_splint_descr">
+		<text>Обычная шина для фиксации повреждённых костей. При наложении шины на ногу вы не сможете двигаться в течение всего времени её наложения. Вы сможете двигаться, пока она наложена на руку.\n \n
+		%c[ui_gray_3]Характеристики:\n
+		%c[d_blue] • %c[ui_gray_2] изделие первой помощи\n
+		%c[d_blue] • %c[ui_gray_2] быстрое использование (жгут)\n
+		</text>
+	</string>
+	
+</string_table>

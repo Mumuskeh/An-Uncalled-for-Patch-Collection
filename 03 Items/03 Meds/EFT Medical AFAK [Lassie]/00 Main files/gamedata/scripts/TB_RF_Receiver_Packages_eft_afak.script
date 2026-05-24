@@ -1,0 +1,11 @@
+if not axr_otheal then
+    printf("NPCs Limping and Healing not found. Going back to sleep...")
+    return
+end
+
+function on_game_start()
+
+	if TB_RF_Receiver_Packages.tb_extraloot then
+		table.insert( TB_RF_Receiver_Packages.tb_extraloot, {"eft_afak","st_eft_afak"} )
+	end
+end

@@ -14,6 +14,16 @@ required for the recipes, as they are too complex for the vanilla system.
 Hunter's Kit - A Butchery Engine:
 Currently both mods conflict. Have Hunter's Kit on a higher priority than HSC in your load order, so its rework of the ui_mutant_loot.script file takes priority. Or disable this mod and module's ui_mutant_loot.script
 
+Reinforced Cordon:
+Redundant with the Unique NPC Loot component, which will overwrite it anyway.
+
+Less Infuriating Hip
+Stashes to named NPCs
+Additional changes will be done by the Unique NPC Loot component if these mods are present.
+
+Connelly's Unifying Nosorog Tweaks
+It will detect if the Unique NPC Loot module here is present.
+
 ----------------------------------------------------------
 -Explanation:
 
@@ -27,19 +37,26 @@ The FDDA patch has been integrated into the main files.
 Added default actor effects configs.
 
 -Unique NPC Loot
-DLTX conversion. Still requires the items above.
+DLTX and DXML conversion. Still requires the Items and crafting component above.
 Turned its copy of itms_manager.script into a monkey patch.
 Updated its copy of hxf_tough_important_npcs.script to the last version of "Tougher Important NPCs and Companions". Remove that file if you don't want that feature.
+Do note the DXML file will overwrite the inventory (not the worn outfit) of various NPCs. If you have any mod also doing it, consider their filenames make them load in alphabetic order.
 
 
 -Unique NPC Loot - Everyone is hostile
 Unavailable for now. (also, feature creep?)
 
+
+Integration into:
+Cold System
+More drops from drugs (DLTX Minimod)
+NPCs Limping and Healing
+
+
 ----------------------------------------------------------
 -Patches:
 
 Original patches have been DLTX'd where possible and needed.
-
 
 Fillable Canteens
 Cook flasks, tea, and tactical tuna.
@@ -52,14 +69,8 @@ After using a medkit, you'll receive a spare empty syringe. This affects both th
 In addition to the medkits, now the improvised morphine and stimpacks also provides a syringe.
 Do not use with the More drops from drugs patch below, as its redundant.
 
-More drops from drugs (DLTX Minimod)
-The new meds will provide discarded parts when used just like other drugs as per the mod.
-
-NPCs Limping and Healing
-
-Cold System
-Patch updated for v0.72.
-It could use some monkey patching instead of copying the main script file, but maybe another time.
+Unique NPC Loot - MAS
+Merges changes from both mods to itms_manager.script
 
 ----------------------------------------------------------
 -Known issues:

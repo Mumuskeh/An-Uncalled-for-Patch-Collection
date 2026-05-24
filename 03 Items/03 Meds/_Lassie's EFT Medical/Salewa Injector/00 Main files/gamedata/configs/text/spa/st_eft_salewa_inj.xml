@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<string_table>
+
+	<string id="st_eft_splint">
+		<text>Salewa Injector (EFT)</text>
+	</string>
+	<string id="st_eft_splint_descr">
+		<text>Kit médico de alta eficiencia importado desde fuera de la Zona. Combina potentes fármacos regenerativos con componentes para la coagulación inmediata. Su uso es significativamente más rápido que los métodos de curación tradicionales, lo que lo convierte en el favorito de los veteranos para el combate urbano y la exploración de laboratorios subterráneos.\n \n
+		%c[ui_gray_3]CURACIÓN\n
+		%c[d_red] • %c[ui_gray_2] restaura 1.8%hp/s, total 60%\n
+		%c[ui_gray_3]PROPEDIADES:\n
+		%c[d_blue] • %c[ui_gray_2] item militar\n
+		%c[d_red] • %c[ui_gray_2] uso moderado (field kit)\n
+		%c[d_red] • %c[ui_gray_2] tiempo prolongado de recuperación física\n
+		</text>
+	</string>
+
+</string_table>

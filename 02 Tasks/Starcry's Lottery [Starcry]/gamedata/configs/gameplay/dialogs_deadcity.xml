@@ -264,9 +264,9 @@
 				<next>44</next> <!-- Basic tools -->
 			</phrase>
 			<phrase id="50">
-				<precondition>dialogs_mlr.have_killer_patch_for_lottery_10</precondition>
+				<precondition>dialogs_mlr_lotteryexpansion.have_killer_patch_for_lottery_10</precondition>
 				<text>lottery_ds_aslan_mlr_50</text>
-				<action>dialogs_mlr.take_killer_patch_for_lottery_10</action>
+				<action>dialogs_mlr_lotteryexpansion.take_killer_patch_for_lottery_10</action>
 				<next>19</next> <!--  -->
 				<next>20</next> <!--  -->
 				<next>21</next> <!--  -->
@@ -278,9 +278,9 @@
 				<next>44</next> <!-- Basic tools -->
 			</phrase>
 			<phrase id="51">
-				<precondition>dialogs_mlr.have_greh_patch_for_lottery_10</precondition>
+				<precondition>dialogs_mlr_lotteryexpansion.have_greh_patch_for_lottery_10</precondition>
 				<text>lottery_ds_aslan_mlr_51</text>
-				<action>dialogs_mlr.take_greh_patch_for_lottery_10</action>
+				<action>dialogs_mlr_lotteryexpansion.take_greh_patch_for_lottery_10</action>
 				<next>19</next> <!--  -->
 				<next>20</next> <!--  -->
 				<next>21</next> <!--  -->
@@ -292,9 +292,9 @@
 				<next>47</next> <!-- Advanced tools -->
 			</phrase>
 			<phrase id="52">
-				<precondition>dialogs_mlr.have_isg_patch_for_lottery_10</precondition>
+				<precondition>dialogs_mlr_lotteryexpansion.have_isg_patch_for_lottery_10</precondition>
 				<text>lottery_ds_aslan_mlr_52</text>
-				<action>dialogs_mlr.take_isg_patch_for_lottery_10</action>
+				<action>dialogs_mlr_lotteryexpansion.take_isg_patch_for_lottery_10</action>
 				<next>22</next> <!--  -->
 				<next>24</next> <!--  -->
 				<next>25</next> <!--  -->
@@ -309,9 +309,9 @@
 				<next>47</next> <!-- Advanced tools -->
 			</phrase>
 			<phrase id="53">
-				<precondition>dialogs_mlr.have_renegade_patch_for_lottery_10</precondition>
+				<precondition>dialogs_mlr_lotteryexpansion.have_renegade_patch_for_lottery_10</precondition>
 				<text>lottery_ds_aslan_mlr_53</text>
-				<action>dialogs_mlr.take_renegade_patch_for_lottery_10</action>
+				<action>dialogs_mlr_lotteryexpansion.take_renegade_patch_for_lottery_10</action>
 				<next>22</next> <!--  -->
 				<next>24</next> <!--  -->
 				<next>25</next> <!--  -->
@@ -463,9 +463,9 @@
 				<next>61</next> <!-- Zulu's PKM -->
 			</phrase>
 			<phrase id="54">
-				<precondition>dialogs_mlr.have_greh_patch_for_lottery_50</precondition>
+				<precondition>dialogs_mlr_lotteryexpansion.have_greh_patch_for_lottery_50</precondition>
 				<text>lottery_ds_aslan_mlr_54</text>
-				<action>dialogs_mlr.take_greh_patch_for_lottery_50</action>
+				<action>dialogs_mlr_lotteryexpansion.take_greh_patch_for_lottery_50</action>
 				<next>25</next> <!--  -->
 				<next>26</next> <!--  -->
 				<next>27</next> <!--  -->
@@ -480,9 +480,9 @@
 				<next>59</next> <!-- M79 Grenade launcher -->
 			</phrase>
 			<phrase id="55">
-				<precondition>dialogs_mlr.have_isg_patch_for_lottery_50</precondition>
+				<precondition>dialogs_mlr_lotteryexpansion.have_isg_patch_for_lottery_50</precondition>
 				<text>lottery_ds_aslan_mlr_55</text>
-				<action>dialogs_mlr.take_isg_patch_for_lottery_50</action>
+				<action>dialogs_mlr_lotteryexpansion.take_isg_patch_for_lottery_50</action>
 				<next>31</next> <!--  -->
 				<next>30</next> <!--  -->
 				<next>25</next> <!--  -->
@@ -499,9 +499,9 @@
 				<next>61</next> <!-- Zulu's PKM -->
 			</phrase>
 			<phrase id="56">
-				<precondition>dialogs_mlr.have_renegade_patch_for_lottery_50</precondition>
+				<precondition>dialogs_mlr_lotteryexpansion.have_renegade_patch_for_lottery_50</precondition>
 				<text>lottery_ds_aslan_mlr_56</text>
-				<action>dialogs_mlr.take_renegade_patch_for_lottery_50</action>
+				<action>dialogs_mlr_lotteryexpansion.take_renegade_patch_for_lottery_50</action>
 				<next>25</next> <!--  -->
 				<next>26</next> <!--  -->
 				<next>27</next> <!--  -->
@@ -515,9 +515,9 @@
 				<next>60</next> <!-- Remington 700 Sniper -->
 			</phrase>
 			<phrase id="57">
-				<precondition>dialogs_mlr.have_killer_patch_for_lottery_50</precondition>
+				<precondition>dialogs_mlr_lotteryexpansion.have_killer_patch_for_lottery_50</precondition>
 				<text>lottery_ds_aslan_mlr_57</text>
-				<action>dialogs_mlr.take_killer_patch_for_lottery_50</action>
+				<action>dialogs_mlr_lotteryexpansion.take_killer_patch_for_lottery_50</action>
 				<next>31</next> <!--  -->
 				<next>30</next> <!--  -->
 				<next>25</next> <!--  -->
@@ -610,51 +610,51 @@
 			</phrase>
 			<phrase id="42">
 				<text>lottery_ds_aslan_mlr_42</text>
-				<action>dialogs_mlr.lottery_present_low_7</action>
+				<action>dialogs_mlr_lotteryexpansion.lottery_present_low_7</action>
 			</phrase>
 			<phrase id="43">
 				<text>lottery_ds_aslan_mlr_43</text>
-				<action>dialogs_mlr.lottery_present_low_8</action>
+				<action>dialogs_mlr_lotteryexpansion.lottery_present_low_8</action>
 			</phrase>
 			<phrase id="44">
 				<text>lottery_ds_aslan_mlr_44</text>
-				<action>dialogs_mlr.lottery_present_low_9</action>
+				<action>dialogs_mlr_lotteryexpansion.lottery_present_low_9</action>
 			</phrase>
 			<phrase id="45">
 				<text>lottery_ds_aslan_mlr_45</text>
-				<action>dialogs_mlr.lottery_present_medium_8</action>
+				<action>dialogs_mlr_lotteryexpansion.lottery_present_medium_8</action>
 			</phrase>
 			<phrase id="46">
 				<text>lottery_ds_aslan_mlr_46</text>
-				<action>dialogs_mlr.lottery_present_medium_9</action>
+				<action>dialogs_mlr_lotteryexpansion.lottery_present_medium_9</action>
 			</phrase>
 			<phrase id="47">
 				<text>lottery_ds_aslan_mlr_47</text>
-				<action>dialogs_mlr.lottery_present_medium_10</action>
+				<action>dialogs_mlr_lotteryexpansion.lottery_present_medium_10</action>
 			</phrase>
 			<phrase id="48">
 				<text>lottery_ds_aslan_mlr_48</text>
-				<action>dialogs_mlr.lottery_present_hight_6</action>
+				<action>dialogs_mlr_lotteryexpansion.lottery_present_hight_6</action>
 			</phrase>
 			<phrase id="49">
 				<text>lottery_ds_aslan_mlr_49</text>
-				<action>dialogs_mlr.lottery_present_hight_7</action>
+				<action>dialogs_mlr_lotteryexpansion.lottery_present_hight_7</action>
 			</phrase>
 			<phrase id="58">
 				<text>lottery_ds_aslan_mlr_58</text>
-				<action>dialogs_mlr.lottery_present_hight_8</action>
+				<action>dialogs_mlr_lotteryexpansion.lottery_present_hight_8</action>
 			</phrase>
 			<phrase id="59">
 				<text>lottery_ds_aslan_mlr_59</text>
-				<action>dialogs_mlr.lottery_present_hight_9</action>
+				<action>dialogs_mlr_lotteryexpansion.lottery_present_hight_9</action>
 			</phrase>
 			<phrase id="60">
 				<text>lottery_ds_aslan_mlr_60</text>
-				<action>dialogs_mlr.lottery_present_hight_10</action> 
+				<action>dialogs_mlr_lotteryexpansion.lottery_present_hight_10</action> 
 			</phrase>
 			<phrase id="61">
 				<text>lottery_ds_aslan_mlr_61</text>
-				<action>dialogs_mlr.lottery_present_hight_11</action> 
+				<action>dialogs_mlr_lotteryexpansion.lottery_present_hight_11</action> 
 			</phrase>
 		</phrase_list>
 	</dialog>

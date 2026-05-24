@@ -1,0 +1,66 @@
+; Vanilla
+
+![jgut]
+!eat_satiety
+!eat_alcohol
+!eat_sleepiness
+cost					= 4000 ; 1750
+inv_weight				= 0.02
+boost_time 				= 3 ; 5
+boost_bleeding_restore 	= 0.035 ;0.014
+tier					= 2
+
+[jgut_used]:jgut
+description				= st_jgut_used_descr
+inv_name				= st_jgut_used
+inv_name_short			= st_jgut_used
+cost					= 200
+boost_bleeding_restore 	= 0.03
+boost_health_restore	= -0.0001
+
+[jgut_cleaned]:jgut
+description				= st_jgut_cleaned_descr
+inv_name				= st_jgut_cleaned
+inv_name_short			= st_jgut_cleaned
+cost					= 2000
+boost_bleeding_restore 	= 0.035
+
+
+;EFT Medical
+
+![eft_tourniquet]
+!eat_satiety
+!eat_alcohol
+!eat_sleepiness
+cost					= 4000 ; 1720
+inv_weight				= 0.02 ; 0.06
+boost_time 				= 3 ; 5
+boost_bleeding_restore	= 0.035 ;0.014
+tier					= 2
+
+![eft_splint]
+!eat_satiety
+!eat_alcohol
+!eat_sleepiness
+cost					= 1850
+inv_weight				= 0.17
+boost_time				= 7
+boost_bleeding_restore	= 0.035 ;0.014
+tier					= 2
+
+![eft_alusplint]
+!eat_satiety
+!eat_alcohol
+!eat_sleepiness
+cost					= 750
+inv_weight				= 0.17
+boost_time				= 7
+boost_bleeding_restore	= 0.018 ;0.014
+tier					= 2
+
+script_binding 			= bind_item.bind
+use_condition           = true
+max_uses				= 10
+empty_weight            = 0.017
+use1_functor         	= bind_item.menu_separate
+use1_action_functor  	= bind_item.func_separate

@@ -36,11 +36,6 @@ The list of potential hostiles that spawn at the package is also tweaked to obse
 ----------------------------------------------------------
 -Patches:
 
-Armor Modkits addon - Extra Outfit and Weapon Kits
-Modkits will be added to the upgrades and Streamlined Upgrades tables; factional modkits will be added to faction tables.
-Some of those tables are already populated enough that the modkits would be pretty rare, but some of them are VERY valuable. Do tell if they feel too recurrent.
-Copy the contents into the Armor Modkits addon folder or into another of its own, in case you aren't using Armor Modkits addon at one point.
-
 ----------------------------------------------------------
 -Known issues:
 

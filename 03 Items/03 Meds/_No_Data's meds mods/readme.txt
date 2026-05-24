@@ -38,6 +38,8 @@ Place the contents of all three original mods into the same folder, then proceed
 Integration into:
 Grok's Stash Overhaul
 Lootboxes
+More drops from drugs (DLTX Minimod)
+NPCs Limping and Healing
 TB's RF Receiver Hidden Package Sidequests + CookBook's QOL patch (requires the module in this package)
 
 Minor Meds are excluded from the last two. Who's gonna reward you with a goose chase for some paracetamol?
@@ -60,11 +62,6 @@ The new meds will interact with the health system.
 
 Food Poisoning [ahuyn]
 For Minor Meds and the merge. It will disable Minor Meds' active charcoal in favor of Food Poisoning's.
-
-More drops from drugs (DLTX Minimod)
-The new meds will provide discarded parts when used just like other drugs.
-
-NPCs Limping and Healing
 
 New medkits & Faction medkits exo animations [RuJohnny]
 Replaces the original mod to use the renamed IDs.

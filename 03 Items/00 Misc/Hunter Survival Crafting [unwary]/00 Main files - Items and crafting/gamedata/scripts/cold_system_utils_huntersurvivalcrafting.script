@@ -1,0 +1,48 @@
+if not cold_system then
+    printf("Cold System not found. Going back to sleep...")
+    return
+end
+
+local base_calc_artefacts = cold_system_utils.calc_artefacts
+
+function cold_system_utils.calc_artefacts()
+	-- base_calc_artefacts()
+	local arte_mult = 0
+	db.actor:iterate_belt( function(owner, item)
+		local sec = item:section()
+
+		if sec and cmain.hides[sec] then
+			local tier = ini_sys:r_float_ex(sec, "tier") or 1
+			arte_mult = arte_mult + tier
+		end
+
+		for i = 1, #cmain.cold_artefacts do
+			if sec and string.find(sec, cmain.cold_artefacts[i]) then
+				local tier = ini_sys:r_float_ex(cmain.cold_artefacts[i], "tier") or 1
+				arte_mult = arte_mult - tier
+			end
+		end
+
+		for i = 1, #cmain.hot_artefacts do
+			if sec and string.find(sec, cmain.hot_artefacts[i]) then
+				local tier = ini_sys:r_float_ex(cmain.hot_artefacts[i], "tier") or 1
+				arte_mult = arte_mult + tier
+			end
+		end
+
+	end)
+
+	arte_mult = arte_mult * 0.05
+
+	-- unwary  scarf hack.
+	local scarfed = 0
+	local scarf = db.actor:item_in_slot(10)
+	
+	if (scarf and (scarf:section() == "itm_scarf")) then
+		scarfed = 0.2
+	end
+
+	arte_mult = arte_mult + scarfed
+
+	return arte_mult
+end

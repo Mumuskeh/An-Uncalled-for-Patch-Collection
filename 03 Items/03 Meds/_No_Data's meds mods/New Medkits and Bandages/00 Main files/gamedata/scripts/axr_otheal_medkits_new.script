@@ -1,0 +1,20 @@
+if not axr_otheal then
+    printf("NPCs Limping and Healing not found. Going back to sleep...")
+    return
+end
+
+function on_game_start()
+	local bandages = axr_otheal.bandages
+	local medkits = axr_otheal.medkits
+
+	if axr_otheal.bandages then
+		bandages["colbandage"] = true
+		bandages["prebandage"] = true
+		bandages["rag"] = true
+		bandages["bandaids"] = true
+	end
+	if axr_otheal.medkits then
+		medkits["civmedkit"] = true
+		medkits["tacmedkit"] = true
+	end
+end

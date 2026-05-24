@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<string_table>
+
+	<string id="st_eft_afak">
+		<text>AFAK (EFT)</text>
+	</string>
+	<string id="st_eft_afak_descr">
+		<text>AFAK (Botiquín Adaptativo de Primeros Auxilios). Una versión más avanzada del botiquín individual IFAK. Este botiquín compacto proporciona al soldado o agente del orden público el equipo necesario para tratar eficazmente las lesiones comúnmente asociadas con traumas de combate.\n \n
+		%c[ui_gray_3]PROPIEDADES:\n
+		%c[d_blue] • %c[ui_gray_2] artículo de primeros auxilios\n
+		%c[d_blue] • %c[ui_gray_2] uso rápido (yeso adhesivo)\n
+		</text>
+	</string>
+	
+</string_table>

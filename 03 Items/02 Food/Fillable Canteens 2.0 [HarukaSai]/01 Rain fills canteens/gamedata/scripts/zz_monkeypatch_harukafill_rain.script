@@ -1,0 +1,55 @@
+--[[
+    Fillable canteens
+    
+    This work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+    Author: HarukaSai (visit us at: https://discord.gg/efp)
+    2023-06-28
+
+    2026-05-13
+    Monkey patch by s7x to allow filling the canteen when it's raining.
+]]
+
+waters = {
+    ["flask"] = true,
+    ["dirty_water"] = true,
+    ["boiled_water"] = true
+}
+
+local function is_raining()
+    local Rain_factor = level.rain_factor()
+
+    -- Don't do anything if intensity of drops is <= 0 and isn't raining
+    if (Rain_factor <= 0) then
+        return false
+    end
+
+    if (Rain_factor > 0) then
+        local Rain_Hemi = level.rain_hemi()
+
+        if (Rain_Hemi <= 0.15) then
+            return false
+        end
+    end
+
+    return true
+end
+
+base_fill_condition_function = haruka_fill.fill_condition_function
+
+local function base_fill_condition_function(obj, bag, mode)
+    local p = obj:parent()
+    if not (p and p:id() == AC_ID) then
+        return
+    end
+    local sec = obj:section()
+    if (sec == "empty_canteen" or waters[sec]) and (haruka_fill.check_water() or is_raining()) then
+        return true
+    end
+end
+
+local Functor = custom_functor_autoinject
+Functor.remove_functor("haruka_fill")
+
+Functor.add_functor("haruka_fill", base_fill_condition_function, function() 
+    return game.translate_string("st_haruka_fill")
+end, nil, haruka_fill.fill)

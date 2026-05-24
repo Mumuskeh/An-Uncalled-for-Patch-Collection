@@ -9,10 +9,15 @@ Note: You still need the original mod. Let this overwrite it.
 ----------------------------------------------------------
 -Explanation:
 
-Icon file reduced.
+Integration into:
+Lootboxes
 
 ----------------------------------------------------------
 -Patches:
+
+Icon fix
+Icon file reduced and reorganized
+Offered separately as some mods expect the original organization.
 
 ----------------------------------------------------------
 -Known issues:

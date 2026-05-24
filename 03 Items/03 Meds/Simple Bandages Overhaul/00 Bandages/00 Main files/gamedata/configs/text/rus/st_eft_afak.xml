@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_eft_afak">
+		<text>Бандажный пакет</text>
+	</string>
+	<string id="st_eft_afak_descr">
+		<text>Пачка бинтов, в которой поместится десять штук.\n \n
+		%c[ui_gray_3]Характеристики:\n
+		%c[d_blue] • %c[ui_gray_2] изделие первой помощи\n
+		%c[d_blue] • %c[ui_gray_2] быстрое использование (лейкопластырь)\n
+		</text>
+	</string>
+
+</string_table>

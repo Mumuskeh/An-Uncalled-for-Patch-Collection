@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_eft_salewa_inj">
+		<text>Salewa first aid kit</text>
+	</string>
+	<string id="st_eft_salewa_inj_s">
+		<text>Salewa kit</text>
+	</string>
+	<string id="st_eft_salewa_inj_descr">
+		<text>A first aid kit containing bivibag, various types of bandages, and dressing tools. While such items are relatively common, the bag itself allows organizing them for ease of use and quick access, making it a favorite among veterans for urban combat and exploring underground laboratories.\n \n
+		%c[ui_gray_3]HEALING:\n
+		%c[d_red] • %c[ui_gray_2] Restores 1.8%hp/s, total 60%\n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] military item\n
+		%c[d_red] • %c[ui_gray_2] moderate usage (field kit)\n
+		%c[d_red] • %c[ui_gray_2] prolonged body recovery time\n
+		</text>
+	</string>
+
+</string_table>

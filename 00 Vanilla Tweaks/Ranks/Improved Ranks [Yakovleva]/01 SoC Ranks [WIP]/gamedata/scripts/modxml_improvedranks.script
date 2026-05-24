@@ -1,0 +1,103 @@
+function on_game_start()
+    RegisterScriptCallback("on_specific_character_init", function(character_id, data)
+
+-- cordon
+        if character_id == "esc_2_12_stalker_trader" then
+            data.rank = "924"
+        end
+
+        if character_id == "esc_2_12_stalker_wolf" then
+            data.rank = "686"
+        end
+
+        if character_id == "esc_2_12_stalker_fanat" then
+            data.rank = "621"
+        end
+
+        if character_id == "devushka" then
+            data.rank = "352"
+        end
+
+        if character_id == "esc_smart_terrain_5_7_loner_mechanic_stalker" then
+            data.rank = "476"
+        end
+
+        if character_id == "esc_main_base_trader_mlr" then
+            data.rank = "512"
+        end
+
+        if character_id == "army_south_mechan_mlr" then
+            data.rank = "442"
+        end
+
+        if character_id == "esc_3_16_military_trader" then
+            data.rank = "572"
+        end
+
+-- prypiat
+        if character_id == "pri_b36_monolith_sniper" then
+            data.rank = "554"
+        end
+
+        if character_id == "pri_b36_monolith_master_hiding_place" then
+            data.rank = "444"
+        end
+
+        if character_id == "pri_b36_monolith_marine_sniper" then
+            data.rank = "346"
+        end
+
+        if character_id == "pri_medic_stalker" then
+            data.rank = "389"
+        end
+
+        if character_id == "pri_monolith_monolith_trader_stalker" then
+            data.rank = "746"
+        end
+
+        if character_id == "pri_monolith_monolith_mechanic_stalker" then
+            data.rank = "998"
+        end
+
+        if character_id == "monolith_eidolon" then
+            data.rank = "1156"
+        end
+
+        if character_id == "lider_monolith_haron" then
+            data.rank = "700"
+        end
+
+        if character_id == "pri_a16_mech_mlr" then
+            data.rank = "480"
+        end
+
+        if character_id == "guid_pri_a15_mlr" then
+            data.rank = "800"
+        end
+
+        if character_id == "trader_pri_a15_mlr" then
+            data.rank = "600"
+        end
+
+        if character_id == "mechanic_monolith_kbo" then
+            data.rank = "400"
+        end
+
+        if character_id == "trader_monolith_kbo" then
+            data.rank = "400"
+        end
+
+        if character_id == "merc_pri_a18_mech_mlr" then
+            data.rank = "310"
+        end
+
+        if character_id == "merc_pri_grifon_mlr" then
+            data.rank = "500"
+        end
+
+        if character_id == "pri_special_trader_mlr" then
+            data.rank = "750"
+        end
+
+    end)
+end

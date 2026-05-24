@@ -1,0 +1,116 @@
+; Vanilla
+
+![bandage]
+!eat_satiety
+!eat_alcohol
+!eat_sleepiness
+cost					= 300 ; 1000
+inv_weight				= 0.038
+boost_time 				= 5
+boost_bleeding_restore 	= 0.01
+tier					= 1
+
+
+;Hunter Survival Crafting
+
+![hsurv_bandage]
+!eat_satiety
+!eat_alcohol
+!eat_sleepiness
+cost					= 150 ; 680
+inv_weight				= 0.045 ; 0.04
+boost_time				= 15 ; 5
+boost_bleeding_restore	= 0.003 ; 0.004
+tier					= 1
+
+
+;STALKER 2 HoC Cons Meds Pack
+
+![hoc_bandage]
+!eat_satiety
+!eat_alcohol
+!eat_sleepiness
+cost					= 300 ; 1000
+inv_weight				= 0.038
+boost_time 				= 10
+boost_bleeding_restore 	= 0.01
+tier					= 1
+
+
+;Drugs That Make Sense
+
+![bandage_aloe]
+!eat_satiety
+!eat_alcohol
+!eat_sleepiness
+cost					= 700 ; 1250
+inv_weight				= 0.039 ; 0.0385
+boost_time				= 700
+boost_bleeding_restore	= 0.0001 ; 0.005
+boost_fire_wound_immunity	= 0.125 ; 0.3
+tier					= 2
+
+
+;New Medkits and Bandages
+
+![colbandage]
+!eat_satiety
+!eat_alcohol
+!eat_sleepiness
+cost					= 1000 ; 1500
+inv_weight				= 0.04
+boost_time				= 5
+boost_bleeding_restore	= 0.015
+tier					= 3
+
+![prebandage]
+!eat_satiety
+!eat_alcohol
+!eat_sleepiness
+cost					= 1500 ; 1700
+inv_weight				= 0.045 ; 0.05
+boost_time				= 3 ; 5
+boost_bleeding_restore	= 0.020 ;0.007
+tier					= 3
+
+![bandaids]:booster_multi
+!eat_satiety
+!eat_alcohol
+!eat_sleepiness
+cost					= 150 ; 800
+inv_weight				= 0.15
+max_uses				= 20 ; 6
+boost_time				= 5
+boost_bleeding_restore	= 0.003
+tier					= 1 ; 2
+
+![rag]
+!eat_satiety
+!eat_alcohol
+!eat_sleepiness
+cost					= 25 ; 225
+inv_weight				= 0.05
+boost_time				= 15
+boost_bleeding_restore	= 0.003 ; 0.002
+boost_health_restore	= -0.003
+eat_health				= -0.006 ; -0.012
+tier					= 1
+
+
+;EFT Medical
+
+![eft_afak]
+!eat_satiety
+!eat_alcohol
+!eat_sleepiness
+cost					= 3200 ; 1000
+inv_weight				= 0.48 ; 0.81
+boost_time				= 5 ; 10
+boost_bleeding_restore	= 0.01
+
+script_binding 			= bind_item.bind
+use_condition           = true
+max_uses				= 10
+empty_weight            = 0.10
+use1_functor         	= bind_item.menu_separate
+use1_action_functor  	= bind_item.func_separate

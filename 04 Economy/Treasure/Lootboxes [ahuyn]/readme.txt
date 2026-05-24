@@ -30,9 +30,6 @@ DO NOT USE the folder "01 DLTX distribution - corpses [WIP]"
 AUGmented
 Add the 9mm AUG to the rifle pool, and make all variants progressively more rare.
 
-Loot from corpses
-Boxes and lockpicks will be found in looted corpses.
-
 Lootboxes Diamond Edition for Gamma
 https://www.moddb.com/mods/stalker-anomaly/addons/lootboxes-diamond-edition-v1-2
 Standalone rework of this expansion for vanilla and compatibility with future Lootboxes expansions, plus typos fixes.

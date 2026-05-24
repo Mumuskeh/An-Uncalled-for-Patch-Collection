@@ -8,7 +8,10 @@ https://www.moddb.com/mods/stalker-anomaly/addons/campfires-placeable-01
 ----------------------------------------------------------
 -Explanation:
 
-Includes integration into vanilla stash system and Grok's Stash Overhaul.
+Integrated into vanilla stash system.
+
+Integration into:
+Grok's Stash Overhaul
 
 ----------------------------------------------------------
 -Patches:

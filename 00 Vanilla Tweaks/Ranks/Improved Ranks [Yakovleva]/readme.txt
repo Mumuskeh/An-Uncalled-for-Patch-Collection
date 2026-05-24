@@ -14,7 +14,7 @@ gamedata/configs/gameplay
 ----------------------------------------------------------
 -Explanation:
 
-DTXL and DXML conversion.
+DTXL and DXML conversion for the default improved ranks option.
 The DXML conversion affects the rank increases of the Cordon NPCs, which could conflict with changes from mods like Storylines.
 It won't help with other rank overhauls.
 
@@ -25,3 +25,5 @@ Some min and max ranks for random NPCs spawns seemed outta wack. I've no idea if
 
 ----------------------------------------------------------
 -Known issues:
+
+SoC ranks option module not finished.

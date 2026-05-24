@@ -1,0 +1,56 @@
+if not zz_itms_manager_more_drops_from_drugs then
+    printf("More drops from drugs not found. Going back to sleep...")
+    return
+end
+
+base_more_drops_from_drugs = zz_itms_manager_more_drops_from_drugs.more_drops_from_drugs
+
+local jgut = add_drug_items("jgut")
+
+function zz_itms_manager_more_drops_from_drugs.more_drops_from_drugs(obj)
+	printf("calling override itms_manager.actor_on_item_use")
+	if (db.actor:has_info("actor_made_wish_for_riches")) then
+		return 
+	end
+
+	local sec = obj:section()
+
+	--GIVE STUFF WHEN TAKING DRUGS
+	local dbg_str = "used section - %s"
+	if jar[sec] then
+		dbg_str = dbg_str .. ", group %s"
+		printf(dbg_str, sec, jar[sec])
+		give_items_after_use(sec, obj, {"jar"}, {}, {"jar"})
+		
+	elseif jar_textolite_syringe[sec] then
+		dbg_str = dbg_str .. ", group %s"
+		printf(dbg_str, sec, jar_textolite_syringe[sec])
+		give_items_after_use(sec, obj, {"jar", "e_syringe", "prt_i_textolite"}, {"jar", "e_syringe"}, {"prt_i_textolite"})		
+
+	elseif jar_film_syringe_textolite[sec] then
+		dbg_str = dbg_str .. ", group %s"
+		printf(dbg_str, sec, jar_film_syringe_textolite[sec])
+		give_items_after_use(sec, obj, {"jar", "prt_i_plastic", "e_syringe", "prt_i_textolite"}, {"jar", "e_syringe", "prt_i_plastic"}, {"prt_i_textolite"})
+		
+	elseif jar_film_textolite[sec] then
+		dbg_str = dbg_str .. ", group %s"
+		printf(dbg_str, sec, jar_film_textolite[sec])
+		give_items_after_use(sec, obj, {"jar", "prt_i_plastic", "prt_i_textolite"}, {"jar", "prt_i_plastic"}, {"prt_i_textolite"})
+
+	elseif film[sec] then
+		dbg_str = dbg_str .. ", group %s"
+		printf(dbg_str, sec, film[sec])
+		give_items_after_use(sec, obj, {"prt_i_plastic"}, {}, {"prt_i_plastic"})
+		
+	-- elseif film_syringe[sec] then
+	-- 	give_items_after_use(sec, obj, {"e_syringe", "prt_i_plastic"}, {"e_syringe"}, {"prt_i_plastic"})
+	
+	elseif jgut_used[sec] then
+		dbg_str = dbg_str .. ", group %s"
+		printf(dbg_str, sec, jgut_used[sec])
+		give_items_after_use(sec, obj, {"jgut_used"}, {}, {"jgut_used"})
+		
+	end
+
+	return base_itms_manager_actor_on_item_use(obj)
+end

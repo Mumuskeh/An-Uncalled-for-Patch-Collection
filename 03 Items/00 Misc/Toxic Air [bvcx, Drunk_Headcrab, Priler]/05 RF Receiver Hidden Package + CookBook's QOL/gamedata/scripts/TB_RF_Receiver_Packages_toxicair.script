@@ -1,6 +1,12 @@
+if not TB_RF_Receiver_Packages then
+    printf("TB's RF Receiver Hidden Package Sidequests not found. Going back to sleep...")
+    return
+end
+
 function on_game_start()
 
     if TB_RF_Receiver_Packages.mc_extrautilities then
+		printf("CookBook's QOL - An Uncalled for patch detected. Making extended changes...")
 	
 		table.insert( TB_RF_Receiver_Packages.mc_extrautilities, {"af_oxygen_tank_1","st_af_oxygen_tank_1_name"} )
 		table.insert( TB_RF_Receiver_Packages.mc_extrautilities, {"af_oxygen_tank_2","st_af_oxygen_tank_2_name"} )
@@ -21,5 +27,7 @@ function on_game_start()
 		table.insert( TB_RF_Receiver_Packages.mc_faction_killer, {"af_mask_filter_3_r18","st_af_mask_filter_3_r18_name"} )
 		table.insert( TB_RF_Receiver_Packages.mc_faction_renegade, {"af_oxygen_tank_1_soviet","st_af_oxygen_tank_1_soviet_name"} )
 		-- table.insert( TB_RF_Receiver_Packages.mc_faction_stalker,  )
+	else
+		printf("CookBook's QOL - An Uncalled for patch not found. It's here! Cristal clear! Black on white! You get nothing! ... You loose!")
 	end
 end

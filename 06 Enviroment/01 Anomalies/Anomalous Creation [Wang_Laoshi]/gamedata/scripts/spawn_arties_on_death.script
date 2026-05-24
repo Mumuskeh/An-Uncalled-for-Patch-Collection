@@ -1,0 +1,337 @@
+local enable = true -- these are loaded later from the mcm script
+local debug = false
+
+local spawn_sound	 = ""
+local fx			 = ""
+local fx_finish		 = ""
+local victim_pos	 = vector():set(0,0,0)
+local anom_type = ""
+-- local spawn_prob = 0
+
+local muties_by_class = { -- mutant engine class / mutant tier
+	[clsid.controller_s] 					= "high",
+	[clsid.burer_s] 						= "high",
+	[clsid.chimera_s] 						= "high",
+	[clsid.gigant_s] 						= "high",
+	[clsid.bloodsucker_s] 					= "mid",
+	[clsid.fracture_s] 						= "mid",
+	[clsid.psy_dog_s] 						= "mid",
+	[clsid.snork_s] 						= "mid",
+	[clsid.boar_s] 							= "low",
+	[clsid.cat_s] 							= "low",
+	[clsid.dog_s] 							= "low",
+	[clsid.flesh_s] 						= "low",
+	[clsid.pseudodog_s] 					= "low",
+	[clsid.zombie_s] 						= "low",
+	-- [clsid.tushkano_s] 						= "low" -- test
+}
+
+-- vanilla+arrival+anthology anoms as separate types to allow adding unique art spawns
+-- these are searched in the 'killer' anomaly section
+local anom_types = { 
+"electric", "electra", "vortex", "blast", "vapour", "springboard", "acid", "gravi", "buzz", "thermal", "chemical", "himi", "steam", "zharka", "static", "electric_chemical", "galantine", "gold", "flash", "ghost", "mefistofel", "net", "point", "seed", "shatterpoint", "sloth", "sphere", "thorn", "umbra" 
+}
+
+local art_spawn_sounds = {
+	"anomaly\\emi_entrance",
+	"anomaly\\pux_blast",
+	"anomaly\\bfuzz_blowout"
+}
+
+local arts_by_tier = {
+
+	["af_class_gravi_low"]		= {"af_grapes", "af_chelust", "af_cocoon", "af_tapeworm", "af_cristall_flower", "af_spaika"},
+	["af_class_gravi_mid"]		= {"af_kogot", "af_vyvert", "af_lighthouse", "af_peas", "af_gravi", "af_black_spray", "af_medusa", "af_empty"},
+	["af_class_gravi_high"]		= {"af_night_star", "af_fountain", "af_repei", "af_vyvert", "af_empty", "af_full_empty", "af_gold_fish"},
+	
+	["af_class_vortex_low"]		= {"af_grapes", "af_chelust", "af_cocoon", "af_tapeworm", "af_cristall_flower", "af_spaika"},
+	["af_class_vortex_mid"]		= {"af_kogot", "af_vyvert", "af_lighthouse", "af_peas", "af_gravi", "af_black_spray", "af_medusa", "af_empty"},
+	["af_class_vortex_high"]		= {"af_night_star", "af_fountain", "af_repei", "af_vyvert", "af_empty", "af_full_empty", "af_gold_fish"},
+	
+	["af_class_blast_low"]		= {"af_grapes", "af_chelust", "af_cocoon", "af_tapeworm", "af_cristall_flower", "af_spaika"},
+	["af_class_blast_mid"]		= {"af_kogot", "af_vyvert", "af_lighthouse", "af_peas", "af_gravi", "af_black_spray", "af_medusa", "af_empty"},
+	["af_class_blast_high"]		= {"af_night_star", "af_fountain", "af_repei", "af_vyvert", "af_empty", "af_full_empty", "af_gold_fish"},
+	
+	["af_class_sphere_low"]		= {"af_grapes", "af_chelust", "af_cocoon", "af_tapeworm", "af_cristall_flower", "af_spaika"},
+	["af_class_sphere_mid"]		= {"af_kogot", "af_vyvert", "af_lighthouse", "af_peas", "af_gravi", "af_black_spray", "af_medusa", "af_empty"},
+	["af_class_sphere_high"]		= {"af_night_star", "af_fountain", "af_repei", "af_vyvert", "af_empty", "af_full_empty", "af_gold_fish"},
+	
+	["af_class_thorn_low"]		= {"af_grapes", "af_chelust", "af_cocoon", "af_tapeworm", "af_cristall_flower", "af_spaika"},
+	["af_class_thorn_mid"]		= {"af_kogot", "af_vyvert", "af_lighthouse", "af_peas", "af_gravi", "af_black_spray", "af_medusa", "af_empty"},
+	["af_class_thorn_high"]		= {"af_night_star", "af_fountain", "af_repei", "af_vyvert", "af_empty", "af_full_empty", "af_gold_fish"},
+	
+	["af_class_net_low"]		= {"af_grapes", "af_chelust", "af_cocoon", "af_tapeworm", "af_cristall_flower", "af_spaika"},
+	["af_class_net_mid"]		= {"af_kogot", "af_vyvert", "af_lighthouse", "af_peas", "af_gravi", "af_black_spray", "af_medusa", "af_empty"},
+	["af_class_net_high"]		= {"af_night_star", "af_fountain", "af_repei", "af_vyvert", "af_empty", "af_full_empty", "af_gold_fish"},
+	
+	["af_class_electric_low"] 	= {"af_moh", "af_signet", "af_generator", "af_fonar"},
+	["af_class_electric_mid"] 	= {"af_ice", "af_cell", "af_electra_sparkler", "af_atom", "af_sponge", "af_ring"},
+	["af_class_electric_high"] 	= {"af_elektron", "af_dummy_battery", "af_electra_moonlight", "af_glass", "af_ring", "af_electra_flash", "af_ice"},
+			
+	["af_class_electra_low"] 	= {"af_moh", "af_signet", "af_generator", "af_fonar"},
+	["af_class_electra_mid"] 	= {"af_ice", "af_cell", "af_electra_sparkler", "af_atom", "af_sponge", "af_ring"},
+	["af_class_electra_high"] 	= {"af_elektron", "af_dummy_battery", "af_electra_moonlight", "af_glass", "af_ring", "af_electra_flash", "af_ice"},
+			
+	["af_class_galantine_low"] 	= {"af_moh", "af_signet", "af_generator", "af_fonar"},
+	["af_class_galantine_mid"] 	= {"af_ice", "af_cell", "af_electra_sparkler", "af_atom", "af_sponge", "af_ring"},
+	["af_class_galantine_high"] 	= {"af_elektron", "af_dummy_battery", "af_electra_moonlight", "af_glass", "af_ring", "af_electra_flash", "af_ice"},
+			
+	["af_class_static_low"] 	= {"af_moh", "af_signet", "af_generator", "af_fonar"},
+	["af_class_static_mid"] 	= {"af_ice", "af_cell", "af_electra_sparkler", "af_atom", "af_sponge", "af_ring"},
+	["af_class_static_high"] 	= {"af_elektron", "af_dummy_battery", "af_electra_moonlight", "af_glass", "af_ring", "af_electra_flash", "af_ice"},
+			
+	["af_class_point_low"] 	= {"af_moh", "af_signet", "af_generator", "af_fonar"},
+	["af_class_point_mid"] 	= {"af_ice", "af_cell", "af_electra_sparkler", "af_atom", "af_sponge", "af_ring"},
+	["af_class_point_high"] 	= {"af_elektron", "af_dummy_battery", "af_electra_moonlight", "af_glass", "af_ring", "af_electra_flash", "af_ice"},
+			
+	["af_class_flash_low"] 	= {"af_moh", "af_signet", "af_generator", "af_fonar"},
+	["af_class_flash_mid"] 	= {"af_ice", "af_cell", "af_electra_sparkler", "af_atom", "af_sponge", "af_ring"},
+	["af_class_flash_high"] 	= {"af_elektron", "af_dummy_battery", "af_electra_moonlight", "af_glass", "af_ring", "af_electra_flash", "af_ice"},
+						
+	["af_class_mefistofel_low"] 	= {"af_moh", "af_signet", "af_generator", "af_fonar"},
+	["af_class_mefistofel_mid"] 	= {"af_ice", "af_cell", "af_electra_sparkler", "af_atom", "af_sponge", "af_ring"},
+	["af_class_mefistofel_high"] 	= {"af_elektron", "af_dummy_battery", "af_electra_moonlight", "af_glass", "af_ring", "af_electra_flash", "af_ice"},
+			
+	["af_class_shatterpoint_low"] 	= {"af_moh", "af_signet", "af_generator", "af_fonar", "af_black_angel", "af_black_spray", "af_ring"},
+	["af_class_shatterpoint_mid"] 	= {"af_ice", "af_cell", "af_electra_sparkler", "af_atom", "af_sponge", "af_ring", "af_mincer_meat", "af_black_angel"},
+	["af_class_shatterpoint_high"] 	= {"af_elektron", "af_dummy_battery", "af_electra_moonlight", "af_glass", "af_ring", "af_electra_flash", "af_ice", "af_mincer_meat", "af_soul"},
+			
+	["af_class_thermal_low"] 	= {"af_medallion", "af_fire_loop", "af_ear", "af_dummy_glassbeads", "af_lobster_eyes"},
+	["af_class_thermal_mid"] 	= {"af_sandstone", "af_eye", "af_fireball", "af_itcher", "af_lobster_eyes", "af_dummy_glassbeads"},
+	["af_class_thermal_high"] 	= {"af_fire", "af_pin", "af_eye", "af_dummy_glassbeads"},
+			
+	["af_class_steam_low"] 	= {"af_medallion", "af_fire_loop", "af_ear", "af_dummy_glassbeads", "af_lobster_eyes"},
+	["af_class_steam_mid"] 	= {"af_sandstone", "af_eye", "af_fireball", "af_itcher", "af_lobster_eyes", "af_dummy_glassbeads"},
+	["af_class_steam_high"] 	= {"af_fire", "af_pin", "af_eye", "af_dummy_glassbeads"},
+			
+	["af_class_vapour_low"] 	= {"af_medallion", "af_fire_loop", "af_ear", "af_dummy_glassbeads", "af_lobster_eyes"},
+	["af_class_vapour_mid"] 	= {"af_sandstone", "af_eye", "af_fireball", "af_itcher", "af_lobster_eyes", "af_dummy_glassbeads"},
+	["af_class_vapour_high"] 	= {"af_fire", "af_pin", "af_eye", "af_dummy_glassbeads"},
+			
+	["af_class_zharka_low"] 	= {"af_medallion", "af_fire_loop", "af_ear", "af_dummy_glassbeads", "af_lobster_eyes"},
+	["af_class_zharka_mid"] 	= {"af_sandstone", "af_eye", "af_fireball", "af_itcher", "af_lobster_eyes"},
+	["af_class_zharka_high"] 	= {"af_fire", "af_pin", "af_eye"},
+			
+	["af_class_acidic_low"] 	= {"af_bracelet", "af_zhelch"},
+	["af_class_acidic_mid"] 	= {"af_blood", "af_fuzz_kolobok", "af_mincer_meat"},
+	["af_class_acidic_high"] 	= {"af_cristall_flower", "af_kislushka", "af_mincer_meat", "af_baloon", "af_soul", "af_fuzz_kolobok"},
+	
+	["af_class_chemical_low"] 	= {"af_bracelet", "af_zhelch"},
+	["af_class_chemical_mid"] 	= {"af_blood", "af_fuzz_kolobok", "af_mincer_meat"},
+	["af_class_chemical_high"] 	= {"af_cristall_flower", "af_kislushka", "af_mincer_meat", "af_baloon", "af_soul", "af_fuzz_kolobok"},
+	
+	["af_class_buzz_low"] 	= {"af_bracelet", "af_zhelch"},
+	["af_class_buzz_mid"] 	= {"af_blood", "af_fuzz_kolobok", "af_mincer_meat"},
+	["af_class_buzz_high"] 	= {"af_cristall_flower", "af_kislushka", "af_mincer_meat", "af_baloon", "af_soul", "af_fuzz_kolobok"},
+	
+	["af_class_himi_low"] 	= {"af_bracelet", "af_zhelch"},
+	["af_class_himi_mid"] 	= {"af_blood", "af_fuzz_kolobok", "af_mincer_meat"},
+	["af_class_himi_high"] 	= {"af_cristall_flower", "af_kislushka", "af_mincer_meat", "af_baloon", "af_soul", "af_fuzz_kolobok"},
+	
+	["af_class_gold_low"] 	= {"af_bracelet", "af_zhelch", "af_fire_loop", "af_dummy_glassbeads", "af_lobster_eyes"},
+	["af_class_gold_mid"] 	= {"af_blood", "af_fuzz_kolobok", "af_mincer_meat", "af_eye", "af_fireball", "af_itcher", "af_lobster_eyes"},
+	["af_class_gold_high"] 	= {"af_cristall_flower", "af_kislushka", "af_mincer_meat", "af_baloon", "af_soul", "af_fuzz_kolobok", "af_fire", "af_pin", "af_eye"},
+	
+	["af_class_ghost_low"] 	= {"af_bracelet", "af_zhelch", "af_medallion", "af_fonar", "af_dragon_eye"},
+	["af_class_ghost_mid"] 	= {"af_blood", "af_fuzz_kolobok", "af_mincer_meat", "af_medallion","af_dragon_eye", "af_electra_flash", "af_electra_moonlight", "af_electra_sparkler"},
+	["af_class_ghost_high"] 	= {"af_kislushka", "af_mincer_meat", "af_baloon", "af_soul", "af_fuzz_kolobok", "af_vyvert", "af_gold_fish", "af_electra_flash", "af_electra_moonlight", "af_electra_sparkler"},	
+	
+	["af_class_electirc_chemical_low"] 	= {"af_bracelet", "af_zhelch", "af_medallion", "af_fonar", "af_dragon_eye"},
+	["af_class_electirc_chemical_mid"] 	= {"af_blood", "af_fuzz_kolobok", "af_mincer_meat", "af_medallion","af_dragon_eye", "af_electra_flash", "af_electra_moonlight", "af_electra_sparkler"},
+	["af_class_electirc_chemical_high"] 	= {"af_kislushka", "af_mincer_meat", "af_baloon", "af_soul", "af_fuzz_kolobok", "af_vyvert", "af_gold_fish", "af_electra_flash", "af_electra_moonlight", "af_electra_sparkler"},
+	
+	["af_class_seed_low"] 	= {"af_bracelet", "af_zhelch", "af_cell", "af_skull_miser"},
+	["af_class_seed_mid"] 	= {"af_fuzz_kolobok", "af_mincer_meat", "af_cell", "af_medusa"},
+	["af_class_seed_high"] 	= {"af_mincer_meat", "af_fuzz_kolobok"},
+	
+	["af_class_springboard_low"] 	= {"af_bracelet", "af_zhelch", "af_cell", "af_skull_miser"},
+	["af_class_springboard_mid"] 	= {"af_fuzz_kolobok", "af_mincer_meat", "af_cell", "af_medusa"},
+	["af_class_springboard_high"] 	= {"af_mincer_meat", "af_fuzz_kolobok"},
+	
+	["af_class_sloth_low"] 	= {"af_bracelet", "af_zhelch", "af_kogot"},
+	["af_class_sloth_mid"] 	= {"af_blood", "af_mincer_meat", "af_cell"},
+	["af_class_sloth_high"] 	= {"af_cristall_flower", "af_kislushka", "af_mincer_meat", "af_baloon", "af_soul"},
+	
+	["af_class_umbra_low"] = {"af_skull_miser", "af_bat", "af_serofim", "af_atom"},
+	["af_class_umbra_mid"] = {"af_bat", "af_atom", "af_black_angel", "af_death_lamp", "af_empty"},
+	["af_class_umbra_high"] = {"af_death_lamp", "af_soul", "af_night_star", "af_full_empty"}
+	
+}
+
+local function monster_on_death_callback(victim, who)
+	
+	if not enable then return end
+	if not IsAnomaly(who) then return end
+	
+    local victim_id = victim:id() -- mutant that died
+    local who_id = who and who:id() -- killer anomaly
+    if not (who_id and who_id ~= victim_id and who_id ~= 0) then
+        return
+    end
+	
+	-- local spawn_prob = 0
+	victim_class = victim:clsid()
+	victim_sec = victim:section()
+	who_sec = who:section()
+	tier = nil
+	victim_pos = victim:position()
+	
+	if muties_by_class[victim_class] then tier = muties_by_class[victim_class] end
+	if string.find(victim_sec, "lurker") then tier = "low" end -- special case because of fake classes
+	if string.find(victim_sec, "psysucker") then tier = "mid" end
+	if string.find(victim_sec, "karlik") then tier = "mid" end
+
+	if debug then
+		printf("ANOM_CREATION_DEBUG " .. victim_class)
+		news_manager.send_tip(db.actor, "VICTIM CLASS " .. victim_class, nil, "ui\\ui_icon_news_trx_dolg", 6000)
+		if tier then
+			printf("ANOM_CREATION_DEBUG VICTIM TIER " .. tier)
+			news_manager.send_tip(db.actor, "VICTIM TIER " .. tier, nil, "ui\\ui_icon_news_trx_dolg", 6000)
+		else
+			printf("ANOM_CREATION_DEBUG " .. "no tier specified for " .. victim_sec)
+			news_manager.send_tip(db.actor,"no tier specified for " .. victim_sec, nil, "ui\\ui_icon_news_trx_dolg", 6000)
+		end
+	end
+	
+	if tier == "high" then
+		spawn_prob = spawn_chance_high_tier
+	end
+	if tier == "mid" then
+		spawn_prob = spawn_chance_mid_tier
+	end
+	if tier == "low" then
+		spawn_prob = spawn_chance_low_tier
+	end
+			
+	local containsAnomalyType = function(sec)
+		for _, anomaly_type in ipairs(anom_types) do
+			if string.find(sec, anomaly_type) then
+				if debug then
+					printf("ANOM_CREATION_DEBUG containsAnomalyType " .. anomaly_type)
+					news_manager.send_tip(db.actor, anomaly_type, nil, "ui\\ui_icon_news_trx_dolg", 6000)
+				end
+				return anomaly_type
+			end
+		end
+	end	
+	
+	anom_type = containsAnomalyType(who_sec)
+	if debug then
+		if anom_type then
+			printf("ANOM_CREATION_DEBUG " .. anom_type)
+			news_manager.send_tip(db.actor, anom_type, nil, "ui\\ui_icon_news_trx_dolg", 6000)
+		else
+			printf("ANOM_CREATION_DEBUG anom_type not specified for " .. who_sec)
+			news_manager.send_tip(db.actor, "anom_type not specified for " .. who_sec, nil, "ui\\ui_icon_news_trx_dolg", 6000)
+		end
+	end
+	-- if spawn_prob <= 0 then return end
+	
+	if anom_type ~= nil and tier ~= nil then
+		local num = math.random(1,100)
+		if num <= spawn_prob then
+				
+			if debug then 
+				actor_menu.set_msg(1,"START SPAWN",3)
+				printf("ANOM_CREATION_DEBUG " .. anom_type)
+			end
+			
+			RegisterScriptCallback("actor_on_update", play_spawn_fx)
+			local rnd_tm = math.random(2,4)
+			CreateTimeEvent("stop_fx","stop_fx",rnd_tm, function()
+				if fx:playing() then
+					fx:stop()
+				end
+				fx_finish = particles_object("anomaly2\\pux_blast")
+				if fx_finish then
+					fx_finish:play_at_pos(victim_pos)
+				end				
+				UnregisterScriptCallback("actor_on_update", play_spawn_fx)
+				return true
+			end)
+			local v_pos = victim:position()
+			local v_lvid = victim:level_vertex_id()
+			local v_gvid = victim:game_vertex_id()
+			local w_pos = who:position()
+			CreateTimeEvent("art_spawn", "art_spawn_" .. victim_id, rnd_tm, do_spawn, v_pos, v_lvid, v_gvid, w_pos)
+		else
+			return
+		end
+	else -- no mut tier or no anom type
+		printf("ANOM_CREATION_DEBUG " .. "mutant tier or anom type not found, " .. who_sec .. "," .. victim_sec)
+		if debug then news_manager.send_tip(db.actor, "mutant tier or anom type not found, " .. who_sec .. "," .. victim_sec, nil, "ui\\ui_icon_news_trx_dolg", 6000) end
+	end
+
+end
+
+local tmr = 0
+function play_spawn_fx()
+
+	local tg = time_global()
+	if (tmr and tg < tmr) then return end
+	tmr = tg + 2000
+	
+	fx = particles_object("anomaly2\\a_test")
+	if fx and victim_pos then
+		fx:play_at_pos(victim_pos)
+	end
+	
+end
+
+function do_spawn(v_pos, v_lvid, v_gvid, w_pos)
+
+	spawn_sound = xr_sound.get_safe_sound_object("anomaly\\gravity_entrance")
+	if db.actor then spawn_sound:play_at_pos(db.actor, w_pos, 0, sound_object.s3d) end
+	spawn_sound.frequency = random_float(0.95, 1.05)
+	spawn_sound.volume = 4
+
+	for k,v in pairs(arts_by_tier) do 
+		if string.find(k, anom_type) and string.find(k, tier) then
+		
+			if debug then
+				printf("ANOM_CREATION_DEBUG " .. "TBL " .. k)
+				news_manager.send_tip(db.actor, "TBL " .. k, nil, "ui\\ui_icon_news_trx_dolg", 6000)
+			end
+			
+			art_sec = v[math.random(#v)]
+			
+			if debug then
+				printf("ANOM_CREATION_DEBUG " .. "ART SECTION " .. art_sec)
+				news_manager.send_tip(db.actor, "ART SECTION " .. art_sec, nil, "ui\\ui_icon_news_trx_dolg", 6000)
+			end
+			
+			obj = alife():create(art_sec, v_pos, v_lvid, v_gvid)
+			
+			CreateTimeEvent("moo", "moo_" .. obj.id, 0.5, function() 
+				local game_obj = get_object_by_id(obj.id)
+				if game_obj then
+					game_obj:get_physics_shell():apply_force(5000, 5000, 5000)
+				end
+				return true
+			end)
+			
+			spawn_sound = xr_sound.get_safe_sound_object(art_spawn_sounds[math.random(#art_spawn_sounds)])
+			if db.actor then spawn_sound:play_at_pos(db.actor, w_pos, 0, sound_object.s3d) end
+			spawn_sound.frequency = random_float(0.95, 1.05)
+			spawn_sound.volume = 4
+		end
+	end
+	return true
+
+end
+
+function load_settings()
+	enable = spawn_arties_on_death_mcm.get_config("enable")
+	spawn_chance_low_tier = spawn_arties_on_death_mcm.get_config("spawn_chance_low_tier")
+	spawn_chance_mid_tier = spawn_arties_on_death_mcm.get_config("spawn_chance_mid_tier")
+	spawn_chance_high_tier = spawn_arties_on_death_mcm.get_config("spawn_chance_high_tier")
+	spawn_chance_human = spawn_arties_on_death_mcm.get_config("spawn_chance_human")
+	debug = spawn_arties_on_death_mcm.get_config("debug")
+	if debug then printf("ANOM_CREATION_DEBUG LOADED") end
+end
+
+function on_game_start()
+	RegisterScriptCallback("monster_on_death_callback", monster_on_death_callback)
+	RegisterScriptCallback("actor_on_first_update", load_settings)
+	RegisterScriptCallback("on_option_change", load_settings)
+end

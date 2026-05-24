@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_eft_afak">
+		<text>Bandage pack</text>
+	</string>
+	<string id="st_eft_afak_descr">
+		<text>A pack of bandages, with enough space to contain ten of them.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] first-aid item\n
+		%c[d_blue] • %c[ui_gray_2] fast usage (adhesive plaster)\n
+		</text>
+	</string>
+
+</string_table>

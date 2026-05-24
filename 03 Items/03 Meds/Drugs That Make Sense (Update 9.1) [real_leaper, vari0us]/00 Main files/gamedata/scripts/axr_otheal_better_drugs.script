@@ -1,0 +1,13 @@
+if not axr_otheal then
+    printf("NPCs Limping and Healing not found. Going back to sleep...")
+    return
+end
+
+function on_game_start()
+    local bandages = axr_otheal.bandages
+	
+    if bandages then
+		-- Drugs That Make Sense
+        bandages["bandage_aloe"] = true
+    end
+end

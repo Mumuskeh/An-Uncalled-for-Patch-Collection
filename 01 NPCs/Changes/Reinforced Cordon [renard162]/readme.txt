@@ -4,6 +4,13 @@ https://www.moddb.com/mods/stalker-anomaly/addons/reinforced-cordon
 
 ----------------------------------------------------------
 -Compatibility:
+The original mod is not needed.
+
+Less Infuriating Hip:
+It will be detected and made additional changes.
+
+Hunter Survival Crafting:
+Redundant with the Unique NPC Loot component. The module in this package will overwrite the changes in Reinforced Cordon.
 
 ----------------------------------------------------------
 -Explanation:
