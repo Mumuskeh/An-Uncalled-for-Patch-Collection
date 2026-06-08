@@ -12,9 +12,9 @@ Original mod not required.
 Adds coverage for mods:
 
 -Hunter Survival Crafting
-
 -No_data's Faction Medkits and New medkits and bandages
-The Civilian, Liberty, and Swamp Dweller kits didn't treat bleeding, despite being stated to be similar to or based on a first aid kit. Now they do.
+	The Civilian, Liberty, and Swamp Dweller kits didn't treat bleeding, despite being stated to be similar to or based on a first aid kit. Now they do.
+-Lassie's EFT meds.
 
 ----------------------------------------------------------
 -Patches:
