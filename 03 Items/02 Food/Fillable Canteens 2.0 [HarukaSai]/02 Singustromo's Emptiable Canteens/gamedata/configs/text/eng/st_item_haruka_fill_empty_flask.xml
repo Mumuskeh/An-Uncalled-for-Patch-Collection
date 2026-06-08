@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_haruka_empty_flask">
+		<text>Empty flask</text>
+	</string>
+
+	<string id="st_haruka_empty_flask_notice_prerequisite">
+                <text>HarukaSai's Fillable Canteens addon is not installed! You can download it here: https://www.moddb.com/members/funkypunk/addons</text>
+	</string>
+</string_table>

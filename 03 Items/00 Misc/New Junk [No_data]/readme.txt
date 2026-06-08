@@ -11,7 +11,7 @@ NOTE: You need the original mod in full. Let this overwrite it.
 
 The Fixes option reorganizes the icons file to group them up in a more compact manner, and ensures all items are offered as repair parts as intended by DLTX'ing the additions to repair items.
 
-The Lite options includes the same, and to avoid item bloat for lower spec PCs, disables certain items like miscellanous junk and food, leaving only ammo boxes, repair tools, and turn in objects (Snitch's phones, ecologists' equipment, technicians' parts and toolkits, intel docs).
+The Lite options includes the same. Also, to avoid item bloat for lower spec PCs, disables certain items like miscellanous junk and food, leaving only ammo boxes, repair tools, and turn in objects (Snitch's phones, ecologists' equipment, technicians' parts and toolkits, intel docs).
 
 Added basic animation settings.
 

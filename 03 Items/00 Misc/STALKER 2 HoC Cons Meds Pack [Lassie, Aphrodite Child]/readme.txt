@@ -32,15 +32,14 @@ Fixed some drug entries for Hermann's inventory.
 Added configs for actor effects, treasure manager, death loot.
 
 Integration into:
+aLifeTactics
 Food Poisoning. It will act upon the spoiled can, but not the old bread (now fresh bread).
 Grok's Stash Overhaul
 Lootboxes
+More drops from drugs (DLTX MiniMod)
 
 ----------------------------------------------------------
 -Patches:
-
-More drops from drugs (DLTX MiniMod)
-For the Replacer option only.
 
 DLTX distribution
 Disables the scripted methods of distribution (ie: trader_autoinject) in favor of DLTX.

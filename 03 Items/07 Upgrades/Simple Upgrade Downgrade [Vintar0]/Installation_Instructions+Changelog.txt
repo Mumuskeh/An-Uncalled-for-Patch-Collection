@@ -1,0 +1,33 @@
+Simple Upgrade Downgrade
+version 1.0.0
+
+for Anomaly 1.5.0 U4 H8
+
+
+Installation:
+
+1. Pick the version you want and merge the 'gamedata' folder with your existing gamedata in your Anomaly root directory. Crafting overhaul versions are v1.02 compatible. 'Loop Conversion' specifies whether you can convert from tier 1 to tier 3.
+
+
+Altered File:
+- craft.ltx
+
+
+Description:
+
+It was really frustrating how you couldn't downgrade an upgrade item to fit into your equipment. If an upgrade is superior to what I need, why can't I convert it? Well, now you can.
+
+This addon lets you downgrade the tier of an upgrade item by literally throwing money at it. Dragging 100 RU banknotes onto an upgrade item will change it into the previous tier. You can get these banknotes by right-clicking your wallet in your inventory. The order is:
+tier 3 --> tier 2 --> tier 1
+
+You can also drag fasteners or ammo parts onto the upgrade items if you're short on cash.
+
+The optional 'Loop Conversion' versions will also allow you to go from tier 1 --> tier 3
+
+
+Changelog:
+
+----- v1.0.# -----
+
+
+I claim no ownership of this addon - I made this for my own personal use. This literally took 10 minutes to make, and changes only one file. Feel free to include this as part of a larger addon.

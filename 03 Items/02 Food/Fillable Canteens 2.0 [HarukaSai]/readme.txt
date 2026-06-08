@@ -17,7 +17,11 @@ Grok's Stash Overhaul
 -Patches:
 
 Rain fills canteens, by S7X
-When raining with certain intensity, empty canteens are refilled passively.
+Canteens can be refilled anywhere by the inventory, when raining with certain intensity.
+
+Singustromo's Emptiable Canteens
+With Singustromo's permission through OG Grinskin.
+Adds a right click option to empty a canteen, playing an appropriate sound.
 
 ----------------------------------------------------------
 -Known issues:

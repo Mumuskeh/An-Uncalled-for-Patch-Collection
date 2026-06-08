@@ -4,6 +4,7 @@ https://github.com/ahuyn/anomaly-food-poisoning
 
 ----------------------------------------------------------
 -Compatibility:
+Note: The original mod is still required.
 
 ----------------------------------------------------------
 -Explanation:

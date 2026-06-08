@@ -43,6 +43,7 @@ New game costs are now increased to at least match equivalent vanilla items.
 Removed items from most suppliers, and standardized distribution to medics, Sakharov, Hermann and Sid. Fixed some instances where stock is reduced at the higher higher supply level. Support for Basic Trader Profiles Expansion.
 
 Where needed, integration into:
+aLifeTactics
 Banjaji's Crafting System Improvement
 Grok's Stash Overhaul
 Lootboxes
@@ -58,7 +59,6 @@ Follows its tweaks.
 
 Revised Crafting Recipes
 Follows the style of the revised recipes.
-
 
 ----------------------------------------------------------
 -Known issues:

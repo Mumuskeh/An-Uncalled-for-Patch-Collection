@@ -39,15 +39,15 @@ Added default actor effects configs.
 -Unique NPC Loot
 DLTX and DXML conversion. Still requires the Items and crafting component above.
 Turned its copy of itms_manager.script into a monkey patch.
-Updated its copy of hxf_tough_important_npcs.script to the last version of "Tougher Important NPCs and Companions". Remove that file if you don't want that feature.
 Do note the DXML file will overwrite the inventory (not the worn outfit) of various NPCs. If you have any mod also doing it, consider their filenames make them load in alphabetic order.
-
+Its copy of hxf_tough_important_npcs.script has been updated to the last version of "Tougher Important NPCs and Companions", and made optional for compatibility with Skyki's Fair Story NPC Protection.
 
 -Unique NPC Loot - Everyone is hostile
 Unavailable for now. (also, feature creep?)
 
 
 Integration into:
+aLifeTactics
 Cold System
 More drops from drugs (DLTX Minimod)
 NPCs Limping and Healing

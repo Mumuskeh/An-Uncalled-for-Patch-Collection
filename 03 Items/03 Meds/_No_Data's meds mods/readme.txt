@@ -36,6 +36,7 @@ Place the contents of all three original mods into the same folder, then proceed
 
 
 Integration into:
+aLifeTactics
 Grok's Stash Overhaul
 Lootboxes
 More drops from drugs (DLTX Minimod)
