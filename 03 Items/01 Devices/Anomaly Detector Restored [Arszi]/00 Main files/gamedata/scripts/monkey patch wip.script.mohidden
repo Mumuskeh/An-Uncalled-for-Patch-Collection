@@ -1,0 +1,12 @@
+if fatal_error_mcm then
+    detected_fatal_error = true
+	printf("Fatal error detected. Making extended changes...")
+end
+
+function on_game_start()
+    if detected_fatal_error == true then
+	
+	else
+	
+    end
+end

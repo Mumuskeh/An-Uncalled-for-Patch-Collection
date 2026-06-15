@@ -1,15 +1,14 @@
 -Module:
-Lighter Artifacts & Containers [PripyatBandit]
-https://www.moddb.com/mods/stalker-anomaly/addons/na191980
+Longer NPC Loot Range (Modular Miscellaneous Tweaks) [Vintar0]
+https://www.moddb.com/mods/stalker-anomaly/addons/modular-miscellaneous-tweaks
 
 ----------------------------------------------------------
 -Compatibility:
-Original mod not needed.
+Original mod not required.
 
 ----------------------------------------------------------
 -Explanation:
-
-DLTX conversion, so that it's now compatible with anything else changing items_container_llmc.ltx
+DLTX conversion.
 
 ----------------------------------------------------------
 -Patches:

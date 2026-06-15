@@ -27,9 +27,6 @@ Scripted methods of distribution will be substituted for DLTX.
 In addition to lockpicks, technicians will now have very rarely locksmith tools and snap guns.
 DO NOT USE the folder "01 DLTX distribution - corpses [WIP]"
 
-AUGmented
-Add the 9mm AUG to the rifle pool, and make all variants progressively more rare.
-
 Lootboxes Diamond Edition for Gamma
 https://www.moddb.com/mods/stalker-anomaly/addons/lootboxes-diamond-edition-v1-2
 Standalone rework of this expansion for vanilla and compatibility with future Lootboxes expansions, plus typos fixes.
