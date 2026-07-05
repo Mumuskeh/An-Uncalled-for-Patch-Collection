@@ -1,0 +1,22 @@
+function on_xml_read()
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        -- Target the dialog file containing Aslan's lottery configurations
+        local xml_to_change = [[gameplay\dialogs_mlr.xml]]
+
+        if xml_file_name == xml_to_change then
+            -- Locate the internal phrase_list node for the lottery dialog
+            local res = xml_obj:query("dialog[id=lottery_ds_aslan_mlr] > phrase_list")
+            
+            if res[1] then
+                local phrase_list_el = res[1]
+                
+                -- Wipe the base phrases to prevent overlapping structure errors
+                phrase_list_el.kids = {}
+                
+                -- Inject the complete expanded profile from our custom XML file.
+                -- Setting 'useRootNode' to true ensures only the phrases are inserted.
+                -- xml_obj:insertFromXMLFile([[plugins\starcry_lottery_expanded.xml]], phrase_list_el, nil, true)
+            -- end
+        end
+    end)
+end

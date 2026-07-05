@@ -1,0 +1,73 @@
+if not action_manual_chopping then
+    printf("Akagi's Chopping Wood not found. Going back to sleep...")
+    return
+end
+
+function on_game_start()
+	if action_manual_chopping.dig_item_pool then
+		printf("Akagi's Chopping Wood detected. Adding items...")
+		
+		table.insert( action_manual_chopping.dig_item_pool, {10,"nj_sunglasses"} )
+		table.insert( action_manual_chopping.dig_item_pool, {10,"nj_keys"} )
+		table.insert( action_manual_chopping.dig_item_pool, {10,"nj_bugspray"} )
+		table.insert( action_manual_chopping.dig_item_pool, {10,"nj_brokenpda"} )
+		table.insert( action_manual_chopping.dig_item_pool, {05,"nj_crosschain"} )
+		table.insert( action_manual_chopping.dig_item_pool, {05,"nj_wallet"} )
+		table.insert( action_manual_chopping.dig_item_pool, {05,"nj_tooth"} )
+		
+		table.insert( action_manual_chopping.dig_item_pool, {02,"nj_silverring"} )
+		table.insert( action_manual_chopping.dig_item_pool, {01,"nj_goldtooth"} )
+		table.insert( action_manual_chopping.dig_item_pool, {01,"nj_goldring"} )
+		table.insert( action_manual_chopping.dig_item_pool, {01,"nj_goldchain"} )
+		
+		table.insert( action_manual_chopping.dig_item_pool, {05,"nj_akmparts"} )
+		table.insert( action_manual_chopping.dig_item_pool, {05,"nj_bayonet"} )
+		table.insert( action_manual_chopping.dig_item_pool, {05,"nj_flare"} )
+		table.insert( action_manual_chopping.dig_item_pool, {05,"nj_maskpouch"} )
+		table.insert( action_manual_chopping.dig_item_pool, {05,"nj_sling"} )
+		table.insert( action_manual_chopping.dig_item_pool, {02,"nj_pkmbelts"} )
+		
+		table.insert( action_manual_chopping.dig_item_pool, {05,"nj_coppipes"} )
+		table.insert( action_manual_chopping.dig_item_pool, {05,"nj_steel_bearing"} )
+		table.insert( action_manual_chopping.dig_item_pool, {02,"nj_sparkplug"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.1,"nj_alternator"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.1,"nj_car_battery"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.1,"nj_control_panel"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.1,"nj_fuelpump"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.1,"nj_power_inverter"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.1,"nj_radiator"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.1,"nj_transformer"} )
+		
+		table.insert( action_manual_chopping.dig_item_pool, {0.1,"nj_btrammo"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.1,"nj_landmines"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.1,"nj_mortarammo"} )
+		
+		-- table.insert( action_manual_chopping.dig_item_pool, {01,"nj_flashdrive1"} )
+		-- table.insert( action_manual_chopping.dig_item_pool, {01,"nj_flashdrive2"} )
+		-- table.insert( action_manual_chopping.dig_item_pool, {01,"nj_flashdrive3"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.7,"nj_note1"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.7,"nj_note2"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.7,"nj_maps1"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.7,"nj_maps2"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.7,"nj_maps3"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.7,"nj_maps4"} )
+		-- table.insert( action_manual_chopping.dig_item_pool, {0.6,"nj_dutydocuments1"} )
+		-- table.insert( action_manual_chopping.dig_item_pool, {0.6,"nj_dutydocuments2"} )
+		-- table.insert( action_manual_chopping.dig_item_pool, {0.6,"nj_dutydocuments3"} )
+		-- table.insert( action_manual_chopping.dig_item_pool, {0.6,"nj_freedomdocuments1"} )
+		-- table.insert( action_manual_chopping.dig_item_pool, {0.6,"nj_freedomdocuments2"} )
+		-- table.insert( action_manual_chopping.dig_item_pool, {0.6,"nj_freedomdocuments3"} )
+		-- table.insert( action_manual_chopping.dig_item_pool, {0.5,"nj_mercdocuments1"} )
+		-- table.insert( action_manual_chopping.dig_item_pool, {0.5,"nj_mercdocuments2"} )
+		-- table.insert( action_manual_chopping.dig_item_pool, {0.5,"nj_mercdocuments3"} )
+		-- table.insert( action_manual_chopping.dig_item_pool, {0.4,"nj_isgdocuments1"} )
+		-- table.insert( action_manual_chopping.dig_item_pool, {0.4,"nj_isgdocuments2"} )
+		-- table.insert( action_manual_chopping.dig_item_pool, {0.4,"nj_isgdocuments3"} )
+		
+		-- printf("Akagi table%s\n", utils_data.print_table(action_manual_chopping.dig_item_pool, false, true))
+		
+	else
+		printf("No changes made on Akagi's Chopping Wood. Where it!?")
+	
+	end
+end
