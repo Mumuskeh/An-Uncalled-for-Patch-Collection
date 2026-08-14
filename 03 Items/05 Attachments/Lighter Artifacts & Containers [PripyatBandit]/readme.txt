@@ -4,6 +4,7 @@ https://www.moddb.com/mods/stalker-anomaly/addons/na191980
 
 ----------------------------------------------------------
 -Compatibility:
+Original mod not needed.
 
 ----------------------------------------------------------
 -Explanation:

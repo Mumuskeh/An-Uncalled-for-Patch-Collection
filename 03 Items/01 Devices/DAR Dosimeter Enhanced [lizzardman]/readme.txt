@@ -9,6 +9,8 @@ https://www.moddb.com/mods/stalker-anomaly/addons/dar-dosimeter-enhanced-v1-0
 -Explanation:
 
 Lite, by Mumushkeh [EXPERIMENTAL]
+THIS IS DEPRECATED. Use the more up to date Immersive Dosimeter Switch:
+https://www.moddb.com/mods/stalker-anomaly/addons/immersive-dosimeter-switch
 
 A patched version of Lizard's Dosimeter Enhanced that can work without DAR and MCM dependencies. Thus DAR and MCM dependency is removed, Simple Mode is used exclusively.
 

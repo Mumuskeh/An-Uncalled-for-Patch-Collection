@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<!-- Sorter -->
+
+	<string id="ui_st_tab_weapons">
+		<text>Weapons and Explosives (2)</text>
+	</string>
+	<string id="ui_st_tab_armor">
+		<text>Armour, Helmets, Backpacks and Attachments (3)</text>
+	</string>
+	<string id="ui_st_tab_ammo">
+		<text>Ammo (4)</text>
+	</string>
+	<string id="ui_st_tab_food">
+		<text>Drinks, Food, Cooking and Cigarettes (7)</text>
+	</string>
+	<string id="ui_st_tab_meds">
+		<text>Medicine (8)</text>
+	</string>
+	<string id="ui_st_tab_upgrades">
+		<text>Upgrades (for weapons and armor) (9)</text>
+	</string>
+	<string id="ui_st_tab_misc">
+		<text>Miscellaneous Items (10)</text>
+	</string>
+	
+	<!-- Player states -->
+	<string id="st_ui_main_sensor">
+		<text>Ionising radiation poisoning\n \n%c[ui_gray_1]Exposure to ionising radiation poses an extreme, perhaps even fatal, risk. For this reason, the ability to adequately measure radiation levels is a vital skill. The basic unit in the scale of ionising radiation is millisievert %c[ui_gray_3](mSv)%c[ui_gray_1]. Levels of approximately %c[ui_gray_3]8000 mSv %c[ui_gray_1]are usually lethal without a chance of recovery. Radiation levels above the threshold of 1000 mSv (see below) can be briefly endured, but are highly problematic if left untreated. In case of exposure, it is thus strongly advised to administer anti-radiation drugs of appropriate potency as soon as possible. Table 3.2 presents radiation levels with typical symptoms:\n \n%c[0,102,255,0]250 - 1500 mSv: %c[ui_gray_2]Symptoms are unnoticeable. Long term consequences are negligible.\n \n%c[0,255,255,0]1500 - 3000 mSv: %c[ui_gray_2]Noticeable moderate to strong sickness, light-headedness, skin stains. Long-term symptoms are mild. Full recovery is possible if treated promptly.\n \n%c[0,255,122,0]3000 - 4500 mSv: %c[ui_gray_2]Very strong sickness, confusion and dizziness leading to premature death if not treated in relatively short time. Complete cease of hunger and thirst, taint, diarrhoea, peeling of skin and hair loss. High risk of permanent loss of reproduction ability. Restoration of bodily functions is feasible with extensive use of cleansing agents.\n \n%c[d_red]4500 - 6000 mSv: %c[ui_gray_2]Intensification of the above symptoms. Additionally, permanent damage to central nervous system. Death highly probable.\n \n%c[d_red]6000 mSv and above: %c[ui_gray_2]Imminent death. Often after rapid loss of consciousness.\n \n%c[d_cyan] • %c[ui_gray_2] unit: %c[ui_gray_1]mSv (milisivert)\n%c[d_cyan] • %c[ui_gray_2] imminent lethal radiation: %c[ui_gray_1]~6000+ mSv\n%c[d_cyan] • %c[ui_gray_2] av. outside rad. hot-spots potency: %c[ui_gray_1]~900 mSv / min\n \n \n</text>
+	</string>
+
+	
+	<!-- Item description-->
+
+	<string id="ui_inv_outfit_radiation_protection">
+		<text>Ext. Radiation Res.</text>
+	</string>
+</string_table>

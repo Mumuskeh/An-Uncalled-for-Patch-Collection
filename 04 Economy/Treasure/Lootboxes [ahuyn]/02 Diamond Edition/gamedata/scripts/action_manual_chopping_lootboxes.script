@@ -1,0 +1,52 @@
+if not action_manual_chopping then
+    printf("Akagi's Chopping Wood not found. Going back to sleep...")
+    return
+end
+
+function on_game_start()
+	if arti_lootboxes then
+		printf("Lootboxes detected. Adding items...")
+		
+		table.insert( action_manual_chopping.dig_item_pool, {10,"lootbox_1"} ) -- locked toolbox
+		table.insert( action_manual_chopping.dig_item_pool, {5,"lootbox_11"} )-- locked toolbox, alt appearance, less items but better quality
+		table.insert( action_manual_chopping.dig_item_pool, {1,"lootbox_2"} ) -- lockbox
+		table.insert( action_manual_chopping.dig_item_pool, {5,"lootbox_3"} ) -- secure container alpha
+		--table.insert( action_manual_chopping.dig_item_pool, {0.1,"lootbox_32"} )-- secure container epsilon, don't use
+		table.insert( action_manual_chopping.dig_item_pool, {2,"lootbox_31"} )
+		table.insert( action_manual_chopping.dig_item_pool, {0.5,"lootbox_4"} ) -- arti box
+		table.insert( action_manual_chopping.dig_item_pool, {0.1,"lootbox_41"} )-- arti box, dull metal
+		table.insert( action_manual_chopping.dig_item_pool, {5,"lootbox_5"} ) -- BRIEFCASE
+		table.insert( action_manual_chopping.dig_item_pool, {5,"lootbox_51"} )-- BRIEFCASE 2
+		table.insert( action_manual_chopping.dig_item_pool, {2,"lootbox_52"} )-- BRIEFCASE 2
+		table.insert( action_manual_chopping.dig_item_pool, {7,"lootbox_6"} ) -- survival box
+		table.insert( action_manual_chopping.dig_item_pool, {7,"lootbox_61"} )-- survival box camo
+		table.insert( action_manual_chopping.dig_item_pool, {7,"lootbox_7"} ) -- shotty box
+		table.insert( action_manual_chopping.dig_item_pool, {3,"lootbox_72"} )
+		table.insert( action_manual_chopping.dig_item_pool, {5,"lootbox_71"} )-- ak box
+		table.insert( action_manual_chopping.dig_item_pool, {2,"lootbox_73"} )
+		table.insert( action_manual_chopping.dig_item_pool, {3,"lootbox_8"} ) -- merc pelican box
+		table.insert( action_manual_chopping.dig_item_pool, {1,"lootbox_81"} )-- merc pelican box 2
+		table.insert( action_manual_chopping.dig_item_pool, {5,"lootbox_82"} )-- smg pelican box 3 - Uncalled
+		-- table.insert( action_manual_chopping.dig_item_pool, {0.1,"lootbox_9"} ) -- monoloot box
+		
+		table.insert( action_manual_chopping.dig_item_pool, {7,"lootbox_fridge"} ) -- bad outfits masks
+		table.insert( action_manual_chopping.dig_item_pool, {5,"lootbox_airtight"} ) -- hunting rewards
+		table.insert( action_manual_chopping.dig_item_pool, {1,"lootbox_headhunter"} ) -- secure wallet
+		
+		table.insert( action_manual_chopping.dig_item_pool, {5,"lootbox_helmet_lig"} ) -- early game helmets
+		
+		table.insert( action_manual_chopping.dig_item_pool, {5,"lootbox_outfit_low"} ) -- bad outfits masks
+		table.insert( action_manual_chopping.dig_item_pool, {3,"lootbox_outfit_light"} ) -- light outfits
+		table.insert( action_manual_chopping.dig_item_pool, {1,"lootbox_outfit_med"} ) -- medium outfits and helmets
+		table.insert( action_manual_chopping.dig_item_pool, {0.5,"lootbox_outfit_heavy"} ) -- heavy outfits and helmets
+		table.insert( action_manual_chopping.dig_item_pool, {0.1,"lootbox_outfit_exo"} ) -- exo outfits and helmets
+		
+		table.insert( action_manual_chopping.dig_item_pool, {1,"lootbox_attachment"} ) -- bad outfits masks
+		
+		-- printf("Akagi table%s\n", utils_data.print_table(action_manual_chopping.dig_item_pool, false, true))
+		
+	else
+		printf("No changes made on Akagi's Chopping Wood. Where it!?")
+	
+	end
+end

@@ -34,7 +34,7 @@ function cold_system_utils.calc_artefacts()
 
 	arte_mult = arte_mult * 0.05
 
-	-- unwary  scarf hack.
+	-- unwary scarf hack.
 	local scarfed = 0
 	local scarf = db.actor:item_in_slot(10)
 	
